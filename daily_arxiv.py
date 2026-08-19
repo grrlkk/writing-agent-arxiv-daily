@@ -242,6 +242,12 @@ def save_store(path: Path, store: dict) -> None:
         fh.write("\n")
 
 
+# Fields that are ours, not arXiv's: a fetch must not overwrite them with nothing.
+# The Semantic Scholar cache lives here, and losing it means re-querying every
+# paper on every run.
+CARRIED_OVER = ("s2",)
+
+
 def merge_entries(store: dict, topic: str, entries: list[dict], today: str) -> list[dict]:
     bucket = store["topics"].setdefault(topic, {})
     fresh = []
@@ -252,8 +258,11 @@ def merge_entries(store: dict, topic: str, entries: list[dict], today: str) -> l
             bucket[entry["id"]] = entry
             fresh.append(entry)
         else:
-            entry = dict(entry, first_seen=existing.get("first_seen", today))
-            bucket[entry["id"]] = entry
+            merged = dict(entry, first_seen=existing.get("first_seen", today))
+            for key in CARRIED_OVER:
+                if key in existing:
+                    merged[key] = existing[key]
+            bucket[entry["id"]] = merged
     return fresh
 
 
