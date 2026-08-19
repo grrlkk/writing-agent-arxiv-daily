@@ -21,6 +21,8 @@ from pathlib import Path
 import requests
 import yaml
 
+import venues as venue_rules
+
 ARXIV_API = "https://export.arxiv.org/api/query"
 ATOM = "{http://www.w3.org/2005/Atom}"
 ARXIV_NS = "{http://arxiv.org/schemas/atom}"
@@ -103,6 +105,7 @@ def parse_entries(xml_text: str) -> list[dict]:
                 pdf_url = link.get("href", "")
         summary = " ".join((node.findtext(f"{ATOM}summary") or "").split())
         comment = " ".join((node.findtext(f"{ARXIV_NS}comment") or "").split())
+        journal_ref = " ".join((node.findtext(f"{ARXIV_NS}journal_ref") or "").split())
         primary = node.find(f"{ARXIV_NS}primary_category")
         entries.append(
             {
@@ -115,6 +118,7 @@ def parse_entries(xml_text: str) -> list[dict]:
                 ],
                 "summary": summary,
                 "comment": comment,
+                "journal_ref": journal_ref,
                 "published": (node.findtext(f"{ATOM}published") or "")[:10],
                 "updated": (node.findtext(f"{ATOM}updated") or "")[:10],
                 "primary_category": primary.get("term") if primary is not None else "",
@@ -287,6 +291,7 @@ def format_row(entry: dict, cfg: dict) -> str:
     return (
         f"|**{entry.get('published', '')}**"
         f"|{title}"
+        f"|{venue_rules.label(entry)}"
         f"|{format_authors(entry, cfg)}"
         f"|[{entry['id']}]({entry['abs_url']})"
         f"|{code}|"
@@ -299,7 +304,7 @@ def anchor(text: str) -> str:
 
 
 def render_table(entries: list[dict], cfg: dict) -> list[str]:
-    lines = ["|Publish Date|Title|Authors|PDF|Code|", "|---|---|---|---|---|"]
+    lines = ["|Publish Date|Title|Venue|Authors|PDF|Code|", "|---|---|---|---|---|---|"]
     lines.extend(format_row(entry, cfg) for entry in entries)
     return lines
 
@@ -357,7 +362,7 @@ README_HEADER = """# Writing Agent arXiv Daily
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **{today}** (UTC) · Topics and their mapping to the research axes live in [KEYWORDS.md](KEYWORDS.md).
+> Last updated: **{today}** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 """
@@ -367,6 +372,67 @@ ARCHIVE_HEADER = """# Full archive
 Every paper ever matched, newest first. Generated on **{today}** (UTC).
 Back to the [main page](../README.md).
 """
+
+
+VENUE_HEADER = """# Papers by venue
+
+Venue is read from each paper's own arXiv metadata — the `journal_ref` field, or
+the acceptance line authors put in the comment. Most arXiv entries carry neither,
+so a paper missing here is **not** evidence that it was never published.
+
+Workshop, Findings, and demo tracks are listed apart from main-track papers, and
+"submitted to X" is never counted as X. Generated on **{today}** (UTC).
+Back to the [main page](../README.md).
+"""
+
+TIER_TITLES = {
+    "top": "Top-tier venues",
+    "strong": "Strong venues",
+    "findings": "Findings tracks",
+    "other": "Other venues",
+    "workshop": "Workshops",
+    "demo": "Demo tracks",
+}
+
+
+def render_venue_page(store: dict, cfg: dict, today: str, tier_counts: dict[str, int]) -> str:
+    unique: dict[str, dict] = {}
+    topics_of: dict[str, list[str]] = {}
+    for topic, bucket in store.get("topics", {}).items():
+        for entry in bucket.values():
+            unique[entry["id"]] = entry
+            topics_of.setdefault(entry["id"], []).append(topic)
+
+    out = [VENUE_HEADER.format(today=today).rstrip(), ""]
+    classified = sum(v for k, v in tier_counts.items() if k != "none")
+    out.append(f"{classified} of {len(unique)} papers carry venue evidence.")
+    out.append("")
+
+    for tier, title in TIER_TITLES.items():
+        entries = [e for e in unique.values() if e.get("tier") == tier and e.get("status") == "accepted"]
+        if not entries:
+            continue
+        out.append(f"## {title} ({len(entries)})")
+        out.append("")
+        by_venue: dict[str, list[dict]] = {}
+        for entry in entries:
+            by_venue.setdefault(entry["venue"], []).append(entry)
+        for venue in sorted(by_venue, key=lambda v: (-len(by_venue[v]), v)):
+            rows = sorted(by_venue[venue], key=lambda e: e.get("published", ""), reverse=True)
+            out.append(f"### {venue} ({len(rows)})")
+            out.append("")
+            out.append("|Publish Date|Title|Venue|Topics|PDF|")
+            out.append("|---|---|---|---|---|")
+            for entry in rows:
+                out.append(
+                    f"|**{entry.get('published', '')}**"
+                    f"|{escape_cell(entry['title'])}"
+                    f"|{venue_rules.label(entry)}"
+                    f"|{', '.join(topics_of[entry['id']])}"
+                    f"|[{entry['id']}]({entry['abs_url']})|"
+                )
+            out.append("")
+    return "\n".join(out).rstrip() + "\n"
 
 
 # --------------------------------------------------------------------------- main
@@ -423,7 +489,16 @@ def main(argv: list[str] | None = None) -> int:
         log.info("dry run — nothing written")
         return 0
 
-    store["meta"] = {"updated": today, "topics": {t: len(b) for t, b in store["topics"].items()}}
+    # Re-classified on every run, so editing venues.yaml takes effect with --offline.
+    rules = venue_rules.load_rules(ROOT / cfg.get("venues_path", "venues.yaml"))
+    tier_counts = venue_rules.annotate_store(store, rules)
+    log.info("venues: %s", ", ".join(f"{k}={v}" for k, v in sorted(tier_counts.items())))
+
+    store["meta"] = {
+        "updated": today,
+        "topics": {t: len(b) for t, b in store["topics"].items()},
+        "venue_tiers": tier_counts,
+    }
     save_store(store_path, store)
 
     readme = render_page(
@@ -440,6 +515,10 @@ def main(argv: list[str] | None = None) -> int:
     archive_path = ROOT / cfg.get("archive_path", "docs/archive.md")
     archive_path.parent.mkdir(parents=True, exist_ok=True)
     archive_path.write_text(archive.replace("docs/archive.md", "archive.md"), encoding="utf-8")
+
+    venue_page = render_venue_page(store, cfg, today, tier_counts)
+    venue_path = ROOT / cfg.get("venue_page_path", "docs/venues.md")
+    venue_path.write_text(venue_page, encoding="utf-8")
 
     total = sum(len(b) for b in store["topics"].values())
     log.info("done — %d papers across %d topics", total, len(store["topics"]))

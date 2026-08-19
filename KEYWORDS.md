@@ -35,6 +35,24 @@ arXiv API의 구문 검색이 느슨하기 때문에, 받아온 뒤 제목+초�
 2. 개별 논문 한두 건만 문제면 → `blacklist.txt`에 arXiv id를 넣는다.
 3. 특정 축을 넓히고 싶으면 → `filters`에 구문을 추가하고 `max_results`를 올린다.
 
+## 학회 분류
+
+각 논문의 학회는 arXiv 자체 메타데이터에서만 읽는다 — `journal_ref` 필드와, 저자가 comment에
+적어두는 억셉 문구("Accepted to ACL 2025"). 외부 API를 쓰지 않으므로 재분류가 공짜고,
+`venues.yaml`을 고친 뒤 `python daily_arxiv.py --offline`만 돌리면 전체가 다시 매겨진다.
+
+판정은 세 가지를 따로 본다 (`venues.py`).
+
+- **status** — `"Submitted to EACL 2026"`은 EACL 논문이 아니다. `"ACL style template"`도 아니다.
+- **track** — `"ICLR 2026 Workshop"`은 ICLR 본회의가 아니다. Findings·demo도 별도 tier로 뺀다.
+- **tier** — `venues.yaml`의 top/strong/other. 워크숍·Findings·demo는 학회 tier를 물려받지 못한다.
+
+결과는 README 표의 Venue 열과 `docs/venues.md`에 나온다. 규칙 검증은 `python test_venues.py`.
+
+**한계**: 저자가 comment에 안 적으면 알 수 없다. 현재 751편 중 약 110편(15%)만 근거가 있고,
+나머지는 "미게재"가 아니라 "arXiv 메타데이터에 정보 없음"이다. 커버리지를 올리려면
+Semantic Scholar나 DBLP API로 보강해야 하는데, 그건 네트워크 호출과 rate limit이 붙는다.
+
 ## 로컬 실행
 
 ```bash
@@ -43,5 +61,6 @@ pip install -r requirements.txt
 python daily_arxiv.py                          # 전체 토픽
 python daily_arxiv.py --topics "Writing Agent" # 한 토픽만
 python daily_arxiv.py --dry-run -v             # 몇 건이 통과하는지만 확인 (저장 안 함)
-python daily_arxiv.py --offline                # 저장된 JSON으로 README만 다시 생성
+python daily_arxiv.py --offline                # 저장된 JSON으로 README·학회분류만 다시 생성
+python test_venues.py                          # 학회 판정 규칙 테스트
 ```

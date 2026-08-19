@@ -1,0 +1,182 @@
+# Venue table for classifying arXiv papers by publication venue.
+#
+# Matching walks this file top to bottom and stops at the first venue whose
+# pattern hits, so more specific names must come first: NAACL/EACL/TACL are
+# listed above ACL, otherwise a bare "ACL" pattern would swallow them.
+#
+# tier:  top    — the venues this project treats as top-tier
+#        strong — solid, widely cited, but a notch below for this field
+#        other  — recognised venue, different community
+#
+# A workshop or a "submitted to" comment never inherits the venue's tier;
+# see venues.py, which downgrades those to `workshop` / `none`.
+
+tiers_shown_as_top: ["top"]
+
+venues:
+  # --- NLP -----------------------------------------------------------------
+  - name: "TACL"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])TACL(?![A-Za-z])"
+      - "Transactions of the Association for Computational Linguistics"
+
+  - name: "NAACL"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])NAACL(?![A-Za-z])"
+      - "North American Chapter of the Association for Computational Linguistics"
+
+  - name: "EACL"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])EACL(?![A-Za-z])"
+      - "European Chapter of the Association for Computational Linguistics"
+
+  - name: "EMNLP"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])EMNLP(?![A-Za-z])"
+      - "Empirical Methods in Natural Language Processing"
+
+  - name: "ACL"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])ACL(?![A-Za-z])"
+      - "Annual Meeting of the Association for Computational Linguistics"
+
+  - name: "COLING"
+    tier: strong
+    patterns:
+      - "(?<![A-Za-z])COLING(?![A-Za-z])"
+      - "International Conference on Computational Linguistics"
+
+  - name: "LREC"
+    tier: strong
+    patterns:
+      - "(?<![A-Za-z])LREC(?:-COLING)?(?![A-Za-z])"
+      - "Language Resources and Evaluation Conference"
+
+  - name: "CoNLL"
+    tier: strong
+    patterns:
+      - "(?<![A-Za-z])CoNLL(?![A-Za-z])"
+
+  # --- machine learning ----------------------------------------------------
+  - name: "NeurIPS"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])NeurIPS(?![A-Za-z])"
+      - "(?<![A-Za-z])NIPS(?![A-Za-z])"
+      - "Neural Information Processing Systems"
+
+  - name: "ICLR"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])ICLR(?![A-Za-z])"
+      - "International Conference on Learning Representations"
+
+  - name: "ICML"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])ICML(?![A-Za-z])"
+      - "International Conference on Machine Learning"
+
+  # --- AI ------------------------------------------------------------------
+  - name: "AAAI"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])AAAI(?![A-Za-z])"
+      - "Association for the Advancement of Artificial Intelligence"
+
+  - name: "IJCAI"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])IJCAI(?![A-Za-z])"
+      - "International Joint Conference on Artificial Intelligence"
+
+  # --- HCI (writing support systems live here) -----------------------------
+  - name: "CHI"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])CHI(?:\\s*'?\\d{2,4})?(?![A-Za-z])"
+      - "Conference on Human Factors in Computing Systems"
+
+  - name: "CSCW"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])CSCW(?![A-Za-z])"
+
+  - name: "UIST"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])UIST(?![A-Za-z])"
+      - "User Interface Software and Technology"
+
+  - name: "IUI"
+    tier: strong
+    patterns:
+      - "(?<![A-Za-z])IUI(?![A-Za-z])"
+      - "Intelligent User Interfaces"
+
+  # --- IR / web / data mining ----------------------------------------------
+  - name: "SIGIR"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])SIGIR(?![A-Za-z])"
+
+  - name: "KDD"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])KDD(?![A-Za-z])"
+      - "Knowledge Discovery and Data Mining"
+
+  - name: "WWW"
+    tier: top
+    patterns:
+      - "(?<![A-Za-z])WWW(?![A-Za-z])"
+      - "The Web Conference"
+
+  - name: "WSDM"
+    tier: strong
+    patterns:
+      - "(?<![A-Za-z])WSDM(?![A-Za-z])"
+
+  # --- education (essay scoring / feedback) --------------------------------
+  - name: "AIED"
+    tier: strong
+    patterns:
+      - "(?<![A-Za-z])AIED(?![A-Za-z])"
+      - "Artificial Intelligence in Education"
+
+  - name: "EDM"
+    tier: strong
+    patterns:
+      - "(?<![A-Za-z])EDM(?![A-Za-z])"
+      - "Educational Data Mining"
+
+  - name: "BEA"
+    tier: strong
+    patterns:
+      - "Building Educational Applications"
+      - "(?<![A-Za-z])BEA(?![A-Za-z])"
+
+  # --- neighbouring communities, kept so they are named rather than blank ---
+  - name: "CVPR"
+    tier: other
+    patterns: ["(?<![A-Za-z])CVPR(?![A-Za-z])"]
+  - name: "ICCV"
+    tier: other
+    patterns: ["(?<![A-Za-z])ICCV(?![A-Za-z])"]
+  - name: "ECCV"
+    tier: other
+    patterns: ["(?<![A-Za-z])ECCV(?![A-Za-z])"]
+  - name: "ACM MM"
+    tier: other
+    patterns: ["(?<![A-Za-z])ACM MM(?![A-Za-z])", "ACM Multimedia"]
+  - name: "Interspeech"
+    tier: other
+    patterns: ["(?<![A-Za-z])Interspeech(?![A-Za-z])"]
+  - name: "ICASSP"
+    tier: other
+    patterns: ["(?<![A-Za-z])ICASSP(?![A-Za-z])"]
