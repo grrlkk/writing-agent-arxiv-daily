@@ -51,6 +51,26 @@ CASES = [
 ]
 
 
+S2_CASES = [
+    # an indexed venue record is evidence on its own, no acceptance phrase needed
+    ({"s2": {"venue": "Neural Information Processing Systems", "year": 2022}},
+     ("NeurIPS", "main", "top", "accepted")),
+    ({"s2": {"venue": "Annual Meeting of the Association for Computational Linguistics", "year": 2024}},
+     ("ACL", "main", "top", "accepted")),
+    # findings and workshops keep their own tier when they come from S2 too
+    ({"s2": {"venue": "Findings of the Association for Computational Linguistics: EMNLP 2023", "year": 2023}},
+     ("EMNLP", "findings", "findings", "accepted")),
+    # S2 files unpublished preprints under the preprint server - not a venue
+    ({"s2": {"venue": "", "year": 2025}}, ("", "", "none", "unknown")),
+    # arXiv's own journal_ref still outranks S2
+    ({"journal_ref": "Proceedings of ICLR 2025", "s2": {"venue": "Neural Information Processing Systems", "year": 2022}},
+     ("ICLR", "main", "top", "accepted")),
+    # S2 outranks a comment that only states an intention
+    ({"comment": "Submitted to ACL 2025", "s2": {"venue": "Conference on Empirical Methods in Natural Language Processing", "year": 2025}},
+     ("EMNLP", "main", "top", "accepted")),
+]
+
+
 def run() -> int:
     failures = 0
     for comment, (venue, track, tier, status) in CASES:
@@ -59,6 +79,13 @@ def run() -> int:
         if actual != (venue, track, tier, status):
             failures += 1
             print(f"FAIL {comment[:60]!r}\n  expected {(venue, track, tier, status)}\n  got      {actual}")
+    for entry, expected in S2_CASES:
+        got = classify(entry, RULES)
+        actual = (got["venue"], got["track"], got["tier"], got["status"])
+        if actual != expected:
+            failures += 1
+            print(f"FAIL s2 case {entry}\n  expected {expected}\n  got      {actual}")
+
     # journal_ref outranks comment
     entry = {"comment": "Submitted to ACL 2025", "journal_ref": "Proceedings of NAACL 2026, pages 1-10"}
     got = classify(entry, RULES)
@@ -69,7 +96,7 @@ def run() -> int:
         failures += 1
         print("FAIL label formatting")
 
-    total = len(CASES) + 2
+    total = len(CASES) + len(S2_CASES) + 2
     print(f"{total - failures}/{total} passed")
     return 1 if failures else 0
 

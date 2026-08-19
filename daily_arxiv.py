@@ -21,6 +21,7 @@ from pathlib import Path
 import requests
 import yaml
 
+import enrich as s2_enrich
 import venues as venue_rules
 
 ARXIV_API = "https://export.arxiv.org/api/query"
@@ -445,6 +446,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max-results", type=int, help="override max_results per topic")
     parser.add_argument("--dry-run", action="store_true", help="fetch and report, write nothing")
     parser.add_argument("--offline", action="store_true", help="re-render pages from the stored JSON only")
+    parser.add_argument("--enrich", dest="enrich", action="store_true", default=None,
+                        help="look venues up on Semantic Scholar (default: config s2_enabled)")
+    parser.add_argument("--no-enrich", dest="enrich", action="store_false",
+                        help="skip the Semantic Scholar lookup")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -488,6 +493,11 @@ def main(argv: list[str] | None = None) -> int:
     if args.dry_run:
         log.info("dry run — nothing written")
         return 0
+
+    enrich_enabled = cfg.get("s2_enabled", True) if args.enrich is None else args.enrich
+    if enrich_enabled:
+        stats = s2_enrich.enrich_store(store, cfg)
+        log.info("semantic scholar: %s", ", ".join(f"{k}={v}" for k, v in stats.items()))
 
     # Re-classified on every run, so editing venues.yaml takes effect with --offline.
     rules = venue_rules.load_rules(ROOT / cfg.get("venues_path", "venues.yaml"))

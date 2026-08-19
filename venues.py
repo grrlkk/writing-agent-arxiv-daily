@@ -86,11 +86,25 @@ def _year_near(text: str, match: re.Match | None) -> str:
 
 def classify(entry: dict, rules: list[dict]) -> dict:
     """Return venue fields for one entry. Empty venue means 'no evidence', not 'unpublished'."""
-    blank = {"venue": "", "venue_year": "", "track": "", "tier": "none", "status": "unknown", "venue_evidence": ""}
+    blank = {
+        "venue": "",
+        "venue_year": "",
+        "track": "",
+        "tier": "none",
+        "status": "unknown",
+        "venue_evidence": "",
+        "venue_source": "",
+    }
 
-    # journal_ref is set by the author on publication, so it outranks the comment.
-    for source in ("journal_ref", "comment"):
-        text = (entry.get(source) or "").strip()
+    # Ordered by how much each source can be trusted: journal_ref is set by the
+    # author on publication, Semantic Scholar is an indexed record, and the
+    # comment is free text that may describe an intention rather than a fact.
+    sources = [
+        ("journal_ref", (entry.get("journal_ref") or "").strip()),
+        ("s2", ((entry.get("s2") or {}).get("venue") or "").strip()),
+        ("comment", (entry.get("comment") or "").strip()),
+    ]
+    for source, text in sources:
         if not text:
             continue
         rule, match = _match_venue(text, rules)
@@ -106,6 +120,7 @@ def classify(entry: dict, rules: list[dict]) -> dict:
                 "tier": "none",
                 "status": "submitted",
                 "venue_evidence": text[:160],
+                "venue_source": source,
             }
 
         if WORKSHOP.search(text):
@@ -121,7 +136,10 @@ def classify(entry: dict, rules: list[dict]) -> dict:
         # phrase, or a year next to the venue ("EMNLP 2025"). A bare mention with
         # none of those - "written in ACL style" - is recorded but not claimed.
         year = _year_near(text, match)
-        accepted = source == "journal_ref" or bool(POSITIVE_STATUS.search(text)) or bool(year)
+        if not year and source == "s2":
+            year = str((entry.get("s2") or {}).get("year") or "")
+        # An indexed venue record is itself the evidence; free text needs more.
+        accepted = source in ("journal_ref", "s2") or bool(POSITIVE_STATUS.search(text)) or bool(year)
         if MENTION_ONLY.search(text) and not POSITIVE_STATUS.search(text):
             accepted = False
 
@@ -133,6 +151,7 @@ def classify(entry: dict, rules: list[dict]) -> dict:
                 "tier": "none",
                 "status": "mentioned",
                 "venue_evidence": text[:160],
+                "venue_source": source,
             }
 
         tier = TRACK_TIER_OVERRIDE.get(track, rule["tier"])
@@ -144,6 +163,7 @@ def classify(entry: dict, rules: list[dict]) -> dict:
             "tier": tier,
             "status": "accepted",
             "venue_evidence": text[:160],
+            "venue_source": source,
         }
 
     return blank

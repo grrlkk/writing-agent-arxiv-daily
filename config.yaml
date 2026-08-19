@@ -81,6 +81,18 @@ exclude_terms:
   - "single-cell"
   - "cell instance"
 
+# --- Semantic Scholar venue lookup -----------------------------------------
+# arXiv metadata alone leaves most papers unclassified, so venues are also read
+# from Semantic Scholar. No API key needed; set S2_API_KEY in the environment for
+# a higher rate limit. Answers are cached per paper in docs/papers.json.
+s2_enabled: true
+s2_batch_size: 100      # ids per request (API allows up to 500)
+s2_interval: 3.0        # seconds between requests
+s2_max_requests: 40     # per run, so a first pass over a large backlog is spread out
+s2_recheck_days: 30     # retry papers that came back with no venue
+s2_retries: 3
+s2_timeout: 60
+
 # --- topics ---------------------------------------------------------------
 keywords:
 
