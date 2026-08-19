@@ -23,7 +23,7 @@ Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
 > The primary axis: LLM agents that write and revise across multiple turns rather than generating once. Z1 in the FEAK-TC introduction.
 
-_Showing the 20 most recent of 148 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 148 papers — all of them in [Writing Agent](docs/topics/writing-agent.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
@@ -54,7 +54,7 @@ _Showing the 20 most recent of 148 papers — see [the full archive](docs/archiv
 
 > Edit-intention taxonomies, revision histories, and text-editing models — the direct precedent for FEAK-TC's action taxonomy (B1/W2).
 
-_Showing the 20 most recent of 64 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 64 papers — all of them in [Iterative Revision & Text Editing](docs/topics/iterative-revision-text-editing.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
@@ -85,7 +85,7 @@ _Showing the 20 most recent of 64 papers — see [the full archive](docs/archive
 
 > Whether a model can improve its own draft with no external signal — the baseline the TVM has to beat (RQ4).
 
-_Showing the 20 most recent of 79 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 79 papers — all of them in [Self-Refine & Self-Correction](docs/topics/self-refine-self-correction.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
@@ -116,7 +116,7 @@ _Showing the 20 most recent of 79 papers — see [the full archive](docs/archive
 
 > Preference learning, Bradley-Terry reward models, process/step-level supervision, reward hacking — the family the TVM belongs to (B2).
 
-_Showing the 20 most recent of 110 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 110 papers — all of them in [Reward & Value Models](docs/topics/reward-value-models.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
@@ -147,7 +147,7 @@ _Showing the 20 most recent of 110 papers — see [the full archive](docs/archiv
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-_Showing the 20 most recent of 76 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 76 papers — all of them in [Synthetic Preference Data](docs/topics/synthetic-preference-data.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
@@ -178,7 +178,7 @@ _Showing the 20 most recent of 76 papers — see [the full archive](docs/archive
 
 > Rubric scoring, LLM-as-a-judge, automated essay scoring, feedback generation — where the FEAK diagnoser sits (Z2).
 
-_Showing the 20 most recent of 111 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 111 papers — all of them in [Text Quality Evaluation](docs/topics/text-quality-evaluation.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
@@ -209,7 +209,7 @@ _Showing the 20 most recent of 111 papers — see [the full archive](docs/archiv
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-_Showing the 20 most recent of 65 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 65 papers — all of them in [Semantic Drift & Faithfulness](docs/topics/semantic-drift-faithfulness.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
@@ -240,7 +240,7 @@ _Showing the 20 most recent of 65 papers — see [the full archive](docs/archive
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-_Showing the 20 most recent of 64 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 64 papers — all of them in [Search & Control for Generation](docs/topics/search-control-for-generation.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
@@ -271,7 +271,7 @@ _Showing the 20 most recent of 64 papers — see [the full archive](docs/archive
 
 > Korean essays, scoring, and correction — the target language of FEAK-TC. Deliberately narrow: a bare "korean" match would pull in every multilingual benchmark that merely lists Korean. Loosen `filters` if you want that.
 
-_Showing the 20 most recent of 67 papers — see [the full archive](docs/archive.md)._
+_Showing the 20 most recent of 67 papers — all of them in [Korean Writing & NLP](docs/topics/korean-writing-nlp.md)._
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|

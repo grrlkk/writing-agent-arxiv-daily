@@ -308,6 +308,12 @@ def format_row(entry: dict, cfg: dict) -> str:
     )
 
 
+def slug(text: str) -> str:
+    """Filename form of a topic name: 'Iterative Revision & Text Editing' -> iterative-revision-text-editing."""
+    cleaned = re.sub(r"[^a-z0-9\s-]", " ", text.lower())
+    return re.sub(r"-+", "-", "-".join(cleaned.split()))
+
+
 def anchor(text: str) -> str:
     slug = re.sub(r"[^a-z0-9\s-]", "", text.lower()).strip().replace(" ", "-")
     return slug
@@ -354,9 +360,10 @@ def render_page(store: dict, cfg: dict, today: str, *, limit: int | None, header
             out.append(f"> {description}")
             out.append("")
         if limit and len(entries) > limit:
+            archive_dir = cfg.get("archive_dir", "docs/topics")
             out.append(
                 f"_Showing the {limit} most recent of {len(entries)} papers — "
-                f"see [the full archive](docs/archive.md)._"
+                f"all of them in [{topic}]({archive_dir}/{slug(topic)}.md)._"
             )
             out.append("")
         out.extend(render_table(shown, cfg))
@@ -377,11 +384,50 @@ axis behind FEAK-TC (transition-level, value-guided revision control for Korean 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 """
 
-ARCHIVE_HEADER = """# Full archive
+ARCHIVE_INDEX_HEADER = """# Archive
 
-Every paper ever matched, newest first. Generated on **{today}** (UTC).
-Back to the [main page](../README.md).
+Every paper ever matched, one page per topic so no single file grows past what
+GitHub will render. Newest first within each page. Generated on **{today}** (UTC).
+Back to the [main page](../README.md) · [papers by venue](venues.md).
 """
+
+TOPIC_PAGE_HEADER = """# {topic}
+
+{description}
+
+{count} papers, newest first. Generated on **{today}** (UTC).
+Back to the [archive index](../archive.md) · [main page](../../README.md).
+"""
+
+
+def render_topic_page(topic: str, entries: list[dict], cfg: dict, today: str) -> str:
+    description = cfg["keywords"][topic].get("description", "")
+    out = [
+        TOPIC_PAGE_HEADER.format(
+            topic=topic,
+            description=f"> {description}".rstrip() if description else "",
+            count=len(entries),
+            today=today,
+        ).rstrip(),
+        "",
+    ]
+    out.extend(render_table(entries, cfg))
+    return "\n".join(out).rstrip() + "\n"
+
+
+def render_archive_index(store: dict, cfg: dict, today: str) -> str:
+    out = [ARCHIVE_INDEX_HEADER.format(today=today).rstrip(), ""]
+    total = 0
+    for topic in cfg["keywords"]:
+        bucket = store["topics"].get(topic)
+        if not bucket:
+            continue
+        total += len(bucket)
+        out.append(f"- [{topic}](topics/{slug(topic)}.md) — {len(bucket)} papers")
+    out.append("")
+    out.append(f"{total} entries across {len(store['topics'])} topics "
+               f"(a paper matching two topics is listed on both pages).")
+    return "\n".join(out).rstrip() + "\n"
 
 
 VENUE_HEADER = """# Papers by venue
@@ -534,10 +580,17 @@ def main(argv: list[str] | None = None) -> int:
     )
     (ROOT / cfg.get("readme_path", "README.md")).write_text(readme, encoding="utf-8")
 
-    archive = render_page(store, cfg, today, limit=None, header=ARCHIVE_HEADER, new_today=None)
+    archive_dir = ROOT / cfg.get("archive_dir", "docs/topics")
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    for topic, bucket in store["topics"].items():
+        if topic not in cfg["keywords"]:
+            continue
+        page = render_topic_page(topic, sorted_entries(bucket), cfg, today)
+        (archive_dir / f"{slug(topic)}.md").write_text(page, encoding="utf-8")
+
     archive_path = ROOT / cfg.get("archive_path", "docs/archive.md")
     archive_path.parent.mkdir(parents=True, exist_ok=True)
-    archive_path.write_text(archive.replace("docs/archive.md", "archive.md"), encoding="utf-8")
+    archive_path.write_text(render_archive_index(store, cfg, today), encoding="utf-8")
 
     venue_page = render_venue_page(store, cfg, today, tier_counts)
     venue_path = ROOT / cfg.get("venue_page_path", "docs/venues.md")

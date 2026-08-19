@@ -14,7 +14,8 @@
 
 # --- output ---------------------------------------------------------------
 readme_path: README.md
-archive_path: docs/archive.md
+archive_path: docs/archive.md   # index page
+archive_dir: docs/topics        # one full listing per topic, so no file gets too big for GitHub
 store_path: docs/papers.json
 blacklist_path: blacklist.txt
 
