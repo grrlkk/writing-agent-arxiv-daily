@@ -123,11 +123,17 @@ def classify(entry: dict, rules: list[dict]) -> dict:
                 "venue_source": source,
             }
 
-        if WORKSHOP.search(text):
+        # The venue name comes from the trusted source, but the track has to be
+        # read across all of them: Semantic Scholar files a Findings paper under
+        # the parent conference, and only the author's comment says "Findings".
+        # Where sources disagree, the more specific (and more conservative)
+        # reading wins - a workshop paper must never be counted as main track.
+        combined = " ".join(t for _, t in sources if t)
+        if WORKSHOP.search(combined):
             track = "workshop"
-        elif FINDINGS.search(text):
+        elif FINDINGS.search(combined):
             track = "findings"
-        elif DEMO.search(text):
+        elif DEMO.search(combined):
             track = "demo"
         else:
             track = "main"

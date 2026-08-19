@@ -65,6 +65,15 @@ S2_CASES = [
     # arXiv's own journal_ref still outranks S2
     ({"journal_ref": "Proceedings of ICLR 2025", "s2": {"venue": "Neural Information Processing Systems", "year": 2022}},
      ("ICLR", "main", "top", "accepted")),
+    # S2 collapses Findings into the parent conference; the comment is the only
+    # place that says otherwise, so the track has to be read across both
+    ({"comment": "Accepted at ACL 2026 Findings",
+      "s2": {"venue": "Annual Meeting of the Association for Computational Linguistics", "year": 2026}},
+     ("ACL", "findings", "findings", "accepted")),
+    ({"comment": "Accepted at the 4th HCI+NLP Workshop",
+      "s2": {"venue": "Conference on Empirical Methods in Natural Language Processing", "year": 2025}},
+     ("EMNLP", "workshop", "workshop", "accepted")),
+
     # S2 outranks a comment that only states an intention
     ({"comment": "Submitted to ACL 2025", "s2": {"venue": "Conference on Empirical Methods in Natural Language Processing", "year": 2025}},
      ("EMNLP", "main", "top", "accepted")),

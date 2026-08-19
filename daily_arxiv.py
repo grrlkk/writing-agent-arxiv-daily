@@ -377,9 +377,13 @@ Back to the [main page](../README.md).
 
 VENUE_HEADER = """# Papers by venue
 
-Venue is read from each paper's own arXiv metadata — the `journal_ref` field, or
-the acceptance line authors put in the comment. Most arXiv entries carry neither,
-so a paper missing here is **not** evidence that it was never published.
+Venue comes from three sources, in order of how much each can be trusted: the
+arXiv `journal_ref` field, the Semantic Scholar record for the paper, and the
+acceptance line authors write in the arXiv comment.
+
+A paper missing here is **not** evidence that it was never published — most of
+this collection is preprints posted within the last few months, which have not
+reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
 "submitted to X" is never counted as X. Generated on **{today}** (UTC).

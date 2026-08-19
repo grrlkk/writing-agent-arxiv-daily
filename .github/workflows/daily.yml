@@ -26,6 +26,10 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Fetch papers
+        env:
+          # Optional: set this repository secret for a higher Semantic Scholar
+          # rate limit. The lookup works without it, just more slowly.
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
         run: python daily_arxiv.py
 
       - name: Commit changes

@@ -37,9 +37,15 @@ arXiv API의 구문 검색이 느슨하기 때문에, 받아온 뒤 제목+초�
 
 ## 학회 분류
 
-각 논문의 학회는 arXiv 자체 메타데이터에서만 읽는다 — `journal_ref` 필드와, 저자가 comment에
-적어두는 억셉 문구("Accepted to ACL 2025"). 외부 API를 쓰지 않으므로 재분류가 공짜고,
-`venues.yaml`을 고친 뒤 `python daily_arxiv.py --offline`만 돌리면 전체가 다시 매겨진다.
+학회 정보는 신뢰도 순으로 세 군데서 읽는다.
+
+1. arXiv `journal_ref` 필드 — 저자가 게재 후 직접 채우는 값, 가장 확실하지만 드물다
+2. **Semantic Scholar** 레코드 (`enrich.py`) — arXiv id로 조회, 키 없이 무료.
+   결과는 `papers.json`에 캐싱하므로 한 번 조회한 논문은 다시 안 부른다
+3. arXiv comment의 억셉 문구 — `"Accepted to ACL 2025"` 같은 자유 텍스트
+
+`venues.yaml`을 고친 뒤 `python daily_arxiv.py --offline --no-enrich`를 돌리면
+네트워크 호출 없이 전체가 다시 매겨진다.
 
 판정은 세 가지를 따로 본다 (`venues.py`).
 
@@ -49,9 +55,20 @@ arXiv API의 구문 검색이 느슨하기 때문에, 받아온 뒤 제목+초�
 
 결과는 README 표의 Venue 열과 `docs/venues.md`에 나온다. 규칙 검증은 `python test_venues.py`.
 
-**한계**: 저자가 comment에 안 적으면 알 수 없다. 현재 751편 중 약 110편(15%)만 근거가 있고,
-나머지는 "미게재"가 아니라 "arXiv 메타데이터에 정보 없음"이다. 커버리지를 올리려면
-Semantic Scholar나 DBLP API로 보강해야 하는데, 그건 네트워크 호출과 rate limit이 붙는다.
+**출처가 엇갈릴 때**: 학회명은 신뢰도 높은 출처를 따르되, 트랙은 세 출처를 모두 훑어
+가장 구체적인 신호를 쓴다. Semantic Scholar는 Findings 논문을 모학회로 뭉뚱그려 기록하기
+때문에(`"Accepted at ACL 2026 Findings"` → S2는 그냥 ACL), comment를 같이 보지 않으면
+Findings 논문이 본회의로 둔갑한다. 실제로 11편이 그렇게 잘못 분류됐다가 고쳤다.
+
+**커버리지 현실**: 751편 중 129편(17%)만 학회가 확인된다. 방법의 한계가 아니라 수집 대상의
+성격이다 — 675편(90%)이 2026년 게시된 최신 프리프린트라 아직 학회에 실릴 시간이 없었다.
+게시연도별 확인율은 2026년 15%, 2025년 40%, 2022년 67%로 오래될수록 올라간다.
+`s2_recheck_days: 30`이 이걸 메운다. venue가 비어 있던 논문은 한 달 뒤 다시 조회하므로,
+지금 프리프린트인 논문이 억셉되면 자동으로 채워진다.
+
+**rate limit**: 키 없이 쓰면 429가 자주 뜬다. 6초 → 12초로 백오프하며 재시도하고,
+한 번 실행에 최대 40요청(`s2_max_requests`)으로 끊는다. 실패해도 arXiv 메타데이터만으로
+계속 진행하며 절대 실행을 깨뜨리지 않는다. 키가 있으면 `S2_API_KEY` 환경변수로 넣으면 된다.
 
 ## 로컬 실행
 
