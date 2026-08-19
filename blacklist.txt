@@ -1,0 +1,5 @@
+# arXiv ids to drop from every topic, one per line (version suffix optional).
+# Use this for papers that clear the keyword filters but are plainly off-topic;
+# fix the phrase lists in config.yaml first if a whole class of noise gets through.
+#
+# 2501.00000

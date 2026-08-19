@@ -1,0 +1,262 @@
+# Writing Agent arXiv Daily — search configuration
+#
+# Each topic issues one arXiv API query built from its phrases
+# (`ti:"phrase" OR abs:"phrase"`, AND-ed with the categories). The API's phrase
+# match is loose, so every entry is re-checked locally against two tiers:
+#
+#   filters       phrases specific enough to qualify a paper on their own
+#                 (still subject to the topic's `anchors`, when set)
+#   weak_filters  generic phrases ("corruption", "rubric", "tree search") that
+#                 qualify only when a `weak_anchors` term appears as well
+#
+# The second tier is what keeps the code-agent / medical-imaging / RL-control
+# literature out of a writing-agent tracker. Tune it before adding blacklist ids.
+
+# --- output ---------------------------------------------------------------
+readme_path: README.md
+archive_path: docs/archive.md
+store_path: docs/papers.json
+blacklist_path: blacklist.txt
+
+show_authors: true
+show_abstract: true
+abstract_max_chars: 500
+readme_max_per_topic: 20      # full history stays in docs/archive.md
+
+# --- querying -------------------------------------------------------------
+max_results: 100              # per topic, per run (newest first)
+page_size: 100
+request_interval: 3.0         # arXiv asks for >= 3s between requests
+retries: 3
+search_fields: ["ti", "abs"]
+categories: ["cs.CL", "cs.AI", "cs.LG", "cs.HC"]
+min_hits: 1
+
+# Default gate for weak_filters: the paper has to be about writing/text at all.
+weak_anchors:
+  - "writing"
+  - "essay"
+  - "draft"
+  - "revision"
+  - "revise"
+  - "rewrit"
+  - "editing"
+  - "long-form"
+  - "paragraph"
+  - "narrative"
+  - "story"
+  - "article"
+  - "composition"
+  - "authoring"
+  - "summariz"
+
+# Dropped everywhere.
+exclude_terms:
+  - "image generation"
+  - "video generation"
+  - "text-to-image"
+  - "protein"
+  - "molecular"
+  - "autonomous driving"
+  - "robot manipulation"
+  - "wireless"
+  - "federated learning"
+  # medical report generation is a separate literature from writing agents
+  - "radiology"
+  - "radiograph"
+  - "chest x-ray"
+  - "clinical report"
+  - "medical image"
+  - "medical imaging"
+  - "magnetic resonance"
+  - "pathology"
+  - "ultrasound"
+  - "biopsy"
+  # other domains that borrow the same vocabulary
+  - "text-to-speech"
+  - "text-to-audio"
+  - "speech recognition"
+  - "soundscape"
+  - "autonomous vehicle"
+  - "single-cell"
+  - "cell instance"
+
+# --- topics ---------------------------------------------------------------
+keywords:
+
+  "Writing Agent":
+    description: >-
+      The primary axis: LLM agents that write and revise across multiple turns
+      rather than generating once. Z1 in the FEAK-TC introduction.
+    filters:
+      - "writing agent"
+      - "writing assistant"
+      - "long-form writing"
+      - "long-form generation"
+      - "creative writing"
+      - "co-writing"
+      - "collaborative writing"
+      - "AI-assisted writing"
+      - "human-AI writing"
+      - "story generation"
+      - "article generation"
+    weak_filters:
+      - "report generation"
+      - "document generation"
+    max_results: 150
+
+  "Iterative Revision & Text Editing":
+    description: >-
+      Edit-intention taxonomies, revision histories, and text-editing models —
+      the direct precedent for FEAK-TC's action taxonomy (B1/W2).
+    filters:
+      - "iterative revision"
+      - "text revision"
+      - "revision history"
+      - "edit intention"
+      - "editing intention"
+      - "text editing"
+      - "sentence rewriting"
+      - "essay revision"
+      - "document revision"
+    weak_filters:
+      - "iterative refinement"
+      - "iterative editing"
+      - "post-editing"
+
+  "Self-Refine & Self-Correction":
+    description: >-
+      Whether a model can improve its own draft with no external signal — the
+      baseline the TVM has to beat (RQ4).
+    filters:
+      - "self-refine"
+      - "self-correction"
+      - "self-critique"
+      - "intrinsic self-correction"
+      - "critic model"
+    weak_filters:
+      - "self-improvement"
+      - "self-correct"
+      - "reflexion"
+      - "feedback-driven refinement"
+    weak_anchors: ["writing", "essay", "revision", "draft", "text generation", "summariz", "rewrit"]
+    exclude_terms:
+      - "swe-bench"
+      - "coding agent"
+      - "code generation"
+
+  "Reward & Value Models":
+    description: >-
+      Preference learning, Bradley-Terry reward models, process/step-level
+      supervision, reward hacking — the family the TVM belongs to (B2).
+    filters:
+      - "reward model"
+      - "process reward model"
+      - "outcome reward model"
+      - "preference learning"
+      - "preference optimization"
+      - "bradley-terry"
+      - "step-level reward"
+      - "reward hacking"
+      - "reward over-optimization"
+      - "value model"
+    weak_filters:
+      - "verifier"
+    anchors: ["language model", "llm", "text", "generation", "alignment", "rlhf", "preference", "writing"]
+    weak_anchors: ["writing", "essay", "text generation", "summariz", "revision"]
+    exclude_terms:
+      - "coding agent"
+      - "swe-bench"
+    max_results: 150
+
+  "Synthetic Preference Data":
+    description: >-
+      Preference pairs without human labels — corruption, perturbation,
+      contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
+    filters:
+      - "synthetic preference"
+      - "preference data"
+      - "synthetic data for reward"
+      - "contrastive negative"
+      - "hard negative"
+      - "rlaif"
+    weak_filters:
+      - "perturbation"
+      - "corruption"
+      - "negative sampling"
+      - "weak supervision"
+    weak_anchors: ["preference pair", "preference data", "reward model", "llm-as-a-judge", "human preference", "preference learning", "evaluation metric"]
+
+  "Text Quality Evaluation":
+    description: >-
+      Rubric scoring, LLM-as-a-judge, automated essay scoring, feedback
+      generation — where the FEAK diagnoser sits (Z2).
+    filters:
+      - "automated essay scoring"
+      - "automated writing evaluation"
+      - "essay feedback"
+      - "essay scoring"
+      - "writing quality"
+      - "text quality evaluation"
+      - "llm-as-a-judge"
+      - "llm as a judge"
+    weak_filters:
+      - "rubric"
+      - "feedback generation"
+      - "evaluation metric"
+
+  "Semantic Drift & Faithfulness":
+    description: >-
+      Detecting that a revision path has wandered off the original intent — the
+      global drift / rollback signal (B3).
+    filters:
+      - "semantic drift"
+      - "content preservation"
+      - "meaning preservation"
+      - "instruction drift"
+      - "goal drift"
+      - "intent preservation"
+    weak_filters:
+      - "faithfulness"
+
+    weak_anchors: ["summariz", "writing", "revision", "style transfer", "long-form", "rewrit", "essay"]
+
+  "Search & Control for Generation":
+    description: >-
+      Tree search, verifier-guided decoding, backtracking, stopping criteria —
+      the control layer around accept / reject / rollback / stop (B3/W4).
+    filters:
+      - "verifier-guided"
+      - "test-time search"
+      - "inference-time scaling"
+      - "stopping criterion"
+      - "when to stop"
+      - "guided decoding"
+    weak_filters:
+      - "tree search"
+      - "monte carlo tree search"
+      - "backtracking"
+      - "adaptive computation"
+    anchors: ["language model", "llm", "text generation", "writing", "decoding", "reasoning", "essay"]
+    weak_anchors: ["writing", "essay", "text generation", "revision", "rewrit", "summariz", "long-form"]
+
+  "Korean Writing & NLP":
+    description: >-
+      Korean essays, scoring, and correction — the target language of FEAK-TC.
+      Deliberately narrow: a bare "korean" match would pull in every multilingual
+      benchmark that merely lists Korean. Loosen `filters` if you want that.
+    filters:
+      - "korean essay"
+      - "korean writing"
+      - "korean language model"
+      - "korean text"
+      - "korean nlp"
+      - "korean corpus"
+      - "korean benchmark"
+      - "korean learner"
+      - "korean students"
+      - "korean grammar"
+    weak_filters:
+      - "grammatical error correction"
+    weak_anchors: ["korean"]
+    max_results: 100
