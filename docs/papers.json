@@ -3,19 +3,19 @@
   "topics": {
    "Iterative Revision & Text Editing": 64,
    "Korean Writing & NLP": 67,
-   "Reward & Value Models": 110,
-   "Search & Control for Generation": 64,
-   "Self-Refine & Self-Correction": 79,
-   "Semantic Drift & Faithfulness": 65,
-   "Synthetic Preference Data": 76,
-   "Text Quality Evaluation": 111,
-   "Writing Agent": 148
+   "Reward & Value Models": 114,
+   "Search & Control for Generation": 65,
+   "Self-Refine & Self-Correction": 80,
+   "Semantic Drift & Faithfulness": 67,
+   "Synthetic Preference Data": 78,
+   "Text Quality Evaluation": 116,
+   "Writing Agent": 150
   },
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "venue_tiers": {
    "demo": 1,
    "findings": 12,
-   "none": 622,
+   "none": 637,
    "other": 14,
    "strong": 9,
    "top": 66,
@@ -9818,6 +9818,152 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.17795v1"
+   },
+   "2608.18132": {
+    "abs_url": "https://arxiv.org/abs/2608.18132",
+    "authors": [
+     "Xuanru Zhou",
+     "Yiwen Shao",
+     "Jiahong Li",
+     "Dong Yu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18132",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18132v1",
+    "primary_category": "cs.CL",
+    "published": "2026-07-28",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multimodal large language models (MLLMs) are typically built through a multi-stage pipeline consisting of cross-modal alignment, supervised fine-tuning (SFT), and preference optimization. This pipeline assumes that adapting an LLM to a new modality requires extensive task-specific supervision. However, pretrained LLMs already possess strong reasoning and instruction-following abilities. As LLMs evolve rapidly, an important question remains: can we efficiently transfer these capabilities to a new modality with minimal intervention, and is alignment alone sufficient for building a multimodal model? We introduce an Instruction-Free Alignment-Only large audio-language model (LALM) that keeps both the audio encoder and the LLM fully frozen, learning only a lightweight projector. Borrowing insights from AzeroS [1], we train on (audio, response) pairs from Self-Generated Data Construction, where an LLM expands captions into free-form responses without explicit task instructions. Across MMAU, MMAR, MMSU, and MMAU-Pro, our approach matches or surpasses heavily post-trained baselines using substantially less data. By keeping the LLM frozen, our model preserves its native instruction-following competence and can port seamlessly across model generations. Our results suggest that competitive MLLM can emerge from alignment alone, reducing multimodal extension to a lightweight projector-training problem that generalizes across modalities and adapts rapidly to each new LLM release.",
+    "tier": "none",
+    "title": "Alignment Is All You Need: Instruction-Free Training for General Audio-Language Models",
+    "track": "",
+    "updated": "2026-07-28",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18132v1"
+   },
+   "2608.18770": {
+    "abs_url": "https://arxiv.org/abs/2608.18770",
+    "authors": [
+     "Taehyung Kim",
+     "Jongeun Choi"
+    ],
+    "code_url": "",
+    "comment": "14 pages, 7 figures",
+    "first_seen": "2026-08-20",
+    "id": "2608.18770",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18770v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Learning a reward model from human feedback and optimizing a policy against it is one approach to aligning AI systems with individual users. From a fairness perspective, existing work improves such alignment by developing data-efficient and accurate reward models that capture minority preferences despite scarce data. We push this line of inquiry one step further and argue that data-efficient and accurate per-user reward models are not sufficient: users whose reward models are difficult to \\textit{optimize} at the policy level can become a new underserved group. We start from the observation that one user's reward model can be easy to optimize from the initial policy while another's is not. We argue that, given a sufficiently diverse user population, a curriculum naturally emerges between easy- and hard-to-optimize reward models. Building on this insight, we propose CurriPO, which grows a tree-structured curriculum to accommodate diverse user-specific objectives, covering the population in a single traversal. Specifically, CurriPO automatically constructs a curriculum over diverse user reward models, allowing it to branch from the existing curriculum and reuse reward models previously incorporated into the curriculum. To the best of our knowledge, this is the first work to explicitly exploit multi-user structure to address optimization in AI alignment. Extensive experiments on personalized continuous control in a simulated environment show that CurriPO achieves $1.2$--$2.1\\times$ the population satisfaction of the strongest baseline while substantially reducing training time. Additional analysis attributes much of this improvement to the users left underserved by conventional optimization.",
+    "tier": "none",
+    "title": "To Go Far, Go Together: Diverse Preferences Induce a Curriculum for Reward Optimization",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18770v1"
+   },
+   "2608.18779": {
+    "abs_url": "https://arxiv.org/abs/2608.18779",
+    "authors": [
+     "Jiandong Ding",
+     "Huijie Qin",
+     "Tiandeng Wu",
+     "Yi Cao"
+    ],
+    "code_url": "https://github.com/jdding/sidscope",
+    "comment": "Resource: https://github.com/jdding/sidscope",
+    "first_seen": "2026-08-20",
+    "id": "2608.18779",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18779v1",
+    "primary_category": "cs.IR",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Semantic-ID mappings are reusable interfaces between item tokenizers and generative recommenders, yet released mappings rarely state whether they are coherent, what structure they expose, how generated paths resolve, or what must be revalidated after a refresh. SIDScope is a source-traced diagnostic resource for these decisions. It normalizes item-to-code artifacts, verifies provenance and joins, profiles mapping structure, compares paired revisions, and accounts for path-to-item outcomes in generated traces. Across nine source-traced tokenizer exports from seven families on Amazon and Yelp data - eight executable routes plus one auditable snapshot - SIDScope reveals that interface health is multi-signal rather than scalar. Its central finding is mechanism-conditional: prefix alignment strongly tracks held-out candidate exposure when retrieval consumes SID prefixes, then weakens as scoring becomes prefix-independent. Trained trace accounting exposes a second hidden gap: a valid target path can survive without uniquely retrieving the target item by 1.2-3.0 percentage points. A refresh case establishes a third: repairing the mapping does not by itself restore an inherited generator; model reuse requires a separate handoff check. The package provides frozen evidence summaries, conformance reports, trace labels, table builders, and CPU-only verifiers. It supports decisions about artifact readiness, interface risks, and revalidation before model reuse.",
+    "tier": "none",
+    "title": "SIDScope: A Diagnostic Resource for Semantic-ID Interfaces in Generative Recommendation",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18779v1"
+   },
+   "2608.18931": {
+    "abs_url": "https://arxiv.org/abs/2608.18931",
+    "authors": [
+     "Davide Romano",
+     "Kanak Raj",
+     "Jerrod Parker",
+     "Daniele Giofrè"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18931",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18931v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Test-time scaling (TTS) improves language model outputs by spending additional inference compute - generating multiple candidates, searching over partial sequences, or iteratively refining drafts. These techniques yield large gains on mathematics and code, but have been developed and stress-tested almost exclusively on tasks where verification is straightforward. We conduct the first compute-normalised comparison of five TTS families across five open-ended generation benchmarks spanning medicine, law, finance, general chat, and creative writing - grounded in a unified framework that decomposes the effectiveness of each method's token budget into exploration and exploitation. The answer depends on which side of that decomposition you examine. Scaling exploration works: the best candidate in the pool improves steadily with compute across all settings. What breaks is exploitation - the step that converts a rich candidate pool into a final output. With state-of-the-art generators, reward models correlate at only $ρ_v \\approx 0.12$ with true quality, rendering selection near-random regardless of budget. Tree search amplifies this failure through diversity collapse. Refinement helps on one of five benchmarks; its apparent gains elsewhere are confounded. Only synthesis across candidates (Fusion) consistently improves over single-sample baselines, yet still recovers only ~40% of available quality. The candidate pool is not the bottleneck - choosing from it is.",
+    "tier": "none",
+    "title": "Test-Time Scaling in the Wild: Why Exploitation, Not Exploration, Is the Bottleneck",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18931v1"
    }
   },
   "Search & Control for Generation": {
@@ -12299,6 +12445,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.16515v1"
+   },
+   "2608.18931": {
+    "abs_url": "https://arxiv.org/abs/2608.18931",
+    "authors": [
+     "Davide Romano",
+     "Kanak Raj",
+     "Jerrod Parker",
+     "Daniele Giofrè"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18931",
+    "journal_ref": "",
+    "matched": [
+     "tree search"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18931v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Test-time scaling (TTS) improves language model outputs by spending additional inference compute - generating multiple candidates, searching over partial sequences, or iteratively refining drafts. These techniques yield large gains on mathematics and code, but have been developed and stress-tested almost exclusively on tasks where verification is straightforward. We conduct the first compute-normalised comparison of five TTS families across five open-ended generation benchmarks spanning medicine, law, finance, general chat, and creative writing - grounded in a unified framework that decomposes the effectiveness of each method's token budget into exploration and exploitation. The answer depends on which side of that decomposition you examine. Scaling exploration works: the best candidate in the pool improves steadily with compute across all settings. What breaks is exploitation - the step that converts a rich candidate pool into a final output. With state-of-the-art generators, reward models correlate at only $ρ_v \\approx 0.12$ with true quality, rendering selection near-random regardless of budget. Tree search amplifies this failure through diversity collapse. Refinement helps on one of five benchmarks; its apparent gains elsewhere are confounded. Only synthesis across candidates (Fusion) consistently improves over single-sample baselines, yet still recovers only ~40% of available quality. The candidate pool is not the bottleneck - choosing from it is.",
+    "tier": "none",
+    "title": "Test-Time Scaling in the Wild: Why Exploitation, Not Exploration, Is the Bottleneck",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18931v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -15406,6 +15589,46 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.17694v1"
+   },
+   "2608.18884": {
+    "abs_url": "https://arxiv.org/abs/2608.18884",
+    "authors": [
+     "Wei Yu",
+     "Suxing Liu",
+     "Minjie Yu",
+     "Jiahao Wang",
+     "Zhijian Zheng",
+     "Haocheng Deng",
+     "Bing Li"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18884",
+    "journal_ref": "",
+    "matched": [
+     "self-critique"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18884v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reinforcement-learning training of reasoning LLMs (e.g., GRPO) is expensive and requires a controllable environment, committing every contribution to a full training pipeline. We present EvoResearcher, a training-free, inference-time protocol that adds cost-bounded self-reflection to a single frozen LLM backbone. The protocol iterates generate -> self-critique -> revise until a maximum depth D is reached or the critique returns the CONFIRMED sentinel, an implicit early stop that lets the backbone self-verify its answer under a strict compute budget. Four self-reflective meta-reward components (correctness, efficiency, reflection depth, tool-call diversity) act as design principles instantiated as prompt-level mechanisms, so their benefits accrue with zero gradient updates. We validate the protocol on Big-Bench Hard (100 questions) and establish cross-domain behavior on GSM8K (500) and MATH (500) on the same frozen backbone, with cross-model replication on Qwen2.5-72B. All experiments use pure-reasoning benchmarks; the tool-call diversity component is validated in prompt-level form, and the environment-level and multi-agent extensions are design blueprints left to future work. On clean BBH the protocol does not raise accuracy beyond the 95% Wilson interval; its value is cost-bounded self-verification, with the CONFIRMED early stop terminating 82-88% of items at equal accuracy (about 2.1 generations per question).",
+    "tier": "none",
+    "title": "Training-Free Inference-Time Self-Reflection and Cost-Bounded Early Stopping for Large Language Models",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18884v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -17979,6 +18202,88 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.08994v1"
+   },
+   "2608.18580": {
+    "abs_url": "https://arxiv.org/abs/2608.18580",
+    "authors": [
+     "Kou Shi",
+     "Zun Wang",
+     "Qisheng Su",
+     "Shiting Huang",
+     "Ziao Zhang",
+     "Zhen Fang",
+     "Qingnan Ren",
+     "Jin Liu",
+     "Yu Zeng",
+     "Yiming Zhao",
+     "Lin Chen",
+     "Zehui Chen",
+     "Feng Zhao"
+    ],
+    "code_url": "",
+    "comment": "https://stokou.github.io/FACET-Terminal/",
+    "first_seen": "2026-08-20",
+    "id": "2608.18580",
+    "journal_ref": "",
+    "matched": [
+     "intent preservation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18580v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in the original sources. We present FACET (Fine-grained Agentic Construction of Executable Tasks), a framework that addresses both information preservation and cross-artifact consistency. FACET reconstructs related agent skills into coherent, information-rich scenarios, then realizes and repairs the execution environment before generating the final task artifacts. The resulting container state serves as shared grounding for the instruction, solution, and verifier, while execution-based validation and targeted repair correct artifact-specific failures without unnecessarily regenerating valid components. FACET produces complex terminal tasks with dense executable checks, and successful trajectories collected from these tasks provide effective, data-efficient supervision. Fine-tuning models across multiple scales consistently improves performance on Terminal-Bench 2.1, while analyses of alternative generation schemes support the importance of environment-grounded construction for task validity and solution-verifier alignment. These results establish source-intent preservation and shared executable-state grounding as key principles for scalable terminal-task synthesis.",
+    "tier": "none",
+    "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18580v1"
+   },
+   "2608.19133": {
+    "abs_url": "https://arxiv.org/abs/2608.19133",
+    "authors": [
+     "Steven Morse",
+     "Daniel Runfola",
+     "Trenton W. Ford"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.19133",
+    "journal_ref": "",
+    "matched": [
+     "semantic drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19133v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at the comment level in a massive corpus. By leveraging pretrained language models to generate contextualized semantic embeddings for short text, we analyzed 12.7 billion Reddit comments spanning 2006 to 2022. Using unsupervised methods on these embeddings, we identify dynamically evolving topic clusters over time. Our primary contribution is a methodology for analysis of semantic drift and discourse evolution in the embedding space itself. We also demonstrate modifications to existing methods that enable this analysis at scale, and we propose and demonstrate a null model comparison test to filter spurious dynamics. Key findings suggest that politically and socially contentious topics exhibit significant directional drift in embedding space, with inter-topic distances changing systematically over time beyond what the null model can explain, whereas domains such as music and sports remain comparatively stable.",
+    "tier": "none",
+    "title": "Comment-level Topic Drift Analysis in the Reddit Corpus",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19133v1"
    }
   },
   "Synthetic Preference Data": {
@@ -21059,6 +21364,81 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.17776v1"
+   },
+   "2608.18504": {
+    "abs_url": "https://arxiv.org/abs/2608.18504",
+    "authors": [
+     "Libiao Chen",
+     "Xiyang Liu",
+     "Yanheng Wei",
+     "Tao Wang",
+     "Zhenyu Tang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18504",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18504v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Universal multimodal retrieval aims to support diverse instruction-aware retrieval tasks, demanding both efficient corpus-scale matching and fine-grained semantic reasoning. Recent MLLM-based embedding methods typically derive representations from hidden states, while Chain-of-Thought (CoT) reasoning is emerging as a promising strategy for embedding enhancement by encoding intermediate semantic evidence into the representation space. However, existing CoT methods typically use item-wise reasoning over queries and candidates in isolation, providing no explicit evidence to distinguish a positive from a semantically confusable hard negative. Moreover, contrastive embeddings capture global similarity but struggle with meta-tasks requiring answer verification, category judgment or fine-grained reasoning. In this paper, we propose UMER, a Unified Multimodal Embedding and Ranking framework for universal multimodal retrieval. UMER replaces item-wise reflection with Pair-Aware Discriminative Reasoning, which compares query--candidate pairs to identify instruction-relevant matching and discrepancy evidence. UMER jointly learns contrastive embeddings for efficient global matching and discriminative ranking for explicit pairwise relevance judgment within a single MLLM. A complementary mutual distillation strategy further transfers reliable pairwise preferences between the embedding and ranking functions. On the MMEB-V2 benchmark, UMER achieves state-of-the-art performance under comparable experimental settings while supporting budget-adjustable inference.",
+    "tier": "none",
+    "title": "UMER: Unifying Embedding and Ranking via Pair-Aware Discriminative Reasoning for Universal Multimodal Retrieval",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18504v1"
+   },
+   "2608.19174": {
+    "abs_url": "https://arxiv.org/abs/2608.19174",
+    "authors": [
+     "Aditya Bhattacharjee",
+     "Christos Plachouras",
+     "Sungkyun Chang",
+     "Emmanouil Benetos"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.19174",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19174v1",
+    "primary_category": "cs.SD",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include details released after the challenge.",
+    "tier": "none",
+    "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19174v1"
    }
   },
   "Text Quality Evaluation": {
@@ -25035,7 +25415,7 @@
     "matched": [
      "rubric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.15265v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.15265v2",
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
@@ -25049,12 +25429,12 @@
     "tier": "none",
     "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
     "track": "",
-    "updated": "2026-08-15",
+    "updated": "2026-08-19",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.15265v1"
+    "version": "2608.15265v2"
    },
    "2608.15432": {
     "abs_url": "https://arxiv.org/abs/2608.15432",
@@ -25455,6 +25835,201 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.18050v1"
+   },
+   "2608.18300": {
+    "abs_url": "https://arxiv.org/abs/2608.18300",
+    "authors": [
+     "Emma Yanyang Kong",
+     "JJ Tan",
+     "Ishan Gupta",
+     "Lars Olds",
+     "Claire Campbell",
+     "David Fagnan",
+     "Veli Balin",
+     "Rohan Gosain",
+     "Louis Garcia",
+     "Minsu Jang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18300",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge",
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18300v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-18",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-as-a-Judge, which leverages a large language model to evaluate natural language generated by another AI application or model, has become a standard, scalable approach for accelerating and extending costly human evaluation. However, most work treats a judge as a static artifact, evaluating it once at construction or against a fixed benchmark. In contrast, we argue that an LLM judge running in a production system is better understood as having a lifecycle: it must be built, trained, deployed, and continuously maintained as the surrounding data evolves, and each phase poses distinct technical and operational challenges. We present such a lifecycle for the LLM judges that evaluate user-facing recommendation explanations at Netflix, where our pipeline generates and the judges assess hundreds of thousands of distinct show-level explanations per week, served across the mobile experience to millions of members. Our framework has four phases: (I) Birth, defining multiple evaluation criteria and building curated benchmark datasets with human labels and rationales; (II) Training, refining the judges' rubrics via Reasoning-Aligned Rubric Tuning (RART), a rubric-tuning procedure that uses a meta-judge over reasoning output as the learning signal; (III) Deployment, in which one judge serves two production roles: quality gating and reflective generation; and (IV) Monitoring, a continuous Human-in-the-Loop alignment process that detects drift and triggers re-tuning behind a human review gate. We report post-launch results from a five-week A/B test over tens of millions of members, in which the judge-aligned explanations shifted member viewing toward novel content (previously unwatched) and increased successful browse-to-play sessions relative to a no-explanation control, with no quality-related takedowns.",
+    "tier": "none",
+    "title": "The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations",
+    "track": "",
+    "updated": "2026-08-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18300v1"
+   },
+   "2608.18303": {
+    "abs_url": "https://arxiv.org/abs/2608.18303",
+    "authors": [
+     "Dae Lee",
+     "Mihai Delgeanu",
+     "Adel Youssef"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18303",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18303v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-18",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-as-judge evaluation reduces response quality assessment to a single holistic A/B preference choice, providing no mechanism to isolate which quality dimensions drove the preference or distinguish model errors from genuine label ambiguity. We propose SESSE (Sketch, Expand, Sort, Summarize, Evaluate), a training-free framework that decomposes holistic judgment into structured sub-questions mined directly from the judge's own error cases; requiring no oracle responses, task-specific rubrics, or fine-tuning. On RewardBench (n=1,000), SESSE achieves near-parity with the chain-of-thought baseline and is competitive with RISE-Judge-32B (92.7%), a fine-tuned specialist, while remaining fully training-free. Per-criterion vote evidence provides an interpretable audit trail for diagnosing label ambiguity and judge failure modes unavailable from a single holistic output token.",
+    "tier": "none",
+    "title": "SESSE: Sketch, Expand, Sort, Summarize, Evaluate -- LLM-as-Judge Evaluation via Structured Decomposition",
+    "track": "",
+    "updated": "2026-08-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18303v1"
+   },
+   "2608.18336": {
+    "abs_url": "https://arxiv.org/abs/2608.18336",
+    "authors": [
+     "Nguyen Quoc Hung",
+     "Nguyen Dang Minh",
+     "Le Nhu Quynh",
+     "Tran Khanh Linh",
+     "Nguyen Kieu Linh"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18336",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18336v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-18",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "When evaluating language models on human exams, benchmarks typically score each response as right or wrong and report the overall accuracy. This approach assumes that partial knowledge is worth proportional credit, an assumption that fails when an examination uses a non-additive grading scheme. The 2025 reform of Vietnam's National High School Graduation Examination demonstrates the cost of this substitution. In Part II of the exam, candidates evaluate four true/false statements per question. The grading is convex: the number of correct statements earns 0, 0.10, 0.25, 0.50, or 1.00 points. Identifying three statements correctly pays 0.50 points, not the 0.75 points that standard accuracy metrics would award. Because Part II accounts for 4.00 of the exam's 10.00 points, reporting accuracy inflates the score by rewarding partial knowledge that the state explicitly penalizes. We introduce THPT-Ladder, a benchmark of 632 items from 21 official exams across 11 subjects, graded exactly as the ministry grades its students. The ministry publishes the marks of over a million candidates, allowing us to place models directly into the human cohort. Across eight models, the official rubric pays 0.020 to 0.159 points less per Part II question than proportional credit. This shortfall changes a model's apparent competence. For Qwen3.5-27B on the 2025 History exam, a 0.042-point shortfall drops its standing from the 90th to the 77th percentile among 481,293 candidates. A model's accuracy does not predict this penalty. At Claude Sonnet 5's accuracy level, different distributions of errors yield scores varying from 0.869 to 0.932 points per question. Official marks depend on how correct statements are grouped, meaning standard benchmarks report a competence the institution would not certify.",
+    "tier": "none",
+    "title": "Measuring the Partial-Credit Gap: A Strict Benchmark on Vietnam's 2025 Convex Marking Scheme",
+    "track": "",
+    "updated": "2026-08-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18336v1"
+   },
+   "2608.18740": {
+    "abs_url": "https://arxiv.org/abs/2608.18740",
+    "authors": [
+     "Manoj N M",
+     "Vijayakrishna S",
+     "Manjunath Srinivas",
+     "Rohit Pahan"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18740",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18740v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This paper proposes a multi-agent framework built on CrewAI [1] for conversational business intelligence. Five specialized AI agents operate in a sequential pipeline to process natural language queries, retrieve and analyze data, generate visualizations via the Model Context Protocol (MCP) [2], and deliver actionable insights. The platform features a defense-in-depth security architecture for multi-tenant data isolation and a query parameterization mechanism for transforming conversational insights into reusable dashboard components. Evaluation across 300 end-to-end test cases spanning synthetic and production enterprise datasets demonstrates 95.3% functional accuracy, a mean response latency of 24 seconds, and a response quality score of 4.52/5.0 as assessed by an LLM-as-a-Judge framework, with a 93.0% hallucination-free rate, representing a 22.6 percentage point accuracy improvement and 20.2% quality gain over a single-agent baseline. Cross-model evaluation across four LLM backends and human expert validation confirm architectural generalizability and evaluator reliability. An ablation study confirms that the Data Analysis and Report Aggregation agents are the primary drivers of output quality.",
+    "tier": "none",
+    "title": "A Multi-Agent Platform for Automated Enterprise Analytics and Insight Generation",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18740v1"
+   },
+   "2608.19011": {
+    "abs_url": "https://arxiv.org/abs/2608.19011",
+    "authors": [
+     "Sepehr Ghaffarzadegan",
+     "Boubakr Nour",
+     "Makan Pourzandi",
+     "Mourad Debbabi",
+     "Chadi Assi"
+    ],
+    "code_url": "",
+    "comment": "Submitted for publication and currently under review",
+    "first_seen": "2026-08-20",
+    "id": "2608.19011",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19011v1",
+    "primary_category": "cs.CR",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Mechanisms for dynamically converting cyber threat intelligence (CTI) into actionable detection capabilities are necessary due to the rapid evolution of Advanced Persistent Threats (APTs). Sigma rules are an essential part of contemporary threat detection workflows because they offer a platform-independent framework for expressing detection logic that can be converted into particular queries across SIEM systems. Conventional techniques for manually crafting Sigma rules are prone to mistakes, and necessitate extensive knowledge, which restricts their scalability. Although there are open-source and industry-maintained Sigma rule repositories, they often fail to keep pace with emerging threats and require frequent customization to fit diverse operational environments. This emphasizes the necessity of dynamic rule generation that is adapted to evolving attack techniques as well as particular use cases. In this work, we design AUTOSIGMA, an automated solution for transforming unstructured CTI reports into relevant Sigma rules. Rather than relying solely on language models, AUTOSIGMA leverages a structured knowledge base to enrich partial inputs, matches the enriched content against a repository of existing Sigma rules, and then employs an LLM-as-a-Judge mechanism to iteratively validate the rules. By combining knowledge-driven enrichment, template-based rule grounding, and a multi-stage solution, AUTOSIGMA enables accurate, context-aware, and relevant rule generation. Evaluations across multiple real-world APT reports and multiple security blogs demonstrate that AUTOSIGMA outperforms alternative solutions and LLM models in rule validity, rule relevancy, MITRE ATT&CK technique coverage, and robustness to input quality. AUTOSIGMA's Demo: https://youtu.be/iSr6IurQ6BM",
+    "tier": "none",
+    "title": "From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19011v1"
    }
   },
   "Writing Agent": {
@@ -31364,7 +31939,7 @@
     "abs_url": "https://arxiv.org/abs/2608.17326",
     "authors": [
      "JaeWon Kim",
-     "Katelyn Mei"
+     "Katelyn X. Mei"
     ],
     "code_url": "",
     "comment": "",
@@ -31374,7 +31949,7 @@
     "matched": [
      "AI-assisted writing"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.17326v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.17326v2",
     "primary_category": "cs.HC",
     "published": "2026-08-18",
     "s2": {
@@ -31388,12 +31963,12 @@
     "tier": "none",
     "title": "Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing",
     "track": "",
-    "updated": "2026-08-18",
+    "updated": "2026-08-19",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.17326v1"
+    "version": "2608.17326v2"
    },
    "2608.17979": {
     "abs_url": "https://arxiv.org/abs/2608.17979",
@@ -31433,6 +32008,81 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.17979v1"
+   },
+   "2608.18744": {
+    "abs_url": "https://arxiv.org/abs/2608.18744",
+    "authors": [
+     "Xing Zhang",
+     "Yanwei Cui",
+     "Guanghui Wang",
+     "Zhihao Lin",
+     "Peiyang He"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18744",
+    "journal_ref": "",
+    "matched": [
+     "report generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18744v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Agents improve quickly against a reliable automatic metric and stall without one, and the applications that need them most, report generation among them, are the ones nobody knows how to score. Can the metric write itself? Saying what makes an answer good is hard; pointing at something wrong with one is easier, so the metric we evolve is a pool of small Python operators that each flag a candidate for one named defect, or abstain, and vote. Asking a model for operators directly does not work: 183 candidates realise only 96 distinct behaviours, from one narrow region of an enormous space. EvalCEGAR instead borrows counterexample-guided abstraction refinement from program verification. It reads the pool as an abstraction and searches for a collision, two answers the operators score identically, one correct and one not. That pair, not a prompt, is the authoring request, and when a collision defeats every attempt the loop widens what an operator may read rather than resampling. On MBPP+ and HumanEval+, a sandbox whose hidden unit tests give exact ground truth, the loop writes a 55-line operator that closes 15.4% of the gap between flagging nothing and a perfect filter on 428 unseen tasks (+0.0065, p=0.0010) at a quarter of our best hand-written operator's flags. On the benchmark it never saw it matches that operator's effect exactly on a third of the flags. Six of eight runs admit such an operator and all six help out of sample; our 15 hand-written operators applied together as one filter lose accuracy. An LLM judge on the same information ties that delta on a nearly disjoint set of candidates, and charges a model call per candidate forever where the operator charges none.",
+    "tier": "none",
+    "title": "Metrics That Write Themselves: Evolving an Evaluator from Its Own Blind Spots",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18744v1"
+   },
+   "2608.18931": {
+    "abs_url": "https://arxiv.org/abs/2608.18931",
+    "authors": [
+     "Davide Romano",
+     "Kanak Raj",
+     "Jerrod Parker",
+     "Daniele Giofrè"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-20",
+    "id": "2608.18931",
+    "journal_ref": "",
+    "matched": [
+     "creative writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18931v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Test-time scaling (TTS) improves language model outputs by spending additional inference compute - generating multiple candidates, searching over partial sequences, or iteratively refining drafts. These techniques yield large gains on mathematics and code, but have been developed and stress-tested almost exclusively on tasks where verification is straightforward. We conduct the first compute-normalised comparison of five TTS families across five open-ended generation benchmarks spanning medicine, law, finance, general chat, and creative writing - grounded in a unified framework that decomposes the effectiveness of each method's token budget into exploration and exploitation. The answer depends on which side of that decomposition you examine. Scaling exploration works: the best candidate in the pool improves steadily with compute across all settings. What breaks is exploitation - the step that converts a rich candidate pool into a final output. With state-of-the-art generators, reward models correlate at only $ρ_v \\approx 0.12$ with true quality, rendering selection near-random regardless of budget. Tree search amplifies this failure through diversity collapse. Refinement helps on one of five benchmarks; its apparent gains elsewhere are confounded. Only synthesis across candidates (Fusion) consistently improves over single-sample baselines, yet still recovers only ~40% of available quality. The candidate pool is not the bottleneck - choosing from it is.",
+    "tier": "none",
+    "title": "Test-Time Scaling in the Wild: Why Exploitation, Not Exploration, Is the Bottleneck",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18931v1"
    }
   }
  }
