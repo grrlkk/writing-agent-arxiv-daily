@@ -2,7 +2,7 @@
 
 > Korean essays, scoring, and correction — the target language of FEAK-TC. Deliberately narrow: a bare "korean" match would pull in every multilingual benchmark that merely lists Korean. Loosen `filters` if you want that.
 
-67 papers, newest first. Generated on **2026-08-20** (UTC).
+67 papers, newest first. Generated on **2026-08-21** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 |Publish Date|Title|Venue|Authors|PDF|Code|

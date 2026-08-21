@@ -1,21 +1,21 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 64,
+   "Iterative Revision & Text Editing": 65,
    "Korean Writing & NLP": 67,
-   "Reward & Value Models": 114,
+   "Reward & Value Models": 120,
    "Search & Control for Generation": 65,
-   "Self-Refine & Self-Correction": 80,
+   "Self-Refine & Self-Correction": 82,
    "Semantic Drift & Faithfulness": 67,
    "Synthetic Preference Data": 78,
-   "Text Quality Evaluation": 116,
-   "Writing Agent": 150
+   "Text Quality Evaluation": 117,
+   "Writing Agent": 151
   },
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "venue_tiers": {
    "demo": 1,
    "findings": 12,
-   "none": 637,
+   "none": 647,
    "other": 14,
    "strong": 9,
    "top": 66,
@@ -2624,6 +2624,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.16344v1"
+   },
+   "2608.19727": {
+    "abs_url": "https://arxiv.org/abs/2608.19727",
+    "authors": [
+     "Dongbin Kim",
+     "Geonwoo Shin",
+     "Yujin Choi",
+     "Soyeon Park",
+     "Jaewook Lee"
+    ],
+    "code_url": "",
+    "comment": "Submitted to NeurIPS 2026",
+    "first_seen": "2026-08-21",
+    "id": "2608.19727",
+    "journal_ref": "",
+    "matched": [
+     "post-editing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19727v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "submitted",
+    "summary": "Watermarking is a central tool for provenance in generative models, yet its application to multivariate time series remains hindered by reliability failures under post-editing attacks. We show that existing detectors, which rely on globally coupled re-encoding, suffer from bidirectional drift of the null distribution: post-editing attacks can shift the z-score of non-watermarked samples in either direction, invalidating clean-calibrated thresholds. We argue that this instability is a property of the re-encoding, and that reliable detection requires each recovered unit to depend only on a bounded temporal neighborhood. Guided by this principle, we propose L-VQVAE, a generative model in which each discrete token is produced from a short contiguous window, and LVQMark, a watermarking method over this token space that combines logit-bias injection with robust re-encoding for attack-time detection. Experiments on four benchmarks spanning finance, energy, and neuroimaging show that our approach preserves generation quality while stabilizing both detection power and false-positive behavior under post-editing attacks.",
+    "tier": "none",
+    "title": "A Locally Tokenized Generative Model for Robust Time-Series Watermarking",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "NeurIPS",
+    "venue_evidence": "Submitted to NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.19727v1"
    }
   },
   "Korean Writing & NLP": {
@@ -9618,8 +9656,8 @@
     "abs_url": "https://arxiv.org/abs/2608.15949",
     "authors": [
      "Cedar Site Bai",
-     "Duanshun Li",
      "Zhenyu Liao",
+     "Duanshun Li",
      "Sheikh Sarwar",
      "Huiyuan Chen",
      "Yuan Chen",
@@ -9635,7 +9673,7 @@
     "matched": [
      "preference optimization"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.15949v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.15949v2",
     "primary_category": "cs.IR",
     "published": "2026-08-16",
     "s2": {
@@ -9649,12 +9687,12 @@
     "tier": "none",
     "title": "Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation",
     "track": "",
-    "updated": "2026-08-16",
+    "updated": "2026-08-20",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.15949v1"
+    "version": "2608.15949v2"
    },
    "2608.16926": {
     "abs_url": "https://arxiv.org/abs/2608.16926",
@@ -9964,6 +10002,231 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.18931v1"
+   },
+   "2608.19598": {
+    "abs_url": "https://arxiv.org/abs/2608.19598",
+    "authors": [
+     "Jiawei Feng",
+     "Jiancan Wu",
+     "Xingyu Zhu",
+     "Junkang Wu",
+     "Xiang Wang",
+     "Xiangnan He"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-21",
+    "id": "2608.19598",
+    "journal_ref": "Proceedings of the 34th ACM International Conference on Multimedia (MM '26), November 10--14, 2026, Rio de Janeiro, Brazil",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19598v1",
+    "primary_category": "cs.CV",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Direct Preference Optimization (DPO) has emerged as an effective approach for aligning large language models (LLMs) with human preferences. However, its adaptation to multimodal settings remains unexplored. Through representational analysis, we identify a key limitation in multimodal preference optimization, which we term visual insensitivity: models often fail to distinguish between images and those with critical visual context removed. Our theoretical analysis further uncovers two manifestations of this problem, namely Across-Image Insensitivity and Within-Image Insensitivity. To address these challenges, we propose Perception-Enhanced Alignment DPO (PEA-DPO), a framework for multimodal LLMs alignment, which explicitly leverages visual preference signals to overcome visual insensitivity. We further provide a theoretical analysis demonstrating that PEA-DPO provably mitigates both failure modes. Empirical results demonstrate that PEA-DPO enhances sensitivity to visual context while preserving the language modeling capacity of the base model. Evaluations across three hallucination benchmarks using MLLMs of varying scales show that PEA-DPO effectively mitigates visual insensitivity, achieves stronger multimodal alignment, and substantially reduces hallucinations.",
+    "tier": "none",
+    "title": "PEA-DPO: Perception-Enhanced Alignment Direct Preference Optimization for MLLMs Alignment",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19598v1"
+   },
+   "2608.19748": {
+    "abs_url": "https://arxiv.org/abs/2608.19748",
+    "authors": [
+     "Yarin Bar",
+     "Yaniv Romano"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-21",
+    "id": "2608.19748",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19748v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Inference-time selection methods, such as Best-of-N, improve generation by sampling a pool of candidates and selecting the top-ranked completion according to a reward model. Distillation seeks to amortize this procedure into a single policy by replacing raw rewards with in-pool ranks and learning a policy that upweights higher-ranked completions. However, existing rank-based policies typically use smooth full-support reweighting, so low-ranked completions receive less mass but remain in the target support. Although a sharper reweighting reduces lower-tail mass, it also increases reliance on brittle ranking at the top made by a single reward model. We propose TUP: a Truncate-bad, Upweight-good Policy that removes low-ranked completions from the support and reweights only the retained upper tail with a tunable sharpness. TUP admits a closed-form, prompt-independent normalization and can be trained fully offline via binary cross-entropy, using shifted-truncated win-rates as soft labels and distilled-to-reference log-likelihood ratios as logits. Theoretically, under certain assumptions, we show that for any unknown oracle reward, the best monotone rank-reweighting can be matched by a lower-tail truncation rule, providing formal support for removing the lower tail rather than merely downweighting it. Empirically, we show that TUP is competitive with strong offline alignment baselines.",
+    "tier": "none",
+    "title": "Truncate Bad, Upweight Good: BoN-Style Distillation via Rank-Based Classification",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19748v1"
+   },
+   "2608.19802": {
+    "abs_url": "https://arxiv.org/abs/2608.19802",
+    "authors": [
+     "Bin Zhu",
+     "Yi Xie",
+     "Yanghui Rao"
+    ],
+    "code_url": "",
+    "comment": "21 pages, 2 figures, 20 tables. Accepted at WISE 2026",
+    "first_seen": "2026-08-21",
+    "id": "2608.19802",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19802v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM evaluation pipelines often have many candidate judges: general LLM-as-a-judge prompts, reward models, safety classifiers, confidence variants, and task-specific verifiers. The deployment question is not only which judge is best, but which judges should be called, on which examples, and when panel construction should stop. We formulate judge-panel design as a role-conditioned allocation problem. From a small labeled audit set, declared slices, and judge costs, the method estimates target-relative roles: copies add no conditional information, complements improve the global panel, and specialists help only on slices. These roles induce a policy: drop copies, add complements globally, route specialists conditionally, and stop when validation gain falls below a threshold. Across reasoning, code, safety, preference, reward-model, summarization, and math audits, the method is compared with single judges, flat panels, matched diversity heuristics, full-call stacking, reliability juries, and frugal cascades. The result is a regime map for judge calls: route specialists on deployable slices, stop in saturated verifier regimes, keep broad ensembles when their risk benefit is worth the cost, and ignore conditional copies. The output is a reusable, auditable call plan for the next evaluation batch.",
+    "tier": "none",
+    "title": "Stopping and Routing LLM Judge Panels",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19802v1"
+   },
+   "2608.20011": {
+    "abs_url": "https://arxiv.org/abs/2608.20011",
+    "authors": [
+     "Yansen Han",
+     "Shengyi Liao",
+     "Yuanxing Zhang",
+     "Pengfei Wan",
+     "Tao Lin"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-21",
+    "id": "2608.20011",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization",
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20011v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Preference optimization is a standard alignment method for generative models, yet extending it to continuous-time dynamics remains non-trivial. In flow matching, reward-driven updates modify transport trajectories without an inherent constraint to the pretrained data manifold and can move terminal samples off the pretrained support. We formalize this failure mode as manifold drift. Theoretically, we show that optimal flow matching recovers the terminal data distribution, whereas a preference update leaves the pretrained manifold whenever its induced terminal displacement has a nonzero normal component. As a remedy, we propose ThermoDPO, a temperature-controlled objective that anchors pairwise preference optimization on preferred samples. Across temperature regimes, this objective connects rejection sampling fine-tuning and FlowDPO and controls a pointwise reconstruction-based surrogate for manifold distance. To counteract diminished signals at low temperatures, we further introduce a weighted variant, ThermoDPO-weighted. On the main toy benchmark, ThermoDPO-weighted attains a StrictScore of 0.899, compared with 0.629 for FlowDPO and 0.857 for FlowDPO+RFT. On SD3.5-M at CFG = 4.5, it improves OCR by 47.5% and the average of four metrics by 16.0%.",
+    "tier": "none",
+    "title": "Manifold Drift in Flow Preference Optimization: A Root Cause of Reward Hacking",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20011v1"
+   },
+   "2608.20099": {
+    "abs_url": "https://arxiv.org/abs/2608.20099",
+    "authors": [
+     "Poomphob Suwannapichat",
+     "Boonyarit Changaival",
+     "Caesar Wu",
+     "Pascal Bouvry"
+    ],
+    "code_url": "",
+    "comment": "Full version of extended abstract accepted at ICONIP 2026 (poster)",
+    "first_seen": "2026-08-21",
+    "id": "2608.20099",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20099v1",
+    "primary_category": "cs.MA",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-based Multi-Agent Systems (MAS) achieve strong performance on complex reasoning tasks by coordinating multiple agents, but at the cost of substantial token consumption. Recent work on automatic topology design, ARG-Designer, has reframed this problem as autoregressive graph generation. However, its training objective provides no explicit incentive for the model to generate sparse and efficient topologies. We address this limitation by introducing a Reward-Guided Autoregressive Graph Generation (RGA-Designer) inspired by Reinforcement Learning from Human Feedback (RLHF). We train a reward model that jointly captures task correctness and structural compactness, and then fine-tune the pretrained graph generator using the reward model as feedback. Our method preserves task accuracy at the level of ARG-Designer while reducing token consumption by an average of 20.5%.",
+    "tier": "none",
+    "title": "Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20099v1"
+   },
+   "2608.20161": {
+    "abs_url": "https://arxiv.org/abs/2608.20161",
+    "authors": [
+     "Haoxiang Cao",
+     "Jiajiong Cao",
+     "Xuanpu Zhang",
+     "Changqian Yu",
+     "Chaoqun Wang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-21",
+    "id": "2608.20161",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20161v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Instruction-based image editing uses a planner-renderer pipeline: a vision-language model (VLM) first converts the instruction into an edit plan, and a diffusion model then executes that plan. Training such systems with only final-image rewards is inefficient because a poor edit does not reveal whether additional optimization should place more emphasis on the planner or the renderer, and even planner-dominant cases remain difficult to localize within a free-form reasoning trace. We present DARS, a reinforcement learning framework for dual-level credit assignment in this two-stage setting. Across modules, multi-plan multi-render rollouts estimate between-plan and within-plan reward variability for soft module routing, while rollout mean rewards provide hardness estimates for an adaptive curriculum. Within the planner, a four-field structured reasoning output enables a prefix-gated reward and token-level advantage reweighting, turning outcome-level feedback into localized supervision. Experiments on five benchmarks show that DARS outperforms a Joint~RL baseline with the same backbone, data, reward model, and rollout budget, with the largest gains on reasoning-intensive edits.",
+    "tier": "none",
+    "title": "DARS: Dual-Level Credit Assignment RL with Structured Reasoning for Instruction-Based Image Editing",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20161v1"
    }
   },
   "Search & Control for Generation": {
@@ -15629,6 +15892,86 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.18884v1"
+   },
+   "2608.19842": {
+    "abs_url": "https://arxiv.org/abs/2608.19842",
+    "authors": [
+     "Dayang Liang",
+     "Lang Feng",
+     "Bo An",
+     "Yunlong Liu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-21",
+    "id": "2608.19842",
+    "journal_ref": "",
+    "matched": [
+     "critic model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19842v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Agentic reinforcement learning (RL) has become a critical stage in the post-training of large language models. Existing critic-free, group-relative methods estimate policy advantages from multiple rollouts, avoiding the substantial memory overhead of conventional proximal policy optimization (PPO) and achieving strong performance on long-horizon interactive tasks. Despite their success, recent studies revealed three limitations: (1) Lack explicit value generalization and effective temporal credit assignment; (2) Suffer from potential advantage collapse in long-horizon complex tasks; (3) Require a costly trade-off between sampling budget and policy performance. In this work, we propose Single-rollout Autoregressive Policy Optimization (SAPO), a low-memory and compute-efficient framework in which the policy and value functions share a single autoregressive backbone. SAPO exploits the autoregressive structure of LLMs to produce policy and value predictions at distinct causal boundaries with shared parameters, while independently optimizing the PPO objectives and auxiliary on-policy SARSA objectives. To robustly estimate the contribution of each turn, we further introduce a trajectory-level generalized advantage estimator that combines lambda-returns with batch normalization. Experiments across ALFWorld and WebShop with Qwen2.5-1.5B/7B show that SAPO trains stably and outperforms PPO and GRPO by mean +15.1 and +12.1 percentage points, respectively, while eliminating the memory cost of a separate critic model and reducing per-iteration runtime by 33.2% over PPO.",
+    "tier": "none",
+    "title": "SAPO: Single-Rollout Autoregressive Policy Optimization for Agentic Reinforcement Learning",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19842v1"
+   },
+   "2608.20318": {
+    "abs_url": "https://arxiv.org/abs/2608.20318",
+    "authors": [
+     "Yizhe Chi",
+     "Wenyi Li",
+     "Deyao Hong",
+     "Xiaoqiu Wang",
+     "Mingju Gao",
+     "Kaisen Yang",
+     "Bingxiang He",
+     "Youjie Zheng",
+     "Calvin Xiao",
+     "Qinhuai Na"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-21",
+    "id": "2608.20318",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20318v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing suites are won by collecting data or by tuning hyperparameters, and none tells a change to how a run is executed apart from a change to how the model learns. We present AI4AI\\mbox{-}Bench, 10 frozen research repositories spanning 10 training algorithm families. In each task, an agent has 4 hours on one B300 to rewrite the training algorithm; its code is then rerun from scratch for up to 12 hours and scored by a fixed evaluator hidden from the agent, against the repository's original algorithm under the same procedure. Because the 10 metrics are incommensurable, every task is mapped onto one scale on which $0$ is an uninformative model, $0.1$ is the algorithm the repository ships, and $1.0$ is the task optimum. Across 29 configurations of 6 systems on all 10 tasks the mean score is $0.166$, and the best system reaches $0.250$: even the strongest closes under a fifth of the distance between the algorithm that was already there and the optimum. The submissions show where that distance went: most never change how the model learns at all, and the minority that do average $0.226$ against $0.126$ for the rest. More reasoning effort mostly buys the willingness to go there, taking that minority from $8\\%$ of submissions to $64\\%$ and the mean score from $0.094$ to $0.196$. We release the task suite, the evaluators and every scored submission, so that the measurement can be repeated as these systems change.",
+    "tier": "none",
+    "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20318v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -26030,6 +26373,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.19011v1"
+   },
+   "2608.19802": {
+    "abs_url": "https://arxiv.org/abs/2608.19802",
+    "authors": [
+     "Bin Zhu",
+     "Yi Xie",
+     "Yanghui Rao"
+    ],
+    "code_url": "",
+    "comment": "21 pages, 2 figures, 20 tables. Accepted at WISE 2026",
+    "first_seen": "2026-08-21",
+    "id": "2608.19802",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19802v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM evaluation pipelines often have many candidate judges: general LLM-as-a-judge prompts, reward models, safety classifiers, confidence variants, and task-specific verifiers. The deployment question is not only which judge is best, but which judges should be called, on which examples, and when panel construction should stop. We formulate judge-panel design as a role-conditioned allocation problem. From a small labeled audit set, declared slices, and judge costs, the method estimates target-relative roles: copies add no conditional information, complements improve the global panel, and specialists help only on slices. These roles induce a policy: drop copies, add complements globally, route specialists conditionally, and stop when validation gain falls below a threshold. Across reasoning, code, safety, preference, reward-model, summarization, and math audits, the method is compared with single judges, flat panels, matched diversity heuristics, full-call stacking, reliability juries, and frugal cascades. The result is a regime map for judge calls: route specialists on deployable slices, stop in saturated verifier regimes, keep broad ensembles when their risk benefit is worth the cost, and ignore conditional copies. The output is a reusable, auditable call plan for the next evaluation batch.",
+    "tier": "none",
+    "title": "Stopping and Routing LLM Judge Panels",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19802v1"
    }
   },
   "Writing Agent": {
@@ -32083,6 +32462,50 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.18931v1"
+   },
+   "2608.19297": {
+    "abs_url": "https://arxiv.org/abs/2608.19297",
+    "authors": [
+     "Yihan Xie",
+     "Hanwen Cui",
+     "Runze Ye",
+     "Juekai Lin",
+     "Haoyang Wang",
+     "Jinhao Mao",
+     "Bo Zhang",
+     "Wenqiao Zhang",
+     "Xiaogang Guo",
+     "Jun Xiao",
+     "Lei Zhang"
+    ],
+    "code_url": "https://github.com/ZJU4HealthCare/Holtercare-Bench",
+    "comment": "",
+    "first_seen": "2026-08-21",
+    "id": "2608.19297",
+    "journal_ref": "",
+    "matched": [
+     "report generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.19297v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-08-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "While multimodal large language models (MLLMs) excel in medical applications, most of them favor static images or short-term signals. In the critical field of dynamic electrocardiograms (ECG), models struggle with complex temporal reasoning and diagnostic report generation due to a lack of high-quality datasets and benchmarks. To address this, we introduce (i) Holtercare-23K, a large-scale multimodal dynamic ECG dataset comprising 22,980 QA pairs derived from 788 clinical Holter records and featuring a novel signal-video-text tri-modal alignment. Based on this dataset, we present (ii) Holtercare-Bench, a multimodal benchmark that evaluates models on temporal localization, clinical diagnosis, and global summarization. Zero-shot evaluations of leading MLLMs reveal a significant performance gap in processing ultra-long pathological sequences. However, fine-tuning representative models yields substantial improvements. This work illuminates the limitations of current MLLMs in electrophysiology and provides a foundational benchmark for long-term medical MLLMs. Our project is available at https://github.com/ZJU4HealthCare/Holtercare-Bench.",
+    "tier": "none",
+    "title": "Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.19297v1"
    }
   }
  }
