@@ -2,7 +2,7 @@
 
 > Preference learning, Bradley-Terry reward models, process/step-level supervision, reward hacking — the family the TVM belongs to (B2).
 
-120 papers, newest first. Generated on **2026-08-21** (UTC).
+120 papers, newest first. Generated on **2026-08-22** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 |Publish Date|Title|Venue|Authors|PDF|Code|

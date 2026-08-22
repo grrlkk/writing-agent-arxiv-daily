@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-08-21** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-08-22** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -18,20 +18,6 @@ Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (67)
 - [Search & Control for Generation](#search--control-for-generation) (65)
 - [Korean Writing & NLP](#korean-writing--nlp) (67)
-
-## New in this update (11)
-
-- `Writing Agent` [Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis](https://arxiv.org/abs/2608.19297)
-- `Iterative Revision & Text Editing` [A Locally Tokenized Generative Model for Robust Time-Series Watermarking](https://arxiv.org/abs/2608.19727)
-- `Self-Refine & Self-Correction` [SAPO: Single-Rollout Autoregressive Policy Optimization for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.19842)
-- `Self-Refine & Self-Correction` [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://arxiv.org/abs/2608.20318)
-- `Reward & Value Models` [DARS: Dual-Level Credit Assignment RL with Structured Reasoning for Instruction-Based Image Editing](https://arxiv.org/abs/2608.20161)
-- `Reward & Value Models` [Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design](https://arxiv.org/abs/2608.20099)
-- `Reward & Value Models` [Manifold Drift in Flow Preference Optimization: A Root Cause of Reward Hacking](https://arxiv.org/abs/2608.20011)
-- `Reward & Value Models` [Stopping and Routing LLM Judge Panels](https://arxiv.org/abs/2608.19802)
-- `Reward & Value Models` [Truncate Bad, Upweight Good: BoN-Style Distillation via Rank-Based Classification](https://arxiv.org/abs/2608.19748)
-- `Reward & Value Models` [PEA-DPO: Perception-Enhanced Alignment Direct Preference Optimization for MLLMs Alignment](https://arxiv.org/abs/2608.19598)
-- `Text Quality Evaluation` [Stopping and Routing LLM Judge Panels](https://arxiv.org/abs/2608.19802)
 
 ## Writing Agent
 

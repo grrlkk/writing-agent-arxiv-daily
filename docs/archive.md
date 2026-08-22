@@ -1,7 +1,7 @@
 # Archive
 
 Every paper ever matched, one page per topic so no single file grows past what
-GitHub will render. Newest first within each page. Generated on **2026-08-21** (UTC).
+GitHub will render. Newest first within each page. Generated on **2026-08-22** (UTC).
 Back to the [main page](../README.md) · [papers by venue](venues.md).
 
 - [Writing Agent](topics/writing-agent.md) — 151 papers

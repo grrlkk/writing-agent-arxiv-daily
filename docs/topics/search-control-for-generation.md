@@ -2,7 +2,7 @@
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-65 papers, newest first. Generated on **2026-08-21** (UTC).
+65 papers, newest first. Generated on **2026-08-22** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 |Publish Date|Title|Venue|Authors|PDF|Code|

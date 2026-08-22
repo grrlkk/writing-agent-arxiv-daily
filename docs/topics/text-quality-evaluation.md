@@ -2,7 +2,7 @@
 
 > Rubric scoring, LLM-as-a-judge, automated essay scoring, feedback generation — where the FEAK diagnoser sits (Z2).
 
-117 papers, newest first. Generated on **2026-08-21** (UTC).
+117 papers, newest first. Generated on **2026-08-22** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
