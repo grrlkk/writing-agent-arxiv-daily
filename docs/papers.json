@@ -3,19 +3,19 @@
   "topics": {
    "Iterative Revision & Text Editing": 65,
    "Korean Writing & NLP": 67,
-   "Reward & Value Models": 120,
-   "Search & Control for Generation": 65,
-   "Self-Refine & Self-Correction": 82,
-   "Semantic Drift & Faithfulness": 67,
-   "Synthetic Preference Data": 78,
-   "Text Quality Evaluation": 117,
-   "Writing Agent": 151
+   "Reward & Value Models": 121,
+   "Search & Control for Generation": 66,
+   "Self-Refine & Self-Correction": 83,
+   "Semantic Drift & Faithfulness": 70,
+   "Synthetic Preference Data": 79,
+   "Text Quality Evaluation": 120,
+   "Writing Agent": 154
   },
-  "updated": "2026-08-23",
+  "updated": "2026-08-24",
   "venue_tiers": {
    "demo": 1,
    "findings": 12,
-   "none": 647,
+   "none": 660,
    "other": 14,
    "strong": 9,
    "top": 66,
@@ -10227,6 +10227,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.20161v1"
+   },
+   "2608.20913": {
+    "abs_url": "https://arxiv.org/abs/2608.20913",
+    "authors": [
+     "Zhu Xu",
+     "Jiaqi Tang",
+     "Pokai Chen",
+     "Yuxin Peng",
+     "Yang Liu"
+    ],
+    "code_url": "https://github.com/oceanflowlab/EDD",
+    "comment": "",
+    "first_seen": "2026-08-24",
+    "id": "2608.20913",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20913v1",
+    "primary_category": "cs.CV",
+    "published": "2026-08-21",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Explainable deepfake detection extends binary classification by requiring models to not only predict authenticity but also provide interpretable justifications. This expanded scope is critical in practice, where users like forensic analysts need insight into the rationale behind the detection. Despite advancements, current approaches suffer from two critical deficiencies: (1)vulnerability to image quality degradation: detection accuracy plummets on low-quality samples, while naive augmentation strategies may induce feature drift and impair performance as diversity expands. (2) factually flawed explanations: explanation models may omit manipulation evidence or hallucinate irrelevant details, undermining interpretability. To address it, we propose a framework with two innovations. For robust deepfake detection, we introduce Feature-robust Augmentation, which comprises diversified degradation-aware augmentation strategies, and a supervised contrastive learning pattern paired with a mean-teacher architecture that stabilizes features against augmentations through consistency constraints. For explanation, we devise an evidence-grounded preference optimization process that guides model to prioritize genuine manipulation traces by learning from chosen-rejected explanation pairs, where rejected samples are constructed via evidence omission or irrelevant information injection. The proposed approach wins the first place in ACM Multimedia 2026 Explainable Deepfake Detection Challenge.The code is available at https://github.com/oceanflowlab/EDD.git.",
+    "tier": "none",
+    "title": "Explainable Deepfake Detection with Feature-robust Augmentation and Evidence-grounded Explanation Optimization",
+    "track": "",
+    "updated": "2026-08-21",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20913v1"
    }
   },
   "Search & Control for Generation": {
@@ -11927,6 +11965,40 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2607.18181v1"
+   },
+   "2607.20478": {
+    "abs_url": "https://arxiv.org/abs/2607.20478",
+    "authors": [
+     "Mohamed Jouini"
+    ],
+    "code_url": "",
+    "comment": "26 pages, 3 figures, 17 tables. Benchmark dataset available at https://huggingface.co/datasets/iac-eval-v2/iac-eval-v2",
+    "first_seen": "2026-08-24",
+    "id": "2607.20478",
+    "journal_ref": "",
+    "matched": [
+     "verifier-guided"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2607.20478v1",
+    "primary_category": "cs.SE",
+    "published": "2026-05-29",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Infrastructure-as-Code (IaC) generation from natural language requires satisfying provider schemas, dependency planning, and organizational policy constraints, not merely producing syntactically plausible configurations. We present a verifier-first empirical study of seven agentic strategies for Terraform generation evaluated on IaC-Eval v2, a modernized 186-task AWS/Terraform benchmark with Rego v1 intent policies. Our evaluation separates failures into three verifier stages (terraform validate, terraform plan, opa eval) and applies McNemar's test with Wilson confidence intervals on all pairwise comparisons (n=186, alpha=0.05). We report five principal findings. (1) Active retrieval via ReAct agents with MCP or ChromaDB-backed RAG raises Qwen2.5-Coder 7B from 14.0% to 45.7% pass@1 (p<0.0001), primarily by reducing VALIDATE_FAIL from 144 to 66 tasks. (2) Iterative refinement with verifier feedback achieves 62.9% (Qwen 7B) and 84.4% (GPT-4o) pass@1, exhibiting binary convergence -- tasks either resolve in one retry or exhaust the budget. (3) GEPA reflective instruction optimization raises the Active RAG baseline by +7.5 pp (p=0.026) using only 80 verifier-guided rollouts, providing evidence that prompt optimizers can improve verifiable IaC generation without weight updates. (4) SIMBA teacher-free demonstration injection achieves performance equivalent to Active RAG (p=1.0) without retrieval infrastructure, but fails to address the dominant SELF_DEFINED_PROPERTY error class (50% of failures). (5) A diagnostic Rego-injection experiment shows that 79% of post-refinement OPA failures are information-gap failures resolvable when policy text is visible (p=0.016), motivating policy",
+    "tier": "none",
+    "title": "Verifier-First Evaluation of Agentic LLMs for Infrastructure-as-Code Generation",
+    "track": "",
+    "updated": "2026-05-29",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2607.20478v1"
    },
    "2607.20543": {
     "abs_url": "https://arxiv.org/abs/2607.20543",
@@ -15972,6 +16044,49 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.20318v1"
+   },
+   "2608.21345": {
+    "abs_url": "https://arxiv.org/abs/2608.21345",
+    "authors": [
+     "Zhuoyi Yang",
+     "Ian G. Harris",
+     "Salar Hashemitaheri",
+     "Cassie Huang",
+     "Yuangang Li",
+     "Hyunwoo Oh",
+     "Paul Dourish",
+     "Tony Givargis",
+     "Mohsen Imani",
+     "Li Zhang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-24",
+    "id": "2608.21345",
+    "journal_ref": "",
+    "matched": [
+     "self-refine"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.21345v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-21",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather than a subject of study, which may lead to a waste of resources. Little work has systematically examined how model size affects each stage or whether effective self-refinement requires equally capable models for generation, critique, and revision. We present the first stage-wise model size study of the self-refinement pipeline on 5 benchmarks from different domains using 6 model sizes of Qwen3 and 4 model sizes of Gemma 3. We conclude that larger generators and refiners generally improve the pipeline, whereas an undersized refiner can even harm performance. Second, performance is highly insensitive to the size of the critic, although including even a small critic consistently outperforms omitting critique altogether. Our findings demonstrate that model capacity should not be allocated uniformly across self-refinement pipelines. Instead, different stages exhibit distinct size scaling characteristics, providing practical guidance for designing more computationally efficient multi-stage language model systems.",
+    "tier": "none",
+    "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+    "track": "",
+    "updated": "2026-08-21",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.21345v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -18627,6 +18742,125 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.19133v1"
+   },
+   "2608.20345": {
+    "abs_url": "https://arxiv.org/abs/2608.20345",
+    "authors": [
+     "Manisha Mehta",
+     "Virendra Mehta"
+    ],
+    "code_url": "",
+    "comment": "42 pages, 6 figures. Accepted at ACM FAccT '26",
+    "first_seen": "2026-08-24",
+    "id": "2608.20345",
+    "journal_ref": "",
+    "matched": [
+     "semantic drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20345v1",
+    "primary_category": "cs.CL",
+    "published": "2026-06-14",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [
+      "JournalArticle",
+      "Book"
+     ],
+     "venue": "Conference on Fairness, Accountability and Transparency",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Conversational AI systems have become informal mental health support resources for Generation Alpha (Gen Alpha, born 2010-2024), with 13.1% of U.S. adolescents (5.4 million) using generative AI for mental health advice. While these systems, from therapy apps to general chatbots, rely on large language models trained on extensive psychological literature, their safety for youth communication patterns characterized by hyperbolic language, ironic positivity, rapid semantic drift, and contextual polysemy remains unvalidated. Following multiple adolescent deaths linked to AI chatbot interactions, systematic evaluation is critical. We present two benchmarks: (1) 64 Gen Alpha mental health expressions validated by native speakers (ICC=0.72) and clinicians (kappa=0.78); (2) 75 multi-turn conversations (780 turns) with paired Standard/Gen Alpha versions. Across evaluations of LLM architectures underlying therapy apps and general chatbots - Claude, GPT-4o, Llama-3.1 - models understand 76-82% of vocabulary but correctly calibrate only 64-72% of clinical risk, creating a 10-14 percentage point (pp) vocabulary-comprehension gap (p<.001, d>0.48) absent in human therapists (3pp, p=.22). The gap is architecturally consistent and widens with ambiguity (7pp -> 18pp). We identify six failure patterns: sarcasm masking (29pp), minimization acceptance (43pp), informal style bias (24pp), risk-stratified ambiguity (19pp), semantic drift (19pp), context-dependent violence (7pp). Patterns compound; three or more yield 94% miss rates. Lightweight mitigations fail; only heavy scaffolding achieves human performance (6.4x cost). With 34% baseline miss rate yielding 146,880 estimated annual missed crises, we recommend mandatory human-in-the-loop architectures, quarterly youth-specific validation, transparent performance disclosure, and regulatory frameworks for youth-facing mental health AI.",
+    "tier": "none",
+    "title": "When Vocabulary Comprehension Fails Clinical Reasoning: Evaluating Therapy Bots' Safety Risks for Generation Alpha",
+    "track": "",
+    "updated": "2026-06-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20345v1"
+   },
+   "2608.20376": {
+    "abs_url": "https://arxiv.org/abs/2608.20376",
+    "authors": [
+     "Shivam Swarup",
+     "Divya Prakash Shrivastava",
+     "Rakesh Thakur"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-24",
+    "id": "2608.20376",
+    "journal_ref": "",
+    "matched": [
+     "semantic drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20376v1",
+    "primary_category": "cs.CL",
+    "published": "2026-06-24",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM agents can now generate realistic shilling profiles, fluent reviews, and coherent ratings at scale, systematically defeating recommender-system defenses. Text-only detectors that flag semantic drift in review embeddings are blind to graph structure and temporal coordination, while graph-only detectors that exploit neighborhood anomalies cannot reason over review semantics or the cross-modal inconsistencies produced by LLM-generated content. We propose TH-GNN, a heterogeneous temporal graph neural network with a two-layer Heterogeneous Graph Transformer backbone that applies per-type and per-relation attention augmented with learnable sinusoidal temporal encodings on every edge. Cross-modal attention fuses structural user embeddings with frozen RoBERTa representations of reviews and item descriptions, while a GRU operating over log inter-arrival times captures temporal burstiness. Evaluated across five attack families and four benchmark datasets, TH-GNN achieves a grand-mean F1 score of 0.870, outperforming the strongest text-only baseline on Agent4SR attacks by 10.9 percentage points and 11.5 percentage points at the lowest injection rate. These results demonstrate the effectiveness of jointly modeling temporal, structural, and semantic signals for detecting sophisticated LLM-driven shilling attacks.",
+    "tier": "none",
+    "title": "TH-GNN: Heterogeneous Temporal Graph Neural Networks for LLM-Agent Shilling Attack Detection",
+    "track": "",
+    "updated": "2026-06-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20376v1"
+   },
+   "2608.20640": {
+    "abs_url": "https://arxiv.org/abs/2608.20640",
+    "authors": [
+     "Steven Xu",
+     "Sanjyot Thete",
+     "Saathvik Dirisala",
+     "Raghav Saboo",
+     "Nimesh Sinha",
+     "Leo Shao",
+     "Elyse Winer",
+     "Sudeep Das",
+     "Martin Wang",
+     "Kyle MacDonald"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-24",
+    "id": "2608.20640",
+    "journal_ref": "",
+    "matched": [
+     "intent preservation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20640v1",
+    "primary_category": "cs.IR",
+    "published": "2026-08-21",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multi-merchant e-commerce catalogs contain equivalent and related products under different merchant-scoped identifiers, fragmenting behavioral evidence across merchants. Expert-defined taxonomies, meanwhile, are often too coarse for fine-grained discovery. We investigate whether a single hierarchical Semantic ID (\\sid{}) representation can support personalized ranking and query reformulation. Learned once from product-content embeddings, the hierarchy defines product concepts at multiple granularities that each application combines with its own behavioral and serving context. For ranking, we aggregate consumer affinity and product performance over \\sid{} prefixes and derive sequence features for candidate products and consumer histories. Controlled ablations show improved offline relevance, while online evaluation of the full ranking treatment shows stronger top-slot add-to-cart engagement and broader exposure for less-popular products. For query reformulation, we ground queries and session transitions in \\sid{} concepts, use the hierarchy for navigation and refinement, and filter suggestions against the merchant's assortment. Offline evaluation shows finer intent preservation than taxonomy and higher-quality suggestions than raw query-string transitions; online evaluation shows reduced search effort and earlier access to purchasable products. These results show that a shared semantic product hierarchy can support both recommendation and search while preserving the task-specific context required by each application.",
+    "tier": "none",
+    "title": "One Hierarchy, Two Systems: Semantic Product IDs for Discovery-Surface Ranking and Search-Page Query Reformulation",
+    "track": "",
+    "updated": "2026-08-21",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20640v1"
    }
   },
   "Synthetic Preference Data": {
@@ -21782,6 +22016,40 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.19174v1"
+   },
+   "2608.20374": {
+    "abs_url": "https://arxiv.org/abs/2608.20374",
+    "authors": [
+     "Hyunwoo Kim"
+    ],
+    "code_url": "",
+    "comment": "9 pages, 1 figure, 5 tables",
+    "first_seen": "2026-08-24",
+    "id": "2608.20374",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20374v1",
+    "primary_category": "cs.CL",
+    "published": "2026-06-23",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "How precisely can we tell a language model how to feel? Most work on emotional generation answers with a discrete label - happy, angry, sad - which cannot express a target like \"mildly downcast but calm.\" We instead specify the desired affect as a continuous point (v*, a*) in the Valence-Arousal plane and train the model to hit it. Our method, VA-DPO, is a small modification to Direct Preference Optimization: a frozen VA regressor scores each sampled generation by its Euclidean distance to the target, we keep only candidate pairs whose distance gap clears a margin tau, and we optimize a LoRA adapter with the ordinary DPO loss against a frozen reference. The DPO objective itself is unchanged; what is new is how the preference data is built. On Llama-3.1-8B-Instruct this cuts mean VA distance to the target by 33% over system-prompting and 25% over few-shot prompting, lifting valence/arousal correlation to r_v=0.93 and r_a=0.75. The gains carry over to Qwen3-8B and Llama-3.2-3B, and they do not come at the usual price: MMLU is unchanged (Delta=+0.0) and HellaSwag and TruthfulQA are preserved. We release the code, configs, and the preference-construction pipeline.",
+    "tier": "none",
+    "title": "VA-DPO: Valence-Arousal Direct Preference Optimization for Controllable Emotion Generation in Language Models",
+    "track": "",
+    "updated": "2026-06-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20374v1"
    }
   },
   "Text Quality Evaluation": {
@@ -26188,6 +26456,7 @@
      "Lars Olds",
      "Claire Campbell",
      "David Fagnan",
+     "Ratna Kavuri",
      "Veli Balin",
      "Rohan Gosain",
      "Louis Garcia",
@@ -26202,7 +26471,7 @@
      "llm-as-a-judge",
      "rubric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.18300v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18300v2",
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
@@ -26218,12 +26487,12 @@
     "tier": "none",
     "title": "The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations",
     "track": "",
-    "updated": "2026-08-18",
+    "updated": "2026-08-20",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.18300v1"
+    "version": "2608.18300v2"
    },
    "2608.18303": {
     "abs_url": "https://arxiv.org/abs/2608.18303",
@@ -26409,6 +26678,117 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.19802v1"
+   },
+   "2608.20521": {
+    "abs_url": "https://arxiv.org/abs/2608.20521",
+    "authors": [
+     "Praveen Pathak",
+     "Siddharth Tiwary",
+     "Charudatt Kadolkar",
+     "Vijay Singh",
+     "David Rakestraw",
+     "Shirish Pathare",
+     "Anwesh Mazumdar"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-24",
+    "id": "2608.20521",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20521v1",
+    "primary_category": "physics.ed-ph",
+    "published": "2026-08-20",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multimodal AI can read handwritten physics solutions, but high-stakes grading requires agreement with official scores and outcomes. This study evaluated GPT-5.5-based grading on 10364 scanned pages from 520 handwritten submissions by 416 unique candidates or students across three assessments: a national Physics Olympiad theory examination, the final Olympiad selection camp with theory and experiment components, and a university quantum-mechanics examination. Each submission was graded twice by AI using the official rubrics. The second round used revised page-by-page and evidence-location instructions developed after first-round disagreement analysis. During grading, AI did not see official human marks or AI--human comparisons. Total-score correlations with official marks were high (0.91--0.97). For the final Olympiad selection, AI recovered the same five-student team as official grading. The second round improved aggregate question-part agreement, especially where first-round disagreements were larger. The main difficulty remained exact partial-credit grading, especially in experimental work. Reliable AI grading therefore depends on detailed rubrics and should be used as a second reader or audit tool under examiner control.",
+    "tier": "none",
+    "title": "Large Scale AI Grading of Handwritten Physics Assessments: Score Agreement and Olympiad Team Selection Outcomes",
+    "track": "",
+    "updated": "2026-08-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20521v1"
+   },
+   "2608.20964": {
+    "abs_url": "https://arxiv.org/abs/2608.20964",
+    "authors": [
+     "Sami Shames El Deen",
+     "Mariette Awad"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-24",
+    "id": "2608.20964",
+    "journal_ref": "",
+    "matched": [
+     "evaluation metric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20964v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-21",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "In this research, we introduce SAraBERT, an enhanced version of AraBERT which proposes inter-sentence transformer layers for extractive summarization tasks. To ensure that the summaries generated by SAraBERT achieve a high coverage of the document's main ideas, we propose Semantic Siamese Similarity, a novel evaluation metric that measures the level of similarity between two text inputs. We validated using BLEU, ROUGE, and Semantic Siamese similarity on Sarabert and published related models. Simulation results showed the effectiveness of our proposed model and motivate follow on research.",
+    "tier": "none",
+    "title": "Extractive Summarization for Arabic Documents Using SAraBERT with a Semantic Siamese Similarity Evaluation Metric",
+    "track": "",
+    "updated": "2026-08-21",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20964v1"
+   },
+   "2608.21057": {
+    "abs_url": "https://arxiv.org/abs/2608.21057",
+    "authors": [
+     "Emma Granqvist",
+     "Rocío Mercado",
+     "Samuel Genheden"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-24",
+    "id": "2608.21057",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.21057v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-21",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Agentic large language model (LLM) systems are reshaping scientific workflows in chemistry and drug discovery, but evaluating their open-ended, tool-augmented outputs remains a fundamental bottleneck. Reference-based metrics such as BLEU and ROUGE fail to capture semantic correctness, while expert human evaluation does not scale to the iteration speed these systems demand. The LLM-as-a-Judge paradigm has emerged as a scalable alternative, but existing drug discovery benchmarks deploy LLM judges without validating their alignment with human experts. In this work, we present an LLM-as-a-Judge evaluation framework for ChatInvent, an agentic drug discovery assistant deployed at AstraZeneca, with four contributions. First, we define four output-quality evaluation dimensions---Completeness, Relevancy, Structural Clarity, and Scope Adherence---alongside deterministic Tool Call Correctness checks. Second, we validate the judge through a human alignment study with five expert annotators, comparing Gemini 3.1 Pro, Claude Opus 4.7, GPT-5, and Llama 3.1 70B as candidate judges. Third, we optimize the best-performing judge using few-shot demonstrations of human-annotated examples, improving alignment with the human majority vote from 0.80 to 0.86. Fourth, applying the optimized judge to 70 held-out questions, we surface concrete limitations and find that informal phrasings do not systematically degrade output quality; if anything, it is helpful to have the LLM rewrite the original question before querying the agent. Our framework provides a reusable template for human-aligned evaluation of agentic systems in scientific domains.",
+    "tier": "none",
+    "title": "Designing a Robust LLM-Based Evaluation System for Agentic AI in Drug Discovery Through Human Alignment",
+    "track": "",
+    "updated": "2026-08-21",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.21057v1"
    }
   },
   "Writing Agent": {
@@ -32506,6 +32886,116 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.19297v1"
+   },
+   "2608.20359": {
+    "abs_url": "https://arxiv.org/abs/2608.20359",
+    "authors": [
+     "Ravisri Valluri",
+     "Tung Nguyen",
+     "Aditya Grover"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-24",
+    "id": "2608.20359",
+    "journal_ref": "",
+    "matched": [
+     "long-form generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20359v1",
+    "primary_category": "cs.CL",
+    "published": "2026-06-17",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) are deployed for increasingly complex tasks involving planning and multi-step decision making, but high-quality performance on these tasks often requires generating long reasoning traces. This is a poor fit for latency-sensitive and interactive applications like voice assistants or coding agents, where generation latency can strongly affect user experience. Existing acceleration methods typically focus on token-level generation, without utilizing the structure of reasoning workflows. We introduce SSR: Self-Speculation for Reasoning Models, a training-free self-speculative decoding method that leverages the chain-of-thought (CoT) as a source of speculation. SSR uses the partial-CoT answer distribution as the drafter and the full-CoT distribution as the verifier, deriving both from the same model at different reasoning budgets. This builds on the observation that later partial-CoT responses often exhibit greater semantic and lexical overlap with the full-budget response. Due to this overlap, SSR can accept long draft prefixes at once, leading to large speedups on structured and long-form generation tasks. To further exploit draft-response overlap beyond the contiguous prefix accepted by standard speculative decoding, SSR also incorporates suffix decoding, using the draft to seed a suffix cache and recover useful spans beyond the accepted prefix, further reducing latency on tasks with high lexical overlap between the draft and the final response. We evaluate SSR on multiple structured and long-form generation tasks where it is most useful, and demonstrate a relative improvement of up to 24.1% on total generation latency for popular open-source models such as Qwen3.5 and Gemma-4.",
+    "tier": "none",
+    "title": "Self-Speculation for Faster Reasoning Models",
+    "track": "",
+    "updated": "2026-06-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20359v1"
+   },
+   "2608.20378": {
+    "abs_url": "https://arxiv.org/abs/2608.20378",
+    "authors": [
+     "Md. Hasib Ur Rahman"
+    ],
+    "code_url": "",
+    "comment": "5 pages, 3 figures. Accepted at the 2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN)",
+    "first_seen": "2026-08-24",
+    "id": "2608.20378",
+    "journal_ref": "Proc. 2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), 2026",
+    "matched": [
+     "creative writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20378v1",
+    "primary_category": "cs.AI",
+    "published": "2026-06-27",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [
+      "Conference"
+     ],
+     "venue": "2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN)",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This study demonstrates that this architectural disconnect leaves models vulnerable to Semantic Camouflage -- adversarial attacks that wrap harmful intent in benign narrative contexts (e.g., creative writing), effectively bypassing standard input and output guardrails. By analyzing the latent activation trajectories of three distinct Small Language Model (SLM) families (Phi-3, Qwen2.5, and Gemma-2b) under adversarial stress, this research identifies a universal ``Intent Horizon'' -- a critical depth (typically 15--20\\% of total layers) where the model's distinct, pre-trained representation of harmful intent collapses as it contextualizes the query into a ``safe'' narrative. Results indicate that while late-layer representations of camouflaged attacks are mathematically indistinguishable from safe queries (Detection Rate $< 20\\%$), early-layer representations retain a distinct, detectable ``harm signature.'' Leveraging this insight, this paper proposes Latent Intent Verification (LIV), a lightweight probing defense. Experiments on the PKU-SafeRLHF dataset demonstrate that LIV outperforms standard guardrails by a margin of 20--50\\% across all tested architectures, effectively neutralizing zero-day semantic attacks without requiring model retraining.",
+    "tier": "none",
+    "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+    "track": "",
+    "updated": "2026-06-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20378v1"
+   },
+   "2608.20927": {
+    "abs_url": "https://arxiv.org/abs/2608.20927",
+    "authors": [
+     "Ziwu Liu",
+     "Guozhong Li",
+     "Chen Qiu",
+     "Weiyang Kong",
+     "Panos Kalnis"
+    ],
+    "code_url": "",
+    "comment": "26 pages, 12 figures",
+    "first_seen": "2026-08-24",
+    "id": "2608.20927",
+    "journal_ref": "",
+    "matched": [
+     "long-form generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.20927v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-21",
+    "s2": {
+     "checked": "2026-08-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Cross-model latent guidance lets a frozen large mentor encode an input once and a frozen small student generate from the resulting signal. Existing methods keep this signal fixed, assuming it stays useful as the output grows; we show this fails in long-form generation. On multi-turn instruction following, static guidance pushes a 4B student's constraint satisfaction 2.5 points below its no-guidance baseline; a training-free refresh every 16 tokens changes only the memory content and restores a 2.0-point gain over that baseline. We propose MentorPulse to keep guidance fresh at practical cost: it compresses mentor states into a capped slot memory, incrementally processes newly generated tokens, and updates the memory that the student reads through gated cross-attention without resetting the student's KV cache. Windowed Refresh Training exposes the bridge to prefix-conditioned memory. Across thirteen datasets, MentorPulse closes 52.2% of the mentor-student gap on macro average, outperforming C2C, T2T, and equal-budget LoRA, with the largest gains on long outputs. It performs best on all eleven mentor-student pairs from three model families, with margins that narrow as the capability gap grows, and a lightweight read-pattern check predicts the gain before deployment. Measured costs identify refresh intervals that dominate text guidance on long outputs.",
+    "tier": "none",
+    "title": "MentorPulse: Refreshing Cross-Model Latent Guidance for Long-Form Generation",
+    "track": "",
+    "updated": "2026-08-21",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.20927v1"
    }
   }
  }
