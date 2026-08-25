@@ -9,12 +9,12 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-08-24** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-08-25** (UTC).
 Back to the [main page](../README.md).
 
-129 of 789 papers carry venue evidence.
+136 of 819 papers carry venue evidence.
 
-## Top-tier venues (66)
+## Top-tier venues (69)
 
 ### ACL (25)
 
@@ -46,13 +46,14 @@ Back to the [main page](../README.md).
 |**2025-02-25**|KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis|ACL 2025|Korean Writing & NLP|[2503.00032](https://arxiv.org/abs/2503.00032)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### ICML (10)
+### ICML (11)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-08-08**|Persistent Semantic Entities in Tool-Augmented LLM Systems|ICML 2026|Self-Refine & Self-Correction|[2608.07952](https://arxiv.org/abs/2608.07952)|
 |**2026-07-20**|ST-Veto: Spatio-Temporal Token Veto for Diffusion MLLMs via Taylor Prediction and Visual Grounding|ICML 2026|Self-Refine & Self-Correction|[2607.17884](https://arxiv.org/abs/2607.17884)|
 |**2026-07-04**|Evaluating LLM Uncertainty in Long-Form Generation Using Deterministic Ground Truth|ICML 2026|Writing Agent|[2607.03870](https://arxiv.org/abs/2607.03870)|
+|**2026-07-01**|LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform|ICML 2026|Synthetic Preference Data, Text Quality Evaluation|[2608.21374](https://arxiv.org/abs/2608.21374)|
 |**2026-06-07**|Inference-Time Conformal Reasoning with Valid Factuality Control for Large Language Models|ICML 2026|Search & Control for Generation|[2606.08831](https://arxiv.org/abs/2606.08831)|
 |**2026-06-02**|Building Reliable Long-Form Generation via Hallucination Rejection Sampling|ICML 2026|Writing Agent|[2606.03628](https://arxiv.org/abs/2606.03628)|
 |**2026-05-31**|From Reward-Free Representations to Preferences: Rethinking Offline Preference-Based Reinforcement Learning|ICML 2026|Synthetic Preference Data|[2606.01123](https://arxiv.org/abs/2606.01123)|
@@ -61,10 +62,12 @@ Back to the [main page](../README.md).
 |**2026-05-28**|Learning Context-Conditioned Predicate Semantics via Prototype Feedback|ICML 2026|Semantic Drift & Faithfulness|[2605.29610](https://arxiv.org/abs/2605.29610)|
 |**2026-04-27**|Large Language Models Explore by Latent Distilling|ICML 2026|Writing Agent|[2604.24927](https://arxiv.org/abs/2604.24927)|
 
-### EMNLP (7)
+### EMNLP (9)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-08-24**|Language Chain in Alignment: Cross-Lingual Ranking Preference Optimization|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2608.23149](https://arxiv.org/abs/2608.23149)|
+|**2026-08-23**|Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs|EMNLP 2026|Semantic Drift & Faithfulness|[2608.22367](https://arxiv.org/abs/2608.22367)|
 |**2026-07-17**|TD-DPO: Difference-Aware Preference Optimization for Mitigating Sycophancy in Clinical Autism Intervention Dialogue|EMNLP 2026|Reward & Value Models|[2607.18304](https://arxiv.org/abs/2607.18304)|
 |**2026-05-19**|When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation|EMNLP 2026|Writing Agent|[2605.20364](https://arxiv.org/abs/2605.20364)|
 |**2025-09-30**|Efficient Layer-wise LLM Fine-tuning for Revision Intention Prediction|EMNLP 2025|Iterative Revision & Text Editing|[2510.00268](https://arxiv.org/abs/2510.00268)|
@@ -178,7 +181,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-04-17**|From Intention to Text: AI-Supported Goal Setting in Academic Writing|AIED 2026|Writing Agent|[2604.15800](https://arxiv.org/abs/2604.15800)|
 
-## Findings tracks (12)
+## Findings tracks (15)
 
 ### ACL (10)
 
@@ -195,10 +198,13 @@ Back to the [main page](../README.md).
 |**2026-03-24**|Polaris: A Gödel Agent Framework for Small Language Models through Experience-Abstracted Policy Repair|ACL 2026 (findings)|Writing Agent|[2603.23129](https://arxiv.org/abs/2603.23129)|
 |**2024-06-13**|Deep Exploration of Cross-Lingual Zero-Shot Generalization in Instruction Tuning|ACL 2024 (findings)|Korean Writing & NLP|[2406.08796](https://arxiv.org/abs/2406.08796)|
 
-### EMNLP (2)
+### EMNLP (5)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-08-24**|DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation|EMNLP 2026 (findings)|Reward & Value Models|[2608.22806](https://arxiv.org/abs/2608.22806)|
+|**2026-08-24**|LITERARYBIGFIVE: Author-Personalized Text Generation in a Unified Interpretable Space|EMNLP 2026 (findings)|Writing Agent|[2608.23124](https://arxiv.org/abs/2608.23124)|
+|**2026-08-23**|ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation|EMNLP 2026 (findings)|Text Quality Evaluation|[2608.22559](https://arxiv.org/abs/2608.22559)|
 |**2022-05-20**|Translating Hanja Historical Documents to Contemporary Korean and English|EMNLP 2022 (findings)|Korean Writing & NLP|[2205.10019](https://arxiv.org/abs/2205.10019)|
 |**2019-12-01**|Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives|EMNLP 2020 (findings)|Korean Writing & NLP|[1912.00342](https://arxiv.org/abs/1912.00342)|
 
@@ -322,10 +328,16 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2023-10-06**|KoMultiText: Large-Scale Korean Text Dataset for Classifying Biased Speech in Real-World Online Services|NeurIPS 2023 (workshop)|Korean Writing & NLP|[2310.04313](https://arxiv.org/abs/2310.04313)|
 
-## Demo tracks (1)
+## Demo tracks (2)
 
 ### ACL (1)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-06-07**|PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf|ACL 2026 (demo)|Writing Agent|[2606.08857](https://arxiv.org/abs/2606.08857)|
+
+### EMNLP (1)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-08-24**|Jiuge-Tuiqiao: An Interpretable Human-AI System for Classical Chinese Poetry Refinement|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2608.23098](https://arxiv.org/abs/2608.23098)|
