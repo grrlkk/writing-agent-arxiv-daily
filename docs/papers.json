@@ -1,25 +1,25 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 66,
+   "Iterative Revision & Text Editing": 67,
    "Korean Writing & NLP": 67,
-   "Reward & Value Models": 128,
-   "Search & Control for Generation": 69,
-   "Self-Refine & Self-Correction": 85,
-   "Semantic Drift & Faithfulness": 74,
-   "Synthetic Preference Data": 84,
-   "Text Quality Evaluation": 129,
-   "Writing Agent": 156
+   "Reward & Value Models": 139,
+   "Search & Control for Generation": 71,
+   "Self-Refine & Self-Correction": 89,
+   "Semantic Drift & Faithfulness": 76,
+   "Synthetic Preference Data": 91,
+   "Text Quality Evaluation": 139,
+   "Writing Agent": 157
   },
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "venue_tiers": {
    "demo": 2,
-   "findings": 15,
-   "none": 683,
+   "findings": 17,
+   "none": 706,
    "other": 14,
    "strong": 9,
-   "top": 69,
-   "workshop": 27
+   "top": 73,
+   "workshop": 29
   }
  },
  "topics": {
@@ -2703,6 +2703,43 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2608.23098v1"
+   },
+   "2608.23956": {
+    "abs_url": "https://arxiv.org/abs/2608.23956",
+    "authors": [
+     "Shengxin Zhang",
+     "Xiaomin Wu",
+     "Xiyang Wu",
+     "Jing Xie"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.23956",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23956v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Test-time reasoning methods such as iterative refinement, decomposition, and repeated sampling are often evaluated in isolation, making their gains difficult to compare across models, benchmarks, and evaluation pipelines. We introduce a unified view of these methods as recursion operators over an agent's reasoning trace: GROW, which deepens a single reasoning path; PRUNE, which decomposes and recomposes the problem; and BRANCH, which samples alternative reasoning paths and selects among them. We evaluate all three operators against a single-pass chain-of-thought baseline under a shared harness with identical prompts, token budgets, and grading code. Across five benchmarks and three frontier models, comprising 14 model-benchmark settings, 49,327 graded items, and 151,876 model calls, BRANCH improves accuracy in all 14 settings by an average of 5.98 percentage points and is the best-performing operator in 12. In contrast, GROW yields a mean gain of 2.18 points and degrades performance in two settings, while PRUNE improves accuracy by 0.94 points on average. Analysis shows that BRANCH's advantage arises not only from exploring multiple reasoning paths, but also from recovering from truncation: its gains strongly correlate with the baseline rate of empty, budget-exhausted outputs (r = 0.72). These results weaken the hypothesis that different problems require routing among test-time reasoning operators; at this level of abstraction, repeated branching is consistently dominant. Finally, we show that unpaired evaluation and treating scoring-pipeline failures as model errors can materially change, and even reverse, comparative conclusions, motivating paired scoring as a standard protocol for test-time-compute evaluation.",
+    "tier": "none",
+    "title": "Recursive Agentic Reasoning",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.23956v1"
    }
   },
   "Korean Writing & NLP": {
@@ -8365,15 +8402,15 @@
      "Chengcheng Wang",
      "Shaohua Wan"
     ],
-    "code_url": "",
-    "comment": "7 pages, 3 figures, 4 tables",
+    "code_url": "https://github.com/XuPeng23/AeroDPO",
+    "comment": "7 pages, 3 figures, 4 tables, Code is available at: [https://github.com/XuPeng23/AeroDPO]",
     "first_seen": "2026-08-19",
     "id": "2608.07557",
     "journal_ref": "",
     "matched": [
      "preference optimization"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.07557v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07557v2",
     "primary_category": "cs.RO",
     "published": "2026-08-02",
     "s2": {
@@ -8387,12 +8424,12 @@
     "tier": "none",
     "title": "AeroDPO: Unleashing Lightweight UAV Navigation with High-Fidelity Perception and Automated Preference Optimization",
     "track": "",
-    "updated": "2026-08-02",
+    "updated": "2026-08-25",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.07557v1"
+    "version": "2608.07557v2"
    },
    "2608.08008": {
     "abs_url": "https://arxiv.org/abs/2608.08008",
@@ -10580,6 +10617,453 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2608.23149v1"
+   },
+   "2608.23632": {
+    "abs_url": "https://arxiv.org/abs/2608.23632",
+    "authors": [
+     "Idris Nechnech",
+     "Sehwan Kim",
+     "Jimin Seo",
+     "Yeongoon Kim",
+     "Minhae Oh",
+     "Sangwoo Hong",
+     "Jungwoo Lee"
+    ],
+    "code_url": "https://github.com/inechnech/STEP-KTODER",
+    "comment": "20 pages, 8 figures, 14 tables. Accepted to Findings of the Association for Computational Linguistics: EMNLP 2026",
+    "first_seen": "2026-08-26",
+    "id": "2608.23632",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23632v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-23",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, however, process supervision remains underexplored because there is no standard notion of a step. Supervision can target lines, reasoning traces, or program states, making it unclear what to label and optimize. We propose STEP-KTODER, a framework for code preference optimization that defines steps as module-level functions in decomposed multi-function programs and assigns binary correctness labels via automatically generated unit tests. Our method provides a code-specific instantiation of stepwise KTO, combining function-level process supervision with outcome-level feedback on the full program. We evaluate on HumanEval(+), MBPP(+), BigCodeBench, and LiveCodeBench, showing that STEP-KTODER improves over outcome-only KTO and DPO. Further analysis shows that execution-based labels are essential: LLM-as-a-judge annotations systematically over-predict function failures, corrupt positive step labels, and degrade downstream preference optimization. Code is available at: https://github.com/inechnech/STEP-KTODER.",
+    "tier": "findings",
+    "title": "Function-Level Execution Feedback for Code Preference Optimization",
+    "track": "findings",
+    "updated": "2026-08-23",
+    "venue": "EMNLP",
+    "venue_evidence": "20 pages, 8 figures, 14 tables. Accepted to Findings of the Association for Computational Linguistics: EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.23632v1"
+   },
+   "2608.24135": {
+    "abs_url": "https://arxiv.org/abs/2608.24135",
+    "authors": [
+     "Yiwen Zhang",
+     "Xiaodong Yan",
+     "Zhenyu Huang",
+     "Deng Zhao",
+     "Liang Jiang",
+     "Qing Cui",
+     "Zujie Wen",
+     "Zhiqiang Zhang",
+     "Jun Zhou"
+    ],
+    "code_url": "",
+    "comment": "Accepted by EMNLP 2026",
+    "first_seen": "2026-08-26",
+    "id": "2608.24135",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24135v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Reinforcement learning from verifiable rewards (RLVR) has emerged as a pivotal technique for enhancing the code generation capabilities of Large Language Models (LLMs). However, the efficacy of RLVR in coding implementations is fundamentally limited by the comprehensiveness of test cases, because insufficient test coverage in code validation often causes false positives, further leading to reward hacking and policy degradation. To mitigate the reward bias stemming from the suboptimal quality of current automated generation methods, we propose the RobustTests framework, which introduces a faulty-code-driven test case synthesis strategy that leverages \"near correct\" faulty codes to guide the model in precisely capturing latent logical discrepancies and further integrates validator agents with behavioral feature clustering to facilitate the granular filtering of invalid and redundant test cases. To address false negatives caused by inherent hallucination noise in synthetic test cases, RobustTests also incorporates a stepwise dense reward function based on pass rates, bolstering training robustness through fine-grained feedback. By employing this pipeline, we construct a high-quality dataset that augmented the test cases in CodeContests, encompassing a broader spectrum of faulty code scenarios and significantly enhances diagnostic utility. Experimental results demonstrate that, by leveraging a moderately challenging subset of problems from CodeContests for training, RL fine-tuning of Qwen3-32B via RobustTests achieves an absolute 3% performance gain on the LiveCodeBench benchmark compared to baseline methods, confirming the effectiveness of the RobustTests framework in advancing the code generation proficiency of LLMs.",
+    "tier": "top",
+    "title": "Robust Code RL via Faulty-Code-Driven Test case Synthesis and Dense Reward Shaping",
+    "track": "main",
+    "updated": "2026-08-25",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted by EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.24135v1"
+   },
+   "2608.24163": {
+    "abs_url": "https://arxiv.org/abs/2608.24163",
+    "authors": [
+     "Haoyang Li",
+     "Chenglin Xu",
+     "Junchuan Zhao",
+     "Yuang Cao",
+     "Liumeng Xue",
+     "Yiwen Guo",
+     "Eng Siong Chng"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24163",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24163v1",
+    "primary_category": "eess.AS",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Non-verbal vocalizations (NVs), such as laughter, coughs, and sighs, are essential for expressive TTS, but the effectiveness of preference optimization for NV generation remains poorly understood. We systematically study preference optimization for NV-capable TTS, focusing on preference signals, preference-pair construction, and DPO-based optimization objectives. We formulate an NV-aware character error rate (NV-CER) by treating NV tags as distinct output symbols and computing a weighted pinyin-based CER over both verbal and non-verbal content, enabling controllable optimization of NV realization without modifying the underlying optimization algorithm. Experiments on Emilia-NV and the augmented NV-Bench covering 18 NV types reveal how different design choices affect NV realization and lexical fidelity, and establish an effective setup using standard DPO. Objective, LLM-based, and human evaluations provide converging evidence for our findings, offering practical insights into NV-aware post-training for expressive TTS.",
+    "tier": "none",
+    "title": "Preference Optimization for Non-Verbal Vocalization Synthesis",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24163v1"
+   },
+   "2608.24174": {
+    "abs_url": "https://arxiv.org/abs/2608.24174",
+    "authors": [
+     "Tao Xiong",
+     "Xavier Hu",
+     "Wenkai Wang",
+     "Qinzhuo Wu",
+     "Changqiao Wu",
+     "Pengzhi Gao",
+     "Wei Liu",
+     "Jian Luan",
+     "Shengyu Zhang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24174",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "outcome reward model",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24174v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Recent studies on GUI agents have increasingly focused on outcome reward modeling, which assigns outcome rewards by judging whether an executed trajectory satisfies the success criteria implied by the user instruction. Existing GUI reward verifiers, however, often under-specify how these criteria should be constructed for each task instance. Whether using generic rubric structures or implicit model reasoning, their judging criteria are not sufficiently task-adaptive: they can transfer checks across tasks, overlook concrete constraints in the current instruction, or become overly strict by enforcing unstated requirements. To address this limitation, we propose AdaptRubric, a Coarse-to-Fine Rubrics Framework that constructs task-adaptive judging criteria through a category-level coarse stage and an instance-level fine stage. AdaptRubric performs category-level coarse rubric retrieval by routing the instruction to a GUI task family and retrieving reusable task-family criteria, then conducts instance-level fine rubric generation to surface compact cues for concrete values, scopes, and constraints in the current instruction. Across offline reward evaluation and online reinforcement learning optimization, AdaptRubric consistently outperforms prior reward agents, improving F1 by 3.6 points over the baseline average under a matched image budget and yielding a 4.23-point task-success gain.",
+    "tier": "none",
+    "title": "Task-Adaptive Rubrics for GUI Reward Modeling",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24174v1"
+   },
+   "2608.24192": {
+    "abs_url": "https://arxiv.org/abs/2608.24192",
+    "authors": [
+     "Minsu Kim",
+     "Jianxun Lian",
+     "Xing Xie",
+     "Steven Euijong Whang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24192",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24192v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Aligning large language models to human preferences is crucial for real-world deployment but frequently incurs an alignment tax, leading to the catastrophic forgetting of pre-trained general capabilities. While previous works primarily frame this problem as an optimization or architectural challenge, the inherent characteristics of preference data that drive this degradation remain largely underexplored. In this paper, we propose BALIGN, a balanced data selection strategy that explicitly mitigates catastrophic forgetting while optimizing alignment efficacy. Through theoretical and empirical analyses of the preference optimization gradient, we identify three key data-centric features that dictate parameter drift: the reference model's log-probability margin, the token length difference between chosen and rejected responses, and the TF-IDF similarity to general capability corpora. By aggregating these orthogonal features into a unified composite risk score, BALIGN systematically filters out high-risk preference samples that disrupt intrinsic model parameters or provide minimal alignment utility. Extensive experiments on standard human preference datasets demonstrate that BALIGN strongly preserves foundational capabilities without compromising alignment gains, consistently achieving the optimal Pareto frontier with minimal computational overhead.",
+    "tier": "none",
+    "title": "Preference Data Selection for Mitigating the Alignment Tax in Large Language Models",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24192v1"
+   },
+   "2608.24231": {
+    "abs_url": "https://arxiv.org/abs/2608.24231",
+    "authors": [
+     "Kaiyuan Liu",
+     "Ziyuan Zhuang",
+     "Rongxiang Weng",
+     "Jieping Ye"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24231",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24231v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-as-judge is essential for evaluating open-ended text and steering post-training, yet improving the judge itself typically relies on expensive annotations, reward models, or distillation from stronger teachers. In this work, we eliminate external gold supervision from the RL training reward: the model's own evaluative capability generates learning signals for its optimization -- a closed-loop setting of bounded recursive self-improvement (RSI) termed Recursive Self-Evaluation (RecurSE). We study two central questions: when can self-improvement occur, and when must it stop? First, RecurSE pairs a trainable judge evaluating candidate responses under per-rule rubrics (Pass 1) with a synchronized policy-copy checker that audits the judge's reasoning against meta-rubrics to supply a scalar process reward (Pass 2). To enable learning, interface decoupling structurally isolates the checker's scalar score from the judge's verdict tokens, eliminating a degenerative token-copying shortcut that inflates self-assigned rewards. Second, because unanchored recursive learning is inherently bounded, Pairwise Advantage Validity (PAV) serves as an unbiased validation monitor that jointly tracks judge accuracy and checker fidelity to reliably identify the optimal early-stopping window. Across Qwen3.5-9B, Gemma-4-E4B-it, and Qwen3.6-27B, RecurSE achieves consistent generalization gains across held-out medical, pairwise, summarization, and professional benchmarks. Ablations demonstrate that synchronized judge-checker co-evolution outperforms frozen checkers, external meta-judges, self-consistency, and scaled teacher distillation. Furthermore, preference pairs curated by our judge effectively enhance downstream policy alignment. Bounded RSI for LLM-as-judge is thus viable when self-produced reward validity is explicitly decoupled and monitored.",
+    "tier": "none",
+    "title": "RecurSE: Bounded Recursive Self-Evaluation for LLM Rubric Judges",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24231v1"
+   },
+   "2608.24338": {
+    "abs_url": "https://arxiv.org/abs/2608.24338",
+    "authors": [
+     "Sophia Xiao Pu",
+     "Yumo Xu",
+     "Sailik Sengupta",
+     "Millennium Bismay",
+     "Ruixue Lian",
+     "James Gung",
+     "Yi-an Lai",
+     "Arshit Gupta"
+    ],
+    "code_url": "",
+    "comment": "Large Language Model, Test-Time Decoding Technique, Reasoning, 20 pages; Submitted to ARR",
+    "first_seen": "2026-08-26",
+    "id": "2608.24338",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24338v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Inference-time decoding methods improve LLM reasoning by exploring multiple candidate trajectories, yet treat each trajectory as atomic: either retaining it whole or discarding it irreversibly. This wastes computation on partially promising candidates whose high-quality prefixes are abandoned alongside degraded suffixes. We introduce Selective Regenerative Decoding (SRD), which routes each candidate to discard, keep, or refine only the degraded portion of the suffix while preserving the useful prefix of borderline candidates, without requiring a larger target model. Under mild assumptions, SRD achieves a provable 1.28-to-1.36-fold gain in sample efficiency over rejection sampling with strictly higher expected trajectory quality, with the gain growing as the candidate pool grows. Across MATH500, GPQA Diamond, HotpotQA, and AlpacaEval with multiple generation-reward model pairs, SRD matches Best-of-N accuracy with substantially fewer generated tokens and outperforms speculative rejection in low-compute regimes. By enabling segment-level intervention rather than whole-trajectory selection, SRD opens a previously underexplored region of the accuracy-compute tradeoff for inference-time reasoning.",
+    "tier": "none",
+    "title": "Selective Regenerative Decoding: Trajectory-Level Intervention for Inference-Time Reasoning",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24338v1"
+   },
+   "2608.24534": {
+    "abs_url": "https://arxiv.org/abs/2608.24534",
+    "authors": [
+     "Abdulhady Abas Abdullah",
+     "Erik Cambria",
+     "Milena Zivkovic"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24534",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24534v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Clinical LLMs can generate recommendations that are factually plausible yet physiologically unsafe. We investigate whether safety alignment can be improved by grounding preference optimization in structured physiological knowledge rather than text-only supervision. Methods: We propose Neurosymbolic Alignment, a training-time framework that couples a 7B clinical LLM with an HGNN-based Physiological World Model over an 847K-node biomedical knowledge graph. Candidate responses are scored using homeostatic constraints, multi-hop path plausibility, and drug-interaction penalties, and the resulting rankings drive iterative on-policy ORPO updates. Evaluation is performed on the Clinical Safety Benchmark (CSB), a 2,500-scenario benchmark for physiological constraint violations in generative clinical reasoning. Results: Relative to ORPO, the proposed method improves CSS from 69.5% to 90.8% (+21.3 pp), reduces physician-evaluated HR from 14.1% to 5.1% on the blinded subset, and improves DID from 72.8% to 91.6%. These gains are corroborated by an HGNN-independent Rule-Engine Safety Score (RSS: 86.4%, +21.2 pp over ORPO; r=0.97 concordance with CSS). The method also exceeds GPT-4 (5-shot) on all safety metrics despite a 10x parameter disadvantage, and outperforms an inference-time self-correction pipeline (SFT+SelfCorrect) by 11.4 pp CSS. Under synthetic EHR-style noise, 84.2% CSS is retained. Ablation analysis shows that HGNN scoring (-16.2 pp) and iterative training (-11.5 pp) are the dominant contributors. PhysioScore calibration against 200 clinician labels yielded ECE = 0.038 and kappa = 0.91. Conclusion: Training-time physiological grounding produces measurable and independently verifiable safety improvements in open-weight clinical LLMs under controlled evaluation. External validation on real clinical data is required to determine whether these gains transfer to deployment settings",
+    "tier": "none",
+    "title": "Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24534v1"
+   },
+   "2608.24730": {
+    "abs_url": "https://arxiv.org/abs/2608.24730",
+    "authors": [
+     "Zilong Huang",
+     "Junyi Peng",
+     "Junjie Li",
+     "Kai Li",
+     "Wenze Ren",
+     "Kong Aik Lee",
+     "Man-Wai Mak",
+     "Tatsuya Kawahara"
+    ],
+    "code_url": "https://github.com/slash1028/EAPO-EmoPrefer",
+    "comment": "Accepted at ACM MM 2026 Workshop (MRAC '26)",
+    "first_seen": "2026-08-26",
+    "id": "2608.24730",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "preference learning",
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24730v1",
+    "primary_category": "cs.MM",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Emotion preference learning uses pairwise comparisons between candidate descriptions to align multimodal large language models (MLLMs) with human judgments of open-ended emotion descriptions and to train reward models that capture human emotional preferences. However, conventional pairwise supervision is often sparse, typically providing only a single negative description for each positive description, and therefore offers limited coverage of the diverse ways in which an emotion description can be incorrect. In particular, models may be insufficiently exposed to semantically fluent but emotionally inconsistent descriptions. Beyond this data-level limitation, relying on a single MLLM judge introduces a distinct model-level concern: its judgments can be affected by model-specific biases when interpreting fine-grained or ambiguous multimodal emotional cues. To address these limitations, we propose Error-Augmented Preference Optimization (EAPO), a framework for improving the reliability of MLLM-based emotion preference judgment at both the data and model levels. First, we construct an error-augmented dataset by generating multiple controlled and emotion-aware negative descriptions from each preferred description. We then adapt multiple independent MLLM judges to this richer supervision and aggregate their preference margins using margin-calibrated soft fusion, which maps heterogeneous margins to a common scale before aggregation. Experiments on the MER2026-EmoPrefer Challenge dataset and our error-augmented dataset demonstrate that EAPO improves emotion preference prediction and enhances the robustness of MLLM judges when evaluating fluent descriptions that conflict with the video's multimodal emotional evidence. Our code is available at https://github.com/slash1028/EAPO-EmoPrefer.",
+    "tier": "workshop",
+    "title": "Learning to Prefer Reliably: Error-Augmented Emotion Preference Optimization with Calibrated Fusion",
+    "track": "workshop",
+    "updated": "2026-08-25",
+    "venue": "ACM MM",
+    "venue_evidence": "Accepted at ACM MM 2026 Workshop (MRAC '26)",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.24730v1"
+   },
+   "2608.24794": {
+    "abs_url": "https://arxiv.org/abs/2608.24794",
+    "authors": [
+     "Boyang Liu",
+     "Senjie Jin",
+     "Peixin Wang",
+     "Zhangyue Yin",
+     "Yibo Wang",
+     "Yuhao Zhou",
+     "Xinbing Liang",
+     "Shizheng Zhu",
+     "Yuhui Wang",
+     "Jingqi Tong",
+     "Zhiheng Xi",
+     "Jiazheng Zhang",
+     "Clive Bai",
+     "Clarenceai",
+     "Blaze Chen",
+     "Tao Gui",
+     "Qi Zhang",
+     "Xuanjing Huang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24794",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24794v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Outcome-supervised search agents learn when and how to retrieve evidence, but terminal rewards neither localize intermediate errors nor redirect an ongoing trajectory before those errors compound. Treating corrective feedback as a learned in-trajectory intervention couples the two roles: the agent must decide when to request and use feedback, while the critic must infer useful corrections from outcome-confounded rollouts whose failure patterns shift as the agent improves. We introduce CAFE (Coupled Agent--Feedback Evolution), a framework in which a shared-parameter model alternates between search-agent and critic roles. CAFE initializes feedback-conditioned recovery from trajectories built around the base agent's own failures, then couples online and offline optimization. During online RL, a comparative feedback estimate uses a prompt-level call--skip success gap to shape request returns, while feedback-aware advantage shaping reweights token advantages before and after feedback. Offline, rollout-derived preference optimization learns feedback from matched successful and unsuccessful trajectories. On seven agentic search benchmarks, CAFE outperforms the evaluated RL-based search agents on average, retains its gains across all six out-of-domain benchmarks, and reduces answer-level hallucinations. One-sided ablations show that improving only the agent or only the critic eventually plateaus, whereas alternating the two updates continues to improve performance. These findings suggest that a self-improving search agent needs feedback that co-evolves with the policy it guides.",
+    "tier": "none",
+    "title": "CAFE: Self-Improving Search Agents Need Co-Evolving Feedback",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24794v1"
+   },
+   "2608.24859": {
+    "abs_url": "https://arxiv.org/abs/2608.24859",
+    "authors": [
+     "Arthur Corrêa",
+     "Paulo Nascimento",
+     "Samuel Moniz"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24859",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24859v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multi-task vehicle routing problem (VRP) solvers seek to handle multiple VRP variants within a single unified model, avoiding the need to train a separate model for every variant. In spite of recent progress, current approaches remain limited on two fronts. On the training side, reinforcement learning suffers from reward-scale disparities and shrinking advantage signals as policies improve, whereas preference optimization stagnates once sampled tours become near-identical and thus fundamentally limited by the quality of the policy's own generated solutions, leaving both paradigms with weak supervision as training progresses. On the architecture side, existing fully shared encoders entangle constraint-dependent representations across heterogeneous variants, which limits generalization. We address these gaps with two model-agnostic contributions. First, we propose Preference Optimization with Locally Augmented Refinement (POLAR), a novel training algorithm that applies a local search refinement pass to the best decoded tour before forming preference pairs, yielding much more informative pairwise margins. Second, a Progressive Layered Extraction (PLE) encoder routes each encoder layer through one shared expert and a set of task-specific experts via a gating mechanism, progressively separating common routing structure from constraint-specific encodings. Through extensive experiments on various VRP variants, we show that POLAR and PLE together elevate the current state-of-the-art among neural multi-task solvers. We reduce the average gap to reference solutions by 21.3% relative to the strongest published baseline on 16 in-distribution variants, and outperform prior neural methods on 27 out of 32 unseen variants. Ablation studies confirm the efficacy of each contribution, showing that both improve cross-problem generalization across multiple backbone model architectures.",
+    "tier": "none",
+    "title": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24859v1"
    }
   },
   "Search & Control for Generation": {
@@ -13248,6 +13732,77 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.23264v1"
+   },
+   "2608.23623": {
+    "abs_url": "https://arxiv.org/abs/2608.23623",
+    "authors": [
+     "Jason Liu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.23623",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23623v1",
+    "primary_category": "cs.SE",
+    "published": "2026-08-22",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Tool-using agents must decide when to stop. Existing systems already gate terminal success, certify execution traces, or enforce runtime polici es, but do not test this particular receipt-, scope-, and closed-replay design at the COMPLETE boundary across controlled termination faults. W e instantiate and evaluate Evidence-Carrying Termination (ECT): an agent may return COMPLETE only when a typed certificate binds every required answer claim to valid, in-scope trace evidence and a deterministic replay reconstructs the claimed value. A locked static study crosses 48 ful ly synthetic tasks in six tool-use families with clean execution and eight faults. ECT produced 0/288 unsafe completions versus 252/288 for the inspected termination-critic core (difference -87.50 pp, 95% task-cluster interval [-87.50, -87.50] pp). A fresh, prespecified and frozen 576- trajectory study then compares ECT with the critic core, its faithful controller, and a full-trace LLM critic. On 22 primary held-out task clus ters, ECT produced 0/66 premature unsupported terminations versus 40/66 for the controller (difference -60.61 pp, 95% interval [-78.79, -40.91] pp), while supported completion was 97/132 versus 92/132 (difference 3.79 pp, interval [0.00, 9.09] pp), satisfying a -10-point noninferiority margin. ECT executed successful recovery in 18/66 trajectories, of which 17 subsequently completed with support; all three closed-loop gates p assed. ECT certifies support in a recorded trace under declared assumptions, not external truth, safety, or alignment.",
+    "tier": "none",
+    "title": "When May an Agent Stop? Evidence-Carrying Termination for Tool-Using LLMs",
+    "track": "",
+    "updated": "2026-08-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.23623v1"
+   },
+   "2608.24319": {
+    "abs_url": "https://arxiv.org/abs/2608.24319",
+    "authors": [
+     "Francisco M. Arrabal-Campos",
+     "Ignacio Fernandez",
+     "Francisco G. Montoya",
+     "Alfredo Alcayde"
+    ],
+    "code_url": "https://github.com/fmarrabal/miuracognitive",
+    "comment": "22 pages, 4 figures. Companion paper: \"Where Cognition Lives\" (arXiv:2608.22347). Code, preregistrations and results: https://github.com/fmarrabal/miuracognitive",
+    "first_seen": "2026-08-26",
+    "id": "2608.24319",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24319v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "An intelligent system does not merely reason: it governs its own reasoning - how much to compute, when to stop, which module to activate. Can that role be played by a dynamic internal field - a low-dimensional homeostatic state with explicit physics and certified stability - that modulates cognition without performing it? Ours is a field on the module graph governed by a family of PDEs on the graph Laplacian, advancing with an adaptive-depth reasoner. We certify the stability of the integrator of the whole family - an integrator certificate, not a closed-loop one. New, and proved here: a discrete Schur-Cohn criterion for Verlet with velocity coupling, necessary and sufficient per latent root, with no commutation hypothesis. The answer is threefold: substance no, structure only in part, certifiability yes. The type of the field's physics is irrelevant for accuracy: wave, diffusion, gated mixtures and a 2D Navier-Stokes substrate tie. A twenty-seed preregistered deconfounding campaign bounds the structural claim: at equalized caps the second-order effect is strong in one family (+0.087 [+0.042, +0.132], t=4.0) but is not detected in the other (+0.014 [-0.013, +0.040], n.s.), so part of the original contrast was capacity, not order; and a matched-interface GRU is indistinguishable in the first and nominally exceeds the field in the second (-0.035 [-0.067, -0.002]). What distinguishes the field is not capability but that its one-step operator admits an exact runtime stability check - a difference of kind, not of existence: learned recurrences carry certificates too, sufficient and conservative ones. A kill-gate with a positive control finds no evidence for the field as evidence accumulator (Delta AUC +0.0007 [-0.0065, +0.0079] vs a 0.03 threshold). A dynamic internal field is a viable, certifiable compute governor, but not an enhancer of cognition: it modulates, it does not think.",
+    "tier": "none",
+    "title": "Can a Dynamic Internal Field Govern a Transformer's Cognition? Certifiability, not Superiority, in Homeostatic Compute Control",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24319v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -16587,6 +17142,155 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.22090v1"
+   },
+   "2608.24103": {
+    "abs_url": "https://arxiv.org/abs/2608.24103",
+    "authors": [
+     "JooYoung Jang",
+     "Taegyeong Lee",
+     "Jihyeon Park",
+     "Nojun Kwak"
+    ],
+    "code_url": "",
+    "comment": "26 pages, 12 figures, EMNLP 2026 Industry Track (Main paper)",
+    "first_seen": "2026-08-26",
+    "id": "2608.24103",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24103v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Commercial design platforms increasingly edit documents through large language model (LLM) agents, but two practical problems block reliable deployment: legacy document formats expose only \\emph{flat}, absolutely positioned elements, so agents must recompute coordinates and routinely break layouts; and design has no unique ground truth, so diff-against-reference metrics penalize valid-but-different outputs. We present \\textbf{ACE}, an agentic canvas editor over a \\emph{hierarchical scene-graph} with a presentation-specialized action space (98 tools), paired with \\textbf{CARE}, a content-aware router that feeds the agent only the relevant slice of each deck (avg.\\ $\\sim$89\\% input-token reduction), and a \\emph{self-correction} loop driven by a \\emph{ground-truth-free} instruction-following (IF) judge whose natural-language critique is fed back as the next-turn instruction. With a fixed backbone, a scene-graph editor in a \\emph{single turn} already matches a same-backbone \\emph{agentic} HTML pipeline that iterates internally; adding self-correction lifts ACE significantly above it on instruction following (IF 4.23 vs.\\ 3.81 on the full 94-task benchmark, paired $p{=}.010$, replicated by an out-of-loop judge) at 1.75$\\times$ the speed and $\\sim$44\\% lower cost. VQ means are statistically indistinguishable, but 26 blind raters prefer ACE overall (58.7\\% decisive win-rate) and prefer the self-corrected output 81\\% of the time; the ranking is invariant across three judge families, and out-of-loop judges retain two-thirds of the self-correction gain, bounding circularity. 66\\% of cases halt after one pass, and a strict-peak rollback removes every observed regression.",
+    "tier": "top",
+    "title": "ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation",
+    "track": "main",
+    "updated": "2026-08-25",
+    "venue": "EMNLP",
+    "venue_evidence": "26 pages, 12 figures, EMNLP 2026 Industry Track (Main paper)",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.24103v1"
+   },
+   "2608.24231": {
+    "abs_url": "https://arxiv.org/abs/2608.24231",
+    "authors": [
+     "Kaiyuan Liu",
+     "Ziyuan Zhuang",
+     "Rongxiang Weng",
+     "Jieping Ye"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24231",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24231v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-as-judge is essential for evaluating open-ended text and steering post-training, yet improving the judge itself typically relies on expensive annotations, reward models, or distillation from stronger teachers. In this work, we eliminate external gold supervision from the RL training reward: the model's own evaluative capability generates learning signals for its optimization -- a closed-loop setting of bounded recursive self-improvement (RSI) termed Recursive Self-Evaluation (RecurSE). We study two central questions: when can self-improvement occur, and when must it stop? First, RecurSE pairs a trainable judge evaluating candidate responses under per-rule rubrics (Pass 1) with a synchronized policy-copy checker that audits the judge's reasoning against meta-rubrics to supply a scalar process reward (Pass 2). To enable learning, interface decoupling structurally isolates the checker's scalar score from the judge's verdict tokens, eliminating a degenerative token-copying shortcut that inflates self-assigned rewards. Second, because unanchored recursive learning is inherently bounded, Pairwise Advantage Validity (PAV) serves as an unbiased validation monitor that jointly tracks judge accuracy and checker fidelity to reliably identify the optimal early-stopping window. Across Qwen3.5-9B, Gemma-4-E4B-it, and Qwen3.6-27B, RecurSE achieves consistent generalization gains across held-out medical, pairwise, summarization, and professional benchmarks. Ablations demonstrate that synchronized judge-checker co-evolution outperforms frozen checkers, external meta-judges, self-consistency, and scaled teacher distillation. Furthermore, preference pairs curated by our judge effectively enhance downstream policy alignment. Bounded RSI for LLM-as-judge is thus viable when self-produced reward validity is explicitly decoupled and monitored.",
+    "tier": "none",
+    "title": "RecurSE: Bounded Recursive Self-Evaluation for LLM Rubric Judges",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24231v1"
+   },
+   "2608.24534": {
+    "abs_url": "https://arxiv.org/abs/2608.24534",
+    "authors": [
+     "Abdulhady Abas Abdullah",
+     "Erik Cambria",
+     "Milena Zivkovic"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24534",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24534v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Clinical LLMs can generate recommendations that are factually plausible yet physiologically unsafe. We investigate whether safety alignment can be improved by grounding preference optimization in structured physiological knowledge rather than text-only supervision. Methods: We propose Neurosymbolic Alignment, a training-time framework that couples a 7B clinical LLM with an HGNN-based Physiological World Model over an 847K-node biomedical knowledge graph. Candidate responses are scored using homeostatic constraints, multi-hop path plausibility, and drug-interaction penalties, and the resulting rankings drive iterative on-policy ORPO updates. Evaluation is performed on the Clinical Safety Benchmark (CSB), a 2,500-scenario benchmark for physiological constraint violations in generative clinical reasoning. Results: Relative to ORPO, the proposed method improves CSS from 69.5% to 90.8% (+21.3 pp), reduces physician-evaluated HR from 14.1% to 5.1% on the blinded subset, and improves DID from 72.8% to 91.6%. These gains are corroborated by an HGNN-independent Rule-Engine Safety Score (RSS: 86.4%, +21.2 pp over ORPO; r=0.97 concordance with CSS). The method also exceeds GPT-4 (5-shot) on all safety metrics despite a 10x parameter disadvantage, and outperforms an inference-time self-correction pipeline (SFT+SelfCorrect) by 11.4 pp CSS. Under synthetic EHR-style noise, 84.2% CSS is retained. Ablation analysis shows that HGNN scoring (-16.2 pp) and iterative training (-11.5 pp) are the dominant contributors. PhysioScore calibration against 200 clinician labels yielded ECE = 0.038 and kappa = 0.91. Conclusion: Training-time physiological grounding produces measurable and independently verifiable safety improvements in open-weight clinical LLMs under controlled evaluation. External validation on real clinical data is required to determine whether these gains transfer to deployment settings",
+    "tier": "none",
+    "title": "Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24534v1"
+   },
+   "2608.24735": {
+    "abs_url": "https://arxiv.org/abs/2608.24735",
+    "authors": [
+     "Zae Myung Kim",
+     "Young-Jun Lee",
+     "Seungyeon Jwa",
+     "Dongyeop Kang"
+    ],
+    "code_url": "https://github.com/minnesotanlp/meta-n",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24735",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24735v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level hold that level fixed, and those that edit themselves must leave part of their own editing machinery untouched to stay stable, capping the meta-depth they realize at roughly two. We present Meta$^n$, which keeps the meta-operation fixed and recurses on its input instead. That operation, $Ω$, is applied repeatedly to its own products, reading the traces of the solver stack below together with the code that produced them, then writing the next layer as a strategic pre-process and a library of callable helpers. Because $Ω$ never changes, it cannot destabilize the system, and because its input strictly grows, each layer reasons from a higher vantage than the last. Depth is set by convergence rather than fixed in advance, and an evolutionary archive searches over layer chains. Across two backbones, Meta$^n$ outperforms prior self-improving agents on all eight benchmark families. The sharpest case is ARC-AGI-2, built to resist skill memorization, where it alone scores above zero. Ablations indicate that most of the gain from recursion comes from the conditioning each layer passes to the next, and distinct layer roles emerge with depth although no prompt prescribes them. Code available at https://github.com/minnesotanlp/meta-n",
+    "tier": "none",
+    "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24735v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -19516,6 +20220,83 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2608.22367v1"
+   },
+   "2608.24252": {
+    "abs_url": "https://arxiv.org/abs/2608.24252",
+    "authors": [
+     "Xue Hu",
+     "Zewei Pan",
+     "Zeli Su",
+     "Zhou Liu",
+     "Wentao Zhang"
+    ],
+    "code_url": "",
+    "comment": "Accepted to Findings of EMNLP 2026",
+    "first_seen": "2026-08-26",
+    "id": "2608.24252",
+    "journal_ref": "",
+    "matched": [
+     "semantic drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24252v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "LLM agents can generate paper reproduction code, yet often produce scientifically unfaithful implementations. We define this failure mode as semantic drift, where generated code silently diverges from the paper's specifications. We introduce SemanticAlign-Bench(SA-Bench), a diagnostic benchmark covering 30 papers from ICLR, ICML and NeurIPS 2025. For each paper, we decompose its specifications into atomic and verifiable implementation claims, which we call Semantic Alignment Units (SAUs) and evaluate repositories along four diagnostic dimensions spanning numerical, methodological, protocol and ordering drift. In total, we construct 1,491 SAUs across five ML domains and evaluate 12 generator configurations (4 models $\\times$ 3 scaffolds). Even the strongest configuration (Claude+PaperCoder) achieves a mean SAU score of only 0.301 out of 1.0, with an overall mean of 0.221 across 360 evaluations. A failure taxonomy reveals that agents attempt most requirements but implement them incorrectly, with implementation mismatch and stubs accounting for the majority of zero-scored claims. Our analysis further indicates that scaffolds optimized for executability provide limited leverage for scientific reproduction; narrowing the gap requires scaffolds that prioritize semantic specification verification. The benchmark, annotations and evaluation pipeline are publicly available.",
+    "tier": "findings",
+    "title": "SA-Bench: Evaluating Semantic Alignment in LLM-Based Paper Reproduction",
+    "track": "findings",
+    "updated": "2026-08-25",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to Findings of EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.24252v1"
+   },
+   "2608.24306": {
+    "abs_url": "https://arxiv.org/abs/2608.24306",
+    "authors": [
+     "Eran Hirsch",
+     "David Wan",
+     "Han Wang",
+     "Elias Stengel-Eskin",
+     "Mohit Bansal",
+     "Ido Dagan"
+    ],
+    "code_url": "https://github.com/eranhirs/who-is-the-agent-to-blame",
+    "comment": "Accepted to EMNLP 2026 (Main Conference). Code: https://github.com/eranhirs/who-is-the-agent-to-blame",
+    "first_seen": "2026-08-26",
+    "id": "2608.24306",
+    "journal_ref": "",
+    "matched": [
+     "faithfulness"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24306v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Deep research (DR) systems produce long-form cited reports by orchestrating multiple agents that search and synthesize information from the web. Citations are the primary mechanism for evaluating the faithfulness of these reports, yet current DR systems exhibit poor citation recall. Moreover, improving citation recall is challenging because DR systems are complex multi-agent architectures where information passes through agents like a telephone game, and both content and citations can get corrupted along the way. We propose an evaluation method that pinpoints which agent introduced each error by locally testing agent invocations for faithfulness and verifiability relative to their own inputs. Furthermore, we propose a four-type taxonomy to categorize the discovered errors: hallucination, uncited input reliance, uncited output, or insufficient citations. Applying our method to three top-ranked open-source DR systems, we obtain actionable diagnostics. Almost every agent makes a lot of mistakes with the exception being those that summarize a single document. We find that the dominant error type varies systematically across agents, where the orchestrator mistakes are mostly citation-related. We find that 84.7% of final-report errors in AI-Q originate at the orchestrator, roughly 31% of them hallucinations and the rest citation mistakes. Guided by these insights, we demonstrate that two simple interventions raise citation recall by 5% without degrading output quality.",
+    "tier": "top",
+    "title": "Who is the Agent to Blame? Localizing Faithfulness and Citation Mistakes in Agentic Deep Research",
+    "track": "main",
+    "updated": "2026-08-25",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to EMNLP 2026 (Main Conference). Code: https://github.com/eranhirs/who-is-the-agent-to-blame",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.24306v1"
    }
   },
   "Synthetic Preference Data": {
@@ -22902,6 +23683,263 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.23252v1"
+   },
+   "2608.23849": {
+    "abs_url": "https://arxiv.org/abs/2608.23849",
+    "authors": [
+     "Ibne Farabi Shihab",
+     "Naoshin Anzum Hridi",
+     "Joyanta Jyoti Mondal"
+    ],
+    "code_url": "",
+    "comment": "20 pages, 1 figure",
+    "first_seen": "2026-08-26",
+    "id": "2608.23849",
+    "journal_ref": "",
+    "matched": [
+     "hard negative",
+     "corruption",
+     "negative sampling"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23849v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-24",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Negative sampling determines whether a knowledge graph embedding (KGE) model learns from informative counterexamples or wastes updates on implausible corruptions. Uniform negatives are diverse but easy, whereas hard-negative miners concentrate on few entities and collide more with held-out positives. We introduce FlowNeg, a context-conditioned hierarchical generative flow network that amortizes reward-proportional sampling without normalizing a composite reward over the entity set: given a positive triple and corruption side, it selects a type, then an entity. Its terminal reward combines bounded model-based hardness with a training-only structural score for held-out-positive collision, over a relation-specific type-compatible support. We derive the reward, specialize standard trajectory balance, and bound multiplicatively how residual imbalance perturbs terminal and mode probability. Across a descriptive five-seed grid of five architectures and five benchmarks, FlowNeg has higher mean MRR than EMU and than IF-NS in 24 of 25 cells ($+0.0172$ and $+0.0160$ on average). A separate 15-seed FB15k-237/RotatE control fixing negative count, diagnostic budget, and compute gives FlowNeg $0.359\\pm0.001$ MRR against $0.346\\pm0.002$ for EMU, with near-uniform fixed-partition diversity, high gradient informativeness, and low collision. The evidence supports mode-covering negative generation without treating structural similarity as an open-world truth oracle.",
+    "tier": "none",
+    "title": "FlowNeg: GFlowNet-Guided Diverse Hard Negative Sampling for Knowledge Graph Embedding",
+    "track": "",
+    "updated": "2026-08-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.23849v1"
+   },
+   "2608.23966": {
+    "abs_url": "https://arxiv.org/abs/2608.23966",
+    "authors": [
+     "Yuxuan Du"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.23966",
+    "journal_ref": "",
+    "matched": [
+     "synthetic preference"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23966v1",
+    "primary_category": "cs.HC",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI systems increasingly make joint recommendations for users with conflicting preferences. However, when reasonable aggregation rules support different actions, a further question arises: who may choose how those preferences are combined? We study this interaction-level problem as aggregation-rule authority. Using synthetic preference profiles and profiles constructed from empirical ratings, we conduct a controlled behavioral audit of three LLMs under three authority conditions: unspecified, explicitly retained by users, and delegated to the model. In cases where two witness rules supported different actions, models almost never committed when users retained authority, but committed in every delegated case. All three models executed both witness rules perfectly when directly instructed. Yet when authority was unspecified or delegated, their aggregation-consistent outcome distributions differed across models and preference settings. Together, these results separate rule-execution capability from aggregation-rule authority: delegation assigns the model discretion to resolve the aggregation choice, but does not determine which collective outcome follows.",
+    "tier": "none",
+    "title": "Who Chooses How Preferences Are Aggregated? Auditing Aggregation-Rule Authority in LLM-Based Group Recommendation",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.23966v1"
+   },
+   "2608.24192": {
+    "abs_url": "https://arxiv.org/abs/2608.24192",
+    "authors": [
+     "Minsu Kim",
+     "Jianxun Lian",
+     "Xing Xie",
+     "Steven Euijong Whang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24192",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24192v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Aligning large language models to human preferences is crucial for real-world deployment but frequently incurs an alignment tax, leading to the catastrophic forgetting of pre-trained general capabilities. While previous works primarily frame this problem as an optimization or architectural challenge, the inherent characteristics of preference data that drive this degradation remain largely underexplored. In this paper, we propose BALIGN, a balanced data selection strategy that explicitly mitigates catastrophic forgetting while optimizing alignment efficacy. Through theoretical and empirical analyses of the preference optimization gradient, we identify three key data-centric features that dictate parameter drift: the reference model's log-probability margin, the token length difference between chosen and rejected responses, and the TF-IDF similarity to general capability corpora. By aggregating these orthogonal features into a unified composite risk score, BALIGN systematically filters out high-risk preference samples that disrupt intrinsic model parameters or provide minimal alignment utility. Extensive experiments on standard human preference datasets demonstrate that BALIGN strongly preserves foundational capabilities without compromising alignment gains, consistently achieving the optimal Pareto frontier with minimal computational overhead.",
+    "tier": "none",
+    "title": "Preference Data Selection for Mitigating the Alignment Tax in Large Language Models",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24192v1"
+   },
+   "2608.24419": {
+    "abs_url": "https://arxiv.org/abs/2608.24419",
+    "authors": [
+     "Jianlin Chen",
+     "Wenhui Chen",
+     "Ziyao Lin",
+     "Chi Man Vong"
+    ],
+    "code_url": "",
+    "comment": "39 pages, 10 figures, 11 tables",
+    "first_seen": "2026-08-26",
+    "id": "2608.24419",
+    "journal_ref": "",
+    "matched": [
+     "perturbation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24419v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-as-a-judge evaluation is usually assessed by agreement and robustness to surface perturbations, but reliability does not establish construct validity. We formalize construct validity for an evaluator as a two-dimensional profile: invariance S, the probability that a verdict is unchanged under construct-preserving edits, and construct sensitivity R, the probability that it changes under minimal construct-changing edits. We show that S and R are independent and that no scalar summary preserves all relevant comparisons. We measure the profile across 7 judges and 4 domains using 7 construct-changing intervention types and 5 register-only controls, with intervention direction determined by human annotators and generation, verification, and judging assigned to disjoint model families. At matched invariance S >= 0.90, judges average S = 0.945 but R = 0.319. Sensitivity also differs between scope and strength edits: R_scope = 0.383 versus R_strength = 0.262, a +0.121 gap with the same sign for all 7 judges. We further audit five public label sets and find that surface-only predictors reproduce 55%-67% of labels in paired mode, including 67.4% of MT-Bench human votes. These results show that high judge agreement can coexist with weak sensitivity to changes in the construct being evaluated, motivating joint reporting of invariance and sensitivity and auditing the validation set itself.",
+    "tier": "none",
+    "title": "A Judge Should Know What Changed:Construct Validity for LLM-as-a-Judge Evaluation",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24419v1"
+   },
+   "2608.24467": {
+    "abs_url": "https://arxiv.org/abs/2608.24467",
+    "authors": [
+     "Qiuyu Zhu",
+     "Yi Gao",
+     "Zhichao Wan",
+     "Mingyang Ma"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24467",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24467v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Although recent Multimodal Large Language Models (MLLMs) have advanced general product understanding, they implicitly encode product information into global embeddings, thereby limiting their ability to capture fine-grained attributes. This limitation hinders performance in tasks requiring precise attribute discrimination, such as distinguishing subtle material differences among visually similar products. To address this challenge, we propose HMGCLIP, a unified multimodal embedding framework. By constructing a heterogeneous hypergraph, we leverage hypergraph topology to mine structure-aware hard negatives and align multi-granular semantics at both relation and hyperedge levels. This design enables a dual-granularity inference mechanism that dynamically fuses attribute evidence for both fine-grained and coarse-grained downstream tasks. Furthermore, we release a comprehensive fine-grained e-commerce dataset to facilitate future benchmarking. Extensive experiments on this new dataset and the public MAVE benchmark show that HMGCLIP outperforms strong multimodal encoders, MLLMs, and e-commerce baselines, validating the superiority of HMGCLIP.",
+    "tier": "none",
+    "title": "HMGCLIP: Heterogeneous Multi-Granularity Contrastive Learning for E-commerce Representation Learning",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24467v1"
+   },
+   "2608.24698": {
+    "abs_url": "https://arxiv.org/abs/2608.24698",
+    "authors": [
+     "MohammadHossein Mortazavi",
+     "Mostafa Salehi",
+     "Hadi Veisi"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 8 tables",
+    "first_seen": "2026-08-26",
+    "id": "2608.24698",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24698v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Persian (Farsi) is often described as a low-resource language in natural language processing, but that label collapses distinct shortages into a single category. This paper argues that Persian is more precisely described as annotation-scarce, provided that the term is understood as a property of its NLP resource ecology rather than an intrinsic property of the language. The review covers 34 representative Persian text resources available by July 2026 and adds three quantitative cross-checks. First, independent web measurements place Persian among roughly the twenty most visible content languages: W3Techs reports Persian on about 0.9% of websites with a known content language, while Common Crawl CC-MAIN-2026-30 identifies Persian as the primary language of 0.7039% of HTML pages. Second, a selective speech review shows a long resource trajectory from FARSDAT to recent corpora containing hundreds or thousands of hours of speech. Third, a matched Persian-English comparison normalizes task-specific annotation volumes by relative Common Crawl web presence. The resulting ratios vary sharply: Persian syntax and news NER are comparatively dense, whereas natural-language inference falls below the web-proportional baseline. The evidence therefore does not support a simple claim that Persian is globally deficient in labeled volume. Instead, annotation scarcity is expressed through uneven task and domain coverage, incompatible schemes, access and documentation friction, and limited supervision for specialist domains, preference data, and varieties beyond standard Iranian Persian.",
+    "tier": "none",
+    "title": "The Annotation Bottleneck in Persian Text NLP: Persian as an Annotation-Scarce Language",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24698v1"
+   },
+   "2608.24859": {
+    "abs_url": "https://arxiv.org/abs/2608.24859",
+    "authors": [
+     "Arthur Corrêa",
+     "Paulo Nascimento",
+     "Samuel Moniz"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24859",
+    "journal_ref": "",
+    "matched": [
+     "weak supervision"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24859v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multi-task vehicle routing problem (VRP) solvers seek to handle multiple VRP variants within a single unified model, avoiding the need to train a separate model for every variant. In spite of recent progress, current approaches remain limited on two fronts. On the training side, reinforcement learning suffers from reward-scale disparities and shrinking advantage signals as policies improve, whereas preference optimization stagnates once sampled tours become near-identical and thus fundamentally limited by the quality of the policy's own generated solutions, leaving both paradigms with weak supervision as training progresses. On the architecture side, existing fully shared encoders entangle constraint-dependent representations across heterogeneous variants, which limits generalization. We address these gaps with two model-agnostic contributions. First, we propose Preference Optimization with Locally Augmented Refinement (POLAR), a novel training algorithm that applies a local search refinement pass to the best decoded tour before forming preference pairs, yielding much more informative pairwise margins. Second, a Progressive Layered Extraction (PLE) encoder routes each encoder layer through one shared expert and a set of task-specific experts via a gating mechanism, progressively separating common routing structure from constraint-specific encodings. Through extensive experiments on various VRP variants, we show that POLAR and PLE together elevate the current state-of-the-art among neural multi-task solvers. We reduce the average gap to reference solutions by 21.3% relative to the strongest published baseline on 16 in-distribution variants, and outperform prior neural methods on 27 out of 32 unseen variants. Ablation studies confirm the efficacy of each contribution, showing that both improve cross-problem generalization across multiple backbone model architectures.",
+    "tier": "none",
+    "title": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24859v1"
    }
   },
   "Text Quality Evaluation": {
@@ -27998,6 +29036,373 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.23475v1"
+   },
+   "2608.23632": {
+    "abs_url": "https://arxiv.org/abs/2608.23632",
+    "authors": [
+     "Idris Nechnech",
+     "Sehwan Kim",
+     "Jimin Seo",
+     "Yeongoon Kim",
+     "Minhae Oh",
+     "Sangwoo Hong",
+     "Jungwoo Lee"
+    ],
+    "code_url": "https://github.com/inechnech/STEP-KTODER",
+    "comment": "20 pages, 8 figures, 14 tables. Accepted to Findings of the Association for Computational Linguistics: EMNLP 2026",
+    "first_seen": "2026-08-26",
+    "id": "2608.23632",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23632v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-23",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, however, process supervision remains underexplored because there is no standard notion of a step. Supervision can target lines, reasoning traces, or program states, making it unclear what to label and optimize. We propose STEP-KTODER, a framework for code preference optimization that defines steps as module-level functions in decomposed multi-function programs and assigns binary correctness labels via automatically generated unit tests. Our method provides a code-specific instantiation of stepwise KTO, combining function-level process supervision with outcome-level feedback on the full program. We evaluate on HumanEval(+), MBPP(+), BigCodeBench, and LiveCodeBench, showing that STEP-KTODER improves over outcome-only KTO and DPO. Further analysis shows that execution-based labels are essential: LLM-as-a-judge annotations systematically over-predict function failures, corrupt positive step labels, and degrade downstream preference optimization. Code is available at: https://github.com/inechnech/STEP-KTODER.",
+    "tier": "findings",
+    "title": "Function-Level Execution Feedback for Code Preference Optimization",
+    "track": "findings",
+    "updated": "2026-08-23",
+    "venue": "EMNLP",
+    "venue_evidence": "20 pages, 8 figures, 14 tables. Accepted to Findings of the Association for Computational Linguistics: EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.23632v1"
+   },
+   "2608.23640": {
+    "abs_url": "https://arxiv.org/abs/2608.23640",
+    "authors": [
+     "Heather Renze"
+    ],
+    "code_url": "https://github.com/heathriel/synthetic-memoir-audit",
+    "comment": "20 pages, 4 figures, 6 tables. Code and derived data available at https://github.com/heathriel/synthetic-memoir-audit",
+    "first_seen": "2026-08-26",
+    "id": "2608.23640",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23640v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-23",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subject-specific ground-truth corpus that we are aware of, based on an unsystematic literature search. The subject and the author of this paper are the same person: a 366-day \"page-a-day\" book of first-person anecdotal entries was drafted with a conversational LLM whose documented inputs were a template, two exemplar days, and each day's quote - not her corpus - and every day was subsequently audited at the anecdote-scene level against an independent verification corpus using a four-level rubric fixed before analysis. We define the verification-failure rate as the share of days not rated VERIFIED (scene positively corroborated): 354 of 366 days fail, 96.7% (Wilson 95% CI 94.4-98.1%). Only 12 days contain a corroborated scene; 19 days (5.2%) assert claims actively contradicted by the record; the dominant failure mode is grounded drift - real people, employers, and settings inside invented scenes - though its measured share varies across raters. Independent re-rating replicates the headline (no evidence the original rate was inflated) while showing that the four-way taxonomy has only fair-to-moderate reliability. Regenerating the same days with current named models reproduces 100% verification failure under the same inputs; grounding generation in the subject's corpus significantly improves the verification rate while leaving substantial residual failure (83.3%). We contribute the measurement, a reusable audit instrument whose WEAK/UNVERIFIED boundary we show to be unreliable, and a grounding remedy with quantified effect.",
+    "tier": "none",
+    "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+    "track": "",
+    "updated": "2026-08-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.23640v1"
+   },
+   "2608.23705": {
+    "abs_url": "https://arxiv.org/abs/2608.23705",
+    "authors": [
+     "Alessandro Tutone",
+     "Giorgio Franceschelli",
+     "Mirco Musolesi"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.23705",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23705v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-24",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large Language Models (LLMs) are increasingly capable of generating text that challenges human performance in domains requiring creativity, yet evaluating creativity in LLM-generated content remains a significant challenge. Here, we investigate whether current automatic evaluation methods can reliably capture human judgments of creativity. We collect human evaluations of human- and AI-generated short stories from the WritingPrompts dataset across 11 dimensions of creativity, and compare these judgments with automated objective metrics and LLM-as-a-Judge evaluations. Our experiments reveal substantial misalignment between automatic evaluations and human assessments. In particular, LLM-based judges exhibit a systematic preference for AI-generated stories, consistently favoring their stylistic characteristics over the unpredictability and other qualities of human-authored texts. Furthermore, correlation analyses show that widely used automatic metrics exhibit near-zero alignment with human judgments across both human- and AI-generated stories, suggesting that they fail to capture important dimensions of creativity. These findings highlight fundamental limitations in current approaches to the automatic evaluation of creative text and underscore the difficulty of reducing the multidimensional and subjective nature of creativity to computational metrics.",
+    "tier": "none",
+    "title": "The Limits of Automatic Evaluation of Creativity in Large Language Models",
+    "track": "",
+    "updated": "2026-08-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.23705v1"
+   },
+   "2608.23783": {
+    "abs_url": "https://arxiv.org/abs/2608.23783",
+    "authors": [
+     "Haoyuan Li",
+     "Snigdha Chaturvedi"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.23783",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23783v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-24",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-as-a-judge methods are widely used for evaluating the quality of generated open-ended text. Such evaluations are generally multi-dimensional, since the error patterns in texts can be different for different dimensions. Therefore, reliable LLM judges should evaluate each target dimension independently. To quantify the extent to which LLM judges depend on non-target dimensions when evaluating a target dimension, i.e., inter-dimension dependence, we propose CorrGap. To measure this, CorrGap uses the difference in correlations between LLM-predicted scores and ground truth scores across different groups of texts. Using CorrGap, we show that inter-dimension dependence is pervasive across LLM judges in open-ended text evaluation tasks. To mitigate inter-dimension dependence, we propose DimCheck, a method that iteratively removes unrelated evidence from COTs generated by LLM judges in a step-wise way. We show that DimCheck mitigates inter-dimension dependence and outperforms strong baselines across three LLMs and four tasks. We also show that smaller trained LLMs can approximate larger LLMs in DimCheck, with much lower inference costs.",
+    "tier": "none",
+    "title": "Inter-dimension Dependence for Multi-Dimensional Evaluation of Open-Ended Text",
+    "track": "",
+    "updated": "2026-08-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.23783v1"
+   },
+   "2608.23812": {
+    "abs_url": "https://arxiv.org/abs/2608.23812",
+    "authors": [
+     "Aman Saini",
+     "Priyanshu Kumar",
+     "Eric Peng",
+     "Kai Yuan",
+     "Harsh Girase",
+     "Wanming Chen"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 5 figures, 3 tables",
+    "first_seen": "2026-08-26",
+    "id": "2608.23812",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23812v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-24",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects of answer quality that are difficult to capture with a holistic scalar objective. We introduce a rubric-based reward framework that generates query-specific rubrics grounded in retrieved evidence and decomposed into multiple quality dimensions, providing fine-grained supervision during post-training. Averaged across three evaluation axes (composition, grounding, and instruction-following), our approach improves over the instruction-tuned baseline by 6.5% and over flat rubric variants by 4%, with consistent gains across all evaluation datasets. Conditioning rubrics on retrieved evidence improves factual support, while decomposing rubrics into quality-specific dimensions further improves coherence, organization, and adherence to query requirements. Our results show that grounded, multi-dimensional rubrics provide more effective reward supervision for complex open-domain question answering.",
+    "tier": "none",
+    "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
+    "track": "",
+    "updated": "2026-08-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.23812v1"
+   },
+   "2608.23814": {
+    "abs_url": "https://arxiv.org/abs/2608.23814",
+    "authors": [
+     "Olga Manakina",
+     "Igor Bogdanov"
+    ],
+    "code_url": "",
+    "comment": "Accepted as a presentation at the EDM 2025 Workshop on Educational Data Mining in Writing and Literacy Instruction",
+    "first_seen": "2026-08-26",
+    "id": "2608.23814",
+    "journal_ref": "",
+    "matched": [
+     "automated essay scoring",
+     "essay scoring"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.23814v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-24",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Large Language Models (LLMs) demonstrate strong capabilities in automated essay scoring (AES), but contemporary approaches typically employ fixed prompt selection, failing to address operational cost concerns and evolving optimal configurations. We propose a novel cost-aware approach that treats each prompt type as an arm in a multi-armed bandit (MAB) controller, enabling adaptive selection of optimal prompting strategies during inference. Our experiments on IELTS Writing Task 2 essays show that the MAB framework achieves comparable scoring accuracy to exhaustive grid search while reducing LLM calls by 78.4\\% to find the best grading approach. We implemented four distinct grading recipes (multi-step vs. single-step assessment, with vs. without calibration examples) and found that the multi-step approach with examples achieves the highest accuracy. By tracking token usage and latency alongside agreement metrics, we produce the first cost-reliability learning curves for essay scoring, providing actionable insights for educational technology platforms that must balance operational costs against assessment validity. This work represents the first application of online control mechanisms to adaptively select prompting strategies in AES, transforming prompt selection from an offline hyperparameter optimization problem into an efficient online learning task.",
+    "tier": "workshop",
+    "title": "Learning to Grade Efficiently: A Bandit-Driven Prompt-Selection Framework for Low-Cost LLM Essay Scoring",
+    "track": "workshop",
+    "updated": "2026-08-24",
+    "venue": "EDM",
+    "venue_evidence": "Accepted as a presentation at the EDM 2025 Workshop on Educational Data Mining in Writing and Literacy Instruction",
+    "venue_source": "comment",
+    "venue_year": "2025",
+    "version": "2608.23814v1"
+   },
+   "2608.24231": {
+    "abs_url": "https://arxiv.org/abs/2608.24231",
+    "authors": [
+     "Kaiyuan Liu",
+     "Ziyuan Zhuang",
+     "Rongxiang Weng",
+     "Jieping Ye"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24231",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24231v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-as-judge is essential for evaluating open-ended text and steering post-training, yet improving the judge itself typically relies on expensive annotations, reward models, or distillation from stronger teachers. In this work, we eliminate external gold supervision from the RL training reward: the model's own evaluative capability generates learning signals for its optimization -- a closed-loop setting of bounded recursive self-improvement (RSI) termed Recursive Self-Evaluation (RecurSE). We study two central questions: when can self-improvement occur, and when must it stop? First, RecurSE pairs a trainable judge evaluating candidate responses under per-rule rubrics (Pass 1) with a synchronized policy-copy checker that audits the judge's reasoning against meta-rubrics to supply a scalar process reward (Pass 2). To enable learning, interface decoupling structurally isolates the checker's scalar score from the judge's verdict tokens, eliminating a degenerative token-copying shortcut that inflates self-assigned rewards. Second, because unanchored recursive learning is inherently bounded, Pairwise Advantage Validity (PAV) serves as an unbiased validation monitor that jointly tracks judge accuracy and checker fidelity to reliably identify the optimal early-stopping window. Across Qwen3.5-9B, Gemma-4-E4B-it, and Qwen3.6-27B, RecurSE achieves consistent generalization gains across held-out medical, pairwise, summarization, and professional benchmarks. Ablations demonstrate that synchronized judge-checker co-evolution outperforms frozen checkers, external meta-judges, self-consistency, and scaled teacher distillation. Furthermore, preference pairs curated by our judge effectively enhance downstream policy alignment. Bounded RSI for LLM-as-judge is thus viable when self-produced reward validity is explicitly decoupled and monitored.",
+    "tier": "none",
+    "title": "RecurSE: Bounded Recursive Self-Evaluation for LLM Rubric Judges",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24231v1"
+   },
+   "2608.24314": {
+    "abs_url": "https://arxiv.org/abs/2608.24314",
+    "authors": [
+     "Anupam Purwar",
+     "Shashank Singh",
+     "Kritika Srivastava"
+    ],
+    "code_url": "",
+    "comment": "Extends LLM-as-a-Judge to voice agents across telecom and retail, testing GPT-4.1 and GPT-5 against human raters across 10 safety and efficiency metrics. A correlation-based calibration analysis reveals domain-dependent reliability and identifies Recovery Turn Count and safety-recall metrics as unreliable for fully automated judging",
+    "first_seen": "2026-08-26",
+    "id": "2608.24314",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24314v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Evaluating conversational voice agents at scale re- quires reliable assessment methods that capture both observ- able interaction quality and the contextual judgment typically provided by human evaluators. We investigate LLM-as-a-Judge evaluation by comparing human judgments with GPT-4.1 and GPT-5 on telecom and retail voice-agent conversations, across conversational quality and safety dimensions. The same interac- tions are scored under three evaluation configurations, p0, p1, and p2, to test whether automated judgments are sensitive to the evaluation setup and whether observed patterns generalize across configurations and judge models. Beyond aggregate agreement, we examine metric-level correlations, evaluator consistency, and systematic human-LLM disagreement to identify which conver- sational attributes can be judged reliably by automation and which remain sensitive to interpretation and context. Effective voice-agent evaluation is also shaped by pipeline-level factors such as speech generation, streaming, and error propagation across ASR, reasoning, and tool-calling stages, motivating our focus on comparing how human and LLM judges score the same interactions end to end. Our results show that LLM- based evaluation can serve as an effective component of large- scale voice-agent assessment, but that its reliability is metric- and configuration-dependent rather than uniform. This pro- vides an empirical framework for identifying which metrics suit automated evaluation and supports hybrid pipelines in which LLM judges handle scalable assessment while human evaluators remain engaged for metrics that demand contextual interpretation and higher-confidence judgment.",
+    "tier": "none",
+    "title": "Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24314v1"
+   },
+   "2608.24419": {
+    "abs_url": "https://arxiv.org/abs/2608.24419",
+    "authors": [
+     "Jianlin Chen",
+     "Wenhui Chen",
+     "Ziyao Lin",
+     "Chi Man Vong"
+    ],
+    "code_url": "",
+    "comment": "39 pages, 10 figures, 11 tables",
+    "first_seen": "2026-08-26",
+    "id": "2608.24419",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24419v1",
+    "primary_category": "cs.AI",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-as-a-judge evaluation is usually assessed by agreement and robustness to surface perturbations, but reliability does not establish construct validity. We formalize construct validity for an evaluator as a two-dimensional profile: invariance S, the probability that a verdict is unchanged under construct-preserving edits, and construct sensitivity R, the probability that it changes under minimal construct-changing edits. We show that S and R are independent and that no scalar summary preserves all relevant comparisons. We measure the profile across 7 judges and 4 domains using 7 construct-changing intervention types and 5 register-only controls, with intervention direction determined by human annotators and generation, verification, and judging assigned to disjoint model families. At matched invariance S >= 0.90, judges average S = 0.945 but R = 0.319. Sensitivity also differs between scope and strength edits: R_scope = 0.383 versus R_strength = 0.262, a +0.121 gap with the same sign for all 7 judges. We further audit five public label sets and find that surface-only predictors reproduce 55%-67% of labels in paired mode, including 67.4% of MT-Bench human votes. These results show that high judge agreement can coexist with weak sensitivity to changes in the construct being evaluated, motivating joint reporting of invariance and sensitivity and auditing the validation set itself.",
+    "tier": "none",
+    "title": "A Judge Should Know What Changed:Construct Validity for LLM-as-a-Judge Evaluation",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24419v1"
+   },
+   "2608.24753": {
+    "abs_url": "https://arxiv.org/abs/2608.24753",
+    "authors": [
+     "Pius von Däniken",
+     "Felix Matthias Saaro",
+     "Mark Cieliebak",
+     "Jan Deriu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24753",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24753v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Evaluating Retrieval-Augmented Generation (RAG) systems requires assessing not only end-to-end correctness but also how individual components interact and how errors propagate through the pipeline. We introduce a Bayesian evaluation framework that jointly models retrieval success, abstention behavior, and answer correctness, factorized according to the pipeline's information flow. The model distinguishes task success. Whether the user received a correct answer (from generator success) and whether the generator behaved appropriately given the retrieval outcome. We apply the framework to 27 RAG configurations across three datasets, three retrievers, and three generators, and show that the conditional decomposition reveals substantial behavioral differences between systems that appear equivalent under marginal metrics. We further analyze the annotation allocation problem, demonstrating that retrieval-success annotations are more informative than task-success annotations for estimating policy adherence, and provide an information-theoretic explanation for this asymmetry. Finally, we extend the model to incorporate LLM-as-a-judge annotations as calibrated noisy observations, enabling practitioners to combine limited human judgments with cheaper automated assessments within a unified probabilistic model.",
+    "tier": "none",
+    "title": "The RAT: A Unified Bayesian Model for RAG Evaluation",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24753v1"
    }
   },
   "Writing Agent": {
@@ -31258,14 +32663,14 @@
      "Jiaxin Mao"
     ],
     "code_url": "",
-    "comment": "",
+    "comment": "Accepted to EMNLP 2026 Main Conference",
     "first_seen": "2026-08-19",
     "id": "2605.26958",
     "journal_ref": "",
     "matched": [
      "long-form generation"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2605.26958v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26958v2",
     "primary_category": "cs.CL",
     "published": "2026-05-26",
     "s2": {
@@ -31276,17 +32681,17 @@
      "venue": "",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Reinforcement learning in open-ended long-form generation is challenging because reliable reference answers and automatic metrics are often unavailable. Existing rubric-based methods typically rely on pointwise LLM-as-a-judge scoring, but absolute scores are difficult to calibrate across complex responses, may provide weak discrimination among same-query rollouts, and can become saturated during optimization. We propose Tournament-GRPO, a group-wise reward framework that converts rubric-guided LLM judgments into relative rewards through repeated multi-round tournaments among same-query rollouts. Tournament-GRPO compares candidates within groups, accumulates tournament outcomes, and normalizes them into group-wise rewards for GRPO training. Experiments on Deep Research Bench show that Tournament-GRPO consistently outperforms existing reward-design baselines, achieving a 4.52-point overall-score improvement over the strongest baseline. Further analyses show that tournament rewards provide a favorable effectiveness--efficiency trade-off and that tournament design affects training dynamics. These results suggest that rubric-guided tournament comparison provides an effective reward signal for reinforcement learning in open-ended long-form generation.",
-    "tier": "none",
+    "tier": "top",
     "title": "Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation",
-    "track": "",
-    "updated": "2026-05-26",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
-    "version": "2605.26958v1"
+    "track": "main",
+    "updated": "2026-08-25",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to EMNLP 2026 Main Conference",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2605.26958v2"
    },
    "2605.27404": {
     "abs_url": "https://arxiv.org/abs/2605.27404",
@@ -34283,6 +35688,42 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2608.23124v1"
+   },
+   "2608.24492": {
+    "abs_url": "https://arxiv.org/abs/2608.24492",
+    "authors": [
+     "Mohit Singh Chauhan",
+     "Vipin Gyanchandani",
+     "Dylan Bouchard"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-08-26",
+    "id": "2608.24492",
+    "journal_ref": "",
+    "matched": [
+     "long-form generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.24492v1",
+    "primary_category": "cs.LG",
+    "published": "2026-08-25",
+    "s2": {
+     "checked": "2026-08-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Uncertainty quantification (UQ) methods are widely used for hallucination detection in large language models (LLMs) in closed-book settings where ground-truth evidence is unavailable at inference time. Prior work has proposed combining UQ signals via learned ensembles, but empirical investigations into the robustness of these ensembles are limited. We study a supervised ensembling framework that trains a classifier over heterogeneous UQ-based scorer outputs on a small, domain-specific dataset of labeled LLM responses, then applies it to out-of-sample hallucination classification without retrieval, tools, or reference documents. Across four LLMs, nine datasets, and three generation regimes (short-form QA, long-form generation, and code generation), we provide a systematic robustness analysis along three axes: sample efficiency, in-domain dataset transfer, and generation regime dependence. We find that supervised ensembles outperform the best individual scorer in 30 of 32 settings, with gains realized from as few as 100 labeled instances. Ensembles retain most of their advantage in cases of in-domain transfer under distribution shift, outperforming the best non-ensemble scorer in 23 of 28 transfer settings. Sampling-based black-box ensembles are nearly as effective as full ensembles, while single-generation white-box ensembles offer limited benefit.",
+    "tier": "none",
+    "title": "When Do Supervised UQ Ensembles Improve LLM Hallucination Detection? A Robustness Study",
+    "track": "",
+    "updated": "2026-08-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.24492v1"
    }
   }
  }
