@@ -9,12 +9,12 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-08-26** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-08-28** (UTC).
 Back to the [main page](../README.md).
 
-144 of 850 papers carry venue evidence.
+155 of 892 papers carry venue evidence.
 
-## Top-tier venues (73)
+## Top-tier venues (80)
 
 ### ACL (25)
 
@@ -46,14 +46,21 @@ Back to the [main page](../README.md).
 |**2025-02-25**|KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis|ACL 2025|Korean Writing & NLP|[2503.00032](https://arxiv.org/abs/2503.00032)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### EMNLP (13)
+### EMNLP (20)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-08-27**|STAR : Sentence Translation Alignment Rate for Document-to-Document Machine Translation|EMNLP 2026|Reward & Value Models|[2608.27161](https://arxiv.org/abs/2608.27161)|
+|**2026-08-27**|AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling|EMNLP 2026|Text Quality Evaluation|[2608.26623](https://arxiv.org/abs/2608.26623)|
+|**2026-08-27**|Multi-Expert Conformal Risk Control for Pairwise LLM Judging in Open-Ended Dialogue|EMNLP 2026|Text Quality Evaluation|[2608.26529](https://arxiv.org/abs/2608.26529)|
+|**2026-08-26**|Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing|EMNLP 2026|Text Quality Evaluation|[2608.25622](https://arxiv.org/abs/2608.25622)|
 |**2026-08-25**|Robust Code RL via Faulty-Code-Driven Test case Synthesis and Dense Reward Shaping|EMNLP 2026|Reward & Value Models|[2608.24135](https://arxiv.org/abs/2608.24135)|
+|**2026-08-25**|Learning Mixtures of Plackett-Luce Models for Multi-Objective Alignment|EMNLP 2026|Reward & Value Models|[2608.25200](https://arxiv.org/abs/2608.25200)|
 |**2026-08-25**|ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation|EMNLP 2026|Self-Refine & Self-Correction|[2608.24103](https://arxiv.org/abs/2608.24103)|
 |**2026-08-25**|Who is the Agent to Blame? Localizing Faithfulness and Citation Mistakes in Agentic Deep Research|EMNLP 2026|Semantic Drift & Faithfulness|[2608.24306](https://arxiv.org/abs/2608.24306)|
-|**2026-08-24**|Language Chain in Alignment: Cross-Lingual Ranking Preference Optimization|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2608.23149](https://arxiv.org/abs/2608.23149)|
+|**2026-08-24**|Language Chain in Alignment: Cross-lingual Ranking Preference Optimization|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2608.23149](https://arxiv.org/abs/2608.23149)|
+|**2026-08-24**|The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline|EMNLP 2026|Reward & Value Models|[2608.24952](https://arxiv.org/abs/2608.24952)|
+|**2026-08-24**|FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference|EMNLP 2026|Text Quality Evaluation|[2608.24945](https://arxiv.org/abs/2608.24945)|
 |**2026-08-23**|Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs|EMNLP 2026|Semantic Drift & Faithfulness|[2608.22367](https://arxiv.org/abs/2608.22367)|
 |**2026-07-17**|TD-DPO: Difference-Aware Preference Optimization for Mitigating Sycophancy in Clinical Autism Intervention Dialogue|EMNLP 2026|Reward & Value Models|[2607.18304](https://arxiv.org/abs/2607.18304)|
 |**2026-05-26**|Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation|EMNLP 2026|Writing Agent|[2605.26958](https://arxiv.org/abs/2605.26958)|
@@ -185,7 +192,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-04-17**|From Intention to Text: AI-Supported Goal Setting in Academic Writing|AIED 2026|Writing Agent|[2604.15800](https://arxiv.org/abs/2604.15800)|
 
-## Findings tracks (17)
+## Findings tracks (18)
 
 ### ACL (10)
 
@@ -202,11 +209,12 @@ Back to the [main page](../README.md).
 |**2026-03-24**|Polaris: A Gödel Agent Framework for Small Language Models through Experience-Abstracted Policy Repair|ACL 2026 (findings)|Writing Agent|[2603.23129](https://arxiv.org/abs/2603.23129)|
 |**2024-06-13**|Deep Exploration of Cross-Lingual Zero-Shot Generalization in Instruction Tuning|ACL 2024 (findings)|Korean Writing & NLP|[2406.08796](https://arxiv.org/abs/2406.08796)|
 
-### EMNLP (7)
+### EMNLP (8)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-08-25**|SA-Bench: Evaluating Semantic Alignment in LLM-Based Paper Reproduction|EMNLP 2026 (findings)|Semantic Drift & Faithfulness|[2608.24252](https://arxiv.org/abs/2608.24252)|
+|**2026-08-25**|Unsupervised Post-Training of Foundation Models: A Survey|EMNLP 2026 (findings)|Synthetic Preference Data|[2608.24982](https://arxiv.org/abs/2608.24982)|
 |**2026-08-24**|DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation|EMNLP 2026 (findings)|Reward & Value Models|[2608.22806](https://arxiv.org/abs/2608.22806)|
 |**2026-08-24**|LITERARYBIGFIVE: Author-Personalized Text Generation in a Unified Interpretable Space|EMNLP 2026 (findings)|Writing Agent|[2608.23124](https://arxiv.org/abs/2608.23124)|
 |**2026-08-23**|Function-Level Execution Feedback for Code Preference Optimization|EMNLP 2026 (findings)|Reward & Value Models, Text Quality Evaluation|[2608.23632](https://arxiv.org/abs/2608.23632)|
@@ -214,7 +222,17 @@ Back to the [main page](../README.md).
 |**2022-05-20**|Translating Hanja Historical Documents to Contemporary Korean and English|EMNLP 2022 (findings)|Korean Writing & NLP|[2205.10019](https://arxiv.org/abs/2205.10019)|
 |**2019-12-01**|Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives|EMNLP 2020 (findings)|Korean Writing & NLP|[1912.00342](https://arxiv.org/abs/1912.00342)|
 
-## Other venues (14)
+## Other venues (15)
+
+### ACM MM (5)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-08-27**|TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation|ACM MM 2026|Text Quality Evaluation|[2608.27127](https://arxiv.org/abs/2608.27127)|
+|**2026-08-05**|CSGen: A Multi-Domain Curvilinear Structure Generation Model via Hierarchical Multimodal Diffusion|ACM MM 2026|Semantic Drift & Faithfulness|[2608.04655](https://arxiv.org/abs/2608.04655)|
+|**2026-08-03**|Open-Set Visual Text Forensics via Sparse-Constraint Rectified Flow|ACM MM 2026|Iterative Revision & Text Editing|[2608.02258](https://arxiv.org/abs/2608.02258)|
+|**2026-07-30**|RefineSVG: Visual Feedback-Driven Reinforcement Learning for Image-to-SVG Generation|ACM MM 2026|Self-Refine & Self-Correction|[2607.27699](https://arxiv.org/abs/2607.27699)|
+|**2026-07-27**|Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis|ACM MM 2026|Reward & Value Models|[2607.24430](https://arxiv.org/abs/2607.24430)|
 
 ### ECCV (5)
 
@@ -225,15 +243,6 @@ Back to the [main page](../README.md).
 |**2026-07-01**|ESC: Emotional Self-Correction for Reliable Vision-Language Models|ECCV 2026|Self-Refine & Self-Correction|[2607.02089](https://arxiv.org/abs/2607.02089)|
 |**2026-06-26**|Reflect-R1: Evidence-Driven Reflection for Self-Correction in Long Video Understanding|ECCV 2026|Self-Refine & Self-Correction|[2606.27922](https://arxiv.org/abs/2606.27922)|
 |**2026-06-24**|Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs|ECCV 2026|Synthetic Preference Data|[2606.26387](https://arxiv.org/abs/2606.26387)|
-
-### ACM MM (4)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-08-05**|CSGen: A Multi-Domain Curvilinear Structure Generation Model via Hierarchical Multimodal Diffusion|ACM MM 2026|Semantic Drift & Faithfulness|[2608.04655](https://arxiv.org/abs/2608.04655)|
-|**2026-08-03**|Open-Set Visual Text Forensics via Sparse-Constraint Rectified Flow|ACM MM 2026|Iterative Revision & Text Editing|[2608.02258](https://arxiv.org/abs/2608.02258)|
-|**2026-07-30**|RefineSVG: Visual Feedback-Driven Reinforcement Learning for Image-to-SVG Generation|ACM MM 2026|Self-Refine & Self-Correction|[2607.27699](https://arxiv.org/abs/2607.27699)|
-|**2026-07-27**|Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis|ACM MM 2026|Reward & Value Models|[2607.24430](https://arxiv.org/abs/2607.24430)|
 
 ### Interspeech (3)
 
@@ -255,7 +264,18 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-06-06**|Cross Paraphrastic Invariance Learning for Hallucination Detection|ICASSP 2026|Synthetic Preference Data|[2606.08157](https://arxiv.org/abs/2606.08157)|
 
-## Workshops (29)
+## Workshops (31)
+
+### ICML (6)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-07-21**|PA-CoT: Profile-Adaptive Chain-of-Thought for Personalized Nutritional Consulting|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2608.24907](https://arxiv.org/abs/2608.24907)|
+|**2026-07-18**|Learning from World Feedback: Why Model Uncertainty Fails as a Risk Signal in Model-Based RL|ICML 2026 (workshop)|Reward & Value Models|[2607.16591](https://arxiv.org/abs/2607.16591)|
+|**2026-07-16**|AEVAL: From Anecdotal to Deterministic Testing for Agentic Skill Workflows|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2607.16345](https://arxiv.org/abs/2607.16345)|
+|**2026-07-15**|Stable Miscalibration in Large Language Models: A Practical View of High-Confidence Errors|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2608.13591](https://arxiv.org/abs/2608.13591)|
+|**2026-06-30**|ISM:Self-Improving Strategy Memory for Continual Mathematical Reasoning|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2606.31191](https://arxiv.org/abs/2606.31191)|
+|**2026-06-29**|What Drives Interactive Improvement from Feedback?|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2606.30774](https://arxiv.org/abs/2606.30774)|
 
 ### BEA (5)
 
@@ -267,15 +287,14 @@ Back to the [main page](../README.md).
 |**2026-04-03**|Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation|BEA 2026 (workshop)|Writing Agent|[2604.03380](https://arxiv.org/abs/2604.03380)|
 |**2025-06-09**|Multilingual Grammatical Error Annotation: Combining Language-Agnostic Framework with Language-Specific Flexibility|BEA 2025 (workshop)|Korean Writing & NLP|[2506.07719](https://arxiv.org/abs/2506.07719)|
 
-### ICML (5)
+### ICLR (4)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-07-18**|Learning from World Feedback: Why Model Uncertainty Fails as a Risk Signal in Model-Based RL|ICML 2026 (workshop)|Reward & Value Models|[2607.16591](https://arxiv.org/abs/2607.16591)|
-|**2026-07-16**|AEVAL: From Anecdotal to Deterministic Testing for Agentic Skill Workflows|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2607.16345](https://arxiv.org/abs/2607.16345)|
-|**2026-07-15**|Stable Miscalibration in Large Language Models: A Practical View of High-Confidence Errors|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2608.13591](https://arxiv.org/abs/2608.13591)|
-|**2026-06-30**|ISM:Self-Improving Strategy Memory for Continual Mathematical Reasoning|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2606.31191](https://arxiv.org/abs/2606.31191)|
-|**2026-06-29**|What Drives Interactive Improvement from Feedback?|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2606.30774](https://arxiv.org/abs/2606.30774)|
+|**2026-08-27**|Towards Expert Financial QA via Self-Improving RAG|ICLR 2026 (workshop)|Self-Refine & Self-Correction|[2608.26706](https://arxiv.org/abs/2608.26706)|
+|**2026-08-12**|Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations|ICLR 2025 (workshop)|Reward & Value Models, Synthetic Preference Data|[2608.12062](https://arxiv.org/abs/2608.12062)|
+|**2026-08-10**|Procedural Fairness Failures in RLHF from Preference Averaging|ICLR 2026 (workshop)|Reward & Value Models|[2608.10126](https://arxiv.org/abs/2608.10126)|
+|**2025-08-28**|Re4: Scientific Computing Agent with Rewriting, Resolution, Review and Revision|ICLR 2026 (workshop)|Iterative Revision & Text Editing|[2508.20729](https://arxiv.org/abs/2508.20729)|
 
 ### ACL (3)
 
@@ -284,14 +303,6 @@ Back to the [main page](../README.md).
 |**2026-07-14**|RAGthoven at SemEval-2026 Task 1: A Multi-Stage Pipeline Walks Into a Benchmark and Barely Clears the Bar|ACL 2026 (workshop)|Self-Refine & Self-Correction, Text Quality Evaluation|[2607.13189](https://arxiv.org/abs/2607.13189)|
 |**2026-06-16**|Unintended Effects of Geographic Conditioning in Large Language Models|ACL 2026 (workshop)|Writing Agent|[2606.18124](https://arxiv.org/abs/2606.18124)|
 |**2020-05-26**|BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection|ACL 2020 (workshop)|Korean Writing & NLP|[2005.12503](https://arxiv.org/abs/2005.12503)|
-
-### ICLR (3)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-08-12**|Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations|ICLR 2025 (workshop)|Reward & Value Models, Synthetic Preference Data|[2608.12062](https://arxiv.org/abs/2608.12062)|
-|**2026-08-10**|Procedural Fairness Failures in RLHF from Preference Averaging|ICLR 2026 (workshop)|Reward & Value Models|[2608.10126](https://arxiv.org/abs/2608.10126)|
-|**2025-08-28**|Re4: Scientific Computing Agent with Rewriting, Resolution, Review and Revision|ICLR 2026 (workshop)|Iterative Revision & Text Editing|[2508.20729](https://arxiv.org/abs/2508.20729)|
 
 ### KDD (3)
 
