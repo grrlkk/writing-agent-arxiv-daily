@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-08-28** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-08-29** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -18,59 +18,6 @@ Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (76)
 - [Search & Control for Generation](#search--control-for-generation) (74)
 - [Korean Writing & NLP](#korean-writing--nlp) (67)
-
-## New in this update (50)
-
-- `Writing Agent` [Preserving General Capabilities during Domain Specialization with Uncertainty-Calibrated MOPD](https://arxiv.org/abs/2608.26735)
-- `Writing Agent` [A Multi-Framework Comparison of Outline Stages in Long-Form Generation with LLMs](https://arxiv.org/abs/2608.26177)
-- `Writing Agent` [DSA: Evidence-Aware LLM-Agent Orchestration for Multi-Market Stock Research](https://arxiv.org/abs/2608.26990)
-- `Iterative Revision & Text Editing` [From Producing to Validating: How AI Is Deskilling Freelancers](https://arxiv.org/abs/2608.26089)
-- `Iterative Revision & Text Editing` [Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence](https://arxiv.org/abs/2608.25869)
-- `Iterative Revision & Text Editing` [A Multi-View Coupled Tensor Decomposition for Lightweight Online Adaptive Traffic Prediction](https://arxiv.org/abs/2608.25498)
-- `Self-Refine & Self-Correction` [Performance Foundations of Parallel & Distributed Reasoning Language Models](https://arxiv.org/abs/2608.27046)
-- `Self-Refine & Self-Correction` [Towards Expert Financial QA via Self-Improving RAG](https://arxiv.org/abs/2608.26706)
-- `Self-Refine & Self-Correction` [PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents](https://arxiv.org/abs/2608.26530)
-- `Self-Refine & Self-Correction` [PA-CoT: Profile-Adaptive Chain-of-Thought for Personalized Nutritional Consulting](https://arxiv.org/abs/2608.24907)
-- `Reward & Value Models` [STAR : Sentence Translation Alignment Rate for Document-to-Document Machine Translation](https://arxiv.org/abs/2608.27161)
-- `Reward & Value Models` [Disentangling Optimization Scale from Preference Scale in DPO](https://arxiv.org/abs/2608.27032)
-- `Reward & Value Models` [JudgeStealer: Extracting LLM Judging Capabilities across Evaluation Protocols](https://arxiv.org/abs/2608.26982)
-- `Reward & Value Models` [Instruction Quality Matters: Refining Instructions for Effective Preference Learning](https://arxiv.org/abs/2608.26779)
-- `Reward & Value Models` [Equal Ranking Quality, Different Decisions: Training Order-Consistent LLM Scorers](https://arxiv.org/abs/2608.26762)
-- `Reward & Value Models` [SPEAR: Distilling Domain-Adaptive Reasoning Skeletons via Sequential Symbolic Alignment in Reinforcement Learning](https://arxiv.org/abs/2608.26550)
-- `Reward & Value Models` [Neuro-symbolic PRM: Enhancing Scientific Reasoning via Structured Traces and Symbolic Verification](https://arxiv.org/abs/2608.26329)
-- `Reward & Value Models` [Privacy Without Regret: Differentially Private Inference-Time Alignment](https://arxiv.org/abs/2608.26324)
-- `Reward & Value Models` [VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following](https://arxiv.org/abs/2608.26013)
-- `Reward & Value Models` [DCEO: Direct Causal Effect Optimization for Long-Term User Value Modeling in E-commerce Search](https://arxiv.org/abs/2608.25635)
-- `Reward & Value Models` [Beyond Pairwise Feedback: Listwise Vision-Language Supervision for Preference-Based Reward Learning](https://arxiv.org/abs/2608.25350)
-- `Reward & Value Models` [Learning Mixtures of Plackett-Luce Models for Multi-Objective Alignment](https://arxiv.org/abs/2608.25200)
-- `Reward & Value Models` [AudioLens: Multi-Perspective Speech Clustering with Reasoning Audio-Language Models](https://arxiv.org/abs/2608.25177)
-- `Reward & Value Models` [The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline](https://arxiv.org/abs/2608.24952)
-- `Synthetic Preference Data` [Disentangling Optimization Scale from Preference Scale in DPO](https://arxiv.org/abs/2608.27032)
-- `Synthetic Preference Data` [Instruction Quality Matters: Refining Instructions for Effective Preference Learning](https://arxiv.org/abs/2608.26779)
-- `Synthetic Preference Data` [MoganColBERT-TR: A Late-Interaction Multi-Vector Retrieval Model for Turkish](https://arxiv.org/abs/2608.26344)
-- `Synthetic Preference Data` [Neuro-symbolic PRM: Enhancing Scientific Reasoning via Structured Traces and Symbolic Verification](https://arxiv.org/abs/2608.26329)
-- `Synthetic Preference Data` [Privacy Without Regret: Differentially Private Inference-Time Alignment](https://arxiv.org/abs/2608.26324)
-- `Synthetic Preference Data` [Neural-Bayesian Structure Learning for Discrete Choice Modeling](https://arxiv.org/abs/2608.25258)
-- `Synthetic Preference Data` [Unsupervised Post-Training of Foundation Models: A Survey](https://arxiv.org/abs/2608.24982)
-- `Synthetic Preference Data` [GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval](https://arxiv.org/abs/2608.24936)
-- `Text Quality Evaluation` [TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation](https://arxiv.org/abs/2608.27127)
-- `Text Quality Evaluation` [JudgeStealer: Extracting LLM Judging Capabilities across Evaluation Protocols](https://arxiv.org/abs/2608.26982)
-- `Text Quality Evaluation` [AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling](https://arxiv.org/abs/2608.26623)
-- `Text Quality Evaluation` [Multi-Expert Conformal Risk Control for Pairwise LLM Judging in Open-Ended Dialogue](https://arxiv.org/abs/2608.26529)
-- `Text Quality Evaluation` [Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence](https://arxiv.org/abs/2608.25869)
-- `Text Quality Evaluation` [Key Point Analysis Needs Structure Recovery: Task Definition, Dataset Diagnosis, and a Structure-Aware Benchmark](https://arxiv.org/abs/2608.25854)
-- `Text Quality Evaluation` [FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference](https://arxiv.org/abs/2608.24945)
-- `Text Quality Evaluation` [AffectOmni: RL-Verifiable People-Centric Grounded Affective Reasoning for Social and Art-Related Scenes](https://arxiv.org/abs/2608.26193)
-- `Text Quality Evaluation` [PACEShop: Evaluating Personalized, Actionable, Compositional, and Evidence-grounded Shopping Assistants](https://arxiv.org/abs/2608.26180)
-- `Text Quality Evaluation` [A Multi-Framework Comparison of Outline Stages in Long-Form Generation with LLMs](https://arxiv.org/abs/2608.26177)
-- `Text Quality Evaluation` [Instruction Quality Matters: Refining Instructions for Effective Preference Learning](https://arxiv.org/abs/2608.26779)
-- `Text Quality Evaluation` [MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching](https://arxiv.org/abs/2608.26094)
-- `Text Quality Evaluation` [$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning](https://arxiv.org/abs/2608.26053)
-- `Text Quality Evaluation` [Unfolding Scientific Papers into Multi-Turn Generation Trajectories for Continued Pre-Training](https://arxiv.org/abs/2608.25826)
-- `Text Quality Evaluation` [Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing](https://arxiv.org/abs/2608.25622)
-- `Search & Control for Generation` [CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes](https://arxiv.org/abs/2608.27455)
-- `Search & Control for Generation` [Beam Search, Self-Consistency, and the Limits of Inference-Time Scaling for Grammar-Constrained Text-to-SQL in Small Language Models](https://arxiv.org/abs/2608.25761)
-- `Search & Control for Generation` [Reflection Steering: Disentangling Reflection from Reasoning in Activation Space for Token-Efficient Inference](https://arxiv.org/abs/2608.25542)
 
 ## Writing Agent
 

@@ -9,7 +9,7 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-08-28** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-08-29** (UTC).
 Back to the [main page](../README.md).
 
 155 of 892 papers carry venue evidence.
@@ -51,8 +51,8 @@ Back to the [main page](../README.md).
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-08-27**|STAR : Sentence Translation Alignment Rate for Document-to-Document Machine Translation|EMNLP 2026|Reward & Value Models|[2608.27161](https://arxiv.org/abs/2608.27161)|
-|**2026-08-27**|AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling|EMNLP 2026|Text Quality Evaluation|[2608.26623](https://arxiv.org/abs/2608.26623)|
 |**2026-08-27**|Multi-Expert Conformal Risk Control for Pairwise LLM Judging in Open-Ended Dialogue|EMNLP 2026|Text Quality Evaluation|[2608.26529](https://arxiv.org/abs/2608.26529)|
+|**2026-08-27**|AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling|EMNLP 2026|Text Quality Evaluation|[2608.26623](https://arxiv.org/abs/2608.26623)|
 |**2026-08-26**|Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing|EMNLP 2026|Text Quality Evaluation|[2608.25622](https://arxiv.org/abs/2608.25622)|
 |**2026-08-25**|Robust Code RL via Faulty-Code-Driven Test case Synthesis and Dense Reward Shaping|EMNLP 2026|Reward & Value Models|[2608.24135](https://arxiv.org/abs/2608.24135)|
 |**2026-08-25**|Learning Mixtures of Plackett-Luce Models for Multi-Objective Alignment|EMNLP 2026|Reward & Value Models|[2608.25200](https://arxiv.org/abs/2608.25200)|
