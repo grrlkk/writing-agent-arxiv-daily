@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-08-29** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-08-30** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
