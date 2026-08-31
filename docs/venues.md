@@ -9,12 +9,12 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-08-30** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-08-31** (UTC).
 Back to the [main page](../README.md).
 
-155 of 892 papers carry venue evidence.
+161 of 901 papers carry venue evidence.
 
-## Top-tier venues (80)
+## Top-tier venues (83)
 
 ### ACL (25)
 
@@ -46,11 +46,13 @@ Back to the [main page](../README.md).
 |**2025-02-25**|KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis|ACL 2025|Korean Writing & NLP|[2503.00032](https://arxiv.org/abs/2503.00032)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### EMNLP (20)
+### EMNLP (23)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-08-28**|The Illusion of $\textit{What If}$: Evaluating the Breakdown of Counterfactual Reasoning in LLMs|EMNLP 2026|Text Quality Evaluation|[2608.27953](https://arxiv.org/abs/2608.27953)|
 |**2026-08-27**|STAR : Sentence Translation Alignment Rate for Document-to-Document Machine Translation|EMNLP 2026|Reward & Value Models|[2608.27161](https://arxiv.org/abs/2608.27161)|
+|**2026-08-27**|INSPIRE: An Internalize-Then-Improve Approach for Example-Driven Mathematical Reasoning|EMNLP 2026|Reward & Value Models|[2608.27501](https://arxiv.org/abs/2608.27501)|
 |**2026-08-27**|Multi-Expert Conformal Risk Control for Pairwise LLM Judging in Open-Ended Dialogue|EMNLP 2026|Text Quality Evaluation|[2608.26529](https://arxiv.org/abs/2608.26529)|
 |**2026-08-27**|AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling|EMNLP 2026|Text Quality Evaluation|[2608.26623](https://arxiv.org/abs/2608.26623)|
 |**2026-08-26**|Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing|EMNLP 2026|Text Quality Evaluation|[2608.25622](https://arxiv.org/abs/2608.25622)|
@@ -63,6 +65,7 @@ Back to the [main page](../README.md).
 |**2026-08-24**|FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference|EMNLP 2026|Text Quality Evaluation|[2608.24945](https://arxiv.org/abs/2608.24945)|
 |**2026-08-23**|Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs|EMNLP 2026|Semantic Drift & Faithfulness|[2608.22367](https://arxiv.org/abs/2608.22367)|
 |**2026-07-17**|TD-DPO: Difference-Aware Preference Optimization for Mitigating Sycophancy in Clinical Autism Intervention Dialogue|EMNLP 2026|Reward & Value Models|[2607.18304](https://arxiv.org/abs/2607.18304)|
+|**2026-06-01**|Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation|EMNLP 2026|Writing Agent|[2606.01629](https://arxiv.org/abs/2606.01629)|
 |**2026-05-26**|Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation|EMNLP 2026|Writing Agent|[2605.26958](https://arxiv.org/abs/2605.26958)|
 |**2026-05-19**|When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation|EMNLP 2026|Writing Agent|[2605.20364](https://arxiv.org/abs/2605.20364)|
 |**2025-09-30**|Efficient Layer-wise LLM Fine-tuning for Revision Intention Prediction|EMNLP 2025|Iterative Revision & Text Editing|[2510.00268](https://arxiv.org/abs/2510.00268)|
@@ -192,7 +195,23 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-04-17**|From Intention to Text: AI-Supported Goal Setting in Academic Writing|AIED 2026|Writing Agent|[2604.15800](https://arxiv.org/abs/2604.15800)|
 
-## Findings tracks (18)
+## Findings tracks (21)
+
+### EMNLP (11)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-08-28**|Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance|EMNLP 2026 (findings)|Search & Control for Generation|[2608.28229](https://arxiv.org/abs/2608.28229)|
+|**2026-08-28**|A Unified Framework to Elicit Structured Feedback for Interpretable Multi-Trait Essay Scoring|EMNLP 2026 (findings)|Text Quality Evaluation|[2608.28407](https://arxiv.org/abs/2608.28407)|
+|**2026-08-27**|A Survey on Rubric-Guided Reinforcement Learning for Language Models|EMNLP 2026 (findings)|Reward & Value Models, Semantic Drift & Faithfulness|[2608.27505](https://arxiv.org/abs/2608.27505)|
+|**2026-08-25**|SA-Bench: Evaluating Semantic Alignment in LLM-Based Paper Reproduction|EMNLP 2026 (findings)|Semantic Drift & Faithfulness|[2608.24252](https://arxiv.org/abs/2608.24252)|
+|**2026-08-25**|Unsupervised Post-Training of Foundation Models: A Survey|EMNLP 2026 (findings)|Synthetic Preference Data|[2608.24982](https://arxiv.org/abs/2608.24982)|
+|**2026-08-24**|DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation|EMNLP 2026 (findings)|Reward & Value Models|[2608.22806](https://arxiv.org/abs/2608.22806)|
+|**2026-08-24**|LITERARYBIGFIVE: Author-Personalized Text Generation in a Unified Interpretable Space|EMNLP 2026 (findings)|Writing Agent|[2608.23124](https://arxiv.org/abs/2608.23124)|
+|**2026-08-23**|Function-Level Execution Feedback for Code Preference Optimization|EMNLP 2026 (findings)|Reward & Value Models, Text Quality Evaluation|[2608.23632](https://arxiv.org/abs/2608.23632)|
+|**2026-08-23**|ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation|EMNLP 2026 (findings)|Text Quality Evaluation|[2608.22559](https://arxiv.org/abs/2608.22559)|
+|**2022-05-20**|Translating Hanja Historical Documents to Contemporary Korean and English|EMNLP 2022 (findings)|Korean Writing & NLP|[2205.10019](https://arxiv.org/abs/2205.10019)|
+|**2019-12-01**|Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives|EMNLP 2020 (findings)|Korean Writing & NLP|[1912.00342](https://arxiv.org/abs/1912.00342)|
 
 ### ACL (10)
 
@@ -208,19 +227,6 @@ Back to the [main page](../README.md).
 |**2026-04-07**|UniCreative: Unifying Long-form Logic and Short-form Sparkle via Reference-Free Reinforcement Learning|ACL 2026 (findings)|Writing Agent|[2604.05517](https://arxiv.org/abs/2604.05517)|
 |**2026-03-24**|Polaris: A Gödel Agent Framework for Small Language Models through Experience-Abstracted Policy Repair|ACL 2026 (findings)|Writing Agent|[2603.23129](https://arxiv.org/abs/2603.23129)|
 |**2024-06-13**|Deep Exploration of Cross-Lingual Zero-Shot Generalization in Instruction Tuning|ACL 2024 (findings)|Korean Writing & NLP|[2406.08796](https://arxiv.org/abs/2406.08796)|
-
-### EMNLP (8)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-08-25**|SA-Bench: Evaluating Semantic Alignment in LLM-Based Paper Reproduction|EMNLP 2026 (findings)|Semantic Drift & Faithfulness|[2608.24252](https://arxiv.org/abs/2608.24252)|
-|**2026-08-25**|Unsupervised Post-Training of Foundation Models: A Survey|EMNLP 2026 (findings)|Synthetic Preference Data|[2608.24982](https://arxiv.org/abs/2608.24982)|
-|**2026-08-24**|DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation|EMNLP 2026 (findings)|Reward & Value Models|[2608.22806](https://arxiv.org/abs/2608.22806)|
-|**2026-08-24**|LITERARYBIGFIVE: Author-Personalized Text Generation in a Unified Interpretable Space|EMNLP 2026 (findings)|Writing Agent|[2608.23124](https://arxiv.org/abs/2608.23124)|
-|**2026-08-23**|Function-Level Execution Feedback for Code Preference Optimization|EMNLP 2026 (findings)|Reward & Value Models, Text Quality Evaluation|[2608.23632](https://arxiv.org/abs/2608.23632)|
-|**2026-08-23**|ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation|EMNLP 2026 (findings)|Text Quality Evaluation|[2608.22559](https://arxiv.org/abs/2608.22559)|
-|**2022-05-20**|Translating Hanja Historical Documents to Contemporary Korean and English|EMNLP 2022 (findings)|Korean Writing & NLP|[2205.10019](https://arxiv.org/abs/2205.10019)|
-|**2019-12-01**|Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives|EMNLP 2020 (findings)|Korean Writing & NLP|[1912.00342](https://arxiv.org/abs/1912.00342)|
 
 ## Other venues (15)
 
