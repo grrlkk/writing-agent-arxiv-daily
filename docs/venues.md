@@ -9,20 +9,28 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-01** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-02** (UTC).
 Back to the [main page](../README.md).
 
-177 of 944 papers carry venue evidence.
+188 of 978 papers carry venue evidence.
 
-## Top-tier venues (95)
+## Top-tier venues (103)
 
-### EMNLP (35)
+### EMNLP (43)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-01**|CARE: Contrastive Anchor-based Rubric Evolution for Large Language Model Post-Training|EMNLP 2026|Reward & Value Models|[2609.00892](https://arxiv.org/abs/2609.00892)|
+|**2026-09-01**|Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation|EMNLP 2026|Synthetic Preference Data, Text Quality Evaluation|[2609.01604](https://arxiv.org/abs/2609.01604)|
+|**2026-09-01**|Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation|EMNLP 2026|Text Quality Evaluation|[2609.01432](https://arxiv.org/abs/2609.01432)|
+|**2026-09-01**|Does task decomposition improve automatic NLG evaluation?|EMNLP 2026|Text Quality Evaluation|[2609.01139](https://arxiv.org/abs/2609.01139)|
+|**2026-09-01**|Post-hoc Alignment of LLM-judges to Human Judgment Distribution|EMNLP 2026|Text Quality Evaluation|[2609.01073](https://arxiv.org/abs/2609.01073)|
+|**2026-09-01**|Overfitting Mitigation via Singular Value Decomposition in Minimum Bayes Risk Decoding|EMNLP 2026|Text Quality Evaluation|[2609.01135](https://arxiv.org/abs/2609.01135)|
+|**2026-09-01**|AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation|EMNLP 2026|Writing Agent|[2609.00818](https://arxiv.org/abs/2609.00818)|
 |**2026-08-31**|Quantifying and Mitigating Korean Jamo-Level Typographical Vulnerabilities in Large Language Models|EMNLP 2026|Korean Writing & NLP|[2608.30229](https://arxiv.org/abs/2608.30229)|
 |**2026-08-31**|HSRM: Hidden-State Reward Models for Test-Time Verification|EMNLP 2026|Reward & Value Models|[2608.30841](https://arxiv.org/abs/2608.30841)|
 |**2026-08-31**|TRIPPULSE: Multi-Agent Travel Planning with Review-Grounded Reasoning|EMNLP 2026|Text Quality Evaluation|[2608.30924](https://arxiv.org/abs/2608.30924)|
+|**2026-08-31**|Validity-Aware Jailbreak Evaluation for Large Language Models|EMNLP 2026|Text Quality Evaluation|[2609.00498](https://arxiv.org/abs/2609.00498)|
 |**2026-08-31**|Hidden Threat in Synthetic Data: Covert Targeted Bias Injection through Benign Text|EMNLP 2026|Writing Agent|[2608.30619](https://arxiv.org/abs/2608.30619)|
 |**2026-08-30**|En-ViMedNER: An English-Vietnamese Parallel Biomedical Corpus with UMLS Semantic Type Annotations|EMNLP 2026|Iterative Revision & Text Editing|[2608.29890](https://arxiv.org/abs/2608.29890)|
 |**2026-08-30**|Check The Scoreboard: An Analysis of Scoring Schemes on Multiple-Choice Evaluation|EMNLP 2026|Self-Refine & Self-Correction|[2608.29887](https://arxiv.org/abs/2608.29887)|
@@ -207,14 +215,17 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-04-17**|From Intention to Text: AI-Supported Goal Setting in Academic Writing|AIED 2026|Writing Agent|[2604.15800](https://arxiv.org/abs/2604.15800)|
 
-## Findings tracks (24)
+## Findings tracks (27)
 
-### EMNLP (14)
+### EMNLP (17)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-08-31**|PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization|EMNLP 2026 (findings)|Reward & Value Models|[2608.30597](https://arxiv.org/abs/2608.30597)|
+|**2026-09-01**|Same Semantics, Different Outcome: On the Modality Robustness of Multimodal LLMs under Knowledge Conflict|EMNLP 2026 (findings)|Reward & Value Models|[2609.00550](https://arxiv.org/abs/2609.00550)|
+|**2026-09-01**|SOVER: Formal Certification of Optimization Reformulations via LLM-Assisted SMT Verification|EMNLP 2026 (findings)|Synthetic Preference Data|[2609.00728](https://arxiv.org/abs/2609.00728)|
+|**2026-08-31**|ConvDeck: Conversational Paper-to-Slide Generation via Stage-Specific User Feedback|EMNLP 2026 (findings)|Iterative Revision & Text Editing|[2609.00226](https://arxiv.org/abs/2609.00226)|
 |**2026-08-31**|Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache|EMNLP 2026 (findings)|Reward & Value Models|[2608.30252](https://arxiv.org/abs/2608.30252)|
+|**2026-08-31**|PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization|EMNLP 2026 (findings)|Reward & Value Models|[2608.30597](https://arxiv.org/abs/2608.30597)|
 |**2026-08-30**|Small Language Models as Judges for Rubric-Based Reinforcement Learning|EMNLP 2026 (findings)|Reward & Value Models|[2608.30005](https://arxiv.org/abs/2608.30005)|
 |**2026-08-28**|Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance|EMNLP 2026 (findings)|Search & Control for Generation|[2608.28229](https://arxiv.org/abs/2608.28229)|
 |**2026-08-28**|A Unified Framework to Elicit Structured Feedback for Interpretable Multi-Trait Essay Scoring|EMNLP 2026 (findings)|Text Quality Evaluation|[2608.28407](https://arxiv.org/abs/2608.28407)|
