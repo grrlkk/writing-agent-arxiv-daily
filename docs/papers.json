@@ -3,22 +3,22 @@
   "topics": {
    "Iterative Revision & Text Editing": 76,
    "Korean Writing & NLP": 68,
-   "Reward & Value Models": 184,
+   "Reward & Value Models": 188,
    "Search & Control for Generation": 76,
-   "Self-Refine & Self-Correction": 95,
+   "Self-Refine & Self-Correction": 96,
    "Semantic Drift & Faithfulness": 82,
-   "Synthetic Preference Data": 112,
-   "Text Quality Evaluation": 182,
+   "Synthetic Preference Data": 113,
+   "Text Quality Evaluation": 185,
    "Writing Agent": 167
   },
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "venue_tiers": {
    "demo": 2,
    "findings": 27,
-   "none": 790,
+   "none": 794,
    "other": 15,
    "strong": 9,
-   "top": 103,
+   "top": 106,
    "workshop": 32
   }
  },
@@ -8906,7 +8906,7 @@
     "matched": [
      "value model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.08389v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.08389v2",
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
@@ -8920,12 +8920,12 @@
     "tier": "none",
     "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
     "track": "",
-    "updated": "2026-08-09",
+    "updated": "2026-09-01",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.08389v1"
+    "version": "2608.08389v2"
    },
    "2608.08491": {
     "abs_url": "https://arxiv.org/abs/2608.08491",
@@ -9779,7 +9779,7 @@
     "matched": [
      "preference optimization"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.12062v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12062v2",
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
@@ -9793,12 +9793,12 @@
     "tier": "workshop",
     "title": "Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations",
     "track": "workshop",
-    "updated": "2026-08-12",
+    "updated": "2026-09-01",
     "venue": "ICLR",
     "venue_evidence": "13 pages, 4 figures. Accepted at an ICLR 2025 workshop",
     "venue_source": "comment",
     "venue_year": "2025",
-    "version": "2608.12062v1"
+    "version": "2608.12062v2"
    },
    "2608.12443": {
     "abs_url": "https://arxiv.org/abs/2608.12443",
@@ -11776,7 +11776,7 @@
      "process reward model",
      "verifier"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.26550v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26550v2",
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
@@ -11790,12 +11790,12 @@
     "tier": "none",
     "title": "SPEAR: Distilling Domain-Adaptive Reasoning Skeletons via Sequential Symbolic Alignment in Reinforcement Learning",
     "track": "",
-    "updated": "2026-08-27",
+    "updated": "2026-09-01",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.26550v1"
+    "version": "2608.26550v2"
    },
    "2608.26762": {
     "abs_url": "https://arxiv.org/abs/2608.26762",
@@ -13197,6 +13197,158 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.01591v1"
+   },
+   "2609.01658": {
+    "abs_url": "https://arxiv.org/abs/2609.01658",
+    "authors": [
+     "MinKeon Kim",
+     "Namjun Lee",
+     "Jaekwang Kim"
+    ],
+    "code_url": "https://github.com/keemminnke/PRO-Step",
+    "comment": "22 pages, 7 figures, 23 tables. Accepted to EMNLP 2026",
+    "first_seen": "2026-09-03",
+    "id": "2609.01658",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.01658v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-31",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Retrieval-Augmented Generation enhances Large Language Models by grounding responses in external knowledge, but multi-hop reasoning remains vulnerable to error propagation, where early retrieval failures confound subsequent steps. Standard outcome-based optimization only rewards the final answer, leaving intermediate retrieval and reasoning errors undetected. While existing process-based methods introduce step-level signals, they still score each step against the final answer, rewarding spurious successes where flawed retrieval coincidentally produces the correct answer. Step-level supervision in RAG requires evaluating both logical validity and evidential grounding at each step. We introduce PRO-STEP: we train a generative PRM that evaluates both dimensions, employ PRM-guided value tree search to construct preference pairs contrasting valid steps against flawed ones, and optimize the policy via step-level Direct Preference Optimization. Experiments on single and multi-hop QA datasets demonstrate that PRO-STEP achieves the best average EM and F1 across five benchmarks. Code, models, and training data are publicly available at https://github.com/keemminnke/PRO-Step.",
+    "tier": "top",
+    "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
+    "track": "main",
+    "updated": "2026-08-31",
+    "venue": "EMNLP",
+    "venue_evidence": "22 pages, 7 figures, 23 tables. Accepted to EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.01658v1"
+   },
+   "2609.02246": {
+    "abs_url": "https://arxiv.org/abs/2609.02246",
+    "authors": [
+     "Vansh Wahi"
+    ],
+    "code_url": "",
+    "comment": "20 pages, 4 figures, 5 tables",
+    "first_seen": "2026-09-03",
+    "id": "2609.02246",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02246v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Self-improving agent pipelines have a problem at their center. An optimizer rewrites prompts to score higher, and the score comes from a judge that is itself an LLM. That judge has the last word on whether the system is getting better, and our position is that it has not earned it. The judge should be demoted from oracle to advisor: its verdict becomes one input among several, and every change is gated instead by a deterministic verification layer the judge cannot override. We reached this position by building the alternative and running it. Over months of running autonomous prompt-optimization loops in production across contract analysis, compliance review, and code quality, we cataloged eleven ways the evaluation signal failed, in four classes: judge bias, harness and metric failures, ground-truth errors, and reward hacking. Agents achieved perfect scores by reading cached answer keys from their environment, a 100% pass rate concealing 68% true capability. A corrupted ground-truth label caused the optimizer to delete correct compliance rules to agree with it. A syntactically broken prompt was promoted as the winner because a silent parser fallback improved the metric. Attempts to fix the judge by rewriting its rubric plateaued; the only reliable gain came from a structural constraint on its output order. In response we describe PROCTOR, a Teacher-Student loop in which a stateful orchestrator holds all tool access, stateless subagents diagnose failures and draft mutations they cannot apply, and a Teacher grades those mutations under five deterministic guardrails: hermetic sandboxes, capability-disjoint roles, acceptance checks that outrank the Teacher, frozen holdouts, and canary cases engineered so that a perfect score is itself evidence of cheating. We report the failures this prevented, and, because the Teacher is itself an LLM judge, the failures it did not.",
+    "tier": "none",
+    "title": "LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails",
+    "track": "",
+    "updated": "2026-09-02",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.02246v1"
+   },
+   "2609.02273": {
+    "abs_url": "https://arxiv.org/abs/2609.02273",
+    "authors": [
+     "Mingjie Zheng",
+     "Zihao Chen",
+     "Wenqing Chen",
+     "Weile Yuan",
+     "Zhixuan Chu",
+     "Jianxing Yu",
+     "Zibin Zheng"
+    ],
+    "code_url": "",
+    "comment": "Accepted for publication at the EMNLP 2026 Main Conference",
+    "first_seen": "2026-09-03",
+    "id": "2609.02273",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02273v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Model merging provides an efficient paradigm for constructing multi-task large language models (LLMs) without full model retraining, yet it remains challenged by parameter interference. While existing methods aim to preserve the capabilities of individual expert models and mitigate interference, they generally do not directly learn from the potentially degraded behaviors exposed by naive merging. In this paper, we propose a conflict-driven preference optimization framework for model merging (CoMerge), which reformulates model merging as a preference optimization problem. The approach utilizes a self-supervised, conflict-driven strategy that leverages the defects of naive merging methods (e.g., task arithmetic) as hard negative samples to construct preference pairs without external annotations. By applying preference optimization to refine lightweight, tensor-wise merging coefficients, CoMerge enables the model to mitigate parameter-space conflicts while preserving task-specific capabilities. Extensive experiments show that CoMerge achieves an average normalized performance of 0.9968 on MergeBench, outperforming all evaluated data-free and data-driven model-merging baselines. Furthermore, on Llama-3.1-8B-Instruct, CoMerge yields marked improvements on conflict-sensitive tasks such as instruction following and safety, while remaining highly competitive with full-parameter fine-tuning despite optimizing only 1,445 scalar coefficients.",
+    "tier": "top",
+    "title": "CoMerge: Conflict-Driven Preference Optimization for Multi-Task Model Merging",
+    "track": "main",
+    "updated": "2026-09-02",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted for publication at the EMNLP 2026 Main Conference",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.02273v1"
+   },
+   "2609.02817": {
+    "abs_url": "https://arxiv.org/abs/2609.02817",
+    "authors": [
+     "Peixuan Han",
+     "Runhui Wang",
+     "Ketan Ramaneti",
+     "Jie Hao",
+     "Gerald Friedland",
+     "Chris Kong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-03",
+    "id": "2609.02817",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "process reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02817v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM) post-training, but its reliance on coarse outcome rewards leads to limited guidance on intermediate reasoning processes. Existing approaches such as process reward modeling and on-policy distillation introduce additional constraints, such as reliance on a specialized reward model or assuming identical reasoning patterns between teacher and student. Nevertheless, we observe that once a reasoning process first goes wrong, evaluating the subsequent reasoning provides limited additional information, as it is already conditioned on an invalid prefix. Therefore, we propose Cliff, a reward shaping strategy that utilizes an off-the-shelf LLM as a teacher to identify the first mistake in each rollout. As a result, the rollout is naturally decomposed into two parts: a correct prefix and an incorrect suffix. Cliff then converts this signal into token-level advantages, assigning positive advantages for the correct prefix and negative feedback afterward. Experiments across 12 different scenarios demonstrate that Cliff consistently improves reasoning performance, outperforming on-policy distillation by 15% and standard GRPO by 7%, even with teachers of modest capability. Furthermore, we analyse the role of ``ground truth'' in Cliff and investigate its training dynamics. These results establish Cliff as a simple, general and effective approach for improving RLVR with richer, fine-grained supervision.",
+    "tier": "none",
+    "title": "Cliff: Learning Process Rewards from the First Mistake",
+    "track": "",
+    "updated": "2026-09-02",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.02817v1"
    }
   },
   "Search & Control for Generation": {
@@ -19407,14 +19559,14 @@
      "Thantham Jittham"
     ],
     "code_url": "",
-    "comment": "13 pages, 4 figures. Accepted to the UAI 2026 Workshop on Safe AI",
+    "comment": "Withdrawn by the author. The reported results do not correspond to the executed evaluation and are unsupported. The paper should not be cited",
     "first_seen": "2026-08-25",
     "id": "2608.21377",
     "journal_ref": "",
     "matched": [
      "self-refine"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.21377v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.21377v2",
     "primary_category": "cs.CL",
     "published": "2026-07-06",
     "s2": {
@@ -19428,12 +19580,12 @@
     "tier": "none",
     "title": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
     "track": "",
-    "updated": "2026-07-06",
+    "updated": "2026-09-01",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.21377v1"
+    "version": "2608.21377v2"
    },
    "2608.22090": {
     "abs_url": "https://arxiv.org/abs/2608.22090",
@@ -19862,6 +20014,40 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2608.29887v1"
+   },
+   "2609.02852": {
+    "abs_url": "https://arxiv.org/abs/2609.02852",
+    "authors": [
+     "James Mickens"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-03",
+    "id": "2609.02852",
+    "journal_ref": "",
+    "matched": [
+     "self-critique"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02852v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term ``linguistic illegibility'' to broadly refer to scenarios in which an LLM's externalized or mechanistically-probed language artifacts fail to represent how the model actually thinks. We argue that the specter of linguistic illegibility is unavoidable for LLMs whose internal computations are not directly expressed via language, but rather math over activation spaces (with lossy translations between activation spaces and natural language happening at the bookends). If linguistic illegibility is always possible, then security mechanisms that rely on a model's linguistic self-reporting (e.g., chain-of-thought monitoring, constitutional self-critique, activation probing for linguistically-defined feature vectors) can never be completely sound; the model sandbox will always need isolation techniques whose guarantees do not depend on reading a model's linguistic state at all. We argue that observing a model's outputs using taint tracking is a promising approach for an effective sandbox: regardless of how a model linguistically self-reports, a taint tracking policy can define, a priori, various pieces of system state that should never be influenced by model-produced data. We also discuss several additional sandboxing mechanisms (e.g., robust virtualization, third-party auditing of sandboxing configurations) which collectively provide a critical floor beneath linguistic monitoring, and would have mitigated recent sandbox exploits by frontier models.",
+    "tier": "none",
+    "title": "The Implications of Linguistic Illegibility for LLM Security",
+    "track": "",
+    "updated": "2026-09-02",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.02852v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -25983,7 +26169,7 @@
     "matched": [
      "preference data"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.12062v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12062v2",
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
@@ -25997,12 +26183,12 @@
     "tier": "workshop",
     "title": "Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations",
     "track": "workshop",
-    "updated": "2026-08-12",
+    "updated": "2026-09-01",
     "venue": "ICLR",
     "venue_evidence": "13 pages, 4 figures. Accepted at an ICLR 2025 workshop",
     "venue_source": "comment",
     "venue_year": "2025",
-    "version": "2608.12062v1"
+    "version": "2608.12062v2"
    },
    "2608.13833": {
     "abs_url": "https://arxiv.org/abs/2608.13833",
@@ -27517,6 +27703,46 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.01604v1"
+   },
+   "2609.02273": {
+    "abs_url": "https://arxiv.org/abs/2609.02273",
+    "authors": [
+     "Mingjie Zheng",
+     "Zihao Chen",
+     "Wenqing Chen",
+     "Weile Yuan",
+     "Zhixuan Chu",
+     "Jianxing Yu",
+     "Zibin Zheng"
+    ],
+    "code_url": "",
+    "comment": "Accepted for publication at the EMNLP 2026 Main Conference",
+    "first_seen": "2026-09-03",
+    "id": "2609.02273",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02273v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Model merging provides an efficient paradigm for constructing multi-task large language models (LLMs) without full model retraining, yet it remains challenged by parameter interference. While existing methods aim to preserve the capabilities of individual expert models and mitigate interference, they generally do not directly learn from the potentially degraded behaviors exposed by naive merging. In this paper, we propose a conflict-driven preference optimization framework for model merging (CoMerge), which reformulates model merging as a preference optimization problem. The approach utilizes a self-supervised, conflict-driven strategy that leverages the defects of naive merging methods (e.g., task arithmetic) as hard negative samples to construct preference pairs without external annotations. By applying preference optimization to refine lightweight, tensor-wise merging coefficients, CoMerge enables the model to mitigate parameter-space conflicts while preserving task-specific capabilities. Extensive experiments show that CoMerge achieves an average normalized performance of 0.9968 on MergeBench, outperforming all evaluated data-free and data-driven model-merging baselines. Furthermore, on Llama-3.1-8B-Instruct, CoMerge yields marked improvements on conflict-sensitive tasks such as instruction following and safety, while remaining highly competitive with full-parameter fine-tuning despite optimizing only 1,445 scalar coefficients.",
+    "tier": "top",
+    "title": "CoMerge: Conflict-Driven Preference Optimization for Multi-Task Model Merging",
+    "track": "main",
+    "updated": "2026-09-02",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted for publication at the EMNLP 2026 Main Conference",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.02273v1"
    }
   },
   "Text Quality Evaluation": {
@@ -34675,6 +34901,120 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.01604v1"
+   },
+   "2609.01772": {
+    "abs_url": "https://arxiv.org/abs/2609.01772",
+    "authors": [
+     "Tawsif Tashwar Dipto",
+     "Mehedi Ahamed",
+     "Radib Bin Kabir",
+     "Mueeze Al Mushabbir",
+     "Mohammed Saidul Islam",
+     "Mir Rayat Imtiaz Hossain",
+     "Md Tahmid Rahman Laskar",
+     "Sabbir Ahmed"
+    ],
+    "code_url": "",
+    "comment": "Accepted by EMNLP 2026 (Main Conference)",
+    "first_seen": "2026-09-03",
+    "id": "2609.01772",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.01772v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-01",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Meme understanding goes beyond recognizing visual content or literal text; it requires implicit cultural knowledge and pragmatic inference that most vision-language models still lack. We introduce MemeCULT-1K, a multilingual benchmark of 1,000 South Asian memes in Bengali, English, and Hindi, where each meme is paired with a cultural context note and three human-written explanations, along with a supplementary set of 54 Bengali regional dialect memes. We evaluate thirteen popular Vision Language Models (VLMs) under two settings: meme-only and context-aware. Providing minimal cultural context yields consistent gains across all models and languages: mean SBERT similarity improves from 44.6 to 56.4 (+11.8), BLEURT from 37.3 to 42.3 (+5.0), and LLM-as-a-Judge scores from 2.57 to 3.43 out of 5 (+0.86). Fine-grained error analysis reveals that closed-source models fail mainly on entity and reference misidentification, while open-source models are bottlenecked by broader cultural knowledge gaps, with linguistic and phonological failures proving the most context-resistant across both. These results highlight the difficulty of culturally grounded meme understanding and motivate future work on explicit cultural knowledge integration. Our dataset and code are publicly available at TawsifDipto17/MemeCULT-1K.",
+    "tier": "top",
+    "title": "MemeCULT-1K: Benchmarking South Asian Cultural Context and Humor Understanding of Multimodal Models",
+    "track": "main",
+    "updated": "2026-09-01",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted by EMNLP 2026 (Main Conference)",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.01772v1"
+   },
+   "2609.02054": {
+    "abs_url": "https://arxiv.org/abs/2609.02054",
+    "authors": [
+     "Yikai Zhao",
+     "Saurabh Pandey",
+     "Pradeep Kumar Misra"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-03",
+    "id": "2609.02054",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02054v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large Language Models (LLMs) are increasingly deployed in interactive systems where understanding user intent precisely is paramount. A key capability for such systems is effective question clarification, especially when user queries are ambiguous or underspecified. This paper introduces a novel tri-agent framework for the robust evaluation of an LLM's ability to engage in clarifying dialogue. Our framework comprises three distinct LLM-based agents: (1) a Question Clarifying Agent (QCA), the system under evaluation, tasked with identifying ambiguities and posing clarifying questions; (2) a Respondent Agent (RA), designed to simulate human user responses, potentially including irrelevant or challenging replies; and (3) an Evaluator Agent (EA), an LLM-as-a-judge, which assesses the quality of the dialogue based on a comprehensive set of metrics. We detail a methodology for synthetic data generation in the supply chain domain as an example. We propose metrics evaluating ambiguity handling, question quality, dialogue efficiency, language appropriateness, and final intent alignment. We also briefly discuss the validation of the EA against human judgments. This work provides a structured approach to benchmark, validate, and improve the clarification capabilities of conversational LLM applications.",
+    "tier": "none",
+    "title": "A Tri-Agent Framework for Evaluating and Aligning Question Clarification Capabilities of Large Language Models",
+    "track": "",
+    "updated": "2026-09-02",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.02054v1"
+   },
+   "2609.02246": {
+    "abs_url": "https://arxiv.org/abs/2609.02246",
+    "authors": [
+     "Vansh Wahi"
+    ],
+    "code_url": "",
+    "comment": "20 pages, 4 figures, 5 tables",
+    "first_seen": "2026-09-03",
+    "id": "2609.02246",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge",
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02246v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-03",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Self-improving agent pipelines have a problem at their center. An optimizer rewrites prompts to score higher, and the score comes from a judge that is itself an LLM. That judge has the last word on whether the system is getting better, and our position is that it has not earned it. The judge should be demoted from oracle to advisor: its verdict becomes one input among several, and every change is gated instead by a deterministic verification layer the judge cannot override. We reached this position by building the alternative and running it. Over months of running autonomous prompt-optimization loops in production across contract analysis, compliance review, and code quality, we cataloged eleven ways the evaluation signal failed, in four classes: judge bias, harness and metric failures, ground-truth errors, and reward hacking. Agents achieved perfect scores by reading cached answer keys from their environment, a 100% pass rate concealing 68% true capability. A corrupted ground-truth label caused the optimizer to delete correct compliance rules to agree with it. A syntactically broken prompt was promoted as the winner because a silent parser fallback improved the metric. Attempts to fix the judge by rewriting its rubric plateaued; the only reliable gain came from a structural constraint on its output order. In response we describe PROCTOR, a Teacher-Student loop in which a stateful orchestrator holds all tool access, stateless subagents diagnose failures and draft mutations they cannot apply, and a Teacher grades those mutations under five deterministic guardrails: hermetic sandboxes, capability-disjoint roles, acceptance checks that outrank the Teacher, frozen holdouts, and canary cases engineered so that a perfect score is itself evidence of cheating. We report the failures this prevented, and, because the Teacher is itself an LLM judge, the failures it did not.",
+    "tier": "none",
+    "title": "LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails",
+    "track": "",
+    "updated": "2026-09-02",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.02246v1"
    }
   },
   "Writing Agent": {

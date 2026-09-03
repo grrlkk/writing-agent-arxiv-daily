@@ -9,26 +9,29 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-02** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-03** (UTC).
 Back to the [main page](../README.md).
 
-188 of 978 papers carry venue evidence.
+191 of 985 papers carry venue evidence.
 
-## Top-tier venues (103)
+## Top-tier venues (106)
 
-### EMNLP (43)
+### EMNLP (46)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-02**|CoMerge: Conflict-Driven Preference Optimization for Multi-Task Model Merging|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2609.02273](https://arxiv.org/abs/2609.02273)|
 |**2026-09-01**|CARE: Contrastive Anchor-based Rubric Evolution for Large Language Model Post-Training|EMNLP 2026|Reward & Value Models|[2609.00892](https://arxiv.org/abs/2609.00892)|
 |**2026-09-01**|Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation|EMNLP 2026|Synthetic Preference Data, Text Quality Evaluation|[2609.01604](https://arxiv.org/abs/2609.01604)|
-|**2026-09-01**|Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation|EMNLP 2026|Text Quality Evaluation|[2609.01432](https://arxiv.org/abs/2609.01432)|
-|**2026-09-01**|Does task decomposition improve automatic NLG evaluation?|EMNLP 2026|Text Quality Evaluation|[2609.01139](https://arxiv.org/abs/2609.01139)|
 |**2026-09-01**|Post-hoc Alignment of LLM-judges to Human Judgment Distribution|EMNLP 2026|Text Quality Evaluation|[2609.01073](https://arxiv.org/abs/2609.01073)|
 |**2026-09-01**|Overfitting Mitigation via Singular Value Decomposition in Minimum Bayes Risk Decoding|EMNLP 2026|Text Quality Evaluation|[2609.01135](https://arxiv.org/abs/2609.01135)|
+|**2026-09-01**|Does task decomposition improve automatic NLG evaluation?|EMNLP 2026|Text Quality Evaluation|[2609.01139](https://arxiv.org/abs/2609.01139)|
+|**2026-09-01**|Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation|EMNLP 2026|Text Quality Evaluation|[2609.01432](https://arxiv.org/abs/2609.01432)|
+|**2026-09-01**|MemeCULT-1K: Benchmarking South Asian Cultural Context and Humor Understanding of Multimodal Models|EMNLP 2026|Text Quality Evaluation|[2609.01772](https://arxiv.org/abs/2609.01772)|
 |**2026-09-01**|AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation|EMNLP 2026|Writing Agent|[2609.00818](https://arxiv.org/abs/2609.00818)|
 |**2026-08-31**|Quantifying and Mitigating Korean Jamo-Level Typographical Vulnerabilities in Large Language Models|EMNLP 2026|Korean Writing & NLP|[2608.30229](https://arxiv.org/abs/2608.30229)|
 |**2026-08-31**|HSRM: Hidden-State Reward Models for Test-Time Verification|EMNLP 2026|Reward & Value Models|[2608.30841](https://arxiv.org/abs/2608.30841)|
+|**2026-08-31**|PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation|EMNLP 2026|Reward & Value Models|[2609.01658](https://arxiv.org/abs/2609.01658)|
 |**2026-08-31**|TRIPPULSE: Multi-Agent Travel Planning with Review-Grounded Reasoning|EMNLP 2026|Text Quality Evaluation|[2608.30924](https://arxiv.org/abs/2608.30924)|
 |**2026-08-31**|Validity-Aware Jailbreak Evaluation for Large Language Models|EMNLP 2026|Text Quality Evaluation|[2609.00498](https://arxiv.org/abs/2609.00498)|
 |**2026-08-31**|Hidden Threat in Synthetic Data: Covert Targeted Bias Injection through Benign Text|EMNLP 2026|Writing Agent|[2608.30619](https://arxiv.org/abs/2608.30619)|
