@@ -3,23 +3,23 @@
   "topics": {
    "Iterative Revision & Text Editing": 76,
    "Korean Writing & NLP": 68,
-   "Reward & Value Models": 188,
-   "Search & Control for Generation": 76,
+   "Reward & Value Models": 194,
+   "Search & Control for Generation": 77,
    "Self-Refine & Self-Correction": 96,
-   "Semantic Drift & Faithfulness": 82,
-   "Synthetic Preference Data": 113,
-   "Text Quality Evaluation": 185,
-   "Writing Agent": 167
+   "Semantic Drift & Faithfulness": 84,
+   "Synthetic Preference Data": 116,
+   "Text Quality Evaluation": 192,
+   "Writing Agent": 168
   },
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "venue_tiers": {
    "demo": 2,
-   "findings": 27,
-   "none": 794,
+   "findings": 30,
+   "none": 805,
    "other": 15,
    "strong": 9,
-   "top": 106,
-   "workshop": 32
+   "top": 110,
+   "workshop": 33
   }
  },
  "topics": {
@@ -13017,7 +13017,7 @@
     "matched": [
      "preference optimization"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.00796v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.00796v2",
     "primary_category": "cs.CL",
     "published": "2026-09-01",
     "s2": {
@@ -13027,16 +13027,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "As one of the most critical challenges in large language models, contextual faithfulness directly determines their reliability in knowledge-intensive applications. This task is particularly challenging as it requires balancing factual consistency with generation efficiency. Contrastive decoding methods require dual forward passes (with and without context) to compare model outputs, doubling inference computational overhead, while post-training alignment demands extensive reinforcement learning with substantial computational overhead. To address this challenge, we present \\textbf{SFAD}, a speculative decoding framework that enhances contextual faithfulness without inference degradation. We first construct \\textbf{ConFide}, a preference dataset with fine-grained atomic perturbations, to train a context-faithful draft model via Direct Preference Optimization. During inference, Epistemic Friction detects potential hallucinations by quantifying distributional tension weighted by specialist certainty. When friction exceeds the threshold, Asymmetric Logit Steering refines the target distribution through residual-based logit injection; otherwise, standard speculation proceeds. Extensive experiments demonstrate that SFAD substantially improves faithfulness while achieving $2.48\\times$ speedup, offering a practical solution for efficient LLMs.",
+    "summary": "As one of the most critical challenges in large language models, contextual faithfulness directly determines their reliability in knowledge-intensive applications. This task is particularly challenging as it requires balancing factual consistency with generation efficiency. Contrastive decoding methods require dual forward passes (with and without context) to compare model outputs, doubling inference computational overhead, while post-training alignment demands extensive reinforcement learning with substantial computational overhead. To address this challenge, we present SFAD, a speculative decoding framework that enhances contextual faithfulness without inference degradation. We first construct ConFide, a preference dataset with fine-grained atomic perturbations, to train a context-faithful draft model via Direct Preference Optimization. During inference, Epistemic Friction detects potential hallucinations by quantifying distributional tension weighted by specialist certainty. When friction exceeds the threshold, Asymmetric Logit Steering refines the target distribution through residual-based logit injection; otherwise, standard speculation proceeds. Extensive experiments demonstrate that SFAD substantially improves faithfulness while achieving $2.48\\times$ speedup, offering a practical solution for efficient LLMs.",
     "tier": "none",
     "title": "SFAD: Speculative Factuality-Aware Decoding",
     "track": "",
-    "updated": "2026-09-01",
+    "updated": "2026-09-03",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.00796v1"
+    "version": "2609.00796v2"
    },
    "2609.00879": {
     "abs_url": "https://arxiv.org/abs/2609.00879",
@@ -13349,6 +13349,255 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.02817v1"
+   },
+   "2609.03342": {
+    "abs_url": "https://arxiv.org/abs/2609.03342",
+    "authors": [
+     "Leqi Zheng",
+     "Jinbo Su",
+     "Fang Niu",
+     "Chaokun Wang",
+     "Weiping Wang",
+     "Jiajun Zhang",
+     "Shannan Yan",
+     "Jie Wu",
+     "Zhaolu Kang",
+     "Rong Fu",
+     "Hang Zhang"
+    ],
+    "code_url": "https://github.com/LQgdwind/GAR",
+    "comment": "",
+    "first_seen": "2026-09-04",
+    "id": "2609.03342",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "process reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03342v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reinforcement learning from verifiable rewards (RLVR) drives chain-of-thought reasoning in large language models, yet its binary outcome reward cannot distinguish among correct trajectories. Existing dense reward alternatives, from surface heuristics to process reward models, either ignore the expert solutions already present in training corpora or require expensive offline annotation. We propose Gradient-Aligned Reward (GAR), which operates in the policy's own gradient space: truncated backpropagation through the output projection layer extracts a compact gradient vector for each rollout, and cosine similarity with an expert-anchor gradient yields a dense, reasoning-aware reward with less than 9% wall-clock overhead. We prove that this cosine admits a multiplicative decomposition into prediction-error and activation-pattern factors, providing a concrete characterization of what the alignment signal measures. On Qwen3-4B and Qwen3-8B, GAR consistently improves over GRPO and other baselines on competition-level math benchmarks and transfers to GPQA Diamond and MMLU-Pro without domain-specific data. Code and data are available at https://github.com/LQgdwind/GAR.",
+    "tier": "none",
+    "title": "Gradients Know What Outcomes Don't: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.03342v1"
+   },
+   "2609.03407": {
+    "abs_url": "https://arxiv.org/abs/2609.03407",
+    "authors": [
+     "Yuhe Wu",
+     "Guangyu Wang",
+     "Yujie Chen",
+     "Jiatong Zhang",
+     "Yuran Chen",
+     "Yutong Zhang",
+     "Xiyin Cheng",
+     "Wenpeng Cao",
+     "Zhuang Liu",
+     "Guang Zhang"
+    ],
+    "code_url": "",
+    "comment": "Accepted by EMNLP 2026 findings",
+    "first_seen": "2026-09-04",
+    "id": "2609.03407",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03407v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "People increasingly turn to large language models (LLMs) for everyday advice, making ethically charged interpersonal problems a practical moral-advisory context. Most prior work has studied this context through single-turn judgments or pressure-laden rebuttals, assumptions that poorly match how guidance is sought in real-world contexts. These assumptions leave unclear whether narration alone, without an explicit opposing position, can shift model judgments during multi-turn moral consultation. Yet real-world moral-conflict conversation often elicits one party's self-justifying account, which can unfold over multiple turns and create information asymmetry. We introduce \\textbf{narrative captivity}, a failure mode in which a model treats an unopposed one-sided account as complete and aligns with the narrator's interpretation without seeking missing perspectives. To measure this phenomenon, we build a benchmark of $5{,}078$ interpersonal-conflict scenarios spanning six moral dimensions. Across 17 LLMs, narrative captivity is widespread: end-state judgments under multi-turn narration shift by 25 percentage points on average beyond the matched single-turn baseline. Stage-level analysis identifies preference optimization as a major contributor, while four inference-time strategies provide only partial mitigation. We hope our project fosters LLM advisors that preserve independent judgment in real-world consultation.",
+    "tier": "findings",
+    "title": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation",
+    "track": "findings",
+    "updated": "2026-09-03",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted by EMNLP 2026 findings",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.03407v1"
+   },
+   "2609.03887": {
+    "abs_url": "https://arxiv.org/abs/2609.03887",
+    "authors": [
+     "Hoang Cuong Nguyen",
+     "Mark Dras",
+     "Usman Naseem"
+    ],
+    "code_url": "https://github.com/hoangcuongnguyen2001/Beyond-Shallow-Alignment",
+    "comment": "27 pages, accepted at EMNLP 2026 Main Conference",
+    "first_seen": "2026-09-04",
+    "id": "2609.03887",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03887v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "How do the methods used to train language models to refuse harmful requests shape how that refusal actually works inside the model? We compare three post-training methods - supervised fine-tuning, reasoning-augmented fine-tuning (training on reasoning chains that justify a safety decision), and preference optimization (ORPO) - across three architecturally distinct models (Llama-3.1-8B, Gemma-2-9B, Qwen3-8B). We find that training method, not just data, reshapes how refusal is computed internally: reasoning-augmented training consistently produces a distinct kind of refusal computation, visible across all three models, while architecture independently shapes internal structure and how reliably refusal can be steered. Most importantly, no method we study achieves all three properties we would want from safe alignment at once: refusal that isn't concentrated in a few fragile components, safety gains that don't cost general capability, and safety behavior correctable through small, targeted edits. We caution against treating current post-training methods as a solved, reliable defense, especially for security-critical use. Code and models are available in https://github.com/hoangcuongnguyen2001/Beyond-Shallow-Alignment.",
+    "tier": "top",
+    "title": "Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness",
+    "track": "main",
+    "updated": "2026-09-03",
+    "venue": "EMNLP",
+    "venue_evidence": "27 pages, accepted at EMNLP 2026 Main Conference",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.03887v1"
+   },
+   "2609.03960": {
+    "abs_url": "https://arxiv.org/abs/2609.03960",
+    "authors": [
+     "NPCI AI Research Team",
+     "Aman Kumar",
+     "Asit Desai",
+     "Chandra Bhushan",
+     "Harsh Sharma",
+     "Harshit Bhushan",
+     "Hrithik Kadam",
+     "Keyur Doshi",
+     "Kolisetty Sai Kapardheeswar",
+     "Krishanu Adhikary",
+     "Nadeem Shaik",
+     "Navya Prakash",
+     "Nitin Kukreja",
+     "Prashant Devadiga",
+     "Shamanth MH",
+     "Shantanu Pandey",
+     "Suvradip Paul",
+     "Yatharth Dedhia"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-04",
+    "id": "2609.03960",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03960v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Banks need conversational systems that can answer product questions, assist customers with account-related requests, and operate safely within strict operational and regulatory constraints. General-purpose language models do not reliably meet these requirements. They fall short when a task requires grounded information, correct tool use, or cautious handling of bank-specific sensitive situations. We introduce FiMI Banking, a controlled Indian retail-banking setting. We build it from vetted banking documents, structured ground truth, synthetic customer backgrounds, and banking tools. We evaluate two post-training approaches: preference optimization for response-level behavior, and reinforcement learning with verifiable rewards for multi-turn tool-use tasks. Preference optimization improves safe behavior substantially: out-of-scope refusal rises from 52% to 80%. Reinforcement learning improves edge-case performance from 0.509 to 0.718 and order-sensitive task performance from 0.590 to 0.679, while using 29% fewer generated tokens. These results show that preference optimization and verifiable-reward reinforcement learning address complementary requirements for reliable banking agents.",
+    "tier": "none",
+    "title": "FiMI Banking: A Sovereign Model for Indian Retail Banking",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.03960v1"
+   },
+   "2609.04066": {
+    "abs_url": "https://arxiv.org/abs/2609.04066",
+    "authors": [
+     "Yutai Zhou",
+     "Erdem Bıyık"
+    ],
+    "code_url": "https://github.com/yutaizhou/bnn_pref",
+    "comment": "Published at TMLR",
+    "first_seen": "2026-09-04",
+    "id": "2609.04066",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04066v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models from human preferences, making active learning a critical component in synthesizing informative preference queries. However, effective uncertainty quantification required for active learning remains a key challenge for large neural network reward models. In this paper, we introduce PreferenceEKF, a sample-efficient approach that tracks reward model uncertainty by framing active preference learning as a sequential Bayesian filtering problem. Instead of relying on computationally prohibitive posterior inference over the full neural network parameter space, our method performs sequential inference via an extended Kalman filter within a low-dimensional parameter subspace, continuously updating the reward model posterior as new preference queries arrive. Our approach enables scalable sampling of neural network parameters to efficiently compute acquisition functions for active reward learning. Experiments on the D4RL and V-D4RL benchmarks demonstrate that our approach achieves better sample efficiency, runtime, scalability, and calibration compared to other Bayesian deep learning approaches, and the learned reward models lead to competitive offline reinforcement learning policy performance. This highlights the potential of scalable Bayesian methods for preference-based reward modeling in RLHF. Our code is available at https://github.com/yutaizhou/bnn_pref.",
+    "tier": "none",
+    "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04066v1"
+   },
+   "2609.04194": {
+    "abs_url": "https://arxiv.org/abs/2609.04194",
+    "authors": [
+     "Kevin Du",
+     "Alexander Hoyle",
+     "Laura Ruis",
+     "Acyr Locatelli"
+    ],
+    "code_url": "",
+    "comment": "Published at COLM 2026",
+    "first_seen": "2026-09-04",
+    "id": "2609.04194",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "process reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04194v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reasoning traces from chain-of-thought models appear to offer a legible window into how a model arrives at its answer. A growing body of work treats them as such, using LLM judges to diagnose errors, evaluate faithfulness, and provide step-level supervision via process reward models and generative critics. These practices rely on the text of a reasoning step carrying information about its functional role. But does the text actually encode information about which reasoning steps matter? We operationalize the importance of a reasoning step as its advantage: the change in expected reward, e.g., producing the correct final answer, from including that step, estimated via Monte Carlo rollouts. Basing ground truth on these estimates, we evaluate whether LLM judges can identify high-advantage steps and find that sufficiently capable LLMs can outperform a prevalence baseline but fall well short of a noise ceiling. Fine-tuning a model as a step-level critic yields strong improvement for incorrect responses but remains distant from ceiling for correct responses, suggesting that step importance is only partially recoverable from the text of the reasoning trace. Our findings contribute to a growing body of chain-of-thought faithfulness work that cautions against treating the legibility of reasoning traces as interpretability, especially with implications for process reward modeling.",
+    "tier": "none",
+    "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04194v1"
    }
   },
   "Search & Control for Generation": {
@@ -16282,6 +16531,56 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.30396v1"
+   },
+   "2609.04010": {
+    "abs_url": "https://arxiv.org/abs/2609.04010",
+    "authors": [
+     "Subham Sekhar Sahoo",
+     "Lingjie Chen",
+     "Khiem Pham",
+     "Jonathan Geuter",
+     "Chaitanya Dwivedi",
+     "Varad Pimpalkhute",
+     "Yash Akhauri",
+     "Alexander Moreno",
+     "Mikhail Yurochkin",
+     "Zhenting Wang",
+     "Mostafa Elhoushi",
+     "Nolan Dey",
+     "Shane Bergsma",
+     "Joel Hestness",
+     "John Thickstun",
+     "Eric Xing",
+     "Zhengzhong Liu"
+    ],
+    "code_url": "",
+    "comment": "Code and Checkpoints at https://s-sahoo.github.io/uno/",
+    "first_seen": "2026-09-04",
+    "id": "2609.04010",
+    "journal_ref": "",
+    "matched": [
+     "inference-time scaling"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04010v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow, sequential token generation. To overcome this bottleneck, we introduce diffusion-augmented LLMs, a new class of models that defines an AR model distribution while using diffusion to draw multiple tokens in parallel from that distribution. We decouple the parameters of these models into two sets: AR weights, trained using the standard NTP objective, and lightweight diffusion weights, trained to generate multiple tokens simultaneously. The diffusion weights are learned through a simple Diffusion Distillation phase that adds negligible overhead to existing LLM training pipelines. We also introduce $Ψ$-Spec, a family of samplers that enables lossless acceleration and inference-time scaling at a fixed context length. Unlike speculative decoding, our method requires no separate draft model. Unlike diffusion LLMs (d-LLMs), it accelerates generation without sacrificing the quality of the underlying AR model. The resulting models, called Uno, can be trained from scratch or built by augmenting existing open-weight AR LLMs. Uno achieves higher throughput than leading speculative-decoding methods at every evaluated batch size and delivers up to $3\\times$ speedups over the base AR model, including at the largest batch size supported by the device. Notably, our 8B Uno model outperforms the leading open d-LLM, the 26B DiffusionGemma, and the proprietary Mercury 2 across all evaluated benchmarks in agentic tool use, coding, and long-context reasoning. We release code and checkpoints at: https://s-sahoo.github.io/uno/",
+    "tier": "none",
+    "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04010v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -21710,6 +22009,48 @@
     "venue_year": "",
     "version": "2606.28447v1"
    },
+   "2606.31002": {
+    "abs_url": "https://arxiv.org/abs/2606.31002",
+    "authors": [
+     "Ke Zhang",
+     "Patricio Gallardo Candela",
+     "Sudhir Murthy",
+     "Yi Xie",
+     "Zhi Wang",
+     "Maziar Raissi"
+    ],
+    "code_url": "",
+    "comment": "Revised version: adds expanded human calibration, a same-sample comparison with LeanScorer, independent-judge and threshold-sensitivity analyses, and a BEq formal cross-check; reframes the main contribution around semantic-faithfulness evaluation. 5 figures",
+    "first_seen": "2026-09-04",
+    "id": "2606.31002",
+    "journal_ref": "",
+    "matched": [
+     "semantic drift",
+     "faithfulness"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2606.31002v2",
+    "primary_category": "cs.AI",
+    "published": "2026-06-30",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Lean verifies that a generated declaration is well typed, but not that it expresses the statement a user intended. We study two questions for autoformalization without canonical Lean targets: whether LLM judges can provide a usable proxy for human semantic review, and how much compilation overstates faithfulness across systems. Our criterion combines Lean compilation with strict semantic consensus between GPT-5.2 and Gemini-2.5-Pro. On an independently audited random sample, it agrees with human majority on 89.7\\% of cases (Wilson 95\\% CI: 82.1--94.3\\%). Across eight systems evaluated on 400 graduate-level statements, every system has a nonzero compile--faithfulness gap, whose observed magnitude ranges from 3.0 to 29.0 percentage points. The full GPT-5.2 tool-augmented agent shows the largest gap, compiling 89.5\\% while satisfying the semantic criterion on 60.5\\%. Human review, an independent third-family judge, and a BEq formal cross-check provide complementary evidence that the accepted core is reliable and that most audited outputs in the gap are genuine semantic mismatches. A secondary $2^3$ factorial analysis shows that elaboration feedback is the largest validity intervention, yet does not eliminate semantic drift. LLM judging is therefore useful as a human-calibrated, conservative aggregate measure, not as an equivalence oracle.",
+    "tier": "none",
+    "title": "Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2606.31002v2"
+   },
    "2607.01588": {
     "abs_url": "https://arxiv.org/abs/2607.01588",
     "authors": [
@@ -23275,6 +23616,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.00513v1"
+   },
+   "2609.03734": {
+    "abs_url": "https://arxiv.org/abs/2609.03734",
+    "authors": [
+     "Oline Ranum",
+     "Edward Fish",
+     "Simon Hadfield",
+     "Richard Bowden"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-04",
+    "id": "2609.03734",
+    "journal_ref": "",
+    "matched": [
+     "content preservation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03734v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "BLEU-4 is the standard metric for evaluating sign language translation (SLT), but spoken-language metrics may not adequately reflect sign language proficiency. The multimodal, low-resource context of SLT allows models to exploit spurious correlations and spoken-language priors, rather than learning stronger sign representations. In this paper, we evaluate the relationship between spatio-temporal understanding and BLEU-4 across six SLT models on Phoenix-2014T and CSL-Daily, showing that gains in BLEU-4 are not on their own evidence of better sign language understanding. This work introduces an alternative inspired by language-learning assessment, using an open-weight-LLM QA protocol that measures salient content preservation. It aligns more closely with human rankings and is six to seven times more paraphrase-invariant than BLEU-4. Applied to SLT, this protocol targets content transfer, is more robust to train-test overlap, and gives a different picture of the field: the five gloss-free systems are largely within noise of one another on Phoenix-2014T, while the gloss-supervised system stands 9.3 points higher, a gap invisible to BLEU-4.",
+    "tier": "none",
+    "title": "Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.03734v1"
    }
   },
   "Synthetic Preference Data": {
@@ -25894,6 +26272,8 @@
      "Pedram Rostami",
      "Sadra Hakim",
      "Zahra Kazemi",
+     "Amirhossein Poursina",
+     "Milad Tavakoli",
      "Audrina Ebrahimi"
     ],
     "code_url": "",
@@ -25904,7 +26284,7 @@
     "matched": [
      "rlaif"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.00932v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.00932v2",
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
@@ -25918,12 +26298,12 @@
     "tier": "none",
     "title": "Gaokerena: A Small Persian Medical Language Model Family",
     "track": "",
-    "updated": "2026-08-02",
+    "updated": "2026-09-03",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.00932v1"
+    "version": "2608.00932v2"
    },
    "2608.07400": {
     "abs_url": "https://arxiv.org/abs/2608.07400",
@@ -27611,7 +27991,7 @@
      "preference data",
      "perturbation"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.00796v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.00796v2",
     "primary_category": "cs.CL",
     "published": "2026-09-01",
     "s2": {
@@ -27621,16 +28001,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "As one of the most critical challenges in large language models, contextual faithfulness directly determines their reliability in knowledge-intensive applications. This task is particularly challenging as it requires balancing factual consistency with generation efficiency. Contrastive decoding methods require dual forward passes (with and without context) to compare model outputs, doubling inference computational overhead, while post-training alignment demands extensive reinforcement learning with substantial computational overhead. To address this challenge, we present \\textbf{SFAD}, a speculative decoding framework that enhances contextual faithfulness without inference degradation. We first construct \\textbf{ConFide}, a preference dataset with fine-grained atomic perturbations, to train a context-faithful draft model via Direct Preference Optimization. During inference, Epistemic Friction detects potential hallucinations by quantifying distributional tension weighted by specialist certainty. When friction exceeds the threshold, Asymmetric Logit Steering refines the target distribution through residual-based logit injection; otherwise, standard speculation proceeds. Extensive experiments demonstrate that SFAD substantially improves faithfulness while achieving $2.48\\times$ speedup, offering a practical solution for efficient LLMs.",
+    "summary": "As one of the most critical challenges in large language models, contextual faithfulness directly determines their reliability in knowledge-intensive applications. This task is particularly challenging as it requires balancing factual consistency with generation efficiency. Contrastive decoding methods require dual forward passes (with and without context) to compare model outputs, doubling inference computational overhead, while post-training alignment demands extensive reinforcement learning with substantial computational overhead. To address this challenge, we present SFAD, a speculative decoding framework that enhances contextual faithfulness without inference degradation. We first construct ConFide, a preference dataset with fine-grained atomic perturbations, to train a context-faithful draft model via Direct Preference Optimization. During inference, Epistemic Friction detects potential hallucinations by quantifying distributional tension weighted by specialist certainty. When friction exceeds the threshold, Asymmetric Logit Steering refines the target distribution through residual-based logit injection; otherwise, standard speculation proceeds. Extensive experiments demonstrate that SFAD substantially improves faithfulness while achieving $2.48\\times$ speedup, offering a practical solution for efficient LLMs.",
     "tier": "none",
     "title": "SFAD: Speculative Factuality-Aware Decoding",
     "track": "",
-    "updated": "2026-09-01",
+    "updated": "2026-09-03",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.00796v1"
+    "version": "2609.00796v2"
    },
    "2609.01041": {
     "abs_url": "https://arxiv.org/abs/2609.01041",
@@ -27743,6 +28123,119 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.02273v1"
+   },
+   "2609.02942": {
+    "abs_url": "https://arxiv.org/abs/2609.02942",
+    "authors": [
+     "Anshul Bagaria",
+     "Sowmya S Sundaram",
+     "Gokul S Krishnan",
+     "Balaraman Ravindran"
+    ],
+    "code_url": "",
+    "comment": "Accepted for publication at EMNLP 2026. 5 pages, 6 figures",
+    "first_seen": "2026-09-04",
+    "id": "2609.02942",
+    "journal_ref": "",
+    "matched": [
+     "perturbation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02942v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-31",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "LLM-as-a-Judge pipelines are increasingly used to evaluate AI-generated text, based on the assumption that judgments arise from reasoning over candidate responses with respect to a rubric. We show that this assumption warrants further scrutiny. Classifiers trained only on rubric text, without access to any evaluated response, achieve nontrivial predictive performance on judge outputs. This suggests that rubric formulations encode recoverable evaluative signals, allowing scores to be partially anticipated independently of model outputs. Finally, counterfactual perturbations reveal that judges often fail to reliably update their decisions when either the candidate response or the rubric criterion is reversed. Our findings raise concerns about the reliability of rubric-based LLM evaluation and highlight the need for further methodological study of automated evaluation via LLMs.",
+    "tier": "top",
+    "title": "Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation",
+    "track": "main",
+    "updated": "2026-08-31",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted for publication at EMNLP 2026. 5 pages, 6 figures",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.02942v1"
+   },
+   "2609.03206": {
+    "abs_url": "https://arxiv.org/abs/2609.03206",
+    "authors": [
+     "Falko Helm",
+     "Iryna Gurevych"
+    ],
+    "code_url": "https://github.com/UKPLab/emnlp2026-zoom-in",
+    "comment": "EMNLP 2026",
+    "first_seen": "2026-09-04",
+    "id": "2609.03206",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03206v1",
+    "primary_category": "cs.CV",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Using a zoom-in tool is an important foundational part of modern visual agents, because it allows to efficiently handle tasks involving high-resolution images. Most previous methods need an extensive warm-start supervised fine-tuning phase for teaching models zoom-in. We show that this is not necessary by proposing a new intrinsic reward for learning tool use in MLLMs without the need for additional labels or warm-start SFT. Our InfoNCE-style reward uses a curriculum of increasingly hard negative tool calls as a contrastive training signal. Empirical experiments on $V^*$, HRBench and MME-RealWorld show that our approach is competitive while being more efficient. When used as a drop-in replacement for SFT, we even outperform all baselines. To directly measure the zoom-in ability of models, we further introduce the scalable synthetic Muffin&Chihuahua (M&C) dataset. Each image consists of a grid with every cell either showing a muffin or chihuahua. Leveraging the M&C dataset's unique region of interest labels, we find that recall is the metric that most strongly correlates the zoom-in region with final task performance. Our model and code for reproduction is publicly available under https://github.com/UKPLab/emnlp2026-zoom-in",
+    "tier": "top",
+    "title": "Learning to Zoom Efficiently with a Contrastive Curriculum",
+    "track": "main",
+    "updated": "2026-09-02",
+    "venue": "EMNLP",
+    "venue_evidence": "EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.03206v1"
+   },
+   "2609.03806": {
+    "abs_url": "https://arxiv.org/abs/2609.03806",
+    "authors": [
+     "Marco Cipriano",
+     "Leonardo Zini",
+     "Alexandra Schild",
+     "Valentin Teutschbein",
+     "Afsana Mimi",
+     "Marcella Cornia",
+     "Lorenzo Baraldi",
+     "Gerard de Melo"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-04",
+    "id": "2609.03806",
+    "journal_ref": "",
+    "matched": [
+     "perturbation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03806v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Scalable Vector Graphics (SVG) generation is attracting increasing attention as generative models improve in expressiveness and controllability. Progress, however, is held back by the lack of domain-specific evaluation protocols: current practice relies on metrics designed for natural images, most notably CLIPScore, which was never trained on vector graphics and aligns only partially with human judgment. We introduce \\textbf{\\ours}, a human-aligned evaluation framework for text-to-SVG generation. Through controlled caption and image perturbations, we first show that CLIP-based scores barely react to the errors SVG generators actually make, such as wrong colors, counts, and spatial relations, and that off-the-shelf Vision-Language Model (VLM) judges, while more sensitive, respond unevenly across error types and SVG styles. We then introduce a human-annotated dataset for \\textit{Semantic Alignment}, measuring how faithfully a generated SVG reflects its caption. Building on it, we develop two complementary evaluators: CLIP scorers adapted to vector graphics and then aligned to human preferences, for fast large-scale evaluation, and a VLM judge trained with supervised fine-tuning and reward-shaped reinforcement learning, for more expressive and interpretable assessment. Using both, we benchmark major open-source, commercial, and optimization-based SVG generators on an independent caption set.",
+    "tier": "none",
+    "title": "SVG-Score: Human-Aligned Evaluation of Text-to-SVG Generation",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.03806v1"
    }
   },
   "Text Quality Evaluation": {
@@ -35015,6 +35508,293 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.02246v1"
+   },
+   "2609.02942": {
+    "abs_url": "https://arxiv.org/abs/2609.02942",
+    "authors": [
+     "Anshul Bagaria",
+     "Sowmya S Sundaram",
+     "Gokul S Krishnan",
+     "Balaraman Ravindran"
+    ],
+    "code_url": "",
+    "comment": "Accepted for publication at EMNLP 2026. 5 pages, 6 figures",
+    "first_seen": "2026-09-04",
+    "id": "2609.02942",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge",
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02942v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-31",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "LLM-as-a-Judge pipelines are increasingly used to evaluate AI-generated text, based on the assumption that judgments arise from reasoning over candidate responses with respect to a rubric. We show that this assumption warrants further scrutiny. Classifiers trained only on rubric text, without access to any evaluated response, achieve nontrivial predictive performance on judge outputs. This suggests that rubric formulations encode recoverable evaluative signals, allowing scores to be partially anticipated independently of model outputs. Finally, counterfactual perturbations reveal that judges often fail to reliably update their decisions when either the candidate response or the rubric criterion is reversed. Our findings raise concerns about the reliability of rubric-based LLM evaluation and highlight the need for further methodological study of automated evaluation via LLMs.",
+    "tier": "top",
+    "title": "Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation",
+    "track": "main",
+    "updated": "2026-08-31",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted for publication at EMNLP 2026. 5 pages, 6 figures",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.02942v1"
+   },
+   "2609.02944": {
+    "abs_url": "https://arxiv.org/abs/2609.02944",
+    "authors": [
+     "Anupreksha Jain",
+     "Manish Shrivastava"
+    ],
+    "code_url": "",
+    "comment": "Accepted in PAKDD 2026",
+    "first_seen": "2026-09-04",
+    "id": "2609.02944",
+    "journal_ref": "In: Trends and Applications in Knowledge Discovery and Data Mining (PAKDD 2026 Workshops), pp. 74-86, Springer, 2026. Print ISBN: 978-981-92-2013-7, eBook ISBN: 978-981-92-2014-4",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.02944v1",
+    "primary_category": "cs.IR",
+    "published": "2026-09-01",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Democratizing data access through natural language is a crucial goal for modern enterprises, but the practical adoption of Text-to-SQL is critically hindered by real-world complexities: 1. Obscure and large database schemas, 2. Ineffective retrieval of relevant tables and columns due to structured setting of schemas and vague user query, 3. Generation of syntactically or logically flawed SQL due to a lack of robust validation and correction mechanism. To address these systemic challenges, we introduce Reflect-SQL, a novel framework for Text to SQL, grounded in multi-stage self-reflection approach to develop understanding of obscure schema using a knowledge base, setup a process for effective retrieval and system to generate syntactically/semantically SQL. Instead of a single-pass attempt, our system employs an LLM-as-a-judge driven scoring mechanism within interconnected feedback loops to iteratively refine the results at every stage. A feedback-driven retrieval loop refines the user's natural language query, while a synthesis loop validates and corrects the SQL and finally, an entailment loop optimizes the end-to-end process and continuously enriches the knowledge base. By integrating these layers of reflection, Reflect-SQL bridges the critical gap between user intent and complex data. On the challenging BIRD benchmark, our framework achieves an execution accuracy of 72.03%, significantly outperforming state-of-the-art baselines, demonstrating a major leap in reliability for enterprise applications.",
+    "tier": "workshop",
+    "title": "Reflect-SQL: A Self-Reflection Based Framework for Text-to-SQL",
+    "track": "workshop",
+    "updated": "2026-09-01",
+    "venue": "KDD",
+    "venue_evidence": "In: Trends and Applications in Knowledge Discovery and Data Mining (PAKDD 2026 Workshops), pp. 74-86, Springer, 2026. Print ISBN: 978-981-92-2013-7, eBook ISBN:",
+    "venue_source": "journal_ref",
+    "venue_year": "2026",
+    "version": "2609.02944v1"
+   },
+   "2609.03215": {
+    "abs_url": "https://arxiv.org/abs/2609.03215",
+    "authors": [
+     "Heejin Do",
+     "Jakub Kontak",
+     "Mrinmaya Sachan"
+    ],
+    "code_url": "",
+    "comment": "EMNLP 2026 Findings",
+    "first_seen": "2026-09-04",
+    "id": "2609.03215",
+    "journal_ref": "",
+    "matched": [
+     "automated essay scoring",
+     "essay scoring",
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03215v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-02",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Writing proficiency manifests in how students develop content, organize ideas, choose words, and use language. Despite growing interest in LLM-based student simulation, whether LLMs can reproduce such multidimensional variation in extended writing remains largely unexplored. In this work, we explore if language models can realistically simulate student writing, and introduce SWIM, a task that formulates Student Writing sIMulation as proficiency-conditioned essay generation. We evaluate prompting, supervised fine-tuning (SFT), and reinforcement learning (RL) methods for writing simulation using automated essay scoring as a measure of profile alignment. Extensive experiments reveal that prompting provides limited proficiency control, even for strong proprietary LLMs with rubric-grounded strategies. In particular, while models can adjust content-oriented traits, they struggle to reproduce the lexical, grammatical, and organizational variation in different proficiency levels. SFT substantially improves alignment, while RL with the proposed proficiency-alignment reward yields further gains across all writing traits and essay prompts. Our findings suggest that explicit supervision enables substantially stronger profile alignment than prompting alone, while authentic low-proficiency writing remains challenging to reproduce.",
+    "tier": "findings",
+    "title": "SWIM: Student Writing Simulation via Proficiency-Conditioned Generation",
+    "track": "findings",
+    "updated": "2026-09-02",
+    "venue": "EMNLP",
+    "venue_evidence": "EMNLP 2026 Findings",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.03215v1"
+   },
+   "2609.03432": {
+    "abs_url": "https://arxiv.org/abs/2609.03432",
+    "authors": [
+     "Xiangyu Wang",
+     "Jin Wu",
+     "Xiaoyu Li",
+     "Chanjin Zheng",
+     "Yifeng Zhou"
+    ],
+    "code_url": "https://github.com/Jaong/CreaEval",
+    "comment": "Accepted to EMNLP 2026",
+    "first_seen": "2026-09-04",
+    "id": "2609.03432",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03432v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Automated evaluation of creativity tasks remains challenging for LLM-as-a-Judge, as LLM is susceptible to biases such as verbosity bias and leniency bias. Such limitations are particularly evident in Contextually-Grounded and Procedurally-Structured Tasks (CGPST), a complex multi-step creativity task where inter-step dependencies, highly subjectivity, and wide scoring ranges lead to more unstable and biased judgments. Existing approaches either rely on task-specific training or directly apply LLM-as-a-Judge, both of which struggle to ensure reliable evaluation under such complexity. To bridge these gaps, we propose CreaEval, an automated creativity evaluator for CGPST that decouples typical LLM-as-a-Judge into analysis and judging. Correspondingly, CreaEval involves two critical phases: Memory-augmented Analysis, a SoT-LLM converts multi-step responses into structured evaluation evidence, incorporating cross-step memory; and Evidence-based Judging, a Judge-LLM uses the extracted evidence for judging without accessing raw responses. Comprehensive experiments show that CreaEval achieves an average performance improvement of 22.74% over the second-best baselines across CGPST and two classic simple creativity tasks, demonstrating its generalizability. The code is available at https://github.com/Jaong/CreaEval.",
+    "tier": "top",
+    "title": "Decoupled Analysis-Judging: An Automated Creativity Evaluator Using LLMs in Complex Multi-step Creativity Tasks",
+    "track": "main",
+    "updated": "2026-09-03",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.03432v1"
+   },
+   "2609.03953": {
+    "abs_url": "https://arxiv.org/abs/2609.03953",
+    "authors": [
+     "Joe Cecil",
+     "Marjorie Freedman"
+    ],
+    "code_url": "",
+    "comment": "34 pages, 6 figures, to be published in Findings of the ACL: EMNLP 2026",
+    "first_seen": "2026-09-04",
+    "id": "2609.03953",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03953v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Understanding the frequency of factual errors in chatbot-generated text and evaluating systems that detect these errors is critical for determining chatbot safety. Yet factual-error detection is often treated as a single-pass, single-annotator labeling problem. In long-form chatbot responses, factual errors can be subtle and embedded within mostly correct text. We develop a multi-perspective annotation study of medically relevant chatbot responses, combining first-pass annotation, LLM-as-a-Judge (LaJ) candidate discovery, and two forms of adjudication: medical-expert and evidence-based fact-checking. First-pass annotators frequently miss factual errors later validated by adjudicators. LaJ improves candidate discovery, but is insufficient on its own: It misses factual errors that annotators catch. We also find disagreement among adjudicators, suggesting that adjudication over multiple candidate sources can improve benchmark completeness, but does not eliminate the need to apply judgment and expertise. Applied to an existing benchmark, this technique reveals a similar pattern of missing annotations. Together, these results suggest that in the settings examined here, single-pass hallucination benchmarks may achieve scale at the cost of undercounting factual errors. Multi-pass adjudication can improve coverage, but inferences drawn from the benchmarks are still sensitive to the judgment, expertise, and evidence used to determine error presence.",
+    "tier": "findings",
+    "title": "Beyond Majority Vote: Multi-Perspective Adjudication for Medical Hallucination Detection",
+    "track": "findings",
+    "updated": "2026-09-03",
+    "venue": "EMNLP",
+    "venue_evidence": "34 pages, 6 figures, to be published in Findings of the ACL: EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.03953v1"
+   },
+   "2609.04021": {
+    "abs_url": "https://arxiv.org/abs/2609.04021",
+    "authors": [
+     "Yalun Wu",
+     "Junfeng Fang",
+     "Jiawei Wang",
+     "Haotian Liu",
+     "Qijun Yang",
+     "Minghan Yang",
+     "Hongcheng Guo",
+     "Zhoujun Li",
+     "Boyang Wang"
+    ],
+    "code_url": "",
+    "comment": "Published as a conference paper at COLM 2026",
+    "first_seen": "2026-09-04",
+    "id": "2609.04021",
+    "journal_ref": "Proceedings of the Conference on Language Modeling (COLM), 2026",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04021v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Evaluating large language models (LLMs) in safety-critical, physics-governed environments requires more than accuracy-based metrics, because predictions that are numerically close to the ground truth can still violate operational constraints, combine fields in physically inconsistent ways, or fail to produce usable structured outputs. Existing evaluation protocols do not measure these failure modes reliably. We propose FLY-EVAL++, an evidence-driven evaluation protocol that combines deterministic verification of protocol compliance, physical feasibility, and safety constraints with fixed rubric-guided aggregation into interpretable multi-dimensional scores. We instantiate FLY-EVAL++ for Flight Trajectory and Attitude Prediction (FTAP) by extending the PilotBench setting with history-conditioned and multi-step prediction tasks. Across 66 LLMs, safety compliance is the most discriminative dimension of model behavior: models with comparable predictive performance differ by more than 28 points in safety score, and we observe recurrent failures including safety violations under physically plausible predictions and instability in multi-step rollouts. These results show that evaluation in safety-critical domains should measure constraint satisfaction and structured validity explicitly rather than rely on accuracy-centric reporting alone.",
+    "tier": "none",
+    "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04021v1"
+   },
+   "2609.04141": {
+    "abs_url": "https://arxiv.org/abs/2609.04141",
+    "authors": [
+     "Zora Zhiruo Wang",
+     "Apurva Gandhi",
+     "Rulin Shao",
+     "Aspen Chen",
+     "Jonas Mueller",
+     "Zhiqi Liang",
+     "Jett Chen",
+     "Michael Ryan",
+     "Qianou Ma",
+     "Luxi He",
+     "Zhoujun Cheng",
+     "Andre He",
+     "Seungone Kim",
+     "Jiayi Geng",
+     "Mingqian Zheng",
+     "Weiwei Sun",
+     "Zheyuan Zhang",
+     "Xinran Zhao",
+     "Yike Wang",
+     "Abe Hou",
+     "Liwei Jiang",
+     "Pang Wei Koh",
+     "Diyi Yang",
+     "Graham Neubig",
+     "Daniel Fried"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-04",
+    "id": "2609.04141",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04141v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI agents are trained on population-scale data to encode broad capabilities spanning those of many practitioners. Yet the artifacts they produce rarely meet the personal bar professionals need to stake their reputation on. On realistic, open-ended tasks where success criteria are heterogeneous and insufficiently documented, individual expertise lives precisely in the elevation and departure from the average. In practice, iterative human-agent interaction surfaces criteria that users cannot fully specify up front, yet apply repeatedly across tasks. We argue this cross-session interaction data is a rich, underused signal for closing the gap to individual expertise. In this work, we propose test-time adaptation through human-agent interaction (TAHI), which integrates these signals into agent context and weights, and crystallizes each user's training and evaluation criteria via an evolving rubric module. We adapt agents to 30 individuals in two high-utility domains, writing and visual creation, on a total of 600 tasks. Our agents improve solo task success by 4.5-20.9% within only tens of tasks. Meanwhile, our evolving rubric module serves as a scalable annotation tool, creating evaluation rubrics that catch 16.0-22.3% more failures than those from LMs or humans alone. While agents are adapted towards individuals, we show these personalized agents also produce improvements in success of up to 8.8% that generalize across users.",
+    "tier": "none",
+    "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04141v1"
    }
   },
   "Writing Agent": {
@@ -41719,6 +42499,54 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.01588v1"
+   },
+   "2609.03992": {
+    "abs_url": "https://arxiv.org/abs/2609.03992",
+    "authors": [
+     "Sanyuan Chen",
+     "Min-Jae Hwang",
+     "Sho Inoue",
+     "Anna Sun",
+     "Bokai Yu",
+     "David Kant",
+     "Dongmin Hyun",
+     "Dorian Desblancs",
+     "Gregory Antonovsky",
+     "Oleg Repin",
+     "Peng-Jen Chen",
+     "Xutai Ma",
+     "Zehai Tu",
+     "Juan Pino",
+     "Wei-Ning Hsu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-04",
+    "id": "2609.03992",
+    "journal_ref": "",
+    "matched": [
+     "long-form generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.03992v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-04",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We present Alignment-Free Text-Audiobox (Text-AB), a unified framework for high-quality voice dubbing and full-duplex dialogue synthesis. Building on a Diffusion Transformer trained with a flow-matching objective, Text-AB departs from the Audiobox system along three dimensions. First, it operates in a latent diffusion framework using DAC-VAE features that encode 48 kHz waveforms into a 25 Hz latent sequence, giving over 10x higher compression than previous EnCodec representations while improving resynthesis quality. Second, Text-AB is alignment-free: it consumes raw text via an off-the-shelf text encoder and learns text-speech alignment through cross-attention, removing the need for forced alignment and explicit duration prediction. Third, we scale model and data substantially, pretraining a 3B-parameter model on 480k hours of monolingual speech, followed by supervised fine-tuning on three downstream tasks: cross-lingual voice dubbing, full-duplex dialogue synthesis, and emotional full-duplex dialogue synthesis. At inference, Text-AB supports one-shot generation for up to ~1 min of speech and arbitrarily long-form generation via a multi-diffusion scheme, plus a multi-stage reranking strategy that enhances quality based on automated metrics. On a real-world dubbing benchmark, Text-AB delivers a step-change improvement over the latest internal dubbing system, with large gains in prosody similarity, voice similarity, naturalness, and shareability. For full-duplex dialogue synthesis, it approaches human recordings on short-form conversations and substantially outperforms the latest internal model on long-form human-likeness and expressivity, while natively modeling turn-taking, back-channeling, and emotional dynamics. For emotional dialogue synthesis, emotion conditioning significantly improves emotion alignment and emotional interaction quality over the unconditioned baseline.",
+    "tier": "none",
+    "title": "Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.03992v1"
    }
   }
  }

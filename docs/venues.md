@@ -9,18 +9,21 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-03** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-04** (UTC).
 Back to the [main page](../README.md).
 
-191 of 985 papers carry venue evidence.
+199 of 1004 papers carry venue evidence.
 
-## Top-tier venues (106)
+## Top-tier venues (110)
 
-### EMNLP (46)
+### EMNLP (50)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-03**|Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness|EMNLP 2026|Reward & Value Models|[2609.03887](https://arxiv.org/abs/2609.03887)|
+|**2026-09-03**|Decoupled Analysis-Judging: An Automated Creativity Evaluator Using LLMs in Complex Multi-step Creativity Tasks|EMNLP 2026|Text Quality Evaluation|[2609.03432](https://arxiv.org/abs/2609.03432)|
 |**2026-09-02**|CoMerge: Conflict-Driven Preference Optimization for Multi-Task Model Merging|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2609.02273](https://arxiv.org/abs/2609.02273)|
+|**2026-09-02**|Learning to Zoom Efficiently with a Contrastive Curriculum|EMNLP 2026|Synthetic Preference Data|[2609.03206](https://arxiv.org/abs/2609.03206)|
 |**2026-09-01**|CARE: Contrastive Anchor-based Rubric Evolution for Large Language Model Post-Training|EMNLP 2026|Reward & Value Models|[2609.00892](https://arxiv.org/abs/2609.00892)|
 |**2026-09-01**|Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation|EMNLP 2026|Synthetic Preference Data, Text Quality Evaluation|[2609.01604](https://arxiv.org/abs/2609.01604)|
 |**2026-09-01**|Post-hoc Alignment of LLM-judges to Human Judgment Distribution|EMNLP 2026|Text Quality Evaluation|[2609.01073](https://arxiv.org/abs/2609.01073)|
@@ -32,6 +35,7 @@ Back to the [main page](../README.md).
 |**2026-08-31**|Quantifying and Mitigating Korean Jamo-Level Typographical Vulnerabilities in Large Language Models|EMNLP 2026|Korean Writing & NLP|[2608.30229](https://arxiv.org/abs/2608.30229)|
 |**2026-08-31**|HSRM: Hidden-State Reward Models for Test-Time Verification|EMNLP 2026|Reward & Value Models|[2608.30841](https://arxiv.org/abs/2608.30841)|
 |**2026-08-31**|PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation|EMNLP 2026|Reward & Value Models|[2609.01658](https://arxiv.org/abs/2609.01658)|
+|**2026-08-31**|Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation|EMNLP 2026|Synthetic Preference Data, Text Quality Evaluation|[2609.02942](https://arxiv.org/abs/2609.02942)|
 |**2026-08-31**|TRIPPULSE: Multi-Agent Travel Planning with Review-Grounded Reasoning|EMNLP 2026|Text Quality Evaluation|[2608.30924](https://arxiv.org/abs/2608.30924)|
 |**2026-08-31**|Validity-Aware Jailbreak Evaluation for Large Language Models|EMNLP 2026|Text Quality Evaluation|[2609.00498](https://arxiv.org/abs/2609.00498)|
 |**2026-08-31**|Hidden Threat in Synthetic Data: Covert Targeted Bias Injection through Benign Text|EMNLP 2026|Writing Agent|[2608.30619](https://arxiv.org/abs/2608.30619)|
@@ -218,12 +222,15 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-04-17**|From Intention to Text: AI-Supported Goal Setting in Academic Writing|AIED 2026|Writing Agent|[2604.15800](https://arxiv.org/abs/2604.15800)|
 
-## Findings tracks (27)
+## Findings tracks (30)
 
-### EMNLP (17)
+### EMNLP (20)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-03**|Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation|EMNLP 2026 (findings)|Reward & Value Models|[2609.03407](https://arxiv.org/abs/2609.03407)|
+|**2026-09-03**|Beyond Majority Vote: Multi-Perspective Adjudication for Medical Hallucination Detection|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.03953](https://arxiv.org/abs/2609.03953)|
+|**2026-09-02**|SWIM: Student Writing Simulation via Proficiency-Conditioned Generation|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.03215](https://arxiv.org/abs/2609.03215)|
 |**2026-09-01**|Same Semantics, Different Outcome: On the Modality Robustness of Multimodal LLMs under Knowledge Conflict|EMNLP 2026 (findings)|Reward & Value Models|[2609.00550](https://arxiv.org/abs/2609.00550)|
 |**2026-09-01**|SOVER: Formal Certification of Optimization Reformulations via LLM-Assisted SMT Verification|EMNLP 2026 (findings)|Synthetic Preference Data|[2609.00728](https://arxiv.org/abs/2609.00728)|
 |**2026-08-31**|ConvDeck: Conversational Paper-to-Slide Generation via Stage-Specific User Feedback|EMNLP 2026 (findings)|Iterative Revision & Text Editing|[2609.00226](https://arxiv.org/abs/2609.00226)|
@@ -299,7 +306,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-06-06**|Cross Paraphrastic Invariance Learning for Hallucination Detection|ICASSP 2026|Synthetic Preference Data|[2606.08157](https://arxiv.org/abs/2606.08157)|
 
-## Workshops (32)
+## Workshops (33)
 
 ### ICML (7)
 
@@ -332,6 +339,15 @@ Back to the [main page](../README.md).
 |**2026-08-10**|Procedural Fairness Failures in RLHF from Preference Averaging|ICLR 2026 (workshop)|Reward & Value Models|[2608.10126](https://arxiv.org/abs/2608.10126)|
 |**2025-08-28**|Re4: Scientific Computing Agent with Rewriting, Resolution, Review and Revision|ICLR 2026 (workshop)|Iterative Revision & Text Editing|[2508.20729](https://arxiv.org/abs/2508.20729)|
 
+### KDD (4)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-09-01**|Reflect-SQL: A Self-Reflection Based Framework for Text-to-SQL|KDD 2026 (workshop)|Text Quality Evaluation|[2609.02944](https://arxiv.org/abs/2609.02944)|
+|**2026-08-02**|RH-RAG: Trustworthy Long-Form Generation for Privacy-Constrained Settings|KDD 2026 (workshop)|Writing Agent|[2608.01311](https://arxiv.org/abs/2608.01311)|
+|**2026-06-25**|Designing Reward Signals for Portable Query Generation: A Case Study in Industrial Semantic Job Search|KDD 2026 (workshop)|Synthetic Preference Data|[2606.27291](https://arxiv.org/abs/2606.27291)|
+|**2026-06-14**|LLM-as-Code: Agentic Programming for Agent Harness|KDD 2026 (workshop)|Search & Control for Generation|[2606.15874](https://arxiv.org/abs/2606.15874)|
+
 ### ACL (3)
 
 |Publish Date|Title|Venue|Topics|PDF|
@@ -339,14 +355,6 @@ Back to the [main page](../README.md).
 |**2026-07-14**|RAGthoven at SemEval-2026 Task 1: A Multi-Stage Pipeline Walks Into a Benchmark and Barely Clears the Bar|ACL 2026 (workshop)|Self-Refine & Self-Correction, Text Quality Evaluation|[2607.13189](https://arxiv.org/abs/2607.13189)|
 |**2026-06-16**|Unintended Effects of Geographic Conditioning in Large Language Models|ACL 2026 (workshop)|Writing Agent|[2606.18124](https://arxiv.org/abs/2606.18124)|
 |**2020-05-26**|BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection|ACL 2020 (workshop)|Korean Writing & NLP|[2005.12503](https://arxiv.org/abs/2005.12503)|
-
-### KDD (3)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-08-02**|RH-RAG: Trustworthy Long-Form Generation for Privacy-Constrained Settings|KDD 2026 (workshop)|Writing Agent|[2608.01311](https://arxiv.org/abs/2608.01311)|
-|**2026-06-25**|Designing Reward Signals for Portable Query Generation: A Case Study in Industrial Semantic Job Search|KDD 2026 (workshop)|Synthetic Preference Data|[2606.27291](https://arxiv.org/abs/2606.27291)|
-|**2026-06-14**|LLM-as-Code: Agentic Programming for Agent Harness|KDD 2026 (workshop)|Search & Control for Generation|[2606.15874](https://arxiv.org/abs/2606.15874)|
 
 ### EMNLP (2)
 
