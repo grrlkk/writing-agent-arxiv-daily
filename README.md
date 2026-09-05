@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-09-04** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-09-05** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -18,29 +18,6 @@ Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (84)
 - [Search & Control for Generation](#search--control-for-generation) (77)
 - [Korean Writing & NLP](#korean-writing--nlp) (68)
-
-## New in this update (20)
-
-- `Writing Agent` [Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis](https://arxiv.org/abs/2609.03992)
-- `Reward & Value Models` [Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning](https://arxiv.org/abs/2609.04194)
-- `Reward & Value Models` [Subspace Inference Enables Efficient Active Reward Learning from Preferences](https://arxiv.org/abs/2609.04066)
-- `Reward & Value Models` [FiMI Banking: A Sovereign Model for Indian Retail Banking](https://arxiv.org/abs/2609.03960)
-- `Reward & Value Models` [Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness](https://arxiv.org/abs/2609.03887)
-- `Reward & Value Models` [Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation](https://arxiv.org/abs/2609.03407)
-- `Reward & Value Models` [Gradients Know What Outcomes Don't: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards](https://arxiv.org/abs/2609.03342)
-- `Synthetic Preference Data` [Learning to Zoom Efficiently with a Contrastive Curriculum](https://arxiv.org/abs/2609.03206)
-- `Synthetic Preference Data` [SVG-Score: Human-Aligned Evaluation of Text-to-SVG Generation](https://arxiv.org/abs/2609.03806)
-- `Synthetic Preference Data` [Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation](https://arxiv.org/abs/2609.02942)
-- `Text Quality Evaluation` [Beyond Majority Vote: Multi-Perspective Adjudication for Medical Hallucination Detection](https://arxiv.org/abs/2609.03953)
-- `Text Quality Evaluation` [Decoupled Analysis-Judging: An Automated Creativity Evaluator Using LLMs in Complex Multi-step Creativity Tasks](https://arxiv.org/abs/2609.03432)
-- `Text Quality Evaluation` [SWIM: Student Writing Simulation via Proficiency-Conditioned Generation](https://arxiv.org/abs/2609.03215)
-- `Text Quality Evaluation` [Reflect-SQL: A Self-Reflection Based Framework for Text-to-SQL](https://arxiv.org/abs/2609.02944)
-- `Text Quality Evaluation` [Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation](https://arxiv.org/abs/2609.02942)
-- `Text Quality Evaluation` [Efficient Test-Time Adaptation through Human-AI Interaction](https://arxiv.org/abs/2609.04141)
-- `Text Quality Evaluation` [FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models](https://arxiv.org/abs/2609.04021)
-- `Semantic Drift & Faithfulness` [Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks](https://arxiv.org/abs/2609.03734)
-- `Semantic Drift & Faithfulness` [Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization](https://arxiv.org/abs/2606.31002)
-- `Search & Control for Generation` [Unlocking Lossless Speedups in LLMs via Discrete Diffusion](https://arxiv.org/abs/2609.04010)
 
 ## Writing Agent
 

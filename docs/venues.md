@@ -9,7 +9,7 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-04** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-05** (UTC).
 Back to the [main page](../README.md).
 
 199 of 1004 papers carry venue evidence.
