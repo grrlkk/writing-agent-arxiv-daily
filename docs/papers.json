@@ -1,24 +1,24 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 76,
+   "Iterative Revision & Text Editing": 77,
    "Korean Writing & NLP": 68,
-   "Reward & Value Models": 194,
-   "Search & Control for Generation": 77,
+   "Reward & Value Models": 199,
+   "Search & Control for Generation": 80,
    "Self-Refine & Self-Correction": 96,
-   "Semantic Drift & Faithfulness": 84,
-   "Synthetic Preference Data": 116,
-   "Text Quality Evaluation": 192,
-   "Writing Agent": 168
+   "Semantic Drift & Faithfulness": 85,
+   "Synthetic Preference Data": 117,
+   "Text Quality Evaluation": 196,
+   "Writing Agent": 170
   },
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "venue_tiers": {
    "demo": 2,
-   "findings": 30,
-   "none": 805,
+   "findings": 32,
+   "none": 814,
    "other": 15,
    "strong": 9,
-   "top": 110,
+   "top": 112,
    "workshop": 33
   }
  },
@@ -3083,6 +3083,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.01409v1"
+   },
+   "2609.04959": {
+    "abs_url": "https://arxiv.org/abs/2609.04959",
+    "authors": [
+     "Ahrii Kim",
+     "Chanjun Park",
+     "Seong-heum Kim"
+    ],
+    "code_url": "",
+    "comment": "Accepted to EMNLP 2026 (Main Conference)",
+    "first_seen": "2026-09-07",
+    "id": "2609.04959",
+    "journal_ref": "",
+    "matched": [
+     "post-editing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04959v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Recent calls for harder machine translation benchmarks have not clarified what difficulty should mean. We argue that one meaningful and currently unmeasured axis is referential reach, the distance a segment must look back into its document to resolve the entities and pronouns it contains. We formalize this as discourse dependency (DDP), a metric-free, source-side measure computed from named entity re-mentions and pronominal coreference. Validated against gold coreference, DDP errs one-sidedly in 99.2% of segments, so a high-DDP segment is certified to require long-range context. Applying DDP to WMT24++ and WMT25 shows that both are heavily skewed toward low-DDP segments, which domain labels do not distinguish. Building on DDP, we compare five context injection strategies in an English-Korean post-editing setup, varying context size and selection. As DDP grows, no strategy keeps pace with human post-editing. On segments with DDP >= 15 raters prefer human translations, while automatic metrics register no difference. As frontier systems saturate aggregate scores, DDP shifts evaluation from how well models score to how far they can reach.",
+    "tier": "top",
+    "title": "Discourse Dependency: A Continuous Criterion for Translation Difficulty",
+    "track": "main",
+    "updated": "2026-09-04",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to EMNLP 2026 (Main Conference)",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.04959v1"
    }
   },
   "Korean Writing & NLP": {
@@ -12003,7 +12039,7 @@
     "matched": [
      "preference optimization"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.27501v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27501v2",
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
@@ -12017,12 +12053,12 @@
     "tier": "top",
     "title": "INSPIRE: An Internalize-Then-Improve Approach for Example-Driven Mathematical Reasoning",
     "track": "main",
-    "updated": "2026-08-27",
+    "updated": "2026-09-04",
     "venue": "EMNLP",
     "venue_evidence": "EMNLP 2026",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2608.27501v1"
+    "version": "2608.27501v2"
    },
    "2608.27505": {
     "abs_url": "https://arxiv.org/abs/2608.27505",
@@ -13598,6 +13634,210 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.04194v1"
+   },
+   "2609.04665": {
+    "abs_url": "https://arxiv.org/abs/2609.04665",
+    "authors": [
+     "Rongxin Yang",
+     "Yang Liu",
+     "Shang Luo",
+     "Haoxuan Jia",
+     "Chongyang Zhang",
+     "Hao Zheng",
+     "Yingguang Yang",
+     "Yulin Huang",
+     "Jianshen Zhang",
+     "Yongzhi Qi",
+     "Kefu Xu",
+     "Congjing Ran",
+     "Bin Chong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-07",
+    "id": "2609.04665",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04665v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Self-evolving language models improve by proposing candidate updates and keeping whatever raises a visible score. When that score is an imperfect proxy for the capability one actually wants, sustained selection widens the gap between the two. This is reward hacking. We introduce HackProbe, a monitor that attaches to an arbitrary self-evolving loop through two black-box hooks, with no access to weights or activations. It keeps a secret, distribution-fixed comparison core, whose frozen distribution makes its capability proxy comparable across generations, alongside a rotated fresh layer that hardens the bank against co-adaptation. Four tests built on that proxy cover the level gap, a scale-aligned divergence with online change-point detection, capability stagnation, and a conditional confidently-wrong rate; a Sidak correction turns them into a calibrated family-wise p-value. Diagnosis alone recovers nothing, so a risk-aware immunization layer reselects an honest candidate from the proposal pool using the core together with a purely structural gaming footprint, disclosing at most log2 Pi bits per generation to the host. We prove a detectability bound that converts a target error rate into an explicit probe-size budget, and we delimit what probe rotation does and does not buy. On a controlled prompt-level host with four injected hacking channels and ground-truth labels, HackProbe reaches 0.763 AUROC against 0.663 for the strongest baseline and cuts the false-positive rate from 0.706 to 0.434. Its bandwidth-limited reselection is the only immunization level that returns more true capability under hacking, 5.2 points on average, than it forfeits on clean runs, 4.7; per-channel effects are mostly not individually significant.",
+    "tier": "none",
+    "title": "Harness-agnostic detection and immunization of reward hacking in self-evolving language models",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04665v1"
+   },
+   "2609.04947": {
+    "abs_url": "https://arxiv.org/abs/2609.04947",
+    "authors": [
+     "Guangheng Yang",
+     "Zhenliang Ni",
+     "Zhenkai Wu",
+     "Han Shu",
+     "Juan Feng",
+     "Wenming Yang",
+     "Jie Hu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-07",
+    "id": "2609.04947",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04947v1",
+    "primary_category": "cs.CV",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Recently, multimodal large-scale reasoning models have demonstrated remarkable capabilities in solving complex tasks through long Chains-of-Thought (M-CoT). However, excessively long reasoning trajectories incur substantial computational costs and significant KV-cache pressure. Existing CoT compression and alignment paradigms mainly rely on static rules or single-dimensional preferences, lacking fine-grained cross-modal constraints; as a result, they are prone to inducing visual laziness and hallucinatory reasoning. To address these issues, we propose Modality-Contrastive Preference Optimization (MCPO), a highly sample-efficient two-stage length-compression method that requires fewer than 900 training samples. In the compression stage, we introduce a step-level Normalized Cross-Modal Mutual Information (NCMI) pruning algorithm, which automatically identifies and removes visual-independent reasoning steps by comparing the reasoning discrepancies between with-image and no-image contexts. This significantly reduces redundancy and hallucinatory content in the reasoning chains. In the alignment stage, the model first undergoes supervised fine-tuning to achieve domain-adaptive initialization, followed by optimization using an asymmetric multimodal length-controlled preference loss. This objective adopts a highly nonlinear odds-ratio formulation that provides steep gradients in the with-image context to reinforce length constraints for preferred trajectories, while applying a scaled, flat-gradient linear difference in the no-image context to maintain modality consistency, thereby achieving stable cross-modal preference alignment. Extensive experiments on mainstream base models such as Qwen3-VL-Thinking show that our method can reduce CoT length by up to 69.5% and achieve up to 3.34x end-to-end inference speedup while preserving original accuracy.",
+    "tier": "none",
+    "title": "MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04947v1"
+   },
+   "2609.05221": {
+    "abs_url": "https://arxiv.org/abs/2609.05221",
+    "authors": [
+     "Thi Kim Trang Vo",
+     "Nam Tien Le",
+     "Thi Kim Nguyet Vo",
+     "Minh Khang Tran",
+     "Duy Phuong Tran"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-07",
+    "id": "2609.05221",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05221v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to verify. We propose a verifier-guided explainable reasoning framework for transparent educational question answering that combines gold-anchored QLoRA, task-aware symbolic routing, and group-relative RLVR. Qwen2.5-3B-Instruct is first adapted with field-weighted QLoRA supervision anchored to authoritative answers. A lightweight router then assigns logic problems to a FOL/Z3 verifier and physics problems to a formula- and unit aware symbolic solver. Verifier feedback is further used to support candidate evaluation, self-revision, and reward construction during RLVR. Candidate responses are evaluated along three complementary dimensions: P1 for answer correctness, P2 for evidence or unit consistency, and P3 for reasoning depth and explainability. At inference, gold-free self-consistency aggregates multiple candidate responses before an optional question-only physics verifier performs conservative system-level correction. On 438 held-out examples, RLVR increases P3 from 50.68% to 72.20%, while hybrid P1 remains approximately stable at 55.94%. Self-consistency improves model only P1 from 48.86% to 50.23%, with symbolic verification providing the remaining hybrid gain. These results indicate that RLVR primarily strengthens explicit reasoning structure, while symbolic verification complements the neural policy by improving answer reliability at the system level.",
+    "tier": "none",
+    "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05221v1"
+   },
+   "2609.05261": {
+    "abs_url": "https://arxiv.org/abs/2609.05261",
+    "authors": [
+     "Jiazheng Sun",
+     "Boyu Yang",
+     "Binhao Yuan",
+     "Mingxuan Li",
+     "Xin Peng"
+    ],
+    "code_url": "",
+    "comment": "13 pages, 9 figures",
+    "first_seen": "2026-09-07",
+    "id": "2609.05261",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05261v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottlenecked by shallow trajectory retrieval and flat skill summarization, fundamentally ignoring the temporal dependencies and outcome-conditioned topology of agent behavior. We introduce Trace2Tower, a transition-aware EigenTrace framework that distills raw trajectories into a robust skill hierarchy. Trace2Tower abstracts step-level interactions into canonical events, constructing a unified graph governed by semantic compatibility, transition dynamics, and outcome evidence. Through a novel contrastive spectral decomposition, it isolates stable, success-aligned behavioral modes while rigorously suppressing failure-prone shortcuts. These modes organically populate a dynamic skill tower of action templates, procedural routines, and overarching task strategies, continuously refined via verifier-guided feedback. On ALFWorld, Trace2Tower achieves 87.31% success requiring only 10.35 steps and 0.26 invalid actions; on WebShop, it reaches 50.67% exact success. Across both benchmarks, Trace2Tower significantly outperforms existing baselines in task mastery and context-efficient experience reuse.",
+    "tier": "none",
+    "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05261v1"
+   },
+   "2609.05401": {
+    "abs_url": "https://arxiv.org/abs/2609.05401",
+    "authors": [
+     "Wonje Jeung",
+     "Sangyeon Yoon",
+     "Hyesoo Hong",
+     "Yoonjun Cho",
+     "Dongjae Jeon",
+     "Bumjun Kim",
+     "Jean Oh",
+     "Youngjae Yu",
+     "Albert No"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-07",
+    "id": "2609.05401",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05401v1",
+    "primary_category": "cs.RO",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property. Paraphrasing the instruction alone can substantially change predicted progress scores, and can even flip identical robot behavior between failure and success. To measure this failure mode, we introduce ROBORMBENCH, a benchmark with 2,390 real-robot trajectories, ground-truth progress labels, and 21,673 verified paraphrases spanning lexical, syntactic, and action-goal rewrites. Across proprietary and open-source VLMs, paraphrase-induced instability is widespread and severe, grows under more divergent rewrites, and is not reliably reduced by scale or explicit reasoning. Dedicated reward models trained with trajectory-grounded supervision are substantially more stable. These results show that paraphrase robustness is a core requirement for reliable VLM-based reward modeling in robotics.",
+    "tier": "none",
+    "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05401v1"
    }
   },
   "Search & Control for Generation": {
@@ -16581,6 +16821,119 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.04010v1"
+   },
+   "2609.04495": {
+    "abs_url": "https://arxiv.org/abs/2609.04495",
+    "authors": [
+     "Duong M. Nguyen",
+     "Joon Sik Kim",
+     "Blazej Manczak",
+     "Vaikkunth Mugunthan"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-07",
+    "id": "2609.04495",
+    "journal_ref": "",
+    "matched": [
+     "test-time search"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04495v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-03",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We formulate indirect prompt injection as a test-time search over a task-dependent attack surface induced by the environment, user task, and injection task. To operationalize this formulation, we introduce an agentic attacker with a dedicated search harness that performs environment reconnaissance, structured reasoning over attack strategies, and adaptive evaluation using victim-agent feedback. Across heterogeneous tasks, we find that increasing attacker test-time compute improves vulnerability discovery and exploitation, while ablations show that explicit strategy management is important for avoiding redundant search and sustaining gains at larger budgets. These results suggest that agentic security evaluations should characterize both the attacker's search procedure and compute budget, rather than treating attack success as a budget-independent property of the victim. More broadly, our findings identify the attacker's adaptive search over the system attack surfaces as an important and underexplored security risk for tool-using agents.",
+    "tier": "none",
+    "title": "Rethinking Indirect Prompt Injection as a Test-Time Search Problem",
+    "track": "",
+    "updated": "2026-09-03",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04495v1"
+   },
+   "2609.05221": {
+    "abs_url": "https://arxiv.org/abs/2609.05221",
+    "authors": [
+     "Thi Kim Trang Vo",
+     "Nam Tien Le",
+     "Thi Kim Nguyet Vo",
+     "Minh Khang Tran",
+     "Duy Phuong Tran"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-07",
+    "id": "2609.05221",
+    "journal_ref": "",
+    "matched": [
+     "verifier-guided"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05221v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to verify. We propose a verifier-guided explainable reasoning framework for transparent educational question answering that combines gold-anchored QLoRA, task-aware symbolic routing, and group-relative RLVR. Qwen2.5-3B-Instruct is first adapted with field-weighted QLoRA supervision anchored to authoritative answers. A lightweight router then assigns logic problems to a FOL/Z3 verifier and physics problems to a formula- and unit aware symbolic solver. Verifier feedback is further used to support candidate evaluation, self-revision, and reward construction during RLVR. Candidate responses are evaluated along three complementary dimensions: P1 for answer correctness, P2 for evidence or unit consistency, and P3 for reasoning depth and explainability. At inference, gold-free self-consistency aggregates multiple candidate responses before an optional question-only physics verifier performs conservative system-level correction. On 438 held-out examples, RLVR increases P3 from 50.68% to 72.20%, while hybrid P1 remains approximately stable at 55.94%. Self-consistency improves model only P1 from 48.86% to 50.23%, with symbolic verification providing the remaining hybrid gain. These results indicate that RLVR primarily strengthens explicit reasoning structure, while symbolic verification complements the neural policy by improving answer reliability at the system level.",
+    "tier": "none",
+    "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05221v1"
+   },
+   "2609.05261": {
+    "abs_url": "https://arxiv.org/abs/2609.05261",
+    "authors": [
+     "Jiazheng Sun",
+     "Boyu Yang",
+     "Binhao Yuan",
+     "Mingxuan Li",
+     "Xin Peng"
+    ],
+    "code_url": "",
+    "comment": "13 pages, 9 figures",
+    "first_seen": "2026-09-07",
+    "id": "2609.05261",
+    "journal_ref": "",
+    "matched": [
+     "verifier-guided"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05261v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottlenecked by shallow trajectory retrieval and flat skill summarization, fundamentally ignoring the temporal dependencies and outcome-conditioned topology of agent behavior. We introduce Trace2Tower, a transition-aware EigenTrace framework that distills raw trajectories into a robust skill hierarchy. Trace2Tower abstracts step-level interactions into canonical events, constructing a unified graph governed by semantic compatibility, transition dynamics, and outcome evidence. Through a novel contrastive spectral decomposition, it isolates stable, success-aligned behavioral modes while rigorously suppressing failure-prone shortcuts. These modes organically populate a dynamic skill tower of action templates, procedural routines, and overarching task strategies, continuously refined via verifier-guided feedback. On ALFWorld, Trace2Tower achieves 87.31% success requiring only 10.35 steps and 0.26 invalid actions; on WebShop, it reaches 50.67% exact success. Across both benchmarks, Trace2Tower significantly outperforms existing baselines in task mastery and context-efficient experience reuse.",
+    "tier": "none",
+    "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05261v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -23653,6 +24006,40 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.03734v1"
+   },
+   "2609.05296": {
+    "abs_url": "https://arxiv.org/abs/2609.05296",
+    "authors": [
+     "Gaurab Baral"
+    ],
+    "code_url": "",
+    "comment": "6 pages, 2 figures, 3 tables",
+    "first_seen": "2026-09-07",
+    "id": "2609.05296",
+    "journal_ref": "",
+    "matched": [
+     "meaning preservation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05296v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Does a simplified legal clause still say what the original said? The checks in current use cannot establish that it does: requiring an identical pair to score highest and an unrelated pair lowest moves lexical overlap and legal force together, so any monotone function of token overlap satisfies both. Our remedy is a dissociation, an item holding surface form fixed while legal force moves. We release LexFlip, 373 minimal perturbations of Quebec statutory French that reverse legal force while preserving 0.93 of the tokens, with a harness scoring metrics, regressors and prompted judges alike. The seven embedding and BERTScore metrics we test spend only 0.022 to 0.039 of their identical-to-unrelated range on such an edit, against 0.670 for bidirectional NLI, the one family the identical-pair check would disqualify. On FrJudge, against a measured human ceiling of r=0.597, a bare length feature outscores every semantic metric and has the lowest margin we measure.",
+    "tier": "none",
+    "title": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05296v1"
    }
   },
   "Synthetic Preference Data": {
@@ -28236,6 +28623,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.03806v1"
+   },
+   "2609.04999": {
+    "abs_url": "https://arxiv.org/abs/2609.04999",
+    "authors": [
+     "André Ribeiro",
+     "Rúben Garrido",
+     "Alexander Christiansen",
+     "Richard A. A. Jonker",
+     "Sérgio Matos"
+    ],
+    "code_url": "https://github.com/bioinformatics-ua/BioASQ14b",
+    "comment": "1 figure, 15 tables, 25 pages",
+    "first_seen": "2026-09-07",
+    "id": "2609.04999",
+    "journal_ref": "CLEF 2026 Working Notes, 21 - 24 September 2026, Jena, Germany",
+    "matched": [
+     "negative sampling"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04999v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This paper describes the participation of the BIT.UA team from the University of Aveiro in the 14th edition of the BioASQ Task B challenge on biomedical question answering. Building on our previous submissions, we introduced a substantially refactored and modular codebase, and made significant changes to both the retrieval and generation components of the pipeline. For Phase~A document retrieval, we replaced the PyTerrier PISA index with PostgreSQL-based pg\\_textsearch for BM25 retrieval and adopted Qdrant for dense embedding indexing, enabling more efficient storage and GPU-accelerated similarity search. We explored HyDE-based query expansion alongside a Context-1 retrieval strategy. A new reranker training pipeline was developed, incorporating dense retrieval for negative sampling. For Phases A+ and B answer generation, we introduced an LLM-as-a-judge framework and a novel agent quorum mechanism, where multiple agents with diverse prompts debate and iteratively converge on a consensus answer using adaptive document retention. We also participated in the snippets generation subtask for the first time. Our systems achieved competitive results across all batches, with Phase~A systems achieving MAP ranks of 5 (Batch~1,3). We discuss the impact of these architectural changes, lessons learned, and outline directions for future work including SPLADE and ColBERT integration. All code is openly available: https://github.com/bioinformatics-ua/BioASQ14b.",
+    "tier": "none",
+    "title": "BIT.UA at BioASQ 14B: Modular Retrieval with pg_textsearch and Qdrant, and Agent-Based Answer Generation",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04999v1"
    }
   },
   "Text Quality Evaluation": {
@@ -35795,6 +36220,161 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.04141v1"
+   },
+   "2609.04598": {
+    "abs_url": "https://arxiv.org/abs/2609.04598",
+    "authors": [
+     "Taegyun Kim",
+     "Youngwook Ham",
+     "Jungwook Rhim",
+     "Ju-Hyun An",
+     "Sungkyu Park",
+     "Kunwoo Park"
+    ],
+    "code_url": "",
+    "comment": "EMNLP 2026",
+    "first_seen": "2026-09-07",
+    "id": "2609.04598",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04598v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "We introduce PetQA, a Korean long-form question-answering (QA) benchmark for evaluating veterinary knowledge and clinical reasoning in large language models (LLMs) and large vision-language models (LVLMs). PetQA contains 10,076 text-only and 8,751 multimodal QA pairs derived from real-world questions about dogs and cats, paired with answers from expert veterinarians. Its test split, PetQA-Bench, further includes annotations for question types and clinical conditions. We evaluate eighteen models using ROUGE, BERTScore, and LLM-as-a-judge metrics for factuality and helpfulness under three settings: zero-shot inference, retrieval-augmented generation (RAG), and supervised fine-tuning (SFT). The benchmarking results provide an overview of the strengths and limitations of current models in addressing veterinary clinical queries and highlight the need for more effective adaptation methods to develop clinically reliable AI systems for veterinary care. To facilitate broader use, we additionally provide translated versions of PetQA-Bench in five languages.",
+    "tier": "top",
+    "title": "PetQA: Benchmarking Veterinary Knowledge and Clinical Reasoning",
+    "track": "main",
+    "updated": "2026-09-04",
+    "venue": "EMNLP",
+    "venue_evidence": "EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.04598v1"
+   },
+   "2609.04999": {
+    "abs_url": "https://arxiv.org/abs/2609.04999",
+    "authors": [
+     "André Ribeiro",
+     "Rúben Garrido",
+     "Alexander Christiansen",
+     "Richard A. A. Jonker",
+     "Sérgio Matos"
+    ],
+    "code_url": "https://github.com/bioinformatics-ua/BioASQ14b",
+    "comment": "1 figure, 15 tables, 25 pages",
+    "first_seen": "2026-09-07",
+    "id": "2609.04999",
+    "journal_ref": "CLEF 2026 Working Notes, 21 - 24 September 2026, Jena, Germany",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04999v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This paper describes the participation of the BIT.UA team from the University of Aveiro in the 14th edition of the BioASQ Task B challenge on biomedical question answering. Building on our previous submissions, we introduced a substantially refactored and modular codebase, and made significant changes to both the retrieval and generation components of the pipeline. For Phase~A document retrieval, we replaced the PyTerrier PISA index with PostgreSQL-based pg\\_textsearch for BM25 retrieval and adopted Qdrant for dense embedding indexing, enabling more efficient storage and GPU-accelerated similarity search. We explored HyDE-based query expansion alongside a Context-1 retrieval strategy. A new reranker training pipeline was developed, incorporating dense retrieval for negative sampling. For Phases A+ and B answer generation, we introduced an LLM-as-a-judge framework and a novel agent quorum mechanism, where multiple agents with diverse prompts debate and iteratively converge on a consensus answer using adaptive document retention. We also participated in the snippets generation subtask for the first time. Our systems achieved competitive results across all batches, with Phase~A systems achieving MAP ranks of 5 (Batch~1,3). We discuss the impact of these architectural changes, lessons learned, and outline directions for future work including SPLADE and ColBERT integration. All code is openly available: https://github.com/bioinformatics-ua/BioASQ14b.",
+    "tier": "none",
+    "title": "BIT.UA at BioASQ 14B: Modular Retrieval with pg_textsearch and Qdrant, and Agent-Based Answer Generation",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.04999v1"
+   },
+   "2609.05143": {
+    "abs_url": "https://arxiv.org/abs/2609.05143",
+    "authors": [
+     "María Eugenia Curi",
+     "Germán Capdehourat",
+     "Isabel Amigo",
+     "Magdalena Romano",
+     "Rosana Serra",
+     "Adrián Silveira",
+     "Andrés Peri"
+    ],
+    "code_url": "",
+    "comment": "25 pages, 8 figures",
+    "first_seen": "2026-09-07",
+    "id": "2609.05143",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05143v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The integration of artificial intelligence (AI), particularly large language models (LLMs), into educational assessment has opened new opportunities to enhance the efficiency and scalability of grading processes. This study presents the design and validation of an AI-assisted scoring framework for written responses in a large-scale national assessment. The proposed approach focuses on short written texts of approximately 150-200 words and incorporates a human-in-the-loop strategy to preserve assessment quality while reducing manual workload. The study is grounded in a real operational context, using data from two recent editions of a nationwide test, each comprising approximately 5,000 student responses. We analyze the alignment between AI-generated scores and human raters across multiple rubric dimensions, as well as the impact of the proposed decision flow on pass/fail outcomes. Results show moderate to high agreement between the model and human evaluations in most dimensions, supporting the feasibility of AI assistance in this setting. Moreover, the proposed correction workflow identifies cases where human review is most valuable, enabling a more efficient allocation of expert effort. The findings suggest that AI-assisted scoring can be safely integrated into large-scale assessment processes only when combined with carefully designed human oversight. The paper concludes by discussing practical implications for deployment in national assessment systems and outlining future research directions, including longitudinal monitoring of model-human alignment and the analysis of potential cognitive bias introduced by AI-supported review workflows.",
+    "tier": "none",
+    "title": "A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05143v1"
+   },
+   "2609.05346": {
+    "abs_url": "https://arxiv.org/abs/2609.05346",
+    "authors": [
+     "Rayed AlGhamdi"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-07",
+    "id": "2609.05346",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05346v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The integration of GenAI tools into higher education assessment raises important questions about how students understand, interpret, and respond to AI-mediated evaluation. As instructors increasingly explore AI tools for providing feedback, prior research has examined whether GenAI-generated feedback improves writing performance and how students perceive its usefulness; comparatively little is known, however, about how students interpret such evaluation when they are explicitly informed that an AI system, rather than a human instructor, produced the feedback and the score. This study reports findings from a qualitative pedagogical inquiry conducted in an undergraduate technical communication course for computing students at a Saudi public university. Thirteen male undergraduate computing students completed an in-class handwritten writing task; the scanned submissions were evaluated by ChatGPT using a rubric-based prompt aligned with the task objectives. Students were then explicitly informed that ChatGPT had generated the score and feedback and were invited to reflect on the evaluation in writing. Inductive thematic analysis of these reflections identified four themes: perceived usefulness of feedback; awareness of AI's contextual and pedagogical limitations; conditional trust, distinguishing feedback utility from evaluative authority; and reflection on the institutional and pedagogical role of the human instructor. Participants accepted GenAI feedback as useful for surface-level revision but consistently positioned the human instructor as the appropriate authority over grading decisions. The study identifies this as a distinction between feedback utility and evaluative authority, two judgments that students treat as analytically separate rather than as opposite ends of a single approval scale...",
+    "tier": "none",
+    "title": "Who Should Grade My Work? Student Perspectives on Transparent AI-Assisted Writing Assessment in Higher Education",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05346v1"
    }
   },
   "Writing Agent": {
@@ -41399,16 +41979,15 @@
      "Yutao Yue",
      "Menglin Yang"
     ],
-    "code_url": "",
-    "comment": "",
+    "code_url": "https://github.com/jindongli-Ai/ConWriter",
+    "comment": "Accepted to Findings of EMNLP 2026",
     "first_seen": "2026-08-19",
     "id": "2608.05169",
     "journal_ref": "",
     "matched": [
-     "long-form generation",
      "story generation"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.05169v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.05169v2",
     "primary_category": "cs.CL",
     "published": "2026-05-27",
     "s2": {
@@ -41417,17 +41996,17 @@
      "venue": "",
      "year": 2026
     },
-    "status": "unknown",
-    "summary": "Long-form story generation requires models to preserve narrative consistency across extended contexts, yet existing prompting-based methods often accumulate temporal, factual, character, commonsense, and stylistic errors as the story grows. We propose ConWriter, a training-free framework for consistency-aware long story generation. ConWriter writes stories incrementally at the scene level, guided by static story requirements, dynamic narrative memory, symbolic state reasoning, and uncertainty-aware risk signals. Rather than treating long-story generation as a single free-form decoding process, ConWriter maintains evolving story states, checks whether new scenes satisfy required narrative transitions, and uses uncertainty-aware risk signals to prioritize validation and localized repair. This enables consistency control during generation, before local errors propagate into later scenes. We evaluate ConWriter on ConStory-Bench, covering four long-story tasks: continuation, generation, expansion, and completion. Due to the high cost of long-form generation and evaluation, we use the first five cases from each task and test 3k, 6k, and 12k target lengths across Qwen3.5-Plus, DeepSeek-V4-Flash, and GPT-5 series. Experiments follow the official ConStory-Bench evaluation protocol.",
-    "tier": "none",
+    "status": "accepted",
+    "summary": "Long-form story generation requires models to preserve narrative consistency across extended contexts, yet existing prompting-based methods often accumulate temporal, factual, character, commonsense, and stylistic errors as the story grows. We propose ConWriter, a training-free framework for consistency-aware long-form story generation. ConWriter writes stories incrementally at the scene level, guided by static story requirements, dynamic narrative memory, symbolic state reasoning, and uncertainty-aware risk signals. Rather than treating long-story generation as a single free-form decoding process, ConWriter maintains evolving story states, checks whether new scenes satisfy required narrative transitions, and uses uncertainty-aware risk signals to prioritize validation and localized repair. This enables consistency control during generation, before local errors propagate into later scenes. We evaluate ConWriter on ConStory-Bench across four long-story tasks, three target lengths, and multiple base LLMs following the official evaluation protocol. Across models and story lengths, ConWriter consistently matches or improves upon direct generation and outperforms the recent training-free baseline DOME in narrative consistency. These results demonstrate the effectiveness of lightweight neuro-symbolic consistency control for training-free long-form story generation. Code is available on \\href{https://github.com/jindongli-Ai/ConWriter}{GitHub}.",
+    "tier": "findings",
     "title": "ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control",
-    "track": "",
-    "updated": "2026-05-27",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
-    "version": "2608.05169v1"
+    "track": "findings",
+    "updated": "2026-09-04",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to Findings of EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2608.05169v2"
    },
    "2608.06069": {
     "abs_url": "https://arxiv.org/abs/2608.06069",
@@ -42547,6 +43126,76 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.03992v1"
+   },
+   "2609.04824": {
+    "abs_url": "https://arxiv.org/abs/2609.04824",
+    "authors": [
+     "Maja Stahl",
+     "Timon Ziegenbein",
+     "Henning Wachsmuth"
+    ],
+    "code_url": "",
+    "comment": "Accepted to Findings of EMNLP 2026",
+    "first_seen": "2026-09-07",
+    "id": "2609.04824",
+    "journal_ref": "",
+    "matched": [
+     "writing assistant"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.04824v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Constructive feedback is crucial for creative writers to refine their storytelling abilities. Since receiving feedback from human experts is often costly and time-intensive, large language models (LLMs) offer a scalable and efficient alternative as automatic writing assistants. Despite their potential, research indicates that LLM-generated feedback is often generic, lacks actionability, and fails to identify which writing issue is most critical. To address these limitations, we present a reinforcement learning approach that steers LLMs to generate constructive feedback without the need for ground-truth feedback. We train our model using group relative policy optimization (GRPO) with a novel multi-component reward function aiming at constructiveness: it prioritizes feedback that is uniquely tailored to the story, helps to improve story quality, and addresses the most critical writing issue. In automatic and human evaluation across three story corpora, our approach outperforms state-of-the-art LLMs (including Gemini) and competitive baselines. We find that providing actionable suggestions is the main driver of feedback constructiveness.",
+    "tier": "findings",
+    "title": "Generating Constructive Feedback on Stories via Reinforcement Learning",
+    "track": "findings",
+    "updated": "2026-09-04",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to Findings of EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.04824v1"
+   },
+   "2609.05346": {
+    "abs_url": "https://arxiv.org/abs/2609.05346",
+    "authors": [
+     "Rayed AlGhamdi"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-07",
+    "id": "2609.05346",
+    "journal_ref": "",
+    "matched": [
+     "AI-assisted writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.05346v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-04",
+    "s2": {
+     "checked": "2026-09-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The integration of GenAI tools into higher education assessment raises important questions about how students understand, interpret, and respond to AI-mediated evaluation. As instructors increasingly explore AI tools for providing feedback, prior research has examined whether GenAI-generated feedback improves writing performance and how students perceive its usefulness; comparatively little is known, however, about how students interpret such evaluation when they are explicitly informed that an AI system, rather than a human instructor, produced the feedback and the score. This study reports findings from a qualitative pedagogical inquiry conducted in an undergraduate technical communication course for computing students at a Saudi public university. Thirteen male undergraduate computing students completed an in-class handwritten writing task; the scanned submissions were evaluated by ChatGPT using a rubric-based prompt aligned with the task objectives. Students were then explicitly informed that ChatGPT had generated the score and feedback and were invited to reflect on the evaluation in writing. Inductive thematic analysis of these reflections identified four themes: perceived usefulness of feedback; awareness of AI's contextual and pedagogical limitations; conditional trust, distinguishing feedback utility from evaluative authority; and reflection on the institutional and pedagogical role of the human instructor. Participants accepted GenAI feedback as useful for surface-level revision but consistently positioned the human instructor as the appropriate authority over grading decisions. The study identifies this as a distinction between feedback utility and evaluative authority, two judgments that students treat as analytically separate rather than as opposite ends of a single approval scale...",
+    "tier": "none",
+    "title": "Who Should Grade My Work? Student Perspectives on Transparent AI-Assisted Writing Assessment in Higher Education",
+    "track": "",
+    "updated": "2026-09-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.05346v1"
    }
   }
  }

@@ -9,17 +9,19 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-06** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-07** (UTC).
 Back to the [main page](../README.md).
 
-199 of 1004 papers carry venue evidence.
+203 of 1017 papers carry venue evidence.
 
-## Top-tier venues (110)
+## Top-tier venues (112)
 
-### EMNLP (50)
+### EMNLP (52)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-04**|Discourse Dependency: A Continuous Criterion for Translation Difficulty|EMNLP 2026|Iterative Revision & Text Editing|[2609.04959](https://arxiv.org/abs/2609.04959)|
+|**2026-09-04**|PetQA: Benchmarking Veterinary Knowledge and Clinical Reasoning|EMNLP 2026|Text Quality Evaluation|[2609.04598](https://arxiv.org/abs/2609.04598)|
 |**2026-09-03**|Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness|EMNLP 2026|Reward & Value Models|[2609.03887](https://arxiv.org/abs/2609.03887)|
 |**2026-09-03**|Decoupled Analysis-Judging: An Automated Creativity Evaluator Using LLMs in Complex Multi-step Creativity Tasks|EMNLP 2026|Text Quality Evaluation|[2609.03432](https://arxiv.org/abs/2609.03432)|
 |**2026-09-02**|CoMerge: Conflict-Driven Preference Optimization for Multi-Task Model Merging|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2609.02273](https://arxiv.org/abs/2609.02273)|
@@ -222,12 +224,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-04-17**|From Intention to Text: AI-Supported Goal Setting in Academic Writing|AIED 2026|Writing Agent|[2604.15800](https://arxiv.org/abs/2604.15800)|
 
-## Findings tracks (30)
+## Findings tracks (32)
 
-### EMNLP (20)
+### EMNLP (22)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-04**|Generating Constructive Feedback on Stories via Reinforcement Learning|EMNLP 2026 (findings)|Writing Agent|[2609.04824](https://arxiv.org/abs/2609.04824)|
 |**2026-09-03**|Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation|EMNLP 2026 (findings)|Reward & Value Models|[2609.03407](https://arxiv.org/abs/2609.03407)|
 |**2026-09-03**|Beyond Majority Vote: Multi-Perspective Adjudication for Medical Hallucination Detection|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.03953](https://arxiv.org/abs/2609.03953)|
 |**2026-09-02**|SWIM: Student Writing Simulation via Proficiency-Conditioned Generation|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.03215](https://arxiv.org/abs/2609.03215)|
@@ -246,6 +249,7 @@ Back to the [main page](../README.md).
 |**2026-08-24**|LITERARYBIGFIVE: Author-Personalized Text Generation in a Unified Interpretable Space|EMNLP 2026 (findings)|Writing Agent|[2608.23124](https://arxiv.org/abs/2608.23124)|
 |**2026-08-23**|Function-Level Execution Feedback for Code Preference Optimization|EMNLP 2026 (findings)|Reward & Value Models, Text Quality Evaluation|[2608.23632](https://arxiv.org/abs/2608.23632)|
 |**2026-08-23**|ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation|EMNLP 2026 (findings)|Text Quality Evaluation|[2608.22559](https://arxiv.org/abs/2608.22559)|
+|**2026-05-27**|ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control|EMNLP 2026 (findings)|Writing Agent|[2608.05169](https://arxiv.org/abs/2608.05169)|
 |**2022-05-20**|Translating Hanja Historical Documents to Contemporary Korean and English|EMNLP 2022 (findings)|Korean Writing & NLP|[2205.10019](https://arxiv.org/abs/2205.10019)|
 |**2019-12-01**|Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives|EMNLP 2020 (findings)|Korean Writing & NLP|[1912.00342](https://arxiv.org/abs/1912.00342)|
 
