@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-09-07** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-09-08** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -18,26 +18,6 @@ Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (85)
 - [Search & Control for Generation](#search--control-for-generation) (80)
 - [Korean Writing & NLP](#korean-writing--nlp) (68)
-
-## New in this update (17)
-
-- `Writing Agent` [Who Should Grade My Work? Student Perspectives on Transparent AI-Assisted Writing Assessment in Higher Education](https://arxiv.org/abs/2609.05346)
-- `Writing Agent` [Generating Constructive Feedback on Stories via Reinforcement Learning](https://arxiv.org/abs/2609.04824)
-- `Iterative Revision & Text Editing` [Discourse Dependency: A Continuous Criterion for Translation Difficulty](https://arxiv.org/abs/2609.04959)
-- `Reward & Value Models` [Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models](https://arxiv.org/abs/2609.05401)
-- `Reward & Value Models` [MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression](https://arxiv.org/abs/2609.04947)
-- `Reward & Value Models` [Harness-agnostic detection and immunization of reward hacking in self-evolving language models](https://arxiv.org/abs/2609.04665)
-- `Reward & Value Models` [Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents](https://arxiv.org/abs/2609.05261)
-- `Reward & Value Models` [A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR](https://arxiv.org/abs/2609.05221)
-- `Synthetic Preference Data` [BIT.UA at BioASQ 14B: Modular Retrieval with pg_textsearch and Qdrant, and Agent-Based Answer Generation](https://arxiv.org/abs/2609.04999)
-- `Text Quality Evaluation` [BIT.UA at BioASQ 14B: Modular Retrieval with pg_textsearch and Qdrant, and Agent-Based Answer Generation](https://arxiv.org/abs/2609.04999)
-- `Text Quality Evaluation` [PetQA: Benchmarking Veterinary Knowledge and Clinical Reasoning](https://arxiv.org/abs/2609.04598)
-- `Text Quality Evaluation` [Who Should Grade My Work? Student Perspectives on Transparent AI-Assisted Writing Assessment in Higher Education](https://arxiv.org/abs/2609.05346)
-- `Text Quality Evaluation` [A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment](https://arxiv.org/abs/2609.05143)
-- `Semantic Drift & Faithfulness` [LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics](https://arxiv.org/abs/2609.05296)
-- `Search & Control for Generation` [Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents](https://arxiv.org/abs/2609.05261)
-- `Search & Control for Generation` [A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR](https://arxiv.org/abs/2609.05221)
-- `Search & Control for Generation` [Rethinking Indirect Prompt Injection as a Test-Time Search Problem](https://arxiv.org/abs/2609.04495)
 
 ## Writing Agent
 
