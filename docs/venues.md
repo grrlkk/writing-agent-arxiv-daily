@@ -9,17 +9,22 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-08** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-09** (UTC).
 Back to the [main page](../README.md).
 
-203 of 1017 papers carry venue evidence.
+210 of 1057 papers carry venue evidence.
 
-## Top-tier venues (112)
+## Top-tier venues (117)
 
-### EMNLP (52)
+### EMNLP (57)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-08**|Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation|EMNLP 2026|Reward & Value Models|[2609.09135](https://arxiv.org/abs/2609.09135)|
+|**2026-09-08**|A Better Spur Should Start From Each Objective|EMNLP 2026|Reward & Value Models|[2609.08211](https://arxiv.org/abs/2609.08211)|
+|**2026-09-07**|Elastic Horizon: Discovering the Effective Interaction Frontier in Agentic Reinforcement Learning|EMNLP 2026|Search & Control for Generation|[2609.07247](https://arxiv.org/abs/2609.07247)|
+|**2026-09-07**|Humans Introduce, Models Elaborate: Asymmetric Narrative Agency in Human-LLM Co-Writing|EMNLP 2026|Writing Agent|[2609.07920](https://arxiv.org/abs/2609.07920)|
+|**2026-09-06**|MARBO: Relational Belief Grounding for LLM Agents in Social Deduction Games|EMNLP 2026|Reward & Value Models|[2609.06563](https://arxiv.org/abs/2609.06563)|
 |**2026-09-04**|Discourse Dependency: A Continuous Criterion for Translation Difficulty|EMNLP 2026|Iterative Revision & Text Editing|[2609.04959](https://arxiv.org/abs/2609.04959)|
 |**2026-09-04**|PetQA: Benchmarking Veterinary Knowledge and Clinical Reasoning|EMNLP 2026|Text Quality Evaluation|[2609.04598](https://arxiv.org/abs/2609.04598)|
 |**2026-09-03**|Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness|EMNLP 2026|Reward & Value Models|[2609.03887](https://arxiv.org/abs/2609.03887)|
@@ -224,12 +229,14 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-04-17**|From Intention to Text: AI-Supported Goal Setting in Academic Writing|AIED 2026|Writing Agent|[2604.15800](https://arxiv.org/abs/2604.15800)|
 
-## Findings tracks (32)
+## Findings tracks (34)
 
-### EMNLP (22)
+### EMNLP (24)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-08**|ReCite: Agentic Reasoning for Faithful Citation|EMNLP 2026 (findings)|Self-Refine & Self-Correction|[2609.09156](https://arxiv.org/abs/2609.09156)|
+|**2026-09-07**|PTCG: Persona-guided Tree-based Counterargument Generation|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.07120](https://arxiv.org/abs/2609.07120)|
 |**2026-09-04**|Generating Constructive Feedback on Stories via Reinforcement Learning|EMNLP 2026 (findings)|Writing Agent|[2609.04824](https://arxiv.org/abs/2609.04824)|
 |**2026-09-03**|Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation|EMNLP 2026 (findings)|Reward & Value Models|[2609.03407](https://arxiv.org/abs/2609.03407)|
 |**2026-09-03**|Beyond Majority Vote: Multi-Perspective Adjudication for Medical Hallucination Detection|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.03953](https://arxiv.org/abs/2609.03953)|
