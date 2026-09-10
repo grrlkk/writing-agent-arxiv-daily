@@ -9,10 +9,10 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-09** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-10** (UTC).
 Back to the [main page](../README.md).
 
-210 of 1057 papers carry venue evidence.
+211 of 1067 papers carry venue evidence.
 
 ## Top-tier venues (117)
 
@@ -20,8 +20,8 @@ Back to the [main page](../README.md).
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-09-08**|Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation|EMNLP 2026|Reward & Value Models|[2609.09135](https://arxiv.org/abs/2609.09135)|
 |**2026-09-08**|A Better Spur Should Start From Each Objective|EMNLP 2026|Reward & Value Models|[2609.08211](https://arxiv.org/abs/2609.08211)|
+|**2026-09-08**|Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation|EMNLP 2026|Reward & Value Models|[2609.09135](https://arxiv.org/abs/2609.09135)|
 |**2026-09-07**|Elastic Horizon: Discovering the Effective Interaction Frontier in Agentic Reinforcement Learning|EMNLP 2026|Search & Control for Generation|[2609.07247](https://arxiv.org/abs/2609.07247)|
 |**2026-09-07**|Humans Introduce, Models Elaborate: Asymmetric Narrative Agency in Human-LLM Co-Writing|EMNLP 2026|Writing Agent|[2609.07920](https://arxiv.org/abs/2609.07920)|
 |**2026-09-06**|MARBO: Relational Belief Grounding for LLM Agents in Social Deduction Games|EMNLP 2026|Reward & Value Models|[2609.06563](https://arxiv.org/abs/2609.06563)|
@@ -317,7 +317,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-06-06**|Cross Paraphrastic Invariance Learning for Hallucination Detection|ICASSP 2026|Synthetic Preference Data|[2606.08157](https://arxiv.org/abs/2606.08157)|
 
-## Workshops (33)
+## Workshops (34)
 
 ### ICML (7)
 
@@ -367,10 +367,11 @@ Back to the [main page](../README.md).
 |**2026-06-16**|Unintended Effects of Geographic Conditioning in Large Language Models|ACL 2026 (workshop)|Writing Agent|[2606.18124](https://arxiv.org/abs/2606.18124)|
 |**2020-05-26**|BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection|ACL 2020 (workshop)|Korean Writing & NLP|[2005.12503](https://arxiv.org/abs/2005.12503)|
 
-### EMNLP (2)
+### EMNLP (3)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-07-14**|EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading|EMNLP 2026 (workshop)|Iterative Revision & Text Editing, Search & Control for Generation|[2607.12455](https://arxiv.org/abs/2607.12455)|
 |**2025-10-05**|Time Is Effort: Estimating Human Post-Editing Time for Grammar Error Correction Tool Evaluation|EMNLP 2025 (workshop)|Iterative Revision & Text Editing|[2510.04394](https://arxiv.org/abs/2510.04394)|
 |**2025-07-06**|No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem|EMNLP 2025 (workshop)|Korean Writing & NLP|[2507.04329](https://arxiv.org/abs/2507.04329)|
 

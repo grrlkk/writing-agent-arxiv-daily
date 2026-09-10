@@ -3,23 +3,23 @@
   "topics": {
    "Iterative Revision & Text Editing": 77,
    "Korean Writing & NLP": 68,
-   "Reward & Value Models": 217,
-   "Search & Control for Generation": 82,
-   "Self-Refine & Self-Correction": 98,
+   "Reward & Value Models": 223,
+   "Search & Control for Generation": 83,
+   "Self-Refine & Self-Correction": 99,
    "Semantic Drift & Faithfulness": 89,
    "Synthetic Preference Data": 121,
-   "Text Quality Evaluation": 203,
-   "Writing Agent": 174
+   "Text Quality Evaluation": 204,
+   "Writing Agent": 175
   },
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "venue_tiers": {
    "demo": 2,
    "findings": 34,
-   "none": 847,
+   "none": 856,
    "other": 15,
    "strong": 9,
    "top": 117,
-   "workshop": 33
+   "workshop": 34
   }
  },
  "topics": {
@@ -1936,14 +1936,14 @@
      "Nan Tang"
     ],
     "code_url": "",
-    "comment": "",
+    "comment": "13 pages, 6 figures, 3 tables. Accepted at the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), co-located with EMNLP 2026",
     "first_seen": "2026-08-19",
     "id": "2607.12455",
     "journal_ref": "",
     "matched": [
      "iterative revision"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2607.12455v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.12455v2",
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
@@ -1952,17 +1952,17 @@
      "venue": "",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Quantitative strategy optimization remains largely manual, requiring domain experts to identify weak signals, tune risk-control rules, and repeatedly validate iterative revisions. Large language models can accelerate this process, but directly relying on them to rewrite trading strategies often introduces hallucinated edits, strategy drift, and backtest overfitting. We propose EVOQUANT, a self-Evolving Verifier-guided framework for strategy Optimization in Quantitative trading. Our method utilizes LLMs to deeply diagnose performance bottlenecks, generates semantically controlled candidate edits, selects the best strategy through a multi-stage verification pipeline, and distills optimization experience into reusable knowledge for continual self-improvement. We evaluate our method using seven representative strategies: four from the A-share market and three from the Crypto market. Experimental results show that our method significantly improves the Sharpe ratio across all tested strategies: the average test Sharpe increases from -0.298 to 0.538, and the best-performing strategy achieves a 199% relative improvement. Ablation studies and stress tests under stricter conditions further validate the effectiveness and robustness of the framework. Overall, this work transforms quantitative strategy optimization from costly manual trial and error into an automated and verifiable iterative paradigm, offering a new path for applying large language models to financial strategy research.",
-    "tier": "none",
+    "tier": "workshop",
     "title": "EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading",
-    "track": "",
-    "updated": "2026-07-14",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
-    "version": "2607.12455v1"
+    "track": "workshop",
+    "updated": "2026-09-09",
+    "venue": "EMNLP",
+    "venue_evidence": "13 pages, 6 figures, 3 tables. Accepted at the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), co-located with EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2607.12455v2"
    },
    "2607.13347": {
     "abs_url": "https://arxiv.org/abs/2607.13347",
@@ -14553,6 +14553,241 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.09135v1"
+   },
+   "2609.09685": {
+    "abs_url": "https://arxiv.org/abs/2609.09685",
+    "authors": [
+     "Zuhao Zhang",
+     "Xu Liu",
+     "Kai Wan",
+     "Zihao Lu",
+     "Li Ma",
+     "Shuai Li"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-10",
+    "id": "2609.09685",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09685v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Real-time hold control is a high-leverage mechanism in large-scale ride-hailing systems: by selectively deferring driver-order pairs, the platform can wait for better matching opportunities and improve end-to-end passenger-driver experience. Existing production systems such as EXHOLD learn bandit-based hold policies from handcrafted combinations of trip completion, cancellations, waiting time, and driver effort. However, designing such rewards becomes increasingly difficult as marketplace preferences are heterogeneous and observed passenger-driver behavior can be sparse, noisy, and affected by dynamic supply-demand conditions. We present ALIGN-HOLD, a production-scale experience alignment framework that learns hold policy from implicit marketplace preferences. ALIGN-HOLD constructs complementary preference pairs from order trajectories, driver trajectories, and contemporaneous local matching graphs, and trains an experience Reward Model (RM) using balanced multi-view sampling and model-adaptive hard preference sampling. During simulator-based policy learning, the frozen RM provides a dense, context-dependent reward and supports label-free filtering of low-identifiability interactions whose behavioral feedback is difficult to attribute to matching quality. We deploy ALIGN-HOLD on DiDi's ride-hailing platform and evaluate it in a 28-day randomized A/B experiment, covering approximately 100,000 passenger requests per day. Compared with the deployed production policy, ALIGN-HOLD achieves statistically significant improvements in trip completion rate and driver income, while significantly reducing passenger cancellations before and after driver acceptance. Complementary ablations, RM diagnostics, and behavioral analyses validate the contributions of the proposed components. ALIGN-HOLD has been fully ramped up and is currently serving DiDi's Brazil marketplace.",
+    "tier": "none",
+    "title": "ALIGN-HOLD: Experience Alignment for Real-Time Hold Control in Large-Scale Ride-Hailing Matching at DiDi",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09685v1"
+   },
+   "2609.09764": {
+    "abs_url": "https://arxiv.org/abs/2609.09764",
+    "authors": [
+     "Jianing Wang",
+     "Xintao Wang",
+     "Aili Chen",
+     "Jie Shi",
+     "Hongcheng Guo",
+     "Jun Gao",
+     "Wenxuan Zhao",
+     "Chengkun Lang",
+     "Yuanli Guo",
+     "Yanghua Xiao"
+    ],
+    "code_url": "",
+    "comment": "30pages 2figures",
+    "first_seen": "2026-09-10",
+    "id": "2609.09764",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09764v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Social intelligence enables agents to read social context, infer intent, and adapt over sustained dialogue. As language models become autonomous collaborators, it is central to building effective and trustworthy human-AI interaction. Existing reinforcement learning methods optimize single-turn utterances and sparse outcome rewards, producing short-sighted policies that struggle to manage goal-relationship tensions across multi-turn interactions. We propose SocialRL, a multi-turn reinforcement learning framework addressing both challenges. First, we apply multi-turn reinforcement learning using PPO that propagates delayed outcome rewards back to each turn, enabling long-horizon planning. Second, we design six process reward dimensions capturing the goal-relationship trade-off, including goal advancement, relational attunement, contextual coherence, etc. A reward model dynamically generates fine-grained scoring criteria for each dimension, while a stage-aware weight schedule prioritizes relationship-building in early turns, goal advancement mid-way, and balanced closure late. Across multiple social-dialogue benchmarks, SocialRL improves Goal Achievement by an average of 9.2 percentage points over the corresponding Base models. These results demonstrate the effectiveness of SocialRL across synthetic and real social scenes, as well as standard and challenging social scenarios.",
+    "tier": "none",
+    "title": "SocialRL: Refining LLMs' Social Intelligence through Multi-turn Reinforcement Learning and Reward Design",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09764v1"
+   },
+   "2609.09776": {
+    "abs_url": "https://arxiv.org/abs/2609.09776",
+    "authors": [
+     "Eshwar Reddy M",
+     "Sourav Karmakar"
+    ],
+    "code_url": "",
+    "comment": "21 pages, 13 figures",
+    "first_seen": "2026-09-10",
+    "id": "2609.09776",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09776v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Frontier gains in language-model reasoning come from reinforcement learning on reasoning traces and are concentrated in domains with a cheap, sound verifier. We argue the field's binding constraint is the verification gap: no scalable, incorruptible reward for reasoning outside formal domains. We make four contributions. (1) Theory: in a joint-Gaussian model of best-of-N selection, verifier-gold correlation rho is the exact exchange rate between test-time compute and capability, and an unsound verifier pays a polynomial penalty N^(1/rho^2); a margin-free copula form predicts realized soundness of real LLM judges to 4% median error. (2) Demonstration: in program-synthesis testbeds with executable ground truth, including a pre-registered scaled replication, unsound verifiers lose Soundness-under-Pressure as optimization grows (0.94 to 0.32 at N=4096) while a sound verifier improves monotonically; reality-anchored settlement beats a frozen verifier under i.i.d. and adversarial pressure, driving the hacking gap from ~0.27 to ~0; soundness scales log-linearly with settled labels, with on-policy settlement ~10x more label-efficient than random labeling. With real LLM judges and unit-test execution as gold, a weak judge loses soundness under best-of-N (p<0.001), a stronger judge is more robust, and selection alone manufactures +0.53 hacking gaps from honest samples. Under real GRPO training, a frozen reward model traces the full overoptimization curve (executed reward collapses 90%) while the same model refit on a 10% settlement stream preserves 6x the executed reward. (3) Paradigm: proof-carrying cognition, where reasoning steps are typed probabilistic claims priced by a self-built world model trained only on held-out reality and settled by proper scoring rules. (4) Benchmark: we specify Soundness-under-Pressure as the headline metric for a reality-settled reasoning benchmark.",
+    "tier": "none",
+    "title": "Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09776v1"
+   },
+   "2609.09783": {
+    "abs_url": "https://arxiv.org/abs/2609.09783",
+    "authors": [
+     "Guanqun Zhao",
+     "Zijun Xie",
+     "Binbin Zheng",
+     "Jiafeng Lu",
+     "Enlei Gong",
+     "Zeyu Chen"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-10",
+    "id": "2609.09783",
+    "journal_ref": "",
+    "matched": [
+     "value model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09783v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Asynchronous reinforcement learning has become the standard way to scale training for language models, but the resulting policy lag biases the critic toward the stale behavior policy. Existing work on asynchronous LLM training corrects the actor and leaves this bias unaddressed, while the off-policy value correction of classical RL does not carry over to long-horizon agentic tasks, since a short correction horizon leaves the regression target free of the reward and a long one lets the product of importance ratios drift exponentially with the trajectory length. We propose BRACE, an anchored Bellman-residual correction for stale value models. BRACE bounds the correction horizon to a prefix of policy tokens and anchors a constant-weight Monte-Carlo tail beyond it, which separates policy correction from reward propagation. BRACE improves mean@1 on BrowseComp-Plus by $2.4\\%$ over the strongest baseline, runs $2.46\\times$ faster per step than synchronous training, and remains stable $50$ updates off-policy.",
+    "tier": "none",
+    "title": "BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09783v1"
+   },
+   "2609.09905": {
+    "abs_url": "https://arxiv.org/abs/2609.09905",
+    "authors": [
+     "Yansen Han",
+     "Shengyi Liao",
+     "Peng Sun",
+     "Deyuan Liu",
+     "Yuanxing Zhang",
+     "Pengfei Wan",
+     "Tao Lin"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-10",
+    "id": "2609.09905",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09905v1",
+    "primary_category": "stat.ML",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Preference alignment for flow and diffusion models now spans online reinforcement learning and offline preference optimization, but the relation between these methods remains unclear. In particular, existing forward-process alignment methods require fresh samples from the current model, while offline methods based on fixed preference pairs rely primarily on positive-only fine-tuning or DPO-style likelihood-ratio surrogates. We organize these approaches through a divergence-based framework and introduce FlowCPO, an offline forward-KL objective that uses both preferred and dispreferred samples without online rollouts. For linear interpolation, we show under explicit regularity conditions that the forward-KL objective is bounded by a contrastive flow matching loss, yielding a tractable surrogate on fixed data. We further show that this loss is nonnegative, whereas the signed regression loss of simplified FlowDPO can be unbounded below. In the in-domain setting, FlowCPO achieves higher mean GenEval and OCR scores than the evaluated baselines, reaching 0.84 and 0.87 versus 0.81 and 0.74 for FlowDPO at CFG 3.0. In the out-of-domain setting, the results are mixed, with the best GenEval result but lower reward scores than RFT on several metrics.",
+    "tier": "none",
+    "title": "FlowCPO: A Unified Divergence View of Preference Alignment for Flow Models",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09905v1"
+   },
+   "2609.10293": {
+    "abs_url": "https://arxiv.org/abs/2609.10293",
+    "authors": [
+     "Chen Qian",
+     "Yimeng Wang",
+     "Yu Chen",
+     "Lingfei Wu",
+     "Andreas Stathopoulos"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-10",
+    "id": "2609.10293",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.10293v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "In high-stakes domains such as legal practice, a language-model answer is only useful to the extent that a reader can verify each claim against the source the system cites. Current grounded-generation pipelines score the answer as a whole, so a correct conclusion can rest on fabricated or loosely matched citations and still score well. Closing this gap requires both a system built for per-claim verification and an evaluation that measures it. We introduce GANDR (Grounded ANswer DRafter), a two-agent system in which a Drafter writes an answer in a structured legal-reasoning format and a separate Critic, with the same view as a human verifier, audits each claim against its cited source and emits a per-claim audit trace on every round. We pair it with a strict correctness criterion requiring every citation to resolve to a passage the retriever returned. On a 185-item legal benchmark where all six systems share one backbone, one retrieval surface, and one citation instruction, GANDR ranks first on every primary metric, reaching 70.8% strict accuracy and leading the strongest baseline by 11.3 points (p<0.01). Reverting the protocol-anchored commit rule lowers strict accuracy by 22.7 points, and the strict lead stays positive on three further backbones, at +3.2 to +6.5 points. This lead traces to the Drafter configuration and the protocol-anchored commit, not to rewriting. Against two law-trained annotators the audit flags under-supported claims at F1 0.84 as a binary detector, while its four-way verdict labels agree only weakly and are advisory. Code is available upon request.",
+    "tier": "none",
+    "title": "GANDR: Claim Auditing for Verifiable Legal Answer Generation",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.10293v1"
    }
   },
   "Search & Control for Generation": {
@@ -16108,14 +16343,14 @@
      "Nan Tang"
     ],
     "code_url": "",
-    "comment": "",
+    "comment": "13 pages, 6 figures, 3 tables. Accepted at the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), co-located with EMNLP 2026",
     "first_seen": "2026-08-19",
     "id": "2607.12455",
     "journal_ref": "",
     "matched": [
      "verifier-guided"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2607.12455v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.12455v2",
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
@@ -16124,17 +16359,17 @@
      "venue": "",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Quantitative strategy optimization remains largely manual, requiring domain experts to identify weak signals, tune risk-control rules, and repeatedly validate iterative revisions. Large language models can accelerate this process, but directly relying on them to rewrite trading strategies often introduces hallucinated edits, strategy drift, and backtest overfitting. We propose EVOQUANT, a self-Evolving Verifier-guided framework for strategy Optimization in Quantitative trading. Our method utilizes LLMs to deeply diagnose performance bottlenecks, generates semantically controlled candidate edits, selects the best strategy through a multi-stage verification pipeline, and distills optimization experience into reusable knowledge for continual self-improvement. We evaluate our method using seven representative strategies: four from the A-share market and three from the Crypto market. Experimental results show that our method significantly improves the Sharpe ratio across all tested strategies: the average test Sharpe increases from -0.298 to 0.538, and the best-performing strategy achieves a 199% relative improvement. Ablation studies and stress tests under stricter conditions further validate the effectiveness and robustness of the framework. Overall, this work transforms quantitative strategy optimization from costly manual trial and error into an automated and verifiable iterative paradigm, offering a new path for applying large language models to financial strategy research.",
-    "tier": "none",
+    "tier": "workshop",
     "title": "EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading",
-    "track": "",
-    "updated": "2026-07-14",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
-    "version": "2607.12455v1"
+    "track": "workshop",
+    "updated": "2026-09-09",
+    "venue": "EMNLP",
+    "venue_evidence": "13 pages, 6 figures, 3 tables. Accepted at the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), co-located with EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2607.12455v2"
    },
    "2607.12829": {
     "abs_url": "https://arxiv.org/abs/2607.12829",
@@ -17726,6 +17961,44 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.07247v1"
+   },
+   "2609.09815": {
+    "abs_url": "https://arxiv.org/abs/2609.09815",
+    "authors": [
+     "Xing Zhang",
+     "Guanghui Wang",
+     "Yanwei Cui",
+     "Mengdie Flora Wang",
+     "Peiyang He"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-10",
+    "id": "2609.09815",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09815v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Compound LLM systems often solve a coordination problem by adding a higher-level LLM. The resulting meta-agent reads workers' outputs, writes the final answer, allocates later calls, and decides when to stop. It is expressive, but it also concentrates three control decisions in an opaque, order-sensitive model call. We ask whether the manager needs to be generative at all. UnitBoost replaces that model with a defined meta-level operator: a task-given unit map turns worker outputs into slot-value proposals, a constrained argmax assembles the output, and the slots left unfilled or unsupported become an explicit residual for the next round. The operator is order-free, records unit provenance, and gives a simple guarantee: without coupling constraints, unit-wise maximization under the same admission score dominates selection of any complete candidate. On three held-out benchmarks, it exceeds the best single candidate chosen with gold labels by 0.060-0.195 absolute task-score points and input-matched generative managers by 0.048-0.076. Replacing only the management step improves six compound-system configurations by 0.013-0.182. Residual-directed rounds raise FanOutQA cell F1 from 0.4778 to 0.5524; matched controls show that the true residual outperforms random targets and ordinary rereading, while a label-free supply signal flags exhaustion after one unproductive round. The same analysis measures three conditions in which no such gain is available (one indivisible unit, unavailable unit identity, and an endpoint that charges for every emitted unit) and quantifies cross-unit coupling as a repair cost. The manager gives up semantic freedom and gains order invariance, unit provenance, and testable failure conditions.",
+    "tier": "none",
+    "title": "UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09815v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -21570,6 +21843,46 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.09156v1"
+   },
+   "2609.10177": {
+    "abs_url": "https://arxiv.org/abs/2609.10177",
+    "authors": [
+     "Mingbo Yang",
+     "Wenqiang Wang",
+     "Zhaolu Kang",
+     "Peng Chen",
+     "Yannan Chen",
+     "Sunshang Wang",
+     "Yan Xiao"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-10",
+    "id": "2609.10177",
+    "journal_ref": "",
+    "matched": [
+     "self-refine"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.10177v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "In-context learning (ICL) is widely used in multimodal large language models (MLLMs) and achieves strong performance across a wide range of multimodal tasks. However, existing multimodal ICL methods often rely on surface level imitation of in-context demonstrations, making it difficult for MLLMs to align their responses with the reasoning path required by the given multimodal input. This limitation becomes more pronounced in complex multimodal tasks, thereby restricting further improvements in MLLM performance. To address this issue, we propose a new multimodal ICL framework that combines contrastive demonstration modeling with the self-refinement capability of MLLMs. Specifically, our framework reformulates each demonstration by explicitly contrasting a suboptimal response with a better response under the same input, together with a reasoning path that reveals how the response should be refined. This contrastive formulation makes the reasoning path toward the desired response more explicit and guides the MLLM beyond superficial imitation. Furthermore, because effective refinement depends on the current response, we introduce a response-conditioned retrieval mechanism to select demonstrations whose reasoning paths are more relevant to the current response. In addition, we use a lightweight alignment controller to predict response quality and determine whether further refinement is needed. Experiments on three types of multimodal tasks show that the proposed framework consistently improves MLLM performance, with particularly notable gains on visual question answering (VQA).",
+    "tier": "none",
+    "title": "Beyond Surface Imitation: Contrastive Modeling for Reasoning Path Alignment in Multimodal In-Context Learning",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.10177v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -23696,7 +24009,7 @@
     "matched": [
      "semantic drift"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2607.25507v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.25507v2",
     "primary_category": "cs.CL",
     "published": "2026-07-28",
     "s2": {
@@ -23710,12 +24023,12 @@
     "tier": "none",
     "title": "Phase Structure in Rotary Attention: A Spectral Framework for Semantic Continuity and Execution-Boundary Governance",
     "track": "",
-    "updated": "2026-07-28",
+    "updated": "2026-09-09",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2607.25507v1"
+    "version": "2607.25507v2"
    },
    "2607.26795": {
     "abs_url": "https://arxiv.org/abs/2607.26795",
@@ -25035,7 +25348,7 @@
     "matched": [
      "semantic drift"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.08609v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08609v2",
     "primary_category": "cs.CL",
     "published": "2026-09-08",
     "s2": {
@@ -25049,12 +25362,12 @@
     "tier": "none",
     "title": "Dynamics of meaning: Towards the Evaluation of Diachronic Semantic Change in Sinhala",
     "track": "",
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.08609v1"
+    "version": "2609.08609v2"
    }
   },
   "Synthetic Preference Data": {
@@ -33979,7 +34292,7 @@
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.15877v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.15877v3",
     "primary_category": "cs.AI",
     "published": "2026-08-16",
     "s2": {
@@ -33993,12 +34306,12 @@
     "tier": "none",
     "title": "Dear Algo: A Precision-First Agentic Intent Layer for Unified Search and Recommendation",
     "track": "",
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.15877v2"
+    "version": "2608.15877v3"
    },
    "2608.17168": {
     "abs_url": "https://arxiv.org/abs/2608.17168",
@@ -37827,6 +38140,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.09076v1"
+   },
+   "2609.09428": {
+    "abs_url": "https://arxiv.org/abs/2609.09428",
+    "authors": [
+     "Yanfei Hu Fleischhauer",
+     "Alona Zharova",
+     "Nadja Klein",
+     "Stefan Feuerriegel"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-10",
+    "id": "2609.09428",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09428v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-08",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective human judgment, limiting reproducibility, scalability, and comparability between studies. We examine whether LLMs can serve as a reproducible and scalable mechanism to make comparative assessments of the quality of XAI explanations. We introduce XAI-Arena, an LLM-as-a-judge framework for scalable, reproducible, multidimensional, and stakeholder-sensitive evaluation of XAI explanation quality. XAI-Arena then allows us to compare XAI explanations along various dimensions, namely, perceived simplicity, clarity, task adequacy, trust calibration, actionability, transparency, faithfulness, and overall interpretability. We then benchmark XAI explanation methods across various datasets, machine learning models, and stakeholder personas. Human validation shows a strong positive association between LLM-generated and human ratings (Spearman's rho=.693, p<.001). Together, LLM-based evaluations can capture systematic differences in XAI explanation quality and provide a scalable and reproducible framework for comparative assessment of XAI explanations.",
+    "tier": "none",
+    "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+    "track": "",
+    "updated": "2026-09-08",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09428v1"
    }
   },
   "Writing Agent": {
@@ -44798,7 +45148,7 @@
      "co-writing",
      "collaborative writing"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.07920v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.07920v2",
     "primary_category": "cs.HC",
     "published": "2026-09-07",
     "s2": {
@@ -44812,12 +45162,46 @@
     "tier": "top",
     "title": "Humans Introduce, Models Elaborate: Asymmetric Narrative Agency in Human-LLM Co-Writing",
     "track": "main",
-    "updated": "2026-09-07",
+    "updated": "2026-09-09",
     "venue": "EMNLP",
     "venue_evidence": "12 pages, 11 figures, EMNLP 2026",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2609.07920v1"
+    "version": "2609.07920v2"
+   },
+   "2609.09332": {
+    "abs_url": "https://arxiv.org/abs/2609.09332",
+    "authors": [
+     "Han-yu Wang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-10",
+    "id": "2609.09332",
+    "journal_ref": "",
+    "matched": [
+     "AI-assisted writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09332v1",
+    "primary_category": "cs.HC",
+    "published": "2026-09-08",
+    "s2": {
+     "checked": "2026-09-10",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "A language model can resolve a writer's current organizing problem while the construction needed for her own resolution remains unfinished. I call this early epistemic settlement. The supplied organization meets every demand then governing the passage, yet proceeding from it can displace work through which the writer would have changed those demands or become able to form further organizations. I distinguish the coordination needed to complete an already formable organization from construction that changes which organizations are formable in the first place. Settlement in the first case changes the relative work still required to bring available organizations to sufficiency. In the second, it can remove the need for the work through which another organization would become formable. Even when supplied resolution and continued construction leave the same visible qualification, different dependencies in the writer's inquiry may support different later organizations. Model suggestions can also contribute to this development when writers work through them while the problem remains unresolved. In theoretical and exploratory writing, the relations developed in reaching local adequacy help determine what the writer can later defend or develop. A sound judgment that the present passage is sufficient can therefore make further inquiry dispensable before that generative work has occurred.",
+    "tier": "none",
+    "title": "Early Epistemic Settlement in AI-Assisted Writing",
+    "track": "",
+    "updated": "2026-09-08",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09332v1"
    }
   }
  }
