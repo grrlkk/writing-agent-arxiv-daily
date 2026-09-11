@@ -1,25 +1,25 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 77,
+   "Iterative Revision & Text Editing": 78,
    "Korean Writing & NLP": 68,
-   "Reward & Value Models": 223,
+   "Reward & Value Models": 227,
    "Search & Control for Generation": 83,
    "Self-Refine & Self-Correction": 99,
    "Semantic Drift & Faithfulness": 89,
-   "Synthetic Preference Data": 121,
-   "Text Quality Evaluation": 204,
-   "Writing Agent": 175
+   "Synthetic Preference Data": 123,
+   "Text Quality Evaluation": 207,
+   "Writing Agent": 176
   },
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "venue_tiers": {
    "demo": 2,
-   "findings": 34,
-   "none": 856,
+   "findings": 35,
+   "none": 866,
    "other": 15,
    "strong": 9,
    "top": 117,
-   "workshop": 34
+   "workshop": 33
   }
  },
  "topics": {
@@ -1932,18 +1932,17 @@
      "Xiang Liu",
      "Yuyu Luo",
      "Jing Tang",
-     "Xiaowen Chu",
-     "Nan Tang"
+     "Xiaowen Chu"
     ],
     "code_url": "",
-    "comment": "13 pages, 6 figures, 3 tables. Accepted at the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), co-located with EMNLP 2026",
+    "comment": "13 pages, 6 figures, 3 tables",
     "first_seen": "2026-08-19",
     "id": "2607.12455",
     "journal_ref": "",
     "matched": [
      "iterative revision"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2607.12455v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.12455v3",
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
@@ -1952,17 +1951,17 @@
      "venue": "",
      "year": 2026
     },
-    "status": "accepted",
+    "status": "unknown",
     "summary": "Quantitative strategy optimization remains largely manual, requiring domain experts to identify weak signals, tune risk-control rules, and repeatedly validate iterative revisions. Large language models can accelerate this process, but directly relying on them to rewrite trading strategies often introduces hallucinated edits, strategy drift, and backtest overfitting. We propose EVOQUANT, a self-Evolving Verifier-guided framework for strategy Optimization in Quantitative trading. Our method utilizes LLMs to deeply diagnose performance bottlenecks, generates semantically controlled candidate edits, selects the best strategy through a multi-stage verification pipeline, and distills optimization experience into reusable knowledge for continual self-improvement. We evaluate our method using seven representative strategies: four from the A-share market and three from the Crypto market. Experimental results show that our method significantly improves the Sharpe ratio across all tested strategies: the average test Sharpe increases from -0.298 to 0.538, and the best-performing strategy achieves a 199% relative improvement. Ablation studies and stress tests under stricter conditions further validate the effectiveness and robustness of the framework. Overall, this work transforms quantitative strategy optimization from costly manual trial and error into an automated and verifiable iterative paradigm, offering a new path for applying large language models to financial strategy research.",
-    "tier": "workshop",
+    "tier": "none",
     "title": "EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading",
-    "track": "workshop",
-    "updated": "2026-09-09",
-    "venue": "EMNLP",
-    "venue_evidence": "13 pages, 6 figures, 3 tables. Accepted at the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), co-located with EMNLP 2026",
-    "venue_source": "comment",
-    "venue_year": "2026",
-    "version": "2607.12455v2"
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2607.12455v3"
    },
    "2607.13347": {
     "abs_url": "https://arxiv.org/abs/2607.13347",
@@ -3119,6 +3118,43 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.04959v1"
+   },
+   "2609.11315": {
+    "abs_url": "https://arxiv.org/abs/2609.11315",
+    "authors": [
+     "Yixiang Liu",
+     "Zhongxing Xu",
+     "Zhonghua Wang",
+     "Xiaoying Tang"
+    ],
+    "code_url": "",
+    "comment": "17 pages, 9 figures. Accepted to Findings of EMNLP 2026",
+    "first_seen": "2026-09-11",
+    "id": "2609.11315",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.11315v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Diffusion vision-language models generate answers through iterative refinement, exposing intermediate answer trajectories that can be inspected and controlled at inference time. However, this controllability creates a reasoning-need mismatch, where a universal generation length is applied to questions with different reasoning demands. Visually closed questions may be harmed by continued refinement after a stable answer has formed, whereas reasoning-sensitive questions may be harmed by premature commitment. We formulate this problem as reasoning-budget mismatch and study it in LLaDA-V. Rather than choosing a universal generation length, our training-free controller routes each example to early commitment, baseline preservation, or reasoning-supportive decoding using trajectory signals from answer closure, commitment evidence, and representation revision pressure, without using ground-truth answers. Across answer-focused, mixed-reasoning, and CoT-sensitive benchmarks, routed control improves robustness over fixed long decoding, pure short decoding, and single-rule interventions. The gains are not explained by shorter outputs alone. Answer-closed examples often benefit from commitment, whereas CoT-sensitive examples require preserving or supporting intermediate reasoning. Taken together, these results suggest diffusion VLM decoding should route inference-time control by the state suggested by the observed trajectory instead of relying on a universal decoding length.",
+    "tier": "findings",
+    "title": "Routing by Reasoning Need: Trajectory-Aware Decoding Control for Diffusion Vision-Language Models",
+    "track": "findings",
+    "updated": "2026-09-10",
+    "venue": "EMNLP",
+    "venue_evidence": "17 pages, 9 figures. Accepted to Findings of EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.11315v1"
    }
   },
   "Korean Writing & NLP": {
@@ -12501,7 +12537,7 @@
     "matched": [
      "value model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.30237v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.30237v2",
     "primary_category": "cs.RO",
     "published": "2026-08-31",
     "s2": {
@@ -12515,12 +12551,12 @@
     "tier": "none",
     "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
     "track": "",
-    "updated": "2026-08-31",
+    "updated": "2026-09-10",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.30237v1"
+    "version": "2608.30237v2"
    },
    "2608.30252": {
     "abs_url": "https://arxiv.org/abs/2608.30252",
@@ -14168,7 +14204,7 @@
      "preference optimization",
      "bradley-terry"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.07379v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.07379v2",
     "primary_category": "cs.CL",
     "published": "2026-09-07",
     "s2": {
@@ -14182,12 +14218,12 @@
     "tier": "none",
     "title": "Beyond Single-Negative Preference: Multi-Negative DPO for LLM-Centric Historical Entity Linking",
     "track": "",
-    "updated": "2026-09-07",
+    "updated": "2026-09-10",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.07379v1"
+    "version": "2609.07379v2"
    },
    "2609.07808": {
     "abs_url": "https://arxiv.org/abs/2609.07808",
@@ -14788,6 +14824,178 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.10293v1"
+   },
+   "2609.11028": {
+    "abs_url": "https://arxiv.org/abs/2609.11028",
+    "authors": [
+     "Shenghan Zheng",
+     "Zonglin Di",
+     "Yimin Liu",
+     "Kyoung Whan Choe",
+     "Jiankai Sun",
+     "Heguang Lin",
+     "Penghao Jiang",
+     "Yifeng He",
+     "Xiao Cheng",
+     "Jicheng Wang",
+     "Wenbo Chen",
+     "Alex Yates",
+     "Yinzhe Zhao",
+     "Bingran You",
+     "Yuan Gao",
+     "Ayush Munot",
+     "Shubham Gaur",
+     "Zhe Ye",
+     "Hao Wang",
+     "Xiangyi Li",
+     "Dawn Song",
+     "Christophe Hauser"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-11",
+    "id": "2609.11028",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.11028v1",
+    "primary_category": "cs.CR",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LM-agent benchmarks increasingly function as interactive evaluation infrastructure. Agents observe state, call tools, modify workspaces, submit artifacts, and receive rewards from outcome procedures. This interactivity makes evaluations vulnerable to reward hacking: an agent improves its measured score by exploiting the reward-relevant trajectory instead of solving the intended task. Existing defenses rely largely on task-specific patches, prompt instructions, or post-hoc detectors. They do not provide reusable evidence that a concrete run remained within its intended evaluation boundary. This paper presents BenchShield, a model-backed instrumentation layer for reward integrity in LLM-agent evaluation. BenchShield grounds detection in a finite lifecycle model of an evaluation's reward-relevant events. Within the benchmark infrastructure, two complementary analyses operate over this model. A static, phase-aware taint analysis exposes reward-hacking paths before a run. Its runtime counterpart uses infrastructure-side evidence to attribute concrete agent use and emit evidence-backed claims. We construct BenchShield Trajectories, a human-labeled corpus of 456 adjudicated trajectories from more than 31,000 public agent runs across three benchmarks. Compared with an agentic hackability scanner baseline on the same tasks and model, BenchShield improves full-chain recall from 23-94% to 77-100%, same-vector coverage from 16-56% to 43-78%, and reduces per-task cost by up to 65%. Its runtime analysis achieves 96% accuracy in detecting reward hacking from infrastructure-side evidence.",
+    "tier": "none",
+    "title": "BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.11028v1"
+   },
+   "2609.11085": {
+    "abs_url": "https://arxiv.org/abs/2609.11085",
+    "authors": [
+     "Vikash Singh",
+     "Debargha Ganguly",
+     "Aman Goel",
+     "Ali Torkamani",
+     "Xiaoxue Han",
+     "Joseph Lilien",
+     "Ferhat Erata",
+     "Vipin Chaudhary"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-11",
+    "id": "2609.11085",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.11085v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization. We formalize this vulnerability as Verdict-Preserving-Unfaithfulness (VPU): a failure mode where an incorrect encoding executes successfully and matches the expected verdict. We theoretically prove that structural, verdict-only verification heuristics are mathematically bounded to chance-level detection on these deceptively valid traces. To resolve this, we introduce Generative Verification (GenV), which distills an offline Z3-equivalence oracle into a reference-free, continuous reference-equivalence score by repurposing the language model's native vocabulary space. Mechanistic analysis via decision-projected logit lenses and sparse autoencoders shows this generative readout natively extracts precise spatial error coordinates without explicit localization training. Empirically, our oracle-mined verifier (GenV+HN) achieves 0.961 AUROC in reference-equivalence verification, generalizes zero-shot across unseen translators and divergent formal styles, and yields an 11.3-point downstream accuracy gain in agentic test-time compute allocation.",
+    "tier": "none",
+    "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.11085v1"
+   },
+   "2609.11393": {
+    "abs_url": "https://arxiv.org/abs/2609.11393",
+    "authors": [
+     "Bincheng Gu",
+     "Min Gao",
+     "Zongwei Wang",
+     "Yibing Bai",
+     "Yulan He",
+     "Junliang Yu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-11",
+    "id": "2609.11393",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.11393v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Test-time adaptation has emerged as a lightweight alternative to costly post-training for improving the reasoning capabilities of Large Language Models (LLMs) on downstream tasks. Predictive entropy provides a model-derived signal for such adaptation, guiding models toward higher-confidence reasoning states without external verifiers or reward models. However, higher confidence does not necessarily imply correctness, as LLMs may remain highly confident along incorrect reasoning trajectories. We observe that high-confidence reasoning is more likely to be correct when confidence remains stable under local perturbations. Based on this observation, we propose Test-Time Adaptation via Stability-Aware Confidence Optimization (TASCO), a framework that incorporates local stability into confidence-based test-time adaptation while keeping the LLM frozen. TASCO operationalizes local stability by optimizing a lightweight task-level prefix under two alternative perturbation strategies: Random Perturbation promotes distributional stability across trajectories induced by nearby perturbed prefixes, whereas Sharpness-Aware Perturbation targets worst-case local sensitivity. Experiments demonstrate that TASCO improves reasoning accuracy and token efficiency across diverse LLMs and reasoning benchmarks, while behavioral analyses show that it maintains stable confidence under local perturbations without prematurely concentrating the model's predictive distribution.",
+    "tier": "none",
+    "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.11393v1"
+   },
+   "2609.11878": {
+    "abs_url": "https://arxiv.org/abs/2609.11878",
+    "authors": [
+     "Varun Teja Chundru",
+     "Debasmita Biswas"
+    ],
+    "code_url": "https://github.com/varunteja99/hallucination-detection-nlp",
+    "comment": "6 pages, 3 figures, 5 tables",
+    "first_seen": "2026-09-11",
+    "id": "2609.11878",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.11878v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tuned DeBERTa-v3 classification, Monte Carlo (MC) Dropout uncertainty quantification, and temperature-scaled calibration for response-level hallucination detection. Evaluated on the HaluEval benchmark, our pipeline achieves F1=0.915 and AUROC=0.977 on general-domain tasks, with per-task F1 scores of 0.97 (QA), 0.96 (Summarization), and 0.82 (Dialogue). MC Dropout inference further improves accuracy to 93.2%. A context ablation study confirms the model performs genuine entailment reasoning rather than exploiting surface patterns, with summarization F1 dropping 24% when knowledge context is removed. Learning curve analysis reveals that 25% of training data captures 77% of full-data performance. Beyond detection, we apply Direct Preference Optimization (DPO) to a Qwen2.5-0.5B generator, reducing its hallucination rate from 85.5% to 37.7% (55.9% relative reduction) as measured by our detector. Cross-domain evaluation on the SciFact biomedical benchmark shows that general-domain training transfers poorly (F1=0.52), motivating domain-specific fine-tuning. PubMedBERT fine-tuned on SciFact achieves F1=0.63 and AUROC=0.81, demonstrating that domain-matched pre-training is the strongest adaptation strategy. Code and models are available at https://github.com/varunteja99/hallucination-detection-nlp",
+    "tier": "none",
+    "title": "Domain-Specific Hallucination Detection in Large Language Models",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.11878v1"
    }
   },
   "Search & Control for Generation": {
@@ -16339,18 +16547,17 @@
      "Xiang Liu",
      "Yuyu Luo",
      "Jing Tang",
-     "Xiaowen Chu",
-     "Nan Tang"
+     "Xiaowen Chu"
     ],
     "code_url": "",
-    "comment": "13 pages, 6 figures, 3 tables. Accepted at the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), co-located with EMNLP 2026",
+    "comment": "13 pages, 6 figures, 3 tables",
     "first_seen": "2026-08-19",
     "id": "2607.12455",
     "journal_ref": "",
     "matched": [
      "verifier-guided"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2607.12455v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.12455v3",
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
@@ -16359,17 +16566,17 @@
      "venue": "",
      "year": 2026
     },
-    "status": "accepted",
+    "status": "unknown",
     "summary": "Quantitative strategy optimization remains largely manual, requiring domain experts to identify weak signals, tune risk-control rules, and repeatedly validate iterative revisions. Large language models can accelerate this process, but directly relying on them to rewrite trading strategies often introduces hallucinated edits, strategy drift, and backtest overfitting. We propose EVOQUANT, a self-Evolving Verifier-guided framework for strategy Optimization in Quantitative trading. Our method utilizes LLMs to deeply diagnose performance bottlenecks, generates semantically controlled candidate edits, selects the best strategy through a multi-stage verification pipeline, and distills optimization experience into reusable knowledge for continual self-improvement. We evaluate our method using seven representative strategies: four from the A-share market and three from the Crypto market. Experimental results show that our method significantly improves the Sharpe ratio across all tested strategies: the average test Sharpe increases from -0.298 to 0.538, and the best-performing strategy achieves a 199% relative improvement. Ablation studies and stress tests under stricter conditions further validate the effectiveness and robustness of the framework. Overall, this work transforms quantitative strategy optimization from costly manual trial and error into an automated and verifiable iterative paradigm, offering a new path for applying large language models to financial strategy research.",
-    "tier": "workshop",
+    "tier": "none",
     "title": "EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading",
-    "track": "workshop",
-    "updated": "2026-09-09",
-    "venue": "EMNLP",
-    "venue_evidence": "13 pages, 6 figures, 3 tables. Accepted at the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), co-located with EMNLP 2026",
-    "venue_source": "comment",
-    "venue_year": "2026",
-    "version": "2607.12455v2"
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2607.12455v3"
    },
    "2607.12829": {
     "abs_url": "https://arxiv.org/abs/2607.12829",
@@ -30146,6 +30353,80 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.07148v1"
+   },
+   "2609.10892": {
+    "abs_url": "https://arxiv.org/abs/2609.10892",
+    "authors": [
+     "Asif Pinjari",
+     "Mithun Paul Saint-Germain"
+    ],
+    "code_url": "https://github.com/Asif-0209/AgentDrift",
+    "comment": "15 pages, 8 figures, 11 tables. Companion detector paper to the AgentDrift benchmark (arXiv:2609.06972); dataset at https://github.com/Asif-0209/AgentDrift",
+    "first_seen": "2026-09-11",
+    "id": "2609.10892",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.10892v1",
+    "primary_category": "cs.CR",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "When an indirect prompt injection succeeds against an LLM agent, the compromise is visible in the agent's own behavior: a benign prefix of tool calls, a poisoned observation, and a suffix of actions that serve the attacker. An operator needs three facts: where the attack entered, which steps it corrupted, and whether apparent poison was resisted. Existing systems return either a whole-trace verdict or a single unsafe index. We present DriftNet, a dual-head trajectory Transformer that reads a logged tool-call trajectory and answers all three questions in one forward pass: one head classifies the trajectory as compromised or not, and a second assigns every step one of four labels (benign, injection point, hijacked, failed injection). To our knowledge it is the first supervised detector to produce this joint output. A frozen sentence encoder and four identity-free world features embed each step; the trained trunk, under two million parameters and optimized with a class-weighted joint objective over both heads, needs no access to the agent's model. On the task-disjoint split of the AgentDrift benchmark (12,536 trajectories, 71,024 labeled steps), with a 20-configuration sweep bounding hyperparameter sensitivity to 0.011 F1 and the test part evaluated exactly once, DriftNet reaches trajectory-level F1 of 0.983, exact injection-point recovery on 98.7% of attacked trajectories, hijacked-span IoU of 0.979, zero flags on 218 resisted attacks, and 2.9% flags on hard negatives. A surface baseline retrained on the identical split recovers 11.1% of partial hijacks and 17.1% of delayed executions; DriftNet reaches 98.6% and 93.2% while lowering every false-alarm rate. Reading all 26 residual errors shows that most misses trace to trajectories whose labeled injection observation carries no legible instruction, and we report the benchmark's measured world-identity regularity alongside the results.",
+    "tier": "none",
+    "title": "DriftNet: A Dual-Head Trajectory Transformer for Detecting and Localizing Prompt Injection in LLM Agents",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.10892v1"
+   },
+   "2609.11393": {
+    "abs_url": "https://arxiv.org/abs/2609.11393",
+    "authors": [
+     "Bincheng Gu",
+     "Min Gao",
+     "Zongwei Wang",
+     "Yibing Bai",
+     "Yulan He",
+     "Junliang Yu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-11",
+    "id": "2609.11393",
+    "journal_ref": "",
+    "matched": [
+     "perturbation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.11393v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Test-time adaptation has emerged as a lightweight alternative to costly post-training for improving the reasoning capabilities of Large Language Models (LLMs) on downstream tasks. Predictive entropy provides a model-derived signal for such adaptation, guiding models toward higher-confidence reasoning states without external verifiers or reward models. However, higher confidence does not necessarily imply correctness, as LLMs may remain highly confident along incorrect reasoning trajectories. We observe that high-confidence reasoning is more likely to be correct when confidence remains stable under local perturbations. Based on this observation, we propose Test-Time Adaptation via Stability-Aware Confidence Optimization (TASCO), a framework that incorporates local stability into confidence-based test-time adaptation while keeping the LLM frozen. TASCO operationalizes local stability by optimizing a lightweight task-level prefix under two alternative perturbation strategies: Random Perturbation promotes distributional stability across trajectories induced by nearby perturbed prefixes, whereas Sharpness-Aware Perturbation targets worst-case local sensitivity. Experiments demonstrate that TASCO improves reasoning accuracy and token efficiency across diverse LLMs and reasoning benchmarks, while behavioral analyses show that it maintains stable confidence under local perturbations without prematurely concentrating the model's predictive distribution.",
+    "tier": "none",
+    "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.11393v1"
    }
   },
   "Text Quality Evaluation": {
@@ -34865,7 +35146,7 @@
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.21057v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.21057v2",
     "primary_category": "cs.LG",
     "published": "2026-08-21",
     "s2": {
@@ -34875,16 +35156,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Agentic large language model (LLM) systems are reshaping scientific workflows in chemistry and drug discovery, but evaluating their open-ended, tool-augmented outputs remains a fundamental bottleneck. Reference-based metrics such as BLEU and ROUGE fail to capture semantic correctness, while expert human evaluation does not scale to the iteration speed these systems demand. The LLM-as-a-Judge paradigm has emerged as a scalable alternative, but existing drug discovery benchmarks deploy LLM judges without validating their alignment with human experts. In this work, we present an LLM-as-a-Judge evaluation framework for ChatInvent, an agentic drug discovery assistant deployed at AstraZeneca, with four contributions. First, we define four output-quality evaluation dimensions---Completeness, Relevancy, Structural Clarity, and Scope Adherence---alongside deterministic Tool Call Correctness checks. Second, we validate the judge through a human alignment study with five expert annotators, comparing Gemini 3.1 Pro, Claude Opus 4.7, GPT-5, and Llama 3.1 70B as candidate judges. Third, we optimize the best-performing judge using few-shot demonstrations of human-annotated examples, improving alignment with the human majority vote from 0.80 to 0.86. Fourth, applying the optimized judge to 70 held-out questions, we surface concrete limitations and find that informal phrasings do not systematically degrade output quality; if anything, it is helpful to have the LLM rewrite the original question before querying the agent. Our framework provides a reusable template for human-aligned evaluation of agentic systems in scientific domains.",
+    "summary": "Agentic large language model (LLM) systems are reshaping scientific workflows in chemistry and drug discovery, but evaluating their open-ended, tool-augmented outputs remains a fundamental bottleneck. The LLM-as-a-Judge paradigm has emerged as a scalable alternative, but existing drug discovery benchmarks deploy LLM judges without validating their alignment with human experts. In this work, we present an LLM-as-a-Judge evaluation framework for ChatInvent, an agentic drug discovery assistant deployed at AstraZeneca, with five contributions. First, we define four output-quality evaluation dimensions---Completeness, Relevancy, Structural Clarity, and Scope Adherence---alongside deterministic Tool Call Correctness checks. Second, we validate the judge through a human alignment study with five expert annotators, comparing Gemini 3.1 Pro, Claude Opus 4.7, GPT-5, and Llama 3.1 70B as candidate judges. Third, we optimize the best-performing judge using few-shot demonstrations of human-annotated examples, improving alignment with the human majority vote from 0.80 to 0.86. Fourth, applying the optimized judge to 70 held-out questions, we surface concrete limitations and find no strong evidence that informal phrasing degrades output quality; it may, however, still be helpful to have the LLM rewrite the original question before querying the agent. Finally, we extend the framework to 38 adversarial questions that are ambiguous, invalid, out-of-scope or ethically sensitive, and show that the agent's refusal behavior is guided by the stated intent of a request. Our framework provides a reusable template for human-aligned evaluation of agentic systems in scientific domains.",
     "tier": "none",
     "title": "Designing a Robust LLM-Based Evaluation System for Agentic AI in Drug Discovery Through Human Alignment",
     "track": "",
-    "updated": "2026-08-21",
+    "updated": "2026-09-09",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.21057v1"
+    "version": "2608.21057v2"
    },
    "2608.21374": {
     "abs_url": "https://arxiv.org/abs/2608.21374",
@@ -38177,6 +38458,117 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.09428v1"
+   },
+   "2609.10939": {
+    "abs_url": "https://arxiv.org/abs/2609.10939",
+    "authors": [
+     "Luming Yang",
+     "Haoxian Liu",
+     "Siqing Li",
+     "Rong Jia",
+     "Yue Xiao",
+     "Guanhua Chen",
+     "Li Lu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-11",
+    "id": "2609.10939",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.10939v1",
+    "primary_category": "cs.MA",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Clinical education must prepare medical students to conduct safe and coherent patient interviews under conditions of uncertainty. Traditional standardized patient (SP) training is resource-intensive and difficult to scale. We developed a scaffolding-oriented multi-agent Large Language Model (LLM) AI Standardized Patient (AI-SP) training platform1. The system includes a patient agent for simulated dialog, a tutor agent providing Socratic prompts without disclosing diagnostic information, and a turn-level evaluator agent that monitors clinical progress without revealing summative scores. In a randomized controlled study (N = 100 medical students), participants were assigned to either a multi-agent (MA) scaffolding condition or a control condition. All students completed two learning sessions under their assigned condition followed by an examination conducted in a patient only environment. Performance was assessed using a standardized Objective Structured Clinical Examination (OSCE) based rubric. While no significant difference was observed in final diagnostic accuracy between groups, the multi-agent AI standardized patient system improved final examination scores compared to the control group utilizing structured progressive information disclosure; the most substantial and consistent improvements were observed in communication, the expression of empathy, and specific history-taking behaviors. These findings suggest that specialized LLM agents enhance the process quality of simulated clinical interviews without artificially inflating examination outcomes. To support future research, we release a multi-expert annotated dataset comprising transcripts, checklist annotations, turn-level evaluations, and OSCE-aligned scoring outcomes. This resource aims to facilitate the development of pedagogically grounded AI-SP systems and advance research on AI-supported clinical reasoning training.",
+    "tier": "none",
+    "title": "Evaluating Scaffolding-Oriented Multi-Agent Large Language Model System for Clinical Interview Training",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.10939v1"
+   },
+   "2609.10996": {
+    "abs_url": "https://arxiv.org/abs/2609.10996",
+    "authors": [
+     "Yu-Chung Hsiao"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-11",
+    "id": "2609.10996",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.10996v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Verbalized confidence, long dismissed as overconfident, coarse, and prone to round-number clustering, is now the more robust soft-scoring mechanism for LLM-as-a-Judge on top-tier proprietary models. Across SummEval, AggreFact, and HelpSteer2, spanning up to 18 LLMs, we show that the standard advice to prefer log-probabilities no longer holds on post-2025 models, where verbalized confidence is the better signal. We call this a compatibility shift. On top of a standard verbalized-confidence baseline, we introduce two new ingredients: an overconfidence advisory and self-debate. Together they improve calibration, score-distribution spread, and robustness to task subjectivity. We further observe a generation effect: post-2025 models accommodate these two additions with little balanced-accuracy cost, whereas pre-2025 models pay a measurable penalty. Compared with logprob-based G-Eval, verbalized confidence is the more subjectivity-robust soft signal on GPT-family top-tier releases. The shift is invisible under accuracy-only reporting. Rather than defaulting to hard predictions, we recommend broader use of soft scoring in LLM-as-a-Judge. More broadly, verbalized confidence has moved from a weaker substitute for logprobs to a practical soft-scoring mechanism for contemporary LLM judges.",
+    "tier": "none",
+    "title": "Rethinking Verbalized Confidence for LLM-as-a-Judge: A Compatibility Shift on Post-2025 Proprietary Models",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.10996v1"
+   },
+   "2609.11067": {
+    "abs_url": "https://arxiv.org/abs/2609.11067",
+    "authors": [
+     "DongHyun Ryu",
+     "Jaehyeok Lee",
+     "YeongJun Hwang",
+     "JinYeong Bak"
+    ],
+    "code_url": "https://github.com/dong4918-skku/Fable",
+    "comment": "15 pages, 4 figures. Accepted at W-NUT 2026. Code: https://github.com/dong4918-skku/Fable",
+    "first_seen": "2026-09-11",
+    "id": "2609.11067",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.11067v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models are increasingly used as judges to measure social bias in text, yet the passages they judge are often noisy, containing typos, informal spelling, and broken punctuation. The consequences of such surface noise for social bias measurement remain unclear. To investigate this question, we apply five realistic noise conditions at multiple intensity levels to 3,822 stereotype-related responses and compare the resulting bias judgments with those on the original text. We find that such surface noise does not degrade bias measurement symmetrically: it is far more likely to turn neutral judgments into biased ones than biased judgments into neutral ones, by up to a 120x margin. We further observe two non-obvious effects across four LLM judges: in the most fragile judge the distortion is at its purest at mild, realistic noise levels, where erasure is scarcest, and as judges grow robust it attenuates toward parity rather than reversing. Bias measured on noisy text is therefore systematically overestimated, most in the categories that matter most for fairness.",
+    "tier": "none",
+    "title": "When Noise Fabricates Bias: The Fragility of LLM-as-a-Judge Bias Measurement under Noisy Text",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.11067v1"
    }
   },
   "Writing Agent": {
@@ -40844,7 +41236,7 @@
     "matched": [
      "long-form generation"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2605.12227v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.12227v3",
     "primary_category": "cs.CL",
     "published": "2026-05-12",
     "s2": {
@@ -40858,12 +41250,12 @@
     "tier": "none",
     "title": "A Recipe for Long-Context Reasoning in Large Language Models via On-Policy Optimization and Distillation",
     "track": "",
-    "updated": "2026-06-16",
+    "updated": "2026-09-10",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2605.12227v2"
+    "version": "2605.12227v3"
    },
    "2605.12888": {
     "abs_url": "https://arxiv.org/abs/2605.12888",
@@ -42498,7 +42890,7 @@
     "matched": [
      "report generation"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2606.20041v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.20041v2",
     "primary_category": "econ.GN",
     "published": "2026-06-18",
     "s2": {
@@ -42510,16 +42902,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "We propose a model-grounded RAG-based AI economist with an agentic framework for economic scenario analysis using large language models (LLMs) and knowledge graphs. While LLMs can generate fluent economic narratives, economists are often required to make economic claims grounded by economic theory and real-world data. Based on this motivation, this study proposes an RAG-based AI economist, which utilizes knowledge graphs including economic data and theory and LLM-based agents to plan the analysis, retrieve relevant evidence, select appropriate models, and generate reports. In our framework, we do not produce quantitative claims directly with the language model alone; instead, we generate narratives grounded in explicit model-based computations and linked to the retrieved evidence via AI agents. We refer to our framework as an AI economist agent. We evaluate the AI economist agent in two applications: economist report generation for U.S. inflation persistence and Federal Reserve policy, and bank stress-test narrative generation for U.S. commercial real estate refinancing stress. The results illustrate how grounding the generated reports improves their economic coherence and traceability.",
+    "summary": "We propose an AI economist agent for economic and financial scenario analysis. Scenario design often requires analysts to assess emerging risks with limited historical precedent, combine information from many sources, and translate qualitative mechanisms into internally consistent quantitative paths. Large language models (LLMs) can search and synthesize this information, but fluent narratives alone do not establish the model-based calculations needed for economic conclusions. Our framework uses LLM agents to plan the analysis, retrieve relevant evidence, and organize economic mechanisms, while registered quantitative models generate numerical outcomes and predefined tests determine whether intermediate results can be used in the final report. We apply the framework to European macro-financial stress scenarios and bank capital analysis. The empirical analysis evaluates retrieval of economic mechanisms, scenario construction, model execution, and report generation under a historical information cutoff. The results show how the AI economist agent can combine flexible evidence retrieval and scenario construction while keeping the resulting analysis linked to identifiable sources and explicit model calculations.",
     "tier": "none",
-    "title": "AI Economist Agent: An Agentic Framework for Model-Grounded Economic Analysis with RAG, Knowledge Graphs, and Large Language Models",
+    "title": "AI Economist Agent: An Agentic Framework for Evidence-Based Economic and Financial Analysis with RAG, Knowledge Graphs, and Large Language Models",
     "track": "",
-    "updated": "2026-06-18",
+    "updated": "2026-09-10",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2606.20041v1"
+    "version": "2606.20041v2"
    },
    "2606.20122": {
     "abs_url": "https://arxiv.org/abs/2606.20122",
@@ -45202,6 +45594,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.09332v1"
+   },
+   "2609.10758": {
+    "abs_url": "https://arxiv.org/abs/2609.10758",
+    "authors": [
+     "Farah Adeeba",
+     "Abdul Rafae Khan",
+     "Rajesh Bhatt",
+     "Hassan Sajjad"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-11",
+    "id": "2609.10758",
+    "journal_ref": "",
+    "matched": [
+     "story generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.10758v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-11",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multilingual large language models (LLMs) are increasingly used for open-ended text generation, yet their behaviour in low-resource languages remains poorly understood. In this work, we question how correct and reliable is the generation of multilingual LLMs when used for the task of story generation. We consider Urdu language as a representative low-resource language. We generate Urdu-Stories, a corpus of 93 stories generated using three contemporary LLMs (GPT-5.1, Qwen-3-Max, DeepSeek-3.1). We manually annotate the errors present in them under a nine-label linguistic, semantic, and cultural taxonomy. Our notable findings suggest that LLMs often make basic errors of grammar and semantics. The stories lack coherence, have unnatural repetition and show pervasive cultural shallowness. We further show using few-shot prompting that the cultural and context errors largely remain unresolved. Our findings highlight the limitations of current LLMs as a reliable source of content generation and information retrieval for low-resource languages.",
+    "tier": "none",
+    "title": "Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu",
+    "track": "",
+    "updated": "2026-09-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.10758v1"
    }
   }
  }
