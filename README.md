@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-09-11** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-09-12** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -18,20 +18,6 @@ Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (89)
 - [Search & Control for Generation](#search--control-for-generation) (83)
 - [Korean Writing & NLP](#korean-writing--nlp) (68)
-
-## New in this update (11)
-
-- `Writing Agent` [Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu](https://arxiv.org/abs/2609.10758)
-- `Iterative Revision & Text Editing` [Routing by Reasoning Need: Trajectory-Aware Decoding Control for Diffusion Vision-Language Models](https://arxiv.org/abs/2609.11315)
-- `Reward & Value Models` [Domain-Specific Hallucination Detection in Large Language Models](https://arxiv.org/abs/2609.11878)
-- `Reward & Value Models` [Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning](https://arxiv.org/abs/2609.11393)
-- `Reward & Value Models` [Beyond Solver Verdicts: Generative Reward Models for Autoformalization](https://arxiv.org/abs/2609.11085)
-- `Reward & Value Models` [BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure](https://arxiv.org/abs/2609.11028)
-- `Synthetic Preference Data` [DriftNet: A Dual-Head Trajectory Transformer for Detecting and Localizing Prompt Injection in LLM Agents](https://arxiv.org/abs/2609.10892)
-- `Synthetic Preference Data` [Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning](https://arxiv.org/abs/2609.11393)
-- `Text Quality Evaluation` [When Noise Fabricates Bias: The Fragility of LLM-as-a-Judge Bias Measurement under Noisy Text](https://arxiv.org/abs/2609.11067)
-- `Text Quality Evaluation` [Rethinking Verbalized Confidence for LLM-as-a-Judge: A Compatibility Shift on Post-2025 Proprietary Models](https://arxiv.org/abs/2609.10996)
-- `Text Quality Evaluation` [Evaluating Scaffolding-Oriented Multi-Agent Large Language Model System for Clinical Interview Training](https://arxiv.org/abs/2609.10939)
 
 ## Writing Agent
 
