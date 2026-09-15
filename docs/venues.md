@@ -9,17 +9,19 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-12** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-15** (UTC).
 Back to the [main page](../README.md).
 
-211 of 1077 papers carry venue evidence.
+220 of 1130 papers carry venue evidence.
 
-## Top-tier venues (117)
+## Top-tier venues (120)
 
-### EMNLP (57)
+### EMNLP (59)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-11**|Debiasing as a Measurement Intervention: Calibrated Ties and Resolution Loss in LLM-as-a-Judge Evaluation|EMNLP 2026|Text Quality Evaluation|[2609.12439](https://arxiv.org/abs/2609.12439)|
+|**2026-09-10**|GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents|EMNLP 2026|Text Quality Evaluation|[2609.12191](https://arxiv.org/abs/2609.12191)|
 |**2026-09-08**|A Better Spur Should Start From Each Objective|EMNLP 2026|Reward & Value Models|[2609.08211](https://arxiv.org/abs/2609.08211)|
 |**2026-09-08**|Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation|EMNLP 2026|Reward & Value Models|[2609.09135](https://arxiv.org/abs/2609.09135)|
 |**2026-09-07**|Elastic Horizon: Discovering the Effective Interaction Frontier in Agentic Reinforcement Learning|EMNLP 2026|Search & Control for Generation|[2609.07247](https://arxiv.org/abs/2609.07247)|
@@ -108,10 +110,11 @@ Back to the [main page](../README.md).
 |**2025-02-25**|KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis|ACL 2025|Korean Writing & NLP|[2503.00032](https://arxiv.org/abs/2503.00032)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### ICML (11)
+### ICML (12)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-11**|Distortion of AI Alignment Revisited: RLHF is a Decent Utilitarian Aligner|ICML 2026|Reward & Value Models, Synthetic Preference Data|[2609.12651](https://arxiv.org/abs/2609.12651)|
 |**2026-08-08**|Persistent Semantic Entities in Tool-Augmented LLM Systems|ICML 2026|Self-Refine & Self-Correction|[2608.07952](https://arxiv.org/abs/2608.07952)|
 |**2026-07-20**|ST-Veto: Spatio-Temporal Token Veto for Diffusion MLLMs via Taylor Prediction and Visual Grounding|ICML 2026|Self-Refine & Self-Correction|[2607.17884](https://arxiv.org/abs/2607.17884)|
 |**2026-07-04**|Evaluating LLM Uncertainty in Long-Form Generation Using Deterministic Ground Truth|ICML 2026|Writing Agent|[2607.03870](https://arxiv.org/abs/2607.03870)|
@@ -229,12 +232,15 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-04-17**|From Intention to Text: AI-Supported Goal Setting in Academic Writing|AIED 2026|Writing Agent|[2604.15800](https://arxiv.org/abs/2604.15800)|
 
-## Findings tracks (35)
+## Findings tracks (38)
 
-### EMNLP (25)
+### EMNLP (28)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-14**|Don't Count the Edits, Judge by the Outcome Alone: Reward-Based Evaluation for Grammatical Error Correction|EMNLP 2026 (findings)|Semantic Drift & Faithfulness|[2609.15559](https://arxiv.org/abs/2609.15559)|
+|**2026-09-12**|UniCAR-RL: Seeing Better before Thinking Deeper in Visual Mathematics|EMNLP 2026 (findings)|Search & Control for Generation|[2609.13849](https://arxiv.org/abs/2609.13849)|
+|**2026-09-12**|DARE: Dialectical Agentic Reasoning for Structured Knowledge Fact Checking|EMNLP 2026 (findings)|Self-Refine & Self-Correction|[2609.13808](https://arxiv.org/abs/2609.13808)|
 |**2026-09-10**|Routing by Reasoning Need: Trajectory-Aware Decoding Control for Diffusion Vision-Language Models|EMNLP 2026 (findings)|Iterative Revision & Text Editing|[2609.11315](https://arxiv.org/abs/2609.11315)|
 |**2026-09-08**|ReCite: Agentic Reasoning for Faithful Citation|EMNLP 2026 (findings)|Self-Refine & Self-Correction|[2609.09156](https://arxiv.org/abs/2609.09156)|
 |**2026-09-07**|PTCG: Persona-guided Tree-based Counterargument Generation|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.07120](https://arxiv.org/abs/2609.07120)|
@@ -318,12 +324,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-06-06**|Cross Paraphrastic Invariance Learning for Hallucination Detection|ICASSP 2026|Synthetic Preference Data|[2606.08157](https://arxiv.org/abs/2606.08157)|
 
-## Workshops (33)
+## Workshops (36)
 
-### ICML (7)
+### ICML (8)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-13**|Building Legal Reward Models for Grounding and Abstention|ICML 2026 (workshop)|Reward & Value Models, Synthetic Preference Data|[2609.14739](https://arxiv.org/abs/2609.14739)|
 |**2026-08-07**|PAUSE: Editable Strategy Artifacts for Long-Form Cultural Story Adaptation|ICML 2026 (workshop)|Writing Agent|[2608.28633](https://arxiv.org/abs/2608.28633)|
 |**2026-07-21**|PA-CoT: Profile-Adaptive Chain-of-Thought for Personalized Nutritional Consulting|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2608.24907](https://arxiv.org/abs/2608.24907)|
 |**2026-07-18**|Learning from World Feedback: Why Model Uncertainty Fails as a Risk Signal in Model-Based RL|ICML 2026 (workshop)|Reward & Value Models|[2607.16591](https://arxiv.org/abs/2607.16591)|
@@ -341,6 +348,15 @@ Back to the [main page](../README.md).
 |**2026-05-13**|Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety|BEA 2026 (workshop)|Writing Agent|[2605.13709](https://arxiv.org/abs/2605.13709)|
 |**2026-04-03**|Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation|BEA 2026 (workshop)|Writing Agent|[2604.03380](https://arxiv.org/abs/2604.03380)|
 |**2025-06-09**|Multilingual Grammatical Error Annotation: Combining Language-Agnostic Framework with Language-Specific Flexibility|BEA 2025 (workshop)|Korean Writing & NLP|[2506.07719](https://arxiv.org/abs/2506.07719)|
+
+### EMNLP (4)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-09-11**|What Drives Recovery in Agentic Text-to-Cypher? LAST-CQ: An LLM Agent Self-Refinement Framework|EMNLP 2026 (workshop)|Self-Refine & Self-Correction|[2609.12746](https://arxiv.org/abs/2609.12746)|
+|**2026-08-17**|IndicQE-APE: A Consolidated Benchmark for Quality Estimation and Automatic Post-Editing for Indic Languages|EMNLP 2026 (workshop)|Iterative Revision & Text Editing|[2608.16344](https://arxiv.org/abs/2608.16344)|
+|**2025-10-05**|Time Is Effort: Estimating Human Post-Editing Time for Grammar Error Correction Tool Evaluation|EMNLP 2025 (workshop)|Iterative Revision & Text Editing|[2510.04394](https://arxiv.org/abs/2510.04394)|
+|**2025-07-06**|No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem|EMNLP 2025 (workshop)|Korean Writing & NLP|[2507.04329](https://arxiv.org/abs/2507.04329)|
 
 ### ICLR (4)
 
@@ -367,13 +383,6 @@ Back to the [main page](../README.md).
 |**2026-07-14**|RAGthoven at SemEval-2026 Task 1: A Multi-Stage Pipeline Walks Into a Benchmark and Barely Clears the Bar|ACL 2026 (workshop)|Self-Refine & Self-Correction, Text Quality Evaluation|[2607.13189](https://arxiv.org/abs/2607.13189)|
 |**2026-06-16**|Unintended Effects of Geographic Conditioning in Large Language Models|ACL 2026 (workshop)|Writing Agent|[2606.18124](https://arxiv.org/abs/2606.18124)|
 |**2020-05-26**|BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection|ACL 2020 (workshop)|Korean Writing & NLP|[2005.12503](https://arxiv.org/abs/2005.12503)|
-
-### EMNLP (2)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2025-10-05**|Time Is Effort: Estimating Human Post-Editing Time for Grammar Error Correction Tool Evaluation|EMNLP 2025 (workshop)|Iterative Revision & Text Editing|[2510.04394](https://arxiv.org/abs/2510.04394)|
-|**2025-07-06**|No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem|EMNLP 2025 (workshop)|Korean Writing & NLP|[2507.04329](https://arxiv.org/abs/2507.04329)|
 
 ### IJCAI (2)
 
