@@ -1,24 +1,24 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 81,
+   "Iterative Revision & Text Editing": 83,
    "Korean Writing & NLP": 68,
-   "Reward & Value Models": 241,
+   "Reward & Value Models": 249,
    "Search & Control for Generation": 86,
    "Self-Refine & Self-Correction": 104,
    "Semantic Drift & Faithfulness": 94,
-   "Synthetic Preference Data": 127,
-   "Text Quality Evaluation": 223,
+   "Synthetic Preference Data": 130,
+   "Text Quality Evaluation": 229,
    "Writing Agent": 184
   },
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "venue_tiers": {
    "demo": 2,
-   "findings": 38,
-   "none": 910,
+   "findings": 39,
+   "none": 924,
    "other": 15,
    "strong": 9,
-   "top": 120,
+   "top": 122,
    "workshop": 36
   }
  },
@@ -2602,7 +2602,7 @@
     "matched": [
      "post-editing"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.16344v3",
+    "pdf_url": "https://arxiv.org/pdf/2608.16344v4",
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
@@ -2616,12 +2616,12 @@
     "tier": "workshop",
     "title": "IndicQE-APE: A Consolidated Benchmark for Quality Estimation and Automatic Post-Editing for Indic Languages",
     "track": "workshop",
-    "updated": "2026-09-12",
+    "updated": "2026-09-15",
     "venue": "EMNLP",
     "venue_evidence": "Accepted to Eleventh Conference on Machine Translation (WMT) @ EMNLP 2026; 10 pages body and 27 pages including appendix",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2608.16344v3"
+    "version": "2608.16344v4"
    },
    "2608.19727": {
     "abs_url": "https://arxiv.org/abs/2608.19727",
@@ -3054,15 +3054,15 @@
      "Zhixue Zhao",
      "Steffen Eger"
     ],
-    "code_url": "",
-    "comment": "",
+    "code_url": "https://github.com/NL2G/EdiTikZ",
+    "comment": "35 pages, 21 figures, and 19 tables. Models and datasets: https://huggingface.co/collections/nllg/editikz . Code: https://github.com/NL2G/EdiTikZ",
     "first_seen": "2026-09-02",
     "id": "2609.01409",
     "journal_ref": "",
     "matched": [
      "iterative refinement"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.01409v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01409v2",
     "primary_category": "cs.AI",
     "published": "2026-09-01",
     "s2": {
@@ -3072,16 +3072,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Vision-language models (VLMs) have shown strong performance in generating scientific figures from text or images. However, producing publication-ready figures requires iterative refinement, making scientific figure editing an important yet largely unexplored task. Existing approaches rely on costly proprietary agentic systems, focus primarily on evaluation, or construct training supervision from synthetically generated edits. Instead, we leverage naturally occurring scientific revision and development trajectories as a scalable source of supervision. To this end, we introduce DaEdiTikZ, the first large-scale dataset of revision-derived scientific figure edits, constructed by mining 391K plausible TikZ edit pairs from arXiv, GitHub, and TeX SE and inferring 781K directed edit instructions with a VLM conditioned on rendered figures and TikZ code. We further introduce DaEdiTikZ-Bench, a human-refined benchmark with 790 instances, and train two compact Qwen3.5-based EdiTikZ models (4B and 9B) by jointly learning reconstruction and editing, followed by reinforcement learning (RL) with complementary rewards for rendered fidelity and edit application. Automatic evaluation places our 9B model above all tested baselines, while human evaluation with 9 annotators and 4,320 ratings places it above GPT-5.6-Sol and on par with Gemini-3.1-Pro. Under severe out-of-distribution shifts, it remains competitive with GPT-5.6-Sol near its 2K training sequence-length regime. Models and datasets will be released.",
+    "summary": "Vision-language models (VLMs) have shown strong performance in generating scientific figures from text or images. However, publication-ready figures often require iterative refinement, making scientific figure editing an important yet largely unexplored step toward interactive figure creation. Existing approaches rely on costly proprietary agentic systems, focus primarily on evaluation, or construct training supervision from synthetically generated edits. Instead, we leverage naturally occurring scientific revision and development trajectories as a scalable source of supervision. To this end, we introduce DaEdiTikZ, the first large-scale dataset of revision-derived scientific figure edits, constructed by mining 391K plausible TikZ edit pairs from arXiv, GitHub, and TeX SE and inferring 781K directed edit instructions with a VLM conditioned on rendered figures and TikZ code. We further introduce DaEdiTikZ-Bench, a human-refined benchmark with 690 instances, and train two compact Qwen3.5-based EdiTikZ models (4B and 9B) by jointly learning image-to-TikZ reconstruction and instruction-conditioned editing, followed by reinforcement learning (RL) with complementary rewards for rendered fidelity and edit application. Automatic evaluation places our 9B model above all tested baselines, while human evaluation with 9 annotators and 4,320 ratings places it above GPT-5.6-Sol and on par with Gemini-3.1-Pro. Under severe out-of-distribution shifts, it remains competitive with GPT-5.6-Sol near its 2K training sequence-length regime.",
     "tier": "none",
     "title": "EdiTikZ: Scientific Figure Editing from Revision Trajectories",
     "track": "",
-    "updated": "2026-09-01",
+    "updated": "2026-09-14",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.01409v1"
+    "version": "2609.01409v2"
    },
    "2609.04959": {
     "abs_url": "https://arxiv.org/abs/2609.04959",
@@ -3288,6 +3288,81 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.14738v1"
+   },
+   "2609.16233": {
+    "abs_url": "https://arxiv.org/abs/2609.16233",
+    "authors": [
+     "Anubhav Khanal",
+     "Prabigya Acharya",
+     "Roshni Poudel",
+     "Sujan Kapali",
+     "Bigyan Bhatta",
+     "Pramish Paudel",
+     "Francois Rameau",
+     "Danda Pani Paudel"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-16",
+    "id": "2609.16233",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16233v1",
+    "primary_category": "cs.CV",
+    "published": "2026-09-14",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Vision-language models excel at 2D image understanding but remain limited in 3D spatial reasoning. Progress is hindered by limitations in current benchmarks. First, 3D datasets often rely on point clouds that capture geometry but discard rich visual features like texture, text, and materials. Second, annotations treat objects in isolation while ignoring real-world hierarchical organization (scenes, rooms, functional areas, object groups). Third, evaluation tasks focus narrowly on basic recognition rather than multi-step spatial reasoning. In this context, we introduce SceneBench, a benchmark of 966 photorealistic 3D scenes reconstructed with Gaussian Splatting and densely annotated with hierarchical semantics spanning scenes, rooms, functional areas, object groups, and individual objects. These annotations are produced through a human-in-the-loop pipeline combining vision-language models with roughly 1,500 human-hours of iterative refinement and verification, producing over 183K annotated nodes with textual descriptions and 3D bounding boxes. Building on this representation, we define three evaluation tasks: Existence-Based Questions probing object attributes, Spatial Intelligence Questions covering counting, size comparison, distance, and directional relations, and Grounded Question-Reasoning-Answer (QRA) triplets requiring multi-step reasoning across semantic levels. Experiments with state-of-the-art vision-language models show that while models perform well on basic recognition tasks (e.g., up to 85% accuracy for detection), performance drops substantially on hierarchical and compositional reasoning (e.g., down to 60% for counting), revealing limitations not captured by existing benchmarks. SceneBench provides a realistic testbed for developing and evaluating models capable of fine-grained spatial reasoning in photorealistic 3D environments.",
+    "tier": "none",
+    "title": "SceneBench: A Hierarchical Benchmark for Vision-Language Understanding of 3D Scenes",
+    "track": "",
+    "updated": "2026-09-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16233v1"
+   },
+   "2609.16777": {
+    "abs_url": "https://arxiv.org/abs/2609.16777",
+    "authors": [
+     "Zhuoang Cai"
+    ],
+    "code_url": "https://github.com/cza1006/llm-persuasion-defense",
+    "comment": "",
+    "first_seen": "2026-09-16",
+    "id": "2609.16777",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16777v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "As Large Language Models (LLMs) increasingly serve as primary knowledge retrieval interfaces, their robustness against \\textit{persuasion attacks}---attempts to inject misinformation or enforce counterfactuals---has become a critical safety concern. Existing red-teaming frameworks typically evaluate models in multi-turn dialogues where the target model retains full conversation history. We identify a critical flaw in this setting termed \\textbf{``Refusal Inertia''}: a model's initial refusal often propagates through subsequent turns largely to maintain contextual consistency, thereby masking its true vulnerability to sophisticated, isolated persuasion attempts. To rigorously evaluate the ``cold-start'' defense capabilities of SOTA models, we introduce the \\textbf{SAST-IR} (Stateful Attacker, Stateless Target - Iterative Refinement) framework. By enforcing a memory wipe on the target while retaining the attacker's history, we simulate a worst-case adversarial setting using \\textbf{multi-turn} (stateless) iterations. Leveraging \\textbf{CP-Agent} (Cognitive Persuasion Agent), an enhanced diagnosis-guided agent, our experiments on the custom \\textsc{CounterFact-Strict} dataset ($N=50$) yield alarming results: simple, diverse attack strategies achieved a staggering \\textbf{96\\%} success rate, exposing severe brittleness in memory-less defense. Furthermore, we reveal a \\textbf{``Complexity Paradox''}: while complex, iteratively refined attacks are effective, they often trigger defensive compliance, whereas simple strategies achieve a higher rate of genuine persuasion (\\textbf{84.7\\%}). Our code and dataset are available at GitHub, https://github.com/cza1006/llm-persuasion-defense.",
+    "tier": "none",
+    "title": "Benchmarking Factual Robustness of LLMs via Multi-conversation Persuasion",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16777v1"
    }
   },
   "Korean Writing & NLP": {
@@ -11570,10 +11645,12 @@
      "Zhangyue Yin",
      "Yibo Wang",
      "Yuhao Zhou",
+     "Zhihao Zhang",
      "Xinbing Liang",
      "Shizheng Zhu",
      "Yuhui Wang",
      "Jingqi Tong",
+     "Dingwei Zhu",
      "Zhiheng Xi",
      "Jiazheng Zhang",
      "Clive Bai",
@@ -11591,7 +11668,7 @@
     "matched": [
      "preference optimization"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.24794v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.24794v2",
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
@@ -11601,16 +11678,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Outcome-supervised search agents learn when and how to retrieve evidence, but terminal rewards neither localize intermediate errors nor redirect an ongoing trajectory before those errors compound. Treating corrective feedback as a learned in-trajectory intervention couples the two roles: the agent must decide when to request and use feedback, while the critic must infer useful corrections from outcome-confounded rollouts whose failure patterns shift as the agent improves. We introduce CAFE (Coupled Agent--Feedback Evolution), a framework in which a shared-parameter model alternates between search-agent and critic roles. CAFE initializes feedback-conditioned recovery from trajectories built around the base agent's own failures, then couples online and offline optimization. During online RL, a comparative feedback estimate uses a prompt-level call--skip success gap to shape request returns, while feedback-aware advantage shaping reweights token advantages before and after feedback. Offline, rollout-derived preference optimization learns feedback from matched successful and unsuccessful trajectories. On seven agentic search benchmarks, CAFE outperforms the evaluated RL-based search agents on average, retains its gains across all six out-of-domain benchmarks, and reduces answer-level hallucinations. One-sided ablations show that improving only the agent or only the critic eventually plateaus, whereas alternating the two updates continues to improve performance. These findings suggest that a self-improving search agent needs feedback that co-evolves with the policy it guides.",
+    "summary": "Reliable search requires more than acquiring external evidence. An agent must also recognize and recover from errors as its trajectory unfolds. In-trajectory feedback provides a mechanism for such recovery by diagnosing where the search has drifted and redirecting subsequent reasoning steps. This is particularly important in long-horizon search, where an early directional error may receive no immediate corrective signal and can compound across later steps. Making such feedback learnable, however, creates a coupled problem: the agent must learn when to request and use feedback, while the critic must learn corrections from outcome-confounded rollouts as the agent's failure patterns evolve. We introduce CAFE (Coupled Agent--Feedback Evolution), a framework in which a shared-parameter model alternates between search-agent and critic roles. CAFE initializes feedback-conditioned recovery from trajectories built around the base agent's own failures, then couples online and offline optimization. During online RL, a comparative feedback estimate uses a prompt-level call--skip success gap to shape request returns, while feedback-aware advantage shaping reweights token advantages before and after feedback. Offline, rollout-derived preference optimization learns feedback from matched successful and unsuccessful trajectories. On seven agentic search benchmarks, CAFE outperforms the evaluated RL-based search agents on average, retains its gains across all six out-of-domain benchmarks, and reduces answer-level hallucinations. One-sided ablations show that improving only the agent or only the critic eventually plateaus, whereas alternating the two updates continues to improve performance. These findings suggest that a self-improving search agent needs feedback that co-evolves with the policy it guides.",
     "tier": "none",
     "title": "CAFE: Self-Improving Search Agents Need Co-Evolving Feedback",
     "track": "",
-    "updated": "2026-08-25",
+    "updated": "2026-09-15",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.24794v1"
+    "version": "2608.24794v2"
    },
    "2608.24859": {
     "abs_url": "https://arxiv.org/abs/2608.24859",
@@ -14859,7 +14936,7 @@
     "matched": [
      "value model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.09783v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09783v2",
     "primary_category": "cs.LG",
     "published": "2026-09-09",
     "s2": {
@@ -14869,16 +14946,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Asynchronous reinforcement learning has become the standard way to scale training for language models, but the resulting policy lag biases the critic toward the stale behavior policy. Existing work on asynchronous LLM training corrects the actor and leaves this bias unaddressed, while the off-policy value correction of classical RL does not carry over to long-horizon agentic tasks, since a short correction horizon leaves the regression target free of the reward and a long one lets the product of importance ratios drift exponentially with the trajectory length. We propose BRACE, an anchored Bellman-residual correction for stale value models. BRACE bounds the correction horizon to a prefix of policy tokens and anchors a constant-weight Monte-Carlo tail beyond it, which separates policy correction from reward propagation. BRACE improves mean@1 on BrowseComp-Plus by $2.4\\%$ over the strongest baseline, runs $2.46\\times$ faster per step than synchronous training, and remains stable $50$ updates off-policy.",
+    "summary": "Asynchronous reinforcement learning has become the standard way to scale training for large language models (LLM), but the resulting policy lag biases the critic toward the stale behavior policy. Existing work on asynchronous LLM training corrects the actor and leaves this bias unaddressed, while the off-policy value correction of classical RL does not carry over to long-horizon agentic tasks, since a short correction horizon leaves the regression target free of the reward and a long one lets the product of importance ratios drift exponentially with the trajectory length. We propose BRACE, an anchored Bellman-residual correction for stale value models. BRACE bounds the correction horizon to a prefix of policy tokens and anchors a constant-weight Monte-Carlo tail beyond it, which separates policy correction from reward propagation. BRACE delivers a $9.8\\%$ relative improvement in mean@1 on BrowseComp-Plus over the strongest baseline, runs $2.46\\times$ faster per step than synchronous training, and remains stable $50$ updates off-policy.",
     "tier": "none",
     "title": "BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
     "track": "",
-    "updated": "2026-09-09",
+    "updated": "2026-09-15",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.09783v1"
+    "version": "2609.09783v2"
    },
    "2609.09905": {
     "abs_url": "https://arxiv.org/abs/2609.09905",
@@ -15715,6 +15792,339 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.15309v1"
+   },
+   "2609.16076": {
+    "abs_url": "https://arxiv.org/abs/2609.16076",
+    "authors": [
+     "Jinyang Zhang",
+     "Weibin Liao",
+     "Keqin Bao",
+     "Sihang Li",
+     "Shaobo Wang",
+     "Muyang Ye",
+     "Hongxin Ding",
+     "Yue Fang",
+     "Tianyi Tang",
+     "Fei Huang",
+     "Kexin Yang",
+     "Xingzhang Ren",
+     "Dayiheng Liu"
+    ],
+    "code_url": "https://github.com/zjy1298/MIMIC",
+    "comment": "Accepted by EMNLP26 main",
+    "first_seen": "2026-09-16",
+    "id": "2609.16076",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16076v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-13",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Large Language Models (LLMs) excel at programming tasks but frequently fail at deterministic, fine-grained reasoning in natural language, relying heavily on semantic approximations rather than robust symbolic execution. To bridge this gap, we propose MIMIC, a framework that leverages executable code as a rigorous medium for reasoning data synthesis. MIMIC fundamentally transforms algorithms into verifiable reasoning trajectories through narrative fusion, code-guided test synthesis, and dynamic code instrumentation. Crucially, these explicit intermediate execution states naturally form a Code-Instrumented Reward (CIR), providing dense, high-fidelity process supervision for reinforcement learning without external reward models. Extensive evaluations reveal that models trained via SFT and GRPO on our synthesized dataset achieve substantial, consistent gains. Our method significantly elevates accuracy across general reasoning, complex mathematical benchmarks, and fine-grained deterministic tasks, demonstrating that the procedural rigor of executable code can effectively unlock and enhance the generalized reasoning capabilities of LLMs. Our code and data are available at https://github.com/zjy1298/MIMIC.",
+    "tier": "top",
+    "title": "The Imitation Game: When LLMs Learn to Reason Like Programs via Code-Centric Reasoning Data Synthesis",
+    "track": "main",
+    "updated": "2026-09-13",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted by EMNLP26 main",
+    "venue_source": "comment",
+    "venue_year": "",
+    "version": "2609.16076v1"
+   },
+   "2609.16283": {
+    "abs_url": "https://arxiv.org/abs/2609.16283",
+    "authors": [
+     "Behrooz Razeghi"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-16",
+    "id": "2609.16283",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16283v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-14",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "\\texttt{URANIA} provides end-to-end differential privacy (DP) for summaries of data-dependent clusters. However, its cluster--keyword release does not directly provide collection-wide aggregates for semantic concepts defined independently of the protected corpus. Records may express several concepts, records expressing the same concept may be assigned to different clusters, and cluster identities need not correspond across analyses. Consequently, cluster-level statistics do not directly provide comparable measurements of predefined concepts across collections or repeated analyses. We introduce \\texttt{DP-SPIN}, a trusted-curator framework for aggregate measurement and summarization over semantic concepts fixed independently of the protected target records. Each record is mapped to a bounded sparse nonnegative vector over these concepts, whose sum forms a semantic sketch. A differentially private mechanism releases a semantic plan containing admitted concepts and noisy masses; normalized semantic-support values and support bins are obtained by post-processing. For user-level privacy, each user's aggregate contribution is clipped to a fixed bound. The language model receives only the plan and fixed decoding instructions, while a public verifier checks concept mentions, reported values, comparisons, and rank claims against the released plan. The final summary is differentially private by post-processing. We establish record- and user-level DP guarantees under add/drop and replacement adjacency. We evaluate \\texttt{DP-SPIN} under record-level privacy on CFPB complaint narratives, Amazon All Beauty reviews, and Yelp restaurant reviews, and under user-level privacy on Amazon and Yelp. We compare \\texttt{DP-SPIN} with non-private plan and summary references, DP keyword and category histogram baselines, and a \\texttt{URANIA}-style baseline with a fixed public keyword vocabulary.",
+    "tier": "none",
+    "title": "Differentially Private Semantic Plans for Aggregate Insight Generation",
+    "track": "",
+    "updated": "2026-09-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16283v1"
+   },
+   "2609.16340": {
+    "abs_url": "https://arxiv.org/abs/2609.16340",
+    "authors": [
+     "Rohit Dhaipule",
+     "Sukhdeep Singh Kharbanda",
+     "Prasanth Bathala",
+     "Pradyumna Lanka",
+     "Anubhav Shrimal"
+    ],
+    "code_url": "",
+    "comment": "Accepted to the 11th Conference on Machine Translation (WMT 2026)",
+    "first_seen": "2026-09-16",
+    "id": "2609.16340",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16340v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-14",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Machine translation systems are periodically upgraded to stronger models, but the available preference signal is human post-edits of an older system's outputs, which the newer model may already surpass. Moreover, collecting fresh post-edits for every new model is prohibitively expensive. We call this the Stale Preference problem. Standard DPO can fail in this setting: it may increase the likelihood of inferior post-edits, erode the model's existing quality, and fail to provide the per-token control needed to correct localized errors. We introduce StalePO, an objective derived from three requirements this regime imposes. Likelihood movement must be downward on both responses, the policy must be anchored to its own base response, and the KL constraint must apply at the token level. These requirements are jointly necessary. In ablations, each mechanism in isolation leaves the model's performance indistinguishable from the base model, and only their combination converts stale feedback into gains. On English-to-Hindi and English-to-Turkish localization data, StalePO improves the fraction of segments passing all LLM-as-judge MQM quality checks by 14.9 and 4.6 percentage points, respectively, with gains concentrated on style and fluency. A human evaluation under the same framework confirms these gains on English-to-Hindi, raising the fraction of segments passing all seven human checks by 13.8 percentage points.",
+    "tier": "none",
+    "title": "StalePO: Anchored Token-Level Preference Optimization using Legacy Post-Edits in Machine Translation",
+    "track": "",
+    "updated": "2026-09-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16340v1"
+   },
+   "2609.16532": {
+    "abs_url": "https://arxiv.org/abs/2609.16532",
+    "authors": [
+     "Takayuki Yamamoto",
+     "Daisuke Kawahara"
+    ],
+    "code_url": "",
+    "comment": "23 pages, 3 figures, 13 tables",
+    "first_seen": "2026-09-16",
+    "id": "2609.16532",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16532v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Continued pretraining (CPT) with data augmentation such as paraphrasing can store inside a large language model (LLM) the knowledge of a small source corpus. The stored knowledge, however, is not always retrieved correctly. We study the eliciting side rather than the storing side: we use preference optimization, which learns from pairs of a preferred (chosen) and a dispreferred (rejected) response, so that the model elicits its stored knowledge more accurately. One proposed approach takes the model's own erroneous response as rejected and the gold answer as chosen, so as to suppress the error. When the target knowledge is partially known, however, most of these rejected responses are factually correct. Using direct preference optimization (DPO) then pushes down rejected responses that contain correct knowledge and differ from the chosen answer only in style, such as length and wording. We propose style-debiased DPO (SD-DPO), which scores whether the rejected response of each pair is factually correct, inverts the preference of such pairs, and weights them so that the learning signal due to differences in style cancels out as a whole. We first test whether, on top of EntiGraph, a representative storing-side method that runs CPT on text synthesized from the corpus, our method adds accuracy efficiently. On QuALITY, the reading-comprehension QA benchmark on which EntiGraph was evaluated, SD-DPO exceeds a baseline we CPT on EntiGraph's synthetic data from the same base model and evaluate with the same procedure. The training tokens this requires are a few dozen times fewer than the additional CPT needed for the same gain. For knowledge updating, the main goal of this work, we use AToKE, a knowledge-editing benchmark for facts that change over time. There, SD-DPO reaches an overall accuracy of 0.982 and answers with the new or the old fact according to the queried period.",
+    "tier": "none",
+    "title": "Style-Debiased DPO: Updating LLM Knowledge with Factuality-Aware Synthetic Preference Data",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16532v1"
+   },
+   "2609.16639": {
+    "abs_url": "https://arxiv.org/abs/2609.16639",
+    "authors": [
+     "Zhihao Zhang",
+     "Mingqi Wu",
+     "Qiaole Dong",
+     "Enyu Zhou",
+     "Shuo Li",
+     "Boyang Liu",
+     "Jiazheng Zhang",
+     "Honglin Guo",
+     "Xin Guo",
+     "Shaofan Liu",
+     "Junzhe Wang",
+     "Dingwei Zhu",
+     "Zhiheng Xi",
+     "Minlong Peng",
+     "Yuan Hua",
+     "Qi Zhang",
+     "Tao Gui",
+     "Xuanjing Huang"
+    ],
+    "code_url": "",
+    "comment": "37pages, preprint",
+    "first_seen": "2026-09-16",
+    "id": "2609.16639",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16639v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Continual post-training of large multimodal models should add new capabilities while preserving those from pre-training, and the two goals pull in opposite directions. SFT gives explicit target supervision that learns a task from near-zero accuracy, but its off-policy targets move the model far enough to cause forgetting; on-policy methods such as RLVR and self-distillation preserve policy proximity yet supply little signal when the policy cannot yet solve the task. We introduce ReDraft (Reference-Driven Revision and Fine-Tuning), which obtains both from the model's own failures: using an expert response only as a reference, it has the model revise its own incorrect rollout, keeps the revision only if a verifier accepts it, and fine-tunes on what survives. Each retained target is therefore explicit, yet still close to the current policy. Across Counting, Clock Reading, and Jigsaw on Qwen2.5-VL-3B/7B, two of them with near zero accuracy, ReDraft gains 56.9 points on the target task against SFT's 52.9 while cutting prior-task loss from 16.6 to 1.5 points (11.3x less forgetting), and improves on OPSD along both axes (19.3 gain, 6.2 loss). Data- and parameter-space analyses match the design: revised targets are more probable under the base model, and the updates they induce stay compact and follow SFT's direction more closely than OPSD's. Repairing the model's own output, rather than replacing it with an expert's, is what lets one objective do both.",
+    "tier": "none",
+    "title": "ReDraft, Don't Just Distill: Reference-Driven Revision for Continual VLLM Post-Training",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16639v1"
+   },
+   "2609.16661": {
+    "abs_url": "https://arxiv.org/abs/2609.16661",
+    "authors": [
+     "Weiming Li",
+     "Ana Catarina Fidalgo Barata",
+     "Miguel Constante",
+     "João Miguel Sanches"
+    ],
+    "code_url": "",
+    "comment": "5 pages, 2 figures. Submitted to ICASSP 2027",
+    "first_seen": "2026-09-16",
+    "id": "2609.16661",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16661v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "submitted",
+    "summary": "Automated depression screening from clinical interviews requires attribution of utterances to the clinician or patient. We evaluate two datasets: DAIC-WOZ, where participant-only recordings require re-synthesizing both sides for controlled two-party evaluation, and PDCH-HAMD, comprising voice-converted real Chinese interviews for cross-lingual validation. Cascaded systems combine speaker diarization with role-assignment heuristics, so errors can propagate across stages. We propose an end-to-end model, which we named DiaWhisper, that fine-tunes Whisper-large-v3 with LoRA and an auxiliary frame-level role head for transcription and attribution, together with DiaWhisper-DPO, a failure-mined refinement that uses genuine decoding failures as DPO rejected completions without human preference annotation. On 29 DAIC-WOZ test sessions, DiaWhisper-DPO achieves 0.973 role accuracy and 0.119 DER, 72% below the strongest cascaded baseline, and reduces seed variation from σ = .205 to .002. Retrained on PDCH-HAMD, it achieves 0.757 role accuracy and improves all 78 session-seed pairs.",
+    "tier": "none",
+    "title": "DiaWhisper-DPO: Role-Attributed Transcription of Clinical Interviews via Failure-Mined Preference Optimization",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "ICASSP",
+    "venue_evidence": "5 pages, 2 figures. Submitted to ICASSP 2027",
+    "venue_source": "comment",
+    "venue_year": "2027",
+    "version": "2609.16661v1"
+   },
+   "2609.16995": {
+    "abs_url": "https://arxiv.org/abs/2609.16995",
+    "authors": [
+     "Kevin Qinghong Lin",
+     "Siyuan Hu",
+     "Pan Lu",
+     "Yu Chen",
+     "Yanzhe Chen",
+     "Owen Queen",
+     "Yupeng Chen",
+     "Jialin Yu",
+     "Junchi Yu",
+     "Zifeng Ding",
+     "Yuanfeng Ji",
+     "Sheng Liu",
+     "Jindong Gu",
+     "Linjie Li",
+     "Mike Zheng Shou",
+     "Philip Torr",
+     "James Zou"
+    ],
+    "code_url": "https://github.com/QinghongLin/paperdoctor",
+    "comment": "Website: http://paperdoctor.github.io/ Github: https://github.com/QinghongLin/paperdoctor",
+    "first_seen": "2026-09-16",
+    "id": "2609.16995",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16995v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Autoresearch agents are reshaping the research ecosystem, but they can also let flawed claims enter the literature at scale. Human advisors catch such issues in drafts through careful, traceable feedback, yet advisor-style assessment requires extensive manual effort and does not scale. To shift automated paper assessment from a judge to a diagnostician, we introduce PaperDoctor, an agent framework for pre-submission feedback with three key innovations. First, a holistic hierarchical framework evaluates writing, layout, references, code, theory, prior work, and experiments through three layers: L1 surface screening, L2 typed verifiers that route each claim to the appropriate evidence, and L3 reproducers that rerun experiments by priority. Second, each finding contains an observation, a pointer to specific evidence such as a sentence, equation, or code line, and a revision suggestion, making critiques auditable and actionable. Third, PaperDoctor selectively rebuilds and reruns experiments based on claim importance and compute budget, surfacing reproducibility gaps and quantitative limitations that are invisible from the manuscript alone. We evaluate PaperDoctor on 30 in-progress papers, yielding 70.6% agreement and all positive holistic scores, and on 40 manuscripts across machine learning, natural science, and social science, covering human- and AI-authored papers with code. Overall, PaperDoctor produces more auditable feedback than human and other agentic reviewers, pairs critiques with concrete suggestions by design, and complements dimensions often overlooked by human reviewers. We also develop an interactive interface that lets authors browse findings grounded in their paper. PaperDoctor reframes automated paper assessment as diagnosis rather than verdict, taking a concrete step toward AI advisors for more rigorous AI-assisted scientific discovery.",
+    "tier": "none",
+    "title": "PaperDoctor: Evidence-Grounded and Actionable Feedback for Scientific Papers in Progress",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16995v1"
+   },
+   "2609.17019": {
+    "abs_url": "https://arxiv.org/abs/2609.17019",
+    "authors": [
+     "Qinhong Lin",
+     "Yuhao Zhang",
+     "Yinglun Feng",
+     "Zhongliang Yang",
+     "Linna Zhou"
+    ],
+    "code_url": "",
+    "comment": "8 pages,3 figures. Accepted at IJCNN 2026",
+    "first_seen": "2026-09-16",
+    "id": "2609.17019",
+    "journal_ref": "",
+    "matched": [
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.17019v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "While Chain-of-Thought (CoT) reasoning has been proven to be effective, it often leads to overthinking, resulting in computational overhead, inference latency, and even degraded performance in large language models (LLMs). Existing concise reasoning frameworks significantly compromise accuracy while compressing the length of output. In this paper, we propose SKIP, a self-knowledge-guided step-wise preference learning framework. Starting with lightweight fine-tuning to adjust the model's output style, SKIP introduces a carefully designed knowledge probing mechanism to guide model to output an answer at each reasoning step. Based on the correctness of intermediate steps, we construct preference data that guide the model toward more efficient and correct reasoning by leveraging DPO. Experimental results demonstrate that our method effectively improves reasoning compression while mitigating performance degradation after fine-tuning. Besides, SKIP shows strong generalization ability on out-of-distribution datasets. We further conducted ablation studies on the component parameters of our framework.",
+    "tier": "none",
+    "title": "SKIP: a Self-knowledge-guided Step-wise Preference Learning Framework for Concise Reasoning",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.17019v1"
    }
   },
   "Search & Control for Generation": {
@@ -31802,6 +32212,116 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.15618v1"
+   },
+   "2609.16532": {
+    "abs_url": "https://arxiv.org/abs/2609.16532",
+    "authors": [
+     "Takayuki Yamamoto",
+     "Daisuke Kawahara"
+    ],
+    "code_url": "",
+    "comment": "23 pages, 3 figures, 13 tables",
+    "first_seen": "2026-09-16",
+    "id": "2609.16532",
+    "journal_ref": "",
+    "matched": [
+     "synthetic preference",
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16532v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Continued pretraining (CPT) with data augmentation such as paraphrasing can store inside a large language model (LLM) the knowledge of a small source corpus. The stored knowledge, however, is not always retrieved correctly. We study the eliciting side rather than the storing side: we use preference optimization, which learns from pairs of a preferred (chosen) and a dispreferred (rejected) response, so that the model elicits its stored knowledge more accurately. One proposed approach takes the model's own erroneous response as rejected and the gold answer as chosen, so as to suppress the error. When the target knowledge is partially known, however, most of these rejected responses are factually correct. Using direct preference optimization (DPO) then pushes down rejected responses that contain correct knowledge and differ from the chosen answer only in style, such as length and wording. We propose style-debiased DPO (SD-DPO), which scores whether the rejected response of each pair is factually correct, inverts the preference of such pairs, and weights them so that the learning signal due to differences in style cancels out as a whole. We first test whether, on top of EntiGraph, a representative storing-side method that runs CPT on text synthesized from the corpus, our method adds accuracy efficiently. On QuALITY, the reading-comprehension QA benchmark on which EntiGraph was evaluated, SD-DPO exceeds a baseline we CPT on EntiGraph's synthetic data from the same base model and evaluate with the same procedure. The training tokens this requires are a few dozen times fewer than the additional CPT needed for the same gain. For knowledge updating, the main goal of this work, we use AToKE, a knowledge-editing benchmark for facts that change over time. There, SD-DPO reaches an overall accuracy of 0.982 and answers with the new or the old fact according to the queried period.",
+    "tier": "none",
+    "title": "Style-Debiased DPO: Updating LLM Knowledge with Factuality-Aware Synthetic Preference Data",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16532v1"
+   },
+   "2609.16927": {
+    "abs_url": "https://arxiv.org/abs/2609.16927",
+    "authors": [
+     "Nathan Hu",
+     "Sanmi Koyejo",
+     "Christopher Potts"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-16",
+    "id": "2609.16927",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16927v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Subliminal learning is a phenomenon in which a distillation dataset transmits traits from the teacher model that are not legibly encoded in the dataset itself. This introduces a new challenge for model development and creates new risks from data poisoning. In this work, we use text optimization to detect subliminal learning effects and describe them as legible prompts. Subliminal learning from a prompted teacher motivates our approach. We observe that this is a special case of context distillation and leverage this observation to show that, in theory, the prompted subliminal learning dataset identifies the teacher's prompt. We reduce recovering this prompt to a text optimization problem and present a method to approximately solve it. Our method, SALVE (Search-Aided Latent Verbalization), optimizes a soft prompt, queries the same model to verbalize it as text, and uses beam search to make the verbalization reliable. In the standard subliminal learning setting, SALVE reliably recovers legible prompts that name the teacher's trait, while common text optimization methods fail to do so. In addition, we find that there are settings in which SALVE recovers the teacher's trait from a dataset even when subliminal learning fails, but that modifying student training to improve context distillation can create subliminal learning effects. We lastly show that SALVE detects subliminal learning effects in three additional settings: (1) mixtures of subliminal learning data and unrelated data, (2) data generated when the teacher is biased via activation steering, and (3) subsets of real preference data selected via Logit-Linear Selection. Overall, our results deepen our understanding of subliminal learning and present SALVE as a method to proactively detect subliminal learning effects.",
+    "tier": "none",
+    "title": "Verbalizing Subliminal Learning Effects Using Text Optimization",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16927v1"
+   },
+   "2609.17019": {
+    "abs_url": "https://arxiv.org/abs/2609.17019",
+    "authors": [
+     "Qinhong Lin",
+     "Yuhao Zhang",
+     "Yinglun Feng",
+     "Zhongliang Yang",
+     "Linna Zhou"
+    ],
+    "code_url": "",
+    "comment": "8 pages,3 figures. Accepted at IJCNN 2026",
+    "first_seen": "2026-09-16",
+    "id": "2609.17019",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.17019v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "While Chain-of-Thought (CoT) reasoning has been proven to be effective, it often leads to overthinking, resulting in computational overhead, inference latency, and even degraded performance in large language models (LLMs). Existing concise reasoning frameworks significantly compromise accuracy while compressing the length of output. In this paper, we propose SKIP, a self-knowledge-guided step-wise preference learning framework. Starting with lightweight fine-tuning to adjust the model's output style, SKIP introduces a carefully designed knowledge probing mechanism to guide model to output an answer at each reasoning step. Based on the correctness of intermediate steps, we construct preference data that guide the model toward more efficient and correct reasoning by leveraging DPO. Experimental results demonstrate that our method effectively improves reasoning compression while mitigating performance degradation after fine-tuning. Besides, SKIP shows strong generalization ability on out-of-distribution datasets. We further conducted ablation studies on the component parameters of our framework.",
+    "tier": "none",
+    "title": "SKIP: a Self-knowledge-guided Step-wise Preference Learning Framework for Concise Reasoning",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.17019v1"
    }
   },
   "Text Quality Evaluation": {
@@ -40568,6 +41088,230 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.15794v1"
+   },
+   "2609.16023": {
+    "abs_url": "https://arxiv.org/abs/2609.16023",
+    "authors": [
+     "Prithvi Dixit",
+     "Pedram Hosseini"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-16",
+    "id": "2609.16023",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16023v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Medical evaluation is shifting from static option-based questioning to realistic clinical scenarios with open-ended output modes. Grading these at scale naively, however, is expensive, and rubric-based evaluation has become the dominant scalable alternative. We ask what happens when the rubrics themselves are not airtight, and whether such flaws can be detected and corrected. We apply RIFT, a global rubric failure taxonomy, to two clinical benchmarks (HealthBench Professional and LiveMedBench), and find failure modes are meaningful: on HealthBench Professional an LLM judge flags 29.6% of criteria as non-atomic and 65.4% as misaligned/rigid. Then, we show that these flaws are meaningful and not simply cosmetic. As an example, rewriting bundled criteria of the form \"at least one of / all of the following\" as equally weighted children and regrading identical responses shifts scores by up to 15.9 percentage points on affected conversations, with disjunctive bundles inflating scores and conjunctive bundles deflating them. We also find that RIFT generally under-detects bundling on clinical rubrics, flagging 3.3% of LiveMedBench criteria as non-atomic where surface-form analysis finds structure in 25.8%.",
+    "tier": "none",
+    "title": "Are We Grading Properly? Understanding Failure Modes in Medical Benchmarks",
+    "track": "",
+    "updated": "2026-09-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16023v1"
+   },
+   "2609.16487": {
+    "abs_url": "https://arxiv.org/abs/2609.16487",
+    "authors": [
+     "Aniruddha Tamhane",
+     "Raghavendra Addanki",
+     "Ayushi Aggarwal",
+     "Aditya Bansal",
+     "Rui Wang",
+     "Charles Menguy",
+     "Swati Jain"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-16",
+    "id": "2609.16487",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16487v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We present a framework for evaluating data-science agents on live, continuously updated data using executable ground truth and format-agnostic factoid scoring. Consider this example query: \"what were last week's audience sizes\"---the reference answer changes as the underlying data changes, so static references become outdated and standard LLM-as-a-judge pipelines cannot verify responses against a fixed ground truth. Our central contribution, ground-truth-as-code, encodes each expected answer as an executable reference function that recomputes the answer directly from live data at evaluation time, ensuring the reference remains consistent with the system it describes. We combine this with a factoid-level, format-agnostic judge that decomposes both the agent's response and the computed ground truth into atomic claims and scores precision, recall, and accuracy over them, irrespective of the response format (prose, list, table, HTML, etc.). The approach is applicable to agents whose expected outputs can be expressed as executable data computations. We validate the framework through a human--LLM agreement study on an internally developed machine learning skill deployed in production, using a synthetic database constructed to reproduce production schemas and entity relationships. Relative to a natural-language ground-truth baseline, our method achieves a 29% improvement in the Matthews Correlation Coefficient (MCC)---a class-balanced measure of agreement between expert annotators and LLM-as-a-judge predictions---and a 16% reduction in token consumption per test case, while a self-directed baseline lacking explicit ground truth is anti-correlated with human judgment. Agents that perform multi-source data integration and computation over non-stationary data are routinely deployed in industry; we propose ground-truth-as-code as a practical methodology for their evaluation.",
+    "tier": "none",
+    "title": "Skill-based Agentic Evaluation for Real-time Data Science Tasks",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16487v1"
+   },
+   "2609.16501": {
+    "abs_url": "https://arxiv.org/abs/2609.16501",
+    "authors": [
+     "Qiangju Chen",
+     "Yang Xiao"
+    ],
+    "code_url": "",
+    "comment": "Under peer review",
+    "first_seen": "2026-09-16",
+    "id": "2609.16501",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16501v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "De-identified résumé screening assumes that redacting explicit fields prevents ethnocultural inference; however, recent audits attribute residual leakage to declared languages. We investigate whether eliminating language fields resolves this leakage across nine open-weight models and 620 counterfactual résumés. By holding language attributes strictly identical, we isolate unstructured prose across five ethnocultural conditions and three cue-salience tiers. Target-group recovery averages 0.757 overall and saturates at 1.000 under high salience, demonstrating that non-language prose sustains demographic inference. Crucially, models diverge only under faint cues (0.086-0.690), establishing salience as an essential evaluation axis. Furthermore, pairwise LLM-as-a-judge outcomes are highly sensitive to evaluation design: forbidding ties yields an apparent selection-rate ratio of 0.39 alongside strong position and content effects, whereas permitting ties produces near-universal ties for most models ($\\ge94\\%$). Downstream scoring shows only very small between-condition differences, highlighting the need to distinguish demographic signals recoverable from résumé content from effects introduced by the evaluation protocol.",
+    "tier": "none",
+    "title": "Beyond the Name: Demographic Leakage in De-Identified Résumés and Evaluation Artifacts in LLM Bias Audits",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16501v1"
+   },
+   "2609.16816": {
+    "abs_url": "https://arxiv.org/abs/2609.16816",
+    "authors": [
+     "Bowen Qin",
+     "Yi Xie",
+     "Yesheng Liu",
+     "Xi Yang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-16",
+    "id": "2609.16816",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge",
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16816v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Language model-generated rubrics are increasingly used as reward signals for rubric-based reinforcement learning, LLM-as-a-judge evaluation, and automated grading. Such rubrics are reliable only if they reward honest answers over adversarial answers optimized to exploit them. Yet their robustness to such optimization remains poorly understood. We isolate the hardest regime: impossible tasks, where the prompt pressures the model toward an unsupported conclusion, so the only honest response is to acknowledge the impossibility. We introduce ImpossibleRubrics, a benchmark of 169 impossible tasks spanning six impossibility categories, each paired with a verifiable oracle certificate specifying what an honest answer may and may not claim, together with 48 answerable controls. Rather than providing fixed rubrics, ImpossibleRubrics provides task environments and certificates, allowing rubrics to be generated downstream and then adversarially tested for whether they reward certificate-violating answers. Eleven generators are exploited 8--26% of the time on the unbiased 150-of-169 environment cut; on a deliberately selected stress cut the strongest generator we measured is still exploited 36% while a certificate-faithful rubric is exploited 0%, so what we measure is a rubric-quality gap, not task impossibility. One result runs against intuition. A single generic rubric (\"be decisive, penalize hedging\") used unchanged for every task is exploited 64% of the time, and seven of the eleven generators are exploited more often than that while writing a rubric tailored to each one. The tailored criteria appear to tell an attacker which claim to fabricate. The problem is not that rubrics are vague; it is that they are specific about the wrong things.",
+    "tier": "none",
+    "title": "ImpossibleRubrics: Stress-Testing Generated Rubrics as Reward Signals",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.16816v1"
+   },
+   "2609.16993": {
+    "abs_url": "https://arxiv.org/abs/2609.16993",
+    "authors": [
+     "Donya Rooein",
+     "Luca Benedetto",
+     "Dirk Hovy"
+    ],
+    "code_url": "",
+    "comment": "EMNLP 2026 Findings",
+    "first_seen": "2026-09-16",
+    "id": "2609.16993",
+    "journal_ref": "",
+    "matched": [
+     "automated essay scoring",
+     "essay scoring"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.16993v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Large Language Models are now common in student assessment, but we know little about how student demographics affect their use. Sometimes, considering student demographics may be necessary -- for example, to improve readability for users with lower educational levels. However, it also risks being a cause of discrimination, e.g., when assigning lower scores to students from lower socioeconomic backgrounds. We set up controlled prompts to test 1) explicit demographic effects, where we mention demographic details directly, and 2) implicit effects, where we use conversation history as a demographic signal. We test these settings in three tasks: Automated Essay Scoring, Formative Feedback, and Metalinguistic Question Answering. We test six state-of-the-art LLMs on these tasks. In both explicit and implicit cases, the models pick up on demographic cues and can change their scoring, feedback, and answers accordingly. We find that LLMs frequently adjust the readability of feedback to education levels when these are explicitly mentioned. On the other hand, implicit conditions produce unpredictable biases, such as in question answering, where responses from lower-education levels receive lower sentiment scores. Our results provide clear evidence of demographic sensitivity in LLMs for educational assessment tasks.",
+    "tier": "findings",
+    "title": "The Role of Implicit and Explicit Demographic Signals in Large Language Model-based Student Assessment",
+    "track": "findings",
+    "updated": "2026-09-15",
+    "venue": "EMNLP",
+    "venue_evidence": "EMNLP 2026 Findings",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.16993v1"
+   },
+   "2609.17306": {
+    "abs_url": "https://arxiv.org/abs/2609.17306",
+    "authors": [
+     "Sara Vera Marjanović",
+     "Jiacheng Xu",
+     "Aleksandr Laptev",
+     "Grigor Nalbandyan",
+     "Erik Arakelyan",
+     "Evelina Bakhaturina"
+    ],
+    "code_url": "",
+    "comment": "8 pages main, 23 pages total. Accepted to REALM 2026 as part of EMNLP 2026",
+    "first_seen": "2026-09-16",
+    "id": "2609.17306",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.17306v1",
+    "primary_category": "cs.MA",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-16",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Multi-agent Systems (MAS) combine multiple model outputs to solve complex reasoning tasks. However, despite rapid growth of available open-source models, there is limited research on how to select optimal model candidates out of this massive pool. We systematically evaluate 8 model selection strategies (including model size, accuracy and answer diversity) across before-generation (routing) and after-generation (majority-voting, LLM-as-a-judge) MAS architectures on challenging scientific benchmarks. Our findings show a significant gap between theoretical oracle potential and actual performance: Expanding candidate pool sizes often degrades performance below that of the top performing base-model. We find that candidate selection within a single model family is the strategy that yields the best relative performance over a standalone model. These results demonstrate that adding arbitrary models to a heterogeneous MAS can introduce system instability, highlighting model selection as a critical design choice for multi-agent systems.",
+    "tier": "top",
+    "title": "Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems",
+    "track": "main",
+    "updated": "2026-09-15",
+    "venue": "EMNLP",
+    "venue_evidence": "8 pages main, 23 pages total. Accepted to REALM 2026 as part of EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.17306v1"
    }
   },
   "Writing Agent": {

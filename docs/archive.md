@@ -1,17 +1,17 @@
 # Archive
 
 Every paper ever matched, one page per topic so no single file grows past what
-GitHub will render. Newest first within each page. Generated on **2026-09-15** (UTC).
+GitHub will render. Newest first within each page. Generated on **2026-09-16** (UTC).
 Back to the [main page](../README.md) · [papers by venue](venues.md).
 
 - [Writing Agent](topics/writing-agent.md) — 184 papers
-- [Iterative Revision & Text Editing](topics/iterative-revision-text-editing.md) — 81 papers
+- [Iterative Revision & Text Editing](topics/iterative-revision-text-editing.md) — 83 papers
 - [Self-Refine & Self-Correction](topics/self-refine-self-correction.md) — 104 papers
-- [Reward & Value Models](topics/reward-value-models.md) — 241 papers
-- [Synthetic Preference Data](topics/synthetic-preference-data.md) — 127 papers
-- [Text Quality Evaluation](topics/text-quality-evaluation.md) — 223 papers
+- [Reward & Value Models](topics/reward-value-models.md) — 249 papers
+- [Synthetic Preference Data](topics/synthetic-preference-data.md) — 130 papers
+- [Text Quality Evaluation](topics/text-quality-evaluation.md) — 229 papers
 - [Semantic Drift & Faithfulness](topics/semantic-drift-faithfulness.md) — 94 papers
 - [Search & Control for Generation](topics/search-control-for-generation.md) — 86 papers
 - [Korean Writing & NLP](topics/korean-writing-nlp.md) — 68 papers
 
-1208 entries across 9 topics (a paper matching two topics is listed on both pages).
+1227 entries across 9 topics (a paper matching two topics is listed on both pages).
