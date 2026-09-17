@@ -9,17 +9,19 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-16** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-17** (UTC).
 Back to the [main page](../README.md).
 
-223 of 1147 papers carry venue evidence.
+225 of 1161 papers carry venue evidence.
 
-## Top-tier venues (122)
+## Top-tier venues (124)
 
-### EMNLP (61)
+### EMNLP (63)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-16**|REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement|EMNLP 2026|Synthetic Preference Data|[2609.18262](https://arxiv.org/abs/2609.18262)|
+|**2026-09-16**|Re2A: Situated Conversational Recommendation via Rubric-based Preference Reasoning and Alignment|EMNLP 2026|Text Quality Evaluation|[2609.18249](https://arxiv.org/abs/2609.18249)|
 |**2026-09-15**|Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems|EMNLP 2026|Text Quality Evaluation|[2609.17306](https://arxiv.org/abs/2609.17306)|
 |**2026-09-13**|The Imitation Game: When LLMs Learn to Reason Like Programs via Code-Centric Reasoning Data Synthesis|EMNLP|Reward & Value Models|[2609.16076](https://arxiv.org/abs/2609.16076)|
 |**2026-09-11**|Debiasing as a Measurement Intervention: Calibrated Ties and Resolution Loss in LLM-as-a-Judge Evaluation|EMNLP 2026|Text Quality Evaluation|[2609.12439](https://arxiv.org/abs/2609.12439)|

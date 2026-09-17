@@ -1,24 +1,24 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 83,
+   "Iterative Revision & Text Editing": 84,
    "Korean Writing & NLP": 68,
-   "Reward & Value Models": 249,
+   "Reward & Value Models": 254,
    "Search & Control for Generation": 86,
    "Self-Refine & Self-Correction": 104,
-   "Semantic Drift & Faithfulness": 94,
-   "Synthetic Preference Data": 130,
-   "Text Quality Evaluation": 229,
-   "Writing Agent": 184
+   "Semantic Drift & Faithfulness": 95,
+   "Synthetic Preference Data": 131,
+   "Text Quality Evaluation": 234,
+   "Writing Agent": 185
   },
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "venue_tiers": {
    "demo": 2,
    "findings": 39,
-   "none": 924,
+   "none": 936,
    "other": 15,
    "strong": 9,
-   "top": 122,
+   "top": 124,
    "workshop": 36
   }
  },
@@ -3363,6 +3363,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.16777v1"
+   },
+   "2609.18720": {
+    "abs_url": "https://arxiv.org/abs/2609.18720",
+    "authors": [
+     "Kathy Hämmerl",
+     "Gabriel Bretschner",
+     "Joern Wuebker"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-17",
+    "id": "2609.18720",
+    "journal_ref": "",
+    "matched": [
+     "post-editing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18720v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Learned quality estimation (QE) models such as COMETKiwi are widespread and work well for general machine translation evaluation. However, they are known to struggle on unseen domains, limiting their performance in a real-world localisation context. We show that they are insensitive to some important factors in localisation, such as whether numbers are translated accurately, or even whether the correct number of spaces and punctuation are preserved in a translation. Further, a key capability for optimisation of machine translation is the ability of QE models to accurately rank different translations of a single segment, which suffers significantly from the domain transfer. In the absence of large-scale direct assessment data, we propose principled fine-tuning approaches to reduce the domain gap with even small amounts of post-editing data. Using a multi-task fine-tuning approach and a simple tokeniser intervention, we create a QE model which proves markedly better at distinguishing preferred post-edits from rejected initial translations in a localisation context. We show that preferences and artificial continuous scores stabilise each other, and argue that to calibrate metrics both in terms of their absolute scores and comparisons between translation of the same source, both types of signal are needed.",
+    "tier": "none",
+    "title": "LocQE: Principled Domain Adaptation for Localisation Quality Estimation by Leveraging Post-Edits",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.18720v1"
    }
   },
   "Korean Writing & NLP": {
@@ -15600,7 +15636,7 @@
     "authors": [
      "Tobias Labarta",
      "Frederik Pahde",
-     "Novak Boskov",
+     "Novak Boškov",
      "Maximilian Dreyer",
      "David Birkenberger",
      "Manzoor Ahmed Khan",
@@ -15615,7 +15651,7 @@
     "matched": [
      "verifier"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.14422v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14422v2",
     "primary_category": "cs.AI",
     "published": "2026-09-13",
     "s2": {
@@ -15629,12 +15665,12 @@
     "tier": "none",
     "title": "Safety Signals to Verify NetOps Agents with Action-Level Granularity",
     "track": "",
-    "updated": "2026-09-13",
+    "updated": "2026-09-16",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.14422v1"
+    "version": "2609.14422v2"
    },
    "2609.14648": {
     "abs_url": "https://arxiv.org/abs/2609.14648",
@@ -16125,6 +16161,197 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.17019v1"
+   },
+   "2609.17847": {
+    "abs_url": "https://arxiv.org/abs/2609.17847",
+    "authors": [
+     "Shiwali Mohan",
+     "Matt Hong",
+     "Dule Shu",
+     "Aniek Fransen",
+     "Shabnam Hakimi",
+     "Matt Klenk"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-17",
+    "id": "2609.17847",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.17847v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Learning from human feedback has become a central paradigm for training modern AI systems, where models of human utility are used as reward models in policy learning. Existing methods typically assume a \\emph{universal utility} function shared across a population and treat disagreement between annotators as stochastic variation. While suitable for objective tasks, this assumption breaks down in subjective domains where preferences vary systematically across individuals. We study the problem of subjective preference learning, in which observed choices arise from heterogeneous but internally consistent utility functions. Drawing upon rational choice theory, RCT \\parencite{tversky1981framing}, we introduce \\emph{individuated utility} functions conditioned on both the individual and their decision context, and propose a novel multi-stage architecture for estimating them from multi-modal data. We evaluate our framework on a newly collected dataset of more than $575{,}000$ pairwise aesthetic judgments from $2{,}398$ participants comparing automotive wheel designs. Our experiments show that individuated utility models substantially outperform universal utility models including foundation model baselines. Our results demonstrate that disagreement reflects meaningful preference heterogeneity rather than annotation noise. More broadly, our findings highlight the importance of collecting annotator attributes and learning individuated utility functions, enabling reward models that explicitly account for whose preferences they represent and faithfully capture human decision diversity.",
+    "tier": "none",
+    "title": "Learning Heterogeneous Preferences",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.17847v1"
+   },
+   "2609.17857": {
+    "abs_url": "https://arxiv.org/abs/2609.17857",
+    "authors": [
+     "David Ababio Awuni",
+     "Luke E. K. Achenie",
+     "Benjamin Tei Partey",
+     "Elvis Gyasi Owusu",
+     "Nii-Nai Derrick Sowah"
+    ],
+    "code_url": "",
+    "comment": "11 pages, 3 figures, 4 tables",
+    "first_seen": "2026-09-17",
+    "id": "2609.17857",
+    "journal_ref": "",
+    "matched": [
+     "bradley-terry"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.17857v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Who the judge is can affect an LLM-as-judge result, but measuring that effect without confusing it with candidate quality is difficult. We study four open-weight families (Llama 3.1, Qwen 2.5, Gemma 2, and Yi 1.5) in a fully crossed pairwise design with 9,312 judgments. A common per-family statistic is strongly confounded with candidate quality and correlates with Bradley-Terry ability at r = 0.95. We derive a corrected estimator that holds the candidate family fixed and compares judges. All four families then show a positive same-family lift (3.4-8.4 percentage points), with global FPS 0.067 (95% CI [0.053, 0.084], permutation p = 0.0002). The effect remains under panel-based quality controls, an independent human-consensus anchor, and a float16 judging replication. Judge-side likelihood is closely related to the effect: adding likelihood advantage reduces the controlled coefficient by 61%, which we treat as descriptive attenuation rather than causal mediation. Position is a separate failure mode. Across the panel, 55.4% of AB/BA pairs reverse, and reversal above 50% is incompatible with a simple independent content-noise model. Relative to a family-balanced reference, panel composition changes 18.5% of pairwise outcomes. A complete reproducibility archive has been prepared for public release.",
+    "tier": "none",
+    "title": "Who Judges Matters: Measuring Family-Conditioned Preference in LLM-as-Judge Panels",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.17857v1"
+   },
+   "2609.18471": {
+    "abs_url": "https://arxiv.org/abs/2609.18471",
+    "authors": [
+     "Yizheng Yang",
+     "Haining Yu",
+     "Yuechen Wang",
+     "Yikai Hou",
+     "Xing Fu",
+     "Jinbo Yang",
+     "Tianqing Zhu"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 7 figures, 10 tables. Includes appendices. Accepted at CICAI 2026",
+    "first_seen": "2026-09-17",
+    "id": "2609.18471",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18471v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large Reasoning Models (LRMs) exhibit strong problem-solving abilities, yet their safety alignment often degrades when handling harmful queries. Existing approaches to improving safety largely rely on additional training or preference optimization, while offering limited understanding of the internal mechanisms behind safety failures. In this work, we investigate this failure through a token-level positional analysis of refusal dynamics and identify a localized vulnerability at the onset of reasoning, which we term Onset Refusal Collapse (ORC). We find that the refusal-related signal of LRMs drops sharply at the first generated token under harmful queries, which is associated with unsafe response generation. Motivated by this finding, we propose SafeToken, a lightweight inference-time intervention that injects a learned continuous safety anchor precisely at reasoning onset. Despite updating only a single token embedding, SafeToken effectively mitigates ORC, improves safety on harmful-query benchmarks, and largely preserves reasoning utility. These results suggest that safety failures in LRMs can arise from a transient breakdown at the critical transition from understanding to generation.",
+    "tier": "none",
+    "title": "First Token Matters: Understanding Safety Collapse in Large Reasoning Models",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.18471v1"
+   },
+   "2609.18642": {
+    "abs_url": "https://arxiv.org/abs/2609.18642",
+    "authors": [
+     "Yajie Yu",
+     "Mark Lee",
+     "Yue Feng"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-17",
+    "id": "2609.18642",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18642v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) often suffer from capability stagnation in self-improvement training because fixed difficulty levels fail to adapt to their evolving proficiency. To address this issue, we propose STRETCH (Self-Taught Reasoning Evolution via Targeted CHallenge), a unified framework inspired by cognitive scaffolding theory. STRETCH introduces a dynamic Stretch Zone mechanism that continuously aligns question difficulty with the model's solving capability. Within a single parameter space, the model alternates between a Scaffolder that generates adaptive, boundary-pushing challenges and a Learner that that optimizes its solving trajectories through reinforcement learning. This dual-loop co-evolution effectively stabilizes training, mitigates reward hacking and promote progressive reasoning growth. Experiments on both negotiation and operation research benchmarks demonstrate that STRETCH consistently outperforms strong prompting and domain-specific baselines. Further scaffolder configuration analysis shows that dynamic difficulty alignment is critical for sustained capability improvement and synchronized reasoning evolution.",
+    "tier": "none",
+    "title": "STRETCH the Boundaries: A Unified Self-Taught Framework for Progressive LLM Evolution",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.18642v1"
+   },
+   "2609.19144": {
+    "abs_url": "https://arxiv.org/abs/2609.19144",
+    "authors": [
+     "Peter Chen",
+     "Xi Chen",
+     "Wotao Yin",
+     "Tianyi Lin"
+    ],
+    "code_url": "",
+    "comment": "39 pages",
+    "first_seen": "2026-09-17",
+    "id": "2609.19144",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.19144v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margins. In this paper, we propose and analyze Comparison-based Preference Optimization (ComPO), a zeroth-order alignment method based on comparison oracles. ComPO extracts directional information from these pairs without directly optimizing a differentiable preference loss on them. We establish a convergence guarantee for its basic offline scheme under smoothness, gradient sparsity, and compatibility between the oracle and a latent objective. We further introduce online ComPO, which retains the offline comparison mechanism and uses unlabeled policy generations for reverse-KL control relative to a reference policy. Following the coverage perspective of preference fine-tuning, we establish a performance guarantee for a basic constrained scheme under local coverage and in-distribution pairwise reward accuracy. Experiments on Mistral, Llama, Gemma-2, Qwen3, and Gemma-3 models demonstrate improvements over existing direct alignment methods, including length-controlled win rates, with pair-level diagnostics providing evidence consistent with mitigating likelihood displacement.",
+    "tier": "none",
+    "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.19144v1"
    }
   },
   "Search & Control for Generation": {
@@ -23479,7 +23706,7 @@
      "self-critique",
      "reflexion"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.15293v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15293v2",
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
@@ -23489,16 +23716,16 @@
      "year": 2026
     },
     "status": "submitted",
-    "summary": "When Emergence World placed frontier LLM agents in an unsupervised multi-agent simulation, the results were alarming: agents committed crimes, starved, and enforced unanimous conformity -- without any external attacker. This paper identifies the mechanism. Reflexion-style agents already detect dangerous plan steps through iterative self-critique, yet the architecture provides no pathway from detection to action. We call this the enforcement gap: the audit sees the problem; the controller ignores it. Closing the gap requires a single conditional check -- fewer than 20 lines of code -- and reduces attack success by more than fourfold in large-scale experiments across frontier models, all five major agent frameworks, and an independent benchmark. We prove formally that when enforcement probability is near zero, detection quality is irrelevant to security. We further identify two compounding failure modes -- unreliable auditors and unparseable verdicts -- that explain every collapse pattern in Emergence World. A GRPO-trained enforcement controller resolves the ambiguity case. Together these results motivate a three-requirement Audit Enforcement Specification that is absent from every deployed framework today.",
+    "summary": "When Emergence World placed frontier LLM agents in an unsupervised multi-agent simulation, the results were alarming: agents committed crimes, starved, and enforced unanimous conformity -- without any external attacker. This paper identifies the mechanism. Reflexion-style agents already detect dangerous plan steps through iterative self-critique, yet the architecture provides no pathway from detection to action. We call this the enforcement gap: the audit sees the problem; the controller ignores it. Closing the gap requires a single conditional check -- fewer than 20 lines of code -- and reduces attack success by more than fourfold in large-scale experiments across frontier models, all five major agent frameworks, and an independent benchmark. We prove formally that when enforcement probability is near zero, detection quality is irrelevant to security. We further identify two compounding failure modes -- unreliable auditors and unparseable verdicts -- that explain every collapse pattern in Emergence World. A GRPO-trained enforcement controller resolves the ambiguity case. Concurrent work on filtering and information-flow control addresses the detection step but leaves the enforcement gap unaddressed; our results show this is the binding constraint. Together these results motivate a three-requirement Audit Enforcement Specification that is absent from every deployed framework today.",
     "tier": "none",
     "title": "Why LLM Agents Collapse Without Oversight: The Enforcement Gap as the Mechanism Behind Emergence World Failures",
     "track": "",
-    "updated": "2026-09-14",
+    "updated": "2026-09-16",
     "venue": "ICLR",
     "venue_evidence": "27 pages, 3 figures, 8 tables. Submitted to ICLR 2027",
     "venue_source": "comment",
     "venue_year": "2027",
-    "version": "2609.15293v1"
+    "version": "2609.15293v2"
    },
    "2609.15851": {
     "abs_url": "https://arxiv.org/abs/2609.15851",
@@ -27205,6 +27432,42 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.15559v1"
+   },
+   "2609.18804": {
+    "abs_url": "https://arxiv.org/abs/2609.18804",
+    "authors": [
+     "Jianying Liu",
+     "Kim Gerdes",
+     "Jean-Marc Deltorn"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-17",
+    "id": "2609.18804",
+    "journal_ref": "18th International Conference on Statistical Analysis of Textual Data (JADT 2026), Jul 2026, Palermo, Italy. pp.232-241",
+    "matched": [
+     "semantic drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18804v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Identifying technological trends is a core scientometric task, yet traditional frequency-based approaches struggle to capture substantial meaning shifts of domain-specific terms. We hypothesise that contextual embeddings can complement frequency dynamics to effectively track diachronic semantic change. We compare frequency and embedding-based approaches across Astrophysics and NLP corpora spanning from 2010 to 2024. Candidate terms are extracted using KeyBERT (utilizing SciBERT as its underlying language model) and filtered for significant frequency increases using Fisher's exact test. These terms are then evaluated for genuine semantic shift by domain experts to establish ground-truth labels. To quantify semantic drift, each term's contextual embedding ''clouds'' from the two discrete periods are compared using multiple metrics: cosine distance, average pairwise distance, Hotelling-type T 2 , and maximum mean discrepancy. Results indicate that frequency-based methods align slightly better with human judgments of ''trend-related terms'' than semantic metrics (Precision@50 of 0.62 vs 0.60 in Astrophysics). The two signals show a correlation of around 0.6. Several terms identified exclusively by embedding metrics (e.g., ''primordial black holes'') represent critical conceptual developments invisible to pure frequency analysis. These findings indicate that semantic metrics may capture complementary information, highlighting the value of integrating contextual embeddings into scientometric trend analysis.",
+    "tier": "none",
+    "title": "Beyond frequency measures: Can contextual embeddings capture meaning change in scientific texts?",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.18804v1"
    }
   },
   "Synthetic Preference Data": {
@@ -32322,6 +32585,41 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.17019v1"
+   },
+   "2609.18262": {
+    "abs_url": "https://arxiv.org/abs/2609.18262",
+    "authors": [
+     "Yerim Oh",
+     "Gunhee Kim"
+    ],
+    "code_url": "https://github.com/yerimoh/REPAIR",
+    "comment": "Accepted to EMNLP 2026 (Main Conference). 30 pages, 5 figures, 20 tables. Code: https://github.com/yerimoh/REPAIR",
+    "first_seen": "2026-09-17",
+    "id": "2609.18262",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18262v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Precise retrieval of scientific information is fundamentally constrained by long-tailed concepts and high fact-sensitivity of scientific corpora. These challenges often limit the effectiveness of dense retrievers and hallucination-prone LLM augmentation. To address this, we present REPAIR, a self-evolving data augmentation framework for scientific dense retrievers. REPAIR iteratively synthesizes training data to address knowledge gaps by cycling through diagnosis of long-tail concepts, API-guided evidence expansion, and differentiation via hard negative mining. This process effectively grounds retrieval in factual reality to resolve fine-grained distinctions. Extensive experiments demonstrate that REPAIR significantly outperforms 19 strong baselines on nine materials science and biomedical benchmarks. Our work highlights that diagnosing and factually augmenting data to long-tail deficits is essential for robust scientific retrieval.",
+    "tier": "top",
+    "title": "REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement",
+    "track": "main",
+    "updated": "2026-09-16",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to EMNLP 2026 (Main Conference). 30 pages, 5 figures, 20 tables. Code: https://github.com/yerimoh/REPAIR",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.18262v1"
    }
   },
   "Text Quality Evaluation": {
@@ -37684,14 +37982,14 @@
      "Kritika Srivastava"
     ],
     "code_url": "",
-    "comment": "Extends LLM-as-a-Judge to voice agents across telecom and retail, testing GPT-4.1 and GPT-5 against human raters across 10 safety and efficiency metrics. A correlation-based calibration analysis reveals domain-dependent reliability and identifies Recovery Turn Count and safety-recall metrics as unreliable for fully automated judging",
+    "comment": "Extends LLM-as-a-Judge to voice agents across telecom and retail, testing GPT-4.1, GPT-5 and Claude against human raters across 10 safety and efficiency metrics. A correlation-based calibration analysis reveals domain-dependent reliability and identifies Recovery Turn Count and safety-recall metrics as unreliable for fully automated judging",
     "first_seen": "2026-08-26",
     "id": "2608.24314",
     "journal_ref": "",
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.24314v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.24314v2",
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
@@ -37705,12 +38003,12 @@
     "tier": "none",
     "title": "Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight",
     "track": "",
-    "updated": "2026-08-25",
+    "updated": "2026-09-16",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.24314v1"
+    "version": "2608.24314v2"
    },
    "2608.24419": {
     "abs_url": "https://arxiv.org/abs/2608.24419",
@@ -40503,6 +40801,43 @@
     "venue_year": "",
     "version": "2609.12002v1"
    },
+   "2609.12086": {
+    "abs_url": "https://arxiv.org/abs/2609.12086",
+    "authors": [
+     "B. Sankar",
+     "Deepthika S",
+     "Pawni Yadav",
+     "Amogh A S"
+    ],
+    "code_url": "",
+    "comment": "59 pages, 22 figures, 24 tables",
+    "first_seen": "2026-09-17",
+    "id": "2609.12086",
+    "journal_ref": "",
+    "matched": [
+     "writing quality"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.12086v2",
+    "primary_category": "cs.HC",
+    "published": "2026-09-10",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Assistants built on large language models are expected to write in their users' own voice. Most systems summarise the user's preferences and include the summary in the prompt. This is the wrong way round. Preferences are only the surface of a person and change with the task, while the underlying personality stays the same, so storing preferences alone means relearning the user afresh whenever the task changes. This paper makes four contributions. First, we describe an effect we call personality seepage: the wording of a prompt carries traces of the writer's personality, which the assistant copies without knowing the writer. Second, we propose the Atomic User Model (AUM), a readable profile with a stable identity core surrounded by four layers covering psychological, cognitive, experiential, behavioral, and social details, plus notes on inner conflict and authenticity. Third, instead of inserting the entire profile, we use AUM as a searchable index, in which a task classifier, a selection step, and a budgeted retriever pass along only a few relevant fields. Fourth, we test the pipeline with 16 simulated users, 6 style-sensitive tasks, and 3 seeds. Eight retrieved fields matched the writing quality of the whole profile, while using only 23 percent of the context (211 tokens instead of 915). They scored 0.24 points higher than a plain preference note on a five-point scale. Accuracy in picking a user's own writing from four samples rose from 14.9 to 42.7 percent, where guessing gives 25 percent. Four pre-registered controls showed no effect, so the gain comes from the profile's structure rather than the search method. Personalization helps most for the users for whom a generic assistant imitates them the worst.",
+    "tier": "none",
+    "title": "Creating an Atomic User Model for Personality-Aware Large Language Model Interaction",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.12086v2"
+   },
    "2609.12191": {
     "abs_url": "https://arxiv.org/abs/2609.12191",
     "authors": [
@@ -41312,6 +41647,153 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.17306v1"
+   },
+   "2609.18005": {
+    "abs_url": "https://arxiv.org/abs/2609.18005",
+    "authors": [
+     "Jerry Kaplan"
+    ],
+    "code_url": "https://github.com/jerrykaplan/Calibrated-Instrument",
+    "comment": "23 Pages. 6 tables in main text,5 tables in appendices. Code, prompts, and result files at https://github.com/jerrykaplan/Calibrated-Instrument",
+    "first_seen": "2026-09-17",
+    "id": "2609.18005",
+    "journal_ref": "",
+    "matched": [
+     "llm as a judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18005v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language model optimization is an active research area, spanning quantization of model weights, early-exit methods for skipping layers, and speculative decoding. Each track uses its own quality measures, typically an idiosyncratic benchmark score. Few approach the measurement precision required by other scientific disciplines. We propose a rigorous methodology for measuring output quality, suitable for cross-system and cross-technique comparison. We score outputs with an LLM as a judge, but calibrate the judge formally: we compare its scores on two ordinary runs of a model given the same prompts, verifying that it shows no systematic preference between statistically equivalent outputs and measuring its per-sample noise. Each design also includes a 'null' condition, provably identical in distribution to the unmodified model, whose measured difference must be zero. With this one instrument we measure several acceleration techniques on the same prompts, so their quality costs can be compared. Perceived quality proves highly dependent on the domain of discourse. A 4-bit model was indistinguishable from its 16-bit original down to our design's +/-0.3-point resolution, in English prose and Chinese alike. At 3-bit precision the same prompts lost 0.5 points in English prose, 0.9 in Chinese, and 1.1 on multi-step math; early exit that cost 0.7 points on prose cost 2.5 on math, cutting correctly solved problems from 19 of 27 to 6. The pattern held for models from Alibaba and from Meta, but not its magnitude: the same quantizer cost Meta's model 1.8 points where it cost Alibaba's 0.7. A model's certainty about a token predicts how likely it is to differ from the full model's choice, but not how much that difference affects judged quality, so acceptance rules relying on certainty cannot distinguish errors that matter from errors that don't.",
+    "tier": "none",
+    "title": "A Calibrated Instrument for Measuring How Inference Optimizations Affect Output Quality",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.18005v1"
+   },
+   "2609.18204": {
+    "abs_url": "https://arxiv.org/abs/2609.18204",
+    "authors": [
+     "Zihan Chen",
+     "Di Zhu",
+     "Lei Zheng",
+     "Weiling Li"
+    ],
+    "code_url": "",
+    "comment": "11 pages, 4 figures, 3 tables. Accepted at the 60th Hawaii International Conference on System Sciences (HICSS)",
+    "first_seen": "2026-09-17",
+    "id": "2609.18204",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18204v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Organizations increasingly use oversight loops where one large language model (LLM) audits another's outputs alongside procedural traces of claimed steps. A common concern about such LLM-as-a-judge pipelines is that detailed traces make overseers gullible. Using signal detection theory, we audit five LLM overseers on 19 compliance tasks (4,551 analyzed judgments), varying only trace detail and evidence labeling. With disconfirming evidence always visible, error detection remains near ceiling. Instead, elaborate traces shift the decision criterion toward rejection, increasing false alarms in susceptible overseers. Without option labels, human-validated reason coding shows about 60% of false alarms cite an inability to tie evidence to its option. Labels eliminate this stated reason, yet residual rejection of correct work persists in those overseers and rises with trace detail. Procedural traces thus act as governance artifacts that shape oversight decisions. AI auditors should be evaluated by their decision criterion and false-alarm behavior, alongside accuracy.",
+    "tier": "none",
+    "title": "Beyond Accuracy: How Procedural Traces Shift the Decision Criterion of LLM Overseers",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.18204v1"
+   },
+   "2609.18249": {
+    "abs_url": "https://arxiv.org/abs/2609.18249",
+    "authors": [
+     "Dongding Lin",
+     "Jian Wang",
+     "Xiaoyan Zhao",
+     "Wenjie Li"
+    ],
+    "code_url": "https://github.com/DongdingLin/Re2A",
+    "comment": "EMNLP 2026 MainConference",
+    "first_seen": "2026-09-17",
+    "id": "2609.18249",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18249v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Real-world recommendation scenarios are commonly grounded in shared physical environments during user-recommender interactions. This motivates situated conversational recommendation (SCR), a complex task requiring recommender assistants to jointly reason over dialogue history, co-observed scenes, and in-scene item attributes. However, current approaches struggle with this setting due to two intertwined challenges: accurately understanding situated user preferences throughout the conversation and generating responses that simultaneously satisfy user needs and grounded situations. To this end, we propose Re2A, a framework that formulates SCR as a structured reason-then-align process. We introduce rubric-based preference reasoning, which uses automated rubrics to guide the model toward producing explicit preference states. Based on these states, we propose a preference-conditioned optimization to align response generation with dual objectives: user preference satisfaction and situation consistency. Extensive experiments on two SCR datasets demonstrate that Re2A consistently outperforms state-of-the-art methods, delivering more precise, context-aware conversational recommendations. Our code is available at https://github.com/DongdingLin/Re2A.",
+    "tier": "top",
+    "title": "Re2A: Situated Conversational Recommendation via Rubric-based Preference Reasoning and Alignment",
+    "track": "main",
+    "updated": "2026-09-16",
+    "venue": "EMNLP",
+    "venue_evidence": "EMNLP 2026 MainConference",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.18249v1"
+   },
+   "2609.18745": {
+    "abs_url": "https://arxiv.org/abs/2609.18745",
+    "authors": [
+     "Gabriel Bénédict",
+     "Melanie Buechler",
+     "Gerard Riera-Solà",
+     "Chloé de Ancos",
+     "Yves Gaetan Nana Teukam",
+     "Moritz Freidank"
+    ],
+    "code_url": "https://github.com/VisiumCH/editjumps",
+    "comment": "",
+    "first_seen": "2026-09-17",
+    "id": "2609.18745",
+    "journal_ref": "",
+    "matched": [
+     "evaluation metric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.18745v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-16",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Antibody lead optimization calls for a small, bounded set of edits to an existing candidate: substitutions, but also insertions and deletions. Edit-based generative models are the only ones that allocate such an edit budget without fixing the edit positions, the edit count, or the output length in advance. However, the existing approaches Edit Flows and EvoFlows did not release code or complete training specifications. Here, we show that both methods follow the same underlying process -- edits firing one at a time, at learned rates, in continuous time -- the pure-jump case of generator matching over finite sequences. With EditJumps we introduce the first open implementation of this framework, with a single generalist antibody editor trained on 1.66M Observed Antibody Space homolog pairs to propose homolog-like variants of a seed sequence, editing unseen leads zero-shot, without the per-family retraining original approaches require. Replicating this system from scratch exposes why open code is essential for generative biology: reconciling published edit distributions required reverse-engineering an undocumented rate-scaling hyperparameter that dictates realized mutation counts. Moreover, we show that published evaluation metrics are highly sensitive to reference sample size, frequently flipping method rankings. We release our full codebase, automated test suite, and configurations at: https://github.com/VisiumCH/editjumps",
+    "tier": "none",
+    "title": "When Edit Flows are Edit Jumps: replicating Edit Flows and EvoFlows",
+    "track": "",
+    "updated": "2026-09-16",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.18745v1"
    }
   },
   "Writing Agent": {
@@ -48681,6 +49163,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.15207v1"
+   },
+   "2609.17883": {
+    "abs_url": "https://arxiv.org/abs/2609.17883",
+    "authors": [
+     "Eduardo Davalos",
+     "Yike Zhang"
+    ],
+    "code_url": "",
+    "comment": "10 pages, 4 figures, 2 tables, submitted to AHFE 2026 Hawaii Edition",
+    "first_seen": "2026-09-17",
+    "id": "2609.17883",
+    "journal_ref": "",
+    "matched": [
+     "co-writing",
+     "AI-assisted writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.17883v1",
+    "primary_category": "cs.HC",
+    "published": "2026-09-15",
+    "s2": {
+     "checked": "2026-09-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The rapid adoption of generative AI has made final artifacts unreliable evidence of student learning, and AI detectors that examine only the finished product are inaccurate and ethically contentious. Process data offers an alternative, but prior work covers only English essay writing. We ask whether AI assistance carries a temporal signature, whether it generalizes from writing to programming, and whether it distinguishes ordinary collaboration from wholesale delegation. We analyze three public corpora: CoAuthor (1,447 keystroke-level co-writing sessions), RealHumanEval (editor telemetry from 243 programmer records), and a pre-LLM CS1 corpus (5.1 million keystrokes) as a human-only baseline, comparing minimal-AI work, collaborative AI use, and simulated wholesale delegation. Three findings emerge. First, the signature generalizes: AI contributions arrive in bursts far outside the author's own baseline in both mediums (paired d_z = 1.13 and 3.54). Second, engagement diverges by medium: 93% of AI-inserted characters survived to writers' final documents, while only 14% of accepted code suggestions survived intact. Third, classifiers using only observable temporal features separate simulated delegation from authentic work nearly perfectly (F1 $\\geq$ 0.997; at most 0.5% of real work misclassified), while ordinary collaboration remains hard to distinguish from unassisted work. Temporal evidence flags wholesale delegation rather than assistance, positioning process visibility as a candidate evidentiary basis for academic integrity, pending validation in authentic coursework.",
+    "tier": "none",
+    "title": "Does AI Assistance Leave a Temporal Fingerprint? Detecting Overreliance in AI-Assisted Writing and Programming",
+    "track": "",
+    "updated": "2026-09-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.17883v1"
    }
   }
  }
