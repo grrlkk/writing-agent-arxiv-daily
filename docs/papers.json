@@ -2,23 +2,23 @@
  "meta": {
   "topics": {
    "Iterative Revision & Text Editing": 84,
-   "Korean Writing & NLP": 68,
-   "Reward & Value Models": 254,
+   "Korean Writing & NLP": 69,
+   "Reward & Value Models": 257,
    "Search & Control for Generation": 86,
-   "Self-Refine & Self-Correction": 104,
+   "Self-Refine & Self-Correction": 105,
    "Semantic Drift & Faithfulness": 95,
    "Synthetic Preference Data": 131,
-   "Text Quality Evaluation": 234,
+   "Text Quality Evaluation": 237,
    "Writing Agent": 185
   },
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "venue_tiers": {
    "demo": 2,
-   "findings": 39,
-   "none": 936,
+   "findings": 40,
+   "none": 942,
    "other": 15,
    "strong": 9,
-   "top": 124,
+   "top": 125,
    "workshop": 36
   }
  },
@@ -43,7 +43,7 @@
     "primary_category": "cs.CY",
     "published": "2025-05-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -123,7 +123,7 @@
     "primary_category": "cs.CL",
     "published": "2025-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -238,7 +238,7 @@
     "primary_category": "cs.CL",
     "published": "2025-07-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -275,7 +275,7 @@
     "primary_category": "cs.LG",
     "published": "2025-07-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -316,7 +316,7 @@
     "primary_category": "cs.CY",
     "published": "2025-08-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -354,7 +354,7 @@
     "primary_category": "cs.AI",
     "published": "2025-08-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -554,7 +554,7 @@
     "primary_category": "cs.CL",
     "published": "2025-11-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -591,7 +591,7 @@
     "primary_category": "cs.AI",
     "published": "2025-12-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -674,7 +674,7 @@
     "primary_category": "cs.CL",
     "published": "2025-12-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -800,7 +800,7 @@
     "primary_category": "cs.CV",
     "published": "2025-12-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -911,11 +911,11 @@
     "primary_category": "cs.CL",
     "published": "2026-01-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "European Association for Machine Translation Conferences/Workshops",
      "year": 2026
     },
     "status": "unknown",
@@ -1026,7 +1026,7 @@
     "primary_category": "cs.CL",
     "published": "2026-01-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -1108,7 +1108,7 @@
     "primary_category": "cs.CL",
     "published": "2026-02-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1149,7 +1149,7 @@
     "primary_category": "cs.LG",
     "published": "2026-03-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1229,7 +1229,7 @@
     "primary_category": "cs.AI",
     "published": "2026-03-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -1270,11 +1270,11 @@
     "primary_category": "cs.HC",
     "published": "2026-04-21",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Digital Journalism",
      "year": 2026
     },
     "status": "unknown",
@@ -1316,7 +1316,7 @@
     "primary_category": "cs.CV",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1355,7 +1355,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1399,7 +1399,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1442,7 +1442,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1480,7 +1480,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1527,7 +1527,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1566,7 +1566,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -1608,7 +1608,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1651,7 +1651,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -1699,8 +1699,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -1749,8 +1751,9 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -1789,8 +1792,10 @@
     "primary_category": "cs.SD",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -1867,8 +1872,10 @@
     "primary_category": "cs.IR",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -1904,8 +1911,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -1946,8 +1955,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -1980,8 +1991,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -2017,8 +2030,10 @@
     "primary_category": "cs.SD",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -2057,8 +2072,9 @@
     "primary_category": "cs.AI",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -2098,8 +2114,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -2137,8 +2155,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -2173,8 +2193,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -2209,8 +2231,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -2245,8 +2269,9 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -2285,7 +2310,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -2322,7 +2347,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -2356,7 +2381,7 @@
     "primary_category": "cs.HC",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -2394,7 +2419,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -2435,7 +2460,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -2474,7 +2499,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -2517,7 +2542,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -2556,7 +2581,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -2606,7 +2631,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -4015,7 +4040,7 @@
     "primary_category": "cs.CL",
     "published": "2023-06-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4053,7 +4078,7 @@
     "primary_category": "cs.CL",
     "published": "2023-06-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4138,7 +4163,7 @@
     "primary_category": "cs.CL",
     "published": "2023-10-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2023
@@ -4174,7 +4199,7 @@
     "primary_category": "cs.CL",
     "published": "2023-11-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4213,7 +4238,7 @@
     "primary_category": "cs.CL",
     "published": "2023-11-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4259,7 +4284,7 @@
     "primary_category": "cs.CL",
     "published": "2023-11-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4297,7 +4322,7 @@
     "primary_category": "cs.CL",
     "published": "2023-12-19",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4380,7 +4405,7 @@
     "primary_category": "cs.CL",
     "published": "2024-02-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4657,7 +4682,7 @@
     "primary_category": "cs.CL",
     "published": "2024-07-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4708,7 +4733,7 @@
     "primary_category": "cs.CY",
     "published": "2024-06-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4745,7 +4770,7 @@
     "primary_category": "cs.CL",
     "published": "2024-07-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4830,7 +4855,7 @@
     "primary_category": "cs.CL",
     "published": "2024-08-21",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -4980,7 +5005,7 @@
     "primary_category": "cs.CL",
     "published": "2025-02-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5057,7 +5082,7 @@
     "primary_category": "cs.CL",
     "published": "2025-03-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5101,9 +5126,11 @@
     "primary_category": "cs.CE",
     "published": "2025-03-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
-     "venue": "",
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "International Conference on Language Resources and Evaluation",
      "year": 2025
     },
     "status": "accepted",
@@ -5138,7 +5165,7 @@
     "primary_category": "cs.CL",
     "published": "2025-05-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5186,7 +5213,7 @@
     "primary_category": "cs.CL",
     "published": "2025-05-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5225,7 +5252,7 @@
     "primary_category": "cs.CL",
     "published": "2025-05-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5503,7 +5530,7 @@
     "primary_category": "cs.CL",
     "published": "2025-09-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5542,7 +5569,7 @@
     "primary_category": "cs.CL",
     "published": "2025-09-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5581,7 +5608,7 @@
     "primary_category": "cs.CL",
     "published": "2025-10-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5625,7 +5652,7 @@
     "primary_category": "cs.CL",
     "published": "2025-10-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5709,7 +5736,7 @@
     "primary_category": "cs.CV",
     "published": "2026-01-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5810,7 +5837,7 @@
     "primary_category": "cs.CL",
     "published": "2026-01-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5847,7 +5874,7 @@
     "primary_category": "cs.CL",
     "published": "2026-01-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5885,7 +5912,7 @@
     "primary_category": "cs.CY",
     "published": "2026-02-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -5967,7 +5994,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -6050,7 +6077,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -6130,7 +6157,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -6258,8 +6285,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6309,6 +6338,52 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2608.30229v1"
+   },
+   "2609.19916": {
+    "abs_url": "https://arxiv.org/abs/2609.19916",
+    "authors": [
+     "Soha Lee",
+     "Soojin Lee",
+     "Heesung Yang",
+     "Hyunju Song",
+     "Hyunji Lee",
+     "Jinsan An",
+     "Jeongwan Shin",
+     "Jin Hyun Park",
+     "Jun Lee",
+     "Hyeyoung Park",
+     "Kilim Nam"
+    ],
+    "code_url": "https://github.com/bcmilab/ko-neobench",
+    "comment": "Accepted to Findings of EMNLP 2026. Code and data are available at the project repository",
+    "first_seen": "2026-09-18",
+    "id": "2609.19916",
+    "journal_ref": "",
+    "matched": [
+     "korean benchmark"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.19916v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-18",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Large language models (LLMs) are typically evaluated on static benchmarks, even though natural language constantly evolves through newly emerging words and meanings. Existing Korean benchmarks are centered on established vocabulary and therefore provide limited coverage of such recent lexical change, and their English-oriented design makes it difficult to assess the typological properties of Korean, in which content words combine productively with functional morphemes. In this paper, we introduce KoNeoBench, a benchmark for evaluating LLMs' understanding of Korean neologisms. KoNeoBench is built on 1,785 Korean neologisms attested in online news since 2020 and curated through expert lexicographic review. Each entry provides usage examples, word-formation analyses, and dictionary-style definitions. Based on this resource, we define four tasks and report results on recent models, together with a human baseline. Our experiments show that current LLMs exhibit clear limitations in recovering source components, distinguishing semantic categories, and generating accurate definitions. These results reveal specific aspects of recent Korean lexical change that remain challenging for current LLMs. KoNeoBench is available at https://github.com/bcmilab/ko-neobench/ .",
+    "tier": "findings",
+    "title": "KoNeoBench: A Curated Evaluation Dataset for LLM Understanding of Korean Neologisms",
+    "track": "findings",
+    "updated": "2026-09-17",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted to Findings of EMNLP 2026. Code and data are available at the project repository",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.19916v1"
    }
   },
   "Reward & Value Models": {
@@ -6339,8 +6414,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6375,8 +6452,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6412,8 +6491,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6450,8 +6531,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6488,8 +6571,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6523,8 +6608,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6559,8 +6646,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6597,8 +6686,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6633,8 +6724,10 @@
     "primary_category": "cs.CY",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6668,8 +6761,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6751,8 +6846,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6791,8 +6888,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6827,8 +6926,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6868,8 +6969,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6908,8 +7011,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6951,8 +7056,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6985,8 +7092,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7021,8 +7130,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7064,9 +7175,12 @@
     "primary_category": "cs.AI",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
-     "venue": "",
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
      "year": 2026
     },
     "status": "accepted",
@@ -7076,8 +7190,8 @@
     "track": "main",
     "updated": "2026-07-22",
     "venue": "IJCAI",
-    "venue_evidence": "9 pages, 7 figures, accepted by IJCAI 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2607.19962v1"
    },
@@ -7108,8 +7222,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7145,8 +7261,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7189,8 +7307,9 @@
     "primary_category": "cs.RO",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -7230,8 +7349,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7274,8 +7395,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7311,8 +7434,10 @@
     "primary_category": "cs.HC",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7347,8 +7472,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7384,8 +7511,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7420,8 +7549,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7456,8 +7587,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7504,8 +7637,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7542,8 +7677,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7576,8 +7713,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7610,8 +7749,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7651,8 +7792,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7690,8 +7833,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7737,8 +7882,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7774,8 +7921,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7815,8 +7964,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7859,8 +8010,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7916,8 +8069,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7952,8 +8107,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-25",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7989,8 +8146,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -8025,8 +8184,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -8066,8 +8227,10 @@
     "primary_category": "cs.HC",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -8105,8 +8268,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -8142,8 +8307,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -8181,7 +8348,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8217,7 +8384,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8254,7 +8421,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8293,7 +8460,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -8329,7 +8496,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8365,7 +8532,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8404,7 +8571,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8441,7 +8608,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8479,7 +8646,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8517,7 +8684,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8557,7 +8724,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8598,7 +8765,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8638,7 +8805,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8677,7 +8844,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8714,7 +8881,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8752,7 +8919,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8797,7 +8964,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8833,7 +9000,7 @@
     "primary_category": "cs.GT",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8873,7 +9040,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8913,7 +9080,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8949,7 +9116,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8995,7 +9162,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9032,7 +9199,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -9072,7 +9239,7 @@
     "primary_category": "cs.IR",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9108,7 +9275,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9144,7 +9311,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9183,7 +9350,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9226,7 +9393,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9279,7 +9446,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9359,7 +9526,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -9398,7 +9565,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9433,7 +9600,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9469,7 +9636,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9506,7 +9673,7 @@
     "primary_category": "cs.IR",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9554,7 +9721,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9591,7 +9758,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9634,7 +9801,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9672,7 +9839,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9708,7 +9875,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9745,7 +9912,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9784,7 +9951,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9819,7 +9986,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9853,7 +10020,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9890,7 +10057,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9929,7 +10096,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9971,7 +10138,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10015,7 +10182,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10062,7 +10229,7 @@
     "primary_category": "cs.SD",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10099,7 +10266,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10141,7 +10308,7 @@
     "primary_category": "stat.ML",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10179,7 +10346,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10219,7 +10386,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10253,7 +10420,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10295,7 +10462,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10334,7 +10501,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10370,7 +10537,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10407,7 +10574,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10449,7 +10616,7 @@
     "primary_category": "cs.IR",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10493,7 +10660,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10529,7 +10696,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10573,10 +10740,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "We demonstrate that RL finetuning an LLM using debate, a two-player adversarial game between a generator and a critic adjudicated by a weaker LLM judge, reduces reward hacking compared to a reinforcement learning from AI feedback (RLAIF) baseline. Reward hacking is a central obstacle in RLAIF: as training progresses, the policy learns to exploit systematic errors in its AI judge, degrading task performance, a problem that worsens precisely when the judge is weaker than the policy, the setting most relevant to overseeing increasingly capable AI systems. We study mathematics tasks, where final-answer correctness is verifiable, allowing us to measure reward hacking dynamics. We train a Gemini~2.5 Flash-class policy with a frozen, weaker Gemini~2.5 Flash Lite judge, comparing a single-player RLAIF baseline against debate. While the baseline quickly hacks the judge, debate maintains judge performance throughout training, leading to a higher peak validation accuracy (45\\% performance gap recovered) that persists through many RL steps. Additional experiments show that: 1) further weakening the judge leads to faster hacking, but this can be compensated by adding an additional debate round; 2) debate incentives override prompted misalignment; 3) RL using an LLM judge has a smaller train/validation reward gap than RL from verifiable rewards; 4) learning to critique to convince the judge using ground truth labels is possible but slow. Taken together, our results are a positive update on the feasibility of debate, while highlighting that balancing multi-agent training is critical: without player constraints, adversarial training risks defaulting to critic judge-hacking. We show that critique word limits (effective up to 150 words) successfully balance the game and avoid judge hacking, though this introduces a trade-off by restricting critic expressive clarity.",
@@ -10613,10 +10780,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Text-to-SQL systems are commonly evaluated using ground-truth SQL queries or reference execution results, but such supervision is unavailable at inference time in real-world deployments. This creates a critical verification problem: given only a user question, database context, and generated SQL, can a system estimate whether the generated query is likely to correctly answer the question? Recent approaches use LLMs as judge or specialized agents to inspect generated SQL, but their decisions can be difficult to trace. Outcome Reward Models (ORMs) address this by learning from execution-labeled candidate SQLs and assigning correctness scores to unseen queries, yet they still provide limited visibility into the signals behind each verification. To address this limitation, we propose TraceSQL, a lightweight and traceable verification model built on explicit diagnostic features. TraceSQL combines 67 features capturing question ambiguity, question requirements, question-schema-SQL consistency, SQL structure, and intent alignment. These signals remain available for examining which factors influence each prediction and for tracing decisions back to diagnostic evidence. On BIRD development databases, TraceSQL achieves 66.47% F1 and 64.48% ROC-AUC, compared with 61.87% F1 and 58.26% ROC-AUC for the GradeSQL-7B ORM baseline on the same generated-SQL evaluation. Feature attribution further shows that the model relies on both semantic grounding and deterministic SQL-structure signals. These results show that SQL verification can be performed with a lightweight learned model while retaining feature-level evidence for inspecting and diagnosing its predictions.",
@@ -14522,7 +14689,7 @@
      "reward model",
      "bradley-terry"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.08082v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08082v2",
     "primary_category": "cs.AI",
     "published": "2026-09-08",
     "s2": {
@@ -14536,12 +14703,12 @@
     "tier": "none",
     "title": "Inference-Time Nash Alignment",
     "track": "",
-    "updated": "2026-09-08",
+    "updated": "2026-09-16",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.08082v1"
+    "version": "2609.08082v2"
    },
    "2609.08188": {
     "abs_url": "https://arxiv.org/abs/2609.08188",
@@ -16352,6 +16519,126 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.19144v1"
+   },
+   "2609.19827": {
+    "abs_url": "https://arxiv.org/abs/2609.19827",
+    "authors": [
+     "Bojian Xiong",
+     "Wentao Ding",
+     "Yujing Lu",
+     "Shaowei Zhang",
+     "Ling Shi",
+     "Jing Liao",
+     "Yan Wang",
+     "Yueyang Zhang",
+     "Long Xia",
+     "Zhiyuan Sun",
+     "Daiting Shi",
+     "Jingzhou He",
+     "Yuqi Ren",
+     "Deyi Xiong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-18",
+    "id": "2609.19827",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.19827v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-18",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "With the widespread industrial deployment of Large Language Models (LLMs), DeepSearch has emerged as the dominant paradigm for resolving complex user queries. It typically operates through an iterative closed-loop workflow consisting of planning and reflection, information retrieval, and answer generation. However, existing reward models (RMs) and evaluation benchmarks are primarily designed for static single-turn tasks, failing to capture the full-pipeline complexity of DeepSearch workflows. To address this limitation, we propose F2DR, a fine-grained full-pipeline DeepSearch reward framework. F2DR evaluates DeepSearch workflows across three dimensions: Content, Trajectory, and Answer, enabling comprehensive process-level assessment. We further construct DeepSearch RM-Bench, a dedicated benchmark for evaluating RMs in DeepSearch scenarios. Extensive experiments demonstrate that F2DR achieves significantly higher evaluation consistency than self-evaluation-based baselines, while DeepSearch RM-Bench exhibits strong discriminative capability across existing open-source RMs. We will publicly release the complete DeepSearch RM-Bench dataset soon.",
+    "tier": "none",
+    "title": "F$^{2}$DR: A Fine-Grained Full-Pipeline Reward Framework for DeepSearch Workflows",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.19827v1"
+   },
+   "2609.20124": {
+    "abs_url": "https://arxiv.org/abs/2609.20124",
+    "authors": [
+     "Zifan Guan",
+     "Longyu Lu",
+     "Junan Zhang",
+     "Zhizheng Wu",
+     "Meiguang Jin",
+     "Junfeng Ma"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-18",
+    "id": "2609.20124",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.20124v1",
+    "primary_category": "cs.SD",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-18",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Evaluating live streaming speech synthesis (TTS) requires assessing fine-grained, highly expressive prosody such as emotion, intonation, and energy which traditional MOS predictors fail to capture. While proprietary Large Language Models (LLMs) like Gemini can evaluate these aspects, they are too costly for massive inference and reinforcement learning feedback. To address this, we first introduce Live-ProsodyJudge (LPJ), a cost-effective pairwise evaluator distilled from Gemini into Qwen3-Omni. However, we identify a critical flaw in standard multi-dimensional evaluation: verdict coupling. The judge tends to lazily align all individual dimension scores with its overall preference, collapsing a rich multi-dimensional rubric into a single preference bit. To resolve this, we further propose Decoupled-Live-ProsodyJudge (D-LPJ). D-LPJ eliminates the overall verdict target to prevent blind following, masks uncertain pair-dimensions during Supervised Fine-Tuning(SFT), and introduces a novel span-local GRPO strategy that applies normalized advantages strictly to their corresponding rationale spans. Evaluated on highly curated human-annotated test sets, 10 sample balanced-order LPJ achieves higher point accuracy than a single Gemini call, while D-LPJ successfully produces independent,decoupled dimension judgments. Furthermore, in a Best-of-8 TTS candidate selection tournament, the LPJ-selected utterance falls within the human top-3 in 85.29% of high-confidence cases, demonstrating its efficacy for fine-grained TTS preference optimization.",
+    "tier": "none",
+    "title": "Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.20124v1"
+   },
+   "2609.20712": {
+    "abs_url": "https://arxiv.org/abs/2609.20712",
+    "authors": [
+     "Levent Bulut"
+    ],
+    "code_url": "",
+    "comment": "v1.1. 8 pages. Also archived at Zenodo: https://doi.org/10.5281/zenodo.22817289",
+    "first_seen": "2026-09-18",
+    "id": "2609.20712",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.20712v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-18",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This paper introduces and operationalizes summarization bias: a proposed systematic tendency of large language models (LLMs) to represent narrative meaning as an abstract summary label rather than as the reconstructable inferential structure that produces it. Within the Bulut Doctrine, narrative effect is theorized along a told-shown axis: in told mode, emotional and informational content is declared explicitly and requires little reader reconstruction; in shown mode, that content is suppressed at the surface and must be reconstructed from physical cues and indirection (Objective Projection). Shown mode is the higher-load condition the doctrine is designed to measure. The claim is that LLMs fail along this axis in a specific direction. Summarization bias is hypothesized to operate in two regimes: (i) a generative regime, in which a model asked to render an emotion through Objective Projection defaults to declaring it instead; and (ii) an evaluative regime, in which a model judging narrative quality rewards told-mode explicitness and under-detects shown-mode suppression. The evaluative regime is the more consequential, since LLMs increasingly serve as judges and reward models, and a directional bias toward told mode would impose a selection pressure degrading prose toward flat declaration. This report does not claim the bias is validated. It defines the construct, situates it against LLM-as-judge biases, rereads a completed independent reliability study as directional evidence consistent with it, and pre-registers a two-regime test with decision rules under which the construct would be abandoned.",
+    "tier": "none",
+    "title": "Summarization Bias: The Directional Collapse of Objective Projection into Told-Mode Labels in Large Language Models --- A Conceptual Framework and Registered Test Protocol",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.20712v1"
    }
   },
   "Search & Control for Generation": {
@@ -16374,7 +16661,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -16409,7 +16696,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16447,7 +16734,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16485,7 +16772,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16524,7 +16811,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16561,7 +16848,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16603,7 +16890,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16645,7 +16932,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16685,7 +16972,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16722,7 +17009,7 @@
     "primary_category": "cs.SE",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16765,7 +17052,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16804,7 +17091,7 @@
     "primary_category": "cs.GR",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16846,7 +17133,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16885,7 +17172,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16928,7 +17215,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -16972,7 +17259,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17008,7 +17295,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17054,7 +17341,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -17094,7 +17381,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17135,7 +17422,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17173,7 +17460,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17215,7 +17502,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17252,7 +17539,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17292,7 +17579,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17333,7 +17620,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17373,7 +17660,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17416,7 +17703,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -17453,7 +17740,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17490,7 +17777,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17528,7 +17815,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -17571,8 +17858,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17608,8 +17897,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17647,8 +17938,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17684,8 +17977,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17721,8 +18016,9 @@
     "primary_category": "cs.SE",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -17761,8 +18057,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17797,8 +18095,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17832,8 +18132,10 @@
     "primary_category": "cs.SE",
     "published": "2026-07-10",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17875,8 +18177,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17917,8 +18221,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -17954,11 +18260,13 @@
     "primary_category": "cs.LG",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
+      "Conference",
       "Review"
      ],
-     "venue": "",
+     "venue": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
      "year": 2026
     },
     "status": "accepted",
@@ -17968,8 +18276,8 @@
     "track": "main",
     "updated": "2026-07-14",
     "venue": "IJCAI",
-    "venue_evidence": "Accepted at IJCAI-ECAI 2026 (Survey Track)",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2607.12829v1"
    },
@@ -17999,8 +18307,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -18035,8 +18345,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -18103,8 +18415,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -18141,8 +18455,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -18217,8 +18533,10 @@
     "primary_category": "cs.AI",
     "published": "2026-06-12",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -18257,8 +18575,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -18296,8 +18616,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -18332,8 +18654,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -18368,7 +18692,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18405,7 +18729,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18441,7 +18765,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18484,7 +18808,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18524,7 +18848,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18560,7 +18884,7 @@
     "primary_category": "cs.GT",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18596,7 +18920,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18633,7 +18957,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18667,7 +18991,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18702,7 +19026,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18743,7 +19067,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18777,7 +19101,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18814,7 +19138,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -18850,7 +19174,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -19709,7 +20033,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -19755,7 +20079,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -19795,7 +20119,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -19835,10 +20159,8 @@
     "primary_category": "cs.AI",
     "published": "2026-06-28",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-09-18",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -19872,7 +20194,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -19913,7 +20235,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -19950,7 +20272,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -19994,7 +20316,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -20030,7 +20352,7 @@
     "primary_category": "cs.SE",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -20068,7 +20390,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -20148,8 +20470,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20190,8 +20514,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20236,8 +20562,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20276,8 +20604,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20317,8 +20647,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20365,8 +20697,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20407,8 +20741,10 @@
     "primary_category": "cs.SE",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20444,8 +20780,9 @@
     "primary_category": "cs.AI",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -20481,8 +20818,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20520,8 +20859,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-10",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20569,8 +20910,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20603,8 +20946,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20637,8 +20982,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-11",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20716,8 +21063,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20756,8 +21105,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20795,8 +21146,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20834,8 +21187,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20874,8 +21229,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20914,8 +21271,10 @@
     "primary_category": "cs.SE",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20954,8 +21313,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -20990,8 +21351,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21024,8 +21387,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21058,8 +21423,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21096,8 +21463,10 @@
     "primary_category": "cs.CR",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21137,8 +21506,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21175,8 +21546,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21221,8 +21594,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21256,8 +21631,9 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -21297,8 +21673,10 @@
     "primary_category": "cs.AI",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21331,8 +21709,9 @@
     "primary_category": "cs.SE",
     "published": "2026-07-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -21372,8 +21751,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21413,8 +21794,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21457,8 +21840,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21496,8 +21881,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21535,8 +21922,10 @@
     "primary_category": "cs.IR",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21575,8 +21964,10 @@
     "primary_category": "cs.SE",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21610,8 +22001,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21651,8 +22044,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21693,8 +22088,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21750,8 +22147,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21785,8 +22184,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21821,8 +22222,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21859,8 +22262,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21898,8 +22303,10 @@
     "primary_category": "cs.RO",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -21935,7 +22342,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -21974,7 +22381,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22014,7 +22421,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22051,7 +22458,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22093,7 +22500,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22131,7 +22538,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22168,7 +22575,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22203,7 +22610,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22242,7 +22649,7 @@
     "primary_category": "cs.SE",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22279,7 +22686,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22313,7 +22720,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -22351,7 +22758,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22390,7 +22797,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22426,7 +22833,7 @@
     "primary_category": "eess.SY",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22466,7 +22873,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22508,7 +22915,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -22547,7 +22954,7 @@
     "primary_category": "cs.MA",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22581,7 +22988,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22620,7 +23027,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22657,7 +23064,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22697,7 +23104,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -22738,7 +23145,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -22775,10 +23182,12 @@
     "primary_category": "cs.SE",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "Review"
+     ],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Existing LLM-based approaches to Architecture Decision Record (ADR) generation share a critical and largely unexamined assumption: that input is already reasonably structured. In practice, architectural decisions emerge from informal, noisy meetings where choices are implicit, fragmented, and entangled with off-topic dialogue, precisely the conditions under which single-pass prompting degrades. This paper presents GADR, a multi-agent, self-correcting workflow that extracts architectural decisions from raw meeting transcriptions and generates Nygard-formatted ADR drafts. A feasibility study comprising five real project meeting transcripts, expert review by four senior architects, and evaluation by fifteen students provides initial evidence that the agentic workflow captures most expert-identified decisions and produces drafts participants found clear and useful, outperforming zero-shot and few-shot baselines in stability and structural adherence. The study also addresses the underexplored trade-off of RAG-based enrichment improving ADR depth while simultaneously risking transcript-unfaithful content, raising open questions about traceability in automated architectural documentation that we believe is worth the community's attention.",
@@ -23765,6 +24174,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.15851v1"
+   },
+   "2609.19156": {
+    "abs_url": "https://arxiv.org/abs/2609.19156",
+    "authors": [
+     "Qirui Chen",
+     "Renjie Pi",
+     "Jiahui Gao",
+     "Lingpeng Kong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-18",
+    "id": "2609.19156",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.19156v1",
+    "primary_category": "cs.CL",
+    "published": "2026-07-24",
+    "s2": {
+     "checked": "2026-09-18",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Data-driven fine-tuning is widely adopted to enhance reasoning in Large Language Models (LLMs) due to its simplicity and efficiency. However, mainstream imitation learning methods that rely exclusively on perfect reasoning trajectories suffer from a Scaling Collapse: when the problem set is limited, increasing positive examples fails to yield continuous improvement. However, during inference, an LLM can not guarantee that every intermediate step is correct and is therefore prone to errors. Once such errors arise, the LLM often struggles to recover and may be further misled by the accumulation of previous mistakes. To address this, we propose Reflective Recovery, a simple yet effective self-supervised approach that transforms failed reasoning attempts into recovery training data. Specifically, we extract initial segments of failed trajectories, concatenate them with prompts, and use them to guide the LLM toward valid solutions. Because these segments from failed trajectories are likely to contain errors, this process teaches models to recognize and correct mistakes during reasoning, enabling recovery from erroneous states without relying on external critics or reward models. Evaluated on extensive benchmarks, Reflective Recovery significantly improves performance. On DeepSeek-R1-Distill-Qwen-7B, it boosts accuracy from 30.0% to 37.5% on AIME 2025 and from 37.6% to 47.8% on Minerva. More importantly, analyses demonstrate that it breaks the scaling collapse barrier and enables models to develop emergent self-correction behaviors, representing a paradigm shift from outcome-oriented memorization to process-oriented reflective reasoning.",
+    "tier": "none",
+    "title": "Reflective Recovery: A Self-Supervised Method for Reasoning by Learning from Mistakes",
+    "track": "",
+    "updated": "2026-07-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.19156v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -23950,7 +24397,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -23992,7 +24439,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24043,7 +24490,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24083,7 +24530,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24120,7 +24567,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24158,7 +24605,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -24240,7 +24687,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24282,7 +24729,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24318,7 +24765,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24359,7 +24806,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24403,7 +24850,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24487,7 +24934,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24568,7 +25015,7 @@
     "primary_category": "cs.IR",
     "published": "2026-04-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24614,7 +25061,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-21",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24654,7 +25101,7 @@
     "primary_category": "cs.CR",
     "published": "2026-05-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24701,7 +25148,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24743,7 +25190,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24784,7 +25231,7 @@
     "primary_category": "cs.SE",
     "published": "2026-05-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24824,7 +25271,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24862,7 +25309,7 @@
     "primary_category": "cs.LO",
     "published": "2026-05-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24899,7 +25346,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24939,7 +25386,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -24975,7 +25422,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25013,7 +25460,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25050,7 +25497,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25086,7 +25533,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25126,7 +25573,7 @@
     "primary_category": "cs.CR",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25167,7 +25614,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25215,7 +25662,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25252,7 +25699,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25293,7 +25740,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25329,7 +25776,7 @@
     "primary_category": "cs.CR",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25366,7 +25813,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25408,7 +25855,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -25489,8 +25936,10 @@
     "primary_category": "cs.HC",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25530,8 +25979,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25569,8 +26020,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25641,8 +26094,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25679,8 +26134,10 @@
     "primary_category": "cs.IR",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25719,8 +26176,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25756,8 +26215,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25792,8 +26253,10 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25826,8 +26289,10 @@
     "primary_category": "cs.MA",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25861,8 +26326,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-25",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25895,8 +26362,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25929,8 +26398,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -25986,8 +26457,9 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -26031,8 +26503,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -26071,7 +26545,7 @@
     "primary_category": "cs.CR",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26108,7 +26582,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26144,7 +26618,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26183,7 +26657,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26219,7 +26693,7 @@
     "primary_category": "cs.SE",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26256,7 +26730,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26295,7 +26769,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26329,7 +26803,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26365,7 +26839,7 @@
     "primary_category": "cs.IR",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27494,7 +27968,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27535,7 +28009,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27576,7 +28050,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27615,7 +28089,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27709,7 +28183,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27749,7 +28223,7 @@
     "primary_category": "eess.AS",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27791,7 +28265,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27875,7 +28349,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27912,7 +28386,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -27991,7 +28465,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28030,7 +28504,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28070,7 +28544,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28115,7 +28589,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28156,7 +28630,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28197,7 +28671,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28283,7 +28757,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28321,7 +28795,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28358,7 +28832,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28410,7 +28884,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28450,7 +28924,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28486,7 +28960,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28523,7 +28997,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28562,7 +29036,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28599,7 +29073,7 @@
     "primary_category": "cs.SD",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28644,7 +29118,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28732,7 +29206,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28779,7 +29253,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28823,7 +29297,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28872,7 +29346,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -28948,7 +29422,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -29023,7 +29497,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -29063,7 +29537,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -29108,8 +29582,10 @@
     "primary_category": "cs.IR",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29146,8 +29622,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29186,8 +29664,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29226,8 +29706,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29261,8 +29743,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29301,8 +29785,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29339,8 +29825,9 @@
     "primary_category": "cs.CL",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -29377,8 +29864,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29412,8 +29901,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29450,8 +29941,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29489,8 +29982,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29530,8 +30025,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29567,8 +30064,10 @@
     "primary_category": "cs.MM",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29605,8 +30104,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29641,8 +30142,10 @@
     "primary_category": "cs.CY",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29704,8 +30207,10 @@
     "primary_category": "cs.IR",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29747,8 +30252,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29783,8 +30290,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29820,8 +30329,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29868,8 +30379,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29907,8 +30420,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -29943,8 +30458,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -30062,7 +30579,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30103,7 +30620,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30141,7 +30658,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30222,7 +30739,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30257,7 +30774,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30292,7 +30809,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30331,7 +30848,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30368,7 +30885,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30407,7 +30924,7 @@
     "primary_category": "cs.IR",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30452,7 +30969,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -30490,7 +31007,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30534,10 +31051,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "We demonstrate that RL finetuning an LLM using debate, a two-player adversarial game between a generator and a critic adjudicated by a weaker LLM judge, reduces reward hacking compared to a reinforcement learning from AI feedback (RLAIF) baseline. Reward hacking is a central obstacle in RLAIF: as training progresses, the policy learns to exploit systematic errors in its AI judge, degrading task performance, a problem that worsens precisely when the judge is weaker than the policy, the setting most relevant to overseeing increasingly capable AI systems. We study mathematics tasks, where final-answer correctness is verifiable, allowing us to measure reward hacking dynamics. We train a Gemini~2.5 Flash-class policy with a frozen, weaker Gemini~2.5 Flash Lite judge, comparing a single-player RLAIF baseline against debate. While the baseline quickly hacks the judge, debate maintains judge performance throughout training, leading to a higher peak validation accuracy (45\\% performance gap recovered) that persists through many RL steps. Additional experiments show that: 1) further weakening the judge leads to faster hacking, but this can be compensated by adding an additional debate round; 2) debate incentives override prompted misalignment; 3) RL using an LLM judge has a smaller train/validation reward gap than RL from verifiable rewards; 4) learning to critique to convince the judge using ground truth labels is possible but slow. Taken together, our results are a positive update on the feasibility of debate, while highlighting that balancing multi-agent training is critical: without player constraints, adversarial training risks defaulting to critic judge-hacking. We show that critique word limits (effective up to 150 words) successfully balance the game and avoid judge hacking, though this introduces a trade-off by restricting critic expressive clarity.",
@@ -32679,7 +33196,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -32757,7 +33274,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -32793,7 +33310,7 @@
     "primary_category": "cs.CY",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -32844,7 +33361,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -32881,7 +33398,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -32919,7 +33436,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -32961,7 +33478,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -33000,8 +33517,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33039,7 +33558,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -33082,8 +33601,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-05",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33117,11 +33638,12 @@
     "primary_category": "cs.SE",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
-     "venue": "",
+     "venue": "IEEE Access",
      "year": 2026
     },
     "status": "unknown",
@@ -33153,8 +33675,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33246,8 +33770,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33284,8 +33810,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33328,8 +33856,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33362,8 +33892,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33444,8 +33976,9 @@
     "primary_category": "cs.CL",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -33481,8 +34014,9 @@
     "primary_category": "cs.CL",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -33520,8 +34054,10 @@
     "primary_category": "cs.IR",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33556,8 +34092,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33594,8 +34132,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33630,8 +34170,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33704,8 +34246,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33749,8 +34293,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33785,8 +34331,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33822,8 +34370,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33861,8 +34411,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33897,8 +34449,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33932,8 +34486,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -33969,8 +34525,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34004,8 +34562,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34040,8 +34600,9 @@
     "primary_category": "cs.SE",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -34080,8 +34641,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34117,8 +34680,10 @@
     "primary_category": "cs.NI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34158,8 +34723,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34198,8 +34765,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34238,8 +34807,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34278,8 +34849,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34315,8 +34888,9 @@
     "primary_category": "cs.CR",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -34353,8 +34927,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34392,8 +34968,10 @@
     "primary_category": "cs.AI",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34433,8 +35011,10 @@
     "primary_category": "cs.AI",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34470,8 +35050,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34511,8 +35093,10 @@
     "primary_category": "cs.IR",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34547,8 +35131,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34589,8 +35175,10 @@
     "primary_category": "cs.IR",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34626,8 +35214,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34708,8 +35298,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34748,8 +35340,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34785,8 +35379,10 @@
     "primary_category": "cs.CV",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34823,8 +35419,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -34862,8 +35460,9 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -34901,7 +35500,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -34938,7 +35537,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -34977,7 +35576,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -35018,7 +35617,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35057,7 +35656,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35136,7 +35735,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35175,9 +35774,11 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
-     "venue": "",
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "International Conference on Language Resources and Evaluation",
      "year": 2026
     },
     "status": "accepted",
@@ -35212,7 +35813,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35251,7 +35852,7 @@
     "primary_category": "cs.CY",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35290,7 +35891,7 @@
     "primary_category": "cs.CY",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -35329,7 +35930,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35367,7 +35968,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35404,7 +36005,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35449,7 +36050,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -35489,7 +36090,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35529,7 +36130,7 @@
     "primary_category": "cs.SE",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35568,7 +36169,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35607,7 +36208,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35644,7 +36245,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35678,7 +36279,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35724,7 +36325,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35759,7 +36360,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35802,7 +36403,7 @@
     "primary_category": "cs.SE",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35849,7 +36450,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35890,7 +36491,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35969,7 +36570,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -36010,7 +36611,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36046,7 +36647,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36082,7 +36683,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -36125,7 +36726,7 @@
     "primary_category": "cs.DC",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36166,7 +36767,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36206,7 +36807,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36243,7 +36844,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36282,7 +36883,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36322,7 +36923,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36360,7 +36961,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36407,7 +37008,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36443,7 +37044,7 @@
     "primary_category": "cs.MM",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36481,7 +37082,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36520,7 +37121,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36559,7 +37160,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36600,7 +37201,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36642,7 +37243,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "Review"
      ],
@@ -36681,7 +37282,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36718,7 +37319,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36770,7 +37371,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36807,7 +37408,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36846,7 +37447,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36887,7 +37488,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36925,7 +37526,7 @@
     "primary_category": "cs.CR",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -36961,10 +37562,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Despite their widespread use, Large Language Models (LLMs) remain limited by a fundamental problem: the generation of plausible but false content, known as hallucinations. Most existing detection methods operate at the answer or sentence level, yet per-token detection is essential for localizing hallucinated spans and enabling fine-grained interventions. In this paper, we explore the use of the Mixture-of-Experts (MoE) paradigm to address this gap. In MoE architectures, a single forward pass activates a sparse subset of experts (i.e., distinct feedforward networks per layer) via a routing mechanism, producing internal signals (e.g., router entropy, expert disagreement, and expert usage patterns) that are unavailable in dense architectures and have not been previously exploited for hallucination detection. To this end, we introduce InnerExpert, the first method to leverage these MoE-specific signals for per-token hallucination detection. InnerExpert combines routing-level and standard transformer signals into compact per-token feature vectors, classified by a lightweight detector trained on labels produced by an LLM-as-a-judge pipeline, which enables continuous model updates without manual annotation. Our results show that InnerExpert outperforms existing methods across five datasets and two MoE architectures, achieving up to 0.91 answer-level and 0.76 token-level AUROC, while requiring only a single forward pass.",
@@ -37000,10 +37601,12 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "Review"
+     ],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulate this as a workspace-state contract: every view should be explicitly tied to a version of the evolving workspace state. Coding agents partly address this need through repository contracts for search, diffs, and tests, whereas an analogous contract is less explicit for PDFs, spreadsheets, slides, notebooks, and mixed-format project folders. We propose StagedWorkspace, a versioned workspace for knowledge-work agents. The workspace binds parsed records and review diffs to content hashes of the native files as they change. In fixed-harness ablations on OfficeQA Pro and APEX-Agents, dual parsed/native access has the highest point estimate for every tested model; relative to the more limiting single view, it improves OfficeQA Pass@1 by 8.3-12.1 points and APEX mean rubric score by 4.7-9.2 points. SW-AGENT scores 63.9% with Gemini 3.1 Pro on OfficeQA and 42.1 with GPT-5.4 Nano on APEX, compared with published same-model scores of 29.3% and 25.5, respectively. A paired review-axis ablation on 57 file-editing tasks further finds higher observed scores when diffs are visible. These results identify workspace state as an experimental variable in knowledge-work agents and motivate benchmarks that score evidence, staged edits, and submitted artifacts as explicit state transitions.",
@@ -40440,15 +41043,15 @@
      "Zhenyu Ma",
      "Wenhui Dong"
     ],
-    "code_url": "https://github.com/zhonganbi102-netizen/HAE-GEO",
-    "comment": "36 pages, 9 figures, and 10 tables. Code and benchmark: https://github.com/zhonganbi102-netizen/HAE-GEO",
+    "code_url": "https://github.com/ant-research/HAE-GEO",
+    "comment": "36 pages, 9 figures, and 10 tables. Code and benchmark: : https://github.com/ant-research/HAE-GEO/tree/main",
     "first_seen": "2026-09-09",
     "id": "2609.06027",
     "journal_ref": "",
     "matched": [
      "rubric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.06027v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.06027v2",
     "primary_category": "cs.CR",
     "published": "2026-09-05",
     "s2": {
@@ -40462,12 +41065,12 @@
     "tier": "none",
     "title": "Evaluating Deep-Search Agents under Hierarchical Web Evidence Poisoning",
     "track": "",
-    "updated": "2026-09-05",
+    "updated": "2026-09-17",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.06027v1"
+    "version": "2609.06027v2"
    },
    "2609.06367": {
     "abs_url": "https://arxiv.org/abs/2609.06367",
@@ -41794,6 +42397,118 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.18745v1"
+   },
+   "2609.19526": {
+    "abs_url": "https://arxiv.org/abs/2609.19526",
+    "authors": [
+     "Xinghong Fu",
+     "Aravinth Kulanthaivelu",
+     "Yutaro Yamada"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-18",
+    "id": "2609.19526",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.19526v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-18",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Coding agents can recursively modify their own implementations, forming a loop of self-improvement. While prior work shows this can boost performance on coding benchmarks, existing approaches are costly and compute-intensive. We introduce a simple, sample-efficient self-improvement framework that significantly improves coding performance under strict budget constraints. We identify evaluation of candidate self-modifications as the main runtime bottleneck since prior approaches estimate their effectiveness by re-running a subset of benchmark tasks with the modified agent, which is time-consuming. We introduce Recursive Self Improvement via Fast Tree-search (SIFT), which augments these downstream task evaluations with an LLM-as-a-judge signal that performs pairwise comparisons between candidate patches, where the win-loss record is aggregated with a regularized Bradley-Terry model, and the resulting strength scores drive rank-based parent sampling inside a lightweight disaggregated tree search. Expensive downstream task evaluations are reserved only for the most promising nodes. Using a fully disaggregated tree search pipeline, the judge scores provide intermediate signal to guide exploration on promising candidate patches without being bottlenecked by slow evaluation runs. SIFT outperforms existing tree-search based self-evolution frameworks on the full Polyglot benchmark with significantly lower resource requirements in terms of CPU hours, wall clock time, and API cost.",
+    "tier": "none",
+    "title": "Self Improvement via Fast Tree-search",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.19526v1"
+   },
+   "2609.19617": {
+    "abs_url": "https://arxiv.org/abs/2609.19617",
+    "authors": [
+     "Bang An",
+     "Maria Hamdani",
+     "Joseph Fox"
+    ],
+    "code_url": "https://github.com/BANG23333/datacanvas-edu",
+    "comment": "Synthetic Dataset, Agentic Framework, Data Analytics Education, Data Visualization",
+    "first_seen": "2026-09-18",
+    "id": "2609.19617",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.19617v1",
+    "primary_category": "cs.HC",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-18",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Business analytics education requires diverse datasets to support different learning objectives, student backgrounds, and analytical tasks. Real-world data can be difficult to obtain and offer limited flexibility for adapting a case to a particular course. Even when suitable data are available, instructors must investigate the patterns, verify the results, and prepare assignments and reference solutions, requiring substantial time and effort. The use of large language models (LLMs) introduces an additional concern about training data contamination. Widely used public datasets often have extensive tutorials and worked analyses that models may have encountered during training. Students may therefore receive explanations drawn from existing analyses without practicing how to investigate unfamiliar data in collaboration with AI. This paper presents DataCanvas-EDU, an agentic framework for instructor-guided synthetic data generation in business analytics education. Instructors specify teaching goals and intended patterns through conversation, while an AI agent writes generation code, checks the resulting data, and prepares assignments, reference analyses, and rubrics. Four phases, Plan, Create, Verify / Test Analysis, and Evaluate, organize the process and support instructor review and revision. The framework is intended to simplify case preparation while creating opportunities for students to investigate newly designed patterns with AI. We illustrate the approach with WindowDash, a food delivery case containing 15,000 orders and nine designed patterns. DataCanvas-EDU is packaged as a reusable AI Agent Skill for compatible agent environments, with the package and installation instructions available at https://github.com/BANG23333/datacanvas-edu",
+    "tier": "none",
+    "title": "DataCanvas-EDU: An Agentic Framework for Instructor-Guided Synthetic Data Generation in Business Analytics Education",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.19617v1"
+   },
+   "2609.20584": {
+    "abs_url": "https://arxiv.org/abs/2609.20584",
+    "authors": [
+     "Chenxi Wu",
+     "Zimu Wang",
+     "Haiyang Zhang",
+     "Wei Wang",
+     "Zhijie Xu"
+    ],
+    "code_url": "https://github.com/xixi47520-hash/HARA",
+    "comment": "Accepted at EMNLP 2026 Industry Track",
+    "first_seen": "2026-09-18",
+    "id": "2609.20584",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.20584v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-18",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Large language models (LLMs) are increasingly considered for safety-critical engineering, yet their reliability in regulated functional-safety workflows remains underexplored. We introduce SAFARI (Safety-Aware Functional Automotive Risk Inference), the first industrial benchmark for LLM-assisted automotive Hazard Analysis and Risk Assessment (HARA) under ISO 26262. It contains 3,000 de-identified industrial HARA cases and evaluates two coupled tasks: open-ended hazard analysis and standards-grounded risk assessment. To evaluate open-ended HARA artifacts, we propose the first reference-anchored LLM-as-a-judge protocol with high expert correlation. Experiments with nine frontier LLMs show that models often produce plausible hazard narratives but remain weak at ISO 26262 risk classification, with the best ASIL macro-F1 reaching only 0.261. Chain-of-Thought prompting provides limited benefit and often degrades categorical risk assessment. Error analysis further localizes major failures to scenario-critical context omissions during hazard generation and to controllability misjudgments during risk assessment, indicating where expert oversight should be concentrated. The dataset can be obtained from https://github.com/xixi47520-hash/HARA.",
+    "tier": "top",
+    "title": "SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment",
+    "track": "main",
+    "updated": "2026-09-17",
+    "venue": "EMNLP",
+    "venue_evidence": "Accepted at EMNLP 2026 Industry Track",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.20584v1"
    }
   },
   "Writing Agent": {
@@ -41864,7 +42579,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -41907,7 +42622,7 @@
     "primary_category": "cs.HC",
     "published": "2026-03-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -41947,7 +42662,7 @@
     "primary_category": "cs.CV",
     "published": "2026-03-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42008,7 +42723,7 @@
     "primary_category": "cs.SD",
     "published": "2026-03-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42047,7 +42762,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-21",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42087,7 +42802,7 @@
     "primary_category": "cs.AI",
     "published": "2026-03-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42169,7 +42884,7 @@
     "primary_category": "cs.CV",
     "published": "2026-03-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42209,11 +42924,12 @@
     "primary_category": "cs.SE",
     "published": "2026-03-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "International Conference on Artificial Intelligence Testing",
      "year": 2026
     },
     "status": "unknown",
@@ -42250,7 +42966,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42331,7 +43047,7 @@
     "primary_category": "cs.CV",
     "published": "2026-03-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42373,7 +43089,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42415,7 +43131,7 @@
     "primary_category": "cs.HC",
     "published": "2026-03-30",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42455,7 +43171,7 @@
     "primary_category": "cs.LG",
     "published": "2026-03-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42497,7 +43213,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42534,7 +43250,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42613,7 +43329,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42651,7 +43367,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42726,7 +43442,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -42974,7 +43690,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43012,7 +43728,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43055,7 +43771,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43091,7 +43807,7 @@
     "primary_category": "cs.DL",
     "published": "2026-04-09",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -43218,10 +43934,8 @@
     "primary_category": "cs.CL",
     "published": "2026-04-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-09-18",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -43255,7 +43969,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43329,7 +44043,7 @@
     "primary_category": "cs.CV",
     "published": "2026-04-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43368,7 +44082,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43529,7 +44243,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-20",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43607,7 +44321,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-21",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43648,7 +44362,7 @@
     "primary_category": "cs.CR",
     "published": "2026-04-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43684,7 +44398,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43724,7 +44438,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43805,7 +44519,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -43889,7 +44603,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -43931,7 +44645,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44009,7 +44723,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44091,7 +44805,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44136,7 +44850,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44215,7 +44929,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-05",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44257,7 +44971,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44296,7 +45010,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44337,7 +45051,7 @@
     "primary_category": "cs.DL",
     "published": "2026-05-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44389,7 +45103,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-08",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44427,7 +45141,7 @@
     "primary_category": "cs.NE",
     "published": "2026-05-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44465,7 +45179,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44541,7 +45255,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44668,7 +45382,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44704,7 +45418,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-16",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44746,7 +45460,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44821,7 +45535,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-19",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -44858,11 +45572,11 @@
     "primary_category": "cs.CL",
     "published": "2026-05-19",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "International Conference on Language Resources and Evaluation",
      "year": 2026
     },
     "status": "accepted",
@@ -44896,7 +45610,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-19",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -44944,11 +45658,12 @@
     "primary_category": "cs.HC",
     "published": "2026-05-22",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
      "year": 2026
     },
     "status": "accepted",
@@ -44958,8 +45673,8 @@
     "track": "main",
     "updated": "2026-05-22",
     "venue": "IJCAI",
-    "venue_evidence": "30 pages, 8 figures. Accepted to IJCAI 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2605.23535v1"
    },
@@ -44981,7 +45696,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45020,7 +45735,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45065,7 +45780,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-26",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45105,7 +45820,7 @@
     "primary_category": "cs.CY",
     "published": "2026-04-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45150,7 +45865,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45191,7 +45906,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45229,7 +45944,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45276,7 +45991,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45313,7 +46028,7 @@
     "primary_category": "cs.DC",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -45357,7 +46072,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45416,7 +46131,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45454,7 +46169,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45494,7 +46209,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45533,7 +46248,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45581,7 +46296,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45681,7 +46396,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -45807,7 +46522,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45846,7 +46561,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45882,7 +46597,7 @@
     "primary_category": "stat.ML",
     "published": "2026-06-12",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45925,7 +46640,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-13",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -45965,7 +46680,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46006,7 +46721,7 @@
     "primary_category": "cs.HC",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46045,7 +46760,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -46119,10 +46834,8 @@
     "primary_category": "econ.GN",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-09-18",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -46166,7 +46879,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46206,7 +46919,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46242,7 +46955,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-20",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46282,7 +46995,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-21",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46319,7 +47032,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -46359,7 +47072,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46403,7 +47116,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46441,7 +47154,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
       "JournalArticle"
      ],
@@ -46568,8 +47281,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46605,8 +47320,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46641,8 +47358,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46678,8 +47397,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46713,8 +47434,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46754,8 +47477,10 @@
     "primary_category": "cs.HC",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46794,8 +47519,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46828,8 +47555,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46862,8 +47591,10 @@
     "primary_category": "cs.SD",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46904,8 +47635,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46945,8 +47678,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46984,8 +47719,10 @@
     "primary_category": "cs.CL",
     "published": "2026-05-10",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -47025,8 +47762,10 @@
     "primary_category": "cs.HC",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -47064,8 +47803,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -47107,8 +47848,9 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -47153,8 +47895,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -47192,8 +47936,10 @@
     "primary_category": "cs.IR",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -47228,8 +47974,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -47266,8 +48014,10 @@
     "primary_category": "cs.HC",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-08-19",
-     "types": [],
+     "checked": "2026-09-18",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -47301,7 +48051,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47335,7 +48085,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47372,7 +48122,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47410,7 +48160,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-27",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47450,7 +48200,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47486,7 +48236,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47523,7 +48273,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47558,7 +48308,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47599,7 +48349,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47641,7 +48391,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47681,7 +48431,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47716,7 +48466,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47755,10 +48505,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-08-19",
+     "checked": "2026-09-18",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Authorship verification (AV) assumes that an author's writing style remains sufficiently stable to distinguish it from that of other writers. In practice, however, this assumption is challenged by distribution shifts caused by changes in genre, time, and AI-assisted writing. Existing AV benchmarks typically study these factors in isolation and focus predominantly on English, limiting our understanding of model robustness under realistic conditions. We introduce AVShift, the first German benchmark for systematically evaluating AV under multiple distribution shifts. AVShift comprises over 150,000 text pairs spanning three genres and 21 years, enabling controlled evaluation of cross-genre, temporal, and AI-era shifts within a unified framework. We benchmark representative feature-based, embedding-based, and LLM-based approaches. Our experiments show that fine-tuned LLMs generalize best across genres and benefit substantially from stylistically diverse training data. We further demonstrate that temporal drift is one of the strongest factors affecting AV, with performance degrading significantly as the time gap between documents increases. In contrast, we find no evidence of a measurable AI-era distribution shift within AVShift. Finally, our feature analysis reveals stylistic features that remain stable across genres, while their relative importance varies depending on the specific genre transition. We release AVShift and our code for future research.",
