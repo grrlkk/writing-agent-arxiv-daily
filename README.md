@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-09-18** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-09-19** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -18,17 +18,6 @@ Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (95)
 - [Search & Control for Generation](#search--control-for-generation) (86)
 - [Korean Writing & NLP](#korean-writing--nlp) (69)
-
-## New in this update (8)
-
-- `Self-Refine & Self-Correction` [Reflective Recovery: A Self-Supervised Method for Reasoning by Learning from Mistakes](https://arxiv.org/abs/2609.19156)
-- `Reward & Value Models` [Summarization Bias: The Directional Collapse of Objective Projection into Told-Mode Labels in Large Language Models --- A Conceptual Framework and Registered Test Protocol](https://arxiv.org/abs/2609.20712)
-- `Reward & Value Models` [Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis](https://arxiv.org/abs/2609.20124)
-- `Reward & Value Models` [F$^{2}$DR: A Fine-Grained Full-Pipeline Reward Framework for DeepSearch Workflows](https://arxiv.org/abs/2609.19827)
-- `Text Quality Evaluation` [SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment](https://arxiv.org/abs/2609.20584)
-- `Text Quality Evaluation` [Self Improvement via Fast Tree-search](https://arxiv.org/abs/2609.19526)
-- `Text Quality Evaluation` [DataCanvas-EDU: An Agentic Framework for Instructor-Guided Synthetic Data Generation in Business Analytics Education](https://arxiv.org/abs/2609.19617)
-- `Korean Writing & NLP` [KoNeoBench: A Curated Evaluation Dataset for LLM Understanding of Korean Neologisms](https://arxiv.org/abs/2609.19916)
 
 ## Writing Agent
 
