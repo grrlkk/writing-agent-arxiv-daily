@@ -1,25 +1,25 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 84,
+   "Iterative Revision & Text Editing": 86,
    "Korean Writing & NLP": 69,
-   "Reward & Value Models": 257,
-   "Search & Control for Generation": 86,
-   "Self-Refine & Self-Correction": 105,
-   "Semantic Drift & Faithfulness": 95,
-   "Synthetic Preference Data": 131,
-   "Text Quality Evaluation": 237,
+   "Reward & Value Models": 259,
+   "Search & Control for Generation": 88,
+   "Self-Refine & Self-Correction": 108,
+   "Semantic Drift & Faithfulness": 97,
+   "Synthetic Preference Data": 133,
+   "Text Quality Evaluation": 239,
    "Writing Agent": 185
   },
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "venue_tiers": {
    "demo": 2,
    "findings": 40,
-   "none": 942,
+   "none": 955,
    "other": 15,
    "strong": 9,
    "top": 125,
-   "workshop": 36
+   "workshop": 37
   }
  },
  "topics": {
@@ -3144,6 +3144,40 @@
     "venue_year": "2026",
     "version": "2609.04959v1"
    },
+   "2609.09556": {
+    "abs_url": "https://arxiv.org/abs/2609.09556",
+    "authors": [
+     "Enrico Vompa"
+    ],
+    "code_url": "",
+    "comment": "preprint",
+    "first_seen": "2026-09-21",
+    "id": "2609.09556",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.09556v2",
+    "primary_category": "stat.ML",
+    "published": "2026-09-09",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Neural networks can leverage feature superposition to encode more concepts than dimensions, but cross-feature interference constrains the linear accessibility of simultaneously active features. By framing linear accessibility as a compressed sensing problem, we derive high-probability bounds for fixed supports under subgaussian noise, proving the sufficient dimension scales linearly ($d=O_{\\varepsilon}(k \\log m)$) rather than prior worst-case quadratic limits. We characterize the asymmetry between active and inactive interference and the trade-off between interference and observation-noise budgets. We then validate these bounds across system parameters through Gaussian-tail approximations. We also introduce IHT-SAE, which uses learned iterative refinement to improve feature recovery beyond the limits of linear availability. These results quantify the geometric constraints of the linear representation hypothesis, providing a framework for evaluating sparse autoencoders, compositional generalization, and neural interpretability.",
+    "tier": "none",
+    "title": "High-probability guarantees for linear accessibility in feature superposition",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.09556v2"
+   },
    "2609.11315": {
     "abs_url": "https://arxiv.org/abs/2609.11315",
     "authors": [
@@ -3424,6 +3458,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.18720v1"
+   },
+   "2609.21108": {
+    "abs_url": "https://arxiv.org/abs/2609.21108",
+    "authors": [
+     "Sachini Weerasekara",
+     "Sagar Kamarthi",
+     "Jacqueline Isaacs"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.21108",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21108v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Deep reinforcement learning (DRL) has achieved strong performance across a wide range of continuous-control problems. These continuous-control policies, however, are often defined as direct mappings from an observed state to an action or action distribution, requiring a single feed-forward network to construct an optimal control decision in one pass. While effective, this formulation leaves little opportunity for the policy to reconsider or progressively improve an action once an initial prediction has been formed. In this work, we explore an alternative approach: rather than learning only to directly predict an action, can a policy learn to iteratively improve one, and can this iterative process provide advantages during policy learning? We introduce Iterative Action Refinement (IAR), an iterative action-construction method that constructs control actions through a sequence of learned residual corrections. Starting from an initial proposal, a shared refinement network repeatedly conditions on the observed state and the current action proposal, allowing each refinement step to revise the action constructed by preceding steps. The final refined proposal is then used to determine the action executed by the agent. We integrate this iterative action-construction mechanism with Proximal Policy Optimization (PPO), yielding REFINEPPO. We evaluate REFINEPPO across 14 benchmark control tasks, complemented by controlled ablations of refinement depth and update schedules and analyses aimed at understanding why iterative refinement is effective. Across these environments, REFINEPPO matches or exceeds the performance of standard PPO while demonstrating faster convergence on several tasks.",
+    "tier": "none",
+    "title": "REFINEPPO: Learning Continuous Control Policies by Iterative Action Refinement",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21108v1"
    }
   },
   "Korean Writing & NLP": {
@@ -16639,6 +16709,80 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.20712v1"
+   },
+   "2609.21094": {
+    "abs_url": "https://arxiv.org/abs/2609.21094",
+    "authors": [
+     "Utkarsh Agarwal",
+     "Monojit Choudhury"
+    ],
+    "code_url": "",
+    "comment": "Accepted at the Pluralistic Alignment Workshop @ ICML 2026, Seoul, South Korea. https://icml.cc/virtual/2026/75692",
+    "first_seen": "2026-09-21",
+    "id": "2609.21094",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21094v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Large Language Models (LLMs) are increasingly deployed in applications that must weigh clashing moral values, yet even strong models exhibit hidden biases and brittle instruction-following across languages. We introduce a 12,000-instance dataset of two-option dilemmas covering pairwise three value conflicts: Honesty vs. Justice, Justice vs. Autonomy, and Autonomy vs. Honesty, along with their translations into Hindi, Arabic, Spanish, and Chinese, to probe cross-lingual behavior. Benchmarking on GPT-5-mini reveals that it consistently favors Honesty over Autonomy across all five languages when no policy is given. The Llama-3.2-1/3B models exhibit strong first-option bias; however, both plain fine-tuning and Direct Preference Optimization fine-tuning effectively remove this bias, increasing accuracy to greater than 98%. In order to decouple the effect of learning correlations in the dataset from abstract values, we propose a task vector transfer based experiment where after computing the task vectors for a direction of value preference we orthogonalize it with respect to the general instruction following vector. Our experiment shows that this method is effective in isolating the direction of the specific value preference that can successfully be used to conduct task arithmetic to obtain a model with the opposite stance.",
+    "tier": "workshop",
+    "title": "Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models",
+    "track": "workshop",
+    "updated": "2026-09-17",
+    "venue": "ICML",
+    "venue_evidence": "Accepted at the Pluralistic Alignment Workshop @ ICML 2026, Seoul, South Korea. https://icml.cc/virtual/2026/75692",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.21094v1"
+   },
+   "2609.21231": {
+    "abs_url": "https://arxiv.org/abs/2609.21231",
+    "authors": [
+     "Ruotian Wu",
+     "Bill E. Johnson",
+     "Gene Saunders",
+     "Osama Hamzeh",
+     "Ankit Vadehra",
+     "Pascal Poupart"
+    ],
+    "code_url": "",
+    "comment": "5 pages",
+    "first_seen": "2026-09-21",
+    "id": "2609.21231",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21231v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reference-based metrics for Grammatical Error Correction (GEC) such as M$^2$ and ERRANT assume that the reference set enumerates all valid edits, and therefore often penalize corrections that are grammatical and meaning-preserving but phrased differently. We introduce RM-EVAL, a reward model trained on human preference data from SEEDA, as a reference-free meta-evaluator that predicts human-like quality judgments at both full-sequence and partial-sequence levels. Beyond evaluation, we show that the same reward model can be used as a learning signal to improve GEC generation via Reward-Guided Text Generation (RGTG), which keeps a base GEC model frozen and performs online, reward-driven decoding. Across SEEDA, RM-EVAL achieves strong agreement with human rankings, and RGTG yields consistent gains in reward and external validation, demonstrating a unified framework for both assessing and enhancing GEC systems without relying on gold references.",
+    "tier": "none",
+    "title": "Beyond Reference-Based Evaluation: Reward Models for Meta-Evaluation of Grammatical Error Correction",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21231v1"
    }
   },
   "Search & Control for Generation": {
@@ -20008,6 +20152,88 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.15606v1"
+   },
+   "2609.21263": {
+    "abs_url": "https://arxiv.org/abs/2609.21263",
+    "authors": [
+     "Qiufeng Li",
+     "Chengxuan Wang",
+     "Rongqian Chen",
+     "Quan Cheng",
+     "Yihui Ren",
+     "Chia-Tung Ho",
+     "David Z. Pan",
+     "Tian Lan",
+     "Weidong Cao"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.21263",
+    "journal_ref": "",
+    "matched": [
+     "verifier-guided"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21263v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Automated macro placement remains a fundamental challenge in VLSI physical design. Despite decades of research, existing approaches predominantly optimize hand-crafted proxy objectives, such as estimated wirelength, and typically produce placements through one-shot numerical optimization, limiting their ability to incorporate visual layout context, codified design expertise, and downstream physical-design feedback in a unified loop. We present PlaceReasoner-Beta, a verifier-guided multi-agent framework that reformulates macro placement as a closed-loop reasoning problem rather than black-box optimization. A vision-language model (VLM) planner generates candidate placements from the floorplan image, macro specifications, and connectivity structure; a geometric verifier enforces physical legality and expert placement principles; a physical verifier refines candidates using early implementation feedback; and a post-route optimizer further improves promising layouts using final PPA. To enable reproducible evaluation, we introduce PlaceReasoner-Bench, a fully open end-to-end benchmark built from open RTL designs, EDA tools, and technology libraries. It comprises 8 designs at two aspect ratios, yielding 16 tasks with fixed floorplans and I/O assignments, so methods differ only in macro positions and orientations and are evaluated using routed PPA and DRC rather than pre-route proxies. Across the benchmark, PlaceReasoner-Beta achieves the best timing among DRC-clean methods on all square tasks, reducing post-route TNS by 61.2% at 1:1 and 53.0% at 2:1 relative to the classical baseline field. It also shortens routed wirelength on most designs despite never explicitly optimizing it, demonstrating that reasoning over spatial structure under physical-design feedback can improve end-to-end layout quality beyond proxy-objective optimization.",
+    "tier": "none",
+    "title": "PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21263v1"
+   },
+   "2609.21264": {
+    "abs_url": "https://arxiv.org/abs/2609.21264",
+    "authors": [
+     "Erwei Wang",
+     "Ephrem Wu",
+     "Victor J. B. Jung",
+     "Jiajie Li",
+     "Andre Rosti",
+     "Joseph Melber",
+     "Samuel Bayliss"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.21264",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21264v1",
+    "primary_category": "cs.AR",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Spatial NPUs such as AMD XDNA place compute tiles beside small local memories and leave data movement between them to software. Mapping a multi-stage workload onto such a device is largely a question of where the intermediate tensors live. We report what we learned making those choices for FlashAttention with the open-source IRON and MLIR-AIR flows. We compare four reference designs on XDNA 1 and XDNA 2: one runs each operator separately, two stream between operators on chip, and one fuses all three attention stages into a single kernel. The fused kernel holds the $\\boldsymbol{QK}^{\\mathsf T}$ scores in compute-tile local memory and reduces partial results over the cascade interconnect, so the scores never return to shared MemTile memory. On XDNA 2, it reaches 3.62 TFLOP/s over complete end-to-end execution, twice the IRON design, with 5.3 to 7.2 times the energy efficiency of the integrated GPU on the same chip at 2K tokens and above. It covers twelve LLM configurations, from BERT to DeepSeek, up to 128K tokens. Roofline analysis at each memory level explains this result and shows when to stop. XDNA 1 has lower ridge points, so streaming on chip already reaches the compute-bound regime: the same fusion that doubles throughput on XDNA 2 is nearly wasted on XDNA 1. Comparing a mapping's operational intensity against each level's ridge point predicts which case applies before writing any code. Fuse until the mapping clears that ridge point, then stop. We release the reference designs as maintained open source.",
+    "tier": "none",
+    "title": "Programming AMD XDNA NPUs with Open-source Compiler Tools: A FlashAttention Case Study",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21264v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -24212,6 +24438,122 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.19156v1"
+   },
+   "2609.20981": {
+    "abs_url": "https://arxiv.org/abs/2609.20981",
+    "authors": [
+     "Wei Cai",
+     "Jian Zhao",
+     "Yuchen Yuan",
+     "Xuelong Li"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.20981",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.20981v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Revision (CaLR), a framework that reformulates reasoning as constrained latent optimization. By adopting a causal topology matrix (CTM) from an expert model and implicit differentiation, CaLR performs gradient-guided ``thought revision\" to enforce logical consistency, enabling dynamic self-correction of intermediate steps during parallel generation. Empirically, CaLR achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and demonstrating superior robustness in constrained tasks like Sudoku.",
+    "tier": "none",
+    "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.20981v1"
+   },
+   "2609.21423": {
+    "abs_url": "https://arxiv.org/abs/2609.21423",
+    "authors": [
+     "Siyuan Liu",
+     "Fan Yu",
+     "Dongyu Ru",
+     "Yizhu Liu",
+     "Yifan Yang",
+     "Xuezhi Cao",
+     "Xunliang Cai",
+     "Yixin Cao"
+    ],
+    "code_url": "",
+    "comment": "42 pages, including appendices",
+    "first_seen": "2026-09-21",
+    "id": "2609.21423",
+    "journal_ref": "",
+    "matched": [
+     "self-refine"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21423v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Online agent deployments produce abundant execution traces, while task-specific verification and expert annotation are costly to scale. We study how to distill these traces into reusable feedback without post-hoc outcome labels, drawing on their evidence of local progress, recovery, and unfinished requirements. We introduce DENSE (Distilling Evidence from Nested Subtask Executions), which organizes this evidence into evidence-grounded nested shortcut trees. DENSE compresses redundant attempts, reconciles issues across levels using recovery evidence, and summarizes completed branches while expanding unresolved ones, linking reusable progress to remaining obligations. We introduce REFIT, a source-paired protocol comparing feedback from shared initial trajectories under post-hoc outcome blindness, with environments and model contexts reset for fresh attempts at the same tasks. On Terminal-Bench 2.1, DENSE achieves the highest strict pass rate among tested non-privileged feedback methods across four recipient models. Relative to initial executions, strict pass rate improves by 7.12-15.64 pp, with 19.0-43.6% fewer observed recipient tokens in reruns. GPT-5.5 ablations support combining nested subtask analysis with shortcut construction and issue reconciliation. These findings point toward agent self-refinement through evidence-grounded trajectory reuse with less reliance on external supervision.",
+    "tier": "none",
+    "title": "DENSE: Distilling Agent Trajectories into Evidence-Grounded Shortcut Trees for Self-Refinement",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21423v1"
+   },
+   "2609.21749": {
+    "abs_url": "https://arxiv.org/abs/2609.21749",
+    "authors": [
+     "Rui Sun",
+     "Zhi Zheng",
+     "Zhenkun Wang",
+     "Zhichao Lu"
+    ],
+    "code_url": "https://github.com/ruisun7/GraphSkillEvo",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.21749",
+    "journal_ref": "",
+    "matched": [
+     "self-refine"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21749v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Skills can improve the performance of Large Language Model (LLM) agents by providing task-specific procedural guidance, while skill optimization further improves their effectiveness through iterative refinement. However, existing skill optimization methods typically represent skills as unstructured natural-language instructions, creating two key challenges: 1) Unstructured skills often lack explicit workflow-level guidance and contain substantial redundancy, making them difficult for LLMs to execute; 2) the vast search space of unconstrained natural-language skills makes skill optimization ineffective. To address these challenges, we propose representing skills as graph-structured natural-language artifacts. In graph-structured skills, each node represents an execution step together with its operational guidance, while directed edges encode context-dependent transitions between steps. Compared to unstructured skills, graph-structured skills can provide clear workflow-level guidance. Moreover, the proposed graph-structured skill can also facilitate skill optimization. Building on this structured representation, we introduce GraphSkillEvo, a population-based evolutionary optimization framework with mutation and crossover operators for graph-structured skills. By maintaining multiple candidate skills and combining effective components, GraphSkillEvo enables broader and more comprehensive exploration of the structured skill space than purely LLM-based iterative self-refinement. Extensive experiments across five agent benchmarks demonstrate that GraphSkillEvo consistently outperforms the strong skill optimization baseline SkillOpt, improving average accuracy by 4.01% on GPT-5.4-nano and 1.76% on GPT-5.4. Our code is available at https://github.com/ruisun7/GraphSkillEvo.",
+    "tier": "none",
+    "title": "GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21749v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -27942,6 +28284,88 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.18804v1"
+   },
+   "2609.21190": {
+    "abs_url": "https://arxiv.org/abs/2609.21190",
+    "authors": [
+     "George Ma",
+     "Benjamin Mikek",
+     "Haoyu Li",
+     "Ferhat Erata",
+     "Yuhao Zhang",
+     "Zeren Shui",
+     "Behrooz Omidvar Tehrani",
+     "Jun Huan",
+     "Murali Krishna Ramanathan",
+     "Somayeh Sojoudi",
+     "Hao Zhou",
+     "Anoop Deoras"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.21190",
+    "journal_ref": "",
+    "matched": [
+     "faithfulness"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21190v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Ensuring the correctness of LLM-generated code is a core challenge for modern software engineering. Benchmarks for agentic code generation check correctness with held-out test suites, which are inherently incomplete and increasingly susceptible to memorization. Formal verification avoids both problems, but existing work covers only standalone tasks whose specifications are given as input, not real issues, which touch large repositories and state intent in vague natural language. We present Benchproofer, a pipeline that turns a coding task with a known correct patch into a formally verified one: it writes a specification for the new code, summarizes the existing functions that code calls with axioms, and admits an instance only after mechanical and adversarial gates agree. Applying it to SWE-bench Verified yields SWE-Proof, 500 real issues whose correctness is formally verified rather than tested, and it extends to SWE-bench Pro. Across two frontier models, verification catches what tests miss: a quarter to a half of test-passing patches admit counterexamples, which a structured natural-language specification does not fix, while a correct formal one lifts resolution from 85% to 95% for Opus 4.8. Writing that specification is the hard part: models that must write their own gain nothing over an unaided baseline, and only 62% of their specifications pass our audit. The usual failure is faithfulness, a specification that constrains part of the required behavior and leaves the rest free. Specification quality still tracks the outcome, failing on 89% of unresolved instances against 47% of resolved ones, making faithful specification synthesis a concrete open problem.",
+    "tier": "none",
+    "title": "SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21190v1"
+   },
+   "2609.21227": {
+    "abs_url": "https://arxiv.org/abs/2609.21227",
+    "authors": [
+     "Wenhan Yu",
+     "Wenxin Wu",
+     "Hao Wang",
+     "Lei Sha"
+    ],
+    "code_url": "https://github.com/yuwenhan07/Hallucination-R1",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.21227",
+    "journal_ref": "",
+    "matched": [
+     "semantic drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21227v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Factual hallucination is commonly defined by incorrect factual outputs. We study a paraphrase-induced hallucination setting, where a model answers a factual question correctly in its original form but generates an incorrect answer under a semantically equivalent paraphrase. Such inconsistencies expose latent factual instability under semantic invariance. However, general-purpose paraphrases are often insufficient as robustness-oriented supervision: near-copy paraphrases provide weak signals, while overly diverse paraphrases may break semantic equivalence. In this paper, we propose HALLUCINATION-R1, a robustness-oriented paraphrase generation framework that learns to produce semantically faithful yet robustness-challenging paraphrases for factual consistency. Through two-stage optimization, it first stabilizes meaning-preserving and diverse paraphrasing, then rewards paraphrases that reveal factual consistency degradation in downstream QA models. Experiments on SimpleQuestions, PopQA, and TruthfulQA show that HALLUCINATION-R1 achieves a strong consistency--diversity trade-off and exposes robustness failures across multiple model families and datasets. Further analyses indicate that these failures are not reducible to surface-level artifacts or semantic drift, but reveal non-trivial factual instability under meaning-preserving variation. A lightweight fine-tuning study also shows that HALLUCINATION-R1-generated data improves robust accuracy under paraphrase variations, suggesting its utility for robustness-oriented training. Our code and models are publicly available at https://github.com/yuwenhan07/Hallucination-R1.",
+    "tier": "none",
+    "title": "Hallucination-R1: Robustness-Oriented Paraphrase Generation for Factual Consistency",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21227v1"
    }
   },
   "Synthetic Preference Data": {
@@ -33137,6 +33561,84 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.18262v1"
+   },
+   "2609.21231": {
+    "abs_url": "https://arxiv.org/abs/2609.21231",
+    "authors": [
+     "Ruotian Wu",
+     "Bill E. Johnson",
+     "Gene Saunders",
+     "Osama Hamzeh",
+     "Ankit Vadehra",
+     "Pascal Poupart"
+    ],
+    "code_url": "",
+    "comment": "5 pages",
+    "first_seen": "2026-09-21",
+    "id": "2609.21231",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21231v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reference-based metrics for Grammatical Error Correction (GEC) such as M$^2$ and ERRANT assume that the reference set enumerates all valid edits, and therefore often penalize corrections that are grammatical and meaning-preserving but phrased differently. We introduce RM-EVAL, a reward model trained on human preference data from SEEDA, as a reference-free meta-evaluator that predicts human-like quality judgments at both full-sequence and partial-sequence levels. Beyond evaluation, we show that the same reward model can be used as a learning signal to improve GEC generation via Reward-Guided Text Generation (RGTG), which keeps a base GEC model frozen and performs online, reward-driven decoding. Across SEEDA, RM-EVAL achieves strong agreement with human rankings, and RGTG yields consistent gains in reward and external validation, demonstrating a unified framework for both assessing and enhancing GEC systems without relying on gold references.",
+    "tier": "none",
+    "title": "Beyond Reference-Based Evaluation: Reward Models for Meta-Evaluation of Grammatical Error Correction",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21231v1"
+   },
+   "2609.21521": {
+    "abs_url": "https://arxiv.org/abs/2609.21521",
+    "authors": [
+     "Changbeen Kim",
+     "Junwon Chang",
+     "Kipyo Kim",
+     "Risa Shinoda",
+     "Kuniaki Saito",
+     "Donghyun Kim"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.21521",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.21521v1",
+    "primary_category": "cs.CV",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "While Video Large Language Models (Video-LLMs) have recently demonstrated strong performance, reliably evaluating their fine-grained video understanding remains challenging. Existing benchmarks often rely on question answering or ground-truth caption matching, where models may succeed through superficial cues and incomplete annotations. To this end, we introduce VidOmni-Bench, a benchmark that requires models to verify whether each event in dense video captions is supported by the video. VidOmni-Bench consists of 500 videos spanning five complexity types and diverse durations from 4 seconds to 90 minutes. After collecting videos along these axes, we use diverse Video-LLMs to generate dense captions and obtain human-verified sentence-level labels, where sentences containing incorrect events serve as hard negatives for evaluation. Our experiments on VidOmni-Bench reveal three key findings: (i) Video-LLMs frequently generate hallucinated descriptions in dense video captioning; (ii) they also struggle as verifiers, failing to reliably detect plausible but incorrect event descriptions; and (iii) model weaknesses vary across video complexity and duration, revealing diverse, model-specific bottlenecks in current Video-LLMs.",
+    "tier": "none",
+    "title": "VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.21521v1"
    }
   },
   "Text Quality Evaluation": {
@@ -41877,8 +42379,6 @@
      "Christopher Humphries",
      "Alyssa Pradhan",
      "Timothy J Keyes",
-     "Bernardo C Bizzo",
-     "Keith J Dreyer",
      "Sarah F Mercaldo",
      "James M Hillis"
     ],
@@ -41890,7 +42390,7 @@
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.14819v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14819v2",
     "primary_category": "cs.CL",
     "published": "2026-09-13",
     "s2": {
@@ -41906,12 +42406,12 @@
     "tier": "none",
     "title": "A primer on evaluation methods for large language models in healthcare",
     "track": "",
-    "updated": "2026-09-13",
+    "updated": "2026-09-17",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.14819v1"
+    "version": "2609.14819v2"
    },
    "2609.15396": {
     "abs_url": "https://arxiv.org/abs/2609.15396",
@@ -42509,6 +43009,127 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.20584v1"
+   },
+   "2609.20973": {
+    "abs_url": "https://arxiv.org/abs/2609.20973",
+    "authors": [
+     "Jiazhang Cai",
+     "Tao Wang",
+     "Ruidong Zhang",
+     "Siyuan Li",
+     "Terry Ma",
+     "Luyang Fang",
+     "Haoran Lu",
+     "Huimin Cheng",
+     "Yingchuan Zhang",
+     "Shushan Wu",
+     "Rui Xie",
+     "Lin Tang",
+     "Chao Huang",
+     "Rongjie Liu",
+     "Ziyu Liu",
+     "Meizhi Yu",
+     "Yongkai Chen",
+     "Yifan Zhou",
+     "Zeliang Sun",
+     "Chang Liu",
+     "Zhen Xiang",
+     "Wei Xiao",
+     "Zixin Rao",
+     "Xinyi Liu",
+     "Yutong Hu",
+     "Mengrui Zhang",
+     "Jing Zhang",
+     "Weidi Luo",
+     "Jincheng Yu",
+     "Zhengliang Liu",
+     "Weihang You",
+     "Hanqi Jiang",
+     "Yi Pan",
+     "Junhao Chen",
+     "Xinliang Li",
+     "Tianming Liu",
+     "Wenxuan Zhong",
+     "Ping Ma"
+    ],
+    "code_url": "",
+    "comment": "82 pages, 7 figures. Submitted to Artificial Intelligence Review",
+    "first_seen": "2026-09-21",
+    "id": "2609.20973",
+    "journal_ref": "",
+    "matched": [
+     "evaluation metric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.20973v1",
+    "primary_category": "stat.ML",
+    "published": "2026-09-17",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Complex problem solving (CPS) with large language models (LLMs) is often framed as a matter of stronger reasoning or longer generation. Yet early-step error amplification, prompt brittleness, and failures to revise incorrect commitments are difficult to explain by missing knowledge or expressive capacity alone. This survey interprets CPS as a sequential estimation-and-decision problem over a latent solution state. A controller maintains a belief about an unobserved solution trajectory, updates it as noisy intermediate evidence arrives, and decides whether to commit, verify, branch, roll back, or abstain to minimize expected loss. Reasoning supplies candidate transitions and interpretations, whereas process control shapes and evaluates those proposals and regulates subsequent transitions and observations. Within this framework, we organize existing methods around five components: explicit state representation, transition structuring, validation and constraint enforcement, search and rollback, and uncertainty management. We also interpret evaluation metrics according to the statistical quantities they estimate. The framework further yields a diagnostic hypothesis: interventions should be most effective when they target the error or uncertainty component implicated by an observed failure. We distinguish systematic, stochastic, and irreducible error together with epistemic and aleatoric uncertainty, and call this alignment problem-control fit and its failure control mismatch. For example, additional sampling may reduce sampling variability while leaving a shared systematic error unchanged. This perspective clarifies what current methods estimate and control, what remains uncontrolled, and why reliable validation, targeted recovery, calibrated uncertainty, and matched-budget evaluation are central open problems.",
+    "tier": "none",
+    "title": "Complex Problem Solving in Large Language Models: A Statistical Control Survey and Diagnostic Framework",
+    "track": "",
+    "updated": "2026-09-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.20973v1"
+   },
+   "2609.22038": {
+    "abs_url": "https://arxiv.org/abs/2609.22038",
+    "authors": [
+     "Rawan El Ghali",
+     "Umm Kulsoom",
+     "Anas Madkoor",
+     "Dima Faris Alsaudi",
+     "Roaa Abdelmagid",
+     "Roaa Ibrahim",
+     "Raghad Mousa",
+     "Hamza Aljaji",
+     "Abdullah Khanafer",
+     "Abdallah Alkanani",
+     "Salah Feras Alali",
+     "Rawan Khaled Mohamed",
+     "Ehsaneddin Asgari"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-21",
+    "id": "2609.22038",
+    "journal_ref": "Arabic NLP 2026",
+    "matched": [
+     "llm as a judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.22038v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-18",
+    "s2": {
+     "checked": "2026-09-21",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We introduce QuranicMMLU, a benchmark for evaluating generative AI on Quranic Arabic across multiple dimensions of linguistic complexity. Existing Quranic benchmarks center on general question answering and semantic retrieval, without probing specific linguistic competencies or stratifying by cognitive demand and verse difficulty. We construct a five-pillar Quranic taxonomy spanning Phonology, Morphology, Syntax, Semantics, and Pragmatics, with 31 leaves covering phenomena from tajwīd and root-and-pattern morphology to occasions of revelation and inter-surah coherence. For each leaf we generate questions stratified by Bloom's cognitive level and verse perplexity, then have LLM as a judge to independently answer and score every item and route the annotations to manual review. The resulting dataset comprises 980 human-reviewed questions, each issued in both open-ended and multiple-choice form. We benchmark 12 systems on these items and find that the Islamic-specialized model leads, yet every system scores higher on multiple-choice accuracy (average 84%) than open-ended answer quality (average 60%): the two rankings agree closely (Kendall's τ=0.73), but multiple-choice scoring hides failures that surface only once answer choices are removed. QuranicMMLU thus offers a rigorous, linguistically grounded framework for evaluating Arabic NLP in the Quranic domain.",
+    "tier": "none",
+    "title": "QuranicMMLU: A Cognitively-Aware Benchmark for Evaluating Generative AI Solutions on Quranic Linguistic Knowledge",
+    "track": "",
+    "updated": "2026-09-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.22038v1"
    }
   },
   "Writing Agent": {

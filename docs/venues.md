@@ -9,10 +9,10 @@ this collection is preprints posted within the last few months, which have not
 reached a venue yet. Those are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-20** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-21** (UTC).
 Back to the [main page](../README.md).
 
-227 of 1169 papers carry venue evidence.
+228 of 1183 papers carry venue evidence.
 
 ## Top-tier venues (125)
 
@@ -331,12 +331,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-06-06**|Cross Paraphrastic Invariance Learning for Hallucination Detection|ICASSP 2026|Synthetic Preference Data|[2606.08157](https://arxiv.org/abs/2606.08157)|
 
-## Workshops (36)
+## Workshops (37)
 
-### ICML (8)
+### ICML (9)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-17**|Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models|ICML 2026 (workshop)|Reward & Value Models|[2609.21094](https://arxiv.org/abs/2609.21094)|
 |**2026-09-13**|Building Legal Reward Models for Grounding and Abstention|ICML 2026 (workshop)|Reward & Value Models, Synthetic Preference Data|[2609.14739](https://arxiv.org/abs/2609.14739)|
 |**2026-08-07**|PAUSE: Editable Strategy Artifacts for Long-Form Cultural Story Adaptation|ICML 2026 (workshop)|Writing Agent|[2608.28633](https://arxiv.org/abs/2608.28633)|
 |**2026-07-21**|PA-CoT: Profile-Adaptive Chain-of-Thought for Personalized Nutritional Consulting|ICML 2026 (workshop)|Self-Refine & Self-Correction|[2608.24907](https://arxiv.org/abs/2608.24907)|
