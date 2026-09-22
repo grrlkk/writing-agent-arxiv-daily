@@ -25,6 +25,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Test collection and rendering
+        run: |
+          python -m unittest test_daily_arxiv.py
+          python test_venues.py
+
       - name: Fetch papers
         env:
           # Optional: set this repository secret for a higher Semantic Scholar

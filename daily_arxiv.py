@@ -15,6 +15,7 @@ import sys
 import time
 import urllib.parse
 import xml.etree.ElementTree as ET
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -60,13 +61,31 @@ def strip_version(arxiv_id: str) -> str:
     return VERSION_RE.sub("", arxiv_id.rsplit("/", 1)[-1])
 
 
-def build_query(phrases: list[str], topic_cfg: dict, cfg: dict) -> str:
+def search_years(cfg: dict) -> list[int]:
+    """Give each year its own result budget so recent papers cannot crowd it out."""
+    if cfg.get("years"):
+        return sorted(set(int(year) for year in cfg["years"]), reverse=True)
+    current_year = datetime.now(timezone.utc).year
+    start_year = int(cfg.get("start_year", 2024))
+    if not 1991 <= start_year <= current_year:
+        raise ValueError(f"start_year must be between 1991 and {current_year}")
+    return list(range(current_year, start_year - 1, -1))
+
+
+def build_query(phrases: list[str], topic_cfg: dict, cfg: dict, *, year: int | None = None) -> str:
     fields = topic_cfg.get("search_fields") or cfg.get("search_fields") or ["ti", "abs"]
     terms = [f'{field}:"{phrase}"' for phrase in phrases for field in fields]
     query = "(" + " OR ".join(terms) + ")"
     categories = topic_cfg.get("categories") or cfg.get("categories")
     if categories:
         query += " AND (" + " OR ".join(f"cat:{c}" for c in categories) + ")"
+    required = topic_cfg.get("required_terms") or []
+    if required:
+        query += " AND (" + " OR ".join(
+            f'{field}:"{phrase}"' for phrase in required for field in fields
+        ) + ")"
+    if year is not None:
+        query += f" AND submittedDate:[{year}01010000 TO {year}12312359]"
     return query
 
 
@@ -156,24 +175,27 @@ def fetch_topic(topic: str, topic_cfg: dict, cfg: dict) -> list[dict]:
 
     groups = [("strong", topic_cfg.get("filters") or []), ("weak", topic_cfg.get("weak_filters") or [])]
     seen: dict[str, dict] = {}
-    for label, phrases in groups:
-        if not phrases:
-            continue
-        query = build_query(phrases, topic_cfg, cfg)
-        start = 0
-        got = 0
-        while got < wanted:
-            batch_size = min(page_size, wanted - got)
-            log.info("[%s/%s] querying arXiv start=%d size=%d", topic, label, start, batch_size)
-            entries = parse_entries(request_feed(query, start, batch_size, retries, sleep))
-            for entry in entries:
-                seen.setdefault(entry["id"], entry)
-            got += len(entries)
-            if len(entries) < batch_size:
-                break
-            start += batch_size
+    for year in search_years(cfg):
+        for label, phrases in groups:
+            if not phrases:
+                continue
+            query = build_query(phrases, topic_cfg, cfg, year=year)
+            start = 0
+            got = 0
+            while got < wanted:
+                batch_size = min(page_size, wanted - got)
+                log.info("[%s/%d/%s] querying arXiv start=%d size=%d", topic, year, label, start, batch_size)
+                entries = parse_entries(request_feed(query, start, batch_size, retries, sleep))
+                for entry in entries:
+                    # Keep the year boundary even if the API returns a loose match.
+                    if entry.get("published", "").startswith(f"{year}-"):
+                        seen.setdefault(entry["id"], entry)
+                got += len(entries)
+                if len(entries) < batch_size:
+                    break
+                start += batch_size
+                time.sleep(sleep)
             time.sleep(sleep)
-        time.sleep(sleep)
     return list(seen.values())
 
 
@@ -196,6 +218,9 @@ def keep_entry(entry: dict, topic_cfg: dict, cfg: dict, blacklist: set[str]) -> 
     if entry["id"] in blacklist:
         return False, []
     text = f"{entry['title']} {entry['summary']}".lower()
+    required = topic_cfg.get("required_terms") or []
+    if required and not matched_filters(text, required):
+        return False, []
 
     strong = matched_filters(text, topic_cfg.get("filters") or [])
     weak = matched_filters(text, topic_cfg.get("weak_filters") or [])
@@ -270,6 +295,18 @@ def sorted_entries(bucket: dict) -> list[dict]:
     return sorted(bucket.values(), key=lambda e: (e.get("published", ""), e.get("id", "")), reverse=True)
 
 
+def year_counts(entries: list[dict]) -> dict[str, int]:
+    counts = Counter(entry.get("published", "")[:4] or "Unknown" for entry in entries)
+    return dict(sorted(counts.items(), reverse=True))
+
+
+def year_links(entries: list[dict], page: str = "") -> str:
+    return " · ".join(
+        f"[{year} ({count})]({page}#{year.lower()})"
+        for year, count in year_counts(entries).items()
+    )
+
+
 # --------------------------------------------------------------------------- rendering
 
 
@@ -326,13 +363,13 @@ def render_table(entries: list[dict], cfg: dict) -> list[str]:
 
 
 def render_page(store: dict, cfg: dict, today: str, *, limit: int | None, header: str, new_today: dict[str, list[dict]] | None) -> str:
-    topics = [t for t in cfg["keywords"] if store["topics"].get(t)]
+    topics = list(cfg["keywords"])
     out: list[str] = [header.rstrip().format(today=today), ""]
 
     out.append("## Contents")
     out.append("")
     for topic in topics:
-        count = len(store["topics"][topic])
+        count = len(store["topics"].get(topic, {}))
         out.append(f"- [{topic}](#{anchor(topic)}) ({count})")
     out.append("")
 
@@ -351,13 +388,20 @@ def render_page(store: dict, cfg: dict, today: str, *, limit: int | None, header
         out.append("")
 
     for topic in topics:
-        entries = sorted_entries(store["topics"][topic])
+        entries = sorted_entries(store["topics"].get(topic, {}))
         shown = entries[:limit] if limit else entries
         out.append(f"## {topic}")
         out.append("")
         description = cfg["keywords"][topic].get("description")
         if description:
             out.append(f"> {description}")
+            out.append("")
+        if entries:
+            archive_dir = cfg.get("archive_dir", "docs/topics")
+            out.append("Browse by year: " + year_links(entries, f"{archive_dir}/{slug(topic)}.md"))
+            out.append("")
+        else:
+            out.append("_No matching papers collected yet._")
             out.append("")
         if limit and len(entries) > limit:
             archive_dir = cfg.get("archive_dir", "docs/topics")
@@ -382,6 +426,9 @@ axis behind FEAK-TC (transition-level, value-guided revision control for Korean 
 > Last updated: **{today}** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
+
+Searches each year separately from 2024 through the current year. Browse older
+papers using the year links under each topic; the preview shows the newest 20.
 """
 
 ARCHIVE_INDEX_HEADER = """# Archive
@@ -411,7 +458,15 @@ def render_topic_page(topic: str, entries: list[dict], cfg: dict, today: str) ->
         ).rstrip(),
         "",
     ]
-    out.extend(render_table(entries, cfg))
+    if not entries:
+        out.append("_No matching papers collected yet._")
+    else:
+        out.extend(["Browse by year: " + year_links(entries), ""])
+        for year in year_counts(entries):
+            rows = [e for e in entries if (e.get("published", "")[:4] or "Unknown") == year]
+            out.extend([f"## {year}", ""])
+            out.extend(render_table(rows, cfg))
+            out.append("")
     return "\n".join(out).rstrip() + "\n"
 
 
@@ -419,13 +474,11 @@ def render_archive_index(store: dict, cfg: dict, today: str) -> str:
     out = [ARCHIVE_INDEX_HEADER.format(today=today).rstrip(), ""]
     total = 0
     for topic in cfg["keywords"]:
-        bucket = store["topics"].get(topic)
-        if not bucket:
-            continue
+        bucket = store["topics"].get(topic, {})
         total += len(bucket)
         out.append(f"- [{topic}](topics/{slug(topic)}.md) — {len(bucket)} papers")
     out.append("")
-    out.append(f"{total} entries across {len(store['topics'])} topics "
+    out.append(f"{total} entries across {len(cfg['keywords'])} topics "
                f"(a paper matching two topics is listed on both pages).")
     return "\n".join(out).rstrip() + "\n"
 
@@ -436,9 +489,9 @@ Venue comes from three sources, in order of how much each can be trusted: the
 arXiv `journal_ref` field, the Semantic Scholar record for the paper, and the
 acceptance line authors write in the arXiv comment.
 
-A paper missing here is **not** evidence that it was never published — most of
-this collection is preprints posted within the last few months, which have not
-reached a venue yet. Those are re-checked monthly, so this page fills in over time.
+A paper missing here is **not** evidence that it was never published. Venue
+metadata can be missing for older papers as well as recent preprints. Papers
+without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
 "submitted to X" is never counted as X. Generated on **{today}** (UTC).
@@ -502,7 +555,8 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", default=str(ROOT / "config.yaml"))
     parser.add_argument("--topics", nargs="*", help="only run these topics")
-    parser.add_argument("--max-results", type=int, help="override max_results per topic")
+    parser.add_argument("--max-results", type=int, help="override max_results per topic, year, and phrase group")
+    parser.add_argument("--years", nargs="+", type=int, help="only fetch these submission years (default: start_year through current year)")
     parser.add_argument("--dry-run", action="store_true", help="fetch and report, write nothing")
     parser.add_argument("--offline", action="store_true", help="re-render pages from the stored JSON only")
     parser.add_argument("--enrich", dest="enrich", action="store_true", default=None,
@@ -518,6 +572,12 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     cfg = load_config(Path(args.config))
+    if args.years:
+        if any(year < 1991 or year > datetime.now(timezone.utc).year for year in args.years):
+            parser.error("--years must be between 1991 and the current year")
+        cfg["years"] = args.years
+    if args.max_results is not None and args.max_results < 1:
+        parser.error("--max-results must be positive")
     if args.max_results:
         cfg["max_results"] = args.max_results
         cfg["_force_max_results"] = True  # CLI wins over per-topic max_results
@@ -582,9 +642,8 @@ def main(argv: list[str] | None = None) -> int:
 
     archive_dir = ROOT / cfg.get("archive_dir", "docs/topics")
     archive_dir.mkdir(parents=True, exist_ok=True)
-    for topic, bucket in store["topics"].items():
-        if topic not in cfg["keywords"]:
-            continue
+    for topic in cfg["keywords"]:
+        bucket = store["topics"].get(topic, {})
         page = render_topic_page(topic, sorted_entries(bucket), cfg, today)
         (archive_dir / f"{slug(topic)}.md").write_text(page, encoding="utf-8")
 

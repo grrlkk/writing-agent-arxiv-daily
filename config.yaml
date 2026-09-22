@@ -1,6 +1,6 @@
 # Writing Agent arXiv Daily — search configuration
 #
-# Each topic issues one arXiv API query built from its phrases
+# Each topic issues separate arXiv API queries per year and phrase tier
 # (`ti:"phrase" OR abs:"phrase"`, AND-ed with the categories). The API's phrase
 # match is loose, so every entry is re-checked locally against two tiers:
 #
@@ -8,6 +8,7 @@
 #                 (still subject to the topic's `anchors`, when set)
 #   weak_filters  generic phrases ("corruption", "rubric", "tree search") that
 #                 qualify only when a `weak_anchors` term appears as well
+#   required_terms  at least one must match, in both the API query and locally
 #
 # The second tier is what keeps the code-agent / medical-imaging / RL-control
 # literature out of a writing-agent tracker. Tune it before adding blacklist ids.
@@ -25,7 +26,8 @@ abstract_max_chars: 500
 readme_max_per_topic: 20      # full history stays in docs/archive.md
 
 # --- querying -------------------------------------------------------------
-max_results: 100              # per topic, per run (newest first)
+start_year: 2024              # through the current UTC year, queried separately
+max_results: 100              # per topic, year, and phrase tier (newest first)
 page_size: 100
 request_interval: 3.0         # arXiv asks for >= 3s between requests
 retries: 3
@@ -96,6 +98,52 @@ s2_timeout: 60
 
 # --- topics ---------------------------------------------------------------
 keywords:
+
+  "Multilingual & Cross-Lingual Agents":
+    description: >-
+      Applying LLM agents beyond English: multilingual and cross-lingual transfer,
+      non-English tool use and planning, localized writing assistants, and
+      language- or culture-specific agent benchmarks. Survey axis for adapting
+      agent workflows to Korean and other language communities.
+    filters:
+      - "multilingual"
+      - "multi-lingual"
+      - "cross-lingual"
+      - "cross lingual"
+      - "cross-language"
+      - "non-english"
+      - "non english"
+      - "low-resource language"
+      - "low resource language"
+      - "under-resourced language"
+      - "code-switch"
+      - "cross-cultural"
+      - "cultural adaptation"
+      - "culturally adapt"
+      - "korean"
+      - "chinese"
+      - "japanese"
+      - "arabic"
+      - "hindi"
+      - "urdu"
+      - "bengali"
+      - "indonesian"
+      - "vietnamese"
+      - "thai"
+      - "swahili"
+      - "spanish"
+      - "portuguese"
+      - "french"
+      - "german"
+    required_terms:
+      - "agent"
+      - "agentic"
+      - "tool use"
+      - "tool-use"
+      - "tool calling"
+      - "function calling"
+      - "writing assistant"
+    max_results: 150
 
   "Writing Agent":
     description: >-
