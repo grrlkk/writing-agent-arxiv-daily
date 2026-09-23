@@ -2,15 +2,16 @@
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-321 papers, newest first. Generated on **2026-09-22** (UTC).
+322 papers, newest first. Generated on **2026-09-23** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (137)](#2026) · [2025 (93)](#2025) · [2024 (91)](#2024)
+Browse by year: [2026 (138)](#2026) · [2025 (93)](#2025) · [2024 (91)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-09-22**|<details><summary>SambaGraph: Action-Reaction Spatio-Temporal Graphs for Soccer Tactical Response Modeling</summary><br>Soccer tactics are interactive: an attacking action changes the opponent's defensive problem, and the observed response depends on the multi-agent match state. We introduce SambaGraph, an action--reaction spatio-temporal graph dataset and benchmark for soccer tactical response modeling. From tracking and event data for all 64 matches of the 2022 FIFA World Cup, we curate 4,070 action-centered episodes represented as temporally aligned 23-node player--ball graph sequences with attack/defense view...</details>|-|Abel A. Reyes-Angulo et al.|[2609.25569](https://arxiv.org/abs/2609.25569)|**[link](https://github.com/areyesan/SambaGraph)**|
 |**2026-09-21**|<details><summary>onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction</summary><br>We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate...</details>|-|Lei Yang et al.|[2609.24983](https://arxiv.org/abs/2609.24983)|null|
 |**2026-09-21**|<details><summary>Graded-Relevance Composed Multimodal Retrieval for E-commerce Visual Search at Scale</summary><br>Visual search on large e-commerce catalogs must serve both "similarity" queries that ask for items resembling an uploaded image and "modifier" queries that comprise an image and text describing a desired modification (e.g. a color change or style swap). The latter is the setting known as composed image retrieval (CIR). Existing CIR methods, however, treat relevance as binary and train on triplets with a single positive target - a poor fit for real catalogs where many candidates partially satisfy...</details>|-|Anubhav Gupta et al.|[2609.24152](https://arxiv.org/abs/2609.24152)|null|
 |**2026-09-20**|<details><summary>WaveletECO: A Closed-Loop Physical ECO Platform and a Specialized Local Language Model</summary><br>Engineering change order (ECO) is an important step in repairing timing and electrical violations during the late stages of chip design. Existing Agentic EDA methods primarily focus on tool invocation, with less attention to model decision quality and targeted training. A central challenge in ECO is multi-round decision-making: the model must use the results of each round to determine the next repair action. We propose WaveletECO, which integrates a closed-loop execution platform with large lang...</details>|-|Guoxiang Xu et al.|[2609.23444](https://arxiv.org/abs/2609.23444)|null|

@@ -2,15 +2,16 @@
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-186 papers, newest first. Generated on **2026-09-22** (UTC).
+187 papers, newest first. Generated on **2026-09-23** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (89)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
+Browse by year: [2026 (90)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-09-22**|<details><summary>Efficient Cost-Aware LLM Evaluation via Bayesian Bandit Gittins Indices</summary><br>Exhaustively evaluating every candidate LLM configuration on every benchmark item to identify a high-performing one is costly. We formulate configuration selection as a cost-aware Bayesian bandit problem and propose GittinsEval, which draws on the Bayesian-optimal Gittins policy to determine which configuration to evaluate next and when to stop. We extend the policy with an anytime recommendation rule over both fully and partially evaluated configurations, using an LCB-style score to account for...</details>|ICML 2026 (workshop)|Qian Xie et al.|[2609.25645](https://arxiv.org/abs/2609.25645)|null|
 |**2026-09-18**|<details><summary>Programming AMD XDNA NPUs with Open-source Compiler Tools: A FlashAttention Case Study</summary><br>Spatial NPUs such as AMD XDNA place compute tiles beside small local memories and leave data movement between them to software. Mapping a multi-stage workload onto such a device is largely a question of where the intermediate tensors live. We report what we learned making those choices for FlashAttention with the open-source IRON and MLIR-AIR flows. We compare four reference designs on XDNA 1 and XDNA 2: one runs each operator separately, two stream between operators on chip, and one fuses all t...</details>|-|Erwei Wang et al.|[2609.21264](https://arxiv.org/abs/2609.21264)|null|
 |**2026-09-18**|<details><summary>PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking</summary><br>Automated macro placement remains a fundamental challenge in VLSI physical design. Despite decades of research, existing approaches predominantly optimize hand-crafted proxy objectives, such as estimated wirelength, and typically produce placements through one-shot numerical optimization, limiting their ability to incorporate visual layout context, codified design expertise, and downstream physical-design feedback in a unified loop. We present PlaceReasoner-Beta, a verifier-guided multi-agent fr...</details>|-|Qiufeng Li et al.|[2609.21263](https://arxiv.org/abs/2609.21263)|null|
 |**2026-09-14**|<details><summary>VideoScout: Learning Agentic Active Exploration with Adaptive Reasoning Pacing for Long Video Understanding</summary><br>Multimodal Large Language Models (MLLMs) have achieved remarkable progress on short video understanding yet remain limited on long videos due to the limited visual context window. Prevailing approaches rely on uniform frame sampling or recent coarse-to-fine agentic zooming, both of which struggle to localize sparse, decisive evidence in sufficiently long videos. We formulate long video understanding as a \textbf{Sequential Evidence Acquisition (SEA)} problem, in which an agent reads the video tu...</details>|-|Weixin Xu et al.|[2609.15606](https://arxiv.org/abs/2609.15606)|null|

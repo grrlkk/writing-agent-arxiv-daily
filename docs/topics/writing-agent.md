@@ -2,7 +2,7 @@
 
 > The primary axis: LLM agents that write and revise across multiple turns rather than generating once. Z1 in the FEAK-TC introduction.
 
-470 papers, newest first. Generated on **2026-09-22** (UTC).
+470 papers, newest first. Generated on **2026-09-23** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 Browse by year: [2026 (187)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
