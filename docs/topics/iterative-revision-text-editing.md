@@ -2,15 +2,16 @@
 
 > Edit-intention taxonomies, revision histories, and text-editing models — the direct precedent for FEAK-TC's action taxonomy (B1/W2).
 
-154 papers, newest first. Generated on **2026-09-23** (UTC).
+155 papers, newest first. Generated on **2026-09-24** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (71)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
+Browse by year: [2026 (72)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-09-23**|<details><summary>Controlled Attribute-Specific Summarization of Interrogative Dialogues</summary><br>Effective summarization of interrogative dialogues is a critical task in forensic and investigative settings, requiring high factual accuracy, coherence, and attribute-specific relevance. In this work, we introduce CASPER, a novel Chain-of-Thought Attribute-Specific Prompting for Evaluative Summarization framework that leverages structured prompting and iterative refinement to generate high-quality summaries of interrogator-witness interactions. We construct MINDSum, a dataset extending the MIND...</details>|-|A Aditya Bhardwaj et al.|[2609.28004](https://arxiv.org/abs/2609.28004)|null|
 |**2026-09-22**|<details><summary>TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits</summary><br>Software vulnerabilities are often discovered long after they are introduced, making it difficult to identify the vulnerability-inducing commit (VIC) responsible for introducing the underlying vulnerable condition. Existing VIC identification techniques largely rely on git blame to trace vulnerable code through revision history and use positional heuristics, such as selecting its earliest or most recent modification. However, the true VIC may occur anywhere within this history, and vulnerable be...</details>|-|Fnu Tanish et al.|[2609.26711](https://arxiv.org/abs/2609.26711)|null|
 |**2026-09-22**|<details><summary>Synthesis and editing of multi-instrument audio mixtures using scalar-quantised latents with MIDI Span conditioning</summary><br>Music creation often involves iterative refinement, changing selected musical details while retaining the rest. To support such refinement, we introduce SpanSynth-Edit, a flow-matching model for MIDI-guided synthesis and editing of multi-instrument audio mixtures using low-frame-rate scalar-quantised latents. MIDI Span encodes instrument-labelled note lifecycles as unordered event sets with continuous-valued attributes and pools each set into one conditioning vector per audio-latent frame. The m...</details>|ICASSP 2027 (submitted)|Sungkyun Chang et al.|[2609.25546](https://arxiv.org/abs/2609.25546)|null|
 |**2026-09-21**|<details><summary>onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction</summary><br>We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate...</details>|-|Lei Yang et al.|[2609.24983](https://arxiv.org/abs/2609.24983)|null|

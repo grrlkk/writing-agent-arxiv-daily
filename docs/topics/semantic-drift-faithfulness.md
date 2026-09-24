@@ -2,15 +2,16 @@
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-209 papers, newest first. Generated on **2026-09-23** (UTC).
+210 papers, newest first. Generated on **2026-09-24** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (97)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
+Browse by year: [2026 (98)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-09-22**|<details><summary>LexLattice: Multilingual Extractive Summarization via Neural Cellular Automata on Document Hierarchies</summary><br>Faithfulness is a central concern in legal text summarization, which motivates extractive approaches that select verbatim content traceable to its source. Such methods typically rank paragraphs or other structural units in isolation, yet give little attention to consolidating evidence that is distributed across, and shares salience between, distant parts of a document. We introduce LexLattice, an extractive summarizer that reifies a legal act's hierarchy as a two-dimensional semantic lattice and...</details>|-|Sujay Uday Rittikar et al.|[2609.27032](https://arxiv.org/abs/2609.27032)|null|
 |**2026-09-18**|<details><summary>Hallucination-R1: Robustness-Oriented Paraphrase Generation for Factual Consistency</summary><br>Factual hallucination is commonly defined by incorrect factual outputs. We study a paraphrase-induced hallucination setting, where a model answers a factual question correctly in its original form but generates an incorrect answer under a semantically equivalent paraphrase. Such inconsistencies expose latent factual instability under semantic invariance. However, general-purpose paraphrases are often insufficient as robustness-oriented supervision: near-copy paraphrases provide weak signals, whi...</details>|-|Wenhan Yu et al.|[2609.21227](https://arxiv.org/abs/2609.21227)|**[link](https://github.com/yuwenhan07/Hallucination-R1)**|
 |**2026-09-18**|<details><summary>SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?</summary><br>Ensuring the correctness of LLM-generated code is a core challenge for modern software engineering. Benchmarks for agentic code generation check correctness with held-out test suites, which are inherently incomplete and increasingly susceptible to memorization. Formal verification avoids both problems, but existing work covers only standalone tasks whose specifications are given as input, not real issues, which touch large repositories and state intent in vague natural language. We present Bench...</details>|-|George Ma et al.|[2609.21190](https://arxiv.org/abs/2609.21190)|null|
 |**2026-09-16**|<details><summary>Beyond frequency measures: Can contextual embeddings capture meaning change in scientific texts?</summary><br>Identifying technological trends is a core scientometric task, yet traditional frequency-based approaches struggle to capture substantial meaning shifts of domain-specific terms. We hypothesise that contextual embeddings can complement frequency dynamics to effectively track diachronic semantic change. We compare frequency and embedding-based approaches across Astrophysics and NLP corpora spanning from 2010 to 2024. Candidate terms are extracted using KeyBERT (utilizing SciBERT as its underlying...</details>|-|Jianying Liu et al.|[2609.18804](https://arxiv.org/abs/2609.18804)|null|

@@ -1,25 +1,25 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 154,
+   "Iterative Revision & Text Editing": 155,
    "Korean Writing & NLP": 69,
    "Multilingual & Cross-Lingual Agents": 368,
-   "Reward & Value Models": 511,
-   "Search & Control for Generation": 187,
+   "Reward & Value Models": 516,
+   "Search & Control for Generation": 188,
    "Self-Refine & Self-Correction": 241,
-   "Semantic Drift & Faithfulness": 209,
-   "Synthetic Preference Data": 322,
-   "Text Quality Evaluation": 458,
+   "Semantic Drift & Faithfulness": 210,
+   "Synthetic Preference Data": 325,
+   "Text Quality Evaluation": 461,
    "Writing Agent": 470
   },
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "venue_tiers": {
    "demo": 8,
    "findings": 85,
-   "none": 1983,
+   "none": 1994,
    "other": 36,
    "strong": 39,
-   "top": 544,
+   "top": 545,
    "workshop": 107
   }
  },
@@ -5245,7 +5245,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -6265,6 +6265,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.26711v1"
+   },
+   "2609.28004": {
+    "abs_url": "https://arxiv.org/abs/2609.28004",
+    "authors": [
+     "A Aditya Bhardwaj",
+     "Arjit Singh Arora",
+     "Md Shad Akhtar"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-24",
+    "id": "2609.28004",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.28004v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-23",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Effective summarization of interrogative dialogues is a critical task in forensic and investigative settings, requiring high factual accuracy, coherence, and attribute-specific relevance. In this work, we introduce CASPER, a novel Chain-of-Thought Attribute-Specific Prompting for Evaluative Summarization framework that leverages structured prompting and iterative refinement to generate high-quality summaries of interrogator-witness interactions. We construct MINDSum, a dataset extending the MIND corpus, comprising 6,000 utterance pairs annotated with event details, factual statements, character descriptions, and fillers. CASPER employs RoleEval, a hierarchical evaluation mechanism where multiple roles (officer, inspector, senior inspector) iteratively assess summaries based on predefined criteria. By integrating entity extraction and structured feedback loops, CASPER significantly improves factual consistency and contextual completeness compared to existing baselines. Experimental results demonstrate that our framework outperforms standard summarization models on both lexical (ROUGE) and semantic (BERTScore) metrics, while human evaluation confirms its alignment with expert reasoning. Our findings underscore the potential of controlled summarization in high-stakes domains, paving the way for AI-driven forensic intelligence.",
+    "tier": "none",
+    "title": "Controlled Attribute-Specific Summarization of Interrogative Dialogues",
+    "track": "",
+    "updated": "2026-09-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.28004v1"
    }
   },
   "Korean Writing & NLP": {
@@ -22538,14 +22574,14 @@
      "Juan S. Santillana"
     ],
     "code_url": "",
-    "comment": "20 pages, 1 figure, 9 tables. v2: retracted the B6 tool-id score of 0.08 (v1) after finding 3 benchmark harness bugs; under the fixed harness every B6/B7 metric is 0.0. Fixed a LoRA LR bug and a checkpoint-load-order bug. Added a 9-field gate + linear probe. Reframed the NoPE ablation as open, confound quantified. Code/checkpoints on HF",
+    "comment": "28 pages, 1 figure, 11 tables. v4 adds B8: a wider ground-truth-by-construction gate (2,040 items, 34 fields, 16 templates, shuffled-image + best-constant control) on a newly trained checkpoint. 9/34 fields pass, confirming grounding is real but confined to trained template-field combinations. New finding: landmark-keyed lookup, not free-text reading. B6/B7 remain at floor. Code/benchmark on HF",
     "first_seen": "2026-09-22",
     "id": "2608.08477",
     "journal_ref": "",
     "matched": [
      "spanish"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.08477v3",
+    "pdf_url": "https://arxiv.org/pdf/2608.08477v4",
     "primary_category": "cs.CL",
     "published": "2026-08-09",
     "s2": {
@@ -22555,16 +22591,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "25 pages, 1 figure, 10 tables. v3: transplanting a natively-trained visual tower (Qwen2-VL) onto the same frozen decoder takes the failing 8-nibble address field from 0.00 to 0.81 exact, at a coarser token budget than 2x2 tiling, refuting resolution as the operative variable. Second pre-registered field found 63% contaminated, demoted. B6/B7 tool-id remains at floor. Code/checkpoints on HF.",
+    "summary": "We build VectraYX-Vision-1B, a sub-2B Spanish/LATAM cybersecurity vision-language model coupling a frozen SigLIP-so400m encoder to a 1.04B-parameter decoder via a two-layer MLP projector, and report a diagnostic negative result: not that visual grounding failed, but why. After repairing five silent fine-tuning defects, grounding on a nine-field extraction gate with a shuffled-image control is 2/9, invariant across every configuration that leaves the encoder alone; 2x2 tiling, the one that changes it, loses a field and gains none. Resolution is not the operative variable: the field read almost perfectly has the highest entropy in the corpus. A linear probe on frozen SigLIP features gives per-glyph recoverability p~0.61, predicting 1.9% against an observed 0.00; tiling nearly doubles recoverability on two fields, yet the end-to-end model gets worse. Transplanting a natively-trained visual tower onto the same frozen decoder and recipe takes that address field from 0.00 to 0.81 exact, on a coarser token budget than the tiling condition that recovered nothing: pretraining regime, not resolution, sets how far the losses reach. A later, separately trained checkpoint adds one positive result: on B8 (34 fields, 16 templates, 2,040 items, dual shuffled-image/best-constant control), 9 fields pass, confirming genuine grounding within trained template-field combinations only. Sharpest new finding: inside a well-trained template, an untrained field returns a near-constant wrong answer independent of the image -- landmark-keyed lookup, not free-text reading. B6/B7 tool identification stays at 0.0 on every checkpoint including this one; we retract an earlier 0.08 tool-id score after finding three harness defects a stronger model would conceal. We release code, all three benchmarks, configs, and all training checkpoints, including the B8 corpus.",
     "tier": "none",
     "title": "VectraYX-Vision-1B: A Sub-2B Spanish/LATAM Cybersecurity Vision-Language Model with Structured Visual Reasoning and Native Tool Use",
     "track": "",
-    "updated": "2026-09-10",
+    "updated": "2026-09-23",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2608.08477v3"
+    "version": "2608.08477v4"
    },
    "2608.08775": {
     "abs_url": "https://arxiv.org/abs/2608.08775",
@@ -24663,7 +24699,7 @@
     "matched": [
      "multilingual"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.11493v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11493v2",
     "primary_category": "cs.AI",
     "published": "2026-09-10",
     "s2": {
@@ -24677,12 +24713,12 @@
     "tier": "none",
     "title": "From Document Silos to Process Intelligence: A Multi-Layer Knowledge Graph for CMC Process Development",
     "track": "",
-    "updated": "2026-09-10",
+    "updated": "2026-09-23",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.11493v1"
+    "version": "2609.11493v2"
    },
    "2609.12684": {
     "abs_url": "https://arxiv.org/abs/2609.12684",
@@ -40362,7 +40398,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -40398,7 +40434,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -40434,7 +40470,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -40480,7 +40516,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -40518,7 +40554,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -40557,7 +40593,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -40594,7 +40630,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46274,6 +46310,199 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.26796v1"
+   },
+   "2609.26929": {
+    "abs_url": "https://arxiv.org/abs/2609.26929",
+    "authors": [
+     "David Tsoi",
+     "Esra Dönmez"
+    ],
+    "code_url": "",
+    "comment": "Preprint",
+    "first_seen": "2026-09-24",
+    "id": "2609.26929",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.26929v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-22",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "People hold diverse, sometimes conflicting values, so no single aligned model can satisfy everyone. Pluralistic alignment therefore calls for steerable models that can balance competing objectives differently. Multi-Objective Direct Preference Optimization (MODPO) does this by using an objective weight to span a continuum of trade-offs. We study two questions: when can one model improve two objectives simultaneously, and how can many trade-offs be covered without training a separate model for each? Across seven objective pairs from HelpSteer and UltraFeedback, two pre-training measurements predict whether objectives align or conflict for human-annotated data, but not for AI-annotated data, where response length and repetition confound reward-model scores. For broader trade-off coverage, selecting the nearest trained model and merging model parameters both help, but neither consistently matches direct training. These findings yield practical guidance for building steerable models that serve diverse preferences.",
+    "tier": "none",
+    "title": "Which Objectives Need a Dial? Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment",
+    "track": "",
+    "updated": "2026-09-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.26929v1"
+   },
+   "2609.27156": {
+    "abs_url": "https://arxiv.org/abs/2609.27156",
+    "authors": [
+     "Yuqing Zhou",
+     "Hong Wang",
+     "Manqing Mao",
+     "Zhuoer Wang",
+     "Samson Koelle",
+     "Jie Yuan",
+     "Yanjun Lin",
+     "James Feng",
+     "Nikki Lijing Kuang",
+     "Ziwei Zhu",
+     "Wei Niu"
+    ],
+    "code_url": "",
+    "comment": "26 pages, 11 figures",
+    "first_seen": "2026-09-24",
+    "id": "2609.27156",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "process reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.27156v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-22",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large reasoning models can produce correct yet unnecessarily long reasoning traces. Existing methods improve reasoning efficiency with trajectory-level objectives or local token- and step-level signals, but rarely model inter-step semantic dependencies. This limits their ability to distinguish redundant steps from those that support later deductions, making it harder to shorten reasoning without sacrificing accuracy. We introduce RECAP (REdundancy-aware Credit Assignment via Propagation), which addresses this limitation by assigning credit where it is due based on both a step's downstream role in the reasoning structure and its contribution to solving the problem correctly. We define structural responsibility to capture the step's downstream role by measuring how strongly later reasoning depends on it, using credit propagated backward from the final-answer node through an outcome-independent, LLM-annotated semantic dependency graph. However, a step can have high structural responsibility yet steer the reasoning away from the correct solution. RECAP therefore introduces step efficacy to measure answer-directed progress through changes in gold-answer log-likelihood as each step is added. Together, these signals reshape rollout-level GRPO advantages into step-specific updates. RECAP requires neither a separately trained process reward model nor preconstructed concise trajectories. Across two 7B models and four mathematical reasoning benchmarks, RECAP improves the accuracy-efficiency trade-off. On Qwen2.5-Math-7B, it improves pass@1 by 2.0-3.7 percentage points while reducing reasoning tokens by 8%-31% relative to GRPO across all four benchmarks. Analysis suggests these savings reflect fewer reasoning operations and less dead-end reasoning, rather than more compact expression.",
+    "tier": "none",
+    "title": "Giving Credit Where It's Due: Redundancy-Aware Learning for Efficient Reasoning",
+    "track": "",
+    "updated": "2026-09-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.27156v1"
+   },
+   "2609.27572": {
+    "abs_url": "https://arxiv.org/abs/2609.27572",
+    "authors": [
+     "Henan Sun",
+     "Zehua Li",
+     "Haitao Hu",
+     "Qifan Zhang",
+     "Jianfeng Zhang",
+     "Nuo Chen",
+     "Jia Li"
+    ],
+    "code_url": "",
+    "comment": "Under review",
+    "first_seen": "2026-09-24",
+    "id": "2609.27572",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.27572v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-23",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reinforcement learning (RL) has emerged as a key paradigm for improving the reasoning capabilities of large language models (LLMs). However, existing reward systems, such as rule-based and reward-model-based, often exhibit issues such as unstable optimization and reward hacking. In this work, we revisit the general reasoning of LLMs from a geometric perspective, conceptualizing it as a coupled manifold composed of three interdependent sub-manifolds: logical deduction, evaluation, and representation. Based on this perspective, response generation in RL can be interpreted as a decoupling process from the evaluation manifold, while reward estimation corresponds to a decoupling process from the logical deduction manifold. The limitations of rule-based and reward-model RL systems can be geometrically interpreted as the mismatch of policy-reward manifolds during RL process. To address the aforementioned misalignment, we propose Decoupling and Coupling Reinforcement Learning (DCRL) framework, which incorporates two key components: (1) a syllogistic logic-based prompt evolution mechanism that dynamically refines reward rubrics to enhance the expressiveness of the reward manifold; and (2) a policy-reward re-coupling mechanism that jointly updates the reward and policy models, ensuring consistent evaluation and mitigating manifold mismatch during training. Theoretical analysis and extensive experiments across multiple reasoning domains demonstrate that DCRL consistently outperforms both rule-based and reward-model baselines. Notably, a Qwen3-4B model trained under DCRL surpasses a Qwen3-32B baseline and approaches the performance of a Qwen3-235B model, highlighting superior effectiveness and generalization in RL.",
+    "tier": "none",
+    "title": "DCRL: Decoupling and Coupling Reinforcement Learning via Policy-Reward Manifold Alignment",
+    "track": "",
+    "updated": "2026-09-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.27572v1"
+   },
+   "2609.28150": {
+    "abs_url": "https://arxiv.org/abs/2609.28150",
+    "authors": [
+     "Haitong Jiang",
+     "Chunlin Liu",
+     "Yile Wang",
+     "Yuhong Feng"
+    ],
+    "code_url": "https://github.com/kevinjiang0121-cyber/exact-feedback-code",
+    "comment": "35 pages, 18 figures, 25 tables, including appendices",
+    "first_seen": "2026-09-24",
+    "id": "2609.28150",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.28150v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-23",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Closed-loop revision is increasingly used in large language model (LLM) applications, but failures may reflect incomplete feedback or ineffective responses to correct feedback. We introduce a fixed-budget revision protocol with deterministic verifiers that report all remaining violations across exact-length, lexical, and compositional constraints. Fixing feedback correctness and completeness isolates model-side revision behavior. Across 19 open- and closed-source models, controller-level mean final joint success ranges from 17.4% to 99.8%, with substantial cross-model gaps persisting under identical initial drafts. Controlled experiments reveal reproducible model-specific responses to exact feedback. Post-training and scale reshape these responses without consistently bringing them closer to exact correction. Across all constraint families, failed trajectories often repeat earlier outputs, and prior recurrence is associated with lower subsequent recoverability. Matched-state interventions show that removing earlier dialogue while holding the current draft and feedback fixed changes recurrence escape without reliably improving final success; effects depend on the model, task, and trigger-state composition. Exact feedback makes revision errors observable, but does not make the closed loop reliable. Code and reproduction instructions: https://github.com/kevinjiang0121-cyber/exact-feedback-code.",
+    "tier": "none",
+    "title": "Exact Feedback Is Not Control: Evaluating Text-based Closed-Loop Revision in LLMs",
+    "track": "",
+    "updated": "2026-09-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.28150v1"
+   },
+   "2609.28427": {
+    "abs_url": "https://arxiv.org/abs/2609.28427",
+    "authors": [
+     "Sunin Baek",
+     "Sungwoo Park",
+     "Daekyum Kim"
+    ],
+    "code_url": "",
+    "comment": "23 pages, 11 figures, including supplementary materials",
+    "first_seen": "2026-09-24",
+    "id": "2609.28427",
+    "journal_ref": "",
+    "matched": [
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.28427v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-23",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Personalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when this continuity supports learning from limited feedback. We propose Context-Continuous Preference Learning (CCPL), a Gaussian-process preference model that shares observations across nearby contexts while retaining context-specific utility estimates. We evaluated CCPL through simulations and retrospective analyses of ankle and elbow exoskeleton preference data from nine healthy adults. In simulations, CCPL improved reconstruction and preference-based Bayesian optimization relative to independent learning when preferences varied smoothly, but showed negative transfer when continuity was weak. In both human studies, full-data reference landscapes estimated separately for each participant and context tended to be more similar between nearby operating conditions. With five exposures per context, CCPL increased mean reconstruction correlation with these references from 0.644 to 0.720 for ankle assistance and from 0.476 to 0.526 for elbow assistance relative to independent learning. The five-exposure budget was approximately 37% lower for ankle and 17% lower for elbow than the estimated independent-learning budgets needed to match these correlations. CCPL also improved held-out response prediction relative to independent learning, while benefits over pooled learning varied. These findings support context continuity as a basis for sharing preference observations under limited feedback, although benefits for online personalization in humans remain to be established.",
+    "tier": "none",
+    "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
+    "track": "",
+    "updated": "2026-09-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.28427v1"
    }
   },
   "Search & Control for Generation": {
@@ -52879,7 +53108,7 @@
     "primary_category": "cs.SE",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52919,7 +53148,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52956,7 +53185,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -53796,6 +54025,44 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.25645v1"
+   },
+   "2609.27376": {
+    "abs_url": "https://arxiv.org/abs/2609.27376",
+    "authors": [
+     "Nguyen Minh Chi",
+     "Mo El-Haj",
+     "Nguyen Ha Thanh",
+     "Dawn Knight",
+     "Paul Rayson"
+    ],
+    "code_url": "",
+    "comment": "14 pages",
+    "first_seen": "2026-09-24",
+    "id": "2609.27376",
+    "journal_ref": "NLLP 2026 at EMNLP 2026",
+    "matched": [
+     "verifier-guided"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.27376v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-23",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Cross-lingual legal question answering must retrieve statutes across languages while preventing unsupported legal claims. We introduce a bilingual evaluation suite of 231 Vietnamese--English question--answer pairs from Vietnamese labour law. Of these, 75 are additionally annotated for five challenging legal reasoning phenomena. We evaluate a verifier-guided pipeline that decomposes answers into claims, checks citation reachability and entailment, and corrects citation failures and contradictions. We also introduce six automatic diagnostics for faithfulness to retrieved evidence, covering citations, modality, exceptions, procedures, conclusions, and evidential support. Experiments show that learned-sparse retrieval performs poorly for English-to-Vietnamese retrieval (R@5~=~0.032), whereas dense retrieval reaches 0.358 and slightly outperforms hybrid retrieval. Translation placement has no statistically detectable effect on these automatic diagnostics in our controlled comparison and supporting sensitivity analyses. Verifier-guided correction improves citation preservation by $0.022$--$0.034$ at the system level but produces no reliable gains in the remaining dimensions. Human evaluation further shows that the automatic diagnostics do not fully align with human judgements of answer quality.",
+    "tier": "top",
+    "title": "Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction",
+    "track": "main",
+    "updated": "2026-09-23",
+    "venue": "EMNLP",
+    "venue_evidence": "NLLP 2026 at EMNLP 2026",
+    "venue_source": "journal_ref",
+    "venue_year": "2026",
+    "version": "2609.27376v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -62604,7 +62871,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62639,7 +62906,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62907,7 +63174,7 @@
      "self-correction",
      "self-correct"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.26706v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26706v2",
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
@@ -62921,12 +63188,12 @@
     "tier": "workshop",
     "title": "Towards Expert Financial QA via Self-Improving RAG",
     "track": "workshop",
-    "updated": "2026-08-27",
+    "updated": "2026-09-23",
     "venue": "ICLR",
     "venue_evidence": "17 pages, 2 figures. Accepted at the ICLR 2026 Workshop on Advances in Financial AI",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2608.26706v1"
+    "version": "2608.26706v2"
    },
    "2608.27046": {
     "abs_url": "https://arxiv.org/abs/2608.27046",
@@ -63487,14 +63754,15 @@
      "Yixin Cao"
     ],
     "code_url": "",
-    "comment": "42 pages, including appendices",
+    "comment": "44 pages, including appendices",
     "first_seen": "2026-09-21",
     "id": "2609.21423",
     "journal_ref": "",
     "matched": [
-     "self-refine"
+     "self-refine",
+     "self-improvement"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.21423v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.21423v2",
     "primary_category": "cs.AI",
     "published": "2026-09-18",
     "s2": {
@@ -63504,16 +63772,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Online agent deployments produce abundant execution traces, while task-specific verification and expert annotation are costly to scale. We study how to distill these traces into reusable feedback without post-hoc outcome labels, drawing on their evidence of local progress, recovery, and unfinished requirements. We introduce DENSE (Distilling Evidence from Nested Subtask Executions), which organizes this evidence into evidence-grounded nested shortcut trees. DENSE compresses redundant attempts, reconciles issues across levels using recovery evidence, and summarizes completed branches while expanding unresolved ones, linking reusable progress to remaining obligations. We introduce REFIT, a source-paired protocol comparing feedback from shared initial trajectories under post-hoc outcome blindness, with environments and model contexts reset for fresh attempts at the same tasks. On Terminal-Bench 2.1, DENSE achieves the highest strict pass rate among tested non-privileged feedback methods across four recipient models. Relative to initial executions, strict pass rate improves by 7.12-15.64 pp, with 19.0-43.6% fewer observed recipient tokens in reruns. GPT-5.5 ablations support combining nested subtask analysis with shortcut construction and issue reconciliation. These findings point toward agent self-refinement through evidence-grounded trajectory reuse with less reliance on external supervision.",
+    "summary": "Online agent deployments produce abundant execution traces, while task-specific verification and expert annotation are costly to scale. This gap raises a question: without post-execution rewards or correctness labels, what useful experience can we extract from the trajectories themselves? To efficiently use this information, we introduce DENSE (Distilling Evidence from Nested Subtask Executions), which organizes trajectory evidence into evidence-grounded nested shortcut trees. DENSE condenses repeated attempts, tracks resolved problems, and preserves useful steps alongside unfinished requirements. To evaluate how feedback helps agents retry the same task, we introduce REFIT, which compares changes in task success rates from the initial attempt. Among tested methods without external outcome supervision, DENSE achieves the highest strict pass rate across four agent models on Terminal-Bench 2.1. Compared with the initial attempts, strict pass rate increases by 7.12-15.64 percentage points, with 19.0-43.6% lower observed agent token use during the new attempts. In an exploratory hard-task extension, DENSE also outperforms the Self-reflection baseline in cumulative pass rate after multiple feedback iterations across all four models. These findings suggest DENSE's potential for continual agent self-improvement without external annotations or post-execution outcome supervision.",
     "tier": "none",
     "title": "DENSE: Distilling Agent Trajectories into Evidence-Grounded Shortcut Trees for Self-Refinement",
     "track": "",
-    "updated": "2026-09-18",
+    "updated": "2026-09-23",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.21423v1"
+    "version": "2609.21423v2"
    },
    "2609.21749": {
     "abs_url": "https://arxiv.org/abs/2609.21749",
@@ -71034,7 +71302,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-21",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [
       "Review"
      ],
@@ -71075,7 +71343,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -71113,7 +71381,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -71152,7 +71420,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -71924,7 +72192,7 @@
     "matched": [
      "faithfulness"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.21190v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.21190v2",
     "primary_category": "cs.LG",
     "published": "2026-09-18",
     "s2": {
@@ -71934,16 +72202,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Ensuring the correctness of LLM-generated code is a core challenge for modern software engineering. Benchmarks for agentic code generation check correctness with held-out test suites, which are inherently incomplete and increasingly susceptible to memorization. Formal verification avoids both problems, but existing work covers only standalone tasks whose specifications are given as input, not real issues, which touch large repositories and state intent in vague natural language. We present Benchproofer, a pipeline that turns a coding task with a known correct patch into a formally verified one: it writes a specification for the new code, summarizes the existing functions that code calls with axioms, and admits an instance only after mechanical and adversarial gates agree. Applying it to SWE-bench Verified yields SWE-Proof, 500 real issues whose correctness is formally verified rather than tested, and it extends to SWE-bench Pro. Across two frontier models, verification catches what tests miss: a quarter to a half of test-passing patches admit counterexamples, which a structured natural-language specification does not fix, while a correct formal one lifts resolution from 85% to 95% for Opus 4.8. Writing that specification is the hard part: models that must write their own gain nothing over an unaided baseline, and only 62% of their specifications pass our audit. The usual failure is faithfulness, a specification that constrains part of the required behavior and leaves the rest free. Specification quality still tracks the outcome, failing on 89% of unresolved instances against 47% of resolved ones, making faithful specification synthesis a concrete open problem.",
+    "summary": "Ensuring the correctness of LLM-generated code is a core challenge for modern software engineering. Benchmarks for agentic code generation check correctness with held-out test suites, which are inherently incomplete and increasingly susceptible to memorization. Formal verification avoids both problems, but existing work covers only standalone tasks whose specifications are given as input, not real issues, which touch large repositories and state intent in vague natural language. We present Benchproofer, a pipeline that turns a coding task with a known correct patch into a formally verified one: it writes a specification for the new code, summarizes the existing functions that code calls with axioms, and admits an instance only after mechanical and adversarial gates agree. Applying it to SWE-bench Verified yields SWE-Proof, 500 real issues whose correctness is formally verified rather than tested, and it extends to SWE-bench Pro. Evaluating Claude Opus 4.8, we find that verification catches what tests miss: a quarter of test-passing patches admit counterexamples, which a structured natural-language specification does not fix, while a correct formal one lifts resolution from 85% to 95%. Writing that specification is the hard part: an agent that must write its own gains nothing over an unaided baseline, and only 56% of those specifications pass our audit. The usual failure is faithfulness, a specification that constrains part of the required behavior and leaves the rest free. Specification quality still tracks the outcome, failing on 92% of unresolved instances against 51% of resolved ones, making faithful specification synthesis a concrete open problem.",
     "tier": "none",
     "title": "SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?",
     "track": "",
-    "updated": "2026-09-18",
+    "updated": "2026-09-22",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.21190v1"
+    "version": "2609.21190v2"
    },
    "2609.21227": {
     "abs_url": "https://arxiv.org/abs/2609.21227",
@@ -71981,6 +72249,41 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.21227v1"
+   },
+   "2609.27032": {
+    "abs_url": "https://arxiv.org/abs/2609.27032",
+    "authors": [
+     "Sujay Uday Rittikar",
+     "Sheela Ramanna"
+    ],
+    "code_url": "",
+    "comment": "14 pages, 4 figures",
+    "first_seen": "2026-09-24",
+    "id": "2609.27032",
+    "journal_ref": "",
+    "matched": [
+     "faithfulness"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.27032v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-22",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Faithfulness is a central concern in legal text summarization, which motivates extractive approaches that select verbatim content traceable to its source. Such methods typically rank paragraphs or other structural units in isolation, yet give little attention to consolidating evidence that is distributed across, and shares salience between, distant parts of a document. We introduce LexLattice, an extractive summarizer that reifies a legal act's hierarchy as a two-dimensional semantic lattice and consolidates over it with a masked 2D neural cellular automata before selection. LexLattice attains state-of-the-art ROUGE across all 24 languages of EUR-Lex-Sum in both multilingual and cross-lingual settings, surpassing instruction-tuned baselines with billions of parameters, despite concentrating all trainable capacity in a 1.8M parameter consolidator over a frozen multilingual encoder. A consolidator trained only on high-resource languages further transfers to unseen languages with near-lossless retention (0.99), indicating that the model operates on language-agnostic semantic geometry rather than surface form. Our results position explicit consolidation over document structure as a compact and traceable alternative to scale for multilingual legal summarization.",
+    "tier": "none",
+    "title": "LexLattice: Multilingual Extractive Summarization via Neural Cellular Automata on Document Hierarchies",
+    "track": "",
+    "updated": "2026-09-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.27032v1"
    }
   },
   "Synthetic Preference Data": {
@@ -77919,6 +78222,42 @@
     "venue_year": "",
     "version": "2511.04286v1"
    },
+   "2511.04541": {
+    "abs_url": "https://arxiv.org/abs/2511.04541",
+    "authors": [
+     "Baptiste Bonin",
+     "Maxime Heuillet",
+     "Audrey Durand"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-24",
+    "id": "2511.04541",
+    "journal_ref": "",
+    "matched": [
+     "synthetic preference"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2511.04541v2",
+    "primary_category": "cs.IR",
+    "published": "2025-11-06",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2025
+    },
+    "status": "unknown",
+    "summary": "Slate recommender systems (RecSys) present users with ordered sets of interacting items (e.g., playlists). We investigate whether large language models (LLMs) can articulate pairwise preferences between slates for synthetic A/B testing of slate RecSys. We introduce a validation protocol measuring the alignment of synthetic preferences with classical RecSys metrics and their compliance with preference axioms, and use it to characterise how LLM pre-training and configuration affect slate preference articulation. Combined with the generalized Rao-Kupper model, synthetic LLM-based A/B testing recovers rankings that remain stable across utility weightings, whereas off-policy estimators are reliable only when the target utility matches the logged behavior. We position it as a screening stage between off-policy evaluation and live experiments: not a replacement for A/B testing, but a way to reserve its cost for the most promising candidates.",
+    "tier": "none",
+    "title": "Offline A/B Testing of Slate Recommendation Systems with LLMs: Reducing the Dependency on Pre-Collected User Interaction Data",
+    "track": "",
+    "updated": "2026-09-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2511.04541v2"
+   },
    "2511.05705": {
     "abs_url": "https://arxiv.org/abs/2511.05705",
     "authors": [
@@ -82766,7 +83105,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [
       "Review"
      ],
@@ -82805,7 +83144,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -82846,7 +83185,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -82883,7 +83222,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -82920,7 +83259,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -84980,6 +85319,77 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.25569v1"
+   },
+   "2609.27758": {
+    "abs_url": "https://arxiv.org/abs/2609.27758",
+    "authors": [
+     "Paras Balani",
+     "Subhrakanta Panda"
+    ],
+    "code_url": "",
+    "comment": "10 pages, 5 figures",
+    "first_seen": "2026-09-24",
+    "id": "2609.27758",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.27758v1",
+    "primary_category": "cs.CL",
+    "published": "2026-08-15",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Safety alignment in large language models is trained primarily in English, and recent work reports that the underlying harmfulness representation survives translation: English-trained probes separate harmful from harmless prompts almost as well in low-resource languages as in English. This has been taken as evidence that cross-lingual refusal failures mainly reflect calibration rather than representation quality. We show that this conclusion depends on the choice of negative examples. Across nine languages spanning three resource tiers, we replicate near-perfect transfer (AUROC > 0.98) when harmless prompts come from an unrelated distribution (easy negatives). With XSTest contrast prompts, which are benign but surface-similar to harmful requests (hard negatives), transfer collapses in low-resource languages while remaining largely stable in high-resource languages. On Qwen2.5-7B-Instruct, mean AUROC drop increases from 0.003 in English to 0.017 in high-resource, 0.042 in mid-resource, and 0.276 in low-resource languages. The pattern replicates on Aya Expanse. Back-translation chrF controls and a matched-chrF comparison across three languages reduce the likelihood that translation quality explains the effect. The collapse remains after controlling for chrF (partial r = 0.70, p = 0.03). Tokenizer fertility correlates with the collapse and explains part of the resource-tier effect, but not all of it. The results show that easy-negative transfer can coexist with substantial degradation under hard negatives. Easy-negative evaluation alone therefore cannot establish that the harmfulness representation survives translation.",
+    "tier": "none",
+    "title": "Hard Negatives Reveal What Easy Negatives Hide: Cross-Lingual Harmfulness Representations Degrade with Resource Tier Under Hard Negatives",
+    "track": "",
+    "updated": "2026-08-15",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.27758v1"
+   },
+   "2609.28427": {
+    "abs_url": "https://arxiv.org/abs/2609.28427",
+    "authors": [
+     "Sunin Baek",
+     "Sungwoo Park",
+     "Daekyum Kim"
+    ],
+    "code_url": "",
+    "comment": "23 pages, 11 figures, including supplementary materials",
+    "first_seen": "2026-09-24",
+    "id": "2609.28427",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.28427v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-23",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Personalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when this continuity supports learning from limited feedback. We propose Context-Continuous Preference Learning (CCPL), a Gaussian-process preference model that shares observations across nearby contexts while retaining context-specific utility estimates. We evaluated CCPL through simulations and retrospective analyses of ankle and elbow exoskeleton preference data from nine healthy adults. In simulations, CCPL improved reconstruction and preference-based Bayesian optimization relative to independent learning when preferences varied smoothly, but showed negative transfer when continuity was weak. In both human studies, full-data reference landscapes estimated separately for each participant and context tended to be more similar between nearby operating conditions. With five exposures per context, CCPL increased mean reconstruction correlation with these references from 0.644 to 0.720 for ankle assistance and from 0.476 to 0.526 for elbow assistance relative to independent learning. The five-exposure budget was approximately 37% lower for ankle and 17% lower for elbow than the estimated independent-learning budgets needed to match these correlations. CCPL also improved held-out response prediction relative to independent learning, while benefits over pooled learning varied. These findings support context continuity as a basis for sharing preference observations under limited feedback, although benefits for online personalization in humans remain to be established.",
+    "tier": "none",
+    "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
+    "track": "",
+    "updated": "2026-09-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.28427v1"
    }
   },
   "Text Quality Evaluation": {
@@ -89872,10 +90282,8 @@
     "primary_category": "cs.IR",
     "published": "2025-11-06",
     "s2": {
-     "checked": "2026-09-22",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-09-24",
+     "types": [],
      "venue": "",
      "year": 2025
     },
@@ -91352,14 +91760,14 @@
      "Kevin Zhu"
     ],
     "code_url": "https://github.com/ASCIIBench/ASCIIBench",
-    "comment": "Accepted to The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025): LLM Evaluation Workshop & Multimodal Algorithmic Reasoning Workshop",
+    "comment": "Accepted to NeurIPS 2025 LLM-eval & MAR Workshops",
     "first_seen": "2026-09-22",
     "id": "2512.04125",
     "journal_ref": "",
     "matched": [
      "evaluation metric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2512.04125v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.04125v2",
     "primary_category": "cs.LG",
     "published": "2025-12-02",
     "s2": {
@@ -91375,12 +91783,12 @@
     "tier": "workshop",
     "title": "ASCIIBench: Evaluating Language-Model-Based Understanding of Visually-Oriented Text",
     "track": "workshop",
-    "updated": "2025-12-02",
+    "updated": "2026-09-22",
     "venue": "NeurIPS",
-    "venue_evidence": "Accepted to The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025): LLM Evaluation Workshop & Multimodal Algorithmic Reasoni",
+    "venue_evidence": "Accepted to NeurIPS 2025 LLM-eval & MAR Workshops",
     "venue_source": "comment",
     "venue_year": "2025",
-    "version": "2512.04125v1"
+    "version": "2512.04125v2"
    },
    "2512.05336": {
     "abs_url": "https://arxiv.org/abs/2512.05336",
@@ -98544,7 +98952,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [
       "Review"
      ],
@@ -98584,7 +98992,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-21",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -98621,7 +99029,7 @@
     "primary_category": "cs.AR",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -98662,7 +99070,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -98702,7 +99110,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -98742,7 +99150,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -98778,7 +99186,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -98819,7 +99227,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -98858,7 +99266,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -103593,6 +104001,117 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.26707v1"
+   },
+   "2609.27035": {
+    "abs_url": "https://arxiv.org/abs/2609.27035",
+    "authors": [
+     "Mattie Terzolo",
+     "Mikolaj Sacha",
+     "Ayan Sinha",
+     "Andrew Rabinovich"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-24",
+    "id": "2609.27035",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.27035v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-22",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Group Relative Policy Optimization (GRPO) and related policy-gradient methods for training language model agents collapse an entire multi-turn rollout into a single scalar trajectory reward before it enters the policy update. When the task composes distinct skills, especially under sparse and delayed environmental feedback, this collapsing is lossy: the optimizer must implicitly infer which competency drove the outcome and how that should change behavior. We argue the right primitive is not a better scalar but a decomposition: trajectory reward should be split along subtasks before it enters the policy update. We introduce Reinforcement Learning with Decomposed Subtasks (RLDS), whose core is Subtask-Decomposed Advantage Estimation (SDAE): a replacement for the scalar GRPO advantage that splits trajectory reward into per-subtask shares on a fixed taxonomy, computes a group-relative advantage per subtask, and distributes per-token credit by weighting each subtask's advantage by its importance, concentrating it around the step where a reflection marks that subtask's execution as consequential. We evaluate on four agentic benchmarks: FrozenLake (sparse grid navigation), HotpotQA (multi-hop QA, one retrieval tool), ScienceWorld (long-horizon embodied science), and DeepResearch (long-form research, four tools, composite rubric reward). Heterogeneity diagnostics emitted during training show where decomposition pays off - gains scale with subtask heterogeneity, largest on the high-heterogeneity tasks ScienceWorld (+11.5 points, paired-bootstrap 95% CI [+9.8, +13.3]) and FrozenLake (+9.8 points, [+7.0, +12.8]), and within noise on HotpotQA and DeepResearch, where the diagnostics predicted little to recover. ScienceWorld is also more compute-efficient under RLDS than scalar GRPO (-10.9% wall-clock per step), as long rollouts amortize the fixed reflect-and-grade overhead.",
+    "tier": "none",
+    "title": "Reinforcement Learning with Decomposed Subtasks",
+    "track": "",
+    "updated": "2026-09-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.27035v1"
+   },
+   "2609.28026": {
+    "abs_url": "https://arxiv.org/abs/2609.28026",
+    "authors": [
+     "Norah Almousa",
+     "Shayan Peyghambari Oskoui",
+     "Raquel Coelho",
+     "Gayle Rogers",
+     "Xiang Lorraine Li",
+     "Diane Litman"
+    ],
+    "code_url": "",
+    "comment": "Accepted at AIME-Con 2026. Camera-ready version",
+    "first_seen": "2026-09-24",
+    "id": "2609.28026",
+    "journal_ref": "",
+    "matched": [
+     "feedback generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.28026v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-23",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We investigate whether state-of-the-art large language models (LLMs) generate feedback that reflects the pedagogical practices of expert teachers in terms of feedback focus and adaptivity. Previous evaluation efforts have examined feedback characteristics, its impact on learning, and its target, yet the focus of feedback and its adaptivity remains largely overlooked. To bridge this gap, we adopt and refine Narciss's taxonomy into seven feedback focus types to annotate teacher and LLM-generated feedback across three university writing courses. We release FeedType, a benchmark containing annotated teacher and LLM feedback from six LLMs under three prompting strategies. We assess the coverage and distribution of feedback focus types, and examine whether LLMs adapt their feedback across draft stages and student performance levels as an expert instructor does. Our findings show that while most LLMs cover most feedback focus types, they fail to reflect teacher feedback distributions and show varying levels of adaptivity, with none matching the teachers' adaptive behavior. We believe FeedType will support future research on pedagogical alignment in LLM feedback generation.",
+    "tier": "none",
+    "title": "Evaluating Feedback Focus and Pedagogical Adaptivity in LLM-Generated Feedback on Student Writing",
+    "track": "",
+    "updated": "2026-09-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.28026v1"
+   },
+   "2609.28245": {
+    "abs_url": "https://arxiv.org/abs/2609.28245",
+    "authors": [
+     "AbdulRahman A. Morsy",
+     "Aya Zirikly"
+    ],
+    "code_url": "",
+    "comment": "14 pages",
+    "first_seen": "2026-09-24",
+    "id": "2609.28245",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.28245v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-23",
+    "s2": {
+     "checked": "2026-09-24",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and stylistically constrained literary forms remains underexplored. Prior work has focused largely on modern language varieties and poetry, while classical prose traditions such as maqama remain largely unstudied. The maqama is a classical literary genre characterized by rhymed prose (saj), dense rhetorical ornamentation, and episodic narrative structure, making it a challenging testbed for evaluating whether LLMs can move beyond surface fluency toward deeper literary competence. In this paper, we present the first controlled evaluation study of maqama generation with LLMs, comparing five models under zero-shot, few-shot, and rule-based prompting, and evaluating outputs through both human annotation and an LLM-as-a-judge framework across dimensions such as rhetorical richness, saj density, structural coherence, and stylistic authenticity. Our results show that prompting strategy plays a strong role in stylistic quality: few-shot prompting most consistently improves saj density, while its effects on rhetoric and coherence vary by model, with the strongest models (GPT-4o and GPT-5.4-mini) benefiting most from rule-based prompting on these dimensions, though zero-shot prompting yields the highest aggregate scores across all five models. We further observe systematic differences between models in stylistic alignment with Arabic maqama conventions, and corroborate our findings with a second independent LLM judge, paired statistical significance testing, and non-LLM proxy measures of saj.",
+    "tier": "none",
+    "title": "Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?",
+    "track": "",
+    "updated": "2026-09-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.28245v1"
    }
   },
   "Writing Agent": {
@@ -121475,7 +121994,7 @@
     "primary_category": "cs.SE",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121516,7 +122035,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-25",
+     "checked": "2026-09-24",
      "types": [],
      "venue": "",
      "year": 2026

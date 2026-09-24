@@ -9,17 +9,18 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-23** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-24** (UTC).
 Back to the [main page](../README.md).
 
-819 of 2802 papers carry venue evidence.
+820 of 2814 papers carry venue evidence.
 
-## Top-tier venues (544)
+## Top-tier venues (545)
 
-### EMNLP (144)
+### EMNLP (145)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-23**|Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction|EMNLP 2026|Search & Control for Generation|[2609.27376](https://arxiv.org/abs/2609.27376)|
 |**2026-09-17**|SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment|EMNLP 2026|Text Quality Evaluation|[2609.20584](https://arxiv.org/abs/2609.20584)|
 |**2026-09-16**|REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement|EMNLP 2026|Synthetic Preference Data|[2609.18262](https://arxiv.org/abs/2609.18262)|
 |**2026-09-16**|Re2A: Situated Conversational Recommendation via Rubric-based Preference Reasoning and Alignment|EMNLP 2026|Text Quality Evaluation|[2609.18249](https://arxiv.org/abs/2609.18249)|
