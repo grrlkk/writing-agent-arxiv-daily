@@ -9,10 +9,10 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-24** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-25** (UTC).
 Back to the [main page](../README.md).
 
-820 of 2814 papers carry venue evidence.
+823 of 2831 papers carry venue evidence.
 
 ## Top-tier venues (545)
 
@@ -697,9 +697,9 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-26**|Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks|IUI 2024|Text Quality Evaluation|[2410.20266](https://arxiv.org/abs/2410.20266)|
 
-## Findings tracks (85)
+## Findings tracks (86)
 
-### EMNLP (51)
+### EMNLP (52)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -726,6 +726,7 @@ Back to the [main page](../README.md).
 |**2026-08-28**|A Unified Framework to Elicit Structured Feedback for Interpretable Multi-Trait Essay Scoring|EMNLP 2026 (findings)|Text Quality Evaluation|[2608.28407](https://arxiv.org/abs/2608.28407)|
 |**2026-08-27**|Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory|EMNLP 2026 (findings)|Multilingual & Cross-Lingual Agents|[2608.26807](https://arxiv.org/abs/2608.26807)|
 |**2026-08-27**|A Survey on Rubric-Guided Reinforcement Learning for Language Models|EMNLP 2026 (findings)|Reward & Value Models, Semantic Drift & Faithfulness|[2608.27505](https://arxiv.org/abs/2608.27505)|
+|**2026-08-26**|Is Reasoning Always Useful? Rethinking Reasoning Utility in Universal Multimodal Embeddings|EMNLP 2026 (findings)|Synthetic Preference Data|[2609.29560](https://arxiv.org/abs/2609.29560)|
 |**2026-08-25**|SA-Bench: Evaluating Semantic Alignment in LLM-Based Paper Reproduction|EMNLP 2026 (findings)|Semantic Drift & Faithfulness|[2608.24252](https://arxiv.org/abs/2608.24252)|
 |**2026-08-25**|Unsupervised Post-Training of Foundation Models: A Survey|EMNLP 2026 (findings)|Synthetic Preference Data|[2608.24982](https://arxiv.org/abs/2608.24982)|
 |**2026-08-24**|DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation|EMNLP 2026 (findings)|Reward & Value Models|[2608.22806](https://arxiv.org/abs/2608.22806)|
@@ -877,12 +878,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (107)
+## Workshops (109)
 
-### NeurIPS (24)
+### NeurIPS (25)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-08-19**|Metrics That Write Themselves: Evolving an Evaluator from Its Own Blind Spots|NeurIPS 2026 (workshop)|Writing Agent|[2608.18744](https://arxiv.org/abs/2608.18744)|
 |**2025-12-16**|Reasoning Relay: Evaluating Stability and Interchangeability of Large Language Models in Mathematical Reasoning|NeurIPS 2025 (workshop)|Reward & Value Models|[2512.20647](https://arxiv.org/abs/2512.20647)|
 |**2025-12-05**|RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs|NeurIPS 2025 (workshop)|Reward & Value Models|[2512.05542](https://arxiv.org/abs/2512.05542)|
 |**2025-12-02**|ASCIIBench: Evaluating Language-Model-Based Understanding of Visually-Oriented Text|NeurIPS 2025 (workshop)|Text Quality Evaluation|[2512.04125](https://arxiv.org/abs/2512.04125)|
@@ -908,10 +910,11 @@ Back to the [main page](../README.md).
 |**2024-09-21**|Towards Automated Patent Workflows: AI-Orchestrated Multi-Agent Framework for Intellectual Property Management and Analysis|NeurIPS 2024 (workshop)|Text Quality Evaluation|[2409.19006](https://arxiv.org/abs/2409.19006)|
 |**2023-10-06**|KoMultiText: Large-Scale Korean Text Dataset for Classifying Biased Speech in Real-World Online Services|NeurIPS 2023 (workshop)|Korean Writing & NLP|[2310.04313](https://arxiv.org/abs/2310.04313)|
 
-### ICML (15)
+### ICML (16)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-24**|Learning to Ideate for Scientific Impact|ICML 2026 (workshop)|Reward & Value Models|[2609.29802](https://arxiv.org/abs/2609.29802)|
 |**2026-09-22**|Efficient Cost-Aware LLM Evaluation via Bayesian Bandit Gittins Indices|ICML 2026 (workshop)|Search & Control for Generation|[2609.25645](https://arxiv.org/abs/2609.25645)|
 |**2026-09-19**|Triggers and Diagnostics for LLM-Based Interpretability Failures in Active Inference Agents|ICML 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2609.23215](https://arxiv.org/abs/2609.23215)|
 |**2026-09-17**|Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models|ICML 2026 (workshop)|Reward & Value Models|[2609.21094](https://arxiv.org/abs/2609.21094)|

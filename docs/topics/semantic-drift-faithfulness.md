@@ -2,7 +2,7 @@
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-210 papers, newest first. Generated on **2026-09-24** (UTC).
+210 papers, newest first. Generated on **2026-09-25** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 Browse by year: [2026 (98)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
