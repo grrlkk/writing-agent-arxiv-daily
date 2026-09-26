@@ -2,7 +2,7 @@
 
 > Whether a model can improve its own draft with no external signal — the baseline the TVM has to beat (RQ4).
 
-241 papers, newest first. Generated on **2026-09-25** (UTC).
+241 papers, newest first. Generated on **2026-09-26** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 Browse by year: [2026 (112)](#2026) · [2025 (65)](#2025) · [2024 (64)](#2024)

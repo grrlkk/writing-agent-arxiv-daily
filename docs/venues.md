@@ -9,7 +9,7 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-25** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-26** (UTC).
 Back to the [main page](../README.md).
 
 823 of 2831 papers carry venue evidence.

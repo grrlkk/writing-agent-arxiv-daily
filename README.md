@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-09-25** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-09-26** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -22,26 +22,6 @@ papers using the year links under each topic; the preview shows the newest 20.
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (210)
 - [Search & Control for Generation](#search--control-for-generation) (190)
 - [Korean Writing & NLP](#korean-writing--nlp) (69)
-
-## New in this update (17)
-
-- `Multilingual & Cross-Lingual Agents` [AlphaDiverse: Post-Training Local Quantitative Research Agents for Diverse Exploration in Alpha Factor Mining](https://arxiv.org/abs/2609.29014)
-- `Multilingual & Cross-Lingual Agents` [Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents](https://arxiv.org/abs/2609.28609)
-- `Iterative Revision & Text Editing` [Confident but Wrong: A Constrained Decoding Diagnostic for Low-Resource Automatic Post-Editing](https://arxiv.org/abs/2609.29680)
-- `Reward & Value Models` [PoEM: Predicting RL Outcomes from Existing Policies](https://arxiv.org/abs/2609.30226)
-- `Reward & Value Models` [Learning to Ideate for Scientific Impact](https://arxiv.org/abs/2609.29802)
-- `Reward & Value Models` [Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures](https://arxiv.org/abs/2609.29429)
-- `Reward & Value Models` [Reward Hacking Challenges Oversight of Autonomous Research Agents](https://arxiv.org/abs/2609.28614)
-- `Synthetic Preference Data` [Calibrated Decision Models for Autonomous Penetration-Testing Harnesses: JEV and Laya as System One Decision Layers for LLM-Driven Pentest Agents](https://arxiv.org/abs/2609.28940)
-- `Synthetic Preference Data` [TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment](https://arxiv.org/abs/2609.28575)
-- `Synthetic Preference Data` [Is Reasoning Always Useful? Rethinking Reasoning Utility in Universal Multimodal Embeddings](https://arxiv.org/abs/2609.29560)
-- `Text Quality Evaluation` [CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding](https://arxiv.org/abs/2609.29474)
-- `Text Quality Evaluation` [CRISS: A Retrieval-Augmented AI Chatbot for Assisting Cancer Registrars](https://arxiv.org/abs/2609.29075)
-- `Text Quality Evaluation` [Where Cyber Agents Struggle: Bottleneck Analysis of Multi-Stage LLM Agents](https://arxiv.org/abs/2609.28572)
-- `Text Quality Evaluation` [Learning Better Reasoning for Generative Recommendation with Semantic IDs](https://arxiv.org/abs/2609.29973)
-- `Text Quality Evaluation` [Right Choice of Classification Algorithms Based on Reinforcement Learning for Prediction of Non-Alcoholic Fatty Liver](https://arxiv.org/abs/2609.29181)
-- `Search & Control for Generation` [Canopy: Exploiting Piecewise Smooth Tree Priors for Multi-Fidelity Bandits](https://arxiv.org/abs/2609.30017)
-- `Search & Control for Generation` [Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs](https://arxiv.org/abs/2609.29845)
 
 ## Multilingual & Cross-Lingual Agents
 
