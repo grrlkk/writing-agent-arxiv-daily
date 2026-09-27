@@ -2,7 +2,7 @@
 
 > Applying LLM agents beyond English: multilingual and cross-lingual transfer, non-English tool use and planning, localized writing assistants, and language- or culture-specific agent benchmarks. Survey axis for adapting agent workflows to Korean and other language communities.
 
-370 papers, newest first. Generated on **2026-09-26** (UTC).
+370 papers, newest first. Generated on **2026-09-27** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 Browse by year: [2026 (147)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)

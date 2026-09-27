@@ -12,7 +12,7 @@
    "Text Quality Evaluation": 466,
    "Writing Agent": 470
   },
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "venue_tiers": {
    "demo": 8,
    "findings": 86,
@@ -5319,7 +5319,7 @@
     "primary_category": "math.OC",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5357,7 +5357,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5391,7 +5391,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [
       "Review"
      ],
@@ -41230,7 +41230,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -41277,7 +41277,7 @@
     "primary_category": "cs.SD",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -41315,7 +41315,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -41352,7 +41352,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -41392,7 +41392,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -41434,7 +41434,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -41471,10 +41471,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Best-of-N (BoN) sampling is the simplest and most widely deployed inference-time alignment strategy, but it suffers from two distinct problems: reward hacking, in which the selected response exploits errors in the proxy reward model, and the absence of any privacy protection for the sensitive human preference data used to train that reward model. We show that a single intervention-adding calibrated noise to reward scores before selection-resolves both. Our first result, Private Best-of-N (PrivBoN), establishes that Gumbel noise at an appropriate scale simultaneously provides $ε$-differential privacy and implements KL-regularized alignment. Whenever the privacy budget exceeds a critical threshold $ε^*$, the privacy-mandated noise is the regret-optimal regularization, and privacy imposes zero additional alignment cost-matching the information-theoretic skyline of Huang et al. (2025). Because $ε^*$ depends on an unknown coverage coefficient, we introduce Private Inference-Time Pessimism (PrivITP), which combines $χ^2$-regularized rejection sampling with a two-phase Gaussian mechanism. PrivITP achieves ex-post $(ε,δ)$-DP with a privacy cost independent of the number of responses $n$, cleanly decouples the regularization parameter from the privacy parameter, and attains the skyline up to a noise-inflation term. Experiments across several language models, datasets, and reward models confirm our results: PrivBoN and PrivITP are scaling-monotonic (unlike BoN, which degrades past a critical $n$), and PrivITP matches or outperforms PrivBoN at equivalent privacy levels, with the largest gains in the strong-privacy regime.",
@@ -41511,10 +41511,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "While tool-augmented Large Language Models have significantly improved multi-step reasoning in quantitative STEM tasks, a critical residual failure mode remains: intermediate reasoning steps that are syntactically well-formed, mathematically executable, and unit-consistent, yet contextually ungrounded. Current approaches either rely on formal verifiers that cannot assess semantic intent, or burden Process Reward Models (PRMs) with the dual task of checking both arithmetic and logic. In this paper, we propose a neuro-symbolic framework that cleanly decouples reasoning into two formal dimensions: Symbolic Validity ($V$) and Semantic Groundedness ($G$). We guarantee $V$ by construction using a deterministic symbolic verifier acting as a hard filter. To assess $G$, we train a PRM conditionally on the verifier-accepted manifold. To train this PRM efficiently, we introduce Counterfactual Symbolic Perturbation (CSP), a novel data synthesis strategy that algorithmically generates constraint-preserving hard negatives (steps that perfectly pass the verifier but are logically flawed). At inference, we deploy a verifier-first constrained search that guarantees execution consistency for verifier-covered operations while relying on the PRM solely to rank semantic grounding. By targeting the exact residual error class of strong tool-using LLMs, our method significantly improves reasoning reliability without the sprawling heuristics of prior frameworks.",
@@ -41550,10 +41550,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Reinforcement learning-based knowledge distillation has the potential to transfer complex reasoning from teacher to student models, yet it currently faces a critical dilemma: researchers must choose between sparse outcome-based rewards, which provide insufficient logical guidance, or expensive neural Process Reward Models (PRMs) for dense signals. We resolve this by introducing SPEAR (Symbolic Process Evaluation and Alignment Reward), a training-free and plug-and-play process reward method for sequence-level on-policy distillation. SPEAR projects natural-language reasoning traces into domain-adaptive symbolic milestones, providing an efficient proxy for process-level reasoning alignment. By utilizing the longest common subsequence (LCS) to align student explorations with teacher milestones, SPEAR provides a dense, order-aware reward signal that enforces logical consistency without the need for an external neural verifier. Our experiments across math, science, and commonsense reasoning tasks demonstrate that SPEAR effectively bridges the reasoning gap between student and teacher models via sequence-level distillation with efficient dense process rewards. Our code and data are available at: https://github.com/zhuochunli/SPEAR.",
@@ -41587,10 +41587,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Rerankers, reward models and multi-document QA scorers score candidate documents or responses in one LLM prompt, so each score depends on their order. Such scorers are selected on ranking quality, but their scores determine a decision: what a score threshold retains, a reader answers, or a preference model selects. However, equal ranking quality does not imply equal decisions: on passage reranking, five trained scorers within 0.010 nDCG@10 retain sets that overlap by only 0.66-0.84 when reordered. A published reranker takes the highest retained-set F1 in our comparison and still overlaps by only 0.667. No prompt-time change we test removes that order dependence: the only one that gains ranking quality leaves all three decisions unchanged. Order-consistency SFT (OC-SFT) attenuates it in the weights, training a candidate's score not to depend on the order. It holds ranking quality and leads every decision-stability measure among trained scorers on all three tasks: it flips the reader's answer on 0.125 of permutation pairs against 0.149-0.164 for three other objectives that target order. It is more stable than order-averaged distillation on 12 base models, and one OC-SFT permutation retains sets that overlap more than ten averaged off-the-shelf permutations. A comparison should therefore report what a threshold retains and a reader answers, not ranking quality alone. Code is available at https://github.com/thomsonreuters/presentation-dependence.",
@@ -41623,10 +41623,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Preference learning optimizes models using response pairs, yet the informativeness of these pairs is fundamentally shaped by the instructions from which they are generated. We identify instruction quality as a hidden bottleneck in preference learning: low-quality or ambiguous instructions restrict the response-quality distribution, limiting strong chosen responses and weakening preference signals. Through Best- and Worst-of-N analyses, we show that instruction quality constrains both the ceiling and floor of sampled response quality. Motivated by this observation, we introduce an instruction-refinement pipeline that selects weak instructions using reward signals and revises them with rubric-guided LLM feedback, improving preference data without discarding examples. Across offline and online preference learning settings, experiments on multiple models and benchmarks show broad alignment improvements over original data and alternative data-improvement strategies. Further analyses indicate that instruction refinement raises achievable response quality and complements response-centric preference data curation. Overall, instruction quality emerges as a key factor governing how informative preference signals are formed for LLM alignment. Code is available at: https://github.com/01choco/instruction-refinement/",
@@ -41664,10 +41664,12 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
-     "types": [],
+     "checked": "2026-09-27",
+     "types": [
+      "Review"
+     ],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Large language model (LLM) judges are increasingly used across various evaluation scenarios, making their judgment capabilities valuable intellectual property. However, black-box access exposes these capabilities to model extraction attacks. Existing extraction methods do not specifically target LLM judges and provide limited support for multiple evaluation protocols under restricted query budgets. In this study, we propose JUDGESTEALER, the first query-efficient model extraction framework for replicating judging capabilities across pointwise scoring, pairwise comparison, and listwise ranking protocols. JUDGESTEALER exploits the strong cross-protocol agreement to acquire pointwise scores and transform them into pairwise and listwise supervisions without additional victim queries. To capture informative judge patterns and improve query efficiency, JUDGESTEALER dynamically selects pointwise inputs based on semantic diversity, predictive uncertainty, and potential judge biases. It further applies score smoothing and multi-protocol review to preserve the ordinal structure of scores and mitigate catastrophic forgetting during surrogate adaptation. Extensive experiments on state-of-the-art LLM-as-a-judge and reward models show that JUDGESTEALER consistently outperforms existing extraction baselines, achieving up to 73.3%, 87.0%, and 71.6% accuracy for pointwise, pairwise, and listwise evaluation, respectively. JUDGESTEALER also remains effective across different sur- rogate model scales, adaptation strategies, and reasoning settings. Moreover, JUDGESTEALER demonstrates robustness against representative extraction defenses.",
@@ -41698,10 +41700,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Direct Preference Optimization (DPO) is a widely used objective for aligning language models from preference data, with the coefficient $β$ commonly interpreted as controlling the KL constraint to a reference policy. We show that $β$ entangles two distinct roles: it governs the effective inverse preference-noise scale and simultaneously rescales the optimization dynamics, coupling this scale with the effective step size. As a consequence, at a fixed learning rate the achieved policy deviation is non-monotone in $β$: it vanishes in a dead zone at small $β$, reaches a peak at an intermediate value, and decreases again for larger $β$. Moreover, standard DPO loss values are not comparable across $β$: runs with nearly identical loss curves can differ several-fold in KL divergence from the reference model. This entanglement obscures the role of $β$, increases sensitivity to hyperparameter choices, and complicates learning-rate scheduling. We propose a centered-softplus reformulation that is argmin-equivalent to DPO for $β>0$, while making the inverse preference-noise-scale and learning-rate effects explicit and independently tunable. The normalized centered-softplus objective also admits a continuous $β\\to0$ endpoint that reduces to a linear preference-margin objective.",
@@ -41737,10 +41739,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "accepted",
     "summary": "Large Language Models (LLMs) have enabled a shift from sentence-level to document-to-document (Doc2Doc) machine translation, promising improved global coherence. However, document-to-document generation in a single pass frequently suffers from structural misalignment, manifesting as sentence omissions or hallucinations that violate the core requirement of source-target correspondence. To address this, we introduce Sentence Translation Alignment Rate (STAR), an auxiliary metric that explicitly quantifies sentence-level structural fidelity. Building on this, we propose STAR-masked Preference Optimization (StarPO), a framework that ranks document-level hypotheses by structural quality and utilizes a dynamic alignment mask to focus optimization on misaligned segments. Experimental results across news and literary domains demonstrate that StarPO significantly enhances translation quality and structural integrity. Notably, StarPO allows compact models to surpass the performance of massive proprietary systems like GPT-4o while maintaining superior token efficiency.",
@@ -53575,7 +53577,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -53610,7 +53612,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -53650,10 +53652,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures as undesirable outputs, CritICL leverages them as a source of guidance. Specifically, we utilize failure modes derived from weaker models and incorporate them into inference through critique-based in-context examples. We propose two variants: CritICL-dynamic, which adaptively predicts input-specific failure modes and retrieves critiques, and CritICL-static, which uses a global failure mode profile to provide stable guidance. Experimental results show that CritICL consistently outperforms standard in-context learning and achieves performance competitive with or superior to test-time scaling methods, while requiring significantly fewer generations and lower token cost. Code available at: https://github.com/umwyf/CRITICL",
@@ -63454,7 +63456,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -63499,10 +63501,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Long-horizon agent runs generate experience that can improve both the current run and future work. Most self-improvement methods process this experience only after execution ends, so they cannot redirect the active run or immediately apply and validate lessons learned from it. We argue that self-improvement should instead be live, using emerging experience both to redirect the active run and to update the persistent harness. Existing agent architectures do not fully support this goal. Single-agent self-correction combines task execution and trajectory assessment within one context, while subagent delegation separates execution but typically cannot redirect an active subagent. We present PILOT, a supervisor-worker harness for live self-improvement through two coupled mechanisms: (1) live steering lets a separate supervisor redirect or abort the active worker during execution; and (2) live self-evolution distils procedures and failure modes revealed during execution into reusable skills and memory. Across two frozen backbones and three benchmarks, PILOT ranks first in five of six configurations. On Terminal-Bench 2.0, PILOT outperforms counterpart harnesses by up to 9.8 percentage points. In the self-improvement setting, PILOT gains 14.6 points with GLM-5.1 and 12.4 points with Kimi-K2.6. Mean output tokens fall by 42.9% and 47.4%, while successful evaluations per million output tokens rise by 110.3% and 134.0%, respectively.",
@@ -63536,10 +63538,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "accepted",
     "summary": "Expert-level financial question answering requires both grounded verification to catch numeric hallucinations and audit trails for regulatory compliance, attributes that standard single-pass RAG systems lack. We take a step toward this goal with Self-Improving RAG, a framework that decomposes document QA into three specialized agents (Retrieval, Reasoning, and Judge) coordinated by an orchestrator with feedback-driven self-correction. When the Judge Agent scores an answer below a dynamic threshold, the system triggers retry with escalated strategies: broader retrieval, more careful prompting, and relaxed acceptance criteria. We evaluate on FinanceBench (SEC filing QA), where Self-Improving RAG achieves 86% oracle-guided accuracy (measuring agreement with gold answers) with a 36.4% Lazarus Rate, recovering nearly 4 in 10 initially incorrect answers through targeted retry. A key finding is that a fixed retrieval pipeline with judge-driven retry achieves strong results without dynamic routing, providing full interpretability. Every decision is logged with confidence scores, enabling the audit trails required for regulated financial applications.",
@@ -63580,10 +63582,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) and other RL-style post-training paradigms have been used for aligning large language models (LLMs) with reasoning standards. The resulting recent Reasoning Language Models (RLMs) such as DeepSeek-R1, o3, and Kimi k1.5 show that such RL-style post-training (\"RL-for-LLMs\") can substantially improve chain-of-thought reasoning, long-horizon planning, and self-correction. However, the computational footprint of these systems is massive: state-of-the-art RLM training requires millions of GPU-hours and tightly coupled multi-model pipelines that stress modern hardware far beyond classical supervised LLM training. This makes RLM training as much a parallel and distributed systems problem as an algorithmic one. In this work, to facilitate developing RLMs that are simultaneously high-performance, scalable, and cost-effective, we first systematize the RL-for-LLM paradigm and provide a compute-centric analysis of prominent post-training algorithmic frameworks: Proximal Policy Optimization (PPO), Group Relative Policy Optimization (GRPO), as well as their variants. Second, we develop a taxonomy of intra- and inter-model parallelism strategies for RL-for-LLMs, covering both traditional techniques (data, tensor, pipeline, sequence, context, and expert parallelism) as well as novel forms of parallelism and optimization techniques for multi-model RLM training, for example disaggregated placement, stage fusion, hybrid parallelism, and asynchronous execution. We harness the work-depth model of parallel computing to make our taxonomy and its insights rigorous and portable. Finally, we analyze existing RLM frameworks and we distill practical guidelines and outline open research directions for building scalable, fast, and cost-effective RLMs.",
@@ -83908,7 +83910,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -83953,7 +83955,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [
       "Review"
      ],
@@ -83993,7 +83995,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -84029,10 +84031,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Best-of-N (BoN) sampling is the simplest and most widely deployed inference-time alignment strategy, but it suffers from two distinct problems: reward hacking, in which the selected response exploits errors in the proxy reward model, and the absence of any privacy protection for the sensitive human preference data used to train that reward model. We show that a single intervention-adding calibrated noise to reward scores before selection-resolves both. Our first result, Private Best-of-N (PrivBoN), establishes that Gumbel noise at an appropriate scale simultaneously provides $ε$-differential privacy and implements KL-regularized alignment. Whenever the privacy budget exceeds a critical threshold $ε^*$, the privacy-mandated noise is the regret-optimal regularization, and privacy imposes zero additional alignment cost-matching the information-theoretic skyline of Huang et al. (2025). Because $ε^*$ depends on an unknown coverage coefficient, we introduce Private Inference-Time Pessimism (PrivITP), which combines $χ^2$-regularized rejection sampling with a two-phase Gaussian mechanism. PrivITP achieves ex-post $(ε,δ)$-DP with a privacy cost independent of the number of responses $n$, cleanly decouples the regularization parameter from the privacy parameter, and attains the skyline up to a noise-inflation term. Experiments across several language models, datasets, and reward models confirm our results: PrivBoN and PrivITP are scaling-monotonic (unlike BoN, which degrades past a critical $n$), and PrivITP matches or outperforms PrivBoN at equivalent privacy levels, with the largest gains in the strong-privacy regime.",
@@ -84068,10 +84070,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "While tool-augmented Large Language Models have significantly improved multi-step reasoning in quantitative STEM tasks, a critical residual failure mode remains: intermediate reasoning steps that are syntactically well-formed, mathematically executable, and unit-consistent, yet contextually ungrounded. Current approaches either rely on formal verifiers that cannot assess semantic intent, or burden Process Reward Models (PRMs) with the dual task of checking both arithmetic and logic. In this paper, we propose a neuro-symbolic framework that cleanly decouples reasoning into two formal dimensions: Symbolic Validity ($V$) and Semantic Groundedness ($G$). We guarantee $V$ by construction using a deterministic symbolic verifier acting as a hard filter. To assess $G$, we train a PRM conditionally on the verifier-accepted manifold. To train this PRM efficiently, we introduce Counterfactual Symbolic Perturbation (CSP), a novel data synthesis strategy that algorithmically generates constraint-preserving hard negatives (steps that perfectly pass the verifier but are logically flawed). At inference, we deploy a verifier-first constrained search that guarantees execution consistency for verifier-covered operations while relying on the PRM solely to rank semantic grounding. By targeting the exact residual error class of strong tool-using LLMs, our method significantly improves reasoning reliability without the sprawling heuristics of prior frameworks.",
@@ -84104,10 +84106,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "We previously reported a ModernBERT encoder trained from scratch for Turkish (MoganBERT-TR) and a single-vector embedding model built on top of it (MoganBERT-embed). This work introduces the third model in that lineage: MoganColBERT-TR, a multi-vector retrieval model that, instead of compressing a query or a document into a single vector, represents it at the token level through a 768->128 projection and scores it with MaxSim late interaction. The model is not trained from scratch: the embedding model's encoder is taken as the starting point and adapted to the ColBERT objective with a single-epoch distillation phase. Training data is produced from two sources - title-to-passage pairs carved out of our own pretraining corpus in the character domain and at sentence boundaries, and two Turkish question-based retrieval sets - and is distilled from the soft scores of a cross-encoder teacher (bge-reranker-v2-m3) over one positive and seven mined negatives. We show that in hard negative mining, rank-based skipping alone is insufficient and must be combined with a group mask and a cosine ceiling. Evaluation is carried out with the official pipeline of TurkColBERT, a benchmark built for Turkish late-interaction retrieval (PLAID index, exact MaxSim), on five Turkish BEIR datasets; none of them appears in our training pool, so all five results are clean zero-shot. With 148.9M parameters, MoganColBERT-TR reaches an overall score of 37.36 (35.53 nDCG@100, 31.81 nDCG@10) averaged over the five datasets and finishes second among the five models compared: it outperforms the twice-as-large ColmmBERT-base-TR on four of five datasets and by +3.05 overall, and the benchmark's largest model by +12.30. The gap to the leading model (mLateOn) is concentrated on ArguAna-TR, the dataset with by far the longest queries.",
@@ -84140,10 +84142,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Preference learning optimizes models using response pairs, yet the informativeness of these pairs is fundamentally shaped by the instructions from which they are generated. We identify instruction quality as a hidden bottleneck in preference learning: low-quality or ambiguous instructions restrict the response-quality distribution, limiting strong chosen responses and weakening preference signals. Through Best- and Worst-of-N analyses, we show that instruction quality constrains both the ceiling and floor of sampled response quality. Motivated by this observation, we introduce an instruction-refinement pipeline that selects weak instructions using reward signals and revises them with rubric-guided LLM feedback, improving preference data without discarding examples. Across offline and online preference learning settings, experiments on multiple models and benchmarks show broad alignment improvements over original data and alternative data-improvement strategies. Further analyses indicate that instruction refinement raises achievable response quality and complements response-centric preference data curation. Overall, instruction quality emerges as a key factor governing how informative preference signals are formed for LLM alignment. Code is available at: https://github.com/01choco/instruction-refinement/",
@@ -84174,10 +84176,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Direct Preference Optimization (DPO) is a widely used objective for aligning language models from preference data, with the coefficient $β$ commonly interpreted as controlling the KL constraint to a reference policy. We show that $β$ entangles two distinct roles: it governs the effective inverse preference-noise scale and simultaneously rescales the optimization dynamics, coupling this scale with the effective step size. As a consequence, at a fixed learning rate the achieved policy deviation is non-monotone in $β$: it vanishes in a dead zone at small $β$, reaches a peak at an intermediate value, and decreases again for larger $β$. Moreover, standard DPO loss values are not comparable across $β$: runs with nearly identical loss curves can differ several-fold in KL divergence from the reference model. This entanglement obscures the role of $β$, increases sensitivity to hyperparameter choices, and complicates learning-rate scheduling. We propose a centered-softplus reformulation that is argmin-equivalent to DPO for $β>0$, while making the inverse preference-noise-scale and learning-rate effects explicit and independently tunable. The normalized centered-softplus objective also admits a continuous $β\\to0$ endpoint that reduces to a linear preference-margin objective.",
@@ -100140,7 +100142,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100181,7 +100183,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100221,7 +100223,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100256,7 +100258,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100294,7 +100296,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100334,7 +100336,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100376,7 +100378,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100410,10 +100412,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Long-form generation exposes fundamental limitations of large language models. Even 70B-parameter models exhibit length collapse at 16k-token outputs, and multi-chapter stories frequently trigger the attribute drift characteristic of the ``lost-in-the-middle'' effect. The ``outline-first, write-later'' paradigm has gained wide adoption, yet existing research evaluates the final writing rather than the outline itself, conflating two evaluation objects that should be decoupled. We construct a unified head-to-head benchmark covering 7 representative long-form generation frameworks across 3 generation granularities -- single-chapter, multi-chapter, and whole-book -- and propose an anchor-based LLM-as-a-judge protocol that directly assesses outlines against the source text on a 5-point anchored scale. Across 21 framework-granularity cells, no single framework dominates; performance depends on the match between a framework's intrinsic output form and the target granularity. SuperWriter ranks first in the length-constrained single-chapter mode, but this advantage degrades in whole-book mode. The outline-side ranking correlates only moderately with the writing-side ranking, supporting the outline--writing decoupling principle. Compute constraints limit the writing-side evaluation to a subset of cases; follow-up experiments will expand the sample size and add cross-model evaluators to enable stronger statistical inference.",
@@ -100455,10 +100457,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Shopping assistants are shifting from ranked product lists toward structured decision support, where systems must synthesize shopper context, product evidence, and next-step guidance into a coherent recommendation experience. This changes the unit of evaluation: a fluent response can still fail by ignoring shopper context, contradicting itself across components, or leaving defects too vague to localize. Existing personalization, grounding, and LLM-as-a-judge benchmarks cover pieces of this problem, but they do not define a joint evaluation target for structured shopping-assistant responses. We formulate this missing evaluation target as PACE: Personalized, Actionable, Compositional, and Evidence-grounded evaluation. We instantiate PACE with two artifacts: PACEShop, a benchmark dataset that makes the target measurable through 22,625 controlled records with structured personas, auditable evidence pools, GOOD/BAD labels, and gold defect family and location annotations; and PACEJudge, a training-free judging protocol that makes the target reportable through a structured output contract. Our experiments show that generic judges can recognize broad quality but fail to recover the diagnostic fields required for PACE; PACEShop makes these failures verifiable, and PACEJudge improves persona-source, cross-component, grounding, and family/location closure without retraining, showing that realistic shopping-assistant evaluation requires a task-matched output contract rather than only a stronger backbone or scalar prompt.",
@@ -100498,10 +100500,12 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-08-28",
-     "types": [],
-     "venue": "",
-     "year": ""
+     "checked": "2026-09-27",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "IEEE Transactions on Affective Computing",
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Multimodal large language models (MLLMs) achieve strong performance on VQA and scene understanding, yet affective reasoning remains vulnerable to shortcut behavior. Models may predict correct answers while neglecting people-centric cues such as micro expressions and body language, which weakens traceability and external verification. Prior reinforcement learning approaches mainly reward context or logical coherence without explicitly enforcing attention to human evidence. In addition, LLM as a Judge scoring often suffers from score clustering, which reduces reward discriminability. We propose AffectOmni, a GRPO trained framework for verifiable affective reasoning. AffectOmni introduces People Focus and Temporal Order rewards to encourage people-centric evidence selection and temporally structured reasoning, and it adopts within-group comparative scoring to produce more stable and discriminative reward signals. For verification, a Thinking Summarizer converts free form rationales into executable evidence instructions, which are grounded into pixel level evidence regions via SAM3 to provide an externally auditable interface outside the training loop. Experiments on IntentBench, Daily Omni, and WorldSense show consistent improvements over open source 7B scale baselines, including gains of 4.66% on emotion recognition and +14.29% on temporally sensitive tasks. Code is available at https://github.com/eliot127825-rgb/AffectOmni_nobody.",
@@ -100536,10 +100540,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "accepted",
     "summary": "In this paper, we explore multi-expert Conformal Risk Control (CRC) algorithms for pairwise LLM-as-a-Judge evaluation in open-ended dialogue. Our core insight is that multi-expert aggregation offers a complementary remedy to CRC: whereas CRC controls risk at the decision threshold through abstention, aggregation sanitizes the scoring function at its source. Guided by this, we first design two multi-expert CRC methods: Score Averaging and Decision Voting, which aggregate at the score and decision levels, respectively. While both strategies outperform single-expert methods on homogeneous expert panels, on heterogeneous LLM judges they remain risk-valid but recover only limited coverage, because a uniform threshold cannot match the experts' distinct scoring scales. To resolve this issue, we further propose Marginal-Calibrated Conformal Consensus (MC3): it captures distinct per-expert scales via initial threshold ratios, while jointly tuning a unified decision function $C_t(x)$ applied identically in both calibration and test, thereby preserving exchangeability. To evaluate our framework, we construct Panel, a 1,800-pair human pairwise-preference benchmark for open-ended dialogue. It is built on responses generated by four open-weight LLMs over dialogue contexts from three domains (ESConv, MSC, DREAM), with full logit access. In experiments, we find that both Score Averaging and Decision Voting substantially improve accuracy and acceptance rate on homogeneous panels. Notably, MC3 extends these gains to heterogeneous panels by accommodating distinct per-expert scoring scales across all three datasets.",
@@ -100574,10 +100578,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "accepted",
     "summary": "LLM judges are widely used to evaluate agentic tool-calling systems, yet their reliability on structured, dependency-driven workflows remains largely unexamined. We present AgentJudgeBench, the first benchmark to systematically study LLM-as-a-judge reliability for agentic tool-calling over workflow DAGs, as distinct from the broader LLM-as-a-judge task of open-ended text or preference evaluation. The benchmark comprises 3,808 instances spanning six DAG topologies and three difficulty tiers, evaluated with five generators (3B-70B open-weight models and GPT-5.4) and six judges (20B to frontier scale) under paired with- and without-ground-truth conditions. Judge alignment degrades monotonically with task difficulty, 1.5x faster without ground truth, and on hard queries without ground truth all six judges converge to a narrow 77-82% band regardless of scale, revealing a structural ceiling driven primarily by task difficulty, though its height is partly prompt-dependent for weaker generators, that model capacity alone cannot overcome. Ground-truth exposure is not uniformly beneficial: it reduces alignment for GPT-5.4 (1.5 pp) and Gemini-2.5-Pro (3.9 pp), consistent with over-anchoring. Among mitigation strategies, chain-of-thought reasoning and judge temperature both have negligible effect, while structured evaluation rubrics improve alignment by up to 6.5 pp but do not generalize uniformly across judge-generator pairs. With ground truth, QwQ-32B best matches the programmatic reference, while a human validation study identifies GPT-OSS-120B as the most human-aligned judge; without it, frontier judges lead only marginally within the shared ceiling. These results expose fundamental limitations of current LLM judges and yield practical guidelines for reliable evaluation in agentic systems.",
@@ -100610,10 +100614,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Preference learning optimizes models using response pairs, yet the informativeness of these pairs is fundamentally shaped by the instructions from which they are generated. We identify instruction quality as a hidden bottleneck in preference learning: low-quality or ambiguous instructions restrict the response-quality distribution, limiting strong chosen responses and weakening preference signals. Through Best- and Worst-of-N analyses, we show that instruction quality constrains both the ceiling and floor of sampled response quality. Motivated by this observation, we introduce an instruction-refinement pipeline that selects weak instructions using reward signals and revises them with rubric-guided LLM feedback, improving preference data without discarding examples. Across offline and online preference learning settings, experiments on multiple models and benchmarks show broad alignment improvements over original data and alternative data-improvement strategies. Further analyses indicate that instruction refinement raises achievable response quality and complements response-centric preference data curation. Overall, instruction quality emerges as a key factor governing how informative preference signals are formed for LLM alignment. Code is available at: https://github.com/01choco/instruction-refinement/",
@@ -100651,10 +100655,12 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
-     "types": [],
+     "checked": "2026-09-27",
+     "types": [
+      "Review"
+     ],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Large language model (LLM) judges are increasingly used across various evaluation scenarios, making their judgment capabilities valuable intellectual property. However, black-box access exposes these capabilities to model extraction attacks. Existing extraction methods do not specifically target LLM judges and provide limited support for multiple evaluation protocols under restricted query budgets. In this study, we propose JUDGESTEALER, the first query-efficient model extraction framework for replicating judging capabilities across pointwise scoring, pairwise comparison, and listwise ranking protocols. JUDGESTEALER exploits the strong cross-protocol agreement to acquire pointwise scores and transform them into pairwise and listwise supervisions without additional victim queries. To capture informative judge patterns and improve query efficiency, JUDGESTEALER dynamically selects pointwise inputs based on semantic diversity, predictive uncertainty, and potential judge biases. It further applies score smoothing and multi-protocol review to preserve the ordinal structure of scores and mitigate catastrophic forgetting during surrogate adaptation. Extensive experiments on state-of-the-art LLM-as-a-judge and reward models show that JUDGESTEALER consistently outperforms existing extraction baselines, achieving up to 73.3%, 87.0%, and 71.6% accuracy for pointwise, pairwise, and listwise evaluation, respectively. JUDGESTEALER also remains effective across different sur- rogate model scales, adaptation strategies, and reasoning settings. Moreover, JUDGESTEALER demonstrates robustness against representative extraction defenses.",
@@ -122769,10 +122775,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Long-form generation exposes fundamental limitations of large language models. Even 70B-parameter models exhibit length collapse at 16k-token outputs, and multi-chapter stories frequently trigger the attribute drift characteristic of the ``lost-in-the-middle'' effect. The ``outline-first, write-later'' paradigm has gained wide adoption, yet existing research evaluates the final writing rather than the outline itself, conflating two evaluation objects that should be decoupled. We construct a unified head-to-head benchmark covering 7 representative long-form generation frameworks across 3 generation granularities -- single-chapter, multi-chapter, and whole-book -- and propose an anchor-based LLM-as-a-judge protocol that directly assesses outlines against the source text on a 5-point anchored scale. Across 21 framework-granularity cells, no single framework dominates; performance depends on the match between a framework's intrinsic output form and the target granularity. SuperWriter ranks first in the length-constrained single-chapter mode, but this advantage degrades in whole-book mode. The outline-side ranking correlates only moderately with the writing-side ranking, supporting the outline--writing decoupling principle. Compute constraints limit the writing-side evaluation to a subset of cases; follow-up experiments will expand the sample size and add cross-model evaluators to enable stronger statistical inference.",
@@ -122807,10 +122813,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Specializing large language models to vertical domains improves domain-specific behavior but often degrades general capabilities such as reasoning, coding, instruction following, and creative writing. We study this domain--general trade-off in Multi-Teacher On-Policy Distillation (MOPD), where a specialized student is supervised on its own sampled trajectories by domain and general teachers. Standard MOPD faces two limitations: ordinary on-policy sampling rarely exposes tokens with large positive teacher--student advantages, while the advantage sign alone does not establish whether the resulting update direction is reliable. We propose uncertainty-calibrated MOPD to address these limitations. Dual-temperature sampling broadens the candidate trajectory pool, and positive-advantage-density filtering selects trajectories with stronger positive learning signals. Centered log-likelihood (CLL) filtering then computes an entropy-calibrated teacher-endorsement score and probabilistically retains token updates according to direction--endorsement consistency. Experiments on role-playing and medical-domain specialization show that our method improves the general-capability average over standard MOPD by $4.73\\%$ and $10.84\\%$, respectively, while maintaining vertical-domain performance. Ablations and diagnostic analyses further confirm that the gains do not merely result from a larger rollout budget and that the proposed trajectory- and token-level mechanisms address their intended failure modes.",
@@ -122842,10 +122848,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-08-28",
+     "checked": "2026-09-27",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "Large language models can summarize financial information, but an operational stock-research system must first assemble heterogeneous evidence, expose unavailable data and model capabilities, and control how generated opinions affect a final report. We present DSA, an evidence-aware orchestration framework for multi-market stock research with large language model (LLM) agents. DSA organizes the workflow into evidence acquisition, structured context construction, model-routed analysis, optional role and Strategy Skill reasoning, and report generation with selected context and diagnostics. A default report profile and an optional agentic profile share evidence and model-routing services but use profile-specific output validation and risk safeguards. In the agentic profile, core role outputs are processed by role-specific parsers, whereas Strategy Skill opinions undergo an additional signal-eligibility partition before synthesis; disagreement is supplied explicitly to the decision agent, followed by a conservative risk override. The reference implementation includes six regional market paths, fifteen bundled Strategy Skills, hosted and local model routes, and multiple execution and delivery surfaces. At a frozen software snapshot, a selected manifest of 1,457 portable offline backend contract tests passed; 596 cases were retrospectively mapped to six contract families central to the reported LLM-agent architecture. This evidence establishes implementation conformance for the tested software contracts, not superior report quality, forecasting accuracy, or investment returns.",
