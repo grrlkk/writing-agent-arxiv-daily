@@ -12,14 +12,16 @@ Workshop, Findings, and demo tracks are listed apart from main-track papers, and
 "submitted to X" is never counted as X. Generated on **2026-09-29** (UTC).
 Back to the [main page](../README.md).
 
-826 of 2844 papers carry venue evidence.
+832 of 2932 papers carry venue evidence.
 
-## Top-tier venues (545)
+## Top-tier venues (551)
 
-### EMNLP (145)
+### EMNLP (147)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-28**|OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue|EMNLP 2026|Reward & Value Models|[2609.34418](https://arxiv.org/abs/2609.34418)|
+|**2026-09-27**|Quizzing the Translation: A Prover-Grounded Evaluation Metric for NL$\rightarrow$FOL|EMNLP 2026|Synthetic Preference Data|[2609.33612](https://arxiv.org/abs/2609.33612)|
 |**2026-09-23**|Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction|EMNLP 2026|Search & Control for Generation|[2609.27376](https://arxiv.org/abs/2609.27376)|
 |**2026-09-17**|SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment|EMNLP 2026|Text Quality Evaluation|[2609.20584](https://arxiv.org/abs/2609.20584)|
 |**2026-09-16**|REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement|EMNLP 2026|Synthetic Preference Data|[2609.18262](https://arxiv.org/abs/2609.18262)|
@@ -410,6 +412,52 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
+### NeurIPS (41)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-09-28**|Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models|NeurIPS 2026|Reward & Value Models|[2609.35695](https://arxiv.org/abs/2609.35695)|
+|**2026-09-28**|Why Deterministic PRM Guidance Underperforms in Discrete Diffusion Reasoning|NeurIPS 2026|Reward & Value Models|[2609.35472](https://arxiv.org/abs/2609.35472)|
+|**2026-09-27**|Agentic Multi-Turn Reasoning: A Fairness Approach|NeurIPS 2026|Reward & Value Models|[2609.33323](https://arxiv.org/abs/2609.33323)|
+|**2026-09-25**|LLM Judge Validation Under Sparse Overlap: From Inference to Design|NeurIPS 2026|Text Quality Evaluation|[2609.31857](https://arxiv.org/abs/2609.31857)|
+|**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
+|**2025-11-28**|Writing in Symbiosis: Mapping Human Creative Agency in the AI Era|NeurIPS 2025|Writing Agent|[2512.13697](https://arxiv.org/abs/2512.13697)|
+|**2025-11-27**|WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios|NeurIPS 2025|Text Quality Evaluation|[2511.22154](https://arxiv.org/abs/2511.22154)|
+|**2025-11-25**|Semantic-KG: Using Knowledge Graphs to Construct Benchmarks for Measuring Semantic Similarity|NeurIPS 2025|Text Quality Evaluation|[2511.19925](https://arxiv.org/abs/2511.19925)|
+|**2025-11-23**|Majority of the Bests: Improving Best-of-N via Bootstrapping|NeurIPS 2025|Reward & Value Models|[2511.18630](https://arxiv.org/abs/2511.18630)|
+|**2025-11-03**|Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences|NeurIPS 2025|Synthetic Preference Data|[2511.02109](https://arxiv.org/abs/2511.02109)|
+|**2025-10-30**|MM-OPERA: Benchmarking Open-ended Association Reasoning for Large Vision-Language Models|NeurIPS 2025|Text Quality Evaluation|[2510.26937](https://arxiv.org/abs/2510.26937)|
+|**2025-10-24**|Cost-Sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning|NeurIPS 2025|Synthetic Preference Data|[2510.21379](https://arxiv.org/abs/2510.21379)|
+|**2025-10-14**|Multi-Agent Debate for LLM Judges with Adaptive Stability Detection|NeurIPS 2025|Search & Control for Generation|[2510.12697](https://arxiv.org/abs/2510.12697)|
+|**2025-09-30**|Limited Preference Data? Learning Better Reward Model with Latent Space Synthesis|NeurIPS 2025|Synthetic Preference Data|[2509.26074](https://arxiv.org/abs/2509.26074)|
+|**2025-09-27**|ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search|NeurIPS 2025|Writing Agent|[2509.23519](https://arxiv.org/abs/2509.23519)|
+|**2025-09-02**|Top-H Decoding: Adapting the Creativity and Coherence with Bounded Entropy in Text Generation|NeurIPS 2025|Writing Agent|[2509.02510](https://arxiv.org/abs/2509.02510)|
+|**2025-07-07**|Pre-Trained Policy Discriminators are General Reward Models|NeurIPS 2025|Writing Agent|[2507.05197](https://arxiv.org/abs/2507.05197)|
+|**2025-06-26**|Cosmos: Compressed and Smooth Latent Space for Text Diffusion Modeling|NeurIPS 2025|Writing Agent|[2506.21170](https://arxiv.org/abs/2506.21170)|
+|**2025-06-25**|MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations|NeurIPS 2025|Writing Agent|[2506.20100](https://arxiv.org/abs/2506.20100)|
+|**2025-06-06**|Precise Information Control in Long-Form Text Generation|NeurIPS 2025|Writing Agent|[2506.06589](https://arxiv.org/abs/2506.06589)|
+|**2025-06-05**|Counterfactual reasoning: an analysis of in-context emergence|NeurIPS 2025|Writing Agent|[2506.05188](https://arxiv.org/abs/2506.05188)|
+|**2025-05-30**|DeepDiver: Adaptive Search Intensity Scaling via Open-Web Reinforcement Learning|NeurIPS 2025|Writing Agent|[2505.24332](https://arxiv.org/abs/2505.24332)|
+|**2024-12-30**|Pareto-Optimal Energy Alignment for Designing Nature-Like Antibodies|NeurIPS 2024|Reward & Value Models|[2412.20984](https://arxiv.org/abs/2412.20984)|
+|**2024-12-19**|Cal-DPO: Calibrated Direct Preference Optimization for Language Model Alignment|NeurIPS 2024|Reward & Value Models, Synthetic Preference Data|[2412.14516](https://arxiv.org/abs/2412.14516)|
+|**2024-12-09**|SafeWorld: Geo-Diverse Safety Alignment|NeurIPS 2024|Reward & Value Models|[2412.06483](https://arxiv.org/abs/2412.06483)|
+|**2024-11-29**|Provable Scaling Laws for the Test-Time Compute of Large Language Models|NeurIPS 2024|Reward & Value Models|[2411.19477](https://arxiv.org/abs/2411.19477)|
+|**2024-11-26**|Systematic Reward Gap Optimization for Mitigating VLM Hallucinations|NeurIPS 2024|Reward & Value Models|[2411.17265](https://arxiv.org/abs/2411.17265)|
+|**2024-11-24**|Navigating the Effect of Parametrization for Dimensionality Reduction|NeurIPS 2024|Synthetic Preference Data|[2411.15894](https://arxiv.org/abs/2411.15894)|
+|**2024-11-11**|AssistRAG: Boosting the Potential of Large Language Models with an Intelligent Information Assistant|NeurIPS 2024|Reward & Value Models|[2411.06805](https://arxiv.org/abs/2411.06805)|
+|**2024-11-10**|Meta-Learning Objectives for Preference Optimization|NeurIPS 2024|Reward & Value Models|[2411.06568](https://arxiv.org/abs/2411.06568)|
+|**2024-11-08**|Streaming Bayes GFlowNets|NeurIPS 2024|Reward & Value Models|[2411.05899](https://arxiv.org/abs/2411.05899)|
+|**2024-11-01**|SLED: Self Logits Evolution Decoding for Improving Factuality in Large Language Models|NeurIPS 2024|Self-Refine & Self-Correction|[2411.02433](https://arxiv.org/abs/2411.02433)|
+|**2024-10-31**|Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?|NeurIPS 2024|Self-Refine & Self-Correction|[2410.23856](https://arxiv.org/abs/2410.23856)|
+|**2024-10-28**|Graph-based Uncertainty Metrics for Long-form Language Model Outputs|NeurIPS 2024|Writing Agent|[2410.20783](https://arxiv.org/abs/2410.20783)|
+|**2024-09-30**|Procedure-Aware Surgical Video-language Pretraining with Hierarchical Knowledge Augmentation|NeurIPS 2024|Synthetic Preference Data|[2410.00263](https://arxiv.org/abs/2410.00263)|
+|**2024-06-26**|WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models|NeurIPS 2024|Iterative Revision & Text Editing|[2406.18510](https://arxiv.org/abs/2406.18510)|
+|**2024-06-19**|Adaptable Logical Control for Large Language Models|NeurIPS 2024|Iterative Revision & Text Editing|[2406.13892](https://arxiv.org/abs/2406.13892)|
+|**2024-06-10**|Aligning Large Language Models with Representation Editing: A Control Perspective|NeurIPS 2024|Search & Control for Generation|[2406.05954](https://arxiv.org/abs/2406.05954)|
+|**2024-05-24**|CulturePark: Boosting Cross-cultural Understanding in Large Language Models|NeurIPS 2024|Multilingual & Cross-Lingual Agents|[2405.15145](https://arxiv.org/abs/2405.15145)|
+|**2024-04-23**|Aligning LLM Agents by Learning Latent Preference from User Edits|NeurIPS 2024|Writing Agent|[2404.15269](https://arxiv.org/abs/2404.15269)|
+|**2021-05-20**|KLUE: Korean Language Understanding Evaluation|NeurIPS 2021|Korean Writing & NLP|[2105.09680](https://arxiv.org/abs/2105.09680)|
+
 ### ICML (38)
 
 |Publish Date|Title|Venue|Topics|PDF|
@@ -452,48 +500,6 @@ Back to the [main page](../README.md).
 |**2024-09-23**|Archon: An Architecture Search Framework for Inference-Time Techniques|ICML 2024|Iterative Revision & Text Editing|[2409.15254](https://arxiv.org/abs/2409.15254)|
 |**2024-06-17**|From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline|ICML 2024|Text Quality Evaluation|[2406.11939](https://arxiv.org/abs/2406.11939)|
 |**2024-03-30**|Linguistic Calibration of Long-Form Generations|ICML 2024|Writing Agent|[2404.00474](https://arxiv.org/abs/2404.00474)|
-
-### NeurIPS (37)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
-|**2025-11-28**|Writing in Symbiosis: Mapping Human Creative Agency in the AI Era|NeurIPS 2025|Writing Agent|[2512.13697](https://arxiv.org/abs/2512.13697)|
-|**2025-11-27**|WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios|NeurIPS 2025|Text Quality Evaluation|[2511.22154](https://arxiv.org/abs/2511.22154)|
-|**2025-11-25**|Semantic-KG: Using Knowledge Graphs to Construct Benchmarks for Measuring Semantic Similarity|NeurIPS 2025|Text Quality Evaluation|[2511.19925](https://arxiv.org/abs/2511.19925)|
-|**2025-11-23**|Majority of the Bests: Improving Best-of-N via Bootstrapping|NeurIPS 2025|Reward & Value Models|[2511.18630](https://arxiv.org/abs/2511.18630)|
-|**2025-11-03**|Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences|NeurIPS 2025|Synthetic Preference Data|[2511.02109](https://arxiv.org/abs/2511.02109)|
-|**2025-10-30**|MM-OPERA: Benchmarking Open-ended Association Reasoning for Large Vision-Language Models|NeurIPS 2025|Text Quality Evaluation|[2510.26937](https://arxiv.org/abs/2510.26937)|
-|**2025-10-24**|Cost-Sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning|NeurIPS 2025|Synthetic Preference Data|[2510.21379](https://arxiv.org/abs/2510.21379)|
-|**2025-10-14**|Multi-Agent Debate for LLM Judges with Adaptive Stability Detection|NeurIPS 2025|Search & Control for Generation|[2510.12697](https://arxiv.org/abs/2510.12697)|
-|**2025-09-30**|Limited Preference Data? Learning Better Reward Model with Latent Space Synthesis|NeurIPS 2025|Synthetic Preference Data|[2509.26074](https://arxiv.org/abs/2509.26074)|
-|**2025-09-27**|ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search|NeurIPS 2025|Writing Agent|[2509.23519](https://arxiv.org/abs/2509.23519)|
-|**2025-09-02**|Top-H Decoding: Adapting the Creativity and Coherence with Bounded Entropy in Text Generation|NeurIPS 2025|Writing Agent|[2509.02510](https://arxiv.org/abs/2509.02510)|
-|**2025-07-07**|Pre-Trained Policy Discriminators are General Reward Models|NeurIPS 2025|Writing Agent|[2507.05197](https://arxiv.org/abs/2507.05197)|
-|**2025-06-26**|Cosmos: Compressed and Smooth Latent Space for Text Diffusion Modeling|NeurIPS 2025|Writing Agent|[2506.21170](https://arxiv.org/abs/2506.21170)|
-|**2025-06-25**|MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations|NeurIPS 2025|Writing Agent|[2506.20100](https://arxiv.org/abs/2506.20100)|
-|**2025-06-06**|Precise Information Control in Long-Form Text Generation|NeurIPS 2025|Writing Agent|[2506.06589](https://arxiv.org/abs/2506.06589)|
-|**2025-06-05**|Counterfactual reasoning: an analysis of in-context emergence|NeurIPS 2025|Writing Agent|[2506.05188](https://arxiv.org/abs/2506.05188)|
-|**2025-05-30**|DeepDiver: Adaptive Search Intensity Scaling via Open-Web Reinforcement Learning|NeurIPS 2025|Writing Agent|[2505.24332](https://arxiv.org/abs/2505.24332)|
-|**2024-12-30**|Pareto-Optimal Energy Alignment for Designing Nature-Like Antibodies|NeurIPS 2024|Reward & Value Models|[2412.20984](https://arxiv.org/abs/2412.20984)|
-|**2024-12-19**|Cal-DPO: Calibrated Direct Preference Optimization for Language Model Alignment|NeurIPS 2024|Reward & Value Models, Synthetic Preference Data|[2412.14516](https://arxiv.org/abs/2412.14516)|
-|**2024-12-09**|SafeWorld: Geo-Diverse Safety Alignment|NeurIPS 2024|Reward & Value Models|[2412.06483](https://arxiv.org/abs/2412.06483)|
-|**2024-11-29**|Provable Scaling Laws for the Test-Time Compute of Large Language Models|NeurIPS 2024|Reward & Value Models|[2411.19477](https://arxiv.org/abs/2411.19477)|
-|**2024-11-26**|Systematic Reward Gap Optimization for Mitigating VLM Hallucinations|NeurIPS 2024|Reward & Value Models|[2411.17265](https://arxiv.org/abs/2411.17265)|
-|**2024-11-24**|Navigating the Effect of Parametrization for Dimensionality Reduction|NeurIPS 2024|Synthetic Preference Data|[2411.15894](https://arxiv.org/abs/2411.15894)|
-|**2024-11-11**|AssistRAG: Boosting the Potential of Large Language Models with an Intelligent Information Assistant|NeurIPS 2024|Reward & Value Models|[2411.06805](https://arxiv.org/abs/2411.06805)|
-|**2024-11-10**|Meta-Learning Objectives for Preference Optimization|NeurIPS 2024|Reward & Value Models|[2411.06568](https://arxiv.org/abs/2411.06568)|
-|**2024-11-08**|Streaming Bayes GFlowNets|NeurIPS 2024|Reward & Value Models|[2411.05899](https://arxiv.org/abs/2411.05899)|
-|**2024-11-01**|SLED: Self Logits Evolution Decoding for Improving Factuality in Large Language Models|NeurIPS 2024|Self-Refine & Self-Correction|[2411.02433](https://arxiv.org/abs/2411.02433)|
-|**2024-10-31**|Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?|NeurIPS 2024|Self-Refine & Self-Correction|[2410.23856](https://arxiv.org/abs/2410.23856)|
-|**2024-10-28**|Graph-based Uncertainty Metrics for Long-form Language Model Outputs|NeurIPS 2024|Writing Agent|[2410.20783](https://arxiv.org/abs/2410.20783)|
-|**2024-09-30**|Procedure-Aware Surgical Video-language Pretraining with Hierarchical Knowledge Augmentation|NeurIPS 2024|Synthetic Preference Data|[2410.00263](https://arxiv.org/abs/2410.00263)|
-|**2024-06-26**|WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models|NeurIPS 2024|Iterative Revision & Text Editing|[2406.18510](https://arxiv.org/abs/2406.18510)|
-|**2024-06-19**|Adaptable Logical Control for Large Language Models|NeurIPS 2024|Iterative Revision & Text Editing|[2406.13892](https://arxiv.org/abs/2406.13892)|
-|**2024-06-10**|Aligning Large Language Models with Representation Editing: A Control Perspective|NeurIPS 2024|Search & Control for Generation|[2406.05954](https://arxiv.org/abs/2406.05954)|
-|**2024-05-24**|CulturePark: Boosting Cross-cultural Understanding in Large Language Models|NeurIPS 2024|Multilingual & Cross-Lingual Agents|[2405.15145](https://arxiv.org/abs/2405.15145)|
-|**2024-04-23**|Aligning LLM Agents by Learning Latent Preference from User Edits|NeurIPS 2024|Writing Agent|[2404.15269](https://arxiv.org/abs/2404.15269)|
-|**2021-05-20**|KLUE: Korean Language Understanding Evaluation|NeurIPS 2021|Korean Writing & NLP|[2105.09680](https://arxiv.org/abs/2105.09680)|
 
 ### NAACL (33)
 
