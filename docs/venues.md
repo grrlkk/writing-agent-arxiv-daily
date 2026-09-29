@@ -9,10 +9,10 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-27** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-29** (UTC).
 Back to the [main page](../README.md).
 
-823 of 2831 papers carry venue evidence.
+826 of 2844 papers carry venue evidence.
 
 ## Top-tier venues (545)
 
@@ -697,12 +697,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-26**|Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks|IUI 2024|Text Quality Evaluation|[2410.20266](https://arxiv.org/abs/2410.20266)|
 
-## Findings tracks (86)
+## Findings tracks (87)
 
-### EMNLP (52)
+### EMNLP (53)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-24**|The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.30604](https://arxiv.org/abs/2609.30604)|
 |**2026-09-17**|KoNeoBench: A Curated Evaluation Dataset for LLM Understanding of Korean Neologisms|EMNLP 2026 (findings)|Korean Writing & NLP|[2609.19916](https://arxiv.org/abs/2609.19916)|
 |**2026-09-15**|The Role of Implicit and Explicit Demographic Signals in Large Language Model-based Student Assessment|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.16993](https://arxiv.org/abs/2609.16993)|
 |**2026-09-14**|Don't Count the Edits, Judge by the Outcome Alone: Reward-Based Evaluation for Grammatical Error Correction|EMNLP 2026 (findings)|Semantic Drift & Faithfulness|[2609.15559](https://arxiv.org/abs/2609.15559)|
@@ -878,7 +879,7 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (109)
+## Workshops (111)
 
 ### NeurIPS (25)
 
@@ -1020,6 +1021,15 @@ Back to the [main page](../README.md).
 |**2026-04-03**|Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation|BEA 2026 (workshop)|Writing Agent|[2604.03380](https://arxiv.org/abs/2604.03380)|
 |**2025-06-09**|Multilingual Grammatical Error Annotation: Combining Language-Agnostic Framework with Language-Specific Flexibility|BEA 2025 (workshop)|Korean Writing & NLP|[2506.07719](https://arxiv.org/abs/2506.07719)|
 
+### IJCAI (4)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-09-25**|Accounting for Bias Enables Sustainable LLM Evaluation|IJCAI 2026 (workshop)|Text Quality Evaluation|[2609.31184](https://arxiv.org/abs/2609.31184)|
+|**2026-08-16**|PL-Guard: Probabilistic Logic Reasoning for LLM Guardrails|IJCAI 2026 (workshop)|Text Quality Evaluation|[2608.15673](https://arxiv.org/abs/2608.15673)|
+|**2026-07-20**|LLM Safety Alignment in Low-Resource Languages: A Systematic Literature Review|IJCAI (workshop)|Synthetic Preference Data|[2608.14626](https://arxiv.org/abs/2608.14626)|
+|**2024-06-26**|BADGE: BADminton report Generation and Evaluation with LLM|IJCAI 2024 (workshop)|Writing Agent|[2406.18116](https://arxiv.org/abs/2406.18116)|
+
 ### COLING (3)
 
 |Publish Date|Title|Venue|Topics|PDF|
@@ -1028,13 +1038,12 @@ Back to the [main page](../README.md).
 |**2024-12-19**|Northeastern Uni at Multilingual Counterspeech Generation: Enhancing Counter Speech Generation with LLM Alignment through Direct Preference Optimization|COLING 2025 (workshop)|Reward & Value Models|[2412.15453](https://arxiv.org/abs/2412.15453)|
 |**2024-12-16**|Common Ground, Diverse Roots: The Difficulty of Classifying Common Examples in Spanish Varieties|COLING 2024 (workshop)|Multilingual & Cross-Lingual Agents|[2412.11750](https://arxiv.org/abs/2412.11750)|
 
-### IJCAI (3)
+### ACM MM (2)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-08-16**|PL-Guard: Probabilistic Logic Reasoning for LLM Guardrails|IJCAI 2026 (workshop)|Text Quality Evaluation|[2608.15673](https://arxiv.org/abs/2608.15673)|
-|**2026-07-20**|LLM Safety Alignment in Low-Resource Languages: A Systematic Literature Review|IJCAI (workshop)|Synthetic Preference Data|[2608.14626](https://arxiv.org/abs/2608.14626)|
-|**2024-06-26**|BADGE: BADminton report Generation and Evaluation with LLM|IJCAI 2024 (workshop)|Writing Agent|[2406.18116](https://arxiv.org/abs/2406.18116)|
+|**2026-09-25**|Geometric Inconsistency Localization in Multi-View Image Sets|ACM MM 2026 (workshop)|Synthetic Preference Data|[2609.31247](https://arxiv.org/abs/2609.31247)|
+|**2026-08-25**|Learning to Prefer Reliably: Error-Augmented Emotion Preference Optimization with Calibrated Fusion|ACM MM 2026 (workshop)|Reward & Value Models|[2608.24730](https://arxiv.org/abs/2608.24730)|
 
 ### LREC (2)
 
@@ -1049,12 +1058,6 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2025-06-23**|Evaluating Causal Explanation in Medical Reports with LLM-Based and Human-Aligned Metrics|SIGIR 2025 (workshop)|Writing Agent|[2506.18387](https://arxiv.org/abs/2506.18387)|
 |**2024-06-20**|Evaluating RAG-Fusion with RAGElo: an Automated Elo-based Framework|SIGIR 2024 (workshop)|Text Quality Evaluation|[2406.14783](https://arxiv.org/abs/2406.14783)|
-
-### ACM MM (1)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-08-25**|Learning to Prefer Reliably: Error-Augmented Emotion Preference Optimization with Calibrated Fusion|ACM MM 2026 (workshop)|Reward & Value Models|[2608.24730](https://arxiv.org/abs/2608.24730)|
 
 ### EDM (1)
 

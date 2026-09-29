@@ -3,24 +3,24 @@
   "topics": {
    "Iterative Revision & Text Editing": 156,
    "Korean Writing & NLP": 69,
-   "Multilingual & Cross-Lingual Agents": 370,
+   "Multilingual & Cross-Lingual Agents": 372,
    "Reward & Value Models": 520,
    "Search & Control for Generation": 190,
-   "Self-Refine & Self-Correction": 241,
+   "Self-Refine & Self-Correction": 243,
    "Semantic Drift & Faithfulness": 210,
-   "Synthetic Preference Data": 328,
-   "Text Quality Evaluation": 466,
-   "Writing Agent": 470
+   "Synthetic Preference Data": 332,
+   "Text Quality Evaluation": 471,
+   "Writing Agent": 472
   },
-  "updated": "2026-09-27",
+  "updated": "2026-09-29",
   "venue_tiers": {
    "demo": 8,
-   "findings": 86,
-   "none": 2008,
+   "findings": 87,
+   "none": 2018,
    "other": 36,
    "strong": 39,
    "top": 545,
-   "workshop": 109
+   "workshop": 111
   }
  },
  "topics": {
@@ -5692,7 +5692,7 @@
     "matched": [
      "iterative refinement"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.09556v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.09556v3",
     "primary_category": "stat.ML",
     "published": "2026-09-09",
     "s2": {
@@ -5706,12 +5706,12 @@
     "tier": "none",
     "title": "High-probability guarantees for linear accessibility in feature superposition",
     "track": "",
-    "updated": "2026-09-17",
+    "updated": "2026-09-25",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.09556v2"
+    "version": "2609.09556v3"
    },
    "2609.11315": {
     "abs_url": "https://arxiv.org/abs/2609.11315",
@@ -25554,6 +25554,79 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.29014v1"
+   },
+   "2609.31511": {
+    "abs_url": "https://arxiv.org/abs/2609.31511",
+    "authors": [
+     "Yahya Mohamed Elnawasany"
+    ],
+    "code_url": "",
+    "comment": "6 pages, 4 tables. Deployed system: https://muslim.yahyaelnawasany.com - released models: https://huggingface.co/NightPrince",
+    "first_seen": "2026-09-29",
+    "id": "2609.31511",
+    "journal_ref": "",
+    "matched": [
+     "arabic"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.31511v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We present Muslim, a production Arabic voice AI platform serving grounded, sourced Islamic knowledge to real users. Beyond a real-time voice pipeline (NeMo Arabic ASR, an OpenAI-compatible LLM endpoint, self-hosted TTS) and a deterministic multi-source retrieval layer routed across six Model Context Protocol servers, we report three things a research prototype typically lacks. First, a released family of fine-tuned Arabic Islamic model artifacts: an efficient tool-routing LLM (Muslim-6B-PRO, 5.94B parameters) and a Modern Standard Arabic TTS model (Fasih-TTS-V1) that ranks 5th of 17 overall and 2nd of 11 open-weight systems on the community-voted Arabic TTS Arena for MSA. Second, an account and metering layer - a free per-account turn allowance, capacity-aware refusal, and email verification deferred to the point it actually matters - that turns an open demo into an operable, abuse-resistant product. Third, a three-layer observability stack (liveness, error reporting, product analytics) built specifically around the system's characteristic failure mode: a GPU-bound agent host going silent while the web tier keeps serving normally. We report real, measured latency and accuracy figures (98.4% recitation-validation accuracy on 124 cases; end-to-end voice latency of 0.9-1.7s) and discuss the concrete engineering trade-offs and limitations of running an Islamic-knowledge voice product in production.",
+    "tier": "none",
+    "title": "Muslim: A Deployed Arabic Voice AI Platform for Grounded Islamic Knowledge",
+    "track": "",
+    "updated": "2026-09-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.31511v1"
+   },
+   "2609.31568": {
+    "abs_url": "https://arxiv.org/abs/2609.31568",
+    "authors": [
+     "Quang Nguyen",
+     "Hieu Nguyen",
+     "Hien Hoang",
+     "Toan Pham",
+     "Cong Tran",
+     "Nam Vu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-29",
+    "id": "2609.31568",
+    "journal_ref": "",
+    "matched": [
+     "vietnamese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.31568v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign servers---violating data-sovereignty laws such as Vietnam's Decree 53---and, pre-trained on Western-centric corpora, are not organized around the national textbook curriculum, so their knowledge of local content is unsystematic and frequently hallucinated. Self-hosting an open model keeps data on-premise but hits a two-fold wall: post-training quantization (AWQ, GPTQ) tames the static weight footprint, yet the dynamic KV cache and prefill latency of long tutoring contexts still cause out-of-memory failures and slow responses on consumer GPUs, while the model keeps hallucinating on region-specific material. We present DeepEdu-v1, an AI-tutoring system for Vietnamese education built on SCALE (Self-improving Context-Aware Learning Engine), a framework with two innovations. First, a long-context inference engine amortizes token selection from per-sub-chunk to per-cluster granularity; on long-context retrieval it issues x7.7 fewer retrieval calls than a state-of-the-art selective-attention baseline, cutting prefill latency (TTFT) by roughly 35% while matching or improving task accuracy. Second, a self-improving agentic layer continuously curates a verified playbook from past interactions instead of fine-tuning, a design intended to progressively reduce reliance on dominant-language priors as trustworthy local knowledge accumulates. In its deployed configuration, DeepEdu achieves a nearly x2 TTFT speedup over standard vLLM serving and lifts agentic accuracy from 70.0% to 79.5% on complex tasks, with the strongest per-track gains across financial-reasoning and interactive-agent benchmarks.",
+    "tier": "none",
+    "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+    "track": "",
+    "updated": "2026-09-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.31568v1"
    }
   },
   "Reward & Value Models": {
@@ -64326,6 +64399,86 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.26457v1"
+   },
+   "2609.30652": {
+    "abs_url": "https://arxiv.org/abs/2609.30652",
+    "authors": [
+     "Shangjian Yin",
+     "Zehao Zhao",
+     "Kavosh Asadi",
+     "Rui Liu",
+     "Yuchen Lu",
+     "Shike Mei",
+     "Hang Cui",
+     "Luke Simon",
+     "Zhouxing Shi",
+     "Hamed Firooz"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-29",
+    "id": "2609.30652",
+    "journal_ref": "",
+    "matched": [
+     "self-refine",
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30652v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "On-policy distillation (OPD) trains a student model by having it generate trajectories, then matching its next-token predictions with an external teacher's next-token predictions. This provides dense, token-level supervision to the student. On-policy self-distillation (OPSD) eliminates the need for the external teacher. Specifically, a second frozen copy of the student model, now given the ground truth in its context, serves as the teacher. The student model only receives the problem and learns to mimic the privileged teacher model, while the teacher remains frozen throughout training. Previous work showed that freezing the teacher is useful for training stability, but we argue that this can prevent the teacher from incorporating the improvements learned by the student during training. Our primary contribution is to address this limitation with a recursive framework built around two complementary components. First, we let the privileged teacher co-evolve with the student so that revision learned in one round can guide the next, a process we refer to as Dynamic Co-Evolution (DCE). Second, because stronger revision can also make responses too verbose and self-critical, we additionally train on shorter, verified rewrites of the model's own on-policy responses. We call this complementary objective Self-Refined Concise Learning (SRCL). Overall, our comprehensive evaluations show that DCE+SRCL outperforms OPSD across multiple model scales and four competition-level mathematics benchmarks. Specifically, on Qwen3-8B, DCE+SRCL reaches 65.97% Average@12, outperforming OPSD by 35.62 percentage points while reducing mean output length by 7.80% relative to DCE alone.",
+    "tier": "none",
+    "title": "Recursive Self-Improvement via On-Policy Distillation for Reasoning",
+    "track": "",
+    "updated": "2026-09-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.30652v1"
+   },
+   "2609.31422": {
+    "abs_url": "https://arxiv.org/abs/2609.31422",
+    "authors": [
+     "Jakub Masłowski",
+     "Jarosław A. Chudziak"
+    ],
+    "code_url": "",
+    "comment": "Accepted for publication at the 38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026)",
+    "first_seen": "2026-09-29",
+    "id": "2609.31422",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.31422v1",
+    "primary_category": "cs.MA",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed processes. However, their final synthesis phase still remains inadequately controlled. Even with detailed debate logs, summarizing models are prone to fabricating smoothly written debate consensus that is not grounded in the debate's history. To address this safety gap, this paper presents empirical research and studies if the introduction of active post-debate verification can mitigate the production of such factually unsupported summaries, while still providing valuable information. Furthermore, it is examined whether explicitly signalling divergence is preferable in the absence of a reliable compromise. The Active Provenance Gate (APG) is introduced as a post-debate verification layer that treats the source as a hard constraint, analysing the debate logs, auditing each claim, and applying self-correction. In crisis simulations, the self-healing mechanism more than doubles the average data Provenance Fidelity in difficult condition scenarios, before the strict gate blocks unsupported claims and generates divergence reports. In the human study, a vast majority of the users (over 75%) preferred a report explicitly stating failure in critical scenarios, despite most of them perceiving fabricated consensus from the baseline system as more fluent. Our main contribution is the transition of data origin tracing from passive logging to active conditional blocking before publication.",
+    "tier": "none",
+    "title": "Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis",
+    "track": "",
+    "updated": "2026-09-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.31422v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -85862,6 +86015,157 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2609.29560v1"
+   },
+   "2609.30471": {
+    "abs_url": "https://arxiv.org/abs/2609.30471",
+    "authors": [
+     "Mukul Chhabra",
+     "Shail Patel",
+     "Luigi Medrano"
+    ],
+    "code_url": "",
+    "comment": "15 pages, 1 figure, 5 tables, 1 algorithm. Preprint",
+    "first_seen": "2026-09-29",
+    "id": "2609.30471",
+    "journal_ref": "",
+    "matched": [
+     "perturbation",
+     "corruption"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30471v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-24",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reference-based LLM-as-a-judge evaluation assumes the reference answer is the target. In deployed agentic systems that operate over dynamic entities (support cases, assets, accounts), the closest available reference typically applies the correct procedure to a different entity, so a literal judge penalizes different identifiers, dates, and statuses as errors or hallucinations. We name this failure mode reference-instance divergence (RID). We propose CARGO, a framework that (i) treats retrieved references as procedural exemplars and grounds factual judgments in the live instance's observed context, (ii) assigns each claim a three-way status (supported, contradicted, unverifiable) and penalizes only contradictions, and (iii) gates evaluation by retrieval confidence, casting production evaluation as selective prediction. We introduce CARGO-Bench, a perturbation-based diagnostic suite with ground truth by construction that separates leniency from discrimination. On CARGO-Bench (246 items, two judge models, 7,872 judgments), the standard reference-based judge penalizes 100% of correct entity-transplanted answers and is uninformative (discrimination index DI ~ 0); supplying the live facts without reframing changes nothing. CARGO eliminates these false penalties (0/50) while retaining near-complete contradiction recall (50/50 and 49/50), raising DI to 0.58 [0.48, 0.68]; a rubric-swap control attributes most of the effect to context-grounded dimension definitions. CARGO also exposes a limitation of its own design: the leniency that protects entity values suppresses detection of procedural corruptions (20% recall). A post-hoc fix does not close the gap, and an LLM-as-annotator study with written guidelines and adjudication shows the same blind spot. We release a preregistered protocol for extending the evaluation to expert agreement, risk-coverage, and cost on production traffic.",
+    "tier": "none",
+    "title": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+    "track": "",
+    "updated": "2026-09-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.30471v1"
+   },
+   "2609.30605": {
+    "abs_url": "https://arxiv.org/abs/2609.30605",
+    "authors": [
+     "Hongsen Zhang",
+     "Lu Zhang",
+     "Mingjing Xu",
+     "Yi Zhang",
+     "Gregory Epiphaniou",
+     "Carsten Maple"
+    ],
+    "code_url": "",
+    "comment": "20pages,10figues",
+    "first_seen": "2026-09-29",
+    "id": "2609.30605",
+    "journal_ref": "",
+    "matched": [
+     "perturbation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30605v1",
+    "primary_category": "cs.LG",
+    "published": "2026-09-24",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Deep reinforcement learning (DRL) enables adaptive intrusion detection in dynamic network environments but also exposes intrusion detection systems (IDS) to adversarial threats such as universal adversarial perturbations (UAPs), which apply a single input-agnostic perturbation to degrade detection performance across traffic. Probabilistic Robustness (PR), as a post-hoc evaluation metric, provides a principled, population-level measure of adversarial impact that conceptually aligns with the universality objective of UAPs, i.e., PR quantifies the prevalence of misclassification in the input space, making it a natural signal for guiding UAP generation. Hence, we propose PR-based UAP, which represents the first integration of an explicit PR-driven objective into generating UAPs against DRL-based IDS. Building on this formulation, we introduce PX-UAP, which leverages explainable artificial intelligence (XAI) to guide perturbation shaping under realistic domain constraints, and provides a rigorous theoretical analysis of its design. Extensive experiments demonstrate that PX-UAP consistently outperforms state-of-the-art UAP methods in attack effectiveness.",
+    "tier": "none",
+    "title": "Probabilistic Robustness-driven Universal Adversarial Perturbations with Explainability against Deep Reinforcement Learning-based Intrusion Detection System",
+    "track": "",
+    "updated": "2026-09-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.30605v1"
+   },
+   "2609.30849": {
+    "abs_url": "https://arxiv.org/abs/2609.30849",
+    "authors": [
+     "Phuong Q. Le",
+     "Kemal Kurniawan",
+     "Jey Han Lau"
+    ],
+    "code_url": "",
+    "comment": "22 pages, 10 figures",
+    "first_seen": "2026-09-29",
+    "id": "2609.30849",
+    "journal_ref": "",
+    "matched": [
+     "perturbation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30849v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Prior work has examined the self-consistency of LLM-generated explanations using surface-level perturbation methods. However, the strength of these perturbations is not explicitly measured and controlled. In this work, we propose an LLM-as-a-judge approach to measure perturbation strength in a unified manner across input and CoT perturbations. We then evaluate the self-consistency in explanations generated from various LLMs under controlled strength conditions, ensuring a fair comparison across perturbation types. Experiments show that our proposed LLM-based perturbation strength measure outperforms other embedding- and probability-based approaches and that input perturbations generally affect LLMs more strongly than CoT perturbations. Our work suggests that judgments about a model's self-consistency is fair only within the same perturbation type.",
+    "tier": "none",
+    "title": "Enhancing Assessment of Self-Consistency in LLM Explanations using Perturbation Strength",
+    "track": "",
+    "updated": "2026-09-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.30849v1"
+   },
+   "2609.31247": {
+    "abs_url": "https://arxiv.org/abs/2609.31247",
+    "authors": [
+     "Xander Staelens",
+     "Albéric Loos",
+     "Bert Ramlot",
+     "Hannes Mareen",
+     "Peter Lambert",
+     "Glenn Van Wallendael"
+    ],
+    "code_url": "https://github.com/IDLabMedia/DeformView-DEFECt3R",
+    "comment": "8 pages, accepted at the Deepfake Forensics Workshop (DFF 2026) at ACM Multimedia 2026",
+    "first_seen": "2026-09-29",
+    "id": "2609.31247",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.31247v1",
+    "primary_category": "cs.CV",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Novel view synthesis (NVS) models can produce realistic new views of the same scene from different viewpoints. However, these generated views are not always geometrically consistent with one another. Multi-view (MV) consistency has shown promise as a tool for evaluating these NVS models. Its potential for multimedia forensics, however, remains largely unexplored, particularly for localizing geometric inconsistencies across wide-baseline image pairs. To enable research in this direction, we introduce DeformView, a wide-baseline MV dataset with pixel-level annotations of geometric inconsistencies. Using DeformView, we evaluate state-of-the-art MV consistency-scoring methods and show that approaches developed for NVS evaluation transfer poorly to the forensic task of geometric inconsistency localization. To address this limitation, we propose DEFECt3R, a lightweight learning-based classifier that uses cross-view feature relationships to localize geometric inconsistencies at the pixel level. By learning from explicit supervision, including hard negatives from geometrically consistent yet deformed views, DEFECt3R improves localization performance and substantially reduces false positives compared to existing consistency-scoring methods. Ablation experiments further show that both feature representations and correspondence quality contribute to localization performance. Overall, our findings demonstrate that MV geometric consistency is a promising yet underexplored signal for multimedia forensics and establish a benchmark and baseline for geometric inconsistency localization in wide-baseline MV image pairs. Code and dataset are available at https://github.com/IDLabMedia/DeformView-DEFECt3R",
+    "tier": "workshop",
+    "title": "Geometric Inconsistency Localization in Multi-View Image Sets",
+    "track": "workshop",
+    "updated": "2026-09-25",
+    "venue": "ACM MM",
+    "venue_evidence": "8 pages, accepted at the Deepfake Forensics Workshop (DFF 2026) at ACM Multimedia 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.31247v1"
    }
   },
   "Text Quality Evaluation": {
@@ -104494,7 +104798,7 @@
     "matched": [
      "rubric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.27035v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.27035v2",
     "primary_category": "cs.AI",
     "published": "2026-09-22",
     "s2": {
@@ -104508,12 +104812,12 @@
     "tier": "none",
     "title": "Reinforcement Learning with Decomposed Subtasks",
     "track": "",
-    "updated": "2026-09-22",
+    "updated": "2026-09-24",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.27035v1"
+    "version": "2609.27035v2"
    },
    "2609.28026": {
     "abs_url": "https://arxiv.org/abs/2609.28026",
@@ -104782,6 +105086,196 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.29973v1"
+   },
+   "2609.30469": {
+    "abs_url": "https://arxiv.org/abs/2609.30469",
+    "authors": [
+     "Kaavya Chaparala",
+     "Su Huang",
+     "Stephen L. Miller",
+     "Rhiannon N. Miller",
+     "Anjalie Field"
+    ],
+    "code_url": "",
+    "comment": "Accpeted to SLT 2026",
+    "first_seen": "2026-09-29",
+    "id": "2609.30469",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30469v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-24",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Pretrained ASR systems perform poorly on noisy Broadcast Police Communication (BPC), hindering efforts to understand police decision-making. Pseudo-labeling offers an unsupervised path to improve ASR without expensive human labels, but the efficacy of this approach on very noisy domains is not known. In this work, we systematically assess the opportunities and limits of pseudo-labeling to adapt foundation ASR models (Whisper and Qwen3-ASR) to noisy BPC domain corpora from Baltimore and Chicago. We demonstrate that existing internal confidence metrics (log-probabilities and STAR scores) fail to distinguish between high and low quality BPC pseudo-labels, and we introduce an external LLM-as-a-judge filtering paradigm that leverages parametric knowledge to discard contextually implausible transcripts. Our LLM-judging filters more aggressively than internal metrics and significantly reduces WER of the pseudo-labeled training sets across the Baltimore and Chicago BPC corpora, though a substantial gap remains relative to an oracle filter. We also introduce a new cross-model pseudo-labeling paradigm where one model is finetuned with pseudo-labels from the other, and we identify this method as a promising direction for future pseudo-labeling work.",
+    "tier": "none",
+    "title": "Pretrained ASR Pseudo-labeling for Noisy Police Audio",
+    "track": "",
+    "updated": "2026-09-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.30469v1"
+   },
+   "2609.30471": {
+    "abs_url": "https://arxiv.org/abs/2609.30471",
+    "authors": [
+     "Mukul Chhabra",
+     "Shail Patel",
+     "Luigi Medrano"
+    ],
+    "code_url": "",
+    "comment": "15 pages, 1 figure, 5 tables, 1 algorithm. Preprint",
+    "first_seen": "2026-09-29",
+    "id": "2609.30471",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge",
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30471v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-24",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reference-based LLM-as-a-judge evaluation assumes the reference answer is the target. In deployed agentic systems that operate over dynamic entities (support cases, assets, accounts), the closest available reference typically applies the correct procedure to a different entity, so a literal judge penalizes different identifiers, dates, and statuses as errors or hallucinations. We name this failure mode reference-instance divergence (RID). We propose CARGO, a framework that (i) treats retrieved references as procedural exemplars and grounds factual judgments in the live instance's observed context, (ii) assigns each claim a three-way status (supported, contradicted, unverifiable) and penalizes only contradictions, and (iii) gates evaluation by retrieval confidence, casting production evaluation as selective prediction. We introduce CARGO-Bench, a perturbation-based diagnostic suite with ground truth by construction that separates leniency from discrimination. On CARGO-Bench (246 items, two judge models, 7,872 judgments), the standard reference-based judge penalizes 100% of correct entity-transplanted answers and is uninformative (discrimination index DI ~ 0); supplying the live facts without reframing changes nothing. CARGO eliminates these false penalties (0/50) while retaining near-complete contradiction recall (50/50 and 49/50), raising DI to 0.58 [0.48, 0.68]; a rubric-swap control attributes most of the effect to context-grounded dimension definitions. CARGO also exposes a limitation of its own design: the leniency that protects entity values suppresses detection of procedural corruptions (20% recall). A post-hoc fix does not close the gap, and an LLM-as-annotator study with written guidelines and adjudication shows the same blind spot. We release a preregistered protocol for extending the evaluation to expert agreement, risk-coverage, and cost on production traffic.",
+    "tier": "none",
+    "title": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+    "track": "",
+    "updated": "2026-09-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.30471v1"
+   },
+   "2609.30604": {
+    "abs_url": "https://arxiv.org/abs/2609.30604",
+    "authors": [
+     "Alexander Gill",
+     "Md Farhan Ishmam",
+     "Xuyen Nguyen",
+     "Neha Bhat",
+     "Parker Henry DeYoung",
+     "Fateme Hashemi Chaleshtori",
+     "Nathan Stringham",
+     "Kenneth Marino",
+     "Ana Marasović"
+    ],
+    "code_url": "",
+    "comment": "9 pages main text. Accepted to Findings of EMNLP 2026. Project page: https://alexgill321.github.io/KNOWS-benchmark/",
+    "first_seen": "2026-09-29",
+    "id": "2609.30604",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30604v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-24",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Existing computer-use agent benchmarks do not fully evaluate agents acting as assistants. A useful assistant retrieves information across complex, multi-step workflows, synthesizes it into artifacts (documents, presentations, spreadsheets), and navigates program interfaces to produce a coherent final product. Such workflows demand reasoning and synthesis, decomposition of complex tasks, as well as visual and spatial understanding. To study agents on workflows like these, we introduce KNOWS, a benchmark of open-ended, complex, browser-based tasks that jointly evaluate these capabilities, with each task culminating in a produced artifact. To write tasks, we develop a task design rubric and a protocol for ensuring that tasks meet the requirements. Each task is paired with an evaluator, a program that combines deterministic checks with LLM judgments to balance the richness, reliability, and automation tradeoff inherent to agent evaluation. We evaluate and analyze frontier computer-use agents and browser-based harnesses. They achieve moderate scores on partial-success metrics, but the best performer fully succeeds in fewer than 3% of our complex, long-horizon tasks. Failures on visual steps render the resulting artifacts unusable, even when agents complete more than 50% of other evaluation steps. Our results expose limitations of current agents acting as end-to-end assistants, and call for progress on tool use, visual understanding, and long-horizon reasoning.",
+    "tier": "findings",
+    "title": "The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge",
+    "track": "findings",
+    "updated": "2026-09-24",
+    "venue": "EMNLP",
+    "venue_evidence": "9 pages main text. Accepted to Findings of EMNLP 2026. Project page: https://alexgill321.github.io/KNOWS-benchmark/",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.30604v1"
+   },
+   "2609.30849": {
+    "abs_url": "https://arxiv.org/abs/2609.30849",
+    "authors": [
+     "Phuong Q. Le",
+     "Kemal Kurniawan",
+     "Jey Han Lau"
+    ],
+    "code_url": "",
+    "comment": "22 pages, 10 figures",
+    "first_seen": "2026-09-29",
+    "id": "2609.30849",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30849v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Prior work has examined the self-consistency of LLM-generated explanations using surface-level perturbation methods. However, the strength of these perturbations is not explicitly measured and controlled. In this work, we propose an LLM-as-a-judge approach to measure perturbation strength in a unified manner across input and CoT perturbations. We then evaluate the self-consistency in explanations generated from various LLMs under controlled strength conditions, ensuring a fair comparison across perturbation types. Experiments show that our proposed LLM-based perturbation strength measure outperforms other embedding- and probability-based approaches and that input perturbations generally affect LLMs more strongly than CoT perturbations. Our work suggests that judgments about a model's self-consistency is fair only within the same perturbation type.",
+    "tier": "none",
+    "title": "Enhancing Assessment of Self-Consistency in LLM Explanations using Perturbation Strength",
+    "track": "",
+    "updated": "2026-09-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.30849v1"
+   },
+   "2609.31184": {
+    "abs_url": "https://arxiv.org/abs/2609.31184",
+    "authors": [
+     "Harshita Katoch",
+     "David Antony Selby",
+     "Gerrit Großmann",
+     "Sebastian Vollmer"
+    ],
+    "code_url": "",
+    "comment": "8 pages, 2 figures; SuRE'26: Workshop on Sustainability and Resource-Efficiency of Artificial Intelligence at IJCAI-ECAI 2026",
+    "first_seen": "2026-09-29",
+    "id": "2609.31184",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.31184v1",
+    "primary_category": "cs.AI",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "LLM-as-a-judge has become the de facto standard for scalable, subjective evaluation, yet current leaderboards compensate for systematic measurement bias by running ever more comparisons, an approach that is both statistically unsound and computationally wasteful. The root cause is an incomplete measurement model, treating LLM judges as neutral, interchangeable instruments ignores documented biases like position bias, verbosity bias, judge severity, and self-enhancement, that no volume of additional data can eliminate. We propose a unified latent variable framework that jointly models pairwise and ordinal data while explicitly correcting for these confounders, recovering reliable rankings from substantially fewer comparisons. Because fitting this model costs negligible compute relative to a single round of LLM inference, bias correction is not only more statistically rigorous but also a more sustainable approach to trustworthy evaluation.",
+    "tier": "workshop",
+    "title": "Accounting for Bias Enables Sustainable LLM Evaluation",
+    "track": "workshop",
+    "updated": "2026-09-25",
+    "venue": "IJCAI",
+    "venue_evidence": "8 pages, 2 figures; SuRE'26: Workshop on Sustainability and Resource-Efficiency of Artificial Intelligence at IJCAI-ECAI 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2609.31184v1"
    }
   },
   "Writing Agent": {
@@ -123920,6 +124414,78 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.24245v1"
+   },
+   "2609.30968": {
+    "abs_url": "https://arxiv.org/abs/2609.30968",
+    "authors": [
+     "Lu Han",
+     "Jingyao Zhang",
+     "Katy Ilonka Gero",
+     "Nguyen H. Tran"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-29",
+    "id": "2609.30968",
+    "journal_ref": "",
+    "matched": [
+     "writing assistant"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.30968v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models are increasingly used as personalized writing assistants, but adapting a model across many authors can compromise individual writing style by pulling author-specific signals toward a shared register. Federated parameter-efficient fine-tuning (PEFT) offers a data-local setting for this multi-author adaptation problem: clients keep author text local while sharing compact adapter updates. However, we show that standard aggregation can preserve continuation utility while making different authors' generations less distinguishable in style space, a failure mode we define as author-style homogenization. We evaluate author-style retention with Angular Style Classification Encoder (ASCE)-based diagnostics on our main BlogText benchmark and ASCE-independent external authorship verification. Using this protocol, we find that common federated PEFT baselines can preserve semantic utility while averaging out author-specific signals. To address this homogenization, we instantiate FAVoR (Federated Authorial Voice Retention), an author-style residual mechanism for federated PEFT. FAVoR uses a shared-private adapter design: clients upload shared-adapter updates while retaining author-specific residual corrections locally. Across BlogText and external Mythos-Reddit validation, FAVoR improves author-style retention over standard and personalized federated PEFT baselines. These gains come with small continuation-utility trade-offs and are supported by component ablations, external verification, and cold-start transfer.",
+    "tier": "none",
+    "title": "FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation",
+    "track": "",
+    "updated": "2026-09-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.30968v1"
+   },
+   "2609.31506": {
+    "abs_url": "https://arxiv.org/abs/2609.31506",
+    "authors": [
+     "Christelle Clervilsson",
+     "Yanzhu Guo"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-09-29",
+    "id": "2609.31506",
+    "journal_ref": "",
+    "matched": [
+     "story generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.31506v1",
+    "primary_category": "cs.CL",
+    "published": "2026-09-25",
+    "s2": {
+     "checked": "2026-09-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) exhibit substantial performance disparities between high- and low-resource languages. Beyond lower task performance, they often fail to capture the cultural norms and values of underrepresented communities. In this work, we present the first systematic evaluation of cultural awareness in LLMs for Haitian Creole, a language spoken by millions but severely underrepresented in digital resources. We assess cultural awareness along four complementary dimensions---specificity, bias, diversity, and variation---using a benchmark of culturally salient prompts curated by native speakers in a text infilling setting. Our results reveal a clear gap between cultural awareness in Haitian Creole and higher-resource French, with Haitian performance being more uneven across domains and more affected by French linguistic interference. Story generation further reveals recurring portrayals of Haitian characters through hardship and resilience, showing that even positive characterizations can encode stereotypical narratives. Our code, benchmark, and evaluation framework are publicly available.",
+    "tier": "none",
+    "title": "Evaluating Cultural Awareness of LLMs for Haitian Creole",
+    "track": "",
+    "updated": "2026-09-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.31506v1"
    }
   }
  }
