@@ -9,17 +9,19 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-29** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-09-30** (UTC).
 Back to the [main page](../README.md).
 
-832 of 2932 papers carry venue evidence.
+838 of 2965 papers carry venue evidence.
 
-## Top-tier venues (551)
+## Top-tier venues (555)
 
-### EMNLP (147)
+### EMNLP (149)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-29**|Generalizable Lifelong Model Editing via Preference Optimization|EMNLP 2026|Reward & Value Models|[2609.36748](https://arxiv.org/abs/2609.36748)|
+|**2026-09-29**|Pair Difficulty Matters: Rethinking Pairwise LLM-as-a-Judge Evaluation and Consistency|EMNLP 2026|Text Quality Evaluation|[2609.37577](https://arxiv.org/abs/2609.37577)|
 |**2026-09-28**|OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue|EMNLP 2026|Reward & Value Models|[2609.34418](https://arxiv.org/abs/2609.34418)|
 |**2026-09-27**|Quizzing the Translation: A Prover-Grounded Evaluation Metric for NL$\rightarrow$FOL|EMNLP 2026|Synthetic Preference Data|[2609.33612](https://arxiv.org/abs/2609.33612)|
 |**2026-09-23**|Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction|EMNLP 2026|Search & Control for Generation|[2609.27376](https://arxiv.org/abs/2609.27376)|
@@ -412,13 +414,15 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
-### NeurIPS (41)
+### NeurIPS (43)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-09-28**|Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models|NeurIPS 2026|Reward & Value Models|[2609.35695](https://arxiv.org/abs/2609.35695)|
+|**2026-09-29**|Distilling What Matters: Confidence-Aware Selective Distillation for Large Language Models|NeurIPS 2026|Text Quality Evaluation|[2609.36734](https://arxiv.org/abs/2609.36734)|
 |**2026-09-28**|Why Deterministic PRM Guidance Underperforms in Discrete Diffusion Reasoning|NeurIPS 2026|Reward & Value Models|[2609.35472](https://arxiv.org/abs/2609.35472)|
+|**2026-09-28**|Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models|NeurIPS 2026|Reward & Value Models|[2609.35695](https://arxiv.org/abs/2609.35695)|
 |**2026-09-27**|Agentic Multi-Turn Reasoning: A Fairness Approach|NeurIPS 2026|Reward & Value Models|[2609.33323](https://arxiv.org/abs/2609.33323)|
+|**2026-09-26**|From Static Policies to Adaptive Priors in Offline Reinforcement Learning|NeurIPS 2026|Self-Refine & Self-Correction|[2609.35880](https://arxiv.org/abs/2609.35880)|
 |**2026-09-25**|LLM Judge Validation Under Sparse Overlap: From Inference to Design|NeurIPS 2026|Text Quality Evaluation|[2609.31857](https://arxiv.org/abs/2609.31857)|
 |**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
 |**2025-11-28**|Writing in Symbiosis: Mapping Human Creative Agency in the AI Era|NeurIPS 2025|Writing Agent|[2512.13697](https://arxiv.org/abs/2512.13697)|
@@ -703,12 +707,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-26**|Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks|IUI 2024|Text Quality Evaluation|[2410.20266](https://arxiv.org/abs/2410.20266)|
 
-## Findings tracks (87)
+## Findings tracks (88)
 
-### EMNLP (53)
+### EMNLP (54)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-29**|SemOPT: Fixing Semantic Errors in LLM-based Optimization Modeling via Reward-Guided Search|EMNLP 2026 (findings)|Reward & Value Models|[2609.37361](https://arxiv.org/abs/2609.37361)|
 |**2026-09-24**|The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.30604](https://arxiv.org/abs/2609.30604)|
 |**2026-09-17**|KoNeoBench: A Curated Evaluation Dataset for LLM Understanding of Korean Neologisms|EMNLP 2026 (findings)|Korean Writing & NLP|[2609.19916](https://arxiv.org/abs/2609.19916)|
 |**2026-09-15**|The Role of Implicit and Explicit Demographic Signals in Large Language Model-based Student Assessment|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.16993](https://arxiv.org/abs/2609.16993)|
@@ -885,12 +890,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (111)
+## Workshops (112)
 
-### NeurIPS (25)
+### NeurIPS (26)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-29**|Beam Search as Test-Time Self-Distillation via Counterfactual Contexts|NeurIPS 2026 (workshop)|Reward & Value Models|[2609.37041](https://arxiv.org/abs/2609.37041)|
 |**2026-08-19**|Metrics That Write Themselves: Evolving an Evaluator from Its Own Blind Spots|NeurIPS 2026 (workshop)|Writing Agent|[2608.18744](https://arxiv.org/abs/2608.18744)|
 |**2025-12-16**|Reasoning Relay: Evaluating Stability and Interchangeability of Large Language Models in Mathematical Reasoning|NeurIPS 2025 (workshop)|Reward & Value Models|[2512.20647](https://arxiv.org/abs/2512.20647)|
 |**2025-12-05**|RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs|NeurIPS 2025 (workshop)|Reward & Value Models|[2512.05542](https://arxiv.org/abs/2512.05542)|

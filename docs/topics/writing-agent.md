@@ -2,15 +2,16 @@
 
 > The primary axis: LLM agents that write and revise across multiple turns rather than generating once. Z1 in the FEAK-TC introduction.
 
-478 papers, newest first. Generated on **2026-09-29** (UTC).
+479 papers, newest first. Generated on **2026-09-30** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (195)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
+Browse by year: [2026 (196)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-09-29**|<details><summary>RESCUE: Repairing Language Model Errors to Sparse Circuits via Reinforcement Learning</summary><br>Large language models (LLMs) exhibit strong general capabilities that mechanistic interpretability has attributed to sparse computational circuits. However, existing circuit studies emphasize preserving functionality or explaining safety, leaving the mechanisms underlying failures across a broader range of tasks largely unexplored. Extending circuit analysis from abilities to errors, we explore the perspective that such failures may likewise arise from erroneous internal computations and that ta...</details>|-|Chuanpu Liu et al.|[2609.36813](https://arxiv.org/abs/2609.36813)|**[link](https://github.com/chuanpupig/RESCUE)**|
 |**2026-09-28**|<details><summary>Scaling Long-Form Story Generation via Narrative State Tracking</summary><br>LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leaving their ability to scale to full-length novels underexplored. In this work, we introduce Narrative State Tracking Agent (NstAgent), a training-free agentic framework that allows LLMs to track a struct...</details>|-|Zhennan Wan et al.|[2609.35759](https://arxiv.org/abs/2609.35759)|**[link](https://github.com/zhennan1/NstAgent)**|
 |**2026-09-27**|<details><summary>The Effects of Incremental Instruction Delivery on Language-Model Creative Writing</summary><br>Large language models are increasingly used as interactive writing tools, where users develop stories, revise ideas, and introduce new requirements across multiple turns rather than specifying a complete brief upfront. Yet most evidence on multi-turn instruction degradation comes from tasks with objectively verifiable outcomes, leaving unclear whether incremental interaction harms creative artifacts in ways that explicit requirement checks cannot capture. We study this question using 160 human-a...</details>|-|Anshuman Singh et al.|[2609.33738](https://arxiv.org/abs/2609.33738)|**[link](https://github.com/solusops/SISTER-2026-Team19)**|
 |**2026-09-27**|<details><summary>CertMark: Distortion-Free Multi-Bit Watermarking with Certified Decoding</summary><br>Leading multi-bit watermarking methods for language models encode messages by biasing the model's next-token probabilities, creating a trade-off between message recovery and text quality. Their decoders typically return the highest-scoring candidate from accumulated token-level evidence, without a certified abstention rule that bounds the probability of outputting an incorrect message. We introduce CertMark, a distribution-preserving multi-bit watermark with certified decoding. Rather than modif...</details>|-|Paweł Batorski et al.|[2609.33332](https://arxiv.org/abs/2609.33332)|**[link](https://github.com/Batorskq/CertMark)**|

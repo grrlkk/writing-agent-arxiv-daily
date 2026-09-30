@@ -2,15 +2,16 @@
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-341 papers, newest first. Generated on **2026-09-29** (UTC).
+342 papers, newest first. Generated on **2026-09-30** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (156)](#2026) · [2025 (94)](#2025) · [2024 (91)](#2024)
+Browse by year: [2026 (157)](#2026) · [2025 (94)](#2025) · [2024 (91)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-09-29**|<details><summary>actr: aligning thoughts and responses for multilingual safety in reasoning llms</summary><br>Ensuring the safety of reasoning large language models (LLMs) across languages is essential for their reliable deployment. However, when exposed to jailbreak attacks in non-high-resource languages, these models may generate unsafe responses even when their reasoning traces identify safety risks. To address this issue, we propose aligning cross-lingual thoughts and responses (ACTR), a framework that improves multilingual safety alignment by strengthening the use of existing safety reasoning. Spec...</details>|-|Xianhui Zhang et al.|[2609.37054](https://arxiv.org/abs/2609.37054)|null|
 |**2026-09-28**|<details><summary>Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales</summary><br>Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and translation. We investigate this problem through biblical intertextuality in Karen Blixen's Seven Gothic Tales. Drawing on the commentary to a critical edition, we construct a benchmark of 189 annotated references and evaluate retrieval against all 31,170 verses of historically plausible Danish Old and New...</details>|-|András Kovács et al.|[2609.35765](https://arxiv.org/abs/2609.35765)|null|
 |**2026-09-28**|<details><summary>From Normative Frameworks to Alignment Data: Constructing and Evaluating SFT and Preference Data</summary><br>Aligning language models with a specified normative framework requires translating abstract principles into concrete examples and preference signals from which models can learn. We present an expert-driven methodology for constructing such alignment data and apply it to a normative framework grounded in Islamic ethical, theological, and jurisprudential traditions. Over approximately one year, seven domain experts systematically probed language models to identify alignment deficiencies, curated d...</details>|-|Husrev Taha Sencar et al.|[2609.35201](https://arxiv.org/abs/2609.35201)|null|
 |**2026-09-28**|<details><summary>Before the Token Commits: Trajectory-Level Benchmarking of Visual Hallucinations in Diffusion VLMs</summary><br>Multimodal diffusion language models generate responses by iteratively unmasking tokens, making each answer the endpoint of a multi-step trajectory rather than an immediate commitment. Hallucination benchmarks built for autoregressive models evaluate only the final output, and therefore cannot determine whether an unsupported claim in diffusion VLMs appears late or has already stabilized before any answer token is revealed. We introduce DynaHall, a trajectory-level benchmark of annotation-backed...</details>|-|Yadong Wang et al.|[2609.34772](https://arxiv.org/abs/2609.34772)|null|
