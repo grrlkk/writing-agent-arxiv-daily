@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-09-30** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-01** (UTC).
 Back to the [main page](../README.md).
 
-838 of 2965 papers carry venue evidence.
+842 of 2995 papers carry venue evidence.
 
-## Top-tier venues (555)
+## Top-tier venues (559)
 
 ### EMNLP (149)
 
@@ -414,10 +414,12 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
-### NeurIPS (43)
+### NeurIPS (45)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-30**|On the Complexity of Preference-Based Bandits|NeurIPS 2026|Reward & Value Models|[2609.39351](https://arxiv.org/abs/2609.39351)|
+|**2026-09-29**|Provable Test-Time Scaling for Beam Search in LLM Reasoning|NeurIPS 2026|Reward & Value Models|[2609.38672](https://arxiv.org/abs/2609.38672)|
 |**2026-09-29**|Distilling What Matters: Confidence-Aware Selective Distillation for Large Language Models|NeurIPS 2026|Text Quality Evaluation|[2609.36734](https://arxiv.org/abs/2609.36734)|
 |**2026-09-28**|Why Deterministic PRM Guidance Underperforms in Discrete Diffusion Reasoning|NeurIPS 2026|Reward & Value Models|[2609.35472](https://arxiv.org/abs/2609.35472)|
 |**2026-09-28**|Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models|NeurIPS 2026|Reward & Value Models|[2609.35695](https://arxiv.org/abs/2609.35695)|
@@ -603,20 +605,22 @@ Back to the [main page](../README.md).
 |**2024-09-20**|Generating Visual Stories with Grounded and Coreferent Characters|TACL 2024|Writing Agent|[2409.13555](https://arxiv.org/abs/2409.13555)|
 |**2024-05-09**|DOLOMITES: Domain-Specific Long-Form Methodical Tasks|TACL 2024|Writing Agent|[2405.05938](https://arxiv.org/abs/2405.05938)|
 
-### IJCAI (5)
+### IJCAI (6)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-08-29**|Cross-Relational Preference Learning for Better LLM Instruction Following|IJCAI 2026|Reward & Value Models, Synthetic Preference Data|[2608.29352](https://arxiv.org/abs/2608.29352)|
 |**2026-07-22**|EvoThink: Evolving Thinking in Large Reasoning Models via Self-Pruning and Aha-Moment Preference Optimization|IJCAI 2026|Reward & Value Models|[2607.19962](https://arxiv.org/abs/2607.19962)|
 |**2026-07-14**|Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques|IJCAI 2026|Search & Control for Generation|[2607.12829](https://arxiv.org/abs/2607.12829)|
 |**2026-05-22**|MindCopilot: Towards Formalizing and Evaluating Granular Human-LLM Co-Writing|IJCAI 2026|Writing Agent|[2605.23535](https://arxiv.org/abs/2605.23535)|
 |**2025-06-18**|Veracity: An Open-Source AI Fact-Checking System|IJCAI 2024|Multilingual & Cross-Lingual Agents|[2506.15794](https://arxiv.org/abs/2506.15794)|
 |**2024-02-09**|MusicMagus: Zero-Shot Text-to-Music Editing via Diffusion Models|IJCAI 2024|Iterative Revision & Text Editing|[2402.06178](https://arxiv.org/abs/2402.06178)|
 
-### KDD (5)
+### KDD (6)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-29**|STEPS: Scene Text Editing with Preserved Style Using Diffusion and Contrastive Style Encoding|KDD 2026|Iterative Revision & Text Editing|[2609.38636](https://arxiv.org/abs/2609.38636)|
 |**2026-08-07**|SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators|KDD 2026|Text Quality Evaluation|[2608.07641](https://arxiv.org/abs/2608.07641)|
 |**2026-07-29**|Improving Item Discoverability in e-Commerce Search via Related Intent Generation|KDD 2026|Text Quality Evaluation|[2607.27172](https://arxiv.org/abs/2607.27172)|
 |**2026-05-31**|When Hard Negatives Hurt: Bridging the Generative-Discriminative Gap in Hard Negative Synthesis for Retrieval|KDD 2026|Synthetic Preference Data|[2606.01304](https://arxiv.org/abs/2606.01304)|
