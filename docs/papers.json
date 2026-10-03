@@ -12,7 +12,7 @@
    "Text Quality Evaluation": 505,
    "Writing Agent": 480
   },
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "venue_tiers": {
    "demo": 8,
    "findings": 88,
@@ -43972,7 +43972,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44006,7 +44006,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-02",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [
       "Review"
      ],
@@ -44048,7 +44048,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-02",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44088,7 +44088,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-02",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [],
      "venue": "",
      "year": 2026
@@ -68400,7 +68400,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-02",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [],
      "venue": "",
      "year": 2026
@@ -90403,7 +90403,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-02",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [],
      "venue": "",
      "year": 2026
@@ -108246,7 +108246,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-01",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [],
      "venue": "",
      "year": 2026
@@ -108282,7 +108282,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-02",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [],
      "venue": "",
      "year": 2026
@@ -108317,7 +108317,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-02",
     "s2": {
-     "checked": "2026-09-03",
+     "checked": "2026-10-03",
      "types": [
       "Review"
      ],

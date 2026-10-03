@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-10-02** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-10-03** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -22,39 +22,6 @@ papers using the year links under each topic; the preview shows the newest 20.
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (219)
 - [Search & Control for Generation](#search--control-for-generation) (207)
 - [Korean Writing & NLP](#korean-writing--nlp) (69)
-
-## New in this update (30)
-
-- `Multilingual & Cross-Lingual Agents` [Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models](https://arxiv.org/abs/2610.02142)
-- `Multilingual & Cross-Lingual Agents` [A Multi-Agent LLM Framework for Personalized Health Checkup Interpretation and Guidance](https://arxiv.org/abs/2610.01451)
-- `Writing Agent` [A rubric landscape for evaluating clinical reasoning in large language models: what exists, what is missing, and what needs to be combined](https://arxiv.org/abs/2610.01938)
-- `Iterative Revision & Text Editing` [PRISM: A Category-Theoretic Framework for Measuring and Refining Multimodal Analogies](https://arxiv.org/abs/2610.01383)
-- `Iterative Revision & Text Editing` [Scalable Delphi: Large Language Models for Structured Risk Estimation](https://arxiv.org/abs/2602.08889)
-- `Self-Refine & Self-Correction` [Mingbird: A Local-First Agent Harness Enabling Small Open Models to Complete Real Tasks](https://arxiv.org/abs/2610.02001)
-- `Self-Refine & Self-Correction` [Know When to Hold 'em: Correct-Token Retention in Uniform-State Diffusion Language Models](https://arxiv.org/abs/2610.01275)
-- `Self-Refine & Self-Correction` [Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.02204)
-- `Self-Refine & Self-Correction` [Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control](https://arxiv.org/abs/2610.02038)
-- `Reward & Value Models` [SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL](https://arxiv.org/abs/2610.02023)
-- `Reward & Value Models` [LineupRL: Verifiable Reinforcement Learning for Time Series Captioning via Caption-to-Series Identification](https://arxiv.org/abs/2610.01800)
-- `Reward & Value Models` [GAW-PO: Preference Optimization with Gradient-Aligned Token Weights](https://arxiv.org/abs/2610.01511)
-- `Reward & Value Models` [When Reasoning Helps Action: Monitoring and Steering Chain-of-Thought in Vision-Language-Action Policies](https://arxiv.org/abs/2610.00601)
-- `Reward & Value Models` [Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers](https://arxiv.org/abs/2610.00531)
-- `Reward & Value Models` [The Weakest Link: Distilling LLM Reasoning with Worst-Case Constrained Reinforcement Learning](https://arxiv.org/abs/2610.00332)
-- `Reward & Value Models` [OrbitTAMP: Grounding Language Models for Task and Motion Planning in Spacecraft Rendezvous](https://arxiv.org/abs/2610.01093)
-- `Reward & Value Models` [VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks](https://arxiv.org/abs/2610.00972)
-- `Text Quality Evaluation` [AVSD-Scenes: A Dataset for Audio-Visual Description of Urban Scenes](https://arxiv.org/abs/2610.01861)
-- `Text Quality Evaluation` [Range-GRPO: Policy Optimization via Pairwise Relations among Reward Intervals](https://arxiv.org/abs/2610.01548)
-- `Text Quality Evaluation` [LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian](https://arxiv.org/abs/2610.00406)
-- `Text Quality Evaluation` [A rubric landscape for evaluating clinical reasoning in large language models: what exists, what is missing, and what needs to be combined](https://arxiv.org/abs/2610.01938)
-- `Text Quality Evaluation` [Judgement in the Age of Jev: From Evaluation Scarcity to Evaluation Abundance](https://arxiv.org/abs/2610.01231)
-- `Text Quality Evaluation` [RISED: RubrIcs for agentic multi-environment Selection and sElf-Distillation](https://arxiv.org/abs/2610.00979)
-- `Text Quality Evaluation` [VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks](https://arxiv.org/abs/2610.00972)
-- `Text Quality Evaluation` [An Educator-Guided LLM Pedagogical Agent for Scaffolded Feedback in Conceptual Database Design](https://arxiv.org/abs/2610.00870)
-- `Semantic Drift & Faithfulness` [External Observers May See More Clearly: Cross-Model Span-Level Hallucination Detection in Large Language Models via Hidden State Probing](https://arxiv.org/abs/2610.02066)
-- `Semantic Drift & Faithfulness` [A rubric landscape for evaluating clinical reasoning in large language models: what exists, what is missing, and what needs to be combined](https://arxiv.org/abs/2610.01938)
-- `Search & Control for Generation` [Function-Structured Reinforcement Learning with Executable Verifiers for Mathematical Reasoning](https://arxiv.org/abs/2610.01729)
-- `Search & Control for Generation` [OrbitTAMP: Grounding Language Models for Task and Motion Planning in Spacecraft Rendezvous](https://arxiv.org/abs/2610.01093)
-- `Search & Control for Generation` [OR for AI That Does OR: Routing LLMs up the Escalator inside the OSCAR Framework](https://arxiv.org/abs/2610.00912)
 
 ## Multilingual & Cross-Lingual Agents
 
