@@ -12,14 +12,15 @@ Workshop, Findings, and demo tracks are listed apart from main-track papers, and
 "submitted to X" is never counted as X. Generated on **2026-10-06** (UTC).
 Back to the [main page](../README.md).
 
-852 of 3062 papers carry venue evidence.
+856 of 3091 papers carry venue evidence.
 
-## Top-tier venues (564)
+## Top-tier venues (568)
 
-### EMNLP (149)
+### EMNLP (150)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-05**|Behavior-Preserving KV Cache Compression|EMNLP 2026|Writing Agent|[2610.06479](https://arxiv.org/abs/2610.06479)|
 |**2026-09-29**|Generalizable Lifelong Model Editing via Preference Optimization|EMNLP 2026|Reward & Value Models|[2609.36748](https://arxiv.org/abs/2609.36748)|
 |**2026-09-29**|Pair Difficulty Matters: Rethinking Pairwise LLM-as-a-Judge Evaluation and Consistency|EMNLP 2026|Text Quality Evaluation|[2609.37577](https://arxiv.org/abs/2609.37577)|
 |**2026-09-28**|OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue|EMNLP 2026|Reward & Value Models|[2609.34418](https://arxiv.org/abs/2609.34418)|
@@ -414,14 +415,16 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
-### NeurIPS (49)
+### NeurIPS (52)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-05**|Scalable Minimal-Change Learning for Controllable Image Editing|NeurIPS 2026|Reward & Value Models, Text Quality Evaluation|[2610.06021](https://arxiv.org/abs/2610.06021)|
+|**2026-10-04**|Best-of-$N$ Guidance for Test-time Diffusion Alignment|NeurIPS 2026|Reward & Value Models|[2610.05108](https://arxiv.org/abs/2610.05108)|
 |**2026-10-02**|Follow the Winners: Conservative Policy Improvement with the Cross-Entropy Method for Critic-Free RFT|NeurIPS 2026|Reward & Value Models, Self-Refine & Self-Correction|[2610.03361](https://arxiv.org/abs/2610.03361)|
 |**2026-10-02**|Safeguarding Mutual Correction in Source-Free Domain Adaptation via Cut Statistics|NeurIPS 2026|Self-Refine & Self-Correction|[2610.02981](https://arxiv.org/abs/2610.02981)|
-|**2026-10-01**|Bandits via Additive Quantized Representations|NeurIPS 2026|Reward & Value Models|[2610.02440](https://arxiv.org/abs/2610.02440)|
 |**2026-10-01**|Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents|NeurIPS 2026|Reward & Value Models|[2610.02330](https://arxiv.org/abs/2610.02330)|
+|**2026-10-01**|Bandits via Additive Quantized Representations|NeurIPS 2026|Reward & Value Models|[2610.02440](https://arxiv.org/abs/2610.02440)|
 |**2026-09-30**|On the Complexity of Preference-Based Bandits|NeurIPS 2026|Reward & Value Models|[2609.39351](https://arxiv.org/abs/2609.39351)|
 |**2026-09-29**|Provable Test-Time Scaling for Beam Search in LLM Reasoning|NeurIPS 2026|Reward & Value Models|[2609.38672](https://arxiv.org/abs/2609.38672)|
 |**2026-09-29**|Distilling What Matters: Confidence-Aware Selective Distillation for Large Language Models|NeurIPS 2026|Text Quality Evaluation|[2609.36734](https://arxiv.org/abs/2609.36734)|
@@ -430,6 +433,7 @@ Back to the [main page](../README.md).
 |**2026-09-27**|Agentic Multi-Turn Reasoning: A Fairness Approach|NeurIPS 2026|Reward & Value Models|[2609.33323](https://arxiv.org/abs/2609.33323)|
 |**2026-09-26**|From Static Policies to Adaptive Priors in Offline Reinforcement Learning|NeurIPS 2026|Self-Refine & Self-Correction|[2609.35880](https://arxiv.org/abs/2609.35880)|
 |**2026-09-25**|LLM Judge Validation Under Sparse Overlap: From Inference to Design|NeurIPS 2026|Text Quality Evaluation|[2609.31857](https://arxiv.org/abs/2609.31857)|
+|**2026-08-24**|Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance|NeurIPS 2026|Search & Control for Generation|[2608.23264](https://arxiv.org/abs/2608.23264)|
 |**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
 |**2025-11-28**|Writing in Symbiosis: Mapping Human Creative Agency in the AI Era|NeurIPS 2025|Writing Agent|[2512.13697](https://arxiv.org/abs/2512.13697)|
 |**2025-11-27**|WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios|NeurIPS 2025|Text Quality Evaluation|[2511.22154](https://arxiv.org/abs/2511.22154)|

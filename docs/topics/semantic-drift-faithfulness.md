@@ -2,15 +2,16 @@
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-221 papers, newest first. Generated on **2026-10-06** (UTC).
+222 papers, newest first. Generated on **2026-10-06** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (109)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
+Browse by year: [2026 (110)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-04**|<details><summary>Memory Canonicalization: A Framework and Benchmark for Cross-Model Drift in Persistent LLM Memory</summary><br>Persistent memory for Large Language Models (LLMs) has matured rapidly: systems such as MemGPT/Letta, Mem0, and Zep now provide agents with tiered, temporally-aware, model-agnostic external storage, while the Model Context Protocol (MCP) standardizes access to memory servers. A less addressed problem is that an identical stored memory object, retrieved by two different LLMs under otherwise identical conditions, may not be interpreted the same way, factually or emotionally. This paper proposes me...</details>|-|Amit Vadnere et al.|[2610.05124](https://arxiv.org/abs/2610.05124)|null|
 |**2026-10-02**|<details><summary>Slaying the Hydra: Interaction-Aware Circuit Discovery in Language Models</summary><br>Localizing behavior to individual components of a language model is a central goal of mechanistic interpretability. However, scoring components one at a time misses context-dependent effects: a primary component can inhibit the activation of a backup, leading to issues with ranking components. Actual causality studies the structure of such interactions via witnesses: variables that provide contextual information to resolve interaction terms. However, estimation with witnesses typically requires...</details>|-|Sankaran Vaidyanathan et al.|[2610.04017](https://arxiv.org/abs/2610.04017)|null|
 |**2026-10-02**|<details><summary>HARPO: Hallucination-Aware Reinforcement Learning for Faithful and Creative Language Generation</summary><br>Large Language Models (LLMs) are prone to generating hallucinated content, which compromises their reliability in knowledge-intensive tasks. To address this challenge without sacrificing creativity, we propose HARPO, a reinforcement learning framework designed to jointly optimize faithfulness and creativity. HARPO incorporates a Hallucination-Aware Generative Reward Model (HA-GRM), trained via verifiable feedback, to assess both faithfulness and writing quality. A Selective Activation Mechanism...</details>|-|Tiezheng Yu et al.|[2610.03063](https://arxiv.org/abs/2610.03063)|null|
 |**2026-10-01**|<details><summary>External Observers May See More Clearly: Cross-Model Span-Level Hallucination Detection in Large Language Models via Hidden State Probing</summary><br>As Large Language Models (LLMs) increasingly serve as foundational reasoning engines, their tendency to hallucinate remains a critical vulnerability. While recent internal state probes offer a promising alternative to slow external retrieval systems, they largely reduce hallucination detection to a token-wise binary classification task, failing to capture the structured, sequential boundaries of semantic drift. Here, we introduce an internal hidden state framework for fine-grained, span-level ha...</details>|-|Kingshuk Gupta et al.|[2610.02066](https://arxiv.org/abs/2610.02066)|null|
