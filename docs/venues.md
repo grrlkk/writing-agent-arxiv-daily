@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-04** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-06** (UTC).
 Back to the [main page](../README.md).
 
-842 of 3021 papers carry venue evidence.
+852 of 3062 papers carry venue evidence.
 
-## Top-tier venues (559)
+## Top-tier venues (564)
 
 ### EMNLP (149)
 
@@ -414,10 +414,14 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
-### NeurIPS (45)
+### NeurIPS (49)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-02**|Follow the Winners: Conservative Policy Improvement with the Cross-Entropy Method for Critic-Free RFT|NeurIPS 2026|Reward & Value Models, Self-Refine & Self-Correction|[2610.03361](https://arxiv.org/abs/2610.03361)|
+|**2026-10-02**|Safeguarding Mutual Correction in Source-Free Domain Adaptation via Cut Statistics|NeurIPS 2026|Self-Refine & Self-Correction|[2610.02981](https://arxiv.org/abs/2610.02981)|
+|**2026-10-01**|Bandits via Additive Quantized Representations|NeurIPS 2026|Reward & Value Models|[2610.02440](https://arxiv.org/abs/2610.02440)|
+|**2026-10-01**|Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents|NeurIPS 2026|Reward & Value Models|[2610.02330](https://arxiv.org/abs/2610.02330)|
 |**2026-09-30**|On the Complexity of Preference-Based Bandits|NeurIPS 2026|Reward & Value Models|[2609.39351](https://arxiv.org/abs/2609.39351)|
 |**2026-09-29**|Provable Test-Time Scaling for Beam Search in LLM Reasoning|NeurIPS 2026|Reward & Value Models|[2609.38672](https://arxiv.org/abs/2609.38672)|
 |**2026-09-29**|Distilling What Matters: Confidence-Aware Selective Distillation for Large Language Models|NeurIPS 2026|Text Quality Evaluation|[2609.36734](https://arxiv.org/abs/2609.36734)|
@@ -464,7 +468,7 @@ Back to the [main page](../README.md).
 |**2024-04-23**|Aligning LLM Agents by Learning Latent Preference from User Edits|NeurIPS 2024|Writing Agent|[2404.15269](https://arxiv.org/abs/2404.15269)|
 |**2021-05-20**|KLUE: Korean Language Understanding Evaluation|NeurIPS 2021|Korean Writing & NLP|[2105.09680](https://arxiv.org/abs/2105.09680)|
 
-### ICML (38)
+### ICML (39)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -480,6 +484,7 @@ Back to the [main page](../README.md).
 |**2026-05-29**|When Softmax Fails at the Top: Extreme Value Corrections for InfoNCE|ICML 2026|Synthetic Preference Data|[2606.00262](https://arxiv.org/abs/2606.00262)|
 |**2026-05-28**|Learning Context-Conditioned Predicate Semantics via Prototype Feedback|ICML 2026|Semantic Drift & Faithfulness|[2605.29610](https://arxiv.org/abs/2605.29610)|
 |**2026-04-27**|Large Language Models Explore by Latent Distilling|ICML 2026|Writing Agent|[2604.24927](https://arxiv.org/abs/2604.24927)|
+|**2025-12-22**|Demystifying LLM-as-a-Judge: Analytically Tractable Model for Inference-Time Scaling|ICML 2026|Search & Control for Generation, Text Quality Evaluation|[2512.19905](https://arxiv.org/abs/2512.19905)|
 |**2025-12-06**|When Distance Distracts: Representation Distance Bias in BT-Loss for Reward Models|ICML 2026|Reward & Value Models|[2512.06343](https://arxiv.org/abs/2512.06343)|
 |**2025-11-26**|How to Correctly Report LLM-as-a-Judge Evaluations|ICML 2026|Text Quality Evaluation|[2511.21140](https://arxiv.org/abs/2511.21140)|
 |**2025-11-20**|PersonaDrift: A Benchmark for Temporal Anomaly Detection in Language-Based Dementia Monitoring|ICML 2025|Semantic Drift & Faithfulness|[2511.16445](https://arxiv.org/abs/2511.16445)|
@@ -711,12 +716,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-26**|Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks|IUI 2024|Text Quality Evaluation|[2410.20266](https://arxiv.org/abs/2410.20266)|
 
-## Findings tracks (88)
+## Findings tracks (89)
 
-### EMNLP (54)
+### EMNLP (55)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-02**|CLIMB: Confidence-Guided Complementary Evidence for Multimodal Retrieval-Augmented Generation|EMNLP 2026 (findings)|Search & Control for Generation|[2610.03421](https://arxiv.org/abs/2610.03421)|
 |**2026-09-29**|SemOPT: Fixing Semantic Errors in LLM-based Optimization Modeling via Reward-Guided Search|EMNLP 2026 (findings)|Reward & Value Models|[2609.37361](https://arxiv.org/abs/2609.37361)|
 |**2026-09-24**|The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.30604](https://arxiv.org/abs/2609.30604)|
 |**2026-09-17**|KoNeoBench: A Curated Evaluation Dataset for LLM Understanding of Korean Neologisms|EMNLP 2026 (findings)|Korean Writing & NLP|[2609.19916](https://arxiv.org/abs/2609.19916)|
@@ -894,12 +900,15 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (112)
+## Workshops (116)
 
-### NeurIPS (26)
+### NeurIPS (29)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-02**|A Near-Zero Monitor Readout Is Not Evidence of Behavioral Control|NeurIPS 2026 (workshop)|Reward & Value Models|[2610.03458](https://arxiv.org/abs/2610.03458)|
+|**2026-10-02**|Auditing Pairwise Equivalence Judgments: Self-Critique Effects and Diversity Measurement in Multi-Agent Hypothesis Generation|NeurIPS 2026 (workshop)|Self-Refine & Self-Correction, Text Quality Evaluation|[2610.04133](https://arxiv.org/abs/2610.04133)|
+|**2026-10-01**|MIRROR: Multipath Quorum Integrity for LLM Multi-Agent Communication|NeurIPS 2026 (workshop)|Text Quality Evaluation|[2610.02349](https://arxiv.org/abs/2610.02349)|
 |**2026-09-29**|Beam Search as Test-Time Self-Distillation via Counterfactual Contexts|NeurIPS 2026 (workshop)|Reward & Value Models|[2609.37041](https://arxiv.org/abs/2609.37041)|
 |**2026-08-19**|Metrics That Write Themselves: Evolving an Evaluator from Its Own Blind Spots|NeurIPS 2026 (workshop)|Writing Agent|[2608.18744](https://arxiv.org/abs/2608.18744)|
 |**2025-12-16**|Reasoning Relay: Evaluating Stability and Interchangeability of Large Language Models in Mathematical Reasoning|NeurIPS 2025 (workshop)|Reward & Value Models|[2512.20647](https://arxiv.org/abs/2512.20647)|
@@ -948,10 +957,11 @@ Back to the [main page](../README.md).
 |**2024-11-12**|Entropy Controllable Direct Preference Optimization|ICML 2025 (workshop)|Reward & Value Models|[2411.07595](https://arxiv.org/abs/2411.07595)|
 |**2024-07-01**|Self-Cognition in Large Language Models: An Exploratory Study|ICML 2024 (workshop)|Writing Agent|[2407.01505](https://arxiv.org/abs/2407.01505)|
 
-### EMNLP (12)
+### EMNLP (13)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-02**|Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.03136](https://arxiv.org/abs/2610.03136)|
 |**2026-09-22**|Calibration as a First-Class Criterion in LLM Evaluation|EMNLP 2026 (workshop)|Text Quality Evaluation|[2609.26489](https://arxiv.org/abs/2609.26489)|
 |**2026-09-14**|Translating the Translator: Decomposing the Cost of English-Forced Inter-Agent Communication|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2609.15079](https://arxiv.org/abs/2609.15079)|
 |**2026-09-13**|Disentangling Topology and Diversity in Multi-Agent LLMs for Multilingual Low-Resource Emotion Detection|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2609.14570](https://arxiv.org/abs/2609.14570)|
