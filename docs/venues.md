@@ -9,17 +9,18 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-06** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-09** (UTC).
 Back to the [main page](../README.md).
 
-856 of 3091 papers carry venue evidence.
+862 of 3157 papers carry venue evidence.
 
-## Top-tier venues (568)
+## Top-tier venues (569)
 
-### EMNLP (150)
+### EMNLP (151)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-08**|EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams|EMNLP 2026|Reward & Value Models|[2610.12248](https://arxiv.org/abs/2610.12248)|
 |**2026-10-05**|Behavior-Preserving KV Cache Compression|EMNLP 2026|Writing Agent|[2610.06479](https://arxiv.org/abs/2610.06479)|
 |**2026-09-29**|Generalizable Lifelong Model Editing via Preference Optimization|EMNLP 2026|Reward & Value Models|[2609.36748](https://arxiv.org/abs/2609.36748)|
 |**2026-09-29**|Pair Difficulty Matters: Rethinking Pairwise LLM-as-a-Judge Evaluation and Consistency|EMNLP 2026|Text Quality Evaluation|[2609.37577](https://arxiv.org/abs/2609.37577)|
@@ -419,6 +420,7 @@ Back to the [main page](../README.md).
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-08**|Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching|NeurIPS 2026|Iterative Revision & Text Editing|[2610.12421](https://arxiv.org/abs/2610.12421)|
 |**2026-10-05**|Scalable Minimal-Change Learning for Controllable Image Editing|NeurIPS 2026|Reward & Value Models, Text Quality Evaluation|[2610.06021](https://arxiv.org/abs/2610.06021)|
 |**2026-10-04**|Best-of-$N$ Guidance for Test-time Diffusion Alignment|NeurIPS 2026|Reward & Value Models|[2610.05108](https://arxiv.org/abs/2610.05108)|
 |**2026-10-02**|Follow the Winners: Conservative Policy Improvement with the Cross-Entropy Method for Critic-Free RFT|NeurIPS 2026|Reward & Value Models, Self-Refine & Self-Correction|[2610.03361](https://arxiv.org/abs/2610.03361)|
@@ -433,7 +435,6 @@ Back to the [main page](../README.md).
 |**2026-09-27**|Agentic Multi-Turn Reasoning: A Fairness Approach|NeurIPS 2026|Reward & Value Models|[2609.33323](https://arxiv.org/abs/2609.33323)|
 |**2026-09-26**|From Static Policies to Adaptive Priors in Offline Reinforcement Learning|NeurIPS 2026|Self-Refine & Self-Correction|[2609.35880](https://arxiv.org/abs/2609.35880)|
 |**2026-09-25**|LLM Judge Validation Under Sparse Overlap: From Inference to Design|NeurIPS 2026|Text Quality Evaluation|[2609.31857](https://arxiv.org/abs/2609.31857)|
-|**2026-08-24**|Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance|NeurIPS 2026|Search & Control for Generation|[2608.23264](https://arxiv.org/abs/2608.23264)|
 |**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
 |**2025-11-28**|Writing in Symbiosis: Mapping Human Creative Agency in the AI Era|NeurIPS 2025|Writing Agent|[2512.13697](https://arxiv.org/abs/2512.13697)|
 |**2025-11-27**|WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios|NeurIPS 2025|Text Quality Evaluation|[2511.22154](https://arxiv.org/abs/2511.22154)|
@@ -654,7 +655,7 @@ Back to the [main page](../README.md).
 |**2024-10-22**|Optimizing LLMs with Direct Preferences: A Data Efficiency Perspective|SIGIR 2024|Synthetic Preference Data|[2410.16586](https://arxiv.org/abs/2410.16586)|
 |**2024-05-02**|On the Evaluation of Machine-Generated Reports|SIGIR 2024|Writing Agent|[2405.00982](https://arxiv.org/abs/2405.00982)|
 
-## Strong venues (39)
+## Strong venues (40)
 
 ### COLING (22)
 
@@ -683,10 +684,11 @@ Back to the [main page](../README.md).
 |**2023-09-06**|HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models|COLING 2024|Korean Writing & NLP|[2309.02706](https://arxiv.org/abs/2309.02706)|
 |**2018-06-28**|Rich Character-Level Information for Korean Morphological Analysis and Part-of-Speech Tagging|COLING 2018|Korean Writing & NLP|[1806.10771](https://arxiv.org/abs/1806.10771)|
 
-### LREC (11)
+### LREC (12)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-07**|Document-Level Text Simplification in Estonian Using Large Language Models|LREC 2026|Multilingual & Cross-Lingual Agents, Semantic Drift & Faithfulness|[2610.10378](https://arxiv.org/abs/2610.10378)|
 |**2026-08-04**|VIVID: A Culturally Grounded Benchmark Exposing the Figurative Language Gap in Vietnamese NLP|LREC 2026|Text Quality Evaluation|[2608.03095](https://arxiv.org/abs/2608.03095)|
 |**2026-05-19**|What Are LLMs Doing to Scientific Communication? Measuring Changes in Writing Practices and Reading Experience|LREC 2026|Writing Agent|[2605.19936](https://arxiv.org/abs/2605.19936)|
 |**2025-12-23**|Reason2Decide: Rationale-Driven Multi-Task Learning|LREC 2026|Text Quality Evaluation|[2512.20074](https://arxiv.org/abs/2512.20074)|
@@ -904,16 +906,20 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (116)
+## Workshops (120)
 
-### NeurIPS (29)
+### NeurIPS (33)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-08**|Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents|NeurIPS 2026 (workshop)|Reward & Value Models, Text Quality Evaluation, Writing Agent|[2610.11464](https://arxiv.org/abs/2610.11464)|
+|**2026-10-07**|On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents|NeurIPS 2026 (workshop)|Search & Control for Generation|[2610.10833](https://arxiv.org/abs/2610.10833)|
 |**2026-10-02**|A Near-Zero Monitor Readout Is Not Evidence of Behavioral Control|NeurIPS 2026 (workshop)|Reward & Value Models|[2610.03458](https://arxiv.org/abs/2610.03458)|
 |**2026-10-02**|Auditing Pairwise Equivalence Judgments: Self-Critique Effects and Diversity Measurement in Multi-Agent Hypothesis Generation|NeurIPS 2026 (workshop)|Self-Refine & Self-Correction, Text Quality Evaluation|[2610.04133](https://arxiv.org/abs/2610.04133)|
 |**2026-10-01**|MIRROR: Multipath Quorum Integrity for LLM Multi-Agent Communication|NeurIPS 2026 (workshop)|Text Quality Evaluation|[2610.02349](https://arxiv.org/abs/2610.02349)|
 |**2026-09-29**|Beam Search as Test-Time Self-Distillation via Counterfactual Contexts|NeurIPS 2026 (workshop)|Reward & Value Models|[2609.37041](https://arxiv.org/abs/2609.37041)|
+|**2026-09-09**|UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model|NeurIPS 2026 (workshop)|Search & Control for Generation|[2609.09815](https://arxiv.org/abs/2609.09815)|
+|**2026-08-24**|Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance|NeurIPS 2026 (workshop)|Search & Control for Generation|[2608.23264](https://arxiv.org/abs/2608.23264)|
 |**2026-08-19**|Metrics That Write Themselves: Evolving an Evaluator from Its Own Blind Spots|NeurIPS 2026 (workshop)|Writing Agent|[2608.18744](https://arxiv.org/abs/2608.18744)|
 |**2025-12-16**|Reasoning Relay: Evaluating Stability and Interchangeability of Large Language Models in Mathematical Reasoning|NeurIPS 2025 (workshop)|Reward & Value Models|[2512.20647](https://arxiv.org/abs/2512.20647)|
 |**2025-12-05**|RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs|NeurIPS 2025 (workshop)|Reward & Value Models|[2512.05542](https://arxiv.org/abs/2512.05542)|
