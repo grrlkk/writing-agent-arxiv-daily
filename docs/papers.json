@@ -12,7 +12,7 @@
    "Text Quality Evaluation": 541,
    "Writing Agent": 489
   },
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "venue_tiers": {
    "demo": 8,
    "findings": 89,
@@ -46079,7 +46079,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46122,7 +46122,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46158,7 +46158,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46197,7 +46197,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46237,7 +46237,7 @@
     "primary_category": "stat.ML",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46275,7 +46275,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61157,7 +61157,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -72054,7 +72054,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -113936,7 +113936,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
@@ -137647,7 +137647,7 @@
     "primary_category": "cs.HC",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-09-10",
+     "checked": "2026-10-10",
      "types": [],
      "venue": "",
      "year": 2026
