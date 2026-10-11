@@ -12,7 +12,7 @@
    "Text Quality Evaluation": 541,
    "Writing Agent": 489
   },
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "venue_tiers": {
    "demo": 8,
    "findings": 89,
@@ -5770,7 +5770,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46330,7 +46330,7 @@
     "primary_category": "cs.CR",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46372,7 +46372,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46412,7 +46412,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46447,7 +46447,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -95062,7 +95062,7 @@
     "primary_category": "cs.CR",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -95101,7 +95101,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -113976,7 +113976,7 @@
     "primary_category": "cs.MA",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -114010,7 +114010,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -114047,7 +114047,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
@@ -137684,7 +137684,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-11",
+     "checked": "2026-10-11",
      "types": [],
      "venue": "",
      "year": 2026
