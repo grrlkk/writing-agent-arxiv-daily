@@ -1,26 +1,26 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 171,
+   "Iterative Revision & Text Editing": 172,
    "Korean Writing & NLP": 69,
    "Multilingual & Cross-Lingual Agents": 399,
-   "Reward & Value Models": 652,
+   "Reward & Value Models": 657,
    "Search & Control for Generation": 218,
-   "Self-Refine & Self-Correction": 273,
+   "Self-Refine & Self-Correction": 274,
    "Semantic Drift & Faithfulness": 224,
-   "Synthetic Preference Data": 361,
-   "Text Quality Evaluation": 541,
+   "Synthetic Preference Data": 363,
+   "Text Quality Evaluation": 545,
    "Writing Agent": 489
   },
-  "updated": "2026-10-11",
+  "updated": "2026-10-13",
   "venue_tiers": {
    "demo": 8,
    "findings": 89,
-   "none": 2295,
+   "none": 2303,
    "other": 36,
    "strong": 40,
-   "top": 569,
-   "workshop": 120
+   "top": 570,
+   "workshop": 121
   }
  },
  "topics": {
@@ -6919,6 +6919,48 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2610.12421v1"
+   },
+   "2610.13057": {
+    "abs_url": "https://arxiv.org/abs/2610.13057",
+    "authors": [
+     "Arvind Raghavan",
+     "Inwoo Hwang",
+     "Shreyas Havaldar",
+     "Kai-Zhan Lee",
+     "Aurghya Maiti",
+     "Yushu Pan",
+     "Jeffrey Wu",
+     "Mingxuan Li",
+     "Elias Bareinboim"
+    ],
+    "code_url": "",
+    "comment": "accepted to NeurIPS'26 workshops on Trustworthy AI For Good (AI4GOOD) and Trustworthy AI Evaluations (TAE)",
+    "first_seen": "2026-10-13",
+    "id": "2610.13057",
+    "journal_ref": "",
+    "matched": [
+     "text editing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13057v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Counterfactual text editing is the ability to revise a given text in light of a hypothetical change while preserving facts not causally affected by that change. When asked what would have happened if a doctor had not recommended surgery, the model output should retain the patient's medical history and modify only the consequences of the decision. This requires causal understanding: a model must determine, without being explicitly instructed to, what events are affected by the hypothetical change and what should remain fixed. This skill is central to human reasoning, especially in safety-critical domains like healthcare or law. By contrast, the task of associational text generation merely generates text statistically associated with the altered condition. In the medical example, an associational response might make the patient's symptoms less severe because milder cases correlate with no surgery. Such responses produce a plausible scenario, but not the counterfactual version of the given one. Prior counterfactual-text datasets do not clearly separate these modes of reasoning. We introduce the Counterfactual Benchmark (CoBe), a testbed for models' zero-shot ability to counterfactually edit a given textual scenario when prompted to do so in a conversationally natural way. CoBe contains 2000 questions spanning healthcare, science and engineering, business, and everyday scenarios. We test a suite of frontier and smaller models, with frontier systems achieving an average score of $58.05\\%$. Our findings indicate that models frequently default to associational generation rather than preserving the causal structure of the original scenario. Moreover, performance does not scale consistently with either model size or output token length, suggesting that the failure may reflect model training objectives rather than insufficient model capacity.",
+    "tier": "workshop",
+    "title": "CoBe: A Benchmark For Conversational Counterfactual Text Editing",
+    "track": "workshop",
+    "updated": "2026-10-09",
+    "venue": "NeurIPS",
+    "venue_evidence": "accepted to NeurIPS'26 workshops on Trustworthy AI For Good (AI4GOOD) and Trustworthy AI Evaluations (TAE)",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.13057v1"
    }
   },
   "Korean Writing & NLP": {
@@ -53893,6 +53935,199 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2610.12248v1"
+   },
+   "2610.12707": {
+    "abs_url": "https://arxiv.org/abs/2610.12707",
+    "authors": [
+     "Yueying Li",
+     "Jingxuan Fan",
+     "Kianté Brantley",
+     "Sham M. Kakade",
+     "Hanlin Zhang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-13",
+    "id": "2610.12707",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.12707v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-08",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Vision-language reward models are trained on annotated preference pairs, which are expensive to collect, can disagree, and are ranked by benchmark accuracy. We build one with no human preference label: a linear head on an intermediate layer of a frozen Qwen3-VL backbone, trained to score a web caption above a perturbed version of the same caption; labeled data enters only to select the layer. The layer is the decisive choice, worth 5.8 points over the last layer, and one recipe transferred without re-tuning beats or at least matches GPT-4o on three benchmarks at 32B, 6.6 points ahead on VL-RewardBench, from a few thousand parameters at about a thousandth of fine-tuning compute. At an equal pair budget, perturbations teach a frozen head 3 to 5 points more than curated RLAIF-V pairs. Because the backbone is frozen, the objective is convex, and the perturbation sampler specifies the reward, which the benchmark does not identify: two heads trained on disjoint halves of the same perturbations tie on the benchmark and differ by 6.4 points in hallucination judging. Retraining the head on the policy's own verifier-labeled candidates cuts caption hallucination by 5.1 CHAIR points and lifts image-generation pass rate by 5.4, while scoring lower on every reward benchmark. Together, an intermediate-layer probe, free same-image perturbations, and a verifier-driven bootstrap turn give a recipe for multimodal reward modeling that needs no annotator, costs a fraction of fine-tuning, and is specified by the comparisons it is trained on rather than by a benchmark rank.",
+    "tier": "none",
+    "title": "Unsupervised Multimodal Reward Modeling",
+    "track": "",
+    "updated": "2026-10-08",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.12707v1"
+   },
+   "2610.12885": {
+    "abs_url": "https://arxiv.org/abs/2610.12885",
+    "authors": [
+     "Zhanhong Jiang",
+     "Soumik Sarkar"
+    ],
+    "code_url": "",
+    "comment": "15 pages, 11 figures, AAAI Fall Symposium Series 2026",
+    "first_seen": "2026-10-13",
+    "id": "2610.12885",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.12885v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Federated Direct Preference Optimization (FedDPO) enables privacy-preserving alignment of language models across distributed agents without centralizing sensitive preference data. However, existing FedDPO analysis assumes all clients converge to a single shared policy, which is fundamentally at odds with the heterogeneous preference distributions present in practice. We propose Personalized FedDPO (pFedDPO), in which each client maintains a small private LoRA adapter atop a shared global base model. In pFedDPO, the base model is synchronized via FedAvg each round, while LoRA adapters remain local and capture client-specific preference patterns. We prove that this decomposition replaces the gradient diversity $κ^2$ in the FedDPO bound with a residual heterogeneity $κ^2_{\\mathrm{eff}}$, which is no larger than $κ^2$ when adapters absorb client-specific directions, at the cost of an additive adapter-bias term that vanishes as adapters converge. Experiments on preference datasets show that pFedDPO consistently attains a lower gradient norm than vanilla FedDPO while remaining competitive in training loss and per-client reward accuracy.",
+    "tier": "top",
+    "title": "Personalized Federated Direct Preference Optimization via LoRA Adapters",
+    "track": "main",
+    "updated": "2026-10-09",
+    "venue": "AAAI",
+    "venue_evidence": "15 pages, 11 figures, AAAI Fall Symposium Series 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.12885v1"
+   },
+   "2610.13066": {
+    "abs_url": "https://arxiv.org/abs/2610.13066",
+    "authors": [
+     "Xu Zhang",
+     "Haohan Wang",
+     "Zheng Zhang",
+     "Yingjie Xia",
+     "Wei Feng",
+     "Honghe Zhu",
+     "Jingjing Lv",
+     "Changping Peng",
+     "Xuheng Qin",
+     "Zehua Zhang",
+     "Zheng Luo",
+     "Qicheng Li"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-13",
+    "id": "2610.13066",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13066v1",
+    "primary_category": "cs.CV",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The optimization objective for e-commerce advertising creatives has shifted from aesthetic quality to online business metrics like click-through rate (CTR). Recent methods generate appealing ad images from product images by constructing CTR-based reward signals and refining prompt generation via Reinforcement Learning. Such paradigms equally penalize all attributes within an underperforming image, even though some are actually beneficial to clicks. In this work, we propose Evolving Creatives with Clicks (ECC), which reformulates creative optimization as fine-grained editing rather than generation from scratch. ECC selectively refines attributes that hurt CTR while preserving those that contribute positively. Specifically, faced with a rich attribute space across massive images, ECC first identifies 28 attributes significantly correlated with CTR via ANOVA and Random Forest regression. Based on attribute contrasts between images with disparate CTRs, we instruction-tune a prompt model to generate editing suggestions, then refine it with real click preferences since reference-derived suggestions are not uniformly beneficial. Furthermore, we introduce Consistent Preference Optimization (CPO) as ECC's preference optimization strategy, which enforces consistency across semantically equivalent shuffled suggestions to mitigate DPO overfitting and improve preference generalization. Extensive experiments demonstrate that ECC significantly improves the CTR of ad images, outperforming state-of-the-art models by a substantial margin. The complete data pipeline, including attribute extraction and analysis, the resulting dataset, and source code will be released upon acceptance.",
+    "tier": "none",
+    "title": "Evolving Creatives with Clicks: CTR-Driven Advertising image Editing via Attribute Disentanglement and Preference Alignment",
+    "track": "",
+    "updated": "2026-10-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.13066v1"
+   },
+   "2610.13305": {
+    "abs_url": "https://arxiv.org/abs/2610.13305",
+    "authors": [
+     "Jixin Tang",
+     "Ji Guo",
+     "Jun Zhao"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 5 figures. Jixin Tang and Ji Guo contributed equally. Project page: https://gabrile166.github.io/MORAD/",
+    "first_seen": "2026-10-13",
+    "id": "2610.13305",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13305v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We introduce MORAD, an online reinforcement learning framework for backbone-conditioned RNA diffusion models that trains a single shared policy across diverse target backbones. Structure-conditioned RNA inverse design seeks nucleotide sequences compatible with a target three-dimensional backbone, yet existing reinforcement learning approaches either optimize a separate policy for each target backbone or rely on offline preference optimization, leaving online post-training of a reusable backbone-conditioned model largely unexplored. MORAD combines backbone-conditioned group sampling, group-relative reward normalization, and a forward-process diffusion objective. Beyond existing RL rewards that primarily target tertiary structural quality, MORAD jointly optimizes six measurements spanning tertiary geometry, base pairing, ensemble behavior, and sequence composition. To aggregate these heterogeneous objectives despite differences in scale and optimization direction, MORAD maps each measurement to a bounded desirability score and combines them with a weighted geometric mean. Compared with a tertiary-structure-only reward, this multi-objective formulation improves 10 of the 11 evaluation metrics that have a preferred direction. Applied to pretrained RIDE, MORAD improves GDT-TS by 16.0% (from 0.3300 to 0.3827) and pairing MCC by 19.4% (from 0.6110 to 0.7295), while reducing normalized ensemble defect by 27.5% (from 0.3906 to 0.2830). On the test set, MORAD outperforms RiboDiffusion, gRNAde, and RDesign across tertiary structural accuracy, secondary-structure pairing, and thermodynamic quality, establishing a new state of the art in structure-conditioned RNA inverse design.",
+    "tier": "none",
+    "title": "MORAD: Reinforcement Learning with Multi-Objective Rewards for RNA Inverse Design",
+    "track": "",
+    "updated": "2026-10-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.13305v1"
+   },
+   "2610.13353": {
+    "abs_url": "https://arxiv.org/abs/2610.13353",
+    "authors": [
+     "Zilong Huang",
+     "Kong Aik Lee",
+     "Zezhong Jin",
+     "Man-Wai Mak",
+     "Tatsuya Kawahara"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-13",
+    "id": "2610.13353",
+    "journal_ref": "",
+    "matched": [
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13353v1",
+    "primary_category": "cs.MM",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multimodal emotion preference learning uses pairwise comparisons to identify which open-ended emotion descriptions align more closely with human judgments. However, existing methods primarily focus on the final preference decision and provide little explicit supervision for localizing and correcting erroneous content. To address this limitation, we propose EmoGavel, a Grounding-Aware reinforcement learning framework with Verifiable rewards for multimodal Emotion preference Learning. We first introduce grounded supervised fine-tuning (Grounded SFT), which exploits controlled-error construction information to jointly learn preference prediction, error localization, repair, and missing-evidence recovery. We then optimize these verifiable outcomes with grounding-aware group relative policy optimization (GA-GRPO), combining preference-gated grounding rewards with dynamic zero-variance rescue to prioritize preference correctness and recover learning signals from all-wrong groups. Experiments on EmoPrefer and controlled-error evaluation sets show that EmoGavel improves both natural preference prediction and controlled-error discrimination while maintaining strong error-grounding performance. Our code and model checkpoints will be released once the paper is accepted.",
+    "tier": "none",
+    "title": "EmoGavel: Grounding-Aware Reinforcement Learning with Verifiable Rewards for Multimodal Emotion Preference Learning",
+    "track": "",
+    "updated": "2026-10-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.13353v1"
    }
   },
   "Search & Control for Generation": {
@@ -73781,6 +74016,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.12424v1"
+   },
+   "2610.13672": {
+    "abs_url": "https://arxiv.org/abs/2610.13672",
+    "authors": [
+     "Jiwon Jeon",
+     "Myungsik Cho",
+     "Jeonghye Kim",
+     "Youngchul Sung"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-13",
+    "id": "2610.13672",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13672v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models struggle to reliably identify and correct errors in their own reasoning. Unlike prior training-based approaches that fine-tune an LLM to generate revisions or feedback, we learn where to intervene in failed rollouts and determine how to redirect them. To choose where to intervene, we train a 130K-parameter MLP head on a frozen encoder using only final-answer correctness. For redirection, we find that under a fixed generation budget, the tested inline injections fail to reliably redirect reasoning, whereas presenting the same instruction in a new user turn changes the model's course. The resulting correction framework, UPTURN (User-Prompt TURN injection at a learned position), requires no LLM fine-tuning: it retains a selected prefix, injects an instruction as a new user turn, and regenerates the suffix. Across four reasoners and six math benchmarks, UPTURN improves average accuracy in every setting over a 32-rollout baseline. It outperforms self-correction and reflection-token injection baselines under matched correction budgets, transfers across reasoners and to GPQA-Diamond without retraining, and complements GRPO and self-correction methods.",
+    "tier": "none",
+    "title": "Inject a Turn, Not a Token: Learning Where to Redirect LLM Reasoning for Self-Correction",
+    "track": "",
+    "updated": "2026-10-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.13672v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -97121,6 +97394,80 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.10092v1"
+   },
+   "2610.12707": {
+    "abs_url": "https://arxiv.org/abs/2610.12707",
+    "authors": [
+     "Yueying Li",
+     "Jingxuan Fan",
+     "Kianté Brantley",
+     "Sham M. Kakade",
+     "Hanlin Zhang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-13",
+    "id": "2610.12707",
+    "journal_ref": "",
+    "matched": [
+     "rlaif",
+     "perturbation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.12707v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-08",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Vision-language reward models are trained on annotated preference pairs, which are expensive to collect, can disagree, and are ranked by benchmark accuracy. We build one with no human preference label: a linear head on an intermediate layer of a frozen Qwen3-VL backbone, trained to score a web caption above a perturbed version of the same caption; labeled data enters only to select the layer. The layer is the decisive choice, worth 5.8 points over the last layer, and one recipe transferred without re-tuning beats or at least matches GPT-4o on three benchmarks at 32B, 6.6 points ahead on VL-RewardBench, from a few thousand parameters at about a thousandth of fine-tuning compute. At an equal pair budget, perturbations teach a frozen head 3 to 5 points more than curated RLAIF-V pairs. Because the backbone is frozen, the objective is convex, and the perturbation sampler specifies the reward, which the benchmark does not identify: two heads trained on disjoint halves of the same perturbations tie on the benchmark and differ by 6.4 points in hallucination judging. Retraining the head on the policy's own verifier-labeled candidates cuts caption hallucination by 5.1 CHAIR points and lifts image-generation pass rate by 5.4, while scoring lower on every reward benchmark. Together, an intermediate-layer probe, free same-image perturbations, and a verifier-driven bootstrap turn give a recipe for multimodal reward modeling that needs no annotator, costs a fraction of fine-tuning, and is specified by the comparisons it is trained on rather than by a benchmark rank.",
+    "tier": "none",
+    "title": "Unsupervised Multimodal Reward Modeling",
+    "track": "",
+    "updated": "2026-10-08",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.12707v1"
+   },
+   "2610.12885": {
+    "abs_url": "https://arxiv.org/abs/2610.12885",
+    "authors": [
+     "Zhanhong Jiang",
+     "Soumik Sarkar"
+    ],
+    "code_url": "",
+    "comment": "15 pages, 11 figures, AAAI Fall Symposium Series 2026",
+    "first_seen": "2026-10-13",
+    "id": "2610.12885",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.12885v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Federated Direct Preference Optimization (FedDPO) enables privacy-preserving alignment of language models across distributed agents without centralizing sensitive preference data. However, existing FedDPO analysis assumes all clients converge to a single shared policy, which is fundamentally at odds with the heterogeneous preference distributions present in practice. We propose Personalized FedDPO (pFedDPO), in which each client maintains a small private LoRA adapter atop a shared global base model. In pFedDPO, the base model is synchronized via FedAvg each round, while LoRA adapters remain local and capture client-specific preference patterns. We prove that this decomposition replaces the gradient diversity $κ^2$ in the FedDPO bound with a residual heterogeneity $κ^2_{\\mathrm{eff}}$, which is no larger than $κ^2$ when adapters absorb client-specific directions, at the cost of an additive adapter-bias term that vanishes as adapters converge. Experiments on preference datasets show that pFedDPO consistently attains a lower gradient norm than vanilla FedDPO while remaining competitive in training loss and per-client reward accuracy.",
+    "tier": "top",
+    "title": "Personalized Federated Direct Preference Optimization via LoRA Adapters",
+    "track": "main",
+    "updated": "2026-10-09",
+    "venue": "AAAI",
+    "venue_evidence": "15 pages, 11 figures, AAAI Fall Symposium Series 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.12885v1"
    }
   },
   "Text Quality Evaluation": {
@@ -115671,14 +116018,14 @@
      "Rema Padman"
     ],
     "code_url": "",
-    "comment": "Expanded the dataset, updated the results and figures, and added new analyses. The previous result reporting 99% of GPT performance at 57% of the cost is retained in the appendix",
+    "comment": "An open-source Jev's alternative comparison is added to appendix A",
     "first_seen": "2026-09-23",
     "id": "2609.26550",
     "journal_ref": "",
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.26550v4",
+    "pdf_url": "https://arxiv.org/pdf/2609.26550v5",
     "primary_category": "cs.AI",
     "published": "2026-09-22",
     "s2": {
@@ -115692,12 +116039,12 @@
     "tier": "none",
     "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
     "track": "",
-    "updated": "2026-10-06",
+    "updated": "2026-10-09",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.26550v4"
+    "version": "2609.26550v5"
    },
    "2609.26707": {
     "abs_url": "https://arxiv.org/abs/2609.26707",
@@ -118944,6 +119291,154 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.12229v1"
+   },
+   "2610.13303": {
+    "abs_url": "https://arxiv.org/abs/2610.13303",
+    "authors": [
+     "Sangdo Han",
+     "Moonsoo Kim"
+    ],
+    "code_url": "",
+    "comment": "12 pages, 12 tables",
+    "first_seen": "2026-10-13",
+    "id": "2610.13303",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13303v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM judges are increasingly deployed as panels, and disagreement among panel members is often read as a symptom of an unclear rubric. We test a label-free procedure that turns this disagreement into rubric repairs. The procedure decomposes each rubric into sub-criteria, ranks them by cross-judge disagreement on a development split, and has an editor model rewrite only the most contested ones. An additional stage that moves text-checkable sub-criteria to deterministic checkers transferred none in our evaluation. Human labels are never used to select or edit clauses; they are used only to evaluate the outcome. We pre-specified four hypotheses in a version-controlled protocol and evaluated six rubric conditions with a panel of five judges from three providers on SummEval, the HealthBench meta-evaluation, and USR Topical-Chat, for a total of 129,770 judge requests, excluding retries. On SummEval, the procedure raised inter-judge Krippendorff's $α$ by 0.069 (95% CI 0.046 to 0.092) over the original rubric and by 0.074 over a control that applied the same edits to an equal number of randomly chosen clauses that were not selected. Agreement with expert ratings showed no detectable change (Kendall $τ$ difference -0.007, 95% CI -0.037 to 0.021). On HealthBench and USR, neither inter-judge agreement nor human agreement met the preregistered effect criteria. In a preregistered secondary comparison, human agreement after editing the contested clauses was lower than after editing the control clauses on all three datasets in point estimate, although no interval excluded zero. Selecting clauses by disagreement makes judges agree with each other more than editing arbitrary clauses does, but in our setting the added consensus did not bring the judges closer to human annotators. We will release code, frozen rubrics, item identifiers, and judge scores.",
+    "tier": "none",
+    "title": "Agreement Without Alignment: Label-Free Rubric Clarification Increases LLM-Judge Consensus but Not Agreement with Humans",
+    "track": "",
+    "updated": "2026-10-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.13303v1"
+   },
+   "2610.13305": {
+    "abs_url": "https://arxiv.org/abs/2610.13305",
+    "authors": [
+     "Jixin Tang",
+     "Ji Guo",
+     "Jun Zhao"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 5 figures. Jixin Tang and Ji Guo contributed equally. Project page: https://gabrile166.github.io/MORAD/",
+    "first_seen": "2026-10-13",
+    "id": "2610.13305",
+    "journal_ref": "",
+    "matched": [
+     "evaluation metric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13305v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We introduce MORAD, an online reinforcement learning framework for backbone-conditioned RNA diffusion models that trains a single shared policy across diverse target backbones. Structure-conditioned RNA inverse design seeks nucleotide sequences compatible with a target three-dimensional backbone, yet existing reinforcement learning approaches either optimize a separate policy for each target backbone or rely on offline preference optimization, leaving online post-training of a reusable backbone-conditioned model largely unexplored. MORAD combines backbone-conditioned group sampling, group-relative reward normalization, and a forward-process diffusion objective. Beyond existing RL rewards that primarily target tertiary structural quality, MORAD jointly optimizes six measurements spanning tertiary geometry, base pairing, ensemble behavior, and sequence composition. To aggregate these heterogeneous objectives despite differences in scale and optimization direction, MORAD maps each measurement to a bounded desirability score and combines them with a weighted geometric mean. Compared with a tertiary-structure-only reward, this multi-objective formulation improves 10 of the 11 evaluation metrics that have a preferred direction. Applied to pretrained RIDE, MORAD improves GDT-TS by 16.0% (from 0.3300 to 0.3827) and pairing MCC by 19.4% (from 0.6110 to 0.7295), while reducing normalized ensemble defect by 27.5% (from 0.3906 to 0.2830). On the test set, MORAD outperforms RiboDiffusion, gRNAde, and RDesign across tertiary structural accuracy, secondary-structure pairing, and thermodynamic quality, establishing a new state of the art in structure-conditioned RNA inverse design.",
+    "tier": "none",
+    "title": "MORAD: Reinforcement Learning with Multi-Objective Rewards for RNA Inverse Design",
+    "track": "",
+    "updated": "2026-10-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.13305v1"
+   },
+   "2610.13361": {
+    "abs_url": "https://arxiv.org/abs/2610.13361",
+    "authors": [
+     "Jiahao Wang",
+     "Hongjin Qian",
+     "Yuyang Hu",
+     "Jiajun Zhang",
+     "Zheng Liu"
+    ],
+    "code_url": "https://github.com/VectorSpaceLab/AgentSWE",
+    "comment": "Code: https://github.com/VectorSpaceLab/AgentSWE",
+    "first_seen": "2026-10-13",
+    "id": "2610.13361",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13361v1",
+    "primary_category": "cs.SE",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a benchmark for agent software engineering spanning three stages of the agent development lifecycle: Creation of a complete agent from a natural-language requirement, Editing of production agent codebases, and Optimization toward a measurable target. Each of its 25 tasks is framed as a commission rather than an exam: the builder iterates against a handful of illustrative cases, while acceptance exercises the frozen submission on held-out cases designed to span the full requirement, grading behavior against requirement-derived rubrics under hard pass/fail gates or, for Optimization, against the source benchmark's own objective. Evaluating a range of coding agents across models and harnesses, we find that none comes close to delivering what a requirement asks for: the gap between what a builder demonstrates and what it delivers is the norm, not the corner case. An accompanying empirical analysis of the failure trajectories identifies recurring failure modes, among them overfitting to the visible cases, hollow runtimes behind code that looks complete, and unsupported claims of completion, each a signal by which coding agents can learn to build the agents they are asked for.",
+    "tier": "none",
+    "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+    "track": "",
+    "updated": "2026-10-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.13361v1"
+   },
+   "2610.13755": {
+    "abs_url": "https://arxiv.org/abs/2610.13755",
+    "authors": [
+     "Chenxu Zhang",
+     "Yaorui Shi",
+     "Wenlong Zhang",
+     "Jianchao Tan",
+     "Zihan Wang",
+     "Yiming Cheng"
+    ],
+    "code_url": "",
+    "comment": "29 pages, 9 figures",
+    "first_seen": "2026-10-13",
+    "id": "2610.13755",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.13755v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-09",
+    "s2": {
+     "checked": "2026-10-13",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Training long-horizon language model agents requires assigning credit to intermediate decisions from sparse terminal feedback. Within a finite group of sibling rollouts, useful action comparisons depend on their context, evidence for both alternatives, and how that evidence enters learning. We propose Matched-Context Group Policy Optimization (MCGPO), a procedure for constructing weighted action preferences from already collected trajectories. MCGPO defines comparison contexts with pre-action state summaries and observed rubric progress, annotated by task rules. Two-action support selects among ordered exact and coarse matching rules. Fixed folds separate candidate decisions from the terminal outcomes used to orient their preferences, and support-dependent evidence weights scale an auxiliary pairwise objective alongside shared GraphGPO task learning. MCGPO reuses rollout data and each response's original history, preserving critic-free training. Across six environment-backbone settings with three training seeds each, MCGPO improves mean success over matched GraphGPO: by 0.47-1.46 percentage points on ALFWorld and WebShop with Qwen2.5-1.5B and 7B, and by 3.96 and 5.16 points on WebShop with Qwen3-4B and 8B. The ALFWorld gains build on baseline success above 92%, where remaining headroom is limited. Integrated success improves in three of four Qwen2.5 settings. Three-seed factorial controls support opposite-fold evidence and evidence weighting; joint state-rubric matching achieves the highest mean in all four representation-control settings.",
+    "tier": "none",
+    "title": "Matched-Context Group Policy Optimization for LLM Agent Training",
+    "track": "",
+    "updated": "2026-10-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.13755v1"
    }
   },
   "Writing Agent": {

@@ -2,15 +2,16 @@
 
 > Whether a model can improve its own draft with no external signal — the baseline the TVM has to beat (RQ4).
 
-273 papers, newest first. Generated on **2026-10-11** (UTC).
+274 papers, newest first. Generated on **2026-10-13** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (143)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
+Browse by year: [2026 (144)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-09**|<details><summary>Inject a Turn, Not a Token: Learning Where to Redirect LLM Reasoning for Self-Correction</summary><br>Large language models struggle to reliably identify and correct errors in their own reasoning. Unlike prior training-based approaches that fine-tune an LLM to generate revisions or feedback, we learn where to intervene in failed rollouts and determine how to redirect them. To choose where to intervene, we train a 130K-parameter MLP head on a frozen encoder using only final-answer correctness. For redirection, we find that under a fixed generation budget, the tested inline injections fail to reli...</details>|-|Jiwon Jeon et al.|[2610.13672](https://arxiv.org/abs/2610.13672)|null|
 |**2026-10-08**|<details><summary>RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments</summary><br>A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before i...</details>|-|Zimo Wen et al.|[2610.12424](https://arxiv.org/abs/2610.12424)|null|
 |**2026-10-08**|<details><summary>Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks</summary><br>Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past interactions but predict different outcomes in unseen states. We introduce Memento 3, building on the Memento series to enable frozen LLM agents to continually learn explicit world models through external memory. The agent maintains a natural-language rulebook as persistent seman...</details>|-|Haoyu Zhao et al.|[2610.11794](https://arxiv.org/abs/2610.11794)|null|
 |**2026-10-08**|<details><summary>SafeInferCom: Safe Inference-Time Compute via Verifier-Guided Mid-Generation Intervention for Robotic Task Planning</summary><br>Large Reasoning Language Models (LRLMs) enable multi-step reasoning for robotic task planning, but continued reasoning can overwrite valid intermediate plans or leave constraint violations unresolved, reducing planning reliability and wasting inference-time computation. We develop an inference-time monitor that exposes and verifies intermediate plans without disrupting the original decoding trajectory. Building on this monitor, we propose SafeInferCom, a formal verifier-guided framework that pre...</details>|-|Weizhe Xu et al.|[2610.11223](https://arxiv.org/abs/2610.11223)|null|

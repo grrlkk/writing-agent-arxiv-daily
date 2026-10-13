@@ -2,15 +2,16 @@
 
 > Edit-intention taxonomies, revision histories, and text-editing models — the direct precedent for FEAK-TC's action taxonomy (B1/W2).
 
-171 papers, newest first. Generated on **2026-10-11** (UTC).
+172 papers, newest first. Generated on **2026-10-13** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (88)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
+Browse by year: [2026 (89)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-09**|<details><summary>CoBe: A Benchmark For Conversational Counterfactual Text Editing</summary><br>Counterfactual text editing is the ability to revise a given text in light of a hypothetical change while preserving facts not causally affected by that change. When asked what would have happened if a doctor had not recommended surgery, the model output should retain the patient's medical history and modify only the consequences of the decision. This requires causal understanding: a model must determine, without being explicitly instructed to, what events are affected by the hypothetical change...</details>|NeurIPS 2026 (workshop)|Arvind Raghavan et al.|[2610.13057](https://arxiv.org/abs/2610.13057)|null|
 |**2026-10-08**|<details><summary>Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching</summary><br>Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence across such transformations, we introduce FreeMatching, a generalizable framework combining generative...</details>|NeurIPS 2026|Luping Liu et al.|[2610.12421](https://arxiv.org/abs/2610.12421)|**[link](https://github.com/luping-liu/FreeMatching)**|
 |**2026-10-06**|<details><summary>Quality-Aware Self-Correcting Speech Translation on an Edge Device</summary><br>We present a fully offline speech-to-speech translation pipeline that runs on a Jetson Nano (4 GB) and corrects its own weak translations without retraining. A Whisper-tiny ASR feeds an Opus-MT translator; multilingual BERT cosine similarity acts as a Quality Estimation (QE) gate, triggering a secondary-pass correction when confidence falls below a pre-defined threshold $τ$. We compare three correction methods: QE reranking (M1), Minimum Bayes-Risk decoding (M2), and constrained beam search (M3)...</details>|-|Zubair Ajmal Farooq et al.|[2610.07545](https://arxiv.org/abs/2610.07545)|**[link](https://github.com/juebae/speech-translation_edge_device)**|
 |**2026-10-05**|<details><summary>SimAuthor: Harnessing Foundation Models for Persistent Scientific Simulator Authoring</summary><br>Foundation models can generate scientific code, but authoring a scientific simulator (an executable program encoding hypotheses about how mechanisms generate observable signals) requires iterative refinement. Scientific adequacy rarely admits a unique implementation or exact test, so simulators must instead be judged against limited real observations. We study this setting as scientific simulator authoring under weak empirical feedback, where distributional comparisons between simulated and real...</details>|-|Yishan Wang et al.|[2610.06257](https://arxiv.org/abs/2610.06257)|null|

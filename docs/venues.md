@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-11** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-13** (UTC).
 Back to the [main page](../README.md).
 
-862 of 3157 papers carry venue evidence.
+864 of 3167 papers carry venue evidence.
 
-## Top-tier venues (569)
+## Top-tier venues (570)
 
 ### EMNLP (151)
 
@@ -282,10 +282,11 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### AAAI (64)
+### AAAI (65)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-09**|Personalized Federated Direct Preference Optimization via LoRA Adapters|AAAI 2026|Reward & Value Models, Synthetic Preference Data|[2610.12885](https://arxiv.org/abs/2610.12885)|
 |**2026-07-18**|A Method for Learning Value Systems in Generative AI|AAAI 2026|Reward & Value Models, Synthetic Preference Data|[2607.16903](https://arxiv.org/abs/2607.16903)|
 |**2026-04-06**|Metaphors We Compute By: A Computational Audit of Cultural Translation vs. Thinking in LLMs|AAAI 2026|Writing Agent|[2604.04732](https://arxiv.org/abs/2604.04732)|
 |**2026-04-06**|Lighting Up or Dimming Down? Exploring Dark Patterns of LLMs in Co-Creativity|AAAI 2026|Writing Agent|[2604.04735](https://arxiv.org/abs/2604.04735)|
@@ -906,12 +907,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (120)
+## Workshops (121)
 
-### NeurIPS (33)
+### NeurIPS (34)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-09**|CoBe: A Benchmark For Conversational Counterfactual Text Editing|NeurIPS 2026 (workshop)|Iterative Revision & Text Editing|[2610.13057](https://arxiv.org/abs/2610.13057)|
 |**2026-10-08**|Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents|NeurIPS 2026 (workshop)|Reward & Value Models, Text Quality Evaluation, Writing Agent|[2610.11464](https://arxiv.org/abs/2610.11464)|
 |**2026-10-07**|On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents|NeurIPS 2026 (workshop)|Search & Control for Generation|[2610.10833](https://arxiv.org/abs/2610.10833)|
 |**2026-10-02**|A Near-Zero Monitor Readout Is Not Evidence of Behavioral Control|NeurIPS 2026 (workshop)|Reward & Value Models|[2610.03458](https://arxiv.org/abs/2610.03458)|
