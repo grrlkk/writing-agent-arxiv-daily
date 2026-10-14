@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-13** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-14** (UTC).
 Back to the [main page](../README.md).
 
-864 of 3167 papers carry venue evidence.
+868 of 3236 papers carry venue evidence.
 
-## Top-tier venues (570)
+## Top-tier venues (573)
 
 ### EMNLP (151)
 
@@ -417,10 +417,12 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
-### NeurIPS (52)
+### NeurIPS (55)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-12**|The Value of Being Wrong: Self-Mined Visual In-Context Learning from Errors|NeurIPS 2026|Synthetic Preference Data|[2610.16977](https://arxiv.org/abs/2610.16977)|
+|**2026-10-11**|SpecForge: Recursive Self-Improvement for Coding Agents via Behavioral Specifications|NeurIPS 2026|Multilingual & Cross-Lingual Agents|[2610.15708](https://arxiv.org/abs/2610.15708)|
 |**2026-10-08**|Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching|NeurIPS 2026|Iterative Revision & Text Editing|[2610.12421](https://arxiv.org/abs/2610.12421)|
 |**2026-10-05**|Scalable Minimal-Change Learning for Controllable Image Editing|NeurIPS 2026|Reward & Value Models, Text Quality Evaluation|[2610.06021](https://arxiv.org/abs/2610.06021)|
 |**2026-10-04**|Best-of-$N$ Guidance for Test-time Diffusion Alignment|NeurIPS 2026|Reward & Value Models|[2610.05108](https://arxiv.org/abs/2610.05108)|
@@ -437,6 +439,7 @@ Back to the [main page](../README.md).
 |**2026-09-26**|From Static Policies to Adaptive Priors in Offline Reinforcement Learning|NeurIPS 2026|Self-Refine & Self-Correction|[2609.35880](https://arxiv.org/abs/2609.35880)|
 |**2026-09-25**|LLM Judge Validation Under Sparse Overlap: From Inference to Design|NeurIPS 2026|Text Quality Evaluation|[2609.31857](https://arxiv.org/abs/2609.31857)|
 |**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
+|**2025-12-19**|AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens|NeurIPS 2026|Reward & Value Models, Text Quality Evaluation|[2512.17375](https://arxiv.org/abs/2512.17375)|
 |**2025-11-28**|Writing in Symbiosis: Mapping Human Creative Agency in the AI Era|NeurIPS 2025|Writing Agent|[2512.13697](https://arxiv.org/abs/2512.13697)|
 |**2025-11-27**|WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios|NeurIPS 2025|Text Quality Evaluation|[2511.22154](https://arxiv.org/abs/2511.22154)|
 |**2025-11-25**|Semantic-KG: Using Knowledge Graphs to Construct Benchmarks for Measuring Semantic Similarity|NeurIPS 2025|Text Quality Evaluation|[2511.19925](https://arxiv.org/abs/2511.19925)|
@@ -839,7 +842,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2025-12-22**|EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration|CVPR 2026 (findings)|Reward & Value Models|[2512.19396](https://arxiv.org/abs/2512.19396)|
 
-## Other venues (36)
+## Other venues (37)
 
 ### ECCV (9)
 
@@ -868,10 +871,11 @@ Back to the [main page](../README.md).
 |**2024-10-27**|Uncovering Capabilities of Model Pruning in Graph Contrastive Learning|ACM MM 2024|Synthetic Preference Data|[2410.20356](https://arxiv.org/abs/2410.20356)|
 |**2024-07-31**|Generative Expressive Conversational Speech Synthesis|ACM MM 2024|Multilingual & Cross-Lingual Agents|[2407.21491](https://arxiv.org/abs/2407.21491)|
 
-### CVPR (5)
+### CVPR (6)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-13**|Unlocking Token Rewards via Training-Free Reward Attribution|CVPR 2026|Reward & Value Models|[2610.18704](https://arxiv.org/abs/2610.18704)|
 |**2026-04-27**|Meta-CoT: Enhancing Granularity and Generalization in Image Editing|CVPR 2026|Iterative Revision & Text Editing|[2604.24625](https://arxiv.org/abs/2604.24625)|
 |**2025-11-27**|ReAG: Reasoning-Augmented Generation for Knowledge-based Visual Question Answering|CVPR 2026|Self-Refine & Self-Correction|[2511.22715](https://arxiv.org/abs/2511.22715)|
 |**2024-11-27**|Immune: Improving Safety Against Jailbreaks in Multi-modal LLMs via Inference-Time Alignment|CVPR 2025|Reward & Value Models|[2411.18688](https://arxiv.org/abs/2411.18688)|
