@@ -9,14 +9,14 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-14** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-15** (UTC).
 Back to the [main page](../README.md).
 
-868 of 3236 papers carry venue evidence.
+872 of 3269 papers carry venue evidence.
 
-## Top-tier venues (573)
+## Top-tier venues (575)
 
-### EMNLP (151)
+### EMNLP (150)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -86,7 +86,6 @@ Back to the [main page](../README.md).
 |**2026-06-02**|POLARIS: Guiding Small Models to Write Long Stories|EMNLP 2026|Writing Agent|[2606.04095](https://arxiv.org/abs/2606.04095)|
 |**2026-06-01**|Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation|EMNLP 2026|Writing Agent|[2606.01629](https://arxiv.org/abs/2606.01629)|
 |**2026-05-26**|Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation|EMNLP 2026|Writing Agent|[2605.26958](https://arxiv.org/abs/2605.26958)|
-|**2026-05-19**|When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation|EMNLP 2026|Writing Agent|[2605.20364](https://arxiv.org/abs/2605.20364)|
 |**2025-12-20**|SRS-Stories: Vocabulary-constrained multilingual story generation for language learning|EMNLP 2025|Writing Agent|[2512.18362](https://arxiv.org/abs/2512.18362)|
 |**2025-11-28**|Ambiguity Awareness Optimization: Towards Semantic Disambiguation for Direct Preference Optimization|EMNLP 2025|Reward & Value Models|[2511.23391](https://arxiv.org/abs/2511.23391)|
 |**2025-11-01**|G2: Guided Generation for Enhanced Output Diversity in LLMs|EMNLP 2025|Writing Agent|[2511.00432](https://arxiv.org/abs/2511.00432)|
@@ -417,10 +416,12 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
-### NeurIPS (55)
+### NeurIPS (57)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-14**|Lifted State Policy Optimization: Internalizing Self-Correction through Transition Geometry|NeurIPS 2026|Reward & Value Models, Self-Refine & Self-Correction|[2610.20350](https://arxiv.org/abs/2610.20350)|
+|**2026-10-14**|Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems|NeurIPS 2026|Reward & Value Models, Search & Control for Generation|[2610.19362](https://arxiv.org/abs/2610.19362)|
 |**2026-10-12**|The Value of Being Wrong: Self-Mined Visual In-Context Learning from Errors|NeurIPS 2026|Synthetic Preference Data|[2610.16977](https://arxiv.org/abs/2610.16977)|
 |**2026-10-11**|SpecForge: Recursive Self-Improvement for Coding Agents via Behavioral Specifications|NeurIPS 2026|Multilingual & Cross-Lingual Agents|[2610.15708](https://arxiv.org/abs/2610.15708)|
 |**2026-10-08**|Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching|NeurIPS 2026|Iterative Revision & Text Editing|[2610.12421](https://arxiv.org/abs/2610.12421)|
@@ -521,11 +522,12 @@ Back to the [main page](../README.md).
 |**2024-06-17**|From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline|ICML 2024|Text Quality Evaluation|[2406.11939](https://arxiv.org/abs/2406.11939)|
 |**2024-03-30**|Linguistic Calibration of Long-Form Generations|ICML 2024|Writing Agent|[2404.00474](https://arxiv.org/abs/2404.00474)|
 
-### NAACL (33)
+### NAACL (34)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-07-30**|ICLE++: Modeling Fine-Grained Traits for Holistic Essay Scoring|NAACL 2026|Text Quality Evaluation|[2607.27671](https://arxiv.org/abs/2607.27671)|
+|**2026-05-19**|When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation|NAACL 2027|Writing Agent|[2605.20364](https://arxiv.org/abs/2605.20364)|
 |**2025-01-01**|eRevise+RF: A Writing Evaluation System for Assessing Student Essay Revisions and Providing Formative Feedback|NAACL 2025|Iterative Revision & Text Editing|[2501.00715](https://arxiv.org/abs/2501.00715)|
 |**2024-12-20**|Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning|NAACL 2024|Reward & Value Models|[2412.15797](https://arxiv.org/abs/2412.15797)|
 |**2024-12-20**|PromptOptMe: Error-Aware Prompt Compression for LLM-based MT Evaluation Metrics|NAACL 2024|Reward & Value Models|[2412.16120](https://arxiv.org/abs/2412.16120)|
@@ -911,12 +913,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (121)
+## Workshops (123)
 
-### NeurIPS (34)
+### NeurIPS (35)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-14**|ixi-sLM: On-Device sLM for AI Call Agent Service|NeurIPS 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.19382](https://arxiv.org/abs/2610.19382)|
 |**2026-10-09**|CoBe: A Benchmark For Conversational Counterfactual Text Editing|NeurIPS 2026 (workshop)|Iterative Revision & Text Editing|[2610.13057](https://arxiv.org/abs/2610.13057)|
 |**2026-10-08**|Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents|NeurIPS 2026 (workshop)|Reward & Value Models, Text Quality Evaluation, Writing Agent|[2610.11464](https://arxiv.org/abs/2610.11464)|
 |**2026-10-07**|On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents|NeurIPS 2026 (workshop)|Search & Control for Generation|[2610.10833](https://arxiv.org/abs/2610.10833)|
@@ -952,10 +955,11 @@ Back to the [main page](../README.md).
 |**2024-09-21**|Towards Automated Patent Workflows: AI-Orchestrated Multi-Agent Framework for Intellectual Property Management and Analysis|NeurIPS 2024 (workshop)|Text Quality Evaluation|[2409.19006](https://arxiv.org/abs/2409.19006)|
 |**2023-10-06**|KoMultiText: Large-Scale Korean Text Dataset for Classifying Biased Speech in Real-World Online Services|NeurIPS 2023 (workshop)|Korean Writing & NLP|[2310.04313](https://arxiv.org/abs/2310.04313)|
 
-### ICML (16)
+### ICML (17)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-14**|What Does Disagreement Mean? A Semantic Identifiability Frontier for Pairwise Preference Learning|ICML 2026 (workshop)|Reward & Value Models|[2610.20450](https://arxiv.org/abs/2610.20450)|
 |**2026-09-24**|Learning to Ideate for Scientific Impact|ICML 2026 (workshop)|Reward & Value Models|[2609.29802](https://arxiv.org/abs/2609.29802)|
 |**2026-09-22**|Efficient Cost-Aware LLM Evaluation via Bayesian Bandit Gittins Indices|ICML 2026 (workshop)|Search & Control for Generation|[2609.25645](https://arxiv.org/abs/2609.25645)|
 |**2026-09-19**|Triggers and Diagnostics for LLM-Based Interpretability Failures in Active Inference Agents|ICML 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2609.23215](https://arxiv.org/abs/2609.23215)|

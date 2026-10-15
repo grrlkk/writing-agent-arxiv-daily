@@ -1,26 +1,26 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 177,
+   "Iterative Revision & Text Editing": 180,
    "Korean Writing & NLP": 69,
-   "Multilingual & Cross-Lingual Agents": 408,
-   "Reward & Value Models": 686,
-   "Search & Control for Generation": 222,
-   "Self-Refine & Self-Correction": 280,
-   "Semantic Drift & Faithfulness": 227,
-   "Synthetic Preference Data": 371,
-   "Text Quality Evaluation": 558,
-   "Writing Agent": 489
+   "Multilingual & Cross-Lingual Agents": 415,
+   "Reward & Value Models": 696,
+   "Search & Control for Generation": 225,
+   "Self-Refine & Self-Correction": 282,
+   "Semantic Drift & Faithfulness": 229,
+   "Synthetic Preference Data": 373,
+   "Text Quality Evaluation": 565,
+   "Writing Agent": 491
   },
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "venue_tiers": {
    "demo": 8,
    "findings": 89,
-   "none": 2368,
+   "none": 2397,
    "other": 37,
    "strong": 40,
-   "top": 573,
-   "workshop": 121
+   "top": 575,
+   "workshop": 123
   }
  },
  "topics": {
@@ -4867,6 +4867,39 @@
     "venue_year": "",
     "version": "2607.24873v1"
    },
+   "2607.28166": {
+    "abs_url": "https://arxiv.org/abs/2607.28166",
+    "authors": [
+     "Chia-Ming Lee",
+     "Shao-Kai Liu",
+     "Ming-Ching Chang",
+     "Xin Li",
+     "Yu-Lun Liu",
+     "Chih-Chung Hsu"
+    ],
+    "code_url": "https://github.com/ming053l/C4-dLLM",
+    "comment": "Code: https://github.com/ming053l/C4-dLLM. Project page: https://ming053l.github.io/c4-dllm.github.io/",
+    "first_seen": "2026-10-15",
+    "id": "2607.28166",
+    "journal_ref": "",
+    "matched": [
+     "revision history"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2607.28166v3",
+    "primary_category": "cs.CL",
+    "published": "2026-07-30",
+    "status": "unknown",
+    "summary": "Diffusion language models predict tokens in parallel but still require many iterative forward passes. Adaptive sampling accelerates local token commitment, while recent global stopping methods seek to end generation early. Our trajectory analysis shows that short answers can stabilize early in decoding, whereas reasoning outputs often require more steps to settle. A fixed progress threshold therefore struggles to avoid both redundant computation on short-answer tasks and premature termination on reasoning tasks. We introduce C$^4$, a training-free framework that combines local decoding acceleration with adaptive global early exit. Confidence-Verified Early Exit (CVEE) determines when to end generation, skipping the remaining steps once its stopping criterion is met. It combines confidence and temporal agreement to adapt stopping to the observed revision history. Commit-Core-Then-Confirm (CCTC) accelerates token commitment while generation continues, reducing the decoding steps needed to complete each block. It extends confidence-threshold parallel decoding with a boundary-anchored core and one-step confirmation of deferred predictions, constraining additional commitments to mitigate premature freezing under unresolved context. With CVEE calibrated once on LLaDA, the same numerical settings transfer across all 12 zero-shot tasks and to Dream without recalibration. Under this configuration, C$^4$ reduces decoding steps by 64-95% and achieves measured decoding-loop speedups of 2.6x-18.6x, with task performance close to full decoding. Component analyses show complementary contributions: early exit supplies most savings on short-answer tasks, while local acceleration contributes more on reasoning and code generation.",
+    "tier": "none",
+    "title": "Commit Locally, Exit Globally: Coordinating Adaptive Sampling and Early Exit in Diffusion Language Models",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2607.28166v3"
+   },
    "2607.29058": {
     "abs_url": "https://arxiv.org/abs/2607.29058",
     "authors": [
@@ -6899,15 +6932,15 @@
      "Zubair Ajmal Farooq",
      "Diptesh Kanojia"
     ],
-    "code_url": "https://github.com/juebae/speech-translation_edge_device",
-    "comment": "7 pages, 2 figures, 4 tables. Full paper submitted to the Convergence 2026 proceedings; poster presented at Convergence 2026, University of Surrey. Code: https://github.com/juebae/speech-translation_edge_device",
+    "code_url": "https://github.com/surrey-nlp/speech-translation_edge_device",
+    "comment": "v2: added code repository link; corrected figures, table labels and minor text. 7 pages, 2 figures, 4 tables. Full paper submitted to the Convergence 2026 proceedings; poster presented at Convergence 2026, University of Surrey. Code: https://github.com/surrey-nlp/speech-translation_edge_device",
     "first_seen": "2026-10-09",
     "id": "2610.07545",
     "journal_ref": "",
     "matched": [
      "post-editing"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.07545v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.07545v2",
     "primary_category": "cs.CL",
     "published": "2026-10-06",
     "s2": {
@@ -6917,16 +6950,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "We present a fully offline speech-to-speech translation pipeline that runs on a Jetson Nano (4 GB) and corrects its own weak translations without retraining. A Whisper-tiny ASR feeds an Opus-MT translator; multilingual BERT cosine similarity acts as a Quality Estimation (QE) gate, triggering a secondary-pass correction when confidence falls below a pre-defined threshold $τ$. We compare three correction methods: QE reranking (M1), Minimum Bayes-Risk decoding (M2), and constrained beam search (M3). On 1,012 FLORES-200 sentences (English-Spanish), M2 at $τ=0.90$ produces statistically significant improvements over greedy decoding on BLEU (+0.67, p<0.001), ChrF (+0.51, p<0.001), and COMET (+0.0020 at N=3, p=0.002); M1 yields no significant gains, and M3 is significantly worse than baseline (p>0.99). Our central finding is that QE functions effectively as a gate but poorly as a ranker: removing the QE model from candidate selection (M1$\\to$M2) does not hurt quality and frees 680 MB from the critical path. Using a gain-to-edit ratio adapted from the post-editing-effort literature, we further show that smaller candidate pools (N=3) yield more surgical corrections with better semantic adequacy, while larger pools (N=10) maximise lexical reward. We release the system and demonstrate live translation across six language pairs.",
+    "summary": "We present a fully offline speech-to-speech translation pipeline that runs on a Jetson Nano (4 GB) and corrects its own weak translations without retraining. A Whisper-tiny ASR feeds an Opus-MT translator; multilingual BERT cosine similarity acts as a Quality Estimation (QE) gate, triggering a secondary-pass when confidence falls below a pre-defined threshold $τ$. We compare three correction methods: QE reranking (M1), Minimum Bayes-Risk decoding (M2), and constrained beam search (M3). On 1,012 FLORES-200 sentences (English-Spanish), M2 at $τ=0.90$ produces statistically significant improvements over greedy decoding on BLEU (+0.67, p<0.001), ChrF (+0.51, p<0.001), and COMET (+0.0020 at N=3, p=0.002); M1 yields no significant gains, and M3 is significantly worse than baseline (p>0.99). Our central finding is that QE functions effectively as a gate but poorly as a ranker: removing the QE model from candidate selection (M1$\\to$M2) does not hurt quality and frees 680 MB from the critical path. Using a gain-to-edit ratio adapted from the post-editing-effort literature, we further show that smaller candidate pools (N=3) yield more surgical corrections with better semantic adequacy, while larger pools (N=10) maximise lexical reward. We release the system and demonstrate live translation across six language pairs.",
     "tier": "none",
     "title": "Quality-Aware Self-Correcting Speech Translation on an Edge Device",
     "track": "",
-    "updated": "2026-10-06",
+    "updated": "2026-10-14",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.07545v1"
+    "version": "2610.07545v2"
    },
    "2610.12421": {
     "abs_url": "https://arxiv.org/abs/2610.12421",
@@ -7175,6 +7208,76 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.18240v1"
+   },
+   "2610.20283": {
+    "abs_url": "https://arxiv.org/abs/2610.20283",
+    "authors": [
+     "Rifat Mehreen Amin",
+     "Michelle Dutoit",
+     "Anton Rockenstein",
+     "Baptiste Caramiaux",
+     "Andreas Butz"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.20283",
+    "journal_ref": "",
+    "matched": [
+     "editing intention"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20283v1",
+    "primary_category": "cs.HC",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "AI-powered image editing increasingly allows users to express high-level editing intentions, yet how these intentions are translated into concrete editing actions often remains difficult to understand. We present Atelier, a semantic image editing tool that uses image semantics and user intent to determine which editing controls to surface and how to initialize them. Guided by a formative study with eight image-editing practitioners, Atelier composes context-specific, directly manipulable controls that users can refine rather than committing AI interpretations directly to finished edits. In a within-subjects study with 12 practitioners, participants preferred AI-composed controls, described them as supporting creative exploration, and actively refined AI proposals. However, experiences of control were mixed, and interviews highlighted limited insight into why particular controls and values were proposed. Our findings suggest that making AI interpretations actionable through manipulable controls can support exploration and refinement, but actionability alone does not make those interpretations transparent to all users.",
+    "tier": "none",
+    "title": "From Semantic Editing Intentions to Persistent Parametric Controls for AI-Assisted Image Editing",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20283v1"
+   },
+   "2610.20563": {
+    "abs_url": "https://arxiv.org/abs/2610.20563",
+    "authors": [
+     "Shangyin Tan",
+     "Ben Zhou",
+     "Lakshya A Agrawal",
+     "Jialin Zhang",
+     "Yilin Chen",
+     "Qiuyang Mang",
+     "Donghyun Lee",
+     "Dennis Jacob",
+     "Koushik Sen",
+     "Alex Dimakis",
+     "Matei Zaharia"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.20563",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20563v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Automated research with LLM agents has shown promising results in various domains. Through iterative refinement and scored verifiers, LLM agents are capable of discovering new ideas. There are different ways to scale automated research: let one agent iterate for longer, run several agents in parallel, or further let the parallel agents communicate and build on one another's candidates. However, we find that all three strategies eventually plateau as the agents accumulate history. Each agent becomes anchored to its own past attempts, making fewer and smaller edits. Beyond this point, additional budget brings little further improvement. In this paper, we show that the key to scaling discovery further is to forget. Periodically discarding the search state, including every agent's session and the candidate history, and restarting from the best candidate found so far, unblocks the search and pushes the same budget further. We implement forgetting in a team of agents with communication and evaluate it on four tasks spanning heuristic programming, kernel optimization and model training. The results show up to 15% improvement compared to parallel agents, and up to 39% compared to a single agent. Our results suggest that, for open-ended discovery, what an agent is allowed to remember matters as much as how much compute it is given.",
+    "tier": "none",
+    "title": "Scaling Discovery Requires Forgetting",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20563v1"
    }
   },
   "Korean Writing & NLP": {
@@ -26524,14 +26627,14 @@
      "Shan X Wang"
     ],
     "code_url": "",
-    "comment": "75 pages, including 51 pages of Supplementary Information",
+    "comment": "74 pages, including 51 pages of Supplementary Information. Revised presentation and terminology, with improved figure placement; experimental results unchanged",
     "first_seen": "2026-09-29",
     "id": "2609.32220",
     "journal_ref": "",
     "matched": [
      "chinese"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.32220v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.32220v2",
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
@@ -26541,16 +26644,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Audiology consultation requires structured history-taking, audiometric interpretation and patient-centred communication, yet real-world case material is scarce. We present a bilingual AI audiologist pairing a general-purpose large language model with rubric-guided playbook induction, multimodal audiogram interpretation and retrieval-augmented grounding, without fine-tuning the language-model backbone. Using a 21-item rubric and an AI patient simulator, we induced a 19-rule consultation policy from 73 training cases (43 English, 30 Chinese) and evaluated the system on 58 independent simulated cases (30 Chinese, 28 English) in a pre-specified, source-blinded comparison with 17 practising audiologists. The AI audiologist outperformed human audiologists on every case (58/58; mean paired $Δ$ = +1.35 on a 5-point composite, Cohen's d = 1.84, $P = 4.5 \\times 10^{-20}$), on 20 of 21 rubric items and in both languages. Component ablation identified the playbook as the largest contributor, offering a practical route to specialist consultation agents in low-data medical domains.",
+    "summary": "Audiology consultation requires structured history-taking, audiometric interpretation and patient-centred communication, yet real-world case material is scarce. We present a bilingual AI audiologist pairing a general-purpose large language model with rubric-guided closed-loop engineering, multimodal audiogram interpretation and retrieval-augmented grounding, without fine-tuning the language-model backbone. Using a 21-item rubric and an AI patient simulator, we distilled experience-derived guidance into a 19-rule playbook from 73 training cases (43 English, 30 Chinese) and evaluated the system on 58 independent simulated cases (30 Chinese, 28 English) in a pre-specified, source-blinded comparison with 17 practising audiologists. The AI audiologist outperformed human audiologists on every case (58/58; mean paired $Δ$ = +1.35 on a 5-point composite, Cohen's d = 1.84, $P = 4.5 \\times 10^{-20}$), on 20 of 21 rubric items and in both languages. Component ablation identified the playbook as the largest contributor, offering a practical route to specialist consultation agents in low-data medical domains.",
     "tier": "none",
-    "title": "A bilingual AI audiologist built through rubric-guided playbook induction outperforms human audiologists in a blinded evaluation of simulated cases",
+    "title": "A bilingual AI audiologist built through rubric-guided closed-loop engineering outperforms human audiologists in a blinded evaluation of simulated cases",
     "track": "",
-    "updated": "2026-09-26",
+    "updated": "2026-10-13",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.32220v1"
+    "version": "2609.32220v2"
    },
    "2609.32297": {
     "abs_url": "https://arxiv.org/abs/2609.32297",
@@ -27660,6 +27763,7 @@
      "Yan Wu",
      "Yanan Wu",
      "Jiaheng Liu",
+     "Quan Gu",
      "Ariel Deng"
     ],
     "code_url": "",
@@ -27670,7 +27774,7 @@
     "matched": [
      "multilingual"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.16859v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16859v2",
     "primary_category": "cs.CL",
     "published": "2026-10-12",
     "s2": {
@@ -27684,12 +27788,12 @@
     "tier": "none",
     "title": "ANCHOR: Assessing Naturalistic Constraint Hierarchies and Ordering in Repository-Grounded Agentic Coding",
     "track": "",
-    "updated": "2026-10-12",
+    "updated": "2026-10-14",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.16859v1"
+    "version": "2610.16859v2"
    },
    "2610.17643": {
     "abs_url": "https://arxiv.org/abs/2610.17643",
@@ -27884,6 +27988,242 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.18611v1"
+   },
+   "2610.18881": {
+    "abs_url": "https://arxiv.org/abs/2610.18881",
+    "authors": [
+     "Petmongkon Pornpichitsuwan",
+     "Krittin Pachtrachai",
+     "Touchapon Kraisingkorn"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.18881",
+    "journal_ref": "",
+    "matched": [
+     "thai"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.18881v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-01",
+    "status": "unknown",
+    "summary": "Voice agents built on large language models (LLMs) now handle customer calls, but in regulated applications completing the task is not enough: the agent must follow a conversational flow set by law. In debt collection, it must confirm it is speaking to the debtor before mentioning the debt, identify itself and the creditor, state the amount, and avoid prohibited language. Every creditor turns these rules into its own procedure and revises it. We ask whether a small, self-hosted policy can be trained once and then follow regulated procedures it has never seen. One machine-readable specification per deployment, FlowSpec, generates the policy instruction, gates the tools, supplies the supervision and defines the tests; the agent speaks only approved catalogue sentences. We fine-tune a 9-billion-parameter model on 2,506 conversations from 297 randomized procedures and evaluate a Thai outbound-call agent on four unseen deployment procedures (three debt collection, one non-debt), one from a wholly withheld lineage. Documented checks, fixed by the procedure, rise from 67--71 percents to 93--100 percents, while grounded checks, fixed by the conversation, already pass at 97--100 percents before training; scenario pass rate rises from 15/43 to 40/43. An audit of the shared specification finds 11 defects, 3 of which its own metric did not expose.",
+    "tier": "none",
+    "title": "Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection",
+    "track": "",
+    "updated": "2026-10-01",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.18881v1"
+   },
+   "2610.19382": {
+    "abs_url": "https://arxiv.org/abs/2610.19382",
+    "authors": [
+     "Han-Sang Lee",
+     "Kyuho Lee",
+     "Juneyoung Park",
+     "Seongbae Lee",
+     "Jin Kyu Park",
+     "Minjae Kim",
+     "Yuri Hong",
+     "Jinwoo Lee",
+     "Youngwook Kwon",
+     "Seongwan Kim",
+     "Seungheon Hyeon",
+     "Jaeho Lee",
+     "Kiduk Kwon"
+    ],
+    "code_url": "",
+    "comment": "Accepted to NeurIPS 2026 Workshop on On-Device Intelligence: Foundation Models under Real-World Constraints",
+    "first_seen": "2026-10-15",
+    "id": "2610.19382",
+    "journal_ref": "",
+    "matched": [
+     "korean"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19382v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-14",
+    "status": "accepted",
+    "summary": "Running an AI call agent on-device makes it private, network-independent, and free of per-query cloud cost, but shipping one as a real-world service imposes constraints a cloud deployment never faces: ~1GiB memory budget, in-call latency and thermal limits, static-integer NPU execution, Korean STT input far from sLM pretraining, and cloud-level quality expectations. We bring ixi-sLM, a 1.2B Korean sLM, to mobile NPUs through ON-DEVICE MODELING: domain-adaptive modeling trims the vocabulary by call frequency to shrink the embedding and LM head that take nearly half the model under INT4 transformer weights and refits the tokenizer to call speech (18% fewer tokens on call traffic), while task-aware quantization calibrates on real calls and assigns per-module mixed precision by activation sensitivity. A single domain-adapted model runs ixi-O's two production services, AI Call Summary and AI Call Answering, at 94% of a state-of-the-art cloud LLM's task-weighted quality; our on-device modeling carries that quality onto the NPU with only a marginal drop in overall score, in an 803MiB model (28% of FP16) at 23% of the CPU's per-call energy. The same recipe deploys across Qualcomm and Apple NPUs and serves several million ixi-O subscribers in production.",
+    "tier": "workshop",
+    "title": "ixi-sLM: On-Device sLM for AI Call Agent Service",
+    "track": "workshop",
+    "updated": "2026-10-14",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted to NeurIPS 2026 Workshop on On-Device Intelligence: Foundation Models under Real-World Constraints",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.19382v1"
+   },
+   "2610.19399": {
+    "abs_url": "https://arxiv.org/abs/2610.19399",
+    "authors": [
+     "SungHo Kim",
+     "Eojin Jeon",
+     "SangKeun Lee"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19399",
+    "journal_ref": "",
+    "matched": [
+     "korean"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19399v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Korean neologisms arise through diverse mechanisms, a demanding test of language models beyond lexical memorization. To enable systematic evaluation, we introduce NeoTrace, an automated, rerunnable framework that collects and dates neologisms across genres. Its 4,271 entries support KoAGE, a cutoff-aware benchmark with three acquisition and two generation tasks---the latter, to our knowledge, the first to compare model coinages with attested neologisms under their original materials and community context. Across 21 models, lexical recall diverges from contextual inference: in a five-model temporal analysis, models define only 13-30% of cutoff-year words, yet can infer meaning from one usage. However, structural understanding remains limited: even correct definitions barely improve formation analysis of pre-cutoff neologisms. Given word-building materials, single models often follow human formation mechanisms, whereas multi-agent coinage favors abbreviation and depends on interaction framing. KoAGE thus separates what models know, learn from use, and coin.",
+    "tier": "none",
+    "title": "KoAGE: Do Large Language Models Know, Learn, and Coin Korean Neologisms?",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19399v1"
+   },
+   "2610.19589": {
+    "abs_url": "https://arxiv.org/abs/2610.19589",
+    "authors": [
+     "Zhongwei Xie",
+     "Xingsu Li",
+     "Jingqiao Yu",
+     "Zihao Wang",
+     "Hong ChiTat",
+     "Zhaowei Wang",
+     "Weizhi Du",
+     "Yuxuan Liu",
+     "Huihao Jing",
+     "Jiaxin Bai",
+     "Yangqiu Song"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19589",
+    "journal_ref": "",
+    "matched": [
+     "japanese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19589v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across successive decisions. We introduce JockeyBench, a benchmark and evaluation protocol that studies this problem through historical Japanese horse racing. The protocol combines time-gated evidence, priced tools, paired frozen-program controls, and two workflows: executing an LLM-written predictor or acquiring evidence for a fresh per-race LLM forecast. Evaluation separates forecast quality, benchmark-specific net utility, and retrospective betting returns and risk under fixed decision rules. Across 28 model--scaffold configurations on 324 races, paired tests identify seven revision gains and two declines after multiple-testing correction. Yet every configuration has negative mean profit under capped-Kelly settlement. In a four-model comparison, the reusable-program workflow has higher mean betting profit and lower research fees, although both workflows lose on average. Further diagnostics reveal that mean probability bias reverses on selected bets and that profitable individual runs can depend on concentrated returns. These findings motivate evaluating predictive competence, adaptation, resource use, and decision value separately when assessing agents for repeated event forecasting.",
+    "tier": "none",
+    "title": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19589v1"
+   },
+   "2610.19638": {
+    "abs_url": "https://arxiv.org/abs/2610.19638",
+    "authors": [
+     "Chihiro Yano",
+     "Jun Hirako",
+     "Hiroaki Yamagiwa",
+     "Ryota Hirobuchi"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19638",
+    "journal_ref": "",
+    "matched": [
+     "multilingual",
+     "japanese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19638v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "We present J-tau, the first publicly available Japanese benchmark for evaluating tool-using LLM agents in interactive customer-support scenarios. While tau-bench is widely used to evaluate LLM agents, it is English-centric and cannot evaluate agents in other languages. Existing multilingual extensions offer no public Japanese version and rely primarily on machine translation, leaving locale-specific entities such as addresses and currencies inconsistent with the target region. To enable reliable evaluation in Japanese, we carefully localize tau-bench through machine translation, entity adaptation, and human review. During this process, we also uncover and fix two flaws in the original tau-bench: invalid tasks and a score aggregation error that inflates certain models' results. Experiments show that J-tau yields fewer evaluation errors than a naively machine-translated counterpart and that our fixes resolve both flaws.",
+    "tier": "none",
+    "title": "J-tau: A Fully Localized Japanese Benchmark for Tool-Agent-User Interaction",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19638v1"
+   },
+   "2610.20193": {
+    "abs_url": "https://arxiv.org/abs/2610.20193",
+    "authors": [
+     "Chengyang Liu",
+     "Wen Yang",
+     "Shifeng Chen",
+     "Delai Qiu",
+     "Ji Yang",
+     "Junnan Zhu",
+     "Yining Wang",
+     "Shengping Liu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.20193",
+    "journal_ref": "",
+    "matched": [
+     "multilingual"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20193v1",
+    "primary_category": "cs.SE",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Software engineering agents have advanced rapidly, but scaling their training remains constrained by the limited availability of high-quality executable tasks. Development histories contain valuable signals for constructing such tasks, yet they often require substantial reconstruction due to incomplete environments, missing tests, and inconsistent artifacts. We present SWE-Stream, a system for scaling executable SWE training data through progressive construction and elastic streaming execution. SWE-Stream progressively validates and refines task candidates, reusing existing artifacts when possible and applying targeted completion only when necessary. An elastic scheduler asynchronously coordinates construction stages under shared resource constraints, adapting execution budgets based on observed workload demands. Using development histories from 10,728 repositories across six programming languages, SWE-Stream constructs 80,874 validated tasks and collects 118,688 successful trajectories. Fine-tuning Qwen3-30B-A3B-Thinking-2507 on these trajectories achieves resolve rates of 69.0%, 49.3%, and 45.42% on SWE-bench Verified, Multilingual, and Pro, respectively. In a controlled comparison with approximately matched training budgets, SWE-Stream achieves a 45.6% resolve rate on SWE-bench Verified, outperforming three existing data sources. Moreover, its streaming construction strategy improves efficiency, delivering $1.45\\times$ the accepted-task throughput of batch construction and accepting 13.2% more tasks than fixed-limit streaming.",
+    "tier": "none",
+    "title": "SWE-Stream: Scaling Executable Training Data for SWE Agents via Progressive Construction and Elastic Streaming",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20193v1"
+   },
+   "2610.20365": {
+    "abs_url": "https://arxiv.org/abs/2610.20365",
+    "authors": [
+     "Chih-Han Lin",
+     "Yu-Yun Chang",
+     "Po-Ya Angela Wang",
+     "Shu-Kai Hsieh"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 6 figures",
+    "first_seen": "2026-10-15",
+    "id": "2610.20365",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20365v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "AI agent communities sustain lexical persistence, popular terms spread, recur, and achieve broad adoption, but whether they also develop the temporal semantic structure characteristic of human linguistic communities remains open. We compare MoltBook (AI agent community, 8 weeks), PTT (Chinese human BBS, 19 years), and Reddit (English human forum, in matched 8-week windows) using Compass-Aligned Distributional Embeddings (CADE), measuring semantic drift (B1), neighborhood stability (B2), and lag-1 autocorrelation of per-word drift trajectories. Across the platforms, lag-1 autocorrelation forms a memory-horizon continuum. AI agents' result clusters at the low end, while human platforms show longer-range temporal dependence. MoltBook exhibits approximately 2$\\times$ the B1 drift and 20-30% lower B2 stability than both human platforms. As a partial control for community age, r/vibecoding (founded 2025-02-08) shows significant ACF in its first 8 weeks ($0.082$, $p<.001$) and over 15 weeks ($0.220$, $p<.001$); MoltBook's ACF remains non-significant ($p = 0.41$), consistent with the gap not reducing to developmental stage alone. We interpret this pattern as evidence that lexical diffusion alone does not guarantee diachronic semantic consolidation. The findings are consistent with a contrast between communities whose semantic trajectories accumulate long-range interaction constraints and communities whose outputs are repeatedly regenerated from largely fixed pretrained distributions.",
+    "tier": "none",
+    "title": "Lexical Persistence Without Semantic Entrenchment in AI Agent Communities",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20365v1"
    }
   },
   "Reward & Value Models": {
@@ -55873,6 +56213,323 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.18766v1"
+   },
+   "2610.19095": {
+    "abs_url": "https://arxiv.org/abs/2610.19095",
+    "authors": [
+     "Soovadeep Bakshi",
+     "Apurba Bose",
+     "Aishwarya Bose",
+     "Sandip Nandi"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 5 figures, 9 tables",
+    "first_seen": "2026-10-15",
+    "id": "2610.19095",
+    "journal_ref": "",
+    "matched": [
+     "bradley-terry"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19095v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-13",
+    "status": "unknown",
+    "summary": "Chatbot Arena ranks language models with the Bradley-Terry model, which gives each model one score and so assumes Luce's choice axiom. Choice theory predicts where this fails: near-copies are told apart more decisively than their scores imply. On 1.8 million Arena votes, votes between versions of one model are 1.37 times as decisive as Bradley-Terry predicts, between sizes of one generation 1.26 times and between models of one lab 1.12 times; a release a year later gives consistent multipliers, and the effect survives alternative tie treatments, prompt subsets and topics, and timing checks. How alike two models' answers are worded and formatted tracks the effect. A correction with four to six parameters predicts held-out votes better than Bradley-Terry and than models with hundreds of parameters, mostly by modelling ties; frozen and carried to new releases in a test fixed in advance, its gains are concentrated in ties, and better head-to-head odds are not established. The leaderboard order barely moves. With language-model judges and three-answer menus, a near-copy takes votes mostly from its twin when choices are pooled over prompts (log-odds shift +0.10, 95% interval 0.05 to 0.16); within a prompt the shift is smaller and clear for two of four judges.",
+    "tier": "none",
+    "title": "Similar Models, Broken Odds: Where Luce's Axiom Fails in Chatbot Arena",
+    "track": "",
+    "updated": "2026-10-13",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19095v1"
+   },
+   "2610.19362": {
+    "abs_url": "https://arxiv.org/abs/2610.19362",
+    "authors": [
+     "Taro Yano",
+     "Yoichi Ishibashi",
+     "Masafumi Oyamada"
+    ],
+    "code_url": "",
+    "comment": "Accepted at NeurIPS 2026",
+    "first_seen": "2026-10-15",
+    "id": "2610.19362",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19362v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "accepted",
+    "summary": "Best-of-N sampling is a simple inference-time scaling strategy for large language models, yet its behavior under incomplete reward models remains poorly understood. We study Best-of-N as a competition between the extreme reward tails of correct and incorrect responses. This view shows that success depends not only on the probability of sampling a correct response, but also on whether correct responses dominate incorrect ones in the upper tail. Using extreme value theory, we characterize three asymptotic regimes: correct-tail-dominant, incorrect-tail-dominant, and critical explaining both monotonic gains and reward-hacking-induced degradation. We further derive finite-sample scaling laws for representative reward distributions, showing that, under Gaussian rewards, incorrect responses with sufficiently large variance can dominate selection even when their mean reward is lower. Unlike oracle selection, convergence with an incomplete selector can be polynomial rather than exponential. Finally, we propose a lightweight tail-tension criterion to estimate when additional sampling may become harmful. Experiments on synthetic data and real reward model scores are consistent with the theoretically predicted regimes, scaling laws, and diagnostic behavior, suggesting that tail competition provides a unified lens on Best-of-N sampling for verifiable problems.",
+    "tier": "top",
+    "title": "Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems",
+    "track": "main",
+    "updated": "2026-10-14",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted at NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.19362v1"
+   },
+   "2610.19372": {
+    "abs_url": "https://arxiv.org/abs/2610.19372",
+    "authors": [
+     "Min-Young Yu"
+    ],
+    "code_url": "",
+    "comment": "16 pages, 3 figures, 13 tables. Companion paper: arXiv:2610.11030",
+    "first_seen": "2026-10-15",
+    "id": "2610.19372",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19372v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Runtime policy verifiers can prevent agents from executing disallowed actions, but their decisions are typically used only for enforcement and discarded afterward. We ask whether these decisions can instead become verifiable policy rewards for training the agents they guard. We introduce Policy-Verified Self-Training (PVST), a post-training paradigm in which an agent generates its own interaction trajectories and an executable policy verifier, here a deterministic gate compiled from a written policy, evaluates whether each action complies. Compliant trajectories are reinforced, and violations become negatives for preference optimization; beyond the gate and the benchmark's task-success signal, PVST needs no stronger teacher model, no human preference labels and no attack-specific supervision, although rollouts are collected in the benchmark's attacked environment. On held-out AgentDojo tasks under prompt injection, policy-verified preference training of Qwen3-8B reduces violating trajectories from 37.2% to 10.3 $\\pm$ 0.9% (three seeds) and successful attacks from 12.4% to 0.5% at equal or higher pooled task utility, although utility falls on travel, compared with 22.0% when negatives are selected by an attack oracle and 31.9 $\\pm$ 0.9% with negatives that contain no violation. The learned behavior holds under an attack template never used in training (37.7% to 11.0%) and on a suite excluded from training (34.8% to 16.7%), and the retained verifier's intervention rate falls from 39.2% to 8.8% (seed 0). Our analysis identifies two conditions under which the verdict is most informative: success must not already imply compliance, and guarded actions must appear in both permitted and forbidden contexts.",
+    "tier": "none",
+    "title": "Policy-Verified Self-Training: Learning Agent Compliance from Verifiable Policy Rewards",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19372v1"
+   },
+   "2610.19376": {
+    "abs_url": "https://arxiv.org/abs/2610.19376",
+    "authors": [
+     "Tianle Chen",
+     "Pushkar Singh",
+     "Ketan Todi",
+     "Biswajit Paria",
+     "Qijia He",
+     "Wenqi Wang",
+     "Yuwen Tan",
+     "Jike Zhong",
+     "Sugato Basu",
+     "Deepti Ghadiyaram",
+     "Arjun Akula"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19376",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19376v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Language-model agents that run long tasks often redo work they have already done: they re-issue a tool call they made earlier and get back exactly the same observation, a step that adds no new information. We identify this failure as a loop. Loops appear natively in Qwen, Llama, and Gemini agents and become far more common once the agent's history is compressed to fit its context window. To reduce these loops, we propose DeLoop, a self-supervised training method. DeLoop builds on a simple observation: the agent's own rollout can provide the supervision needed to learn from its loops. We use a looping action as a negative example and the first later non-looping action in the same rollout as a positive example. DeLoop learns from these pairs through direct preference optimization and does not require task rewards, gold answers, or LLM judges. On CodeGym under compression, DeLoop reduces the share of Qwen3-8B tasks containing loops from 57.3% to 6.1%. It also uses about one third as many steps per task, with similar task success. On Qwen3-32B, DeLoop reduces loops and steps while raising task success from 37.7% to 44.8%.",
+    "tier": "none",
+    "title": "DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19376v1"
+   },
+   "2610.19391": {
+    "abs_url": "https://arxiv.org/abs/2610.19391",
+    "authors": [
+     "Ilya O. Ryzhov"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19391",
+    "journal_ref": "",
+    "matched": [
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19391v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "We study continuous global optimization problems in which the objective function cannot be directly evaluated; rather, we observe only which of two selected design points appears to perform better, subject to noise. Such comparisons complicate the use of Gaussian process regression because they yield non-Gaussian posteriors. We consider a fully sequential approximation, based on moment-matching, that yields a fast closed-form update of the metamodel's mean and covariance. We then propose DOVE, a fully sequential sampling policy that combines an information gain criterion with randomized sampling designed to control error accumulation. Under fairly standard regularity conditions, we prove convergence rates for both statistical error and expected simple regret that depend on kernel smoothness. To our knowledge, these are the first such rates for fully sequential approximate Bayesian inference in continuous global optimization.",
+    "tier": "none",
+    "title": "Fully sequential Gaussian process regression for preference learning",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19391v1"
+   },
+   "2610.19832": {
+    "abs_url": "https://arxiv.org/abs/2610.19832",
+    "authors": [
+     "Zixiao Wang",
+     "Xingbo Du",
+     "Duzhen Zhang",
+     "Le Song"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 9 figures",
+    "first_seen": "2026-10-15",
+    "id": "2610.19832",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19832v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Reward model overoptimization in RLHF is usually described as reward hacking. We recast it as rent-seeking: the policy, a firm, earns reward from a regulator, the proxy reward model, that true quality does not back. The lens turns overoptimization into measurable quantities, namely rent, a capture index and deadweight loss, and into testable predictions from the economics of regulation. In a fixed, version-controlled testbed with three model families, accuracy-matched proxy reward models and two gold reward models, RL turns 41% to 66% of its proxy gain into rent while gold reward plateaus. Rent follows each regulator's prices. Neither proxy verifies facts, but one pays for confident specifics and the other for displays of diligence, so RL policies learn to fabricate details about nonexistent entities (97% to 100% of probes) or to deflect factual questions (67% to 98%). Kinship between policy and regulator adds a fixed premium of about 0.1 standard deviations but gives the policy no extra leverage under optimization. At a fixed expected fine, frequent mild audits beat rare severe ones, and random audits are as efficient per audit as targeted ones. Bringing the bunching estimator of tax economics to RL training, we also find a first sign that policies learn to stay just below a targeted audit's threshold.",
+    "tier": "none",
+    "title": "Rent-Seeking Language Models: Reward Models Set the Prices, Frequent Audits Curb the Rent",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19832v1"
+   },
+   "2610.20174": {
+    "abs_url": "https://arxiv.org/abs/2610.20174",
+    "authors": [
+     "Qinglin Su",
+     "Licheng Pan",
+     "Zhen Fang",
+     "Jiakang Wang",
+     "Qingnan Ren",
+     "Yunsheng Lu",
+     "Yan Gao",
+     "Zhixuan Chu"
+    ],
+    "code_url": "",
+    "comment": "34 pages, 4 figures; includes references and appendices",
+    "first_seen": "2026-10-15",
+    "id": "2610.20174",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20174v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Reinforcement Learning on Mixed-domain preference data (Mix-RL) has become the mainstream approach for training general-purpose Generative Reward Models (GRMs). However, Mix-RL suffers from two critical bottlenecks: the reward sparsity induced by outcome rewards, and the cross-domain interference arising from jointly optimizing heterogeneous capabilities, which together give rise to imbalanced capability acquisition and pervasive reward hacking. Inspired by the success of On-Policy Distillation (OPD) in multi-domain capability integration, we introduce RM-OPD (Reward Modeling via On-Policy Distillation), a two-stage framework that separates specialist acquisition from capability integration. First, we cultivate domain-specialized teacher models via single-domain GRPO fine-tuning, allowing each expert to reach its performance ceiling in isolation; then we consolidate these teachers into one student model through (i) routed on-policy distillation, which provides dense signed token-level supervision on student-generated critiques; (ii) domain contribution reweighting, which reweights token guidance toward target domain shares, preventing specific domains from dominating optimization; and (iii) optional criteria context distillation, which conditions teachers on domain-specific evaluation criteria to sharpen token-level supervision. Across multiple RM benchmarks and two base models, RM-OPD consistently outperforms vanilla Mix-RL and other strong baselines, achieving overall superior performance and exhibiting an emergent \"teacher-surpassing\" effect. These results establish RM-OPD as a promising paradigm for building generalist GRMs.",
+    "tier": "none",
+    "title": "RM-OPD: On-Policy Distillation for Generative Reward Models",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20174v1"
+   },
+   "2610.20350": {
+    "abs_url": "https://arxiv.org/abs/2610.20350",
+    "authors": [
+     "Ren Zhuang",
+     "Ben Wang",
+     "Shuifa Sun"
+    ],
+    "code_url": "https://github.com/Venomrko/lspo",
+    "comment": "Accepted at NeurIPS 2026. Originally titled \"Self-Correction as Transition Geometry: Internalizing Reasoning via Lifted State Policy Optimization.\"",
+    "first_seen": "2026-10-15",
+    "id": "2610.20350",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20350v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-14",
+    "status": "accepted",
+    "summary": "Preference optimization ranks final answers and trajectory RL maximizes aggregate returns, yet neither credits the local change that turns a flawed reasoning state into a better one. We introduce Lifted State Policy Optimization (LSPO), which establishes this finite, cost-adjusted transition as the primary unit of learning. Each textual answer is augmented with a learned continuous coordinate, forming a lifted state that an energy function evaluates and orders. A shaped reward drives energy descent net of edit and step costs, and an internalization loss absorbs selected low-energy answers into the direct generator. On Qwen3.5-27B, the resulting single-pass policy reaches 71.8% aggregate accuracy across mathematics, science, code, and logic benchmarks, matching test-time reflection at 71.9% with 28% lower latency and 25.8% fewer tokens. The pattern holds across dense and mixture-of-experts backbones, and matched controls confirm that transition credit and the lifted coordinate each contribute, as does answer internalization. Our code is available at https://github.com/Venomrko/lspo.",
+    "tier": "top",
+    "title": "Lifted State Policy Optimization: Internalizing Self-Correction through Transition Geometry",
+    "track": "main",
+    "updated": "2026-10-14",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted at NeurIPS 2026. Originally titled \"Self-Correction as Transition Geometry: Internalizing Reasoning via Lifted State Policy Optimization.\"",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.20350v1"
+   },
+   "2610.20450": {
+    "abs_url": "https://arxiv.org/abs/2610.20450",
+    "authors": [
+     "Manoj Saravanan",
+     "Rohit Kumar Salla",
+     "Shrikar Reddy Kota"
+    ],
+    "code_url": "",
+    "comment": "53 pages. Best Paper Award at the 2nd Workshop on Epistemic Intelligence in Machine Learning (EIML), ICML 2026",
+    "first_seen": "2026-10-15",
+    "id": "2610.20450",
+    "journal_ref": "",
+    "matched": [
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20450v1",
+    "primary_category": "cs.GT",
+    "published": "2026-10-14",
+    "status": "accepted",
+    "summary": "Pairwise comparison data are a standard supervision signal in preference learning, but disagreement in such data can reflect stable latent heterogeneity, ephemeral stochasticity, or non-binary responses hidden by a forced-choice interface. We study which of these semantic distinctions are identifiable from the feedback channel itself. We introduce a nonparametric latent semantic model with three querywise quantities: aggregate directional preference $μ_q$, persistent disagreement $τ_q$, and non-binary mass $α_q$. Under the anonymous binary channel, we prove an exact semantic fiber theorem: $μ_q$ is point-identified, whereas $(τ_q, α_q)$ vary over an explicit feasible region compatible with the same binary law. Same-annotator repeats identify $τ_q$ through a covariance identity, abstention-enabled feedback identifies $α_q$ directly, and together they point-identify the full semantic triple. We also derive finite-sample estimators, nonasymptotic concentration bounds, and semantics-aware action-recovery guarantees, and validate the theory on theorem-matched synthetic data.",
+    "tier": "workshop",
+    "title": "What Does Disagreement Mean? A Semantic Identifiability Frontier for Pairwise Preference Learning",
+    "track": "workshop",
+    "updated": "2026-10-14",
+    "venue": "ICML",
+    "venue_evidence": "53 pages. Best Paper Award at the 2nd Workshop on Epistemic Intelligence in Machine Learning (EIML), ICML 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.20450v1"
+   },
+   "2610.20483": {
+    "abs_url": "https://arxiv.org/abs/2610.20483",
+    "authors": [
+     "Weixin Wang",
+     "Wei Deng",
+     "Anderson Schneider",
+     "Yuriy Nevmyvaka",
+     "Pan Xu",
+     "Andrew Bennett"
+    ],
+    "code_url": "",
+    "comment": "17 pages, 3 figures, 6 tables",
+    "first_seen": "2026-10-15",
+    "id": "2610.20483",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20483v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "We study how to improve LLM reasoning at inference time without updating model weights or using external reward models. Recent reward-free power-sampling methods define the sequence-level power target $π_α(y\\mid x)\\propto p_0(y\\mid x)^α$, where $α>1$, which increases the relative probability of completions that are already likely under the base model. Existing methods use Metropolis--Hastings or Sequential Monte Carlo (SMC) to approximately sample from this target. However, two challenges arise at different levels. At the target level, full-sequence sharpening can concentrate probability on a few exact reasoning--answer trajectories, suppressing alternative paths that support the same answer. At the sampler level, finite-particle SMC can suffer from path collapse when resampling repeatedly duplicates a few high-weight prefixes. To address these challenges, we propose Decoupled Marginal Sharpening (DMS), which separately controls how strongly the model favors particular reasoning paths and how strongly it favors final answers after aggregating support across those paths. At the target level, DMS first samples from a sharpened reasoning distribution, then marginalizes the model's answer probabilities over the resulting weighted reasoning population and sharpens the induced answer marginal. Separate exponents allow mild reasoning sharpening to encourage exploration of diverse paths, followed by stronger answer-marginal sharpening to concentrate probability on answers with greater aggregate support across those paths. At the sampler level, we develop Fully Adapted Annealed SMC, which combines an annealed sequence of power targets with locally fully adapted proposals and predictive ancestor resampling. Experiments on MATH500, GPQA-Diamond, HumanEval, and AIME24/25 across three base models show that DMS achieves the highest mean pass@1 among the compared methods in all tasks.",
+    "tier": "none",
+    "title": "Decoupled Marginal Sharpening for Training-Free Inference-Time Scaling",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20483v1"
    }
   },
   "Search & Control for Generation": {
@@ -64771,6 +65428,100 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.16491v1"
+   },
+   "2610.19362": {
+    "abs_url": "https://arxiv.org/abs/2610.19362",
+    "authors": [
+     "Taro Yano",
+     "Yoichi Ishibashi",
+     "Masafumi Oyamada"
+    ],
+    "code_url": "",
+    "comment": "Accepted at NeurIPS 2026",
+    "first_seen": "2026-10-15",
+    "id": "2610.19362",
+    "journal_ref": "",
+    "matched": [
+     "inference-time scaling"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19362v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "accepted",
+    "summary": "Best-of-N sampling is a simple inference-time scaling strategy for large language models, yet its behavior under incomplete reward models remains poorly understood. We study Best-of-N as a competition between the extreme reward tails of correct and incorrect responses. This view shows that success depends not only on the probability of sampling a correct response, but also on whether correct responses dominate incorrect ones in the upper tail. Using extreme value theory, we characterize three asymptotic regimes: correct-tail-dominant, incorrect-tail-dominant, and critical explaining both monotonic gains and reward-hacking-induced degradation. We further derive finite-sample scaling laws for representative reward distributions, showing that, under Gaussian rewards, incorrect responses with sufficiently large variance can dominate selection even when their mean reward is lower. Unlike oracle selection, convergence with an incomplete selector can be polynomial rather than exponential. Finally, we propose a lightweight tail-tension criterion to estimate when additional sampling may become harmful. Experiments on synthetic data and real reward model scores are consistent with the theoretically predicted regimes, scaling laws, and diagnostic behavior, suggesting that tail competition provides a unified lens on Best-of-N sampling for verifiable problems.",
+    "tier": "top",
+    "title": "Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems",
+    "track": "main",
+    "updated": "2026-10-14",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted at NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.19362v1"
+   },
+   "2610.19951": {
+    "abs_url": "https://arxiv.org/abs/2610.19951",
+    "authors": [
+     "Jia Tong",
+     "Senyou Deng",
+     "Min Peng",
+     "Jianfeng Pan"
+    ],
+    "code_url": "",
+    "comment": "15 pages, 5 figures, 5 tables",
+    "first_seen": "2026-10-15",
+    "id": "2610.19951",
+    "journal_ref": "",
+    "matched": [
+     "tree search"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19951v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Agent skills adapt frozen models through editable external instructions. Revising several rules at once makes changes difficult to inspect, while judging each local edit only by its immediate score can discard useful intermediate states. We introduce AtomSearch, which keeps revision actions local while using subsequent skill states to guide search. Contrastive atomic editing links each primitive rule edit to failed and successful executions, a behavioral hypothesis, and an intended scope. Skill-State Tree Search (STS) evaluates short edit compositions and selectively retains them as executable states that can be revisited and extended. Outcome memory supplies later proposals with observed repair and regression statistics. We evaluate AtomSearch across four tasks and five target models. With deepseek-v4-flash, it exceeds SkillOpt on three of four tasks, including a 9.68-percentage-point gain on LiveMathematicianBench, and SkillOpt's final skills contain 2.3-19.7 times as many characters. In 67% of completed searches, the best validation state passes through an ancestor that was not highest-scoring at its depth. These results show how local rule edits can support the exploration of useful revision paths and yield compact skills, with additional offline evaluations used to explore alternative states.",
+    "tier": "none",
+    "title": "AtomSearch: Evidence-Grounded Tree Search for Agent Skill Optimization",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19951v1"
+   },
+   "2610.20483": {
+    "abs_url": "https://arxiv.org/abs/2610.20483",
+    "authors": [
+     "Weixin Wang",
+     "Wei Deng",
+     "Anderson Schneider",
+     "Yuriy Nevmyvaka",
+     "Pan Xu",
+     "Andrew Bennett"
+    ],
+    "code_url": "",
+    "comment": "17 pages, 3 figures, 6 tables",
+    "first_seen": "2026-10-15",
+    "id": "2610.20483",
+    "journal_ref": "",
+    "matched": [
+     "inference-time scaling"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20483v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "We study how to improve LLM reasoning at inference time without updating model weights or using external reward models. Recent reward-free power-sampling methods define the sequence-level power target $π_α(y\\mid x)\\propto p_0(y\\mid x)^α$, where $α>1$, which increases the relative probability of completions that are already likely under the base model. Existing methods use Metropolis--Hastings or Sequential Monte Carlo (SMC) to approximately sample from this target. However, two challenges arise at different levels. At the target level, full-sequence sharpening can concentrate probability on a few exact reasoning--answer trajectories, suppressing alternative paths that support the same answer. At the sampler level, finite-particle SMC can suffer from path collapse when resampling repeatedly duplicates a few high-weight prefixes. To address these challenges, we propose Decoupled Marginal Sharpening (DMS), which separately controls how strongly the model favors particular reasoning paths and how strongly it favors final answers after aggregating support across those paths. At the target level, DMS first samples from a sharpened reasoning distribution, then marginalizes the model's answer probabilities over the resulting weighted reasoning population and sharpens the induced answer marginal. Separate exponents allow mild reasoning sharpening to encourage exploration of diverse paths, followed by stronger answer-marginal sharpening to concentrate probability on answers with greater aggregate support across those paths. At the sampler level, we develop Fully Adapted Annealed SMC, which combines an annealed sequence of power targets with locally fully adapted proposals and predictive ancestor resampling. Experiments on MATH500, GPQA-Diamond, HumanEval, and AIME24/25 across three base models show that DMS achieves the highest mean pass@1 among the compared methods in all tasks.",
+    "tier": "none",
+    "title": "Decoupled Marginal Sharpening for Training-Free Inference-Time Scaling",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20483v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -76215,6 +76966,77 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.17663v1"
+   },
+   "2610.19424": {
+    "abs_url": "https://arxiv.org/abs/2610.19424",
+    "authors": [
+     "Zihao Lin",
+     "Haoyu Dong",
+     "Haobo Xu",
+     "Chi-Chih Chang",
+     "Xuying Ning",
+     "Yinglong Xia",
+     "Shuang Yang",
+     "Zhuokai Zhao",
+     "Xinying Song",
+     "Dongfang Liu",
+     "Lifu Huang",
+     "Yang Song",
+     "Qifan Wang"
+    ],
+    "code_url": "",
+    "comment": "50 pages, 15 figures",
+    "first_seen": "2026-10-15",
+    "id": "2610.19424",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19424v1",
+    "primary_category": "cs.CV",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "LLM system capabilities depend not only on model parameters but also on the executable harnesses that organize information acquisition, tool use, reasoning, and memory. Recursive harness evolution can automate their design, but how it can reliably discover generalizable systems from limited, noisy, and repeatedly reused feedback remains unclear. We study this question in agentic video understanding, where rich multimodal evidence and coupled mechanisms make harness optimization challenging. We first introduce VideoHarness-BRSI, a recursive self-improvement framework that evolves video harnesses around a frozen vision-language model. Analyzing over 4,000 evolved candidates, we find it competitive with hand-engineered systems but identify three interconnected failure modes: validation overfitting, search-budget dilution, and the early-experience trap. We trace all three to a common root: the same imperfect validation evidence drives both harness revisions and the proposer's search strategy. We therefore propose VideoHarness-SRSI, an evidence-governed framework in which every search decision rests on evidence that is transferable, sufficient, and gathered before the search commits. It restricts the proposer to content-free feedback, informs exploration with instrumented warm-up experiments, and develops mechanisms in isolated probe-race branches before factorial composition and joint refinement. Across four video understanding benchmarks, VideoHarness-SRSI improves the equally weighted mean held-out score by 6.2% relative to VideoHarness-BRSI and reduces the mean validation-test gap by 37.9%. Reliable harness evolution thus depends on how search is organized and informed, not only on how well it optimizes validation performance.",
+    "tier": "none",
+    "title": "VideoHarness-SRSI: Structured Recursive Self-Improvement for Video Understanding Harness",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19424v1"
+   },
+   "2610.20350": {
+    "abs_url": "https://arxiv.org/abs/2610.20350",
+    "authors": [
+     "Ren Zhuang",
+     "Ben Wang",
+     "Shuifa Sun"
+    ],
+    "code_url": "https://github.com/Venomrko/lspo",
+    "comment": "Accepted at NeurIPS 2026. Originally titled \"Self-Correction as Transition Geometry: Internalizing Reasoning via Lifted State Policy Optimization.\"",
+    "first_seen": "2026-10-15",
+    "id": "2610.20350",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20350v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-14",
+    "status": "accepted",
+    "summary": "Preference optimization ranks final answers and trajectory RL maximizes aggregate returns, yet neither credits the local change that turns a flawed reasoning state into a better one. We introduce Lifted State Policy Optimization (LSPO), which establishes this finite, cost-adjusted transition as the primary unit of learning. Each textual answer is augmented with a learned continuous coordinate, forming a lifted state that an energy function evaluates and orders. A shaped reward drives energy descent net of edit and step costs, and an internalization loss absorbs selected low-energy answers into the direct generator. On Qwen3.5-27B, the resulting single-pass policy reaches 71.8% aggregate accuracy across mathematics, science, code, and logic benchmarks, matching test-time reflection at 71.9% with 28% lower latency and 25.8% fewer tokens. The pattern holds across dense and mixture-of-experts backbones, and matched controls confirm that transition credit and the lifted coordinate each contribute, as does answer internalization. Our code is available at https://github.com/Venomrko/lspo.",
+    "tier": "top",
+    "title": "Lifted State Policy Optimization: Internalizing Self-Correction through Transition Geometry",
+    "track": "main",
+    "updated": "2026-10-14",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted at NeurIPS 2026. Originally titled \"Self-Correction as Transition Geometry: Internalizing Reasoning via Lifted State Policy Optimization.\"",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.20350v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -85173,6 +85995,70 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.18442v1"
+   },
+   "2610.19659": {
+    "abs_url": "https://arxiv.org/abs/2610.19659",
+    "authors": [
+     "Yilin Jiang",
+     "Fei Tan",
+     "Xuanyu Yin",
+     "Guanchu Wang",
+     "Xia Hu",
+     "Yutao Yue"
+    ],
+    "code_url": "",
+    "comment": "17 pages, 4 figures, 12 tables",
+    "first_seen": "2026-10-15",
+    "id": "2610.19659",
+    "journal_ref": "",
+    "matched": [
+     "faithfulness"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19659v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "People delegate multi-step work to LLM agents and read only the reply that the agent hands back. Current evaluation scores task completion and the faithfulness of reports, and it leaves open whether the requester can understand and use the reply. We call this property reply usability and measure it with a reader model that takes the requester's position and tests whether the reply can be interpreted from what the requester has seen, is in the requester's language and answers the request. Its agreement with the majority of five annotators lies within the range of the individual annotators. Across eight models from seven families, 54% of 480 replies fail, and the best model still fails on 30%. Failed replies mostly point to material the requester has not seen or use labels that the agent coined during its work. Stating explicit requirements for the reply reduces the failure rate from 0.52 to 0.43 together with errors and omissions, and a secondary model that rewrites the reply reduces it to 0.36, which human annotators confirm in a blind comparison. Reply usability can thus be scored alongside task success and improved with one appended message or one call to a secondary model.",
+    "tier": "none",
+    "title": "Measuring and Reducing Unusable Replies of LLM Agents",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19659v1"
+   },
+   "2610.20365": {
+    "abs_url": "https://arxiv.org/abs/2610.20365",
+    "authors": [
+     "Chih-Han Lin",
+     "Yu-Yun Chang",
+     "Po-Ya Angela Wang",
+     "Shu-Kai Hsieh"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 6 figures",
+    "first_seen": "2026-10-15",
+    "id": "2610.20365",
+    "journal_ref": "",
+    "matched": [
+     "semantic drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20365v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "AI agent communities sustain lexical persistence, popular terms spread, recur, and achieve broad adoption, but whether they also develop the temporal semantic structure characteristic of human linguistic communities remains open. We compare MoltBook (AI agent community, 8 weeks), PTT (Chinese human BBS, 19 years), and Reddit (English human forum, in matched 8-week windows) using Compass-Aligned Distributional Embeddings (CADE), measuring semantic drift (B1), neighborhood stability (B2), and lag-1 autocorrelation of per-word drift trajectories. Across the platforms, lag-1 autocorrelation forms a memory-horizon continuum. AI agents' result clusters at the low end, while human platforms show longer-range temporal dependence. MoltBook exhibits approximately 2$\\times$ the B1 drift and 20-30% lower B2 stability than both human platforms. As a partial control for community age, r/vibecoding (founded 2025-02-08) shows significant ACF in its first 8 weeks ($0.082$, $p<.001$) and over 15 weeks ($0.220$, $p<.001$); MoltBook's ACF remains non-significant ($p = 0.41$), consistent with the gap not reducing to developmental stage alone. We interpret this pattern as evidence that lexical diffusion alone does not guarantee diachronic semantic consolidation. The findings are consistent with a contrast between communities whose semantic trajectories accumulate long-range interaction constraints and communities whose outputs are repeatedly regenerated from largely fixed pretrained distributions.",
+    "tier": "none",
+    "title": "Lexical Persistence Without Semantic Entrenchment in AI Agent Communities",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20365v1"
    }
   },
   "Synthetic Preference Data": {
@@ -98723,7 +99609,7 @@
     "matched": [
      "preference data"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.34249v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.34249v2",
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
@@ -98733,16 +99619,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "We identify a fundamental mismatch in empathetic reinforcement learning: support priorities evolve with the dialogue state, yet existing methods typically optimize predefined reward specifications that remain fixed across turns. To model these evolving support priorities, we organize empathetic support along cognitive, affective, and proactive empathy, and propose Context-Adaptive Rubric Evolution (CARE). At each turn, CARE generates a context-adaptive rubric by adjusting both the weights of these three empathy dimensions and their fine-grained evaluation criteria. The rubric generator is trained with turn-level rubric supervision and human preference data through supervised fine-tuning followed by preference-based reinforcement learning, and then serves as an adaptive reward interface for online empathetic RL. Integrated with both RLVER and MICA, CARE achieves state-of-the-art performance across SentientBench, EQBench3, and EMPA under three independent LLM judges. Notably, on EMPA, CARE improves EPM-Idx over the strongest baseline by at least 13 points under all three judges, including an increase from 28.11 to 83.54 under Gemini-2.5-Pro. Further analyses show that learned rubric priorities systematically vary across dialogue stages and user emotions, demonstrating that CARE adapts what is rewarded as support needs evolve.",
+    "summary": "We identify a fundamental mismatch in empathetic reinforcement learning: support priorities evolve with the dialogue state, yet existing methods typically optimize predefined reward specifications that remain fixed across turns. To model these evolving support priorities, we organize empathetic support along cognitive, affective, and proactive empathy, and propose Context-Adaptive Rubric Evolution (CARE). At each turn, CARE generates a context-adaptive rubric by adjusting both the weights of these three empathy dimensions and their fine-grained evaluation criteria. The rubric generator is trained with turn-level rubric supervision and human preference data through supervised fine-tuning followed by preference-based reinforcement learning, and then serves as an adaptive reward interface for online empathetic RL. Integrated with both RLVER and MICA, CARE achieves state-of-the-art performance across SentientBench, EQBench3, and EMPA under three independent LLM judges. Notably, on EMPA, CARE improves EPM-Idx over the strongest baseline by at least 13 points under all three judges, including an increase from 28.11 to 83.54 under Gemini-2.5-Pro. Further analyses show that learned rubric priorities systematically vary across dialogue stages and user emotions, demonstrating that CARE adapts what is rewarded as support needs evolve. Code is available at https://asa13opp.github.io/CARE-project-page.",
     "tier": "none",
     "title": "Evolving Support Priorities in Empathetic Reinforcement Learning",
     "track": "",
-    "updated": "2026-09-28",
+    "updated": "2026-10-14",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.34249v1"
+    "version": "2609.34249v2"
    },
    "2609.34374": {
     "abs_url": "https://arxiv.org/abs/2609.34374",
@@ -100043,6 +100929,76 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.18609v1"
+   },
+   "2610.19728": {
+    "abs_url": "https://arxiv.org/abs/2610.19728",
+    "authors": [
+     "Zhixin Cai",
+     "Ruoqi Yuan",
+     "Xinchen Yang",
+     "Zhuofan Chen",
+     "Jun Bai",
+     "Chuantao Yin",
+     "Wenge Rong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19728",
+    "journal_ref": "",
+    "matched": [
+     "contrastive negative",
+     "perturbation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19728v1",
+    "primary_category": "cs.CV",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Video large language models (Video LLMs) often generate responses unsupported by the input video. Contrastive decoding (CD) can mitigate these hallucinations, but its effectiveness depends on how the negative branch weakens visual evidence. Existing methods rely on predefined perturbations or masking guided by question reconstruction, offering limited control over the model's visual reliance during answer generation. We introduce Attention-guided Representation Perturbation for Contrastive Decoding (ARP-CD), a training-free framework for constructing contrastive negatives directly in representation space. ARP-CD uses the attention mass assigned to visual tokens at the answer-prediction position to guide bounded gradient updates of the language model's input visual hidden states. These updates reduce visual attention and produce a negative input, whose predictions are contrasted with those of the original branch throughout generation. Experiments across four Video LLMs and four benchmarks show that ARP-CD outperforms representative training-free baselines in most model--benchmark settings, reducing hallucinations while improving general video understanding. Further analyses show that attention-guided perturbation directions improve negative quality and that the resulting negatives provide effective contrastive references for correcting the original predictions.",
+    "tier": "none",
+    "title": "Mitigating Video Hallucinations via Attention-Guided Representation Perturbation",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19728v1"
+   },
+   "2610.20174": {
+    "abs_url": "https://arxiv.org/abs/2610.20174",
+    "authors": [
+     "Qinglin Su",
+     "Licheng Pan",
+     "Zhen Fang",
+     "Jiakang Wang",
+     "Qingnan Ren",
+     "Yunsheng Lu",
+     "Yan Gao",
+     "Zhixuan Chu"
+    ],
+    "code_url": "",
+    "comment": "34 pages, 4 figures; includes references and appendices",
+    "first_seen": "2026-10-15",
+    "id": "2610.20174",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20174v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Reinforcement Learning on Mixed-domain preference data (Mix-RL) has become the mainstream approach for training general-purpose Generative Reward Models (GRMs). However, Mix-RL suffers from two critical bottlenecks: the reward sparsity induced by outcome rewards, and the cross-domain interference arising from jointly optimizing heterogeneous capabilities, which together give rise to imbalanced capability acquisition and pervasive reward hacking. Inspired by the success of On-Policy Distillation (OPD) in multi-domain capability integration, we introduce RM-OPD (Reward Modeling via On-Policy Distillation), a two-stage framework that separates specialist acquisition from capability integration. First, we cultivate domain-specialized teacher models via single-domain GRPO fine-tuning, allowing each expert to reach its performance ceiling in isolation; then we consolidate these teachers into one student model through (i) routed on-policy distillation, which provides dense signed token-level supervision on student-generated critiques; (ii) domain contribution reweighting, which reweights token guidance toward target domain shares, preventing specific domains from dominating optimization; and (iii) optional criteria context distillation, which conditions teachers on domain-specific evaluation criteria to sharpen token-level supervision. Across multiple RM benchmarks and two base models, RM-OPD consistently outperforms vanilla Mix-RL and other strong baselines, achieving overall superior performance and exhibiting an emergent \"teacher-surpassing\" effect. These results establish RM-OPD as a promising paradigm for building generalist GRMs.",
+    "tier": "none",
+    "title": "RM-OPD: On-Policy Distillation for Generative Reward Models",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20174v1"
    }
   },
   "Text Quality Evaluation": {
@@ -121764,7 +122720,7 @@
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.12064v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.12064v2",
     "primary_category": "cs.CL",
     "published": "2026-10-08",
     "s2": {
@@ -121778,12 +122734,12 @@
     "tier": "none",
     "title": "ILM: An AI-Powered Storytelling Educational Tool",
     "track": "",
-    "updated": "2026-10-08",
+    "updated": "2026-10-14",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.12064v1"
+    "version": "2610.12064v2"
    },
    "2610.12083": {
     "abs_url": "https://arxiv.org/abs/2610.12083",
@@ -122377,14 +123333,14 @@
      "Xiaoxuan Jia"
     ],
     "code_url": "",
-    "comment": "24 pages, 6 figures",
+    "comment": "23 pages, 6 figures",
     "first_seen": "2026-10-14",
     "id": "2610.18088",
     "journal_ref": "",
     "matched": [
      "rubric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.18088v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18088v2",
     "primary_category": "cs.AI",
     "published": "2026-10-13",
     "s2": {
@@ -122398,12 +123354,12 @@
     "tier": "none",
     "title": "ResearchFlow-Eval: Tracing the Execution Gap in End-to-End Multi-Claim Autoresearch",
     "track": "",
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.18088v1"
+    "version": "2610.18088v2"
    },
    "2610.18108": {
     "abs_url": "https://arxiv.org/abs/2610.18108",
@@ -122524,6 +123480,235 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.18389v1"
+   },
+   "2610.18933": {
+    "abs_url": "https://arxiv.org/abs/2610.18933",
+    "authors": [
+     "Robert Tjarko Lange",
+     "Luca Grillotti",
+     "Yutaro Yamada",
+     "Rujikorn Charakorn",
+     "David Ha"
+    ],
+    "code_url": "",
+    "comment": "88 pages",
+    "first_seen": "2026-10-15",
+    "id": "2610.18933",
+    "journal_ref": "",
+    "matched": [
+     "rubric",
+     "evaluation metric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.18933v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-13",
+    "status": "unknown",
+    "summary": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons. Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics. To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents. Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing. Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification. The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage. This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics. Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation. Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026. We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research. Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
+    "tier": "none",
+    "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
+    "track": "",
+    "updated": "2026-10-13",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.18933v1"
+   },
+   "2610.19003": {
+    "abs_url": "https://arxiv.org/abs/2610.19003",
+    "authors": [
+     "Khan Mahi Al Atahar",
+     "Nazifa Tasneem",
+     "Ajwad Abrar"
+    ],
+    "code_url": "",
+    "comment": "Accepted in MCT4SD 2026 (Manila, Philippines)",
+    "first_seen": "2026-10-15",
+    "id": "2610.19003",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19003v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-13",
+    "status": "unknown",
+    "summary": "Abstractive summarization remains challenging across languages, where linguistic quality and factual consistency may diverge, particularly in low-resource settings. We present a standardized zero-shot benchmark of eight closed-source and open-weight LLMs on size-matched English and Bengali XL-Sum test sets. Our evaluation combines lexical and semantic metrics with reference-free factuality verification and multidimensional LLM-as-a-Judge assessment, providing a comprehensive analysis of both surface-level quality and factual reliability in multilingual summarization. Results reveal substantial cross-lingual variation: GPT-5.6 Luna leads several English lexical metrics but does not maintain the same advantage in Bengali, where LLaMA 3.3 70B achieves the highest ROUGE and BLEU scores. Gemini 2.5 Flash obtains the highest observed Bengali factuality score. Furthermore, evaluation methods produce different model rankings, highlighting the limitations of relying on a single metric for multilingual summarization assessment. These findings demonstrate that strong English summarization performance does not necessarily transfer to Bengali and emphasize the need for comprehensive evaluation frameworks for low-resource languages.",
+    "tier": "none",
+    "title": "Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali",
+    "track": "",
+    "updated": "2026-10-13",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19003v1"
+   },
+   "2610.19287": {
+    "abs_url": "https://arxiv.org/abs/2610.19287",
+    "authors": [
+     "Yi Gui"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19287",
+    "journal_ref": "",
+    "matched": [
+     "automated essay scoring",
+     "essay scoring"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19287v1",
+    "primary_category": "cs.CY",
+    "published": "2026-10-13",
+    "status": "unknown",
+    "summary": "Compute cost in automated essay scoring (AES) is usually treated as a technical efficiency issue rather than a measurement design concern. Yet deployment decisions require more than reporting latency, model size, or inference expense. In high-stakes settings, total burden includes validation, monitoring, adjudication, compliance, and governance; in instructional settings, pricing, licensing, and integration may dominate cost. This paper reframes AES as a cost-constrained measurement system and introduces the Cost-Aware Measurement Design (CAMD) Framework, a four-layer structure consisting of metering, allocation, unit economics, and decision, for translating computational and workflow resource records into decision-relevant cost constructs. Direct cost is specified as monetary outlay plus attributable labor and time, and two criteria, design attribution and auditability, determine what the cost boundary excludes. Burdens that satisfy neither criterion, such as institutional capability and governance posture, are represented as constraints on which designs are admissible rather than priced. The paper defines cost per defensible score (CPDS) and argues that AES systems should be compared by quality-cost sufficiency: minimizing cost among defensible scoring designs that satisfy measurement requirements. Scoring volume conditions all four layers, so cost per defensible score is treated as a function of scale rather than as a single transferable number. CAMD provides a portable basis for representing, comparing, and evaluating cost across AES studies and deployment contexts.",
+    "tier": "none",
+    "title": "From Efficiency to Sufficiency: The Cost-Aware Measurement Design Framework for Automated Essay Scoring",
+    "track": "",
+    "updated": "2026-10-13",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19287v1"
+   },
+   "2610.19380": {
+    "abs_url": "https://arxiv.org/abs/2610.19380",
+    "authors": [
+     "Li Wang",
+     "Chen Zhang",
+     "Yirong Yang",
+     "Xingyu Chen",
+     "Jinkun Zhao",
+     "Tianhao Peng",
+     "Wenjun Wu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19380",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19380v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "User feedback enables LLMs to refine reusable personalized skills, but often mixes persistent preferences with request-specific corrections. Indiscriminately retaining both risks negative transfer, motivating selective retention at the level of individual requirements. We frame this challenge as selective transfer over atomic rules and propose SkillGrain, a framework for learning reusable personalized skills from user feedback. SkillGrain decomposes feedback into independently actionable rules, predicts their transferability, and retains only those suitable for future requests. To learn these decisions, we combine rubric-guided skill rewards with fine-grained credit assignment that separately evaluates rule content and retention decisions. We further jointly optimize skill induction and skill-conditioned generation through reinforcement learning, ensuring that learned skills support downstream personalization. We construct a benchmark spanning five personalized writing tasks to evaluate cross-request generalization. Experiments across three base models in both in-domain and out-of-domain settings show that SkillGrain achieves the best overall average performance among competing methods.",
+    "tier": "none",
+    "title": "Learning What to Keep: Transfer-Aware Personal Skill Learning from User Feedback",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19380v1"
+   },
+   "2610.19679": {
+    "abs_url": "https://arxiv.org/abs/2610.19679",
+    "authors": [
+     "Yan Xu",
+     "Dandan Song",
+     "Luan Zhang",
+     "Jun Yang",
+     "Ke Duan",
+     "Yuhang Tian",
+     "Yading Li",
+     "Xudong Li",
+     "Xing Pei",
+     "Guangyuan Feng",
+     "Chenhao Li"
+    ],
+    "code_url": "",
+    "comment": "26 pages",
+    "first_seen": "2026-10-15",
+    "id": "2610.19679",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19679v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Large Language Model (LLM)-based agents have demonstrated remarkable capabilities in completing complex tasks through multi-step reasoning and tool interactions. However, recent studies have revealed that LLM-based agents can exhibit unfaithful behaviors, where their final reports fail to faithfully reflect their actual execution trajectories. Specifically, when agents fail to accomplish tasks through the intended sources or procedures, they may resort to alternative sources or strategies while failing to disclose such deviations, leading users to incorrectly believe that the tasks have been completed according to the original requirements. We refer to this specific form of agent unfaithfulness as Agent Completion Unfaithfulness. Detecting and mitigating agent completion unfaithfulness is critical yet remains largely unexplored. In this work, we propose MCAIR, a runtime monitoring and correction framework that leverages internal representations of LLM-based agents. MCAIR uses multi-step internal representations as inputs to train a risk-aware probe, enabling online detection of potential completion unfaithfulness during execution. Furthermore, MCAIR introduces a risk-guided correction loop that prompts agents to review their execution history and mitigate potential inconsistencies between their execution trajectories and final reports. Additionally, we construct ACUD, a dataset for Agent Completion Unfaithfulness detection that provides step-level execution traces, step-level internal representations, and consistency annotations for training and evaluating runtime detection probes. Experiments demonstrate that MCAIR outperforms LLM-as-a-judge baselines, generalizes across prompts and tasks, and effectively reduces agent completion unfaithfulness.",
+    "tier": "none",
+    "title": "MCAIR: Monitoring and Correcting Agent Unfaithfulness via Internal Representations",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19679v1"
+   },
+   "2610.19915": {
+    "abs_url": "https://arxiv.org/abs/2610.19915",
+    "authors": [
+     "Haocheng Yang",
+     "Licheng Pan",
+     "Yiming Dong",
+     "Xiaoxi Li",
+     "Yuan Lu",
+     "Zhenhao Chen",
+     "Jiajun Fan",
+     "Shuai Shao",
+     "Chunyuan Zheng",
+     "Hao Wang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19915",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19915v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Rubric-based evaluation assesses the responses of large language models (LLMs) by aggregating the verification results of explicit criteria, yet not all criteria matter equally. However, existing methods commonly aggregate the verification results with uniform weighting, which assigns minor and overlapping criteria the same weight as essential ones and thus produces misleading evaluation scores. Although some methods prompt an LLM to directly assign weights, direct weighting requires a holistic judgment over all criteria that LLMs struggle to make reliably. To address these limitations, we propose Importance-Aware Criteria Weighting (ICW), which derives the weights of criteria from pairwise importance comparisons made by an LLM. Specifically, ICW transforms the holistic judgment over all criteria into a series of pairwise importance comparisons, checks and revises inconsistent comparisons, and derives the weights from the principal eigenvector of the comparison matrix. Extensive experiments demonstrate that ICW consistently outperforms uniform weighting and competitive weighting methods, and translates into better policy models in downstream reinforcement learning.",
+    "tier": "none",
+    "title": "Not All Criteria Matter: Importance-Aware Criteria Weighting for Rubric-Based LLM Evaluation",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19915v1"
+   },
+   "2610.19992": {
+    "abs_url": "https://arxiv.org/abs/2610.19992",
+    "authors": [
+     "Sebastian Nagl"
+    ],
+    "code_url": "",
+    "comment": "preprint",
+    "first_seen": "2026-10-15",
+    "id": "2610.19992",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19992v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Law students are examined through open-text answers: case solutions, essays and memos that apply the law to a set of facts. Such answers are expensive to grade, human graders disagree widely on them, and large language models (LLMs) now offer to grade them at scale, both in teaching and in the benchmarks that test legal AI. This paper systematizes how open-text legal answers can be evaluated. We derive eight desiderata from educational measurement and from the law that governs exams, among them validity, reliability, reasons, credit for defensible alternative solutions, robustness to gaming and human oversight. We then compare eight evaluation paradigms against them, from unstructured human grading to LLM judges with instance-specific rubrics and pairwise comparison. Three findings stand out. A rubric written for the task is the strongest lever for agreement between an LLM judge and human graders, but the reported figures answer different questions and rarely come with the human agreement they must be read against. The central validation gap lies where examination law is most demanding: defensible alternative solutions, follow-on errors, and the examiner's correction of model judgments. And rubric-centred grading is the most auditable family, because it makes the standard, its application and the final decision checkable. From this we derive the trustworthy rubric judge: an instance rubric that credits arguments and alternative paths,evidence checked in code, probes, repeated runs, calibration against independent human grades,logging, and an examiner who reads every script. We state what each safeguard rests on, what remains to be tested, and the uses the evidence supports today.",
+    "tier": "none",
+    "title": "SoK: Grading Open-Text Legal Answers, from Law School Exams to Trustworthy Rubric Judges",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19992v1"
    }
   },
   "Writing Agent": {
@@ -137234,14 +138419,15 @@
      "Mark Lee"
     ],
     "code_url": "",
-    "comment": "Submit to EMNLP 2026",
+    "comment": "Submit to NAACL 2027",
     "first_seen": "2026-08-19",
     "id": "2605.20364",
     "journal_ref": "",
     "matched": [
-     "creative writing"
+     "creative writing",
+     "report generation"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2605.20364v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.20364v2",
     "primary_category": "cs.CL",
     "published": "2026-05-19",
     "s2": {
@@ -137254,16 +138440,16 @@
      "year": 2026
     },
     "status": "accepted",
-    "summary": "Automatic evaluation of long-form literary writing remains challenging, as generic LLM-as-Judge approaches may not fully capture creativity-related dimensions such as originality and flexibility. Although the Torrance Test of Creative Writing (TTCW) provides a structured creativity framework, and prior work has demonstrated reference-based TTCW evaluation at the pairwise level, no large-scale dataset exists for long-form TTCW-based literary review generation. We address this gap by constructing a dataset of 263,911 long-form stories, each annotated with scalar scores and meta-synthesised review comments across 14 TTCW-based dimensions. Using this dataset, we fine-tune Qwen3 models at two scales, 4B and 8B, under two conditions: with and without reasoning content. Results show that non-reasoning fine-tuning achieves stronger and more stable performance, with the best setting reaching an evaluation score of 0.6820. Further analysis shows that reasoning-supervised models are more prone to parse failures, often continuing with irrelevant or repetitive reasoning-style text rather than completing the required 14-metric review report. These results suggest that, for fixed-format rubric-based review generation, reasoning supervision is not straightforwardly beneficial, and precise metric-aligned scoring remains challenging even after task-specific fine-tuning.",
+    "summary": "Automatic evaluation of long-form literary writing remains challenging, particularly for creativity-related dimensions such as originality and flexibility. We address the lack of large-scale supervision for structured Torrance Test of Creative Writing (TTCW)-based evaluation by constructing a dataset of 263{,}911 long-form stories, each paired with scalar scores and meta-synthesised review comments across 14 TTCW-based dimensions. Using this dataset, we study whether reviewer-style reasoning traces improve structured literary review generation across Qwen3-4B, Qwen3-8B, and Nemotron-8B. Across all three models, no-trace supervision yields higher score imitation fidelity and near-complete report generation, whereas trace supervision reduces completion to $85.9$--$90.9\\%$. Failure analysis shows that $88.6\\%$ of failed reasoning generations contain semantic repetition loops inside the trace. These loops concentrate in particular story--criterion interactions and progressively harden after onset, while comparable repetition is rare in the supervision data. Our results suggest that, for long-form tasks requiring strictly structured outputs, explicit reasoning traces can introduce generation instability that outweighs their overall benefit.",
     "tier": "top",
     "title": "When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation",
     "track": "main",
-    "updated": "2026-05-19",
-    "venue": "EMNLP",
-    "venue_evidence": "Submit to EMNLP 2026",
+    "updated": "2026-10-14",
+    "venue": "NAACL",
+    "venue_evidence": "Submit to NAACL 2027",
     "venue_source": "comment",
-    "venue_year": "2026",
-    "version": "2605.20364v1"
+    "venue_year": "2027",
+    "version": "2605.20364v2"
    },
    "2605.23535": {
     "abs_url": "https://arxiv.org/abs/2605.23535",
@@ -142392,6 +143578,69 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.12327v1"
+   },
+   "2610.19767": {
+    "abs_url": "https://arxiv.org/abs/2610.19767",
+    "authors": [
+     "Hasan Amin",
+     "Zhuoran Lu",
+     "Ming Yin"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-15",
+    "id": "2610.19767",
+    "journal_ref": "",
+    "matched": [
+     "AI-assisted writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.19767v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "AI-text detection generally asks whether a machine wrote a text. As AI becomes an increasingly integral and accepted part of writing, the more relevant question is no longer whether AI was used, but how much of the text reflects human contribution. A prominent line of work estimates this by measuring how predictive a person's prompt is of the final text. We show that this measure can be easily manipulated. We introduce SPECIFICITY PADDING that simply asks the model to copy a few random IDs from the prompt, and that alone makes a title-only request look more human than one that supplies the article's key ideas. A context-swap audit then holds each document fixed, and only shows or hides the IDs to the evaluator. The score of the unchanged text swings by a third to half of its scale, and it rises for every document we test, on news and scientific abstracts, across varied LLMs from 3.8B to 753B parameters. The same articles can average 85\\% human or 15\\% human depending only on which prompt is on record, and even with no prompt at all, the output-only variant rewards the random strings themselves. An exact identity, the credit ledger, explains why. The score is a surprisal-weighted average over the text, so rare strings that the context makes copyable collect the credit, whatever they mean. A two-point bound marks a deeper limit. If the prompt could have been machine-written, every transcript-only method must, in the worst case, miss by half the contribution at stake. Likelihood-based scores alone cannot reliably establish human contribution without evidence of what the person added and how the text was produced.",
+    "tier": "none",
+    "title": "Likelihood Is Not Authorship: Can We Reliably Measure Human Contribution in AI-Assisted Writing?",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.19767v1"
+   },
+   "2610.20272": {
+    "abs_url": "https://arxiv.org/abs/2610.20272",
+    "authors": [
+     "Zewen Jiang",
+     "Yahan Li",
+     "Chenlu Guo",
+     "Diana Inkpen",
+     "Yuan Wu",
+     "Yi Chang"
+    ],
+    "code_url": "https://github.com/TPSJASPER/CSWBench",
+    "comment": "38 pages, 19 figures, 32 tables. Artifacts: https://github.com/TPSJASPER/CSWBench",
+    "first_seen": "2026-10-15",
+    "id": "2610.20272",
+    "journal_ref": "",
+    "matched": [
+     "creative writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.20272v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-14",
+    "status": "unknown",
+    "summary": "Large language models (LLMs) have demonstrated multilingual capabilities across diverse language generation and understanding tasks. Yet effective code-switching requires more than multilingual proficiency: models must decide when, where, and why to switch languages in ways that fit the surrounding context. This context-sensitive ability remains insufficiently evaluated. We introduce CSWBench, a benchmark for evaluating context-sensitive code-switching in creative writing through two complementary settings: Focused Narrative and Extended Narrative. We further propose CSWEval, a theory-informed framework with two complementary levels: event-level evaluation of Licensing, Contextual Appropriateness, and Functional Gain, and whole-text evaluation of task-specific quality---overall literary and narrative quality in Focused Narrative and quality emphasizing multilingual organization in Extended Narrative. Evaluating twelve LLMs, we find that models exhibit meaningful but uneven code-switching competence across narrative contexts. Model differences are particularly pronounced in multilingual literary integration, while multilingual-focused dimensions show stronger difficulty effects overall than the general narrative dimensions; narratively salient switches are associated with stronger contextual and functional realization; and event-level CS quality is moderately associated with whole-text performance.",
+    "tier": "none",
+    "title": "CSWBench: Evaluating Context-Sensitive Code-Switching in Creative Writing",
+    "track": "",
+    "updated": "2026-10-14",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.20272v1"
    }
   }
  }
