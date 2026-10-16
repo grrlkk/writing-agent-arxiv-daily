@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-15** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-16** (UTC).
 Back to the [main page](../README.md).
 
-872 of 3269 papers carry venue evidence.
+875 of 3291 papers carry venue evidence.
 
-## Top-tier venues (575)
+## Top-tier venues (577)
 
 ### EMNLP (150)
 
@@ -416,12 +416,14 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
-### NeurIPS (57)
+### NeurIPS (59)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-10-14**|Lifted State Policy Optimization: Internalizing Self-Correction through Transition Geometry|NeurIPS 2026|Reward & Value Models, Self-Refine & Self-Correction|[2610.20350](https://arxiv.org/abs/2610.20350)|
+|**2026-10-15**|LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation|NeurIPS 2026|Reward & Value Models|[2610.22372](https://arxiv.org/abs/2610.22372)|
+|**2026-10-15**|Progress Reward Model for Reinforcement Learning via Large Language Models|NeurIPS 2025|Reward & Value Models|[2610.22056](https://arxiv.org/abs/2610.22056)|
 |**2026-10-14**|Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems|NeurIPS 2026|Reward & Value Models, Search & Control for Generation|[2610.19362](https://arxiv.org/abs/2610.19362)|
+|**2026-10-14**|Lifted State Policy Optimization: Internalizing Self-Correction through Transition Geometry|NeurIPS 2026|Reward & Value Models, Self-Refine & Self-Correction|[2610.20350](https://arxiv.org/abs/2610.20350)|
 |**2026-10-12**|The Value of Being Wrong: Self-Mined Visual In-Context Learning from Errors|NeurIPS 2026|Synthetic Preference Data|[2610.16977](https://arxiv.org/abs/2610.16977)|
 |**2026-10-11**|SpecForge: Recursive Self-Improvement for Coding Agents via Behavioral Specifications|NeurIPS 2026|Multilingual & Cross-Lingual Agents|[2610.15708](https://arxiv.org/abs/2610.15708)|
 |**2026-10-08**|Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching|NeurIPS 2026|Iterative Revision & Text Editing|[2610.12421](https://arxiv.org/abs/2610.12421)|
@@ -913,12 +915,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (123)
+## Workshops (124)
 
-### NeurIPS (35)
+### NeurIPS (36)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-15**|Language Is a Security Surface for Agent Guards|NeurIPS 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.22244](https://arxiv.org/abs/2610.22244)|
 |**2026-10-14**|ixi-sLM: On-Device sLM for AI Call Agent Service|NeurIPS 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.19382](https://arxiv.org/abs/2610.19382)|
 |**2026-10-09**|CoBe: A Benchmark For Conversational Counterfactual Text Editing|NeurIPS 2026 (workshop)|Iterative Revision & Text Editing|[2610.13057](https://arxiv.org/abs/2610.13057)|
 |**2026-10-08**|Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents|NeurIPS 2026 (workshop)|Reward & Value Models, Text Quality Evaluation, Writing Agent|[2610.11464](https://arxiv.org/abs/2610.11464)|

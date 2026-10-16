@@ -2,15 +2,16 @@
 
 > The primary axis: LLM agents that write and revise across multiple turns rather than generating once. Z1 in the FEAK-TC introduction.
 
-491 papers, newest first. Generated on **2026-10-15** (UTC).
+492 papers, newest first. Generated on **2026-10-16** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (208)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
+Browse by year: [2026 (209)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-15**|<details><summary>Beyond Downstream QA: Rethinking How We Evaluate Agent Memory</summary><br>Agent memory benchmarks evaluate whether an agent's responses reflect correct knowledge, measuring downstream question-answering accuracy as a proxy for memory quality. We show this evaluation paradigm is incomplete: it conflates memory correctness with retrieval and generation quality, producing both false positives where correct responses mask broken memory and false negatives where incorrect responses blame correct memory for retrieval failures. We introduce FEB-30, a benchmark of 30 fact-evo...</details>|-|Sebastian-Antonio Toma et al.|[2610.22209](https://arxiv.org/abs/2610.22209)|**[link](https://github.com/amazon-science/feb-30-benchmark)**|
 |**2026-10-14**|<details><summary>CSWBench: Evaluating Context-Sensitive Code-Switching in Creative Writing</summary><br>Large language models (LLMs) have demonstrated multilingual capabilities across diverse language generation and understanding tasks. Yet effective code-switching requires more than multilingual proficiency: models must decide when, where, and why to switch languages in ways that fit the surrounding context. This context-sensitive ability remains insufficiently evaluated. We introduce CSWBench, a benchmark for evaluating context-sensitive code-switching in creative writing through two complementa...</details>|-|Zewen Jiang et al.|[2610.20272](https://arxiv.org/abs/2610.20272)|**[link](https://github.com/TPSJASPER/CSWBench)**|
 |**2026-10-14**|<details><summary>Likelihood Is Not Authorship: Can We Reliably Measure Human Contribution in AI-Assisted Writing?</summary><br>AI-text detection generally asks whether a machine wrote a text. As AI becomes an increasingly integral and accepted part of writing, the more relevant question is no longer whether AI was used, but how much of the text reflects human contribution. A prominent line of work estimates this by measuring how predictive a person's prompt is of the final text. We show that this measure can be easily manipulated. We introduce SPECIFICITY PADDING that simply asks the model to copy a few random IDs from...</details>|-|Hasan Amin et al.|[2610.19767](https://arxiv.org/abs/2610.19767)|null|
 |**2026-10-08**|<details><summary>SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference</summary><br>The memory-bound nature of the decoding stage of large language model (LLM) inference incurs significant latency. Layer-wise training-free network pruning approaches guided by the Hessian have been a prominent solution to this problem, as pruning reduces the number of nonzero parameters read from memory during decoding. Nevertheless, typical methods in this line compute the Hessian using pre-collected natural sequences, whereas the model is fed self-generated tokens during decoding, creating a d...</details>|-|Qitong Wang et al.|[2610.12327](https://arxiv.org/abs/2610.12327)|null|

@@ -2,15 +2,16 @@
 
 > Whether a model can improve its own draft with no external signal — the baseline the TVM has to beat (RQ4).
 
-282 papers, newest first. Generated on **2026-10-15** (UTC).
+283 papers, newest first. Generated on **2026-10-16** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (152)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
+Browse by year: [2026 (153)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-15**|<details><summary>Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine</summary><br>Converting verifier outcomes into useful policy updates and partial progress into complete task resolution is crucial for terminal agents. We present Terminal-RSI, which alternates Recursive Self-Rewrite (RSR) of verified trajectories with critic-inheriting Recursive Policy-Refine (RPR). We formulate Turn-Boundary Skip-Observation GAE (TB-GAE) to retain token-specific baselines while applying decay across interaction turns. Family Dense Reward (FDR) calibrates semantic progress across task famil...</details>|-|Junyao Yang et al.|[2610.22192](https://arxiv.org/abs/2610.22192)|null|
 |**2026-10-14**|<details><summary>Lifted State Policy Optimization: Internalizing Self-Correction through Transition Geometry</summary><br>Preference optimization ranks final answers and trajectory RL maximizes aggregate returns, yet neither credits the local change that turns a flawed reasoning state into a better one. We introduce Lifted State Policy Optimization (LSPO), which establishes this finite, cost-adjusted transition as the primary unit of learning. Each textual answer is augmented with a learned continuous coordinate, forming a lifted state that an energy function evaluates and orders. A shaped reward drives energy desc...</details>|NeurIPS 2026|Ren Zhuang et al.|[2610.20350](https://arxiv.org/abs/2610.20350)|**[link](https://github.com/Venomrko/lspo)**|
 |**2026-10-14**|<details><summary>VideoHarness-SRSI: Structured Recursive Self-Improvement for Video Understanding Harness</summary><br>LLM system capabilities depend not only on model parameters but also on the executable harnesses that organize information acquisition, tool use, reasoning, and memory. Recursive harness evolution can automate their design, but how it can reliably discover generalizable systems from limited, noisy, and repeatedly reused feedback remains unclear. We study this question in agentic video understanding, where rich multimodal evidence and coupled mechanisms make harness optimization challenging. We f...</details>|-|Zihao Lin et al.|[2610.19424](https://arxiv.org/abs/2610.19424)|null|
 |**2026-10-13**|<details><summary>The Image Still Has a Say: Final-Answer Repair for Multimodal Chain-of-Thought</summary><br>Although chain-of-thought prompting has improved multimodal reasoning, it is still difficult to produce correct final answers, as the reasoning can drift away from the image. Besides, the trace is already fixed when the answer is generated, leaving no room for self-correction. Considering the image is still available at the final-answer step, we think it is reasonable to fix the answer there without rewriting the reasoning. As such, the problem becomes to correct the final answer using the image...</details>|-|Yulan Pan et al.|[2610.17663](https://arxiv.org/abs/2610.17663)|null|

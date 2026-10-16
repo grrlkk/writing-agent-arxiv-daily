@@ -2,15 +2,16 @@
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-229 papers, newest first. Generated on **2026-10-15** (UTC).
+230 papers, newest first. Generated on **2026-10-16** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (117)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
+Browse by year: [2026 (118)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-15**|<details><summary>Learning to Steer LLM Agents and Multi-Agent Systems</summary><br>Large language model (LLM)-based agents and multi-agent systems increasingly tackle complex tasks through long-horizon tool use and inter-agent collaboration. However, these systems are prone to deviating from the overall goal as execution unfolds, which wastes execution resources and leads to undesired outcomes, a failure termed goal drift. In this work, we propose a steering agent that supervises execution on the fly and steers the system back on track when drift occurs. The steering agent obs...</details>|-|Leyang Shen et al.|[2610.22316](https://arxiv.org/abs/2610.22316)|null|
 |**2026-10-14**|<details><summary>Lexical Persistence Without Semantic Entrenchment in AI Agent Communities</summary><br>AI agent communities sustain lexical persistence, popular terms spread, recur, and achieve broad adoption, but whether they also develop the temporal semantic structure characteristic of human linguistic communities remains open. We compare MoltBook (AI agent community, 8 weeks), PTT (Chinese human BBS, 19 years), and Reddit (English human forum, in matched 8-week windows) using Compass-Aligned Distributional Embeddings (CADE), measuring semantic drift (B1), neighborhood stability (B2), and lag-...</details>|-|Chih-Han Lin et al.|[2610.20365](https://arxiv.org/abs/2610.20365)|null|
 |**2026-10-14**|<details><summary>Measuring and Reducing Unusable Replies of LLM Agents</summary><br>People delegate multi-step work to LLM agents and read only the reply that the agent hands back. Current evaluation scores task completion and the faithfulness of reports, and it leaves open whether the requester can understand and use the reply. We call this property reply usability and measure it with a reader model that takes the requester's position and tests whether the reply can be interpreted from what the requester has seen, is in the requester's language and answers the request. Its agr...</details>|-|Yilin Jiang et al.|[2610.19659](https://arxiv.org/abs/2610.19659)|null|
 |**2026-10-13**|<details><summary>Copying Is Not Grounding: Training Faithful Long-Form RAG with Authored-Sentence Credit</summary><br>In search engines and assistants, long-form RAG answers can mislead readers with claims their sources do not support. Faithfulness rewards, the share of supported sentences, train models toward fewer such claims. We show that these rewards are hacked by copying. A sentence copied from the passages is supported almost by construction, so trained models learn to copy rather than ground what they write. Common defenses only move the hack: a KL or copy penalty leaves copying in place or trades it fo...</details>|-|Hoang Pham et al.|[2610.18442](https://arxiv.org/abs/2610.18442)|null|
