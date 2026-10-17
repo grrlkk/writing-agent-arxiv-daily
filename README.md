@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-10-16** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-10-17** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -22,33 +22,6 @@ papers using the year links under each topic; the preview shows the newest 20.
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (230)
 - [Search & Control for Generation](#search--control-for-generation) (225)
 - [Korean Writing & NLP](#korean-writing--nlp) (70)
-
-## New in this update (24)
-
-- `Multilingual & Cross-Lingual Agents` [Language Is a Security Surface for Agent Guards](https://arxiv.org/abs/2610.22244)
-- `Multilingual & Cross-Lingual Agents` [Priming Base Models for Agentic Post-Training: An Open Midtraining Recipe](https://arxiv.org/abs/2610.22019)
-- `Multilingual & Cross-Lingual Agents` [ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing](https://arxiv.org/abs/2610.21502)
-- `Multilingual & Cross-Lingual Agents` [OPRD: On-Policy Reminder Distillation for Long-Horizon Coding Agents](https://arxiv.org/abs/2610.21496)
-- `Writing Agent` [Beyond Downstream QA: Rethinking How We Evaluate Agent Memory](https://arxiv.org/abs/2610.22209)
-- `Iterative Revision & Text Editing` [VDE Bench: Evaluating The Capability of Image Editing Models to Modify Visual Documents](https://arxiv.org/abs/2602.00122)
-- `Self-Refine & Self-Correction` [Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine](https://arxiv.org/abs/2610.22192)
-- `Reward & Value Models` [LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation](https://arxiv.org/abs/2610.22372)
-- `Reward & Value Models` [Asking Smarter Questions: Targeted Active Preference Learning for Underspecified Rewards](https://arxiv.org/abs/2610.22285)
-- `Reward & Value Models` [Not X, but When: Diagnosing a Mandarin LLM Writing Tic through Contextual Appropriateness](https://arxiv.org/abs/2610.22249)
-- `Reward & Value Models` [Progress Reward Model for Reinforcement Learning via Large Language Models](https://arxiv.org/abs/2610.22056)
-- `Reward & Value Models` [The Self-Improvement Problem](https://arxiv.org/abs/2610.21646)
-- `Reward & Value Models` [Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation](https://arxiv.org/abs/2610.21456)
-- `Reward & Value Models` [Multi-Reward Hacking: From Aggregation-Induced Drift to Trust-Anchored Defense](https://arxiv.org/abs/2610.21404)
-- `Reward & Value Models` [ARGUS: An Agenda-Driven Framework for Reliable User Simulation](https://arxiv.org/abs/2610.21346)
-- `Reward & Value Models` [All-in-One Memory: Process-Rewarded Reinforcement Learning for Memory Agents](https://arxiv.org/abs/2610.21147)
-- `Reward & Value Models` [CleanRM: Reward Modeling from Noisy Feedback with a Few Clean Feedback for RLHF](https://arxiv.org/abs/2610.21138)
-- `Reward & Value Models` [Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine](https://arxiv.org/abs/2610.22192)
-- `Reward & Value Models` [HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding](https://arxiv.org/abs/2610.21436)
-- `Reward & Value Models` [L2G-SR: Learning to Guide LLM-based Symbolic Regression](https://arxiv.org/abs/2610.20685)
-- `Synthetic Preference Data` [CleanRM: Reward Modeling from Noisy Feedback with a Few Clean Feedback for RLHF](https://arxiv.org/abs/2610.21138)
-- `Text Quality Evaluation` [MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support](https://arxiv.org/abs/2610.22314)
-- `Semantic Drift & Faithfulness` [Learning to Steer LLM Agents and Multi-Agent Systems](https://arxiv.org/abs/2610.22316)
-- `Korean Writing & NLP` [KBS: A Korean Benchmark Suite for Foundation Model Evaluation](https://arxiv.org/abs/2610.21227)
 
 ## Multilingual & Cross-Lingual Agents
 

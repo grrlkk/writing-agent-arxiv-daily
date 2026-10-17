@@ -9,7 +9,7 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-16** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-17** (UTC).
 Back to the [main page](../README.md).
 
 875 of 3291 papers carry venue evidence.
@@ -420,8 +420,8 @@ Back to the [main page](../README.md).
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-10-15**|LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation|NeurIPS 2026|Reward & Value Models|[2610.22372](https://arxiv.org/abs/2610.22372)|
 |**2026-10-15**|Progress Reward Model for Reinforcement Learning via Large Language Models|NeurIPS 2025|Reward & Value Models|[2610.22056](https://arxiv.org/abs/2610.22056)|
+|**2026-10-15**|LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation|NeurIPS 2026|Reward & Value Models|[2610.22372](https://arxiv.org/abs/2610.22372)|
 |**2026-10-14**|Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems|NeurIPS 2026|Reward & Value Models, Search & Control for Generation|[2610.19362](https://arxiv.org/abs/2610.19362)|
 |**2026-10-14**|Lifted State Policy Optimization: Internalizing Self-Correction through Transition Geometry|NeurIPS 2026|Reward & Value Models, Self-Refine & Self-Correction|[2610.20350](https://arxiv.org/abs/2610.20350)|
 |**2026-10-12**|The Value of Being Wrong: Self-Mined Visual In-Context Learning from Errors|NeurIPS 2026|Synthetic Preference Data|[2610.16977](https://arxiv.org/abs/2610.16977)|

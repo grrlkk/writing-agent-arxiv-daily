@@ -12,7 +12,7 @@
    "Text Quality Evaluation": 566,
    "Writing Agent": 492
   },
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "venue_tiers": {
    "demo": 8,
    "findings": 89,
@@ -6154,7 +6154,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -48734,7 +48734,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -48772,7 +48772,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -48812,7 +48812,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -48848,7 +48848,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -48885,7 +48885,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -86207,7 +86207,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99872,7 +99872,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -119093,7 +119093,7 @@
     "primary_category": "cs.HC",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -119792,7 +119792,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-09-16",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -119830,7 +119830,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-09-16",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -119867,7 +119867,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-09-16",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -119906,7 +119906,7 @@
     "primary_category": "cs.MA",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-09-16",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -119940,7 +119940,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -119977,7 +119977,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120014,7 +120014,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120053,7 +120053,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-16",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -124600,6 +124600,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.18933v1",
     "primary_category": "cs.AI",
     "published": "2026-10-13",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons. Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics. To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents. Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing. Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification. The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage. This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics. Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation. Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026. We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research. Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
     "tier": "none",
@@ -124630,6 +124636,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.19003v1",
     "primary_category": "cs.CL",
     "published": "2026-10-13",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Abstractive summarization remains challenging across languages, where linguistic quality and factual consistency may diverge, particularly in low-resource settings. We present a standardized zero-shot benchmark of eight closed-source and open-weight LLMs on size-matched English and Bengali XL-Sum test sets. Our evaluation combines lexical and semantic metrics with reference-free factuality verification and multidimensional LLM-as-a-Judge assessment, providing a comprehensive analysis of both surface-level quality and factual reliability in multilingual summarization. Results reveal substantial cross-lingual variation: GPT-5.6 Luna leads several English lexical metrics but does not maintain the same advantage in Bengali, where LLaMA 3.3 70B achieves the highest ROUGE and BLEU scores. Gemini 2.5 Flash obtains the highest observed Bengali factuality score. Furthermore, evaluation methods produce different model rankings, highlighting the limitations of relying on a single metric for multilingual summarization assessment. These findings demonstrate that strong English summarization performance does not necessarily transfer to Bengali and emphasize the need for comprehensive evaluation frameworks for low-resource languages.",
     "tier": "none",
@@ -124659,6 +124671,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.19287v1",
     "primary_category": "cs.CY",
     "published": "2026-10-13",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Compute cost in automated essay scoring (AES) is usually treated as a technical efficiency issue rather than a measurement design concern. Yet deployment decisions require more than reporting latency, model size, or inference expense. In high-stakes settings, total burden includes validation, monitoring, adjudication, compliance, and governance; in instructional settings, pricing, licensing, and integration may dominate cost. This paper reframes AES as a cost-constrained measurement system and introduces the Cost-Aware Measurement Design (CAMD) Framework, a four-layer structure consisting of metering, allocation, unit economics, and decision, for translating computational and workflow resource records into decision-relevant cost constructs. Direct cost is specified as monetary outlay plus attributable labor and time, and two criteria, design attribution and auditability, determine what the cost boundary excludes. Burdens that satisfy neither criterion, such as institutional capability and governance posture, are represented as constraints on which designs are admissible rather than priced. The paper defines cost per defensible score (CPDS) and argues that AES systems should be compared by quality-cost sufficiency: minimizing cost among defensible scoring designs that satisfy measurement requirements. Scoring volume conditions all four layers, so cost per defensible score is treated as a function of scale rather than as a single transferable number. CAMD provides a portable basis for representing, comparing, and evaluating cost across AES studies and deployment contexts.",
     "tier": "none",
@@ -124693,6 +124711,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.19380v1",
     "primary_category": "cs.CL",
     "published": "2026-10-14",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "User feedback enables LLMs to refine reusable personalized skills, but often mixes persistent preferences with request-specific corrections. Indiscriminately retaining both risks negative transfer, motivating selective retention at the level of individual requirements. We frame this challenge as selective transfer over atomic rules and propose SkillGrain, a framework for learning reusable personalized skills from user feedback. SkillGrain decomposes feedback into independently actionable rules, predicts their transferability, and retains only those suitable for future requests. To learn these decisions, we combine rubric-guided skill rewards with fine-grained credit assignment that separately evaluates rule content and retention decisions. We further jointly optimize skill induction and skill-conditioned generation through reinforcement learning, ensuring that learned skills support downstream personalization. We construct a benchmark spanning five personalized writing tasks to evaluate cross-request generalization. Experiments across three base models in both in-domain and out-of-domain settings show that SkillGrain achieves the best overall average performance among competing methods.",
     "tier": "none",
@@ -124731,6 +124755,14 @@
     "pdf_url": "https://arxiv.org/pdf/2610.19679v1",
     "primary_category": "cs.AI",
     "published": "2026-10-14",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Large Language Model (LLM)-based agents have demonstrated remarkable capabilities in completing complex tasks through multi-step reasoning and tool interactions. However, recent studies have revealed that LLM-based agents can exhibit unfaithful behaviors, where their final reports fail to faithfully reflect their actual execution trajectories. Specifically, when agents fail to accomplish tasks through the intended sources or procedures, they may resort to alternative sources or strategies while failing to disclose such deviations, leading users to incorrectly believe that the tasks have been completed according to the original requirements. We refer to this specific form of agent unfaithfulness as Agent Completion Unfaithfulness. Detecting and mitigating agent completion unfaithfulness is critical yet remains largely unexplored. In this work, we propose MCAIR, a runtime monitoring and correction framework that leverages internal representations of LLM-based agents. MCAIR uses multi-step internal representations as inputs to train a risk-aware probe, enabling online detection of potential completion unfaithfulness during execution. Furthermore, MCAIR introduces a risk-guided correction loop that prompts agents to review their execution history and mitigate potential inconsistencies between their execution trajectories and final reports. Additionally, we construct ACUD, a dataset for Agent Completion Unfaithfulness detection that provides step-level execution traces, step-level internal representations, and consistency annotations for training and evaluating runtime detection probes. Experiments demonstrate that MCAIR outperforms LLM-as-a-judge baselines, generalizes across prompts and tasks, and effectively reduces agent completion unfaithfulness.",
     "tier": "none",
@@ -124768,6 +124800,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.19915v1",
     "primary_category": "cs.CL",
     "published": "2026-10-14",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Rubric-based evaluation assesses the responses of large language models (LLMs) by aggregating the verification results of explicit criteria, yet not all criteria matter equally. However, existing methods commonly aggregate the verification results with uniform weighting, which assigns minor and overlapping criteria the same weight as essential ones and thus produces misleading evaluation scores. Although some methods prompt an LLM to directly assign weights, direct weighting requires a holistic judgment over all criteria that LLMs struggle to make reliably. To address these limitations, we propose Importance-Aware Criteria Weighting (ICW), which derives the weights of criteria from pairwise importance comparisons made by an LLM. Specifically, ICW transforms the holistic judgment over all criteria into a series of pairwise importance comparisons, checks and revises inconsistent comparisons, and derives the weights from the principal eigenvector of the comparison matrix. Extensive experiments demonstrate that ICW consistently outperforms uniform weighting and competitive weighting methods, and translates into better policy models in downstream reinforcement learning.",
     "tier": "none",
@@ -124796,6 +124834,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.19992v1",
     "primary_category": "cs.CL",
     "published": "2026-10-14",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Law students are examined through open-text answers: case solutions, essays and memos that apply the law to a set of facts. Such answers are expensive to grade, human graders disagree widely on them, and large language models (LLMs) now offer to grade them at scale, both in teaching and in the benchmarks that test legal AI. This paper systematizes how open-text legal answers can be evaluated. We derive eight desiderata from educational measurement and from the law that governs exams, among them validity, reliability, reasons, credit for defensible alternative solutions, robustness to gaming and human oversight. We then compare eight evaluation paradigms against them, from unstructured human grading to LLM judges with instance-specific rubrics and pairwise comparison. Three findings stand out. A rubric written for the task is the strongest lever for agreement between an LLM judge and human graders, but the reported figures answer different questions and rarely come with the human agreement they must be read against. The central validation gap lies where examination law is most demanding: defensible alternative solutions, follow-on errors, and the examiner's correction of model judgments. And rubric-centred grading is the most auditable family, because it makes the standard, its application and the final decision checkable. From this we derive the trustworthy rubric judge: an instance rubric that credits arguments and alternative paths,evidence checked in code, probes, repeated runs, calibration against independent human grades,logging, and an examiner who reads every script. We state what each safeguard rests on, what remains to be tested, and the uses the evidence supports today.",
     "tier": "none",
@@ -124833,6 +124877,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.22314v1",
     "primary_category": "cs.CL",
     "published": "2026-10-15",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "With people increasingly turning to AI chatbots for mental health support, the need to evaluate these tools is becoming more pressing. Recent benchmarks attempt to mimic a realistic setting by simulating multi-turn interactions with synthetic patients and evaluating them with an LLM-as-a-judge. However, the usefulness of these methods is limited because simulated patients can be overly forthcoming and self-reflective, and judgments typically involve opaque Likert scales with unclear practical utility. To bridge these gaps, we introduce MindEval2, an evaluation framework that consists of two components: Mental Health Quality Rubrics (MHQR), for evaluation, and MindSim, for patient simulation. For MHQR, we collaborate with PhD-level psychologists to develop a set of rubrics that break down response quality into explicit operational criteria that are more interpretable and actionable than existing evaluation taxonomies. MindSim, in turn, is an LLM harness that combines carefully-designed patient profiles with tools, enabling more varied, challenging, and realistic interactions than existing baselines. The harness also contains a memory component that is updated between each interaction, enabling MindEval2 to model the longitudinal aspect of mental health. We evaluate 18 proprietary and open-weight models on MindEval2, finding that while frontier models have largely improved on issues related to surface level quality and boundaries, guidance calibration remains the dominant failure mode across all models, accounting for most of the quality gap.",
     "tier": "none",
@@ -143622,7 +143672,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-09-15",
+     "checked": "2026-10-17",
      "types": [
       "Review"
      ],
@@ -143661,7 +143711,7 @@
     "primary_category": "cs.CV",
     "published": "2026-09-02",
     "s2": {
-     "checked": "2026-09-15",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143737,7 +143787,7 @@
     "primary_category": "cs.HC",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-09-15",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143774,7 +143824,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-09-15",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143816,7 +143866,7 @@
     "primary_category": "cs.HC",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-09-15",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143856,7 +143906,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-09-15",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143894,7 +143944,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-09-15",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143930,7 +143980,7 @@
     "primary_category": "cs.HC",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-09-17",
+     "checked": "2026-10-17",
      "types": [],
      "venue": "",
      "year": 2026
@@ -144732,6 +144782,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.19767v1",
     "primary_category": "cs.CL",
     "published": "2026-10-14",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "AI-text detection generally asks whether a machine wrote a text. As AI becomes an increasingly integral and accepted part of writing, the more relevant question is no longer whether AI was used, but how much of the text reflects human contribution. A prominent line of work estimates this by measuring how predictive a person's prompt is of the final text. We show that this measure can be easily manipulated. We introduce SPECIFICITY PADDING that simply asks the model to copy a few random IDs from the prompt, and that alone makes a title-only request look more human than one that supplies the article's key ideas. A context-swap audit then holds each document fixed, and only shows or hides the IDs to the evaluator. The score of the unchanged text swings by a third to half of its scale, and it rises for every document we test, on news and scientific abstracts, across varied LLMs from 3.8B to 753B parameters. The same articles can average 85\\% human or 15\\% human depending only on which prompt is on record, and even with no prompt at all, the output-only variant rewards the random strings themselves. An exact identity, the credit ledger, explains why. The score is a surprisal-weighted average over the text, so rare strings that the context makes copyable collect the credit, whatever they mean. A two-point bound marks a deeper limit. If the prompt could have been machine-written, every transcript-only method must, in the worst case, miss by half the contribution at stake. Likelihood-based scores alone cannot reliably establish human contribution without evidence of what the person added and how the text was produced.",
     "tier": "none",
@@ -144765,6 +144821,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.20272v1",
     "primary_category": "cs.CL",
     "published": "2026-10-14",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Large language models (LLMs) have demonstrated multilingual capabilities across diverse language generation and understanding tasks. Yet effective code-switching requires more than multilingual proficiency: models must decide when, where, and why to switch languages in ways that fit the surrounding context. This context-sensitive ability remains insufficiently evaluated. We introduce CSWBench, a benchmark for evaluating context-sensitive code-switching in creative writing through two complementary settings: Focused Narrative and Extended Narrative. We further propose CSWEval, a theory-informed framework with two complementary levels: event-level evaluation of Licensing, Contextual Appropriateness, and Functional Gain, and whole-text evaluation of task-specific quality---overall literary and narrative quality in Focused Narrative and quality emphasizing multilingual organization in Extended Narrative. Evaluating twelve LLMs, we find that models exhibit meaningful but uneven code-switching competence across narrative contexts. Model differences are particularly pronounced in multilingual literary integration, while multilingual-focused dimensions show stronger difficulty effects overall than the general narrative dimensions; narratively salient switches are associated with stronger contextual and functional realization; and event-level CS quality is moderately associated with whole-text performance.",
     "tier": "none",
@@ -144796,6 +144858,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.22209v1",
     "primary_category": "cs.CL",
     "published": "2026-10-15",
+    "s2": {
+     "checked": "2026-10-17",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Agent memory benchmarks evaluate whether an agent's responses reflect correct knowledge, measuring downstream question-answering accuracy as a proxy for memory quality. We show this evaluation paradigm is incomplete: it conflates memory correctness with retrieval and generation quality, producing both false positives where correct responses mask broken memory and false negatives where incorrect responses blame correct memory for retrieval failures. We introduce FEB-30, a benchmark of 30 fact-evolution trajectories spanning 6 diagnostic categories and 3 difficulty levels, constructed via paradigm inversion: documents are generated from known fact trajectories, yielding deterministic ground truth without human annotation. Each trajectory defines how a fact should evolve across multi-author artifacts (documents, emails, conversations), enabling direct inspection of the memory store after each ingestion step. Applying FEB-30 to a representative memory system, we demonstrate that intrinsic and extrinsic evaluation diverge by an average of 16 percentage points, with 44% of trajectories exceeding meaningful divergence thresholds. Diagnostic decomposition reveals that the system correctly classifies memory operations (create, update, reinforce, supersede) only 20% of the time, a failure entirely invisible to extrinsic evaluation, and that failure modes differ systematically by category and difficulty. We release the benchmark, document generation pipeline, and scoring framework to support reproducible evaluation of agent memory systems.",
     "tier": "none",
