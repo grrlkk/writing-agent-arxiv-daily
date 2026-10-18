@@ -12,7 +12,7 @@
    "Text Quality Evaluation": 566,
    "Writing Agent": 492
   },
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "venue_tiers": {
    "demo": 8,
    "findings": 89,
@@ -1977,7 +1977,7 @@
     "primary_category": "cs.CY",
     "published": "2025-05-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -2057,7 +2057,7 @@
     "primary_category": "cs.CL",
     "published": "2025-06-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -2172,7 +2172,7 @@
     "primary_category": "cs.CL",
     "published": "2025-07-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -2209,7 +2209,7 @@
     "primary_category": "cs.LG",
     "published": "2025-07-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -2250,7 +2250,7 @@
     "primary_category": "cs.CY",
     "published": "2025-08-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -2288,7 +2288,7 @@
     "primary_category": "cs.AI",
     "published": "2025-08-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -2607,7 +2607,7 @@
     "primary_category": "cs.CL",
     "published": "2025-11-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -2804,7 +2804,7 @@
     "primary_category": "cs.AI",
     "published": "2025-12-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -2887,7 +2887,7 @@
     "primary_category": "cs.CL",
     "published": "2025-12-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -3137,7 +3137,7 @@
     "primary_category": "cs.CV",
     "published": "2025-12-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -3617,7 +3617,7 @@
     "primary_category": "cs.CL",
     "published": "2026-01-31",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -3736,7 +3736,7 @@
     "primary_category": "cs.CL",
     "published": "2026-02-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -3777,7 +3777,7 @@
     "primary_category": "cs.LG",
     "published": "2026-03-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -3857,7 +3857,7 @@
     "primary_category": "cs.AI",
     "published": "2026-03-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -3944,7 +3944,7 @@
     "primary_category": "cs.CV",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -3983,7 +3983,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4027,7 +4027,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-11",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4070,7 +4070,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4108,7 +4108,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4200,7 +4200,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4239,7 +4239,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -4281,7 +4281,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4324,7 +4324,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4372,7 +4372,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4424,7 +4424,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -4465,7 +4465,7 @@
     "primary_category": "cs.SD",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4545,7 +4545,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4584,7 +4584,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4628,7 +4628,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4664,7 +4664,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4703,7 +4703,7 @@
     "primary_category": "cs.SD",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4745,12 +4745,13 @@
     "primary_category": "cs.AI",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle",
+      "Conference",
       "Review"
      ],
-     "venue": "",
+     "venue": "Coins",
      "year": 2026
     },
     "status": "unknown",
@@ -4787,7 +4788,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4828,7 +4829,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4866,7 +4867,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4904,7 +4905,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -4981,7 +4982,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -5022,7 +5023,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5059,7 +5060,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5093,7 +5094,7 @@
     "primary_category": "cs.HC",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5131,7 +5132,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5172,7 +5173,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5211,7 +5212,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5254,7 +5255,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5293,7 +5294,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5343,7 +5344,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -7968,7 +7969,7 @@
     "primary_category": "cs.CL",
     "published": "2023-06-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8006,7 +8007,7 @@
     "primary_category": "cs.CL",
     "published": "2023-06-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8091,7 +8092,7 @@
     "primary_category": "cs.CL",
     "published": "2023-10-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2023
@@ -8127,7 +8128,7 @@
     "primary_category": "cs.CL",
     "published": "2023-11-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8166,7 +8167,7 @@
     "primary_category": "cs.CL",
     "published": "2023-11-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8212,7 +8213,7 @@
     "primary_category": "cs.CL",
     "published": "2023-11-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8250,7 +8251,7 @@
     "primary_category": "cs.CL",
     "published": "2023-12-19",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8333,7 +8334,7 @@
     "primary_category": "cs.CL",
     "published": "2024-02-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8610,7 +8611,7 @@
     "primary_category": "cs.CL",
     "published": "2024-07-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8661,7 +8662,7 @@
     "primary_category": "cs.CY",
     "published": "2024-06-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8698,7 +8699,7 @@
     "primary_category": "cs.CL",
     "published": "2024-07-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8783,7 +8784,7 @@
     "primary_category": "cs.CL",
     "published": "2024-08-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -8933,7 +8934,7 @@
     "primary_category": "cs.CL",
     "published": "2025-02-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9010,7 +9011,7 @@
     "primary_category": "cs.CL",
     "published": "2025-03-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9093,7 +9094,7 @@
     "primary_category": "cs.CL",
     "published": "2025-05-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9141,7 +9142,7 @@
     "primary_category": "cs.CL",
     "published": "2025-05-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9180,7 +9181,7 @@
     "primary_category": "cs.CL",
     "published": "2025-05-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9458,7 +9459,7 @@
     "primary_category": "cs.CL",
     "published": "2025-09-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9497,7 +9498,7 @@
     "primary_category": "cs.CL",
     "published": "2025-09-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9536,7 +9537,7 @@
     "primary_category": "cs.CL",
     "published": "2025-10-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9580,7 +9581,7 @@
     "primary_category": "cs.CL",
     "published": "2025-10-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9664,7 +9665,7 @@
     "primary_category": "cs.CV",
     "published": "2026-01-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9765,7 +9766,7 @@
     "primary_category": "cs.CL",
     "published": "2026-01-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9802,7 +9803,7 @@
     "primary_category": "cs.CL",
     "published": "2026-01-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [],
      "venue": "",
      "year": 2026
@@ -9840,7 +9841,7 @@
     "primary_category": "cs.CY",
     "published": "2026-02-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -9922,7 +9923,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -10005,7 +10006,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -10085,7 +10086,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -10213,7 +10214,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -10294,7 +10295,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "Review"
      ],
@@ -17940,6 +17941,14 @@
     "pdf_url": "https://arxiv.org/pdf/2510.15558v1",
     "primary_category": "cs.CL",
     "published": "2025-10-17",
+    "s2": {
+     "checked": "2026-10-18",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "",
+     "year": 2025
+    },
     "status": "unknown",
     "summary": "The instruction-following capabilities of large language models (LLMs) are pivotal for numerous applications, from conversational agents to complex reasoning systems. However, current evaluations predominantly focus on English models, neglecting the linguistic and cultural nuances of other languages. Specifically, Korean, with its distinct syntax, rich morphological features, honorific system, and dual numbering systems, lacks a dedicated benchmark for assessing open-ended instruction-following capabilities. To address this gap, we introduce the Korean Instruction-following Task Evaluation (KITE), a comprehensive benchmark designed to evaluate both general and Korean-specific instructions. Unlike existing Korean benchmarks that focus mainly on factual knowledge or multiple-choice testing, KITE directly targets diverse, open-ended instruction-following tasks. Our evaluation pipeline combines automated metrics with human assessments, revealing performance disparities across models and providing deeper insights into their strengths and weaknesses. By publicly releasing the KITE dataset and code, we aim to foster further research on culturally and linguistically inclusive LLM development and inspire similar endeavors for other underrepresented languages.",
     "tier": "none",
@@ -22249,6 +22258,14 @@
     "pdf_url": "https://arxiv.org/pdf/2607.20062v2",
     "primary_category": "cs.CL",
     "published": "2026-07-22",
+    "s2": {
+     "checked": "2026-10-18",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention stack that interleaves one softmax layer among every three linear-attention layers, using no positional encoding and a gated delta rule extended to negative eigenvalues. To train at this scale under a fixed compute budget, we make training efficient in two ways: a stronger starting point, and higher-value data. For the starting point, we initialize Solar Open 2 from Solar Open 1, transferring the 5.69B-parameter shared skeleton that survives the architectural change and learning everything else through full pre-training. For the data, we curate for value per token: quality- and rarity-aware data curation and mixture-ratio optimization refine a 20T pool into a 10T mixture that, at equal token budget, outperforms the Solar Open 1 recipe. To build its agent skills, we train twelve domain specialists across purpose-built scenarios, then consolidate them into a single model by Multi-teacher On-Policy Distillation (MOPD). Against comparably sized open-weight models on English benchmarks, Solar Open 2 leads on MMLU-Pro, LiveCodeBench, and the APEX-Agents agentic suite, and stays competitive with the strongest (DeepSeek-V4-Flash and MiMo-V2.5) elsewhere. On Korean benchmarks, Solar Open 2 records the highest average of any model compared, including fast-tier closed APIs, and on Ko-GDPval, an in-house Korean officework-agent benchmark, it is competitive with DeepSeek-V4-Pro (1.6T) at less than a sixth of its size.",
     "tier": "none",
@@ -38792,7 +38809,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -38830,7 +38847,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -38869,7 +38886,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -38909,7 +38926,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -38949,7 +38966,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -38986,7 +39003,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39024,7 +39041,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39064,7 +39081,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39102,11 +39119,12 @@
     "primary_category": "cs.CY",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
      "year": 2026
     },
     "status": "accepted",
@@ -39116,8 +39134,8 @@
     "track": "main",
     "updated": "2026-07-18",
     "venue": "AAAI",
-    "venue_evidence": "Full version of a to be published paper in proceedings of the 9th AAAI/ACM conference in AI, Ethics and Society (AIES 2026). Includes supplementary material. 20",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2607.16903v1"
    },
@@ -39139,7 +39157,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39224,7 +39242,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39266,7 +39284,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39304,7 +39322,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39347,7 +39365,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39389,7 +39407,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39434,7 +39452,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39470,7 +39488,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39508,7 +39526,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39600,7 +39618,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39639,7 +39657,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39685,7 +39703,7 @@
     "primary_category": "cs.RO",
     "published": "2026-07-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle",
       "Review"
@@ -39727,7 +39745,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39773,7 +39791,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39812,7 +39830,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -39850,7 +39868,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -63015,7 +63033,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -73067,7 +73085,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -73272,7 +73290,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -73672,7 +73690,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -73761,7 +73779,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -96819,7 +96837,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -96857,11 +96875,12 @@
     "primary_category": "cs.CY",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
      "year": 2026
     },
     "status": "accepted",
@@ -96871,8 +96890,8 @@
     "track": "main",
     "updated": "2026-07-18",
     "venue": "AAAI",
-    "venue_evidence": "Full version of a to be published paper in proceedings of the 9th AAAI/ACM conference in AI, Ethics and Society (AIES 2026). Includes supplementary material. 20",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2607.16903v1"
    },
@@ -97005,7 +97024,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -108154,6 +108173,14 @@
     "pdf_url": "https://arxiv.org/pdf/2512.02170v2",
     "primary_category": "cs.AI",
     "published": "2025-12-01",
+    "s2": {
+     "checked": "2026-10-18",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "",
+     "year": 2025
+    },
     "status": "submitted",
     "summary": "Flowcharts are common tools for communicating processes but are often shared as static images that cannot be easily edited or reused. We present Flowchart2Mermaid, a lightweight web system that converts flowchart images into editable Mermaid.js code which is a markup language for visual workflows, using a detailed system prompt and vision-language models. The interface supports mixed-initiative refinement through inline text editing, drag-and-drop node insertion, and natural-language commands interpreted by an integrated AI assistant. Unlike prior image-to-diagram tools, our approach produces a structured, version-controllable textual representation that remains synchronized with the rendered diagram. We further introduce evaluation metrics to assess structural accuracy, flow correctness, syntax validity, and completeness across multiple models.",
     "tier": "none",
@@ -111911,7 +111938,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -112388,7 +112415,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -140302,7 +140329,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
@@ -141940,7 +141967,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-18",
      "types": [
       "JournalArticle"
      ],
