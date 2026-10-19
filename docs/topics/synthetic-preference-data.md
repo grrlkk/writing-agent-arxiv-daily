@@ -2,15 +2,16 @@
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-374 papers, newest first. Generated on **2026-10-18** (UTC).
+375 papers, newest first. Generated on **2026-10-19** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (189)](#2026) · [2025 (94)](#2025) · [2024 (91)](#2024)
+Browse by year: [2026 (190)](#2026) · [2025 (94)](#2025) · [2024 (91)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-16**|<details><summary>VISTA: Steering LLMs with Latent User Values Inferred from a Few Survey Answers</summary><br>Personalizing a language model requires knowing what a person values, which stays largely consistent across tasks. Yet most methods either learn task-specific preferences or place the user's profile in the prompt, where models struggle to act on it. We introduce VISTA (Value-Informed Steering and Targeted Acquisition), which infers a latent profile from users' (full or partial) survey answers, and maps the profile through a hypernetwork to a user-specific steering intervention in a frozen LLM to...</details>|-|Yinuo Xu et al.|[2610.23702](https://arxiv.org/abs/2610.23702)|null|
 |**2026-10-15**|<details><summary>CleanRM: Reward Modeling from Noisy Feedback with a Few Clean Feedback for RLHF</summary><br>Feedback noise is pervasive in preference data, arising from subjective human judgments, annotation mistakes, and imperfect LLM judges. Standard reward modeling trained on such feedback yields a biased estimate of the clean risk. Although classical denoising methods are directly applicable to noisy feedback learning, they generally assume a uniform noise ratio across samples. However, this assumption fails for feedback data, where noise is intrinsically sample-wise. To address this challenge, we...</details>|-|Licheng Pan et al.|[2610.21138](https://arxiv.org/abs/2610.21138)|null|
 |**2026-10-14**|<details><summary>RM-OPD: On-Policy Distillation for Generative Reward Models</summary><br>Reinforcement Learning on Mixed-domain preference data (Mix-RL) has become the mainstream approach for training general-purpose Generative Reward Models (GRMs). However, Mix-RL suffers from two critical bottlenecks: the reward sparsity induced by outcome rewards, and the cross-domain interference arising from jointly optimizing heterogeneous capabilities, which together give rise to imbalanced capability acquisition and pervasive reward hacking. Inspired by the success of On-Policy Distillation...</details>|-|Qinglin Su et al.|[2610.20174](https://arxiv.org/abs/2610.20174)|null|
 |**2026-10-14**|<details><summary>Mitigating Video Hallucinations via Attention-Guided Representation Perturbation</summary><br>Video large language models (Video LLMs) often generate responses unsupported by the input video. Contrastive decoding (CD) can mitigate these hallucinations, but its effectiveness depends on how the negative branch weakens visual evidence. Existing methods rely on predefined perturbations or masking guided by question reconstruction, offering limited control over the model's visual reliance during answer generation. We introduce Attention-guided Representation Perturbation for Contrastive Decod...</details>|-|Zhixin Cai et al.|[2610.19728](https://arxiv.org/abs/2610.19728)|null|

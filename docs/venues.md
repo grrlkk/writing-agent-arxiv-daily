@@ -9,10 +9,10 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-18** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-19** (UTC).
 Back to the [main page](../README.md).
 
-875 of 3291 papers carry venue evidence.
+877 of 3319 papers carry venue evidence.
 
 ## Top-tier venues (577)
 
@@ -730,12 +730,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-26**|Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks|IUI 2024|Text Quality Evaluation|[2410.20266](https://arxiv.org/abs/2410.20266)|
 
-## Findings tracks (89)
+## Findings tracks (90)
 
-### EMNLP (55)
+### EMNLP (56)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-16**|MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai|EMNLP 2026 (findings)|Multilingual & Cross-Lingual Agents, Reward & Value Models|[2610.23205](https://arxiv.org/abs/2610.23205)|
 |**2026-10-02**|CLIMB: Confidence-Guided Complementary Evidence for Multimodal Retrieval-Augmented Generation|EMNLP 2026 (findings)|Search & Control for Generation|[2610.03421](https://arxiv.org/abs/2610.03421)|
 |**2026-09-29**|SemOPT: Fixing Semantic Errors in LLM-based Optimization Modeling via Reward-Guided Search|EMNLP 2026 (findings)|Reward & Value Models|[2609.37361](https://arxiv.org/abs/2609.37361)|
 |**2026-09-24**|The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge|EMNLP 2026 (findings)|Text Quality Evaluation|[2609.30604](https://arxiv.org/abs/2609.30604)|
@@ -915,7 +916,7 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (124)
+## Workshops (125)
 
 ### NeurIPS (36)
 
@@ -980,10 +981,11 @@ Back to the [main page](../README.md).
 |**2024-11-12**|Entropy Controllable Direct Preference Optimization|ICML 2025 (workshop)|Reward & Value Models|[2411.07595](https://arxiv.org/abs/2411.07595)|
 |**2024-07-01**|Self-Cognition in Large Language Models: An Exploratory Study|ICML 2024 (workshop)|Writing Agent|[2407.01505](https://arxiv.org/abs/2407.01505)|
 
-### EMNLP (13)
+### EMNLP (14)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-16**|GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search|EMNLP 2026 (workshop)|Self-Refine & Self-Correction|[2610.23709](https://arxiv.org/abs/2610.23709)|
 |**2026-10-02**|Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.03136](https://arxiv.org/abs/2610.03136)|
 |**2026-09-22**|Calibration as a First-Class Criterion in LLM Evaluation|EMNLP 2026 (workshop)|Text Quality Evaluation|[2609.26489](https://arxiv.org/abs/2609.26489)|
 |**2026-09-14**|Translating the Translator: Decomposing the Cost of English-Forced Inter-Agent Communication|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2609.15079](https://arxiv.org/abs/2609.15079)|

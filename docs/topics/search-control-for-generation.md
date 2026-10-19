@@ -2,15 +2,16 @@
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-225 papers, newest first. Generated on **2026-10-18** (UTC).
+226 papers, newest first. Generated on **2026-10-19** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (128)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
+Browse by year: [2026 (129)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-16**|<details><summary>VISTA: Steering LLMs with Latent User Values Inferred from a Few Survey Answers</summary><br>Personalizing a language model requires knowing what a person values, which stays largely consistent across tasks. Yet most methods either learn task-specific preferences or place the user's profile in the prompt, where models struggle to act on it. We introduce VISTA (Value-Informed Steering and Targeted Acquisition), which infers a latent profile from users' (full or partial) survey answers, and maps the profile through a hypernetwork to a user-specific steering intervention in a frozen LLM to...</details>|-|Yinuo Xu et al.|[2610.23702](https://arxiv.org/abs/2610.23702)|null|
 |**2026-10-14**|<details><summary>Decoupled Marginal Sharpening for Training-Free Inference-Time Scaling</summary><br>We study how to improve LLM reasoning at inference time without updating model weights or using external reward models. Recent reward-free power-sampling methods define the sequence-level power target $π_α(y\mid x)\propto p_0(y\mid x)^α$, where $α>1$, which increases the relative probability of completions that are already likely under the base model. Existing methods use Metropolis--Hastings or Sequential Monte Carlo (SMC) to approximately sample from this target. However, two challenges arise...</details>|-|Weixin Wang et al.|[2610.20483](https://arxiv.org/abs/2610.20483)|null|
 |**2026-10-14**|<details><summary>AtomSearch: Evidence-Grounded Tree Search for Agent Skill Optimization</summary><br>Agent skills adapt frozen models through editable external instructions. Revising several rules at once makes changes difficult to inspect, while judging each local edit only by its immediate score can discard useful intermediate states. We introduce AtomSearch, which keeps revision actions local while using subsequent skill states to guide search. Contrastive atomic editing links each primitive rule edit to failed and successful executions, a behavioral hypothesis, and an intended scope. Skill-...</details>|-|Jia Tong et al.|[2610.19951](https://arxiv.org/abs/2610.19951)|null|
 |**2026-10-14**|<details><summary>Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems</summary><br>Best-of-N sampling is a simple inference-time scaling strategy for large language models, yet its behavior under incomplete reward models remains poorly understood. We study Best-of-N as a competition between the extreme reward tails of correct and incorrect responses. This view shows that success depends not only on the probability of sampling a correct response, but also on whether correct responses dominate incorrect ones in the upper tail. Using extreme value theory, we characterize three as...</details>|NeurIPS 2026|Taro Yano et al.|[2610.19362](https://arxiv.org/abs/2610.19362)|null|
