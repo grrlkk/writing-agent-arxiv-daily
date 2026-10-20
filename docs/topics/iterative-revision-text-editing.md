@@ -2,7 +2,7 @@
 
 > Edit-intention taxonomies, revision histories, and text-editing models — the direct precedent for FEAK-TC's action taxonomy (B1/W2).
 
-184 papers, newest first. Generated on **2026-10-19** (UTC).
+184 papers, newest first. Generated on **2026-10-20** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 Browse by year: [2026 (101)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
