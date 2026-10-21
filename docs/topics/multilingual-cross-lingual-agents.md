@@ -2,15 +2,16 @@
 
 > Applying LLM agents beyond English: multilingual and cross-lingual transfer, non-English tool use and planning, localized writing assistants, and language- or culture-specific agent benchmarks. Survey axis for adapting agent workflows to Korean and other language communities.
 
-429 papers, newest first. Generated on **2026-10-20** (UTC).
+430 papers, newest first. Generated on **2026-10-21** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (206)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)
+Browse by year: [2026 (207)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-19**|<details><summary>LoWAgent: A Low-Resource Multilingual Benchmark for Web Agents</summary><br>Web agents are typically evaluated on English-language interfaces, leaving their ability to operate across the world's multilingual websites largely unexplored. This gap is especially significant for low-resource languages, where standardized resources for evaluating web agents remain limited. To address this gap, we introduce Low-Resource Web Agent Benchmark (LoWAgent), a benchmark for evaluating web agents across different low-resource languages (LRLs) in comparison to the default, English. Lo...</details>|-|Ocean Monjur et al.|[2610.27205](https://arxiv.org/abs/2610.27205)|null|
 |**2026-10-19**|<details><summary>FrontierRefactor: Benchmarking Multi-Scale Performance-Oriented Codebase Refactoring</summary><br>Autonomous codebase refactoring requires coding agents to restructure working software while strictly preserving externally observable behavior and prioritizing execution performance and compute efficiency over stylistic preference. Existing benchmarks: refactoring benchmarks assess functional correctness while overlooking runtime regressions, whereas code performance benchmarks target isolated micro-kernels that ignore codebase-scale complexity. We observe that refactoring scale is governed by...</details>|-|Shijian Wang et al.|[2610.25834](https://arxiv.org/abs/2610.25834)|null|
 |**2026-10-19**|<details><summary>When Better Opportunities Backfire: Service Worker Responses to Parallel AI Deployment in Customer Acquisition</summary><br>As AI voice agents get deployed in high-volume contact centers, firms can route low-intent leads to AI and allocate high-intent leads to human workers. Drawing on sequential search theory, we posit that AI-induced task allocation reshapes work, enriching opportunities facing human workers but also raising their reservation value for continuing with the lead in hand, making them less willing to persist. We study the effects of an AI voice-agent deployment at a Chinese online health-insurance brok...</details>|-|Xinyu Fu et al.|[2610.25603](https://arxiv.org/abs/2610.25603)|null|
 |**2026-10-18**|<details><summary>Editing as Language: Teaching LLM Agents a Grammar for Native Context Editing</summary><br>A synopsis in novels folds a story into a few lines; a function in code gathers many steps with a single execution. Context editing is native to language itself. In this paper, we propose the Native Context Editing (NCE) framework, which gives language model agents a grammar for natively editing their own context. By encoding context-editing operations in a grammar of dedicated special tokens, we teach the agents to invoke edits through the language itself. We train agents on iteratively constru...</details>|-|Yunlong Deng et al.|[2610.25550](https://arxiv.org/abs/2610.25550)|null|

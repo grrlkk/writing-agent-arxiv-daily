@@ -1,25 +1,25 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 184,
+   "Iterative Revision & Text Editing": 186,
    "Korean Writing & NLP": 72,
-   "Multilingual & Cross-Lingual Agents": 429,
-   "Reward & Value Models": 735,
-   "Search & Control for Generation": 228,
-   "Self-Refine & Self-Correction": 291,
+   "Multilingual & Cross-Lingual Agents": 430,
+   "Reward & Value Models": 744,
+   "Search & Control for Generation": 229,
+   "Self-Refine & Self-Correction": 294,
    "Semantic Drift & Faithfulness": 236,
-   "Synthetic Preference Data": 381,
-   "Text Quality Evaluation": 580,
-   "Writing Agent": 494
+   "Synthetic Preference Data": 382,
+   "Text Quality Evaluation": 584,
+   "Writing Agent": 496
   },
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "venue_tiers": {
    "demo": 8,
    "findings": 92,
-   "none": 2484,
+   "none": 2504,
    "other": 37,
    "strong": 40,
-   "top": 580,
+   "top": 582,
    "workshop": 125
   }
  },
@@ -5874,7 +5874,7 @@
     "primary_category": "stat.ML",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -6191,7 +6191,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -7464,6 +7464,83 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.23225v1"
+   },
+   "2610.27079": {
+    "abs_url": "https://arxiv.org/abs/2610.27079",
+    "authors": [
+     "Yupeng Qiu",
+     "Han Fang",
+     "Ee-Chien Chang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.27079",
+    "journal_ref": "",
+    "matched": [
+     "text editing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27079v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language model (LLM) watermarking operates on the next-token distribution that evolves during generation. In streaming generation, each sampled token becomes part of the text and affects subsequent distributions. Embedding therefore proceeds with a changing host, unlike classical watermarking, which adapts embedding to an existing host signal. To accommodate this difference, we formulate a novel embedding framework for LLM watermarking based on two principles. We first argue that embedding should be adaptive, retaining the state of previous sampling decisions to better guide subsequent choices. We further argue that embedding should be host-dependent, using the current LLM distribution to constrain both token selection and state updates. Guided by these principles and the two requirements of distribution preservation and robustness to text editing, we propose ClockMark. It combines adaptive and host-dependent embedding with message spreading, embedding the full payload in each watermarked token. Theoretically, we prove that ClockMark preserves the original LLM sequence distribution, thereby maintaining generation quality. Empirically, extensive experiments against 12 baselines demonstrate improved robustness to text editing, with gains of up to 16.08 percentage points in bit accuracy over the strongest tested baseline.",
+    "tier": "none",
+    "title": "ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models",
+    "track": "",
+    "updated": "2026-10-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27079v1"
+   },
+   "2610.27379": {
+    "abs_url": "https://arxiv.org/abs/2610.27379",
+    "authors": [
+     "Shreyas Kulkarni",
+     "Uttam Gurram",
+     "Madhav Kanda",
+     "Krishna Teja Chitty Venkata",
+     "Shichu Chen",
+     "Kartik Balasubramaniam",
+     "Supriyo Chakraborty",
+     "Sambit Sahu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.27379",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27379v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Block-diffusion speculative decoding accelerates large language model inference by drafting multiple tokens in parallel. However, one-step drafting in discrete diffusion is limited by token factorization error: each token is predicted from the same masked block, without conditioning on the tokens selected at other positions in that step. This can produce inconsistent drafts and reduce acceptance length. Iterative refinement mitigates this limitation by conditioning later predictions on previously committed tokens, though additional passes increase drafting cost. To address this trade-off between draft fidelity and inference latency, we introduce DStill, a two-stage framework that distills a target-conditioned drafter's own multi-step refinement into one-step drafting. We first train the drafter to complete partially revealed blocks, then use its refinement trajectories to train a student to predict the final completion in one pass. Using a curriculum that gradually transitions from partial to fully masked inputs, we successfully transfer the multi-step refinement capabilities into one step. Across reasoning, math, code benchmarks on three model families DStill improves acceptance length by up to 28% and speedup by up to 25% over one-step DFlash, achieving up to 6.45x speedup over auto-regressive decoding.",
+    "tier": "none",
+    "title": "DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding",
+    "track": "",
+    "updated": "2026-10-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27379v1"
    }
   },
   "Korean Writing & NLP": {
@@ -29153,6 +29230,50 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.25834v1"
+   },
+   "2610.27205": {
+    "abs_url": "https://arxiv.org/abs/2610.27205",
+    "authors": [
+     "Ocean Monjur",
+     "Daud Ahmad Nisar",
+     "Shahriar Kabir Nahin",
+     "Tadesse Destaw Belay",
+     "Sushruti Mishra",
+     "Israel Abebe Azime",
+     "Anshuman Chhabra"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.27205",
+    "journal_ref": "",
+    "matched": [
+     "multilingual",
+     "low-resource language",
+     "hindi",
+     "urdu",
+     "bengali"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27205v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Web agents are typically evaluated on English-language interfaces, leaving their ability to operate across the world's multilingual websites largely unexplored. This gap is especially significant for low-resource languages, where standardized resources for evaluating web agents remain limited. To address this gap, we introduce Low-Resource Web Agent Benchmark (LoWAgent), a benchmark for evaluating web agents across different low-resource languages (LRLs) in comparison to the default, English. LoWAgent evaluates web agents across English and four LRLs: Hindi, Bengali, Urdu, and Amharic. The benchmark comprises of six fully localized websites, instantiated across five languages to yield 3,000 task instances. We evaluate three closed-source and five open-source models across all five languages on all six websites. Our findings show that both closed-source and open-source models experience performance degradation for LRLs compared to English, with substantially greater performance drops observed among the open-source model agents. We further evaluate the robustness of the models on realistic interface disruptions, such as cookie notices and advertisement pop-ups, and find that these further degrade agentic performance. Finally, we show that post-training on a small subset of LoWAgent traces can significantly improve low-resource language agentic task performance, demonstrating the usefulness of our benchmark.",
+    "tier": "none",
+    "title": "LoWAgent: A Low-Resource Multilingual Benchmark for Web Agents",
+    "track": "",
+    "updated": "2026-10-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27205v1"
    }
   },
   "Reward & Value Models": {
@@ -37563,7 +37684,7 @@
     "authors": [
      "Marthe Ballon",
      "Andres Algaba",
-     "Brecht Verbeken",
+     "Brecht F. Verbeken",
      "Vincent Ginis"
     ],
     "code_url": "",
@@ -38698,7 +38819,7 @@
     "matched": [
      "reward model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2512.23067v2",
+    "pdf_url": "https://arxiv.org/pdf/2512.23067v3",
     "primary_category": "cs.AI",
     "published": "2025-12-28",
     "s2": {
@@ -38714,12 +38835,12 @@
     "tier": "none",
     "title": "The Reward Model Selection Crisis in Personalized Alignment",
     "track": "",
-    "updated": "2026-01-07",
+    "updated": "2026-10-20",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2512.23067v2"
+    "version": "2512.23067v3"
    },
    "2512.23126": {
     "abs_url": "https://arxiv.org/abs/2512.23126",
@@ -49642,7 +49763,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -49681,7 +49802,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56488,15 +56609,15 @@
      "Haijun Wu"
     ],
     "code_url": "",
-    "comment": "11 pages, 4 figures, conference",
+    "comment": "12 pages, 4 figures, conference",
     "first_seen": "2026-10-14",
     "id": "2610.16979",
     "journal_ref": "",
     "matched": [
      "reward model",
-     "preference optimization"
+     "preference learning"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.16979v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16979v2",
     "primary_category": "cs.IR",
     "published": "2026-10-12",
     "s2": {
@@ -56506,16 +56627,16 @@
      "year": ""
     },
     "status": "unknown",
-    "summary": "Generative retrieval (GR) offers a promising paradigm for industrial search by unifying candidate generation within an autoregressive framework. However, its effectiveness is limited by two key challenges. First, existing Semantic ID (SID) tokenizers struggle to incorporate collaborative signals while maintaining effective codebook utilization, limiting their ability to distinguish items and achieve high-quality retrieval. Second, existing reinforcement learning (RL) methods suffer from severe reward sparsity under exact SID matching, leaving many sampled trajectories without effective learning signals and hindering preference optimization. To address these challenges, we propose WeGR, a unified generative retrieval framework consisting of two complementary components. Specifically, the Collaborative and Collapse-free Tokenizer (CoCo-VAE) incorporates query-to-item and item-to-item collaborative signals while mitigating codebook collapse through codebook refresh and complementary regularization, enabling more informative and balanced SID representations. Building upon these SIDs, Dynamic Horizon Policy Optimization (DHPO) progressively expands both reward evaluation and policy optimization horizons, reducing learning difficulty while leveraging behavioral reward signals at different levels of the SID hierarchy, without relying on auxiliary reward models. Extensive offline experiments demonstrate the effectiveness of WeGR in improving retrieval and ranking performance. Moreover, a two-month online A/B test in WeChat E-commerce Search demonstrates relative improvements of 2.539% in orders, 1.508% in click-through rate, and 1.381% in conversion rate, while reducing online CPU and GPU usage by 25.5% and 26.1%, respectively. The system has been successfully deployed across multiple search scenarios in WeChat, serving billions of users, generating tens of millions of PVs daily.",
+    "summary": "Generative retrieval (GR) offers a promising paradigm for industrial search by unifying candidate generation within an autoregressive framework. However, effectively leveraging user behaviors in industrial GR remains challenging: existing SID tokenization methods struggle to preserve collaborative signals while maintaining balanced codebook utilization, whereas reinforcement learning (RL) for prioritizing high-value candidates suffers from sparse rewards when generated SIDs fail to match positive items. To address these challenges, we propose WeGR, a unified GR framework with two complementary components. Specifically, the Collaborative and Collapse-free Tokenizer (CoCo-VAE) injects query-to-item and item-to-item collaborative signals into continuous representations before quantization, preserving behavioral information without disrupting codebook optimization. It further couples first-layer codebook refresh to reactivate underutilized codewords with fidelity anti-collapse regularization, which broadens gradient coverage over relevant codewords and penalizes collisions in deeper layers to yield behavior-aware SIDs with balanced utilization. For preference alignment, Dynamic Horizon Policy Optimization (DHPO) progressively expands reward evaluation and policy optimization horizons to alleviate reward sparsity, enabling coarse-to-fine preference learning from SID prefixes to complete items without auxiliary reward models. Extensive offline experiments validate that WeGR improves retrieval and ranking performance. Moreover, a six-week online A/B test on a large-scale e-commerce search platform achieves relative gains of 2.539% in orders, 1.508% in CTR, and 1.381% in CVR, while reducing CPU and GPU usage by 25.5% and 26.1%. These results highlight the effectiveness and efficiency of WeGR in industrial deployment, supporting multiple search scenarios and tens of millions of daily page views.",
     "tier": "none",
-    "title": "WeGR: Unified Generative Retrieval for Industrial Search Systems in WeChat",
+    "title": "WeGR: Towards Unified Generative Retrieval via Behavior-aware Tokenization and Preference Alignment",
     "track": "",
-    "updated": "2026-10-12",
+    "updated": "2026-10-20",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.16979v1"
+    "version": "2610.16979v2"
    },
    "2610.17042": {
     "abs_url": "https://arxiv.org/abs/2610.17042",
@@ -59041,6 +59162,349 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.26662v1"
+   },
+   "2610.27028": {
+    "abs_url": "https://arxiv.org/abs/2610.27028",
+    "authors": [
+     "Phurinat Polasa",
+     "Thanapon Thanadunpremdet",
+     "Phatthanasak Kraiduang",
+     "Saksorn Ruangtanusak"
+    ],
+    "code_url": "",
+    "comment": "IEEE iSAI-NLP SRW 2026",
+    "first_seen": "2026-10-21",
+    "id": "2610.27028",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27028v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "A poker agent can make a legal move and still make a strategically poor one. We ask whether compact AI agents can exhibit strategic behavior under hidden information and whether preference optimization can improve beyond static and zero-shot policies. We first evaluate a static baseline and three frozen language models: SmallThinker, Qwen3, and Gemma-3 whose performance varies substantially between exact-game and six-player evaluation. We therefore propose Strategic Preference Optimization with KL-anchored Equilibrium (SPOKE), combining teacher-relative value penalties, policy anchoring, risk constraints, and structured rationale supervision, and compare it with SFT, DPO, GRPO, and GSPO. Across three runs of a SmallThinker-4B-A0.6B policy, SPOKE achieves the lowest mean exploitability in Kuhn (0.213) and Leduc (1.081) and the highest six-max top-1 agreement (0.775), while maintaining teacher KL comparable to SFT (0.522 vs 0.523). These results provide preliminary evidence that strategic preference optimization can improve strategic quality while preserving teacher-consistent behavior.",
+    "tier": "none",
+    "title": "Teaching AI Agent to Play Poker Strategically Through Preference Optimization",
+    "track": "",
+    "updated": "2026-10-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27028v1"
+   },
+   "2610.27237": {
+    "abs_url": "https://arxiv.org/abs/2610.27237",
+    "authors": [
+     "Kristina Mustakova",
+     "Alexey Sorokin"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.27237",
+    "journal_ref": "Analysis of Images, Social Networks and Texts. AIST 2026. Lecture Notes in Computer Science, vol 16795. Springer, Cham",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27237v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We present a study on controlled automatic simplification of Russian texts using preference-based optimization algorithms with a focus on adapting texts to the A1, A2 and B1 proficiency levels. We fine-tune YandexGPT using Rejection Sampling and Direct Preference Optimization (DPO) methods to improve control over the complexity of the generated text. We compare several training configurations that differ in dataset composition, text type and the strategy used to construct preference pairs for DPO. For automatic evaluation we train a regression model based on ruRoBERTa-large to predict continuous complexity scores corresponding to CEFR levels. We also consider semantic similarity, lexical coverage and quantitative readability metrics. Human evaluation assesses simplicity, fluency and adequacy. Our best model achieves 87.15\\% target level accuracy, an MAE of 0.35 CEFR levels and a target interval MAE of 0.11. Manual assessment shows that 75% of the evaluated simplifications match the target morphological and syntactic level, and fluency and adequacy scores are especially high for A2 and B1. Although A1 remains the most challenging level, the model significantly reduces the proportion of vocabulary and grammatical constructions beyond the target level while generally preserving meaning. Our model is freely available on $\\href{https://huggingface.co/kmustakova/RuSimplifier_DPO}{HuggingFace}$.",
+    "tier": "none",
+    "title": "CEFR-oriented Russian Text Simplification Using Reinforcement Learning",
+    "track": "",
+    "updated": "2026-10-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27237v1"
+   },
+   "2610.27266": {
+    "abs_url": "https://arxiv.org/abs/2610.27266",
+    "authors": [
+     "Chenhan Lyu",
+     "Amir Rahmani"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.27266",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27266v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Preference labels align model training, but the judgments behind them are difficult to inspect or verify. In this paper, we examine how preference construction can be checked when intermediate decisions are recorded, and which of them remain uncertain. We present Symbolic Preference Labeling, a method in which a pretrained language model classifies predefined attributes of prompts and responses. Explicit rules assign response verdicts, and a fixed verdict ranking determines the preference label. Each preference label has a recorded derivation: the response verdicts and preference label can be recomputed from the stored attribute assignments, rules, and verdict ranking without rerunning the language model. On 200 prompts annotated by human raters, the language model produces valid structured outputs for 192 prompts. All eight parsing failures occur in the subset of self-harm prompts marked as harmful. Using 465 preference pairs, we train one policy model with direct preference optimization across five training seeds. Mean measured benign refusal is 40.82 percent on 1,319 benign prompts that resemble unsafe ones, and mean measured toxic refusal is 84.98 percent on 655 toxic prompts. This study distinguishes the reproducibility of preference labels from attribute correctness. The recorded derivations make preference construction open to inspection, while attribute correctness and semantic safety require separate validation.",
+    "tier": "none",
+    "title": "Auditing Safety Preference Supervision with Recorded Derivations",
+    "track": "",
+    "updated": "2026-10-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27266v1"
+   },
+   "2610.27423": {
+    "abs_url": "https://arxiv.org/abs/2610.27423",
+    "authors": [
+     "Hsin-Chiang Chen",
+     "Hao Wang",
+     "Gedi Zhou",
+     "Mingze Gao",
+     "Abhishek Kumar",
+     "Yiben Yang",
+     "Haoyu Wang",
+     "Hongjing Xia",
+     "Bo Chen",
+     "Zhengyu Su",
+     "Xian Sun",
+     "Chang Xu",
+     "Kevin Han",
+     "Weiwei Li",
+     "Zhongchang Sun",
+     "Yao Zhang",
+     "Qifei Wang",
+     "Peggy Yang",
+     "Yihan Wu",
+     "Haoran Liu",
+     "Siyang Sun",
+     "Xingyu Pan",
+     "Shannon Phu",
+     "Haoming Chen",
+     "Kevin Zhao",
+     "Chen Liang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.27423",
+    "journal_ref": "",
+    "matched": [
+     "value model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27423v1",
+    "primary_category": "cs.IR",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "A feed ranker scores candidates with a value model, a weighted sum of engagement predictions. Each prediction conflates a baseline, what this viewer, item or request would produce anyway, with the incremental amount by which this candidate exceeds it. The literature mostly removes the baseline. We argue that a multi-signal value model should keep the raw prediction and add the incremental part as a separately weighted term. On Instagram Feed, three debiasing families deployed independently, for viewer habit, item popularity and request context, are one parameterised operator, and a design procedure picks a point in it. Media-type (format) bias goes instead to a debiased label chosen by the same procedure. In a controlled four-arm ablation of deployed Feed terms (neither term, each alone, both), the two-term arm beats both single-term arms at production weights on point estimates in 11 of 13 judged (term, metric) pairs. Of the 26 direct contrasts, 17 are significantly for it and only 1 against it, on impressions. The ablation also suggests that the offline diagnostic should screen signals, not rank them. Such terms have served Instagram Feed production for most of a year. Beyond Feed, Meta, whose apps serve billions of people, has adopted the operator across surfaces, apps and both ranking stages. Its launches there drive sessions and daily active users, the core visitation and retention metrics.",
+    "tier": "none",
+    "title": "Baseline and Incremental: User, Item, and Request Debiasing in Instagram Feed Ranking",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27423v1"
+   },
+   "2610.27447": {
+    "abs_url": "https://arxiv.org/abs/2610.27447",
+    "authors": [
+     "Liang Twist Shan",
+     "Jiahao Ai",
+     "Zhimei Ren"
+    ],
+    "code_url": "",
+    "comment": "51 pages, including references and appendices",
+    "first_seen": "2026-10-21",
+    "id": "2610.27447",
+    "journal_ref": "",
+    "matched": [
+     "bradley-terry"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27447v1",
+    "primary_category": "stat.ML",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The evaluation of large language models (LLMs) is inherently multi-objective, as different models may offer different tradeoffs across performance dimensions such as math, code, and writing. Because such evaluations are often based on costly and time-consuming human feedback, it is important to draw reliable conclusions using as few comparisons as possible. In this paper, we present Vector-Borda Empirical-Gap Elimination (VB-EGE), a fixed-confidence adaptive sampling algorithm for efficiently identifying models on the Pareto frontier in arena-style evaluation, where each comparison evaluates a pair of models on a prompt with respect to a selected performance dimension. VB-EGE progressively eliminates models from an active set once sufficient statistical evidence has been accumulated to certify their Pareto status. Under a multi-objective Bradley-Terry model, we show that VB-EGE returns the correct Pareto frontier with high probability and derive an instance-dependent upper bound on its sample complexity. We further establish a worst-case lower bound showing that VB-EGE is minimax-optimal up to logarithmic factors. Simulations and experiments on three real-world Arena datasets (Arena, SearchArena, and VisionArena) demonstrate VB-EGE's empirical effectiveness.",
+    "tier": "none",
+    "title": "Beyond Scalar Leaderboards: Adaptive Sampling for Pareto Frontier Identification in Multi-Objective LLM Arenas",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27447v1"
+   },
+   "2610.27528": {
+    "abs_url": "https://arxiv.org/abs/2610.27528",
+    "authors": [
+     "Guiquan Sun",
+     "Bing Bai",
+     "Martin Renqiang Min",
+     "Dongjin Song"
+    ],
+    "code_url": "",
+    "comment": "Under Review",
+    "first_seen": "2026-10-21",
+    "id": "2610.27528",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27528v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Generative reward models (GenRMs) generate natural language rationales to justify preference judgments, yet a correct verdict does not guarantee a sound justification. Existing approaches often rely on reference explanations to supervise rationales, but obtaining such references can be costly and does not necessarily establish whether generated rationales support the resulting verdict. To address these limitations, we propose DeCert, a framework that evaluates the validity and verdict consistency of generated rationales without requiring reference explanations. Crucially, DeCert translates these assessments into preference supervision that accounts for both verdict correctness and justification quality. In particular, when multiple sampled judgments share the same correct verdict, differences in certificate quality enable DeCert to construct rationale preference pairs that distinguish stronger from weaker justifications. Extensive empirical studies across two model families and multiple in- and out-of-distribution benchmarks demonstrate that DeCert consistently outperforms strong generative judge baselines while improving rationale quality. Moreover, DeCert effectively mitigates positional bias, improving position-consistent accuracy by up to 14.8 points. These results highlight the importance of supervising not only which verdict is correct, but also how that verdict is justified.",
+    "tier": "none",
+    "title": "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27528v1"
+   },
+   "2610.28229": {
+    "abs_url": "https://arxiv.org/abs/2610.28229",
+    "authors": [
+     "Chengtao Jian",
+     "Kai Yang"
+    ],
+    "code_url": "",
+    "comment": "Accepted at NeurIPS 2026",
+    "first_seen": "2026-10-21",
+    "id": "2610.28229",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.28229v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Direct Preference Optimization (DPO) minimizes empirical risk over observed preference comparisons, implicitly assuming that the training preference distribution matches the deployment preference distribution. In practice, this i.i.d. assumption often fails, as preference distribution shift exhibits a natural hierarchical structure across three levels: group-level shift, prompt-level shift, and preference-level shift. Such multi-level distributional mismatch poses a critical challenge for safe LLM deployment, yet existing robust DPO methods typically either model uncertainty over the joint preference distribution or focus on individual sources of shift, leaving the hierarchical structure of OOD preference shifts underexplored. We propose TPO, a tri-level distributionally robust framework for OOD preference alignment, which jointly models all three levels of distributional uncertainty through a hierarchically structured rectangular ambiguity set. By instantiating it with Wasserstein distance, we derive a tractable and interpretable objective that combines a closed-form preference-level margin penalty, prompt-level adversarial embedding perturbation, and worst-case group reweighting, each governed by an independent radius. We establish finite-sample convergence guarantees and empirically validate the effectiveness of TPO over existing robust DPO methods.",
+    "tier": "top",
+    "title": "TPO: Tri-level Distributionally Robust Learning for OOD Direct Preference Optimization",
+    "track": "main",
+    "updated": "2026-10-20",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted at NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.28229v1"
+   },
+   "2610.28272": {
+    "abs_url": "https://arxiv.org/abs/2610.28272",
+    "authors": [
+     "Tapan Parikh"
+    ],
+    "code_url": "",
+    "comment": "11 pages",
+    "first_seen": "2026-10-21",
+    "id": "2610.28272",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.28272v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Asked to name a running shoe brand, language models say Nike. Asked to recommend one, they say Brooks. This paper asks where models learn that taste. Across 102 models and 42 brand categories, the brand a model picks when recommending differs from the brand it names in 26. The field moves together to a shared recommendation. The Named brands are market leaders, and the Picked brands are mostly niche and specialist. Three open training pipelines show where this forms. Pretraining already attaches the recommended brand to advice. Supervised fine-tuning teaches the model to answer and mostly leaves the pick unchanged. Preference optimization (DPO) teaches the model which answer is better, and the pick moves in all three pipelines, by 11 to 24 points. The preference data contains almost no brands. DPO moves the model's judgments toward a second set of associations even when the preferred brand is not in the preference data, and the effect reaches beyond brands. Asked to choose a sauce, models switch from ketchup to pesto. We do not know exactly how these preferences arise. We suspect they come from the judge models that decide which answers count as better during preference training. For brands, a recommendation depends less on what a model knows about them than on whether they fit this taste.",
+    "tier": "none",
+    "title": "How Language Models Learn Taste: Brand Preference in LLMs",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.28272v1"
+   },
+   "2610.28303": {
+    "abs_url": "https://arxiv.org/abs/2610.28303",
+    "authors": [
+     "Tianyi Lorena Yan",
+     "John Hewitt"
+    ],
+    "code_url": "https://github.com/Lorenayannnnn/reward-misspecification-degrades-cot-monitorability",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.28303",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.28303v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Monitoring the chain-of-thought (CoT) of language models (LMs) is a key strategy for detecting and preventing misbehaviors for AI safety. As such, it is critical to identify reinforcement learning (RL) practices that lead to unmonitorable chain-of-thought. One such practice may be unavoidable: reward misspecification. As RL environments become more complex, it is infeasible to have perfect verification, and models are rewarded for behaviors that are different from the true task intent. We show that reward misspecification alone already degrades monitorability. We create a testbed with pairs of true reward aligned with task intent and misspecified rewards that favor a different behavior, so that reward hacking can be induced by training and labeled verifiably. Across three models and three tasks, CoT monitorability remains low as models' hack rates increase: the CoTs keep reasoning about the task intent while the outputs violate the intent and get rewarded. To mitigate unmonitorability without prior knowledge of the true reward or the hack, we collect rollouts with diverse rewards across training steps and use a LM to infer a reward description. We then inject the description into the input, which teaches the model to verbalize the reward. This reward description training improves monitorability by an average of 24% or 42% absolute, depending on the metric, across all models and tasks, and yields CoTs that reason about the misspecified reward explicitly. Code is available at https://github.com/Lorenayannnnn/reward-misspecification-degrades-cot-monitorability.",
+    "tier": "none",
+    "title": "Reward Misspecification Degrades Chain-of-Thought Monitorability",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.28303v1"
    }
   },
   "Search & Control for Generation": {
@@ -62936,7 +63400,7 @@
     "matched": [
      "guided decoding"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2512.23067v2",
+    "pdf_url": "https://arxiv.org/pdf/2512.23067v3",
     "primary_category": "cs.AI",
     "published": "2025-12-28",
     "s2": {
@@ -62952,12 +63416,12 @@
     "tier": "none",
     "title": "The Reward Model Selection Crisis in Personalized Alignment",
     "track": "",
-    "updated": "2026-01-07",
+    "updated": "2026-10-20",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2512.23067v2"
+    "version": "2512.23067v3"
    },
    "2512.24461": {
     "abs_url": "https://arxiv.org/abs/2512.24461",
@@ -66512,7 +66976,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -66552,7 +67016,7 @@
     "primary_category": "cs.AR",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -68167,6 +68631,47 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.25819v1"
+   },
+   "2610.28393": {
+    "abs_url": "https://arxiv.org/abs/2610.28393",
+    "authors": [
+     "Jinghui Zhang",
+     "Lang Gao",
+     "Zongfang Liu",
+     "Ruihong Zeng",
+     "Zirui Song",
+     "Rui Yan",
+     "Kentaro Inui",
+     "Xiuying Chen"
+    ],
+    "code_url": "https://github.com/mbzuai-nlp/CopyGen",
+    "comment": "NeurIPS 2026",
+    "first_seen": "2026-10-21",
+    "id": "2610.28393",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.28393v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Precisely reproducing a target span verbatim within a long context is a fundamental capability test for LLMs: even when the target string is present in context, models often still drift within the span or fail to stop correctly, revealing limitations in source grounding and boundary control. This capability has broad practical relevance. For instance, code generation often requires embedding sensitive strings such as API keys exactly as they appear in context. In this work, we construct a benchmark to test exact span reproduction ability across contracts, scientific literature, code, and random sequences, and find that current models still make surprisingly frequent errors. To address this, we propose CopyGen, a lightweight copy-constrained plugin for frozen LLMs that turns copying from a byproduct of next-token prediction into a controlled process. Our key idea is to decompose copying into three distinct decisions: when to copy, how far to copy, and when to stop. Concretely, CopyGen first determines whether to enter copy mode, then predicts a tentative copy length, and finally verifies the generated span token by token. During verification, we adaptively adjust the logits of copy continuation tokens to incentivize or suppress continuation, and emit only the longest valid prefix. Across three LLM backbones and four benchmark tasks, CopyGen improves average exact match by 35% relative without model finetuning, and integrates seamlessly with SFT to further improve it by 4%, while substantially accelerating generation. These results suggest that reliable exact copying is not something LLMs obtain for free, but a decoding-time control problem that requires explicit modeling. Code is available at https://github.com/mbzuai-nlp/CopyGen.",
+    "tier": "top",
+    "title": "When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction",
+    "track": "main",
+    "updated": "2026-10-20",
+    "venue": "NeurIPS",
+    "venue_evidence": "NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.28393v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -77872,7 +78377,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -77914,7 +78419,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -77951,7 +78456,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -79944,7 +80449,6 @@
      "Liyue Shen",
      "Tao Gui",
      "Leo Anthony Celi",
-     "James Zou",
      "Zhenfei Yin",
      "Yingcheng Wu",
      "Ling Yang"
@@ -79957,7 +80461,7 @@
     "matched": [
      "self-improvement"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.23839v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.23839v2",
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
@@ -79973,12 +80477,12 @@
     "tier": "none",
     "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
     "track": "",
-    "updated": "2026-10-16",
+    "updated": "2026-10-20",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.23839v1"
+    "version": "2610.23839v2"
    },
    "2610.24977": {
     "abs_url": "https://arxiv.org/abs/2610.24977",
@@ -80060,6 +80564,124 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.25114v1"
+   },
+   "2610.27027": {
+    "abs_url": "https://arxiv.org/abs/2610.27027",
+    "authors": [
+     "Won Seok Jang",
+     "Harry Bhaskar Joshi",
+     "Hong Yu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.27027",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27027v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not only on the conclusion, so whether collaboration reduces hallucination, and what decides when it does, has to be measured in the reasoning too. Yet most evaluations score only the final answer. We evaluate four systems (a single-LLM baseline and three multi-agent topologies) across four models and three clinical tasks, scoring hallucination, under a factuality and faithfulness taxonomy, inside the rationale each system generates and reporting it alongside the task metric. We report that collaboration buys task performance but not lower hallucination as a rule, and no topology is reliably better than another. The effect differs by model: of the $36$ model--system--task comparisons, $12$ are large enough to resolve --- four decreases and eight increases, with no model on both sides. What sets the level, and the direction of any change, is the model rather than the topology or the number of agents. A self-correction experiment is consistent with this: shown its own flagged errors, every model except Llama-3.2-3B-Instruct reduces hallucination; the one model for which collaboration lowers hallucination gains the most, and Llama-3.2-3B-Instruct, the model whose hallucination it amplifies most, does not reduce its hallucination at all. We find that collaboration redistributes what its models can already do; it does not supply what they cannot.",
+    "tier": "none",
+    "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+    "track": "",
+    "updated": "2026-10-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27027v1"
+   },
+   "2610.28543": {
+    "abs_url": "https://arxiv.org/abs/2610.28543",
+    "authors": [
+     "Rodrigo Casado Noguerales",
+     "Dimitri von Rütte",
+     "Bernhard Schölkopf",
+     "Thomas Hofmann",
+     "Aran Raoufi"
+    ],
+    "code_url": "",
+    "comment": "42 pages, 7 figures, 12 tables",
+    "first_seen": "2026-10-21",
+    "id": "2610.28543",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.28543v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Discrete diffusion models iteratively denoise a noisy sequence of categorical data such as text, enabling any-order generation with self-correction and in-filling capabilities. This makes them promising candidates for reasoning, planning, and constrained-generation tasks like coding and math. Yet masked and uniform diffusion erase a token's identity in a single corruption event, so their noisy states cannot explicitly represent partially resolved uncertainty in which several alternatives remain plausible. We close this gap with Binary Discrete Diffusion, a family of continuous-time discrete-diffusion processes whose noisy state is a set of candidate tokens per position, represented as a binary membership vector. Binary diffusion changes candidate sets through additions and removals, allowing information to be lost and recovered gradually while the diffusion state itself represents partial uncertainty. On Sudoku-Extreme, Boxoban, and graph coloring, the symmetric formulation of binary diffusion consistently outperforms strong, well-tuned masked and uniform baselines under matched architectures and controlled training, sampling, and tuning budgets, with its largest gains on the hardest instances, while remaining competitive on language modeling (Text8, TinyStories, OpenWebText). These results support candidate sets as an effective intermediate representation for iterative reasoning and show that the corruption kernel can materially change the computation learned by the reverse model.",
+    "tier": "none",
+    "title": "Binary Discrete Diffusion: Candidate-Set Diffusion for Logic and Planning Tasks",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.28543v1"
+   },
+   "2610.28577": {
+    "abs_url": "https://arxiv.org/abs/2610.28577",
+    "authors": [
+     "Tianyu Fu",
+     "Ruoxi Wang",
+     "Zihan Min",
+     "Zhongqi Ren",
+     "Zhihao Li",
+     "Tengxuan Liu",
+     "Shengxu Mu",
+     "Hanling Zhang",
+     "Yu Wang"
+    ],
+    "code_url": "https://github.com/thu-nics/AKV",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.28577",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.28577v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states and triggers costly re-prefilling of retained context. Task accuracy can also suffer when too little context is retained to limit re-prefill costs. We propose cache engineering as a new scheme. It allows agents to directly control their active KV cache without modifying the trajectory or re-prefilling retained context. Specifically, agents can proactively use drop to exclude selected cache from future attention and repos to adjust retained keys' position encodings. We formalize these cache operations and identify history dependence as a serving challenge: identical token sequences can yield different cache states under different cache operation sequences, making prefix matching insufficient for correct cache reuse. Thus, we co-design the AKV serving engine. It provides a stateless interface compatible with existing serving APIs, while internally managing stateful cache reuse, eviction, and restoration. Experiments show that a tool-response rolling-drop cache policy improves average benchmark scores by 1.7 points and reduces average cost by 27.7%, compared with conventional threshold-triggered summarization. With AKV, it achieves up to 1.2x the output throughput and a 1.5x speedup in P95 request latency. Recursive self-improvement of cache policies further reduces cost by 7.1% over expert design. Our code is at https://github.com/thu-nics/AKV.",
+    "tier": "none",
+    "title": "Cache Engineering for Agents",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.28577v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -85814,7 +86436,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -85850,7 +86472,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -85890,7 +86512,7 @@
     "primary_category": "cs.CR",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -85931,7 +86553,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -85979,7 +86601,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86016,7 +86638,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86057,7 +86679,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86093,7 +86715,7 @@
     "primary_category": "cs.CR",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86130,7 +86752,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86172,7 +86794,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86254,7 +86876,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86297,7 +86919,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86338,7 +86960,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86412,7 +87034,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86452,7 +87074,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86494,7 +87116,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86533,7 +87155,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86571,7 +87193,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86607,7 +87229,7 @@
     "primary_category": "cs.MA",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86644,7 +87266,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86680,7 +87302,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86716,7 +87338,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86775,7 +87397,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -86821,7 +87443,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -86863,7 +87485,7 @@
     "primary_category": "cs.CR",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -86900,7 +87522,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -86936,7 +87558,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -86975,7 +87597,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -87011,9 +87633,12 @@
     "primary_category": "cs.SE",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-09-18",
-     "types": [],
-     "venue": "",
+     "checked": "2026-10-21",
+     "types": [
+      "Book",
+      "Conference"
+     ],
+     "venue": "Companion Proceedings of the 2026 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity",
      "year": 2026
     },
     "status": "unknown",
@@ -87048,7 +87673,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -87087,7 +87712,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -87121,7 +87746,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -87157,7 +87782,7 @@
     "primary_category": "cs.IR",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -87203,7 +87828,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -87239,7 +87864,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -88290,7 +88915,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -88327,7 +88952,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89155,6 +89780,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.23182v1",
     "primary_category": "cs.CL",
     "published": "2026-10-16",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Detecting faithfulness hallucinations in large language models (LLMs) is crucial for their safe deployment in high-stakes domains. Recent approaches address this by contrasting contextual against parametric knowledge utilization, yet measuring context reliance typically demands noticeable overhead, such as materializing attention maps, running additional forward passes, or training auxiliary probes. In this work, we show that context reliance can be estimated by projecting hidden states onto the dark space - directions that compose weakly with the unembedding matrix. Beyond its recognized function as an initial-token attention sink, we show that this subspace actively mediates context processing, and that its share of hidden-state norm - termed the Dark Matter Ratio (DMR) - provides a direct score of context utilization. Pairing DMR with a parametric knowledge score yields DarkLens, a lightweight faithfulness detector operating strictly within a single forward pass. Evaluated across three QA and summarization benchmarks on six open-weight LLMs (4B-13B parameters), DarkLens matches or outperforms a wide range of baselines without requiring extra forward passes or probe training.",
     "tier": "none",
@@ -89183,6 +89814,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.23183v1",
     "primary_category": "cs.CL",
     "published": "2026-10-16",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Text detoxification requires balancing toxicity removal, semantic preservation, and fluency. Existing methods typically optimize an unconstrained scalar objective---enabling safety scores to mask semantic loss---or rely on open-ended iterative debate prone to semantic drift and high computational cost. We propose AMEND, an inference-time framework that decouples detoxification into role-conditioned proposal generation, isolated multidimensional criticism, and constraint-first selection. AMEND evaluates diverse candidates with role-blind critics and enforces strict semantic and fluency feasibility before ranking by utility. To maximize efficiency, AMEND Lite restricts subsequent search to at most one targeted repair round only when residual toxic spans remain. On ParaDetox, one-round selection over diverse roles improves the joint evaluation metric by $+0.0508$ over the best single role. On a frozen confirmation test set, AMEND Lite achieves a joint score of $0.6597 \\pm 0.0062$, outperforming unconstrained multi-round loops by $+0.0489$ ($p < 0.05$) while reducing inference requests by 28.4%.",
     "tier": "none",
@@ -89215,6 +89852,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.23892v1",
     "primary_category": "cs.CV",
     "published": "2026-09-28",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Long video understanding requires reasoning over hours of content that far exceed the context window of multimodal large language models (MLLMs). Existing approaches compress video into fixed-length clips, yet events are fragmented and unrelated content is merged, yielding noisy retrieval. To overcome this challenge, we propose EMMA, an Event-driven Multimodal Memory system with Multi-Agent retrieval, which organizes memory around semantic events in three stages: (1) Event segmentation: a dual-stream detector adaptively locates event boundaries by fusing visual semantic drift with spoken transitions, rather than fixed windows. (2) Memory construction: built on the detected events, a three-level hierarchy of raw video, clip-level memory, and event-level memory stores content at progressively higher semantic abstraction. (3) Memory retrieval: a multi-agent framework collaboratively queries this hierarchy through query decomposition, tiered search, evidence validation, and answer generation, narrowing evidence from coarse events to precise clips. Extensive experiments on three challenging benchmarks demonstrate substantial improvements, showing the effectiveness of our event-aligned memory system. Code, prompt templates, and reproduction scripts are available at https://github.com/BAI-LAB/EMMA.",
     "tier": "none",
@@ -89245,6 +89888,14 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25206v1",
     "primary_category": "cs.CL",
     "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "People can express the same beliefs and desires yet need different reasons to change their minds. What makes an argument relevant depends on how those views arose: experiences shape what a person finds credible, what matters to them, and what could prompt reconsideration. These personal grounds may also be expressed indirectly, through contextual clues in conversation. Benchmarks that specify beliefs and desires without these connections can reward arguments that match a description while overlooking whether they address the person's reasons. We introduce A Thousand Faces (ATF-Persu), with 1,000 personas across 200 topics and nine domains. Drawing on personality and attitude theories and conversational implicature, we construct five personas per factual context, linking experiences to judgments, expression, and grounds for revision. Evaluations show lower persuasion success than three comparison benchmarks under their respective protocols. Complete backgrounds yield broader use of supplied personal grounds and higher persona faithfulness than simplified specifications; blinded reviewers also rate ATF-Persu above CToMPersu on identifiable personal reasons, their influence on responses, and contextual expression. The dataset is publicly available at https://huggingface.co/datasets/Slandes/ATF-Persu.",
     "tier": "none",
@@ -89280,6 +89931,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25374v1",
     "primary_category": "cs.LG",
     "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Classical data mining treats data as generated outside the learner. Emerging AI-native infrastructure invalidates this assumption: as agents observe system state, act, update retrieval stores and models, and promote new artifacts into the serving path, their own decisions reshape the future logs, traces, corpora, and evaluation records used for later training and release. We call this new research object a self-rewriting system and the resulting system-induced distribution shift endogenous drift. Our central, falsifiable claim is that cross-surface causes are not identifiable in general from marginal per-surface monitoring: different coupled failures can produce the same individual signals while differing in their joint behavior, requiring joint analysis for reliable attribution. This agenda comprises four foundational research problems: fusing heterogeneous drift signals into calibrated gating and attribution (C1); mining agent traces whose activity alphabet evolves (C2); maintaining knowledge fabrics through online reindexing, faithfulness, and compression decisions (C3); and safely promoting concurrent learning streams through one shared evaluation gate (C4). These remain fragmented across concept drift, performative prediction, process mining, streaming retrieval-augmented generation, and MLOps, without a unified data-mining agenda. We outline public benchmarks and evaluation criteria, using AI-native telecom only as a motivating exemplar with analogues in finance, software CI/CD, and clinical decision support.",
     "tier": "none",
@@ -89315,6 +89972,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.26105v1",
     "primary_category": "cs.IR",
     "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Generative retrieval assigns each item a discrete semantic identifier (SID) and retrieves items by autoregressively generating SID sequences. In dynamic environments such as e-commerce, new items arrive continuously, requiring periodic updates to the SID-to-Item mapping and model to maintain retrieval timeliness. Each update, however, can invalidate search paths already learned by the retriever, and the quantitative relationship between mapping change and retrieval quality has not been systematically characterized. We study this problem with extensive controlled experiments over 67 days of large-scale e-commerce search logs and obtain three core findings. (1) SID semantic drift causes severe retrieval degradation that may be masked by large beam sizes: mapping updates reduce HitRate by 41.78-62.05% at beam size 1 but only 8.33-10.85% at beam size 1000, as redundant candidate generation conceals the true severity of drift. (2) The fraction of changed SIDs is strictly monotonically related to retrieval quality: as the remapped fraction increases from 0% to 72.75%, HitRate decreases monotonically, dropping up to 42.66% at beam size 1. Full remapping remains substantially worse than the preservation policy under warm-start training, indicating that short-budget continued training alone cannot repair topology disruption. (3) The SID topology-preserving principle makes even the simplest warm-start strategy highly effective: fixing old-item SIDs, inserting new-items, and warm-starting from the previous model improves old-item HitRate by 10% and new-item HitRate by 109%, validated across two non-overlapping update cycles. These findings distill into a concise deployment principle: insert new-items, freeze old-items; warm-start when possible, otherwise freeze; never change SIDs the model has already learned. A three-week online A/B test on TmallAPP shows UCTCVR +0.29% and GMV +1.16%.",
     "tier": "none",
@@ -96612,7 +97275,7 @@
     "matched": [
      "preference data"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2512.23067v2",
+    "pdf_url": "https://arxiv.org/pdf/2512.23067v3",
     "primary_category": "cs.AI",
     "published": "2025-12-28",
     "s2": {
@@ -96628,12 +97291,12 @@
     "tier": "none",
     "title": "The Reward Model Selection Crisis in Personalized Alignment",
     "track": "",
-    "updated": "2026-01-07",
+    "updated": "2026-10-20",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2512.23067v2"
+    "version": "2512.23067v3"
    },
    "2512.24052": {
     "abs_url": "https://arxiv.org/abs/2512.24052",
@@ -96912,7 +97575,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -96953,7 +97616,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -96994,7 +97657,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97033,7 +97696,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97127,7 +97790,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97167,7 +97830,7 @@
     "primary_category": "eess.AS",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97209,7 +97872,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97293,7 +97956,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97330,7 +97993,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97409,7 +98072,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97448,7 +98111,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97488,7 +98151,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97533,7 +98196,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97574,7 +98237,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97615,7 +98278,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97739,7 +98402,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97776,7 +98439,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97828,7 +98491,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97868,7 +98531,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97904,7 +98567,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-11",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97941,7 +98604,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -97980,7 +98643,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98017,7 +98680,7 @@
     "primary_category": "cs.SD",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98062,7 +98725,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98150,7 +98813,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98197,7 +98860,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98241,7 +98904,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98290,7 +98953,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98366,7 +99029,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98441,7 +99104,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98481,7 +99144,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98526,7 +99189,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98566,7 +99229,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98608,7 +99271,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98650,7 +99313,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98687,7 +99350,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98729,7 +99392,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98769,7 +99432,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -98808,7 +99471,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98845,7 +99508,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98885,7 +99548,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98926,7 +99589,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -98969,7 +99632,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -99008,7 +99671,7 @@
     "primary_category": "cs.MM",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -99152,7 +99815,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -99197,7 +99860,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -99274,7 +99937,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -99365,7 +100028,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -99524,7 +100187,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99565,7 +100228,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99603,7 +100266,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99684,7 +100347,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99754,7 +100417,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99793,7 +100456,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99869,7 +100532,7 @@
     "primary_category": "cs.IR",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99914,7 +100577,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -99952,7 +100615,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100034,7 +100697,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -100071,7 +100734,7 @@
     "primary_category": "cs.SD",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102141,7 +102804,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102180,7 +102843,7 @@
     "primary_category": "cs.CV",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -103500,6 +104163,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.05573v2",
     "primary_category": "cs.AI",
     "published": "2026-10-04",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Company name retrieval and final entity clustering can respond differently to encoder adaptation. We study this dependency through a controlled pipeline: train multilingual E5 encoders with matched positive examples and random or hard negatives, select checkpoints on development data, retrieve within equal country-specific edge budgets, and apply unchanged pair classifiers and guarded Union-Find clus- tering. Evaluation uses a subsequently collected GLEIF snapshot; a stratified, assisted human audit and a post-hoc temperature sweep examine label and parameter sensitivity. On 3,633 names with source-silver labels, adapted retrieval raises direct pair recall from 53.74% to 76.98%, whereas cluster recall moves from 32.54% to 33.33%. Most newly retrieved positives fail the existing classifier threshold. The study contributes a controlled comparison and pair-level diagnosis of this loss between retrieval and confirma-tion. It shows why evaluating a replacement retriever requires measuring the resulting entity partition, while leaving joint matcher retraining and independent gold-label evaluation for future work.",
     "tier": "none",
@@ -104415,6 +105084,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.24681v1",
     "primary_category": "cs.AI",
     "published": "2026-10-17",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "LeJEPA derives an isotropic Gaussian embedding target by minimizing, under its task assumptions, a Fisher information criterion that controls the task-averaged squared prediction bias. This enables unimodal self-supervised learning without reconstruction decoders, exponential-moving-average teachers, or contrastive negatives. However, its isotropic task prior does not account for the cross-modal structure of multimodal tasks that read shared content. We introduce MM-LeJEPA by extending LeJEPA's task assumptions to multimodal learning. Specifically, we model multimodal tasks as strength-weighted combinations of components that read independent information from the two modalities and components that read the same content from both. Under explicit gradient-moment, correspondence, and symmetry assumptions, we derive a correlated Gaussian target that minimizes a weighted Fisher information functional under a fixed total variance constraint. An analytic transform adapts Sketched Isotropic Gaussian Regularization (SIGReg) to this target, yielding a two-term objective that combines distributional regularization with local-to-global prediction. The extension adds a single scalar hyperparameter, the target cross-modal correlation, and retains the simplicity of LeJEPA. On public audio-visual classification benchmarks, our results are competitive with representative open-source methods. Code will be released.",
     "tier": "none",
@@ -104481,6 +105156,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25360v1",
     "primary_category": "cs.LG",
     "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "World models are increasingly judged by how well they rank plausible futures, yet plausibility alone is the wrong target. The same scene can evolve under many latent rules, and a future that is smooth and physically valid under one rule can be incoherent under the rule actually in force. We formalize the resulting failure, operator-blindness, and show that it is systematically hidden by standard evaluation: a scorer can attain near-perfect generic ranking while separating current-world from other-world futures no better than chance. We introduce Operator-Mismatch Contrastive (OMC) learning, whose semantic hard negatives are valid-but-wrong-operator trajectories, and a matching protocol that measures world-relative coherence directly. On a controlled synthetic benchmark with in- and out-of-distribution operator parameters, across two trajectory-scoring backbones, and on feature-level external validation with CoPhy ballsCF, OMC raises operator-sensitive scoring far above a chance baseline that nonetheless achieves 0.99 generic top-1. We prove that the wrong-operator negative is necessary both for the protocol to detect the failure and for the objective to fix it, and position OMC as an auxiliary coherence signal (a trajectory-coherence scorer, not a generative model, planner, or control agent) that can be attached to existing world-model representations.",
     "tier": "none",
@@ -104522,6 +105203,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25362v1",
     "primary_category": "cs.CL",
     "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "accepted",
     "summary": "Arabic LLMs have improved rapidly, but aligning them with country-specific cultural behavioral preferences remains underexplored. Previous work has focused primarily on instruction-tuning for factual knowledge, overlooking nuanced cultural behaviors. We propose ArabPref, which to our knowledge is the first large-scale pan-Arab preference data set for the alignment of cultural behavior conditioned on the country. Our contribution includes two resources in English and Modern Standard Arabic: a culturally grounded preference dataset for training and evaluation, and a multiple-choice benchmark designed to assess culturally aligned behavior across nations. All test data are validated by native speakers to ensure authenticity. To optimize cultural alignment, we experiment with post-training methods across multilingual and Arabic-centric language models, evaluating performance on both generation tasks and our cultural multiple-choice benchmark. By releasing an evaluation benchmark, we provide a foundation for systematically studying and improving culturally aligned behavior in language models.",
     "tier": "top",
@@ -104553,6 +105240,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.26267v1",
     "primary_category": "stat.AP",
     "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Gene perturbation models aim to predict transcriptional responses to unseen genetic interventions, but comparisons rely on heterogeneous evaluation metrics and differentially-expressed (DE) gene subsets. We investigate the consequences of these choices using eight methods across six single-gene perturbation datasets under a unified evaluation protocol. Varying the number of top DE genes reveals substantial instability in Precision-based rankings, with the winning method changing $86.7\\%$ of the time, while rankings based on the rest of the metrics remain comparatively stable. Investigating this discrepancy exposes that repeating a single predicted expression profile across cell-level rows, a standard practice for many methods, can inflate significance estimates and produce excessively large predicted significant-DE sets. Specifically we found that $67.1\\%$ of tested perturbation--gene pairs pass the significance threshold despite some of them having minuscule effects. We derive an inflation factor showing that replicated predictions can amplify the standardized Mann--Whitney statistic even after correction for tied ranks, without adding independent information. This artifact changes Precision mainly as the number of DE genes increases because for smaller cutoffs, most of the genes are already significant due to the effect-based ordering. Taking this pitfall into account in our benchmark comparison, we find that a random forest using Gene Ontology features achieves the best overall results.",
     "tier": "none",
@@ -104564,6 +105257,40 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.26267v1"
+   },
+   "2610.28272": {
+    "abs_url": "https://arxiv.org/abs/2610.28272",
+    "authors": [
+     "Tapan Parikh"
+    ],
+    "code_url": "",
+    "comment": "11 pages",
+    "first_seen": "2026-10-21",
+    "id": "2610.28272",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.28272v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Asked to name a running shoe brand, language models say Nike. Asked to recommend one, they say Brooks. This paper asks where models learn that taste. Across 102 models and 42 brand categories, the brand a model picks when recommending differs from the brand it names in 26. The field moves together to a shared recommendation. The Named brands are market leaders, and the Picked brands are mostly niche and specialist. Three open training pipelines show where this forms. Pretraining already attaches the recommended brand to advice. Supervised fine-tuning teaches the model to answer and mostly leaves the pick unchanged. Preference optimization (DPO) teaches the model which answer is better, and the pick moves in all three pipelines, by 11 to 24 points. The preference data contains almost no brands. DPO moves the model's judgments toward a second set of associations even when the preferred brand is not in the preference data, and the effect reaches beyond brands. Asked to choose a sauce, models switch from ketchup to pesto. We do not know exactly how these preferences arise. We suspect they come from the judge models that decide which answers count as better during preference training. For brands, a recommendation depends less on what a model knows about them than on whether they fit this taste.",
+    "tier": "none",
+    "title": "How Language Models Learn Taste: Brand Preference in LLMs",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.28272v1"
    }
   },
   "Text Quality Evaluation": {
@@ -113341,7 +114068,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -113455,7 +114182,7 @@
     "primary_category": "cs.CY",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -113506,7 +114233,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -113543,7 +114270,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -113581,7 +114308,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -113623,7 +114350,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -113662,7 +114389,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -113703,7 +114430,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -113746,7 +114473,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -113820,7 +114547,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -113915,7 +114642,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -113955,7 +114682,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114001,7 +114728,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114037,7 +114764,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114121,7 +114848,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -114159,7 +114886,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -114199,7 +114926,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114237,7 +114964,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114277,7 +115004,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114315,7 +115042,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114438,7 +115165,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114476,7 +115203,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114515,7 +115242,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114556,7 +115283,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114594,7 +115321,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114631,11 +115358,11 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Next Research",
      "year": 2026
     },
     "status": "unknown",
@@ -114670,7 +115397,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114707,7 +115434,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114745,7 +115472,7 @@
     "primary_category": "cs.SE",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -114786,7 +115513,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114825,11 +115552,12 @@
     "primary_category": "cs.NI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "International Conference on Transparent Optical Networks",
      "year": 2026
     },
     "status": "unknown",
@@ -114910,7 +115638,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -114952,7 +115680,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115033,7 +115761,7 @@
     "primary_category": "cs.CR",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -115072,7 +115800,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115156,7 +115884,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115195,10 +115923,8 @@
     "primary_category": "cs.LG",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-09-18",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-10-21",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -115238,7 +115964,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115276,7 +116002,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115320,7 +116046,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115359,10 +116085,8 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-09-18",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-10-21",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -115443,7 +116167,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115485,7 +116209,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115524,7 +116248,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115564,7 +116288,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -115605,7 +116329,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -115645,7 +116369,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -115682,7 +116406,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -115721,7 +116445,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -115801,7 +116525,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -115880,7 +116604,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -115958,7 +116682,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -115997,7 +116721,7 @@
     "primary_category": "cs.CY",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116036,7 +116760,7 @@
     "primary_category": "cs.CY",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -116075,7 +116799,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116113,7 +116837,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116150,7 +116874,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116195,7 +116919,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -116235,7 +116959,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116275,9 +116999,12 @@
     "primary_category": "cs.SE",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-09-18",
-     "types": [],
-     "venue": "",
+     "checked": "2026-10-21",
+     "types": [
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
      "year": 2026
     },
     "status": "unknown",
@@ -116314,7 +117041,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116353,7 +117080,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116390,7 +117117,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116424,7 +117151,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116508,7 +117235,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116551,9 +117278,12 @@
     "primary_category": "cs.SE",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-09-18",
-     "types": [],
-     "venue": "",
+     "checked": "2026-10-21",
+     "types": [
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
      "year": 2026
     },
     "status": "unknown",
@@ -116598,7 +117328,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116639,7 +117369,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116718,7 +117448,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -116759,7 +117489,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116795,7 +117525,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116831,7 +117561,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -116874,7 +117604,7 @@
     "primary_category": "cs.DC",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116915,7 +117645,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116955,7 +117685,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -116992,7 +117722,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117031,7 +117761,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117071,7 +117801,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117109,7 +117839,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117156,7 +117886,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117192,7 +117922,7 @@
     "primary_category": "cs.MM",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117230,7 +117960,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117269,7 +117999,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117308,7 +118038,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117349,7 +118079,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117391,7 +118121,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -117430,7 +118160,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117467,7 +118197,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117519,7 +118249,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117556,7 +118286,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117595,7 +118325,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117636,7 +118366,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117674,7 +118404,7 @@
     "primary_category": "cs.CR",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117710,7 +118440,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117749,7 +118479,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -117796,7 +118526,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -117834,7 +118564,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117872,7 +118602,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117909,7 +118639,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -117947,7 +118677,7 @@
     "primary_category": "cs.CR",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122572,7 +123302,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122608,7 +123338,7 @@
     "primary_category": "cs.HC",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -122648,7 +123378,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122719,7 +123449,7 @@
     "primary_category": "stat.ML",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -122767,7 +123497,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-09-21",
+     "checked": "2026-10-21",
      "types": [
       "Review"
      ],
@@ -124554,14 +125284,14 @@
      "Maria Becker"
     ],
     "code_url": "https://github.com/brunobrocai/PairDifficulty",
-    "comment": "Accepted as an EMNLP 2026 short paper",
+    "comment": "Accepted as an EMNLP 2026 short paper. v2: improve graph labels",
     "first_seen": "2026-09-30",
     "id": "2609.37577",
     "journal_ref": "",
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.37577v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37577v2",
     "primary_category": "cs.CL",
     "published": "2026-09-29",
     "s2": {
@@ -124575,12 +125305,12 @@
     "tier": "top",
     "title": "Pair Difficulty Matters: Rethinking Pairwise LLM-as-a-Judge Evaluation and Consistency",
     "track": "main",
-    "updated": "2026-09-29",
+    "updated": "2026-10-20",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted as an EMNLP 2026 short paper",
+    "venue_evidence": "Accepted as an EMNLP 2026 short paper. v2: improve graph labels",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2609.37577v1"
+    "version": "2609.37577v2"
    },
    "2609.37773": {
     "abs_url": "https://arxiv.org/abs/2609.37773",
@@ -127314,7 +128044,7 @@
     "matched": [
      "rubric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.19992v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.19992v2",
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
@@ -127324,16 +128054,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Law students are examined through open-text answers: case solutions, essays and memos that apply the law to a set of facts. Such answers are expensive to grade, human graders disagree widely on them, and large language models (LLMs) now offer to grade them at scale, both in teaching and in the benchmarks that test legal AI. This paper systematizes how open-text legal answers can be evaluated. We derive eight desiderata from educational measurement and from the law that governs exams, among them validity, reliability, reasons, credit for defensible alternative solutions, robustness to gaming and human oversight. We then compare eight evaluation paradigms against them, from unstructured human grading to LLM judges with instance-specific rubrics and pairwise comparison. Three findings stand out. A rubric written for the task is the strongest lever for agreement between an LLM judge and human graders, but the reported figures answer different questions and rarely come with the human agreement they must be read against. The central validation gap lies where examination law is most demanding: defensible alternative solutions, follow-on errors, and the examiner's correction of model judgments. And rubric-centred grading is the most auditable family, because it makes the standard, its application and the final decision checkable. From this we derive the trustworthy rubric judge: an instance rubric that credits arguments and alternative paths,evidence checked in code, probes, repeated runs, calibration against independent human grades,logging, and an examiner who reads every script. We state what each safeguard rests on, what remains to be tested, and the uses the evidence supports today.",
+    "summary": "Law students are examined through open-text answers: case solutions, essays and memos that apply the law to a set of facts. Such answers are expensive to grade, human graders disagree widely on them, and large language models (LLMs) now offer to grade them at scale, both in teaching and in the benchmarks that test legal AI. This paper systematizes how open-text legal answers can be evaluated. We derive eight desiderata from educational measurement and from the law that governs exams, among them reasons, credit for defensible alternative solutions, robustness to gaming and human oversight. We then compare eight evaluation paradigms against them, from unstructured human grading to LLM judges with instance-specific rubrics and pairwise comparison. Three findings stand out. A rubric written for the task is the strongest lever for agreement between an LLM judge and human graders, but studies measure that agreement against different references and rarely report how far the human graders agree with each other. The central validation gap lies where examination law is most demanding: defensible alternative solutions, follow-on errors, and the examiner's correction of model judgments. Rubric-centred grading is the most auditable family, because it makes the standard, its application and the final decision checkable. From this we derive the trustworthy rubric judge: an instance rubric that credits arguments and alternative paths, evidence checked in code, probes, repeated runs, calibration against independent human grades, logging, and an examiner who reads every script. Today the evidence supports such a judge for formative feedback and for benchmarks, and as an assistant to the examiner, not a replacement, where credit is at stake.",
     "tier": "none",
     "title": "SoK: Grading Open-Text Legal Answers, from Law School Exams to Trustworthy Rubric Judges",
     "track": "",
-    "updated": "2026-10-14",
+    "updated": "2026-10-20",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.19992v1"
+    "version": "2610.19992v2"
    },
    "2610.22314": {
     "abs_url": "https://arxiv.org/abs/2610.22314",
@@ -127399,6 +128129,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.22915v1",
     "primary_category": "cs.AI",
     "published": "2026-10-16",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Open-ended tool agents can complete the same objective through different tool paths, and their quality depends jointly on the interaction trace, environment state, and final artifacts, so such tasks rarely admit an executable ground-truth reward. The central challenge is therefore to construct a reward from existing experience that exposes the current policy's failures while remaining stationary during optimization. We introduce Reward Engine, which, like a self-motivated student, first works out what success requires and then optimizes toward it. From the task and initial trajectories, it builds a RewardPack of testcases for required correctness and rubrics for graded quality, each executed as a check that returns a judgment with evidence. The frozen RewardPack then guides the agent to revise and select its outputs, and can also serve as a reward for reinforcement learning. On WorkBuddy Bench Office and Claw-Eval, the constructed reward largely agrees with the benchmark graders, not reversing their ordering on 82.3\\% and 80.5\\% of candidate pairs. Used to revise executions, it raises three-run consistency ($\\mathrm{Pass}^{3}$) over Baseline from 45.0\\% to 54.0\\% and from 78.4\\% to 83.7\\%.",
     "tier": "none",
@@ -127428,6 +128164,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.23304v1",
     "primary_category": "cs.HC",
     "published": "2026-10-16",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Enterprise data assistants using large language models (LLMs) promise democratized data access in organizations. Yet in our real-world deployment within the CFO unit's data lake at an industry partner, we observed that business users frequently pose imperfect prompts that include domain-specific vocabulary and lack schema references or structural information. This Design Science Research study examines automatic resolution using a semantic mediation layer. We design and evaluate two design variants: schema-based mediation via semantic similarity, and knowledge graph-based mediation leveraging an automatically constructed knowledge graph from the data lake. Our simulation-based evaluation using real-world data, supported by LLM-as-a-Judge assessments and human validation, shows that knowledge graph-based mediation outperforms the schema-based approach in Precision, Recall, F1, and preserving user intent. We propose a design principle for knowledge graph-based mediation, demonstrating that structured knowledge representation bridges user intent and database structure and guides the design of enterprise data assistants across skill levels.",
     "tier": "none",
@@ -127461,6 +128203,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.24320v1",
     "primary_category": "cs.AI",
     "published": "2026-10-16",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "LLM-as-a-Judge systems are increasingly employed for automated evaluation, yet remain susceptible to systematic biases that undermine their reliability. We demonstrate that the judge can effectively debias itself without additional training. We propose two lightweight strategies: bias-aware prompting, which explicitly alerts the judge to potential target biases prior to evaluation, and self-debiasing, in which the judge critiques the initial judgment for bias influence. To broaden the evaluation scope, we introduce three novel benchmarks--authority bias (fabricated citations), confidence bias (assertive phrasing), and formatting bias (structured presentation)--and evaluate across seven bias types in total. Across three frontier models, self-debiasing improves performance in 20 out of 21 model-bias combinations with gains up to 15 percentage points, while bias-aware prompting also yields consistent improvements. The recent fine-tuned external critic, however, does not generalize as reliably to the newly-introduced bias types (degradation observed in 5 out of 9 cases). Our findings demonstrate that prompting a judge to reason about bias, either preemptively or retrospectively, is a robust and generalizable approach for enhancing evaluation integrity.",
     "tier": "none",
@@ -127496,6 +128244,14 @@
     "pdf_url": "https://arxiv.org/pdf/2610.24971v1",
     "primary_category": "cs.CL",
     "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Checklist rubrics applied by large language model (LLM) judges have become a standard instrument for evaluating open-ended outputs and for rewarding them during training. Two assumptions surround this practice: that leniency or strictness is a property of the judge model, and that a rubric can be improved by asking a model to review it. We test both in a controlled grading task with planted flaws and on two human-labeled datasets, SummEdits and RAGTruth. Holding the judge and the outputs fixed, rubric content moves the pass rate of correct outputs from 2% to 100%, whereas changing the judge model or the rendering of the same checks moves it by a few points. Model self-review then drifts the rubric toward the reviser's own standard: it adds requirements the task never stated and deletes checks that human labels had taught, with three reviser models and on all three datasets. To measure and control this, we show that under all-must-pass aggregation the Shapley value of each check has an exact closed form, which yields per-check catch credit, false-fail blame and unique catches in linear time. Attribution shows that self-review deletes the checks that do unique work and keeps the checks that cause false fails. A change-control gate that combines these quantities with a provenance freeze on label-derived checks holds nearly every drifting revision chain at its starting quality, with identical decisions under three judge models.",
     "tier": "none",
@@ -127528,6 +128284,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25182v1",
     "primary_category": "cs.AI",
     "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Large-scale conversational recommendation datasets typically require manual dialogue construction or annotation. We propose SearCl, which automatically generates conversational recommendation dialogues grounded in user search and click behaviors. SearCl segments user interactions into query sessions and derives each recommendation target from content selected after a search query. A configurable probabilistic state machine controls the dialogue flow, while two LLM agents acting as the seeker and recommender generate utterances according to turn-level constraints. To support recommendation, the recommender is provided with knowledge graphs constructed from metadata about the content items used in each dialogue, capturing their attributes and relationships. Using SearCl, we generate 3,538 dialogues from content search and click interaction data, covering 1,731 unique target items. Under an LLM-as-a-judge protocol, the resulting dialogues achieve higher quality scores than dialogues from existing benchmarks. These results demonstrate that SearCl enables controllable and knowledge-grounded dataset construction without human annotations.",
     "tier": "none",
@@ -127610,6 +128372,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25553v1",
     "primary_category": "cs.AI",
     "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "System One models, introduced with TypeSafe's Jev, answer typed questions about a state with calibrated probabilities instead of generated text: choosing among options described in natural language (Choice), placing the state on an ordered scale (Score), or judging a yes/no statement (Noul). Jev is general-purpose: one set of weights, served as an API and adapted to a domain only through the request. We study the other end of the design space. A Narrow Decision Model (NDM) offers the same interface but is trained for the decisions of one organization, is small enough to run on its own infrastructure, and has an open architecture whose properties can be stated and tested. The state can be any text or structured record about which decisions are made; our running case is the routing of court communications. The architecture serializes a request as a prefix tree (the state, then each question, then each option) and runs a bidirectional encoder under a block attention mask with logical positions, so that each answer is, by construction, invariant to the order of its options and independent of the other questions asked. Routing through an organization chart is a composition of Choice decisions with an explicit \"none of these\" option. We describe training with proper scoring rules through a curriculum, calibration and abstention, decisions composed by rubrics, and a protocol that accepts or rejects the mechanism before held-out data is opened. A minimal validation on public and fictitious data shows that the invariances hold to rounding in a trained model, that a small instance routes on organization charts it has never seen well above lexical retrieval, and that, at equal compute, the block architecture reaches a lower loss than a pairwise cross-encoder. A first instance trained on real legal documents agrees with the LLM classifier in production on 91% of held-out documents.",
     "tier": "none",
@@ -127641,6 +128409,14 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25568v1",
     "primary_category": "cs.AI",
     "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Completing complex tasks with language-model agents requires coordinating planning, execution, and review so the final result addresses the user's original objective. We present an agent execution harness that keeps the original objective separate from a revisable plan and an execution record. A planner assigns scoped tasks, workers produce outputs and artifacts, and a reviewer examines results against the original request before submitting or requesting additional work. Reusable domain-specific instructions guide these roles and are refined during construction using task inputs and execution trajectories, without official grading feedback. We evaluate complete harness configurations across terminal tasks, clinical responses, application building, and scientific questions. On Terminal-Bench 2.1, the harness passes 83 of 89 instances (93.26%); on HealthBench Professional, a Fable-configured system achieves a length-adjusted rubric score of 69.63 across 525 tasks. In a 53-task paired HealthBench comparison, the Fable-configured harness achieves an aggregate score 19.89 points higher than direct completion, despite a $-1.46$-point median task-level change; mean inference cost rises from \\$0.29 to \\$2.13 per task. We combine these outcomes with latency, documented instruction revisions, and reviewer decisions. Evaluating outcomes alongside execution trajectories and resource use clarifies how coordination supports task completion, where it introduces regressions, and at what cost.",
     "tier": "none",
@@ -127673,6 +128449,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25724v1",
     "primary_category": "cs.CL",
     "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
     "status": "unknown",
     "summary": "Automated essay scoring (AES) using large language models (LLMs) offers promising use cases for language assessment, yet high-stakes testing requires scores that are both controllable and verifiable, which current LLM-based scorers lack. Given that, we investigate whether LLM-based scorers form distinct internal representations for individual scoring rubrics and whether these representations can be independently controlled. Probing and steering 25 open-weight base LLMs (0.13B-10.31B parameters; 14 families) on human-scored BESTEP English writing tasks, we find that holistic scores are decodable from model activations for the longer tasks (Parts 2 and 3) and only weakly for the shortest (Part 1). Furthermore, scoring rubrics have partly separable directions in representation space for the longer tasks, though not for short responses (Part 1). However, causal steering reveals a critical limitation: applying a matching intervention (e.g., steering \"grammar\" on a grammar-degraded response) yields only a negligible advantage (about 2% of the effect) over a mismatched intervention (e.g., steering \"vocabulary\"), and none that is detectable in any of the 10 testable comparisons across reliably measured rubrics. Rather than controlling distinct evaluative dimensions, the rubric directions share a dominant lever whose rubric-specific parts are not selective, which may mirror the halo structure of human ratings. Our contributions are two-fold. First, we show that analytic scoring rubrics designed for human raters do not behave as independent controls in base LLMs, even among the seven models whose scores agree best with human raters ($r \\geq 0.6$). Second, we establish a methodology that shows that score agreement and decodability do not imply rubric-level control in LLM-based assessment.",
     "tier": "none",
@@ -127705,6 +128487,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.25908v1",
     "primary_category": "cs.CL",
     "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Large reasoning models (LRMs) have achieved strong performance on challenging mathematical and scientific tasks through long chain-of-thought reasoning, but they often suffer from overthinking with unnecessary reasoning steps. Existing truncation-based methods typically detect consecutive trial-answer agreement and force early exit, yet such local stopping signals do not necessarily indicate final-answer stability and can disrupt useful subsequent reflection or verification, potentially leading to performance degradation. We propose consistency-aware logit masking (CALM), a training-free decoding intervention for mitigating overthinking in LRMs. CALM first monitors trial answers at step boundaries and then applies logit masking to action transition point (ATP) tokens such as \"Wait\", \"Alternatively\", and \"Hmm\", suppressing redundant transitional reasoning while allowing the model to continue its thought process more naturally. Experiments across four advanced LRMs and five benchmarks show that CALM reduces token consumption by 18.6%-25.0% compared with full CoT reasoning while maintaining performance, and can even improve accuracy by 0.07%-1.48% by reducing redundant reasoning. LLM-as-a-Judge results also demonstrate that CALM provides more coherent and concise results.",
     "tier": "none",
@@ -127742,6 +128530,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.26426v1",
     "primary_category": "cs.CL",
     "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Rubric-based reinforcement learning (RL) trains policies for open-ended generation with natural-language criteria as rewards, but these rewards can become ineffective as training progresses. We identify two failure modes. Under non-discriminative rewards, scores collapse to uniformly low or high values due to insufficient exploration or a mismatch between task difficulty and policy capability. Under spurious rewards, higher scores do not correspond to better responses. Both reflect a training configuration whose task sampling, exploration, and evaluation stay fixed as the policy evolves. We introduce HarnessRL, a training-time harness that co-evolves with the policy through three interfaces for task sampling, rollout guidance, and rubric criteria. HarnessRL maintains a training-time memory from which a harness evolver retrieves within-task history and cross-task evidence. Using this evidence, the evolver attributes each reward failure to the interface whose update can address it. It then runs a proposer and just-in-time critic loop in which the critic accepts a candidate update only after measuring its effect on the current frozen policy, returning rejected candidates for revision. We also curate Rubric-Mix-10k, a five-domain training and evaluation suite for open-ended RL across medical, science, writing, role-play, and instruction-following tasks. On Rubric-Mix-10k, HarnessRL outperforms the strongest baselines by 2.8 to 3.1 points across both 4B and 9B model scales and nearly halves the training steps to its best checkpoint. Code and data are available at https://github.com/Tongyi-ConvAI/Qwen-Character/tree/main/HarnessRL.",
     "tier": "none",
@@ -127816,6 +128610,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.26511v1",
     "primary_category": "cs.AI",
     "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Conversational AI systems built on Large Language Models (LLMs) require routing mechanisms that balance answer quality and response latency at scale. However, existing LLM routing benchmarks assume full observability of all candidate model outcomes, under-emphasize latency as a first-class metric, and fragment evaluation across heterogeneous protocols misaligned with real-world settings. We introduce RouterWorld, a comprehensive benchmark for LLM routing in conversational GenAI. RouterWorld unifies 371k single-turn responses and 76k multi-turn agentic trajectories, adopts natural user interactions with a standardized LLM-as-a-judge protocol, and decouples efficiency from transient pricing via hardware-grounded latency annotations. Crucially, RouterWorld formalizes routing under partial observability through two setups: Cold-Start, which restricts learning to sparse, static logs, and Voyager, which models continuous data streams where routing decisions shape future training distributions. Evaluating 13 routing baselines, we find that most routers over-emphasize accuracy while ignoring latency under partial observability. Code and benchmark data are publicly available.",
     "tier": "none",
@@ -127848,6 +128648,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.26844v1",
     "primary_category": "cs.AI",
     "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
     "status": "unknown",
     "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics generalization, and downstream planning performance remains underexplored. We study this relationship through the lens of compositional generalization: can a world model recombine familiar state and action factors into valid dynamics? To answer this, we introduce AnyGoal, a benchmark of goal-shifted task variants built from widely used world-model environments, together with an open-source library. Each task is designed to be within reach of a world model that has learned the underlying dynamics: individual state factors and actions remain within their training support, but their combinations are underrepresented in expert trajectories. Across multiple environments and world model families, we find that current models consistently exhibit failures under these recombinations. By examining dynamics and representation failures across model families, interaction regimes, and evaluation metrics, we study where current world models generalize and where challenges remain for goal-shifted prediction and planning. Together, this framework, benchmark, and analysis provide a basis for evaluating progress toward world models that generalize to new planning tasks.",
     "tier": "none",
@@ -127859,6 +128665,155 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.26844v1"
+   },
+   "2610.26932": {
+    "abs_url": "https://arxiv.org/abs/2610.26932",
+    "authors": [
+     "Ashish Bansal",
+     "Hossam Amer",
+     "Keerat Kaur Guliani",
+     "Parinita Edke",
+     "Lesley Matheson",
+     "Leizer Teran"
+    ],
+    "code_url": "",
+    "comment": "11 pages, 4 figures, RL4LLM-Agents workshop ICAIF ACM",
+    "first_seen": "2026-10-21",
+    "id": "2610.26932",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.26932v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-17",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) are increasingly deployed as autonomous agents in non-verifiable domains such as financial services, where they must interpret user intent, rewrite queries, and retrieve information under domain-specific constraints. Although reinforcement learning (RL) can train such agents from the consequences of their actions, recent successes largely rely on verifiable tasks with automatically computed binary rewards. In non-verifiable retrieval tasks, assessing query quality requires scarce subject-matter expert (SME) judgment that is inherently graded rather than binary. With Group Relative Policy Optimization (GRPO), sparse rewards yield no useful learning signal when all sampled outputs within a group receive the same outcome, causing optimization to stall. We introduce a method that converts a small, fixed investment of SME judgment into a dense reward and combines it with retrieval-based metrics to form a hybrid, GRPO-compatible training signal. Experiments show improvements of up to 6\\% in Recall@3 and 6.7\\% in MRR@3 compared with sparse-reward baselines.",
+    "tier": "none",
+    "title": "Expert-Guided Rubrics as Dense Reward Signals for Reinforcement Learning in Non-Verifiable Domains",
+    "track": "",
+    "updated": "2026-10-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.26932v1"
+   },
+   "2610.27347": {
+    "abs_url": "https://arxiv.org/abs/2610.27347",
+    "authors": [
+     "Soukaina Alaoui Ismaili",
+     "Jean-Sebastien Dessureault"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2610.27347",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27347v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Checking whether a text complies with a body of law is slow when done by hand and fragile when done with keyword rules. This paper presents ComplianceAgent, the legal compliance sub-agent of COMPASS, a multi-agent framework that evaluates texts along four axes: digital sovereignty, carbon impact, compliance, and ethics. The agent relies on a large language model that scores a text on a fixed rubric, grounds its judgment in a reference legal corpus, and, when the score falls at or below a critical threshold, runs a corrective chain made of self-healing rewrites, a compliance label, an explainability report, and escalation to a human reviewer. We describe what the language model does at each step, how the memory of the agent is organized, and how the same implementation can be pointed at different reference corpora. We evaluate the agent in a Canadian and Quebec context, on a corpus of thirteen legal instruments that brings together federal and provincial texts, international treaties, and municipal documents of the City of Trois-Rivières. The evaluation relies on a hand-annotated gold standard of fifteen texts and combines classification metrics, a repeated-query stability test, retrieval precision, and a composite score. On this gold standard the agent separates every conforming text from every non-conforming one, its scores remain stable under repeated queries, and the index returns relevant passages.",
+    "tier": "none",
+    "title": "An LLM-Based Agent for Legal Compliance Assessment: Architecture, Memory, and Evaluation in a Canadian and Quebec Context",
+    "track": "",
+    "updated": "2026-10-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27347v1"
+   },
+   "2610.27652": {
+    "abs_url": "https://arxiv.org/abs/2610.27652",
+    "authors": [
+     "Wonsup Shin",
+     "Jingu Kim"
+    ],
+    "code_url": "https://github.com/wonsupshin-flitto/speech-corpus-ablation",
+    "comment": "14 pages, 3 figures, 9 tables. Code and data: https://github.com/wonsupshin-flitto/speech-corpus-ablation",
+    "first_seen": "2026-10-21",
+    "id": "2610.27652",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27652v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Practitioners building training corpora with a pipeline of language models keep a preprocessing or refinement (post-process) stage when switching it on raises the corpus quality. We ablate a production pipeline that turns conference speech into question-answer pairs. The preprocessing stage rewrites the transcript, and the refinement stage filters the generated pairs. Switching each on and off gives four corpora from the same 40 Korean medical and finance sessions. On the corpus itself, quality rises as the stages switch on. Four LLM judges and six human domain experts rank the four corpora the same way, and the fully refined corpus leads by +0.18 and +0.22 on a 1-5 scale. We then ask whether that gain carries downstream. We supply each corpus to six models at inference and measure retrieval accuracy. The ranking does not hold. Enabling the transcript rewrite lowers retrieval accuracy by 0.061, the only stage effect that survives correction for multiple comparisons. That stage also reads the whole session, so it almost doubles the cost of one. With both stages on, accuracy does not change. An equivalence test we declared in advance confirms this. The corpus itself is clearly valuable. It lifts retrieval accuracy from 0.231 to 0.748 in every model and domain we test. More than a third of its pairs carry knowledge that neither of two frontier models produces on its own. On our data, the null does not come from weak corpora. A rising score on a rubric of this kind did not predict what the corpus holds for a model.",
+    "tier": "none",
+    "title": "Corpus Quality Improves, Retrieval Utility Does Not: An Ablation of Preprocessing and Refinement in a Speech-to-QA Pipeline",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27652v1"
+   },
+   "2610.28010": {
+    "abs_url": "https://arxiv.org/abs/2610.28010",
+    "authors": [
+     "Artem Mikhaylov",
+     "Pavel Konoplev",
+     "Nikolay Efanov",
+     "Artyom Sorokin",
+     "Evgeny Burnaev"
+    ],
+    "code_url": "",
+    "comment": "12 pages, 8 figures, 3 tables. Includes appendices",
+    "first_seen": "2026-10-21",
+    "id": "2610.28010",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.28010v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The integration of Large Language Models and Reinforcement Learning offers a promising direction for complex sequential decision-making tasks, such as multi-hop question answering over knowledge graphs. While LLMs provide strong semantic understanding and reasoning capabilities, they often struggle with precise, multi-step navigation in structured environments. Conversely, RL agents excel at learning navigation policies but are hindered by the difficulty of designing semantically meaningful reward functions. This paper introduces a novel hybrid approach in which an LLM serves as a mentor to an RL agent during training by providing dense, semantically informed reward signals. The RL agent, built on a Transformer-based policy and trained with Group Relative Policy Optimization, learns to navigate a knowledge graph to retrieve relevant information. The LLM evaluates the semantic relevance of the agent's traversed paths, generating reward signals that align the agent's behavior with the information needs expressed in a query. We integrate this Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards (RANGER) into a complete question-answering pipeline and evaluate it on the open question answering datasets. Experimental results show that the proposed approach outperforms both a baseline retrieval-augmented system with classical graph search and one using an RL agent trained with heuristic rewards, achieving a significant increase in NLP metrics and LLM-as-a-Judge scores. Our findings demonstrate that deep integration of LLMs into the RL training loop yields more effective and semantically aligned retrieval policies for complex reasoning tasks.",
+    "tier": "none",
+    "title": "RANGER: Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.28010v1"
    }
   },
   "Writing Agent": {
@@ -139549,10 +140504,8 @@
     "primary_category": "cs.CL",
     "published": "2026-03-16",
     "s2": {
-     "checked": "2026-09-18",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-10-21",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -139592,7 +140545,7 @@
     "primary_category": "cs.HC",
     "published": "2026-03-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -139632,7 +140585,7 @@
     "primary_category": "cs.CV",
     "published": "2026-03-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -139693,7 +140646,7 @@
     "primary_category": "cs.SD",
     "published": "2026-03-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -139732,7 +140685,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -139772,7 +140725,7 @@
     "primary_category": "cs.AI",
     "published": "2026-03-22",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -139854,7 +140807,7 @@
     "primary_category": "cs.CV",
     "published": "2026-03-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -139936,7 +140889,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140017,7 +140970,7 @@
     "primary_category": "cs.CV",
     "published": "2026-03-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140059,7 +141012,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140101,7 +141054,7 @@
     "primary_category": "cs.HC",
     "published": "2026-03-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140141,7 +141094,7 @@
     "primary_category": "cs.LG",
     "published": "2026-03-31",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140183,10 +141136,8 @@
     "primary_category": "cs.AI",
     "published": "2026-04-01",
     "s2": {
-     "checked": "2026-09-18",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-10-21",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -140220,7 +141171,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140299,7 +141250,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140337,7 +141288,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140412,7 +141363,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140660,7 +141611,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140698,7 +141649,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140741,7 +141692,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -140777,7 +141728,7 @@
     "primary_category": "cs.DL",
     "published": "2026-04-09",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -140904,7 +141855,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -140939,7 +141890,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141013,7 +141964,7 @@
     "primary_category": "cs.CV",
     "published": "2026-04-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141052,7 +142003,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141213,7 +142164,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141291,7 +142242,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141332,7 +142283,7 @@
     "primary_category": "cs.CR",
     "published": "2026-04-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141368,7 +142319,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141408,7 +142359,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141489,7 +142440,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -141573,7 +142524,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141615,7 +142566,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141693,7 +142644,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141775,7 +142726,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141820,7 +142771,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141899,7 +142850,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-05",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141941,7 +142892,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -141980,7 +142931,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142021,7 +142972,7 @@
     "primary_category": "cs.DL",
     "published": "2026-05-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142073,7 +143024,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-08",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142111,7 +143062,7 @@
     "primary_category": "cs.NE",
     "published": "2026-05-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142149,7 +143100,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -142225,7 +143176,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142352,7 +143303,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142388,7 +143339,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142430,7 +143381,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142505,7 +143456,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-19",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142581,7 +143532,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-19",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -142667,7 +143618,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142706,7 +143657,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142751,7 +143702,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-26",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142791,7 +143742,7 @@
     "primary_category": "cs.CY",
     "published": "2026-04-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142836,7 +143787,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142877,7 +143828,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142915,7 +143866,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142962,7 +143913,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -142999,7 +143950,7 @@
     "primary_category": "cs.DC",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -143043,7 +143994,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143102,7 +144053,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143140,10 +144091,8 @@
     "primary_category": "cs.LG",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-09-18",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-10-21",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -143180,7 +144129,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143219,7 +144168,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143367,7 +144316,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -143493,7 +144442,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143572,7 +144521,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143608,7 +144557,7 @@
     "primary_category": "stat.ML",
     "published": "2026-06-12",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143651,7 +144600,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143691,7 +144640,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143732,7 +144681,7 @@
     "primary_category": "cs.HC",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143771,7 +144720,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -143845,7 +144794,7 @@
     "primary_category": "econ.GN",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143890,7 +144839,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143930,7 +144879,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -143966,7 +144915,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-20",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144006,7 +144955,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144043,7 +144992,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -144083,7 +145032,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144127,7 +145076,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144165,7 +145114,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144291,7 +145240,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144330,7 +145279,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144368,7 +145317,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144407,7 +145356,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144444,7 +145393,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144487,7 +145436,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144529,7 +145478,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144565,7 +145514,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144601,7 +145550,7 @@
     "primary_category": "cs.SD",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144645,7 +145594,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144688,7 +145637,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144729,7 +145678,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144772,11 +145721,11 @@
     "primary_category": "cs.HC",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
      "year": 2026
     },
     "status": "unknown",
@@ -144813,7 +145762,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -144858,7 +145807,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle",
       "Review"
@@ -144984,7 +145933,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -145024,7 +145973,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [
       "JournalArticle"
      ],
@@ -145061,7 +146010,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145095,7 +146044,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145132,7 +146081,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145170,7 +146119,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-27",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145210,7 +146159,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145246,7 +146195,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145283,7 +146232,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145318,7 +146267,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145359,7 +146308,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145401,7 +146350,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145441,7 +146390,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145476,7 +146425,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145515,7 +146464,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-09-18",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145531,6 +146480,41 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2608.17979v1"
+   },
+   "2608.18679": {
+    "abs_url": "https://arxiv.org/abs/2608.18679",
+    "authors": [
+     "Ayoub El Bouchtili",
+     "Guilhaume Leroy-Meline"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-21",
+    "id": "2608.18679",
+    "journal_ref": "",
+    "matched": [
+     "document generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.18679v1",
+    "primary_category": "cs.CV",
+    "published": "2026-08-19",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Structured documents such as invoices, forms, reports, and scientific articles derive meaning from the interplay between spatial layout, textual content, and logical structure. Generative models operating at the pixel or token level often struggle to capture these dependencies effectively. We explore FRAGMENT, a generative framework that represents a document as a typed relational graph and factorizes its distribution as p(structure, content) = p(structure) * p(content | structure). The framework consists of two stages. The first stage, the Architect, is a causally masked Transformer conditioned on document category that autoregressively generates the graph topology and typed spatial relations. The second stage, the Builder, is a GATv2-based graph attention network that enriches the graph with normalized bounding boxes, text, and visual style attributes. Both stages define explicit likelihood models, yielding a tractable document-level likelihood that serves as an anomaly score for forgery detection. For controlled editing, a prompt-conditioned extension injects instruction embeddings into the Builder through cross-attention, enabling semantic and entity-aware modifications. We describe training on DocLayNet and fine-tuning on FUNSD and SROIE. Experiments on DocLayNet, FUNSD, and SROIE evaluate FRAGMENT alongside representative autoregressive, layout-only, and graph-based baselines, providing an empirical analysis of the characteristics and trade-offs of the proposed factorized graph generation framework.",
+    "tier": "none",
+    "title": "FRAGMENT: Factorized Graph Representations for Document Generation and Editing via Entity-Aware Transformations",
+    "track": "",
+    "updated": "2026-08-19",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2608.18679v1"
    },
    "2608.18744": {
     "abs_url": "https://arxiv.org/abs/2608.18744",
@@ -145553,7 +146537,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-09-19",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -145634,7 +146618,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-09-20",
+     "checked": "2026-10-21",
      "types": [],
      "venue": "",
      "year": 2026
@@ -147863,6 +148847,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.23974v1",
     "primary_category": "cs.CV",
     "published": "2026-10-13",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
     "status": "unknown",
     "summary": "Visual token pruning is increasingly used to reduce the memory and inference costs of vision-language models. Existing work has largely focused on designing method-specific selectors and demonstrating incremental improvements over prior methods at selected token budgets. It remains unclear whether the resulting performance reflects an inherent limit of visual token pruning or the limitations of current token-selection algorithms. We take a complementary perspective and ask: \\emph{how well can visual token pruning perform when offline search cost is not the primary constraint?} We formulate pruning for general image understanding as selecting, under a fixed budget, one shared visual-token subset that supports a broad distribution of questions about an image. We approximate this utility with a finite auxiliary QA set generated by a frontier VLM and optimize a teacher-forced answer-probability objective with the evaluated model frozen. Motivated by the conceptual monotonicity and diminishing returns of adding visual evidence, we construct nested subsets greedily and introduce \\emph{QA mini-batch greedy} (QA-MBG), which estimates token marginal gains from randomly sampled QA components at each step. Empirically, QA-MBG is both cheaper and more effective than full greedy. With one frontier-VLM call and approximately $0.5$ H100 GPU-hours per image, it produces a nested subset trajectory covering keep ratios up to $0.3$. Across Qwen3-VL-4B and Gemma~4 E4B on $900$ images from nine benchmarks, we find significant headroom over evaluated pruning baselines on held-out QA and image-grounded long-form generation, while the searched subsets substantially narrow the gap to full-token inference.",
     "tier": "none",
@@ -147912,6 +148902,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.26496v1"
+   },
+   "2610.27863": {
+    "abs_url": "https://arxiv.org/abs/2610.27863",
+    "authors": [
+     "Yue Xu",
+     "Xiyang Wang",
+     "Hui Liu",
+     "Bolei He"
+    ],
+    "code_url": "",
+    "comment": "29 pages",
+    "first_seen": "2026-10-21",
+    "id": "2610.27863",
+    "journal_ref": "",
+    "matched": [
+     "co-writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.27863v1",
+    "primary_category": "cs.SE",
+    "published": "2026-10-20",
+    "s2": {
+     "checked": "2026-10-21",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The increasing use of large language models for code generation calls for methods that distinguish purely human-written code from AI-involved code: files in which any part, however small, was generated or substantially modified by a model. Beyond flagging such files, we aim to localize the lines or blocks attributable to AI. Existing approaches compress a file into a single score, from surface stylistic features or a global code representation, which averages away the evidence when only a few blocks are AI-involved. We propose a framework that models AI authorship at the token level and predicts at the line, block, and file levels. A frozen code language model is equipped with two low-rank adapters, trained separately on machine-written and human-written files; their per-token log-likelihood ratio provides local evidence of AI authorship. Lightweight heads aggregate this evidence within lines and blocks, using the surrounding code context, and their local predictions are aggregated into a file-level decision. We train on mixed-authorship files built from human originals and their AI-generated or AI-modified counterparts, including continuation and fill-in-the-middle scenarios. On an internal test set of 11,773 AI-involved files across six generation regimes against 2,541 human files, our method reaches 72.4 macro F1 at a 1% FPR operating point. With no adaptation, it reaches 62.5 line-level F1 on HybridCodeAuthorship, an external human-AI co-writing benchmark with no training split, above the 56 its own paper reports as the best line-level result. On 19,445 human-written files from repositories created before 2022, the false-positive rate stays between 0.55% and 0.81% under the transported 1% threshold, so the operating point holds on real human code.",
+    "tier": "none",
+    "title": "From Tokens to Files: Multi-Granularity Detection and Localization of AI-Involved Code",
+    "track": "",
+    "updated": "2026-10-20",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.27863v1"
    }
   }
  }

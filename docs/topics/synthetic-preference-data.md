@@ -2,15 +2,16 @@
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-381 papers, newest first. Generated on **2026-10-20** (UTC).
+382 papers, newest first. Generated on **2026-10-21** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (196)](#2026) · [2025 (94)](#2025) · [2024 (91)](#2024)
+Browse by year: [2026 (197)](#2026) · [2025 (94)](#2025) · [2024 (91)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-20**|<details><summary>How Language Models Learn Taste: Brand Preference in LLMs</summary><br>Asked to name a running shoe brand, language models say Nike. Asked to recommend one, they say Brooks. This paper asks where models learn that taste. Across 102 models and 42 brand categories, the brand a model picks when recommending differs from the brand it names in 26. The field moves together to a shared recommendation. The Named brands are market leaders, and the Picked brands are mostly niche and specialist. Three open training pipelines show where this forms. Pretraining already attaches...</details>|-|Tapan Parikh|[2610.28272](https://arxiv.org/abs/2610.28272)|null|
 |**2026-10-19**|<details><summary>A Pitfall in the Evaluation of Gene Perturbation Models</summary><br>Gene perturbation models aim to predict transcriptional responses to unseen genetic interventions, but comparisons rely on heterogeneous evaluation metrics and differentially-expressed (DE) gene subsets. We investigate the consequences of these choices using eight methods across six single-gene perturbation datasets under a unified evaluation protocol. Varying the number of top DE genes reveals substantial instability in Precision-based rankings, with the winning method changing $86.7\%$ of the...</details>|-|George Panagopoulos et al.|[2610.26267](https://arxiv.org/abs/2610.26267)|null|
 |**2026-10-18**|<details><summary>Aligning Cultural Behaviors in Arabic Language Models via Preferences</summary><br>Arabic LLMs have improved rapidly, but aligning them with country-specific cultural behavioral preferences remains underexplored. Previous work has focused primarily on instruction-tuning for factual knowledge, overlooking nuanced cultural behaviors. We propose ArabPref, which to our knowledge is the first large-scale pan-Arab preference data set for the alignment of cultural behavior conditioned on the country. Our contribution includes two resources in English and Modern Standard Arabic: a cul...</details>|EMNLP 2026|Junhong Liang et al.|[2610.25362](https://arxiv.org/abs/2610.25362)|null|
 |**2026-10-18**|<details><summary>Operator-Mismatch Contrastive Learning for World-Relative Trajectory Coherence</summary><br>World models are increasingly judged by how well they rank plausible futures, yet plausibility alone is the wrong target. The same scene can evolve under many latent rules, and a future that is smooth and physically valid under one rule can be incoherent under the rule actually in force. We formalize the resulting failure, operator-blindness, and show that it is systematically hidden by standard evaluation: a scorer can attain near-perfect generic ranking while separating current-world from othe...</details>|-|One Octadion et al.|[2610.25360](https://arxiv.org/abs/2610.25360)|null|

@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-20** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-21** (UTC).
 Back to the [main page](../README.md).
 
-882 of 3366 papers carry venue evidence.
+884 of 3388 papers carry venue evidence.
 
-## Top-tier venues (580)
+## Top-tier venues (582)
 
 ### EMNLP (151)
 
@@ -352,12 +352,14 @@ Back to the [main page](../README.md).
 |**2024-05-26**|Automatically Generating Numerous Context-Driven SFT Data for LLMs across Diverse Granularity|AAAI 2024|Multilingual & Cross-Lingual Agents|[2405.16579](https://arxiv.org/abs/2405.16579)|
 |**2024-05-02**|The Psychosocial Impacts of Generative AI Harms|AAAI 2024|Writing Agent|[2405.01740](https://arxiv.org/abs/2405.01740)|
 
-### NeurIPS (61)
+### NeurIPS (63)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-10-18**|When Empathy Misses the Goal: A Benchmark for Goal Displacement in LLM Advice|NeurIPS 2026|Reward & Value Models|[2610.25522](https://arxiv.org/abs/2610.25522)|
+|**2026-10-20**|TPO: Tri-level Distributionally Robust Learning for OOD Direct Preference Optimization|NeurIPS 2026|Reward & Value Models|[2610.28229](https://arxiv.org/abs/2610.28229)|
+|**2026-10-20**|When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction|NeurIPS 2026|Search & Control for Generation|[2610.28393](https://arxiv.org/abs/2610.28393)|
 |**2026-10-18**|SteadyThought: Mitigating LLM Under-Thinking via Thought-Level Preference Optimization|NeurIPS 2026|Reward & Value Models|[2610.25045](https://arxiv.org/abs/2610.25045)|
+|**2026-10-18**|When Empathy Misses the Goal: A Benchmark for Goal Displacement in LLM Advice|NeurIPS 2026|Reward & Value Models|[2610.25522](https://arxiv.org/abs/2610.25522)|
 |**2026-10-15**|Progress Reward Model for Reinforcement Learning via Large Language Models|NeurIPS 2025|Reward & Value Models|[2610.22056](https://arxiv.org/abs/2610.22056)|
 |**2026-10-15**|LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation|NeurIPS 2026|Reward & Value Models|[2610.22372](https://arxiv.org/abs/2610.22372)|
 |**2026-10-14**|Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems|NeurIPS 2026|Reward & Value Models, Search & Control for Generation|[2610.19362](https://arxiv.org/abs/2610.19362)|

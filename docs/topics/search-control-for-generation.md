@@ -2,15 +2,16 @@
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-228 papers, newest first. Generated on **2026-10-20** (UTC).
+229 papers, newest first. Generated on **2026-10-21** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (131)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
+Browse by year: [2026 (132)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-20**|<details><summary>When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction</summary><br>Precisely reproducing a target span verbatim within a long context is a fundamental capability test for LLMs: even when the target string is present in context, models often still drift within the span or fail to stop correctly, revealing limitations in source grounding and boundary control. This capability has broad practical relevance. For instance, code generation often requires embedding sensitive strings such as API keys exactly as they appear in context. In this work, we construct a benchm...</details>|NeurIPS 2026|Jinghui Zhang et al.|[2610.28393](https://arxiv.org/abs/2610.28393)|**[link](https://github.com/mbzuai-nlp/CopyGen)**|
 |**2026-10-19**|<details><summary>When to Stop Asking: Factor Coverage Bias and LLM Determinability Judgments with Underspecified Information in Medicine</summary><br>Clinical decision-making often begins with underspecified information and requires not only gathering missing information but also knowing when to stop. This calls for judging determinability (whether the available information is sufficient for a decision) by considering whether missing information could change the conclusion, not simply the amount of available decision-relevant information. Reliance on this amount as a cue for determinability, which we term \textit{factor coverage bias}, could...</details>|-|Yusuke Watanabe et al.|[2610.25819](https://arxiv.org/abs/2610.25819)|null|
 |**2026-10-18**|<details><summary>ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference</summary><br>Test-time scaling (TTS) improves large language model (LLM) reasoning by sampling multiple answers, but fixed sampling budgets ignore both query difficulty and the changing energy cost of inference under GPU contention. We measure up to a 4.1-fold increase in energy for the same four-sample query as GPU load rises. We present ATEST, a resource-aware TTS framework that jointly considers the expected value of additional samples and their current GPU cost. ATEST-Online, its default mode, requires n...</details>|-|Mobina Kashaniyan et al.|[2610.25519](https://arxiv.org/abs/2610.25519)|null|
 |**2026-10-16**|<details><summary>VISTA: Steering LLMs with Latent User Values Inferred from a Few Survey Answers</summary><br>Personalizing a language model requires knowing what a person values, which stays largely consistent across tasks. Yet most methods either learn task-specific preferences or place the user's profile in the prompt, where models struggle to act on it. We introduce VISTA (Value-Informed Steering and Targeted Acquisition), which infers a latent profile from users' (full or partial) survey answers, and maps the profile through a hypernetwork to a user-specific steering intervention in a frozen LLM to...</details>|-|Yinuo Xu et al.|[2610.23702](https://arxiv.org/abs/2610.23702)|null|
