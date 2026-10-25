@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-24** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-25** (UTC).
 Back to the [main page](../README.md).
 
-895 of 3447 papers carry venue evidence.
+896 of 3447 papers carry venue evidence.
 
-## Top-tier venues (592)
+## Top-tier venues (593)
 
 ### EMNLP (152)
 
@@ -285,11 +285,12 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### AAAI (67)
+### AAAI (68)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-10-09**|Personalized Federated Direct Preference Optimization via LoRA Adapters|AAAI 2026|Reward & Value Models, Synthetic Preference Data|[2610.12885](https://arxiv.org/abs/2610.12885)|
+|**2026-08-23**|"I want to be pushed, I want to grow": Enabling social workers to design evaluations of LLM augmentation in their work|AAAI 2026|Text Quality Evaluation|[2608.22459](https://arxiv.org/abs/2608.22459)|
 |**2026-07-18**|A Method for Learning Value Systems in Generative AI|AAAI 2026|Reward & Value Models, Synthetic Preference Data|[2607.16903](https://arxiv.org/abs/2607.16903)|
 |**2026-04-06**|Metaphors We Compute By: A Computational Audit of Cultural Translation vs. Thinking in LLMs|AAAI 2026|Writing Agent|[2604.04732](https://arxiv.org/abs/2604.04732)|
 |**2026-04-06**|Lighting Up or Dimming Down? Exploring Dark Patterns of LLMs in Co-Creativity|AAAI 2026|Writing Agent|[2604.04735](https://arxiv.org/abs/2604.04735)|

@@ -12,14 +12,14 @@
    "Text Quality Evaluation": 599,
    "Writing Agent": 502
   },
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "venue_tiers": {
    "demo": 8,
    "findings": 92,
-   "none": 2552,
+   "none": 2551,
    "other": 37,
    "strong": 40,
-   "top": 592,
+   "top": 593,
    "workshop": 126
   }
  },
@@ -5424,7 +5424,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5461,7 +5461,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -6464,7 +6464,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -6502,7 +6502,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -26970,7 +26970,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27007,7 +27007,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44618,7 +44618,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44654,7 +44654,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44690,7 +44690,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44736,7 +44736,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44774,7 +44774,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44813,7 +44813,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44850,7 +44850,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44890,7 +44890,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44932,7 +44932,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44972,7 +44972,7 @@
     "primary_category": "eess.AS",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45016,7 +45016,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45053,7 +45053,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45090,7 +45090,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45131,7 +45131,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45167,7 +45167,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45210,7 +45210,7 @@
     "primary_category": "cs.MM",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45263,7 +45263,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45299,7 +45299,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50553,7 +50553,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50598,7 +50598,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50638,7 +50638,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50675,7 +50675,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50711,7 +50711,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50759,7 +50759,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [
       "Review"
      ],
@@ -50803,7 +50803,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50839,7 +50839,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50875,7 +50875,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -67263,9 +67263,12 @@
     "primary_category": "cs.SE",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
-     "types": [],
-     "venue": "",
+     "checked": "2026-10-25",
+     "types": [
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
      "year": 2026
     },
     "status": "unknown",
@@ -67303,7 +67306,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -67340,7 +67343,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -67374,7 +67377,7 @@
     "primary_category": "cs.SE",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -67411,7 +67414,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -68245,7 +68248,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -68287,7 +68290,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -68322,7 +68325,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -78753,7 +78756,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -78788,7 +78791,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -78826,7 +78829,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -78863,7 +78866,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -78900,7 +78903,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -78937,7 +78940,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89377,7 +89380,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-21",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [
       "Review"
      ],
@@ -89419,7 +89422,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89457,7 +89460,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89496,7 +89499,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89534,7 +89537,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89573,7 +89576,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -90344,7 +90347,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -97532,7 +97535,7 @@
     "primary_category": "cs.IR",
     "published": "2025-11-06",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2025
@@ -102395,7 +102398,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [
       "Review"
      ],
@@ -102434,7 +102437,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102475,7 +102478,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102512,7 +102515,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102549,7 +102552,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102587,7 +102590,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102621,7 +102624,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102658,7 +102661,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102695,7 +102698,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102732,7 +102735,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102768,7 +102771,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [
       "Review"
      ],
@@ -102806,7 +102809,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -104664,7 +104667,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -104700,7 +104703,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -104734,7 +104737,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -104768,7 +104771,7 @@
     "primary_category": "cs.CR",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [
       "Review"
      ],
@@ -104812,7 +104815,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -111993,7 +111996,7 @@
     "primary_category": "cs.IR",
     "published": "2025-11-06",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2025
@@ -120674,7 +120677,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [
       "Review"
      ],
@@ -120714,7 +120717,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-21",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120751,7 +120754,7 @@
     "primary_category": "cs.AR",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120792,7 +120795,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120832,7 +120835,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120872,21 +120875,24 @@
     "primary_category": "cs.HC",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
-     "types": [],
-     "venue": "",
+     "checked": "2026-10-25",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Workers are increasingly asked to adopt AI systems to assist their work, yet are rarely given a voice in defining what meaningful AI augmentation should look like or how to evaluate for it. In this paper, we propose worker-driven AI measurement---a bottom-up approach to AI evaluation where workers collaboratively shape decisions about which tasks AI should augment, what \"successful\" augmentation looks like, and how it should be measured. We explore how to support this through a case study with 19 workers from a local school social work organization. Through a series of eight workshops, workers iteratively develop their own measurement goals for AI evaluation, systematize these goals, and then design a benchmark to capture how effectively an LLM can \"challenge\" them to reflect on their own assumptions and biases in the context of their day-to-day work. Workers collaboratively design and refine an LLM-as-a-judge rubric based on their professional and lived expertise. In validations of the worker-created benchmark, we find that there is strong agreement between worker and LLM judge ratings and that the resulting benchmark can differentiate performance across six state-of-the-art LLMs. Based on our case study, we discuss opportunities for future work to support worker-driven AI measurement as a complementary approach to existing top-down AI evaluation approaches.",
-    "tier": "none",
+    "tier": "top",
     "title": "\"I want to be pushed, I want to grow\": Enabling social workers to design evaluations of LLM augmentation in their work",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-23",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "AAAI",
+    "venue_evidence": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.22459v1"
    },
    "2608.22559": {
@@ -120908,7 +120914,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120949,7 +120955,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120988,7 +120994,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121028,7 +121034,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121062,7 +121068,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121098,7 +121104,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121133,7 +121139,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121172,7 +121178,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121208,7 +121214,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121245,7 +121251,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121281,7 +121287,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121318,7 +121324,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121355,7 +121361,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125754,7 +125760,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125793,7 +125799,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125828,7 +125834,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125866,7 +125872,7 @@
     "primary_category": "cs.CR",
     "published": "2026-09-23",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125906,7 +125912,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125941,7 +125947,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125979,7 +125985,7 @@
     "primary_category": "cs.SE",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -126020,7 +126026,7 @@
     "primary_category": "cs.IR",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [
       "Review"
      ],
@@ -149125,7 +149131,7 @@
     "primary_category": "cs.SE",
     "published": "2026-08-22",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -149166,7 +149172,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-24",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
@@ -149202,7 +149208,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-25",
+     "checked": "2026-10-25",
      "types": [],
      "venue": "",
      "year": 2026
