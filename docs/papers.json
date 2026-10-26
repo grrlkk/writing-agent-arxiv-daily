@@ -1,25 +1,25 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 188,
+   "Iterative Revision & Text Editing": 189,
    "Korean Writing & NLP": 72,
-   "Multilingual & Cross-Lingual Agents": 435,
-   "Reward & Value Models": 765,
-   "Search & Control for Generation": 232,
-   "Self-Refine & Self-Correction": 297,
+   "Multilingual & Cross-Lingual Agents": 438,
+   "Reward & Value Models": 767,
+   "Search & Control for Generation": 235,
+   "Self-Refine & Self-Correction": 300,
    "Semantic Drift & Faithfulness": 240,
-   "Synthetic Preference Data": 389,
-   "Text Quality Evaluation": 599,
+   "Synthetic Preference Data": 392,
+   "Text Quality Evaluation": 601,
    "Writing Agent": 502
   },
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "venue_tiers": {
    "demo": 8,
    "findings": 92,
-   "none": 2551,
+   "none": 2567,
    "other": 37,
    "strong": 40,
-   "top": 593,
+   "top": 594,
    "workshop": 126
   }
  },
@@ -4274,11 +4274,11 @@
     "comment": "",
     "first_seen": "2026-08-19",
     "id": "2606.23254",
-    "journal_ref": "",
+    "journal_ref": "NeurIPS 2026",
     "matched": [
      "text editing"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2606.23254v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.23254v2",
     "primary_category": "cs.CV",
     "published": "2026-06-22",
     "s2": {
@@ -4289,17 +4289,17 @@
      "venue": "",
      "year": 2026
     },
-    "status": "unknown",
-    "summary": "Visual text editing aims to precisely modify text in images and videos while preserving stylistic consistency and visual realism. Despite significant advances in the image domain, video text editing remains largely unexplored: it is a localized task demanding stroke-level precision within small text regions, which compounds the challenges of cross-frame accuracy, temporal coherence, and stylistic fidelity. We introduce SteerVTE, a unified framework that \\underline{\\textbf{steer}}s a frozen video diffusion model to perform precise \\underline{\\textbf{V}}ideo \\underline{\\textbf{T}}ext \\underline{\\textbf{E}}diting through style and glyph control. Built on a frozen diffusion transformer, SteerVTE attaches a lightweight text context adapter with two complementary modules: a style encoder capturing the original text's visual attributes, and dual-granularity glyph encoders encoding the target text at both the line and character levels. To overcome the inherently weak text rendering priors of video foundation models, we further propose a glyph-aware spatial-focal loss and a three-stage progressive training curriculum that scales from image to video data. To support large-scale training, we also develop an automatic synthesis pipeline and construct SteerVTE-1M, a dataset of one million triplets spanning diverse scenes, fonts, and stylistic effects. Extensive experiments demonstrate that SteerVTE substantially outperforms existing video editing baselines across text accuracy, style consistency, and temporal coherence.",
-    "tier": "none",
+    "status": "accepted",
+    "summary": "Visual text editing aims to precisely modify text in images and videos while preserving stylistic consistency and visual realism. Despite significant advances in the image domain, video text editing remains largely unexplored: it is a localized task demanding stroke-level precision within small text regions, which compounds the challenges of cross-frame accuracy, temporal coherence, and stylistic fidelity. We introduce SteerVTE, a unified framework that steers a frozen video diffusion model to perform precise Video Text Editing through style and glyph control. Built on a frozen diffusion transformer, SteerVTE attaches a lightweight text context adapter with two complementary modules: a style encoder capturing the original text's visual attributes, and dual-granularity glyph encoders encoding the target text at both the line and character levels. To overcome the inherently weak text rendering priors of video foundation models, we further propose a glyph-aware spatial-focal loss and a three-stage progressive training curriculum that scales from image to video data. To support large-scale training, we also develop an automatic synthesis pipeline and construct SteerVTE-1M, a dataset of one million triplets spanning diverse scenes, fonts, and stylistic effects. Extensive experiments demonstrate that SteerVTE substantially outperforms existing video editing baselines across text accuracy, style consistency, and temporal coherence. Our project page is available at https://zengkaiya.github.io/SteerVTE/.",
+    "tier": "top",
     "title": "SteerVTE: Seamless Video Text Editing with Style and Glyph Control",
-    "track": "",
-    "updated": "2026-06-22",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
-    "version": "2606.23254v1"
+    "track": "main",
+    "updated": "2026-10-23",
+    "venue": "NeurIPS",
+    "venue_evidence": "NeurIPS 2026",
+    "venue_source": "journal_ref",
+    "venue_year": "2026",
+    "version": "2606.23254v2"
    },
    "2606.31435": {
     "abs_url": "https://arxiv.org/abs/2606.31435",
@@ -7625,6 +7625,46 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.31019v1"
+   },
+   "2610.32096": {
+    "abs_url": "https://arxiv.org/abs/2610.32096",
+    "authors": [
+     "Xinsong Feng",
+     "Chenan Wang",
+     "Leshu Tang",
+     "Johnny Liu",
+     "Dong Li",
+     "Da Li",
+     "Haipeng Chen"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.32096",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32096v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Diffusion language models (DLMs) support bidirectional denoising and iterative refinement, but generation remains largely controlled by token-level masking schedules. This leaves draft-level refinement implicit and limits explicit control over when to insert missing content, delete redundant spans, revisit uncertain regions, or stop editing. We introduce Diffusion Editing Language Adapter (DELA), a plug-in framework that enables controllable draft refinement with a frozen DLM. DELA operates on clean, variable-length drafts using four explicit editing actions: Insert, Delete, Remask, and Stop. The controller determines when and where to edit the draft, while the frozen DLM fills masked regions through denoising, separating high-level edit control from token-level generation. A naive single-phase editor would be computationally expensive because arbitrary interior edits can disrupt prefix stability and limit reliable KV-cache reuse. To address this, DELA uses a two-phase decoding procedure: a fast, append-only drafting phase that supports KV-cache reuse, followed by a global refinement phase that enables targeted non-monotonic edits to the full draft. We train the controller using a staged curriculum that begins with learning local edit priors from synthetic recovery tasks and mined actions that improve draft quality. Subsequent stages refine edit selection through rollout-based outcome preferences and alignment with downstream task feedback. Experiments on mathematical reasoning and code generation show that DELA achieves gains of up to 5.5 percentage points over direct diffusion decoding while keeping the backbone frozen. DELA thus provides a modular approach to explicit draft-level control in diffusion language models.",
+    "tier": "none",
+    "title": "DELA: Learning Controllable Edits for Diffusion Language Models",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32096v1"
    }
   },
   "Korean Writing & NLP": {
@@ -26796,7 +26836,7 @@
      "cross-language",
      "low-resource language"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.23490v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.23490v2",
     "primary_category": "cs.CL",
     "published": "2026-09-20",
     "s2": {
@@ -26812,12 +26852,12 @@
     "tier": "none",
     "title": "BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents",
     "track": "",
-    "updated": "2026-09-20",
+    "updated": "2026-10-23",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.23490v1"
+    "version": "2609.23490v2"
    },
    "2609.24002": {
     "abs_url": "https://arxiv.org/abs/2609.24002",
@@ -29561,6 +29601,191 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2610.31636v1"
+   },
+   "2610.31945": {
+    "abs_url": "https://arxiv.org/abs/2610.31945",
+    "authors": [
+     "Aleph Alpha",
+     ":",
+     "Moritz Althaus",
+     "Artur Baranowski",
+     "Michael Barlow",
+     "Fabien C. Y. Benureau",
+     "Felix Berkenkamp",
+     "Amrita Bhattacherjee",
+     "Lukas Blübaum",
+     "Duncan Blythe",
+     "Augustijn de Boer",
+     "Bastian Boll",
+     "Thomas F. Burns",
+     "Björn Deiseroth",
+     "Niko Dürr",
+     "Béni Balázs Egressy",
+     "Niklas Finken",
+     "Niklas Freymuth",
+     "Fabian Gebhart",
+     "Max Hammer",
+     "Bastian Harren",
+     "Andreas Hartel",
+     "Johann Higl",
+     "Steffen Hirschmann",
+     "Pablo Iyu Guerrero",
+     "Yasser Jadidi",
+     "Andreas Jagusch",
+     "Mitja Kleider",
+     "Markus Klein",
+     "Jonas Knupp",
+     "Murali Kondragunta",
+     "Garwin Lechner",
+     "Dominik Lê-Kellner",
+     "Jurek Leonhardt",
+     "Jiaze Li",
+     "Sohir Maskey",
+     "Omar Mehio",
+     "Pit Neitemeier",
+     "Letitia Parcalabescu",
+     "Alejandro Petry Pacheco",
+     "Pranav Ragupathy",
+     "Martin Reinhardt",
+     "Peter Rodenkirch Nfissi",
+     "Dylan Rodriquez",
+     "Leonard Salewski",
+     "Raziye Sari",
+     "Jordan Sassoon",
+     "Ivo Schaper",
+     "Ilhan Scheer",
+     "Frank Schneider",
+     "Philipp Scholl",
+     "Lukas Schott",
+     "Eric Schreiber",
+     "Pablo Schumacher",
+     "Alessio Serra",
+     "Philipp Siedler",
+     "Prabhu Teja Sivaprasad",
+     "Mohamed Soliman",
+     "Till Speicher",
+     "Volker Stampa",
+     "Simon Thel",
+     "Serge Thilges",
+     "Irina Vidal Migallón",
+     "Denis Waßmann",
+     "Samuel Weinbach",
+     "Sascha Wirges",
+     "Michael Wüthrich",
+     "Alexei Zacharov"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.31945",
+    "journal_ref": "",
+    "matched": [
+     "german"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.31945v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-22",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This report introduces Kolibri, an English-German mixture-of-experts transformer with 78.1B total parameters and 3.46B active parameters per token, released as open weights under the Apache 2.0 licence. We built Kolibri for sovereign and specialised deployment, with a particular focus on German and on regulated domains such as public administration, industry, and aerospace. To support these settings, we control the full model-development process, including data, architecture, training infrastructure, post-training, and evaluation. We train Kolibri on 24T tokens across pre-training, mid-training, and long-context extension, with German accounting for more than 20% of the data mix by bytes. To reach this share, we complement German datasets with more than 2T German tokens that we curate from the web with our own pipeline and generate synthetically. Post-training combines supervised fine-tuning on curated German and English data with reinforcement learning on more than 1.2M internally curated tasks, which cover reasoning, tool use, instruction following, code, and retrieval. The model activates 4.4% of its parameters per token, and among the open models evaluated in this report, it lies on the Pareto frontier of quality and serving cost in English and German. Kolibri builds on Kolibri Origin, an earlier iteration that validated our full pipeline at scale. Both models come from our Model Factory, which connects data, experimentation, training, evaluation, and deployment through version-controlled workflows.",
+    "tier": "none",
+    "title": "Kolibri: A Sovereign European Model on the Pareto Frontier",
+    "track": "",
+    "updated": "2026-10-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.31945v1"
+   },
+   "2610.32151": {
+    "abs_url": "https://arxiv.org/abs/2610.32151",
+    "authors": [
+     "Ken Enda",
+     "Jien Saito",
+     "Masami Mukai",
+     "Feng Han",
+     "Emir Turkes",
+     "Tatsumi Kusakabe",
+     "Reona Umeki",
+     "Kazuhiro Sumiyoshi",
+     "Mitsuya Numata",
+     "Takumi Tanikawa",
+     "Akira Endoh",
+     "Kenji Hirata",
+     "Atsushi Yoshida",
+     "Kohsuke Kudo",
+     "Shinya Tanaka"
+    ],
+    "code_url": "",
+    "comment": "49 pages, 3 figures, 6 tables, with supplementary material. Submitted to JMIR Medical Informatics",
+    "first_seen": "2026-10-26",
+    "id": "2610.32151",
+    "journal_ref": "",
+    "matched": [
+     "japanese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32151v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language model agents that use tools could take on part of the electronic health record and desk work that occupies physicians' time, but in many hospitals the medical information systems run inside closed networks, so the model and the agent harness must also sit inside. We designed, implemented, and deployed LLENS, a clinical support AI agent platform that runs inside the closed network of Hokkaido University Hospital on one host with 8 NVIDIA H200 GPUs, the open-weight model Kimi K2.6 (~1 trillion parameters), and a web application rebuilt from Open WebUI. The harness has 10 components, including page image reading, full-text attachment input, a path-addressed document tree without a vector index, a network-isolated sandbox, artifact return, self-checking of generated output, subagents, and saved procedures. Kimi K2.6 was chosen from 3 open-weight candidates and scored 480/500 on the 2026 Japanese Medical Licensing Examination; it generated 119 tokens/s for one user and served 16 concurrent requests at 908 tokens/s in total. On 180 questions over hospital documents (3 seeds each), mean accuracy was 10.7% with no documents, 81.3% with fixed retrieval (top 10 chunks of one lexical search), and 97.2% with interactive access, in which the model reads with document tools and the sandbox (15.9 percentage points above fixed retrieval, 95% CI 10.9-21.3); the difference lay in filtering/counting questions (16.7% vs 87.8%). Five scenarios with synthetic data ran on combinations of the components: needlestick injury response, batch adverse event grading, scanned referral letter transcription, falls data aggregation and plotting, and investigation of 3 topics by subagents. The platform has run on the hospital network since September 14, 2026.",
+    "tier": "none",
+    "title": "The LLENS Platform for On-Premises Large Language Model Agents in a Japanese University Hospital: Development and Evaluation Study",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32151v1"
+   },
+   "2610.32955": {
+    "abs_url": "https://arxiv.org/abs/2610.32955",
+    "authors": [
+     "Federico Lucca"
+    ],
+    "code_url": "",
+    "comment": "8 pages, 7 tables. Single-user case study. Code and protocol: https://gitlab.com/federicolucca/foyer-measure . The emails are private and not released",
+    "first_seen": "2026-10-26",
+    "id": "2610.32955",
+    "journal_ref": "",
+    "matched": [
+     "multilingual"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32955v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. On 739 real Italian/English emails labelled by the owner (231 unbiased, 500 adversarially sampled), we compare nine systems under thread-grouped cross-validation: the production keyword rules, a TF-IDF + logistic-regression baseline, local typed decision models (Tev1, Nimble), a hosted decision model (Nimble v4-max), and hosted generative LLMs (Qwen2.5-7B, Gemma 4 26B/31B). Four results. The production rules score 28% on message type against a 58% majority class: the field shown most prominently carried no information. With ~200 labels, logistic regression has the highest accuracy on every field (type 0.79, urgency 0.74, needs-reply 0.83, is-noise 0.90), though it never predicts the two rarest classes and is statistically tied with Gemma 4 on type; few-shot prompting does not close the gap. The sender's relationship (client, supplier, service) is recovered from other emails of the same contact with 98.6% accuracy where the contact has been seen, and is not inferable from a single message by any model: it belongs in the contact graph, not the prompt. Finally, accuracy is not the product metric: composed into actions, the most accurate system most often ignores emails needing action (18% vs 4% for the best LLM); a cost-chosen threshold on its noise probability halves that rate and makes it the cheapest system.",
+    "tier": "none",
+    "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32955v1"
    }
   },
   "Reward & Value Models": {
@@ -35555,7 +35780,7 @@
     "matched": [
      "reward model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2511.21638v3",
+    "pdf_url": "https://arxiv.org/pdf/2511.21638v4",
     "primary_category": "cs.LG",
     "published": "2025-11-26",
     "s2": {
@@ -35565,16 +35790,16 @@
      "year": 2025
     },
     "status": "unknown",
-    "summary": "Practical LLM agents often operate over multi-turn conversations where success is determined only after the full interaction ends. Most multi-turn RL methods train via on-policy rollouts, but unlike in single-turn RLHF, the policy cannot produce a trajectory alone, since an external environment must respond after each agent turn. For conversational agents, this environment is a user, but real users are generally unavailable inside the training loop and simulated users are difficult to build faithfully. Separately, real-world deployment is rarely fully online or fully offline. The common production pattern is called \"batch online,\" where the current policy is deployed to collect a batch of interaction data, then retrained on that batch and redeployed. We show that this batch-online setting creates an opportunity for applying the classical approximate policy iteration algorithm. Our central observation is that running standard token-level, single-turn GRPO with a learned turn-level $Q$-function as the reward model is a policy improvement step for the multi-turn problem. Building on this, we present Iterative GRPO, which alternates between fitting $Q^π$ from logged Monte Carlo returns via standard reward modeling (policy evaluation) and running single-turn GRPO against $Q^π$ (policy improvement). During policy improvement, the learned $Q^π$ scores candidate responses by their expected downstream return, avoiding the need for simulator rollouts of the remaining conversation. Overall, this allows us to do principled multi-turn RL using only single-turn RLHF methods without an interactive environment or user simulator inside the training loop. We demonstrate the effectiveness of Iterative GRPO on six multi-turn negotiation environments.",
+    "summary": "Practical LLM agents often operate over multi-turn conversations where success is determined only after the full interaction ends. Most multi-turn RL methods train via on-policy rollouts, but unlike in single-turn RL, the policy cannot produce a trajectory alone, since an external environment must respond after each agent turn. For conversational agents, this environment is a user, but real users are generally unavailable inside the training loop and simulated users are difficult to build faithfully. Separately, real-world deployment is rarely fully online or fully offline. The common production pattern is called batch online, where the current policy is deployed to collect a batch of interaction data, then retrained on that batch and redeployed. We show that this batch-online setting creates an opportunity for applying the classical approximate policy iteration algorithm. Our central observation is that running standard token-level, single-turn GRPO with a learned turn-level $Q$-function as the reward model is a policy improvement step for the multi-turn problem. Building on this, we present Iterative Policy Optimization (IterPO), which alternates between fitting $Q^π$ from logged Monte Carlo returns via standard reward modeling (policy evaluation) and running single-turn GRPO against $Q^π$ (policy improvement). During policy improvement, the learned $Q^π$ scores candidate responses by their expected downstream return, avoiding the need for simulator rollouts of the remaining conversation. Overall, this allows us to do principled multi-turn RL using only single-turn RL methods without an interactive environment or user simulator inside the training loop. We demonstrate the effectiveness of IterPO on six multi-turn negotiation environments.",
     "tier": "none",
-    "title": "Iterative GRPO: Batch-Online Multi-Turn RL via Single-Turn RLHF",
+    "title": "Iterative Policy Optimization: Batch-Online Multi-Turn RL via Single-Turn RL",
     "track": "",
-    "updated": "2026-09-04",
+    "updated": "2026-10-23",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2511.21638v3"
+    "version": "2511.21638v4"
    },
    "2511.21748": {
     "abs_url": "https://arxiv.org/abs/2511.21748",
@@ -58856,7 +59081,7 @@
     "matched": [
      "bradley-terry"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.24385v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.24385v2",
     "primary_category": "cs.AI",
     "published": "2026-10-17",
     "s2": {
@@ -58870,12 +59095,12 @@
     "tier": "none",
     "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
     "track": "",
-    "updated": "2026-10-17",
+    "updated": "2026-10-23",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.24385v1"
+    "version": "2610.24385v2"
    },
    "2610.24409": {
     "abs_url": "https://arxiv.org/abs/2610.24409",
@@ -60619,6 +60844,94 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.31272v1"
+   },
+   "2610.31862": {
+    "abs_url": "https://arxiv.org/abs/2610.31862",
+    "authors": [
+     "Siliang Zeng",
+     "Luca Viano",
+     "Chenliang Li",
+     "Jiaxiang Li",
+     "Volkan Cevher",
+     "Markus Wulfmeier",
+     "Stefano Ermon",
+     "Alfredo Garcia",
+     "Mingyi Hong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.31862",
+    "journal_ref": "2026 Special Issue on the Mathematics of Deep Learning]. IEEE Signal Processing Magazine, 43(3), 71-85",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.31862v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-22",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [
+      "JournalArticle",
+      "Review"
+     ],
+     "venue": "IEEE Signal Processing Magazine",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This article provides an introduction to the mathematical foundations and algorithmic frameworks used to align Large Language Models (LLMs) with human intentions, preferences, and values. We discuss standard alignment techniques, such as fine-tuning (SFT), reinforcement learning with human feedback (RLHF), and direct preference optimization (DPO). We also explore the theoretical underpinnings of learning from human preferences, drawing connections to inverse reinforcement learning (IRL) and discrete choice models. We present state-of-the-art algorithms in a tutorial style, discuss their advantages and limitations, and offer insights into practical implementation. Our exposition is intended to serve as a comprehensive resource for researchers and practitioners, providing both a foundational understanding of alignment methodologies and a framework for developing more robust and scalable alignment techniques.",
+    "tier": "none",
+    "title": "Aligning Large Language Models with Human Feedback: Mathematical Foundations and Algorithm Design",
+    "track": "",
+    "updated": "2026-10-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.31862v1"
+   },
+   "2610.32324": {
+    "abs_url": "https://arxiv.org/abs/2610.32324",
+    "authors": [
+     "Yuhang Han",
+     "Dingning Liu",
+     "Yujie Chen",
+     "Yaojie Zhang",
+     "Jingwei Song",
+     "Zequn Yang",
+     "Xuanming Shang",
+     "Li Ding",
+     "Zhijiang Guo",
+     "Linfeng Zhang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.32324",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32324v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) improves multimodal reasoning, but uniformly assigning a single response-level advantage to all tokens overlooks the distinct roles of visual observations and subsequent reasoning. Visual affinity alone is insufficient: predictive states may align with both image and prompt-context representations, and upweighting valid visual observations can amplify their negative-advantage updates when later reasoning fails. To address this issue, we propose \\textbf{Outcome-Conditioned Visual Credit (OVC)}, a plug-in framework that separates visual-association measurement from token-level credit assignment and is adaptable to policy-optimization methods with uniform response-level advantage allocation. Relative Visual Encoding constructs a context-relative visual coordinate by contrasting each predictive state's affinity to image and prompt-context representations. Outcome-conditioned Evidence Calibration combines this coordinate with uncertainty-scaled predictive features and calibrates their contributions to outcome-discriminative evidence through mean contrasts between positive- and negative-advantage responses, scaled by regularized within-side variation. Visual association thus informs credit through observed outcome differences rather than directly determining update priority. Normalized Credit Allocation conditions the calibrated evidence on the response's advantage sign to produce positive token weights with unit global mean. These detached weights preserve advantage signs while modulating individual token-gradient contributions. OVC reuses existing rollouts without auxiliary reward models, process annotations, or inference-time modules. Instantiated through GSPO-token, OVC retains sequence-level clipping and consistently improves six-benchmark mean accuracy over GSPO across three models, with gains of 1.86-2.39 percentage points.",
+    "tier": "none",
+    "title": "From Visual Affinity to Learning Credit in Multimodal Reinforcement Learning",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32324v1"
    }
   },
   "Search & Control for Generation": {
@@ -68081,15 +68394,15 @@
      "Tian Lan",
      "Weidong Cao"
     ],
-    "code_url": "",
-    "comment": "",
+    "code_url": "https://github.com/fenggev56/PlaceReasoner-Beta",
+    "comment": "Code and benchmark are available at \\url{https://github.com/fenggev56/PlaceReasoner-Beta}",
     "first_seen": "2026-09-21",
     "id": "2609.21263",
     "journal_ref": "",
     "matched": [
      "verifier-guided"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.21263v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.21263v2",
     "primary_category": "cs.AI",
     "published": "2026-09-18",
     "s2": {
@@ -68103,12 +68416,12 @@
     "tier": "none",
     "title": "PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking",
     "track": "",
-    "updated": "2026-09-18",
+    "updated": "2026-10-22",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.21263v1"
+    "version": "2609.21263v2"
    },
    "2609.21264": {
     "abs_url": "https://arxiv.org/abs/2609.21264",
@@ -69905,6 +70218,131 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.30450v1"
+   },
+   "2610.32002": {
+    "abs_url": "https://arxiv.org/abs/2610.32002",
+    "authors": [
+     "Siyang He",
+     "Qiqi Wang",
+     "Fan Liu",
+     "Yuncheng Huang",
+     "Pengfei Xu",
+     "Xi Chen",
+     "Ziwei He",
+     "Xipeng Qiu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.32002",
+    "journal_ref": "",
+    "matched": [
+     "tree search"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32002v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-22",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The rapid growth of microdramas has increased demand for high-quality script production. Long-form microdrama script generation with LLMs requires both diverse plot progression and long-range narrative coherence. Our observations reveal that candidate continuations increasingly concentrate on fewer narrative mechanisms as generation progresses, while conventional retrieval may reinforce trope reuse and overlook historical information essential to future plots. To address these challenges, we propose DraMaze, a multi-agent pipeline that explores diverse causal paths through trope memory-guided evolutionary tree search and mutation. It further constructs a Backward Narrative Dependency Tree to organize, retain, and retrieve historical memories based on future narrative goals. We also introduce MiDramaBench, a bilingual benchmark for evaluating script logic and creative quality across different script lengths, together with causal-pattern metrics for narrative repetition and diversity. Experiments show consistent improvements across three backbone LLMs. For 60-episode scripts of up to 60k words, DraMaze reduces causal-pattern repetition by 32.1% and achieves a Logic score of 82.5, outperforming the best-performing baseline by 8.5 points.",
+    "tier": "none",
+    "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
+    "track": "",
+    "updated": "2026-10-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32002v1"
+   },
+   "2610.32181": {
+    "abs_url": "https://arxiv.org/abs/2610.32181",
+    "authors": [
+     "Seunghan Lee",
+     "Jun Seo",
+     "Junhyeok Kang",
+     "Jaehoon Lee",
+     "Sangjun Han",
+     "Sungdong Yoo",
+     "Minjae Kim",
+     "Tae Yoon Lim",
+     "Dongwan Kang",
+     "Hwanil Choi",
+     "Soonyoung Lee",
+     "Wonbin Ahn"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.32181",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32181v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) are increasingly used to support decisions under incomplete information, where deciding what to look up and when to stop matters as much as the final answer. However, LLMs fall into an information trap: They pay for checks, i.e., costly pieces of evidence, that cannot change their decision or are not worth their cost, and they keep asking when the evidence is already sufficient. To this end, we propose Decision-Informed Value-of-information Acquisition (DIVA), a simple yet effective procedure for LLM information seeking based on the decision value of evidence. DIVA 1) lets the LLM specify a small decision model, i.e., how likely a bad outcome is and how each check would shift this probability, through short numeric questions and 2) values each candidate check by how much its imagined outcomes improve the decision net of its cost, stopping when no check is worth its cost. Its variant, DIVA-U, further accounts for the LLM's uncertain estimates of how strongly each check shifts this probability. DIVA is training-free and applies to any LLM. Across four domains and 20 LLMs, DIVA-U has lower regret, i.e., value lost relative to the best possible decision, than every LLM baseline on real-world data, mainly by stopping once evidence suffices, and DIVA cuts the regret of the best LLM baseline by 75% in synthetic scenarios where every check's reliability is given. Code: github.com/seunghan96/diva.",
+    "tier": "none",
+    "title": "Not All Information Is Worth Asking For: Decision-Informed Information Seeking with LLMs",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32181v1"
+   },
+   "2610.32431": {
+    "abs_url": "https://arxiv.org/abs/2610.32431",
+    "authors": [
+     "Zongyao Zhao",
+     "Cheng-Jie Zhao",
+     "Ruihang Jiang",
+     "Bing Zheng",
+     "Zhaolin Wang",
+     "Yuanwei Liu"
+    ],
+    "code_url": "",
+    "comment": "31 pages, 9 figures",
+    "first_seen": "2026-10-26",
+    "id": "2610.32431",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32431v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "A failed vision-language-action (VLA) rollout does not imply that every action contributed to failure. Yet in group-relative policy optimization (GRPO), a single trajectory-level advantage is assigned to all actions in a rollout. Potentially useful recovery attempts can thus be penalized alongside the errors they aim to correct. Ideal stopping conditions for failure feedback are characterized using success-probability and policy-score martingales. At these stops, the removed gradient contribution has zero conditional expectation given the retained information. Truncation therefore preserves the expectation of a reference GRPO group-gradient estimator and can reduce its covariance. One such stop occurs when the conditional probability of success is zero, motivating error and recovery cues for selecting candidate feedback boundaries. Martingale GRPO (MART-GRPO) is introduced with a vision-language model (VLM) for event-guided truncation. The VLM is fine-tuned on our annotated training set using low-rank adaptation (LoRA). The last visible error without observed recovery is localized by the frozen VLM in complete rollout videos. Failure feedback is retained through the selected error interval and removed afterward, while successful-rollout loss terms and original loss normalization are preserved. For retrospective boundaries, changes in expectation and variance are analyzed to assess departures from ideal stopping. Experiments with OpenVLA-OFT on RoboTwin 2.0 show that MART-GRPO improves success rates over full-trajectory GRPO across multiple tasks.",
+    "tier": "none",
+    "title": "When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32431v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -82044,6 +82482,119 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.29677v1"
+   },
+   "2610.32026": {
+    "abs_url": "https://arxiv.org/abs/2610.32026",
+    "authors": [
+     "Binghang Lu",
+     "Yige Sun",
+     "Guang Lin"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.32026",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32026v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Conventional neural-network training typically follows a predefined optimization recipe, motivating a LLM agent that monitors training dynamics and adjusts optimizer settings as training progresses, but a fixed agent policy does not accumulate experience across runs. We introduce RSI-Opt, a plug-and-play Recursive Self-Improvement Optimizer Agents which evolves the knowledge that guides this process: a prompt, a playbook of procedures, a library of tested optimizer code, and a decision cadence. A meta-agent rewrites this policy using evidence from earlier runs, and an archive retains evaluated policies for further evolution. Across 5 generations on three training tasks, the meta-agents develop reusable procedures and code and conduct their own CPU proxy experiments. RSI-Opt substantially improves optimizer-agent performance, with representative raw-space summary $z$-scores increasing from $+10.48$ to $+14.33$ on the evolution suite with Opus 5.5 and from $-0.36$ to $+3.11$ on held-out tasks with GPT-5.5 through cross-model policy transfer. On the Burgers PDE, it reduces mean relative $L_2$ error by approximately 2.7-fold with Opus 5.5 and 8.8-fold with GPT-6.1 over the fixed-prompt agent baseline, although PDE transfer varies across LLMs and tasks. Controlled comparisons show that the evolved policy combines reusable optimization knowledge with adaptation to each task: initial decisions capture most observed gains on seen tasks, while continued adaptation improves outcomes on unseen tasks. These findings demonstrate how procedures and executable tools accumulated across training runs can improve optimizer-agent performance and support transfer to scientific machine learning.",
+    "tier": "none",
+    "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32026v1"
+   },
+   "2610.32423": {
+    "abs_url": "https://arxiv.org/abs/2610.32423",
+    "authors": [
+     "Somraj Gautam",
+     "Gaurav Harit"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.32423",
+    "journal_ref": "",
+    "matched": [
+     "self-refine",
+     "self-correction",
+     "self-improvement",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32423v1",
+    "primary_category": "cs.CV",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Recent advances in Vision-Language Models (VLMs) have significantly improved Visual Question Answering (VQA) performance, yet their reasoning over structured content such as tables remains inconsistent, often plagued by spatial misalignment and logical hallucinations. Existing approaches for improving table VQA typically rely on architectural modifications or expensive supervised fine-tuning (SFT), which impose high barriers to entry due to the need for large-scale, expert-annotated datasets and significant computational resources. In this work, we propose Self-RefineVQA, a training-free, inference-time self-correction framework that improves table VQA performance without additional labeled data or model updates. Inspired by human revision behavior, our method enables a single VLM to iteratively act as a generator, critic, and refiner, forming a closed self-feedback loop that corrects common reasoning errors through prompt-guided re-evaluation. Experiments on tabular VQA benchmarks demonstrate that Self-RefineVQA yields consistent accuracy gains in monolingual and cross-lingual understanding, with a particularly significant boost for small models, enabling lightweight models (e.g., 2B-7B parameters) to rival the performance of significantly larger counterparts. Furthermore, we provide a comparative complexity analysis demonstrating that while inference cost increases linearly, our framework offers superior data efficiency and a lower cumulative cost by eliminating the prohibitive annotation bottleneck of human labeling required for fine-tuning. Our results highlight the potential of prompt-based self-improvement as a scalable, accessible paradigm for reliable table reasoning in VLMs.",
+    "tier": "none",
+    "title": "Cycle-of-Thought: Self-Evaluative Iterative Reasoning for Table Visual Question Answering in Document Images",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32423v1"
+   },
+   "2610.32891": {
+    "abs_url": "https://arxiv.org/abs/2610.32891",
+    "authors": [
+     "Sadra Emami",
+     "Benjamin Weigell",
+     "Mohammad Reza Mousavi",
+     "Gunel Jahangirova",
+     "Hugo Araujo",
+     "Bernhard Bauer"
+    ],
+    "code_url": "",
+    "comment": "Accepted at the 49th IEEE/ACM International Conference on Software Engineering (ICSE 2027)",
+    "first_seen": "2026-10-26",
+    "id": "2610.32891",
+    "journal_ref": "",
+    "matched": [
+     "self-refine"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32891v1",
+    "primary_category": "cs.SE",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challenge this assumption empirically by measuring whether performance-optimized code produced by LLM self-refinement pipelines is also energy-efficient relative to canonical human reference solutions, and whether the energy cost of the optimization process can be offset by subsequent execution-time savings. We evaluate 11 open-source models across four decoding configurations on all 1,000 problems of EffiBench, a state-of-the-art performance benchmark, while collecting per-process, hardware-level energy measurements throughout. Inference energy spans 0.79 to 8.68 MJ across model-variant pairs, which is roughly equivalent to the energy of 250 to 2800 GPT-4.1 queries. Limiting the maximum number of output tokens has the largest impact, reducing energy use by up to 69% compared to the default configuration. On the execution side, 42 of 44 configurations produce code that consumes more energy per problem than the canonical human reference, with overheads ranging from +4% to +886%. The two exceptions achieve only marginal gains, with break-even points on the order of 10^6 to 10^7 executions. Mixture-of-Experts architectures consume substantially less inference energy than equivalently-sized dense models without sacrificing correctness, making architectural choice a more consequential sustainability lever than decoding parameters. Performance optimization and energy efficiency are not always aligned goals: LLM self-refinement consistently produces faster-seeking but energy-heavier code relative to what a human engineer would write. All artifacts are available at https://doi.org/10.5281/zenodo.23598170.",
+    "tier": "none",
+    "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32891v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -107067,6 +107618,120 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.30421v1"
+   },
+   "2610.31812": {
+    "abs_url": "https://arxiv.org/abs/2610.31812",
+    "authors": [
+     "Ruiqi Wang",
+     "Dezhong Zhao",
+     "Xuesu Xiao",
+     "Erdem Biyik",
+     "Byung-Cheol Min",
+     "Guohua Chen"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.31812",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.31812v1",
+    "primary_category": "cs.RO",
+    "published": "2026-10-22",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Preference-based reinforcement learning (PbRL) has emerged as a promising paradigm for learning robot behaviors aligned with human intent. However, its scalability is fundamentally limited by the need to collect expensive human preference labels for every new task. In this work, we present PrefO2O, an offline-to-online latent preference transfer framework that enables zero-shot PbRL on unseen target tasks without requiring any human feedback. The core idea is to learn a task-invariant latent preference space from a small amount of offline preference data on source tasks, where transferable preference structures are disentangled from task-specific variations. This learned manifold allows PrefO2O to transfer preference structures and reward priors to new tasks under distribution shift, while confidence-weighted optimal transport alignment generates reliable pseudo-preference supervision for online reward adaptation. Extensive experiments on robotic manipulation and locomotion benchmarks demonstrate that PrefO2O substantially outperforms existing preference-transfer baselines and matches or exceeds PbRL methods trained with real human feedback, while generalizing across multi-to-one and one-to-one transfer settings as well as across different robot embodiments.",
+    "tier": "none",
+    "title": "PrefO2O: Zero-Shot Preference-Based Reinforcement Learning via Offline-to-Online Latent Preference Transfer",
+    "track": "",
+    "updated": "2026-10-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.31812v1"
+   },
+   "2610.31838": {
+    "abs_url": "https://arxiv.org/abs/2610.31838",
+    "authors": [
+     "Sunjae Kwon",
+     "Suhaas Kiran DG",
+     "Zonghai Yao",
+     "Talha Chafekar",
+     "Deepali Singh",
+     "Hong Yu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.31838",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.31838v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-22",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This paper introduces Sense-Aligned Grounding Evaluation (SAGE), a unified 10-candidate image-selection benchmark that reformulates VWSD, VerSe, and WikiDiverse into a shared term-centric protocol covering noun-, verb-, and entity-centered grounding. SAGE includes confusable hard negatives and a context-swapped VerSe diagnostic to probe target-term grounding beyond direct caption--image compatibility. We further propose Gloss-Augmented Reasoning (GAR), a training-free framework combining definition grounding with constraint-guided semantic verification. Experiments show that strong VWSD performance does not transfer uniformly across grounding settings. With Gemma3-12B, definition augmentation improves all three subsets, while constraint-guided reasoning improves VWSD and yields particularly strong gains on VerSe, but is less effective on WikiDiverse. Combining the two signals achieves the best macro-average performance, improving Hits@1 from 65.90 to 71.22. These results show that SAGE supports both unified evaluation and fine-grained analysis of explicit semantic reasoning across grounding settings.",
+    "tier": "none",
+    "title": "SAGE: Sense-Aligned Multimodal Grounding Evaluation with Gloss-Augmented Reasoning",
+    "track": "",
+    "updated": "2026-10-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.31838v1"
+   },
+   "2610.32933": {
+    "abs_url": "https://arxiv.org/abs/2610.32933",
+    "authors": [
+     "Yalda Taheri",
+     "Mohammad Hassan Heydari",
+     "Armon Rasooli"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.32933",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32933v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million query-document pairs. On eight Persian retrieval tasks from FaMTEB, the model achieves the highest macro-average among the evaluated 0.6B models, scoring 0.5488 and outperforming Qwen3-Embedding-0.6B and F2LLM-v2-0.6B on every task. It also approaches Qwen3-Embedding-4B, winning on four tasks, tying on one, and trailing by 0.0075 in macro-average. An incremental ablation study examines contrastive batch size, optimization stabilization, and relational knowledge distillation from F2LLM-v2-8B. Under the one-epoch training setup, contrastive fine-tuning alone yields a modest mean improvement over initialization and regressions on two tasks. The final distilled configuration improves all eight tasks over the non-distilled model, raising the mean from 0.4813 to 0.5488 without increasing inference-time model size. These gains include hard-negative evaluation tasks despite training without explicitly mined or supplied hard negatives. We release model weights, training and evaluation code, the pairwise dataset, and its teacher-embedded counterpart, enabling inspection of data composition and training procedures, independent evaluation, and reuse without repeating expensive teacher inference.",
+    "tier": "none",
+    "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.32933v1"
    }
   },
   "Text Quality Evaluation": {
@@ -130927,15 +131592,15 @@
      "Riteng Zhang",
      "Xiaoqian Wang"
     ],
-    "code_url": "https://github.com/ritengzhang77-max/SAE-AIU",
-    "comment": "Accepted to NeurIPS 2026 (Evaluations and Datasets Track). 92 pages. Code: https://github.com/ritengzhang77-max/SAE-AIU",
+    "code_url": "https://github.com/ritengzhang/SAE-AIU",
+    "comment": "Accepted to NeurIPS 2026 (Evaluations and Datasets Track). 92 pages. Code: https://github.com/ritengzhang/SAE-AIU",
     "first_seen": "2026-10-23",
     "id": "2610.30474",
     "journal_ref": "",
     "matched": [
      "evaluation metric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.30474v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.30474v2",
     "primary_category": "cs.LG",
     "published": "2026-10-21",
     "s2": {
@@ -130949,12 +131614,12 @@
     "tier": "top",
     "title": "Rethinking SAE Evaluation: An Atomic Interpretable Unit Framework Reveals Hidden Polysemanticity and Redundancy",
     "track": "main",
-    "updated": "2026-10-21",
+    "updated": "2026-10-23",
     "venue": "NeurIPS",
-    "venue_evidence": "Accepted to NeurIPS 2026 (Evaluations and Datasets Track). 92 pages. Code: https://github.com/ritengzhang77-max/SAE-AIU",
+    "venue_evidence": "Accepted to NeurIPS 2026 (Evaluations and Datasets Track). 92 pages. Code: https://github.com/ritengzhang/SAE-AIU",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2610.30474v1"
+    "version": "2610.30474v2"
    },
    "2610.30690": {
     "abs_url": "https://arxiv.org/abs/2610.30690",
@@ -131179,6 +131844,81 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.31172v1"
+   },
+   "2610.31707": {
+    "abs_url": "https://arxiv.org/abs/2610.31707",
+    "authors": [
+     "Hosein Hasanbeig",
+     "Priyanshu Gupta",
+     "Ashish Tiwari",
+     "Vu Le",
+     "Sumit Gulwani"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.31707",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.31707v1",
+    "primary_category": "cs.SE",
+    "published": "2026-10-21",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Evaluating language agents on open-ended, artifact-producing tasks is difficult: model-based graders can be inconsistent, while exhaustive programmatic checks are often impractical. Textual rubrics make evaluation criteria explicit, but writing them requires domain expertise. Rubrics generated from task descriptions alone can miss requirements and failure modes that become apparent in attempted solutions. We introduce RubricCraft, which treats rubric construction as the generation of natural-language specifications guided by candidate solutions. Given a task description and independently sampled solver trajectories, RubricCraft compares how each attempt satisfies or violates the task requirements and uses these differences to construct rubric criteria. It applies the criteria to the collected solutions and revises checks that overlook errors or penalize valid alternatives. The resulting rubrics capture partial correctness without requiring any single solution to serve as a complete reference. On SpreadsheetBench v2, against a prompt-only rubric written and applied by the same model, RubricCraft rubrics pass fewer wrong outputs (29.5% against 42.6%), fail none of the outputs the benchmark's own checker accepts, and rank outputs by correctness more often, while separating models as often. Repair on a single attempt leaves grading unchanged, but repair driven by attempts from three model families acts on different tasks, and an evidence audit judges most of those repairs improvements, many on tasks whose reference solution is itself wrong.",
+    "tier": "none",
+    "title": "RubricCraft: Where Solutions Diverge, Criteria Emerge",
+    "track": "",
+    "updated": "2026-10-21",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.31707v1"
+   },
+   "2610.31821": {
+    "abs_url": "https://arxiv.org/abs/2610.31821",
+    "authors": [
+     "Omar Farouk Zouak",
+     "Selma Mani",
+     "Larbi Said Chikh",
+     "Raid Abderrezak Ouahioune"
+    ],
+    "code_url": "https://github.com/Ellzo/what-the-query-remembers",
+    "comment": "",
+    "first_seen": "2026-10-26",
+    "id": "2610.31821",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.31821v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-22",
+    "s2": {
+     "checked": "2026-10-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "How well a poetry archive can be searched depends on what the user still remembers, not only on what the model understands. We show this for Classical Arabic poetry, benchmarking nine dense encoders and BM25 over two corpora, three indexing modes and two evaluation protocols. Which retriever wins is governed by how much of a poem's wording the query still carries. On tip-of-the-tongue queries BM25 leads every dense encoder, including an 8B state-of-the-art model (0.746 vs. 0.717 Recall@5); on abstract queries it falls to eighth out of ten (0.392 vs. 0.748). Editing the wording of the same queries shows that this ranking largely reflects query composition: adding one remembered half-verse raises BM25 by 38 points, rewriting the quoted words by hand leaves BM25 level with the 8B encoder, and BM25's sensitivity to remembered wording is significantly steeper than that of the strongest dense encoder. The same axis controls explanation augmentation, whose effect swings from +37 to -39 points. The mechanism splits by system type: lexical containment predicts BM25's behaviour, while embedding proximity predicts dense encoders. Finally, the field's two standard protocols, known-item retrieval and thematic relevance, dissociate on the same systems, a result reproduced by two blind human annotators and by two open-weights judges, one of them under a rubric with no literal-match criterion. A benchmark that reports one protocol, or one query register, can give a materially wrong picture. Code and data are available at https://github.com/Ellzo/what-the-query-remembers.",
+    "tier": "none",
+    "title": "What the Query Remembers: Query Abstraction Governs Lexical and Dense Retrieval of Classical Arabic Poetry",
+    "track": "",
+    "updated": "2026-10-22",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.31821v1"
    }
   },
   "Writing Agent": {

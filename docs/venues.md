@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-25** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-26** (UTC).
 Back to the [main page](../README.md).
 
-896 of 3447 papers carry venue evidence.
+897 of 3464 papers carry venue evidence.
 
-## Top-tier venues (593)
+## Top-tier venues (594)
 
 ### EMNLP (152)
 
@@ -358,7 +358,7 @@ Back to the [main page](../README.md).
 |**2024-05-26**|Automatically Generating Numerous Context-Driven SFT Data for LLMs across Diverse Granularity|AAAI 2024|Multilingual & Cross-Lingual Agents|[2405.16579](https://arxiv.org/abs/2405.16579)|
 |**2024-05-02**|The Psychosocial Impacts of Generative AI Harms|AAAI 2024|Writing Agent|[2405.01740](https://arxiv.org/abs/2405.01740)|
 
-### NeurIPS (67)
+### NeurIPS (68)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -390,6 +390,7 @@ Back to the [main page](../README.md).
 |**2026-09-27**|Agentic Multi-Turn Reasoning: A Fairness Approach|NeurIPS 2026|Reward & Value Models|[2609.33323](https://arxiv.org/abs/2609.33323)|
 |**2026-09-26**|From Static Policies to Adaptive Priors in Offline Reinforcement Learning|NeurIPS 2026|Self-Refine & Self-Correction|[2609.35880](https://arxiv.org/abs/2609.35880)|
 |**2026-09-25**|LLM Judge Validation Under Sparse Overlap: From Inference to Design|NeurIPS 2026|Text Quality Evaluation|[2609.31857](https://arxiv.org/abs/2609.31857)|
+|**2026-06-22**|SteerVTE: Seamless Video Text Editing with Style and Glyph Control|NeurIPS 2026|Iterative Revision & Text Editing|[2606.23254](https://arxiv.org/abs/2606.23254)|
 |**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
 |**2025-12-19**|AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens|NeurIPS 2026|Reward & Value Models, Text Quality Evaluation|[2512.17375](https://arxiv.org/abs/2512.17375)|
 |**2025-12-11**|LLM-Auction: Generative Auction towards LLM-Native Advertising|NeurIPS 2026|Text Quality Evaluation|[2512.10551](https://arxiv.org/abs/2512.10551)|
