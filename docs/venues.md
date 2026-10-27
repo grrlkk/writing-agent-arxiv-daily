@@ -9,10 +9,10 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-26** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-27** (UTC).
 Back to the [main page](../README.md).
 
-897 of 3464 papers carry venue evidence.
+898 of 3494 papers carry venue evidence.
 
 ## Top-tier venues (594)
 
@@ -935,7 +935,7 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (126)
+## Workshops (127)
 
 ### NeurIPS (36)
 
@@ -1000,10 +1000,11 @@ Back to the [main page](../README.md).
 |**2024-11-12**|Entropy Controllable Direct Preference Optimization|ICML 2025 (workshop)|Reward & Value Models|[2411.07595](https://arxiv.org/abs/2411.07595)|
 |**2024-07-01**|Self-Cognition in Large Language Models: An Exploratory Study|ICML 2024 (workshop)|Writing Agent|[2407.01505](https://arxiv.org/abs/2407.01505)|
 
-### EMNLP (15)
+### EMNLP (16)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-23**|Preference Optimization Improves Definition Generation: Semantic Change in EU Institutional Sustainable Finance Disclosures|EMNLP 2026 (workshop)|Reward & Value Models|[2610.33357](https://arxiv.org/abs/2610.33357)|
 |**2026-10-22**|Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.31636](https://arxiv.org/abs/2610.31636)|
 |**2026-10-16**|GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search|EMNLP 2026 (workshop)|Self-Refine & Self-Correction|[2610.23709](https://arxiv.org/abs/2610.23709)|
 |**2026-10-02**|Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.03136](https://arxiv.org/abs/2610.03136)|

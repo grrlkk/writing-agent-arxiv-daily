@@ -1,26 +1,26 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 189,
+   "Iterative Revision & Text Editing": 190,
    "Korean Writing & NLP": 72,
-   "Multilingual & Cross-Lingual Agents": 438,
-   "Reward & Value Models": 767,
-   "Search & Control for Generation": 235,
-   "Self-Refine & Self-Correction": 300,
-   "Semantic Drift & Faithfulness": 240,
-   "Synthetic Preference Data": 392,
-   "Text Quality Evaluation": 601,
-   "Writing Agent": 502
+   "Multilingual & Cross-Lingual Agents": 443,
+   "Reward & Value Models": 777,
+   "Search & Control for Generation": 236,
+   "Self-Refine & Self-Correction": 305,
+   "Semantic Drift & Faithfulness": 241,
+   "Synthetic Preference Data": 394,
+   "Text Quality Evaluation": 608,
+   "Writing Agent": 503
   },
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "venue_tiers": {
    "demo": 8,
    "findings": 92,
-   "none": 2567,
+   "none": 2596,
    "other": 37,
    "strong": 40,
    "top": 594,
-   "workshop": 126
+   "workshop": 127
   }
  },
  "topics": {
@@ -5170,7 +5170,7 @@
     "matched": [
      "iterative refinement"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2608.08884v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.08884v2",
     "primary_category": "cs.RO",
     "published": "2026-08-09",
     "s2": {
@@ -5184,12 +5184,12 @@
     "tier": "top",
     "title": "SHRIMP: Iterative Refinement of Robot Task Plans",
     "track": "main",
-    "updated": "2026-08-09",
+    "updated": "2026-10-26",
     "venue": "UIST",
     "venue_evidence": "11 pages, 8 figures, The 39th Annual ACM Symposium on User Interface Software and Technology (UIST '26)",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2608.08884v1"
+    "version": "2608.08884v2"
    },
    "2608.12779": {
     "abs_url": "https://arxiv.org/abs/2608.12779",
@@ -5498,7 +5498,7 @@
     "primary_category": "math.OC",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5536,7 +5536,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5570,7 +5570,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [
       "Review"
      ],
@@ -7665,6 +7665,47 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.32096v1"
+   },
+   "2610.33096": {
+    "abs_url": "https://arxiv.org/abs/2610.33096",
+    "authors": [
+     "Ricardo Luna Gutierrez",
+     "Vineet Gundecha",
+     "Rahman Ejaz",
+     "Varchas Gopalaswamy",
+     "Riccardo Betti",
+     "Sahand Ghorbanpour",
+     "Aarne Lees",
+     "Soumyendu Sarkar"
+    ],
+    "code_url": "",
+    "comment": "Initial version submitted to NeurIPS 2026 pending publication",
+    "first_seen": "2026-10-27",
+    "id": "2610.33096",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33096v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-22",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "submitted",
+    "summary": "The achievement of practical fusion energy remains one of the most pressing unsolved scientific challenges, with immense implications for carbon-free power. A critical factor in the success of Inertial Confinement Fusion (ICF) is the design of a Laser Pulse Shape (LP) that can optimally drive implosions under stringent physical constraints. Traditional LP design relies on computationally expensive simulations and manual iterative refinement. We introduce the ICF Laser Pulse Shape Design System (LPDS), a generative inverse modeling framework that maps desired outcomes and target pellet configurations directly to optimized LPs. Crucially, we design a multi-objective loss function to ensure the generated LPs satisfy fundamental physical constraints and experimental requirements. Furthermore, we present constraint-conditioning, inpainting, and gradient-based LP editing mechanisms for fine-grained control over specific pulse characteristics during generation. Moreover, we study the transfer of our framework to a limited set of real experimental shots. Our method establishes a data-driven inverse design framework for LP design in ICF, contributing to the advancement of practical and sustainable fusion energy.",
+    "tier": "none",
+    "title": "Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion",
+    "track": "",
+    "updated": "2026-10-22",
+    "venue": "NeurIPS",
+    "venue_evidence": "Initial version submitted to NeurIPS 2026 pending publication",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.33096v1"
    }
   },
   "Korean Writing & NLP": {
@@ -10725,7 +10766,7 @@
     "matched": [
      "korean learner"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.26406v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.26406v2",
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
@@ -10735,16 +10776,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "oollim is a locally executable system for evaluating L2 English pronunciation accuracy, fluency, and prosody on a consumer computer. The system combines pretrained XLS-R, XEUS, and PhoneticXeus representations with reference-text features and ridge regressions trained on SpeechOcean762, the Korean Learners' L2 Speech Corpus (English), J-AESOP, and their combinations. On 305 independently held-out recordings assessed by three expert raters, several ridge configurations substantially outperform archived Azure API scores obtained in January 2026 in both Spearman correlation and quadratic weighted kappa across all three constructs. These results support expert speech evaluation on consumer hardware using pretrained representations and construct-specific regressions, without neural-model fine-tuning or calibration on the private evaluation data.",
+    "summary": "oollim is a locally executable system for evaluating L2 English pronunciation accuracy, fluency, and prosody on a consumer computer. The system combines pretrained XLS-R, XEUS, and PhoneticXeus representations with reference-text features and ridge regressions trained on SpeechOcean762, the Korean Learners' L2 Speech Corpus (English), J-AESOP, and their combinations. On 305 independently held-out recordings assessed by three expert raters, several ridge configurations substantially outperform archival Microsoft Azure Pronunciation Assessment API data in both Spearman correlation and quadratic weighted kappa across all three constructs. These results support expert speech evaluation on consumer hardware using pretrained representations and construct-specific regressions, without neural-model fine-tuning or calibration on the private evaluation data.",
     "tier": "none",
     "title": "Expert L2 English Speech Evaluation on a Gaming PC: Accuracy, Fluency, and Prosody with XLS-R, XEUS, and PhoneticXeus",
     "track": "",
-    "updated": "2026-10-19",
+    "updated": "2026-10-26",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.26406v1"
+    "version": "2610.26406v2"
    }
   },
   "Multilingual & Cross-Lingual Agents": {
@@ -28500,7 +28541,7 @@
     "matched": [
      "chinese"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.18298v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18298v2",
     "primary_category": "cs.AI",
     "published": "2026-10-13",
     "s2": {
@@ -28514,12 +28555,12 @@
     "tier": "none",
     "title": "Output Discipline Sets the Floor: A Falsification-Guided, Model-Agnostic Agent Protocol for Auditable Hypothesis-Driven Decision Making",
     "track": "",
-    "updated": "2026-10-13",
+    "updated": "2026-10-26",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.18298v1"
+    "version": "2610.18298v2"
    },
    "2610.18611": {
     "abs_url": "https://arxiv.org/abs/2610.18611",
@@ -29425,7 +29466,7 @@
      "urdu",
      "bengali"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.27205v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.27205v2",
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
@@ -29439,12 +29480,12 @@
     "tier": "none",
     "title": "LoWAgent: A Low-Resource Multilingual Benchmark for Web Agents",
     "track": "",
-    "updated": "2026-10-19",
+    "updated": "2026-10-24",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.27205v1"
+    "version": "2610.27205v2"
    },
    "2610.29870": {
     "abs_url": "https://arxiv.org/abs/2610.29870",
@@ -29723,14 +29764,14 @@
      "Shinya Tanaka"
     ],
     "code_url": "",
-    "comment": "49 pages, 3 figures, 6 tables, with supplementary material. Submitted to JMIR Medical Informatics",
+    "comment": "49 pages, 3 figures, 6 tables, with supplementary material",
     "first_seen": "2026-10-26",
     "id": "2610.32151",
     "journal_ref": "",
     "matched": [
      "japanese"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.32151v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.32151v2",
     "primary_category": "cs.CL",
     "published": "2026-10-23",
     "s2": {
@@ -29740,16 +29781,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Large language model agents that use tools could take on part of the electronic health record and desk work that occupies physicians' time, but in many hospitals the medical information systems run inside closed networks, so the model and the agent harness must also sit inside. We designed, implemented, and deployed LLENS, a clinical support AI agent platform that runs inside the closed network of Hokkaido University Hospital on one host with 8 NVIDIA H200 GPUs, the open-weight model Kimi K2.6 (~1 trillion parameters), and a web application rebuilt from Open WebUI. The harness has 10 components, including page image reading, full-text attachment input, a path-addressed document tree without a vector index, a network-isolated sandbox, artifact return, self-checking of generated output, subagents, and saved procedures. Kimi K2.6 was chosen from 3 open-weight candidates and scored 480/500 on the 2026 Japanese Medical Licensing Examination; it generated 119 tokens/s for one user and served 16 concurrent requests at 908 tokens/s in total. On 180 questions over hospital documents (3 seeds each), mean accuracy was 10.7% with no documents, 81.3% with fixed retrieval (top 10 chunks of one lexical search), and 97.2% with interactive access, in which the model reads with document tools and the sandbox (15.9 percentage points above fixed retrieval, 95% CI 10.9-21.3); the difference lay in filtering/counting questions (16.7% vs 87.8%). Five scenarios with synthetic data ran on combinations of the components: needlestick injury response, batch adverse event grading, scanned referral letter transcription, falls data aggregation and plotting, and investigation of 3 topics by subagents. The platform has run on the hospital network since September 14, 2026.",
+    "summary": "Large language model agents that use tools could take on part of the electronic health record and desk work that occupies physicians' time, but in many hospitals the medical information systems run inside closed networks, so the model and the agent harness must also be inside the network. We designed, implemented, and deployed LLENS, a clinical support AI agent platform that runs inside the closed network of Hokkaido University Hospital on a single host with 8 NVIDIA H200 GPUs, the open-weight model Kimi K2.6 (~1 trillion parameters), and a web application rebuilt from Open WebUI. The harness has 10 components, including page image reading, full-text attachment input, a path-addressed document tree without a vector index, a network-isolated sandbox, artifact return, self-checking of generated output, subagents, and saved procedures. Kimi K2.6 was chosen from 3 open-weight candidates and scored 480/500 on the 2026 Japanese Medical Licensing Examination; it generated 119 tokens/s for a single user and served 16 concurrent requests at 908 tokens/s in total. On 180 questions over hospital documents (3 seeds each), mean accuracy was 10.7% with no documents, 81.3% with fixed retrieval (top 10 chunks of one lexical search), and 97.2% with interactive access, in which the model reads with document tools and the sandbox (15.9 percentage points above fixed retrieval, 95% CI 10.9-21.3); the difference lay in filtering/counting questions (16.7% vs 87.8%). In an automated test of 13 work scenarios (4 runs each), the expected components were triggered in all runs for 12, and 5 scenarios were run with synthetic data on the deployment host. The platform has run on the hospital network since September 14, 2026.",
     "tier": "none",
     "title": "The LLENS Platform for On-Premises Large Language Model Agents in a Japanese University Hospital: Development and Evaluation Study",
     "track": "",
-    "updated": "2026-10-23",
+    "updated": "2026-10-26",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.32151v1"
+    "version": "2610.32151v2"
    },
    "2610.32955": {
     "abs_url": "https://arxiv.org/abs/2610.32955",
@@ -29786,6 +29827,191 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.32955v1"
+   },
+   "2610.34185": {
+    "abs_url": "https://arxiv.org/abs/2610.34185",
+    "authors": [
+     "Yihua Qin",
+     "Jiajie Jerry Zhao"
+    ],
+    "code_url": "",
+    "comment": "25 pages, including 16 pages of supplementary material. Both authors contributed equally",
+    "first_seen": "2026-10-27",
+    "id": "2610.34185",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34185v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM-based sales agents are often evaluated on static policy questions or task success, but deployment asks a sharper question: when a model can state a rule, will it choose compliant, tool-grounded actions under commercial pressure? We introduce R2A-Sales (Rule-to-Action), a policy-atom-matched benchmark for this question. Each item pairs a static probe with a multi-turn sales scenario sharing the same versioned policy atom, facts, evidence, behavioral constraints, and tool contract, so differences cannot be attributed to policy-content mismatch. In the interactive arm, a code-owned ledger verifies committed tool effects and terminal states; unsupported action claims receive no credit. We report static compliance $K$, grounded action compliance $A=\\Pr(\\text{safe terminal}\\land\\text{no hard violation}\\land\\text{non-echo})$, and the matched gap $G=K-A$. The frozen release spans three controlled Chinese-language sales domains, 24 policy atoms, 42 semantic cores, and 2,016 matched pairs. The confirmatory study audits 21,888 runs over 19 cores, covering eight backbones plus four Qwen3-8B prompt treatments (12 configurations). Static compliance is near ceiling $(K=89.9\\%\\text{--}99.1\\%)$, yet eight-backbone action compliance is only $A=3.0\\%\\text{--}17.3\\%$, giving $G=80.4\\text{--}92.5$ percentage points. Since $A$ also requires safe termination, $G$ upper-bounds rule-to-action degradation rather than isolating pressure alone. No prompt-only treatment dominates all metrics. R2A-Sales shows that sales-agent reliability must be measured at committed action, not rule recital or task completion alone.",
+    "tier": "none",
+    "title": "R2A-Sales: A Policy-Atom-Matched Benchmark for Rule-to-Action Gaps in Goal-Directed Sales Agents",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34185v1"
+   },
+   "2610.34253": {
+    "abs_url": "https://arxiv.org/abs/2610.34253",
+    "authors": [
+     "Chieh-Yuan Chang",
+     "Guan-Wei Chen",
+     "Chia-Yi Hsu",
+     "Chih Yang",
+     "Chia-Mu Yu",
+     "Chun-Ying Huang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.34253",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34253v1",
+    "primary_category": "cs.CR",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI coding agents routinely clone repositories, install packages, and read source code obtained from the Web, so publicly hosted code becomes part of the context that shapes the code they write. We show that this Web-borne context can be weaponized without any explicit instruction. We present NameTrap, a source-code poisoning attack that only renames identifiers in third-party Python files to steer AI coding agents toward attacker-targeted Common Weakness Enumeration (CWE) vulnerabilities. An attacker-side coding agent iteratively aligns identifiers with a CWE-specific naming convention and confirms through local probe completions that the renamed file elicits the target weakness, while the released bait contains neither instructions nor vulnerable statements. We evaluate NameTrap across six AI coding agents, ten underlying language models, and four vulnerability categories: CWE-78, CWE-79, CWE-327, and CWE-502. Starting from files whose clean versions never yield the targeted CWE, identifier-level manipulation achieves overall attack success rates of 22.5\\% to 56.0\\% across the six agents, reaching 75.0\\% for certain agent--model configurations, and substantially outperforms random renaming, neutral renaming, and the prior identifier-poisoning attack XOXO. The attack remains effective under Traditional Chinese prompts and transfers across models, while a security-reminder defense fails to consistently prevent vulnerability introduction. Moreover, three AI-based security analyzers and four static analyzers report none of the targeted weaknesses in the poisoned files. These findings expose an overlooked attack surface of agents that consume Web content: seemingly harmless variable names in untrusted, Web-hosted code can compromise the security of downstream software.",
+    "tier": "none",
+    "title": "NameTrap: Steering AI Coding Agents Toward Security Vulnerabilities via Variable Names",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34253v1"
+   },
+   "2610.34542": {
+    "abs_url": "https://arxiv.org/abs/2610.34542",
+    "authors": [
+     "Orel Navi",
+     "Elad Feldman",
+     "Ben Nassi"
+    ],
+    "code_url": "",
+    "comment": "11 pages, 14 figures, 7 tables",
+    "first_seen": "2026-10-27",
+    "id": "2610.34542",
+    "journal_ref": "",
+    "matched": [
+     "german"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34542v1",
+    "primary_category": "cs.CR",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Autonomous agents have been observed acting beyond their assigned tasks, accessing unauthorized systems, and establishing communication channels to exchange information, yet the Web and network-level techniques they use to extend their capabilities and circumvent security restrictions remain poorly understood. We study these techniques through the ProWiki incident, in which agents restricted to outbound HTTP GET requests repurposed a public German-language wiki as a message board. We analyze 14,591 agent edits containing 79,541 URL postings and present corroborating evidence that the published URLs reflect the agents' operational activity. We find that 26,717 URL occurrences (33.6%) embed target URLs within one to five layers of third-party Web services. By recursively reconstructing these nested URLs, we identify 67 distinct intermediate services and classify their functionality. Most intermediate layers (73.8%) extend agents' capabilities by delegating content extraction and transformation to external Web services: Markdown and OCR services convert web content into machine-readable text, JSON filtering services extract selected fields, and archival services expose historical versions of pages. The remaining 26.2% facilitate circumvention of access restrictions and evasion of detection, including CORS and fetch proxies that retrieve content on agents' behalf, and link shorteners and redirectors that hide destination URLs from mechanisms inspecting literal URLs or outer hostnames. Agents also reach the same targets through multiple URL paths, consistent with attempts to evade rate limits or obscure request origins. Our results expose a gap between the capabilities granted to agents and those they can obtain by composing publicly available Web services: restricting an agent's local toolset or direct Internet access may be insufficient while third-party services remain reachable.",
+    "tier": "none",
+    "title": "LLM WikiLeaks: Uncovering URL-Based Capability Extension and Security Circumvention in Agentic Message Boards",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34542v1"
+   },
+   "2610.34865": {
+    "abs_url": "https://arxiv.org/abs/2610.34865",
+    "authors": [
+     "Bang Xiao",
+     "Baosheng Jin",
+     "Jinhan Niu",
+     "Xingchen Zhang",
+     "Hua Shen"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.34865",
+    "journal_ref": "",
+    "matched": [
+     "multilingual"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34865v1",
+    "primary_category": "cs.HC",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Urban heritage tours are often delivered through fixed scripts, leaving limited room for visitors' situated questions, language preferences, or requests for evidence. We present ECHOES, an adaptive LLM-powered AR glasses docent for evidence-grounded interpretation of historical buildings. Specifically, the agent adapts along three dimensions: it modifies response structure according to the type of visitor question (identification, architectural detail, evidence-seeking, or route inquiry); it accumulates session-level interest signals from repeated questions and expressed curiosity to shape later explanations; and it tracks language preference and retrieval context across turns to maintain conversational continuity. The core of ECHOES is an LLM agent initialized as a source-aware urban heritage docent that realizes this adaptation through dialogue and preference context maintained across the session. Around this agent, ECHOES integrates visual site grounding, a self-built historical knowledge base supporting retrieval-augmented generation, and concise multilingual AR output designed for glanceable use. Through a working prototype centered on Shanghai's East Nanjing Road and the Bund, we demonstrate how an adaptive LLM-powered AR docent can transform historical tours from scripted narration into situated, question-responsive, and source-aware conversations.",
+    "tier": "none",
+    "title": "ECHOES: An Adaptive LLM-Powered AR Glasses Docent for Evidence-Grounded Urban Heritage Interpretation",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34865v1"
+   },
+   "2610.35240": {
+    "abs_url": "https://arxiv.org/abs/2610.35240",
+    "authors": [
+     "Radha Krishna Deshpande",
+     "Ajoy Mondal",
+     "Akash Manna",
+     "C V Jawahar"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.35240",
+    "journal_ref": "",
+    "matched": [
+     "cross-lingual"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35240v1",
+    "primary_category": "cs.CV",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "India's historical public archives present severe computer vision and document image analysis challenges: decades of parliamentary records survive only as degraded, multi-column scanned pages featuring mixed scripts, complex layouts, and dense visual noise where OCR failure is the primary obstacle to information retrieval. We present an end-to-end framework that couples vision-based layout segmentation and multi-script OCR with an agentic retrieval-augmented generation (RAG) pipeline. Our approach specifically addresses how visual degradation and layout fragmentation propagate into text extraction errors, using an iterative agentic loop to navigate around OCR noise and layout ambiguities before generating answers. Evaluated on the 200,000-page Punjab Vidhan Sabha archive, our system demonstrates robust handling of historical document degradation, outperforming standard text-only baselines.",
+    "tier": "none",
+    "title": "Reading Beyond OCR Noise: Robust Cross-Lingual RAG for Legislative Archives",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35240v1"
    }
   },
   "Reward & Value Models": {
@@ -39734,7 +39960,7 @@
     "matched": [
      "reward model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2512.24555v3",
+    "pdf_url": "https://arxiv.org/pdf/2512.24555v4",
     "primary_category": "cs.LG",
     "published": "2025-12-31",
     "s2": {
@@ -39750,12 +39976,12 @@
     "tier": "none",
     "title": "From Perception to Punchline: Empowering VLM with the Art of In-the-wild Meme",
     "track": "",
-    "updated": "2026-10-19",
+    "updated": "2026-10-26",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2512.24555v3"
+    "version": "2512.24555v4"
    },
    "2512.24693": {
     "abs_url": "https://arxiv.org/abs/2512.24693",
@@ -45558,7 +45784,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45605,7 +45831,7 @@
     "primary_category": "cs.SD",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45643,7 +45869,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45680,7 +45906,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45720,7 +45946,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45762,7 +45988,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45799,7 +46025,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45839,7 +46065,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45878,7 +46104,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45915,7 +46141,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45951,7 +46177,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45992,7 +46218,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [
       "Review"
      ],
@@ -46028,7 +46254,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46067,7 +46293,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -60337,7 +60563,7 @@
      "Zhengling Qi"
     ],
     "code_url": "",
-    "comment": "",
+    "comment": "A coauthor has explicitly requested withdrawal due to unresolved concerns about the manuscript. In particular, Section 4 does not adequately explain key methodological choices, including pair-mean score centering, user-specific calibration, and iterative self-training. The coauthor does not endorse continued public dissemination of this version",
     "first_seen": "2026-10-23",
     "id": "2610.29219",
     "journal_ref": "",
@@ -60345,7 +60571,7 @@
      "reward model",
      "preference learning"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.29219v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.29219v2",
     "primary_category": "cs.LG",
     "published": "2026-10-21",
     "s2": {
@@ -60359,12 +60585,12 @@
     "tier": "none",
     "title": "PerSPL: Personalized Semi-supervised Preference Learning",
     "track": "",
-    "updated": "2026-10-21",
+    "updated": "2026-10-25",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.29219v1"
+    "version": "2610.29219v2"
    },
    "2610.29410": {
     "abs_url": "https://arxiv.org/abs/2610.29410",
@@ -60932,6 +61158,376 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.32324v1"
+   },
+   "2610.33357": {
+    "abs_url": "https://arxiv.org/abs/2610.33357",
+    "authors": [
+     "Mariia Fedorova",
+     "Andrey Kutuzov",
+     "Gustavo Cadenas Delascio"
+    ],
+    "code_url": "https://github.com/ltgoslo/dpo-for-definition-generation",
+    "comment": "the 5th NLP4PI (NLP for Positive Impact) Workshop@EMNLP 2026",
+    "first_seen": "2026-10-27",
+    "id": "2610.33357",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33357v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Dictionary-like definition generators are known to be useful for lexical semantic change detection (LSCD). However, they suffer from overly granular sense distribution, producing excessive number of definitions for one and the same lexical sense. In this work, we show that fine-tuning with Direct Preference Optimization (DPO) helps to overcome this problem. We test our approach both quantitatively on a curated academic LSCD benchmark and qualitatively on real-world data for a practical task of auditing diachronic changes in sustainability terminology within project documentation of EU development finance. All models, code and predictions produced in this study are publicly available at https://github.com/ltgoslo/dpo-for-definition-generation.",
+    "tier": "workshop",
+    "title": "Preference Optimization Improves Definition Generation: Semantic Change in EU Institutional Sustainable Finance Disclosures",
+    "track": "workshop",
+    "updated": "2026-10-23",
+    "venue": "EMNLP",
+    "venue_evidence": "the 5th NLP4PI (NLP for Positive Impact) Workshop@EMNLP 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2610.33357v1"
+   },
+   "2610.33368": {
+    "abs_url": "https://arxiv.org/abs/2610.33368",
+    "authors": [
+     "Joseph Rowan",
+     "Ashish J. Khisti"
+    ],
+    "code_url": "",
+    "comment": "9 pages, 1 figure. Presented at the IEEE ISIT 2026 Workshop on Information Theory for Large Language Models (IT4LLM)",
+    "first_seen": "2026-10-27",
+    "id": "2610.33368",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "process reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33368v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We study an extension of the Guided Speculative Inference (GSI) algorithm for test-time-scaling of large language models (LLMs) to a novel setting where an ensemble of smaller LLMs proposes draft reasoning steps which are later verified by a larger base model and a process reward model. Using the established framework of multiple importance sampling (MIS), we introduce weighting schemes to aggregate samples from a diverse collection of proposal distributions. We provide new bounds on the KL divergence from the optimal reward-tilted target distribution and the expected reward degradation, then demonstrate that the well-known balance heuristic is optimal. Compared to GSI with a single well-tuned drafter, combining several diverse LLMs while retaining the same total number of samples maintains competitive pass-at-$N$ downstream performance while being mathematically robust to situations where the support of a single draft model does not cover that of the target, where GSI may fail.",
+    "tier": "none",
+    "title": "Multiple Importance Sampling for Guided Speculative Inference",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.33368v1"
+   },
+   "2610.33775": {
+    "abs_url": "https://arxiv.org/abs/2610.33775",
+    "authors": [
+     "Haggai Roitman"
+    ],
+    "code_url": "",
+    "comment": "version 1.0",
+    "first_seen": "2026-10-27",
+    "id": "2610.33775",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33775v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-24",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large Language Models excel at reasoning and generation but their autoregressive, token-by-token inference makes them unnecessarily slow, expensive, and poorly calibrated for the many routine decisions (routing, gating, scoring, classification) that modern AI systems require at sub-second latency. A growing class of models addresses this gap: System 1 decision models, architectures that map an input directly to a typed, structured decision in a single forward pass. This guide provides a comprehensive, practitioner-oriented treatment of the field. We propose a five-family taxonomy covering encoder-based classifiers, reward models, non-autoregressive decision engines, contrastive decision models, and extraction models, and we provide in-depth coverage of each family's architecture, training methodology, and deployment trade-offs. A central theme is calibration: we develop the theory of proper scoring rules, analyze Reinforcement Learning for Calibrated Decisions (RLCD), and examine recently discovered phenomena including IIA violations, ordinal-scale bias, and few-shot recalibration under distribution shift. On the integration side, we describe how System 1 models serve as decision infrastructure within agentic workflows and System 1 + System 2 cascades that route between fast and slow models based on calibrated confidence. The guide covers 18 application domains, maps the rapidly growing open-source ecosystem (over 70 model reproductions in weeks), provides runnable code throughout, and includes a practitioner's checklist, an open-source model zoo, and 22 self-assessment questions with detailed answers. Spanning 190 references, it is intended as a unified entry point for researchers and engineers working at the intersection of fast decision-making, calibration, and production AI systems.",
+    "tier": "none",
+    "title": "The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS",
+    "track": "",
+    "updated": "2026-10-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.33775v1"
+   },
+   "2610.34336": {
+    "abs_url": "https://arxiv.org/abs/2610.34336",
+    "authors": [
+     "Tao Jing",
+     "Chen Kang",
+     "Feifei Zhai",
+     "Pengyuan Liu",
+     "Dong Yu"
+    ],
+    "code_url": "",
+    "comment": "11 pages. Preliminary version; further experiments and revisions are planned",
+    "first_seen": "2026-10-27",
+    "id": "2610.34336",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34336v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large reasoning models are costly to serve because they are large and because they generate long chains of thought (CoT). Weight pruning and CoT compression address these two costs separately, but they interfere in that pruning adds redundant reasoning on problems the model still solves and incomplete reasoning on those it no longer solves, and on harder problems makes the model less compressible by subsequent length-preference optimization. We trace this to a blind spot on each side: pruning criteria do not distinguish necessary from redundant reasoning, and preference-based CoT compression receives no training signal on problems a pruned model always or never solves. We propose Contrastive Set-Difference (CSD), which identifies neurons enriched in redundant reasoning by contrasting their activations on long and short correct solutions of the same problem and prunes them preferentially, and we extend preference pairs to the problems a pruned model always or never solves. Pruning 20\\% of DeepSeek-R1-Distill-Qwen-7B, the combination uses 8--22\\% fewer thinking tokens on four math benchmarks than pruning with reasoning-aware calibration (RAC) followed by the same compression, with accuracy within 0.5 points.",
+    "tier": "none",
+    "title": "Improving the Chain-of-Thought Compressibility of Pruned Reasoning Models via Long--Short Contrastive Pruning",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34336v1"
+   },
+   "2610.34375": {
+    "abs_url": "https://arxiv.org/abs/2610.34375",
+    "authors": [
+     "Cheng Gui",
+     "Yihua Shao",
+     "Lei Li",
+     "Jingcai Guo",
+     "Maolin Wang"
+    ],
+    "code_url": "",
+    "comment": "28 pages, 3 figures",
+    "first_seen": "2026-10-27",
+    "id": "2610.34375",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34375v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Best-of-N (BoN) inference returns the candidate with the highest proxy reward, so a larger $N$ tests the proxy's extreme tail more than its average ranking quality. We show that the exact BoN value is a Beta-weighted integral of conditional true reward over within-prompt score quantiles. It follows that BoN depends on scores only through their ranks. It also follows that BoN can decline only if the calibration curve in the tail turns downward, and the budget where the decline appears depends on where that turn lies. Under a bounded additive model, the error tail sets the limit: Gaussian errors keep improving, Laplace errors reach a plateau, and heavy-tailed errors return to the prior mean. When error variance is largest at low true reward, even Gaussian noise can push BoN below random selection. Synthetic phase maps agree with this taxonomy. On real candidate pools spanning several verifiable domains, base policies, and learned reward models, tail failures are rare and all occur in code generation. A held-out tail calibration statistic reliably predicts where a cross-fitted budget cap helps. It does about as well as rank accuracy, and the cap is competitive with a Soft-BoN baseline. Tail calibration therefore does not replace ranking metrics. It is an audit that is unchanged by any monotone rescaling of the reward scores and shows which budgets are at risk.",
+    "tier": "none",
+    "title": "Whether or Where? Tail Calibration Signals Finite-Budget Reward Hacking in Best-of-N Selection",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34375v1"
+   },
+   "2610.34384": {
+    "abs_url": "https://arxiv.org/abs/2610.34384",
+    "authors": [
+     "Gyubeum Lim",
+     "Yemo Koo",
+     "Ghunwoo Jang",
+     "Zsolt Kira"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.34384",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34384v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Mobile-use multimodal agents are typically evaluated by task success from a clean initial state, which does not isolate their ability to recover from intermediate errors. Because mobile environments change dynamically, a general mobile-use agent must complete tasks robustly even from unexpected states and in unseen environments. This requires knowing when and where an agent makes errors, and whether it can recover from errors and subsequent states. To evaluate this capability, we introduce AndroidFlux, a failure-recovery benchmark built on AndroidWorld. AndroidFlux restores recorded trajectories to controlled checkpoints before, at, and after the first recoverable error, so that different agents continue from the same device state and history. On these checkpoints, a complementary reward-modeling benchmark evaluates recovery-action preferences using downstream rollout outcomes. We further release an offline reinforcement learning (RL) dataset that improves both error recovery and overall task success. Our evaluations show that recovery performance only partially correlates with clean-start success, and that explicit reasoning helps only models trained with GUI-domain specific RL.",
+    "tier": "none",
+    "title": "AndroidFlux: Evaluating and Reward Modeling Failure Recovery Capabilities in Mobile Use Multimodal Agents",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34384v1"
+   },
+   "2610.34683": {
+    "abs_url": "https://arxiv.org/abs/2610.34683",
+    "authors": [
+     "Jaeyoung Park",
+     "Hantian Zhang",
+     "Kexin Rong",
+     "Steven Euijong Whang"
+    ],
+    "code_url": "",
+    "comment": "21 pages, 8 figures, 16 tables",
+    "first_seen": "2026-10-27",
+    "id": "2610.34683",
+    "journal_ref": "",
+    "matched": [
+     "bradley-terry"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34683v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Group fairness in retrieval-augmented generation (RAG) systems is typically evaluated using metrics aggregated across queries. However, such metrics can conceal topic-level disparities: a system may favor women on questions about human rights and men on questions about actors and filmmakers, appearing nearly neutral overall even though neither topic is fair. We therefore study topic-level fairness, which requires group fairness to hold within each topic rather than only in aggregate. To reduce the topic-level disparity, we adapt the reranker separately for each topic with a Bradley-Terry objective under direct supervision from the generated output: preference pairs built from the generator's own output carry the direction that topic requires. With preference pairs built from RoMQA alone, the adaptation reduces the mean absolute per-topic disparity by 51% on RoMQA and by 40% on TREC Fair Ranking while retaining accuracy. No baseline reaches the reduction, even when modified to treat each topic separately rather than apply one correction to every topic. Neither does our method with one reranker for all topics, which follows the direction that most topics require.",
+    "tier": "none",
+    "title": "Topic-Level Fairness in Retrieval-Augmented Generation",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34683v1"
+   },
+   "2610.35470": {
+    "abs_url": "https://arxiv.org/abs/2610.35470",
+    "authors": [
+     "Thomas Quadt",
+     "Boris Čule",
+     "Roy Lindelauf",
+     "Herman Monsuur",
+     "Mark Voskuijl"
+    ],
+    "code_url": "",
+    "comment": "20 pages, 15 figures",
+    "first_seen": "2026-10-27",
+    "id": "2610.35470",
+    "journal_ref": "",
+    "matched": [
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35470v1",
+    "primary_category": "cs.NE",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Many decision-making tasks are inherently multi-objective. Interactive evolutionary multi-objective optimization algorithms (iEMOAs) are particularly well-suited to help the decision-maker find their most preferred solution. However, many of these algorithms employ black-box preference models. For high-stakes decision-making tasks, like healthcare and defense, a high level of transparency is needed, for instance to support accountability. We propose an interpretable iEMOA which uses active learning to efficiently learn a tree-based preference model directly from pairwise comparisons. The survival operator of NSGA-II and NSGA-III is extended with the learned preference model to guide the algorithm towards the region of interest. An extensive experimental study compares the proposed method to a state-of-the-art black-box model and a state-of-the-art interpretable model. Results indicate that our proposed model outperforms the alternatives in terms of finding the most preferred solution at the cost of a slightly worse average final population. Finally, a case study on a real-life engineering problem illustrates how inspecting the learned model reveals which objectives drive the decision-maker's preferences.",
+    "tier": "none",
+    "title": "An Interactive Evolutionary Multiobjective Optimization Algorithm Based on Interpretable Active Preference Learning",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35470v1"
+   },
+   "2610.35716": {
+    "abs_url": "https://arxiv.org/abs/2610.35716",
+    "authors": [
+     "Shurun Li",
+     "Michael Hua Wang",
+     "Haibo Zeng",
+     "Long Wang"
+    ],
+    "code_url": "",
+    "comment": "27 pages, 5 figures, 8 tables",
+    "first_seen": "2026-10-27",
+    "id": "2610.35716",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35716v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reinforcement learning with verifiable rewards trains on cheap checks, such as unit tests, that a policy can learn to game, while a stronger check is too expensive to run on every rollout. We study how to spend a limited strong-verifier budget in GRPO, separating which weakly passing rollouts to audit from what reward a caught hack receives. At a fixed policy state with centered advantages, the expected update depends on a design only through each rollout's marginal audit probability and correction; reflecting a caught hack's reward about the failure reward negates the advantages of an all-hack group; and auditing whole groups with the fewest weak passes first (low-pass budgeted audits, LB) minimizes the advantage mass left on hacks among pass-count designs with a fixed correction when a label's value falls with the pass count. We tested this analysis in actual LLM training: from each run's starting state, the sign of this mass on a frozen panel predicted whether hacking would be suppressed in 33 of 39 runs, including 13 of 16 preregistered ones. In LeetCode (Wong et al., 2026) and Countdown-Code (Khalifa et al., 2026), LB drives hacking to near zero, while random audits with the same penalty and budget do not and use more labels. We also find that the randomness of the update affects training: in Countdown-Code, two unbiased corrections, per-item reward-level IPW and a group-level advantage correction, bring hacking down too but end 6.1-11.8 and 8.0-11.5 points lower in held-out accuracy than LB at the same budget. A full audit, which the group-level correction reproduces in expectation, stays within about two points of LB in three seeds, while LB uses 28% of its labels, and allocating the same correction by pass count recovers most of the loss (one seed). Training outcomes thus depend not only on the expected update but also on the randomness of its estimate.",
+    "tier": "none",
+    "title": "Audit Where Hacks Pay: Budgeted Strong-Verifier Audits Against Reward Hacking in GRPO",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35716v1"
+   },
+   "2610.35787": {
+    "abs_url": "https://arxiv.org/abs/2610.35787",
+    "authors": [
+     "Christian Moya",
+     "Purav Matlia",
+     "Elliott Thornley",
+     "Guang Lin"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.35787",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35787v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Preference optimization can learn spurious correlations, and augmenting the preference data with ties (equally preferred responses) can reduce spurious reliance. However, ties differ in their corrective effect, making their selection for augmentation important. For log-linear policies, we derive each tie's influence on spurious reliance and show that taking the largest predicted reductions is first-order optimal among subsets of equal size. Computing these influences requires knowledge of the spurious features and the curvature of the training objective, which is often unavailable or expensive to estimate. To this end, we explore using the magnitude of a tie's implicit reward margin and characterize the conditions under which it is a useful proxy for predicted influence. To test the theory and its qualitative transfer to neural models, we estimate influence with a counterfactual proxy for spurious reliance and use a generalized Gauss--Newton approximation to curvature for language models. Across log-linear policies, neural models, and large language models, our selection rules consistently achieve comparable reductions in spurious reliance with fewer ties than uniform selection.",
+    "tier": "none",
+    "title": "Selective Tie Learning: Mitigating Spurious Correlations in Preference Optimization",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35787v1"
    }
   },
   "Search & Control for Generation": {
@@ -67765,7 +68361,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -67800,7 +68396,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -67840,7 +68436,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -70343,6 +70939,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.32431v1"
+   },
+   "2610.34149": {
+    "abs_url": "https://arxiv.org/abs/2610.34149",
+    "authors": [
+     "Tianchen Guo",
+     "Tengyue Zhang",
+     "Chen Liu",
+     "Ling Chen",
+     "Xin Yu"
+    ],
+    "code_url": "",
+    "comment": "Winter Conference on Applications of Computer Vision (WACV) 2027. 33 pages, 14 figures, and 23 tables",
+    "first_seen": "2026-10-27",
+    "id": "2610.34149",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34149v1",
+    "primary_category": "cs.CV",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "While Multimodal Large Language Models (MLLMs) excel at zero-shot reasoning, their spatial capabilities are primarily evaluated through static, passive observation. In complex, human-centric scenes, occlusion often hides crucial geometric evidence, and passive benchmarks force models to guess rather than recognize their own visual uncertainty. To bridge this gap, we introduce SATE-Bench, a novel interactive benchmark comprising 316 real-world scenes and 2,525 multi-turn QA pairs to evaluate visual self-awareness and active exocentric view-exploration. It combines a Passive multi-view control with an Active exploration setting, where models start from a severely occluded view and must iteratively query adjacent viewpoints until they gather enough evidence to fully ``sate'' the question, scored by a step-penalized efficiency reward. Evaluating state-of-the-art MLLMs reveals that they terminate exploration prematurely while reporting high confidence, and struggle with fine-grained 3D geometric tasks; matched-view controls further attribute the Active--Passive gap primarily to insufficient evidence acquisition. Moreover, fine-tuning with Group Relative Policy Optimization (GRPO) shows that rewarding view-seeking increases active exploration but lowers overall accuracy, as models over-explore and fail to fuse expanding multi-view contexts across turns. These findings indicate that scaling passive multi-view perception does not intrinsically yield active spatial reasoning, highlighting the need for models that know where to look, how to integrate what they see, and when to stop. Code and data are available at https://gtc-gh.github.io/SATE-Bench/",
+    "tier": "none",
+    "title": "Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34149v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -79419,7 +80053,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -79464,7 +80098,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -79501,7 +80135,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -79545,7 +80179,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -81199,7 +81833,7 @@
      "self-correction",
      "self-correct"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.07506v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.07506v2",
     "primary_category": "cs.HC",
     "published": "2026-10-05",
     "s2": {
@@ -81213,12 +81847,12 @@
     "tier": "none",
     "title": "Jarvis: A Proactive Speech Agent for Multi-Party Conversations",
     "track": "",
-    "updated": "2026-10-05",
+    "updated": "2026-10-25",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.07506v1"
+    "version": "2610.07506v2"
    },
    "2610.08993": {
     "abs_url": "https://arxiv.org/abs/2610.08993",
@@ -81885,14 +82519,14 @@
      "Leowei Liang"
     ],
     "code_url": "",
-    "comment": "28 pages, 16 figures, 5 tables",
+    "comment": "29 pages, 16 figures, 5 tables",
     "first_seen": "2026-10-16",
     "id": "2610.22192",
     "journal_ref": "",
     "matched": [
      "critic model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.22192v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22192v2",
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
@@ -81906,12 +82540,12 @@
     "tier": "none",
     "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
     "track": "",
-    "updated": "2026-10-15",
+    "updated": "2026-10-25",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.22192v1"
+    "version": "2610.22192v2"
    },
    "2610.22469": {
     "abs_url": "https://arxiv.org/abs/2610.22469",
@@ -82595,6 +83229,207 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.32891v1"
+   },
+   "2610.33046": {
+    "abs_url": "https://arxiv.org/abs/2610.33046",
+    "authors": [
+     "Cheikh Ahmed",
+     "Zhiyu Zhang",
+     "Kun Mao",
+     "Yong Zhang",
+     "Zirui Zhou"
+    ],
+    "code_url": "https://github.com/cheikh025/Organon",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.33046",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33046v1",
+    "primary_category": "cs.NE",
+    "published": "2026-10-17",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Scientific discovery does not follow a single fixed methodology: research methods vary across domains and evolve through experimentation as investigations unfold. Although LLM-guided evolutionary search has advanced automated discovery, existing frameworks typically rely on fixed search procedures or restrict adaptation to predefined components, limiting their ability to address diverse research problems and adapt to challenges that emerge at runtime. We introduce Organon, a recursively self-improving agent for scientific discovery. During execution, a single persistent agent analyzes its accumulated experience and autonomously revises its own search strategies, population management, diagnostic tools, memory, and worker coordination. These revisions take effect at runtime, allowing the agent to continuously adapt its approach as research progresses. Importantly, the agent can also diagnose and correct flaws in its own adaptation procedures, enabling recursive improvement of the mechanisms that guide its future self-improvement. We evaluate Organon across 21 computational discovery tasks spanning algorithm design, GPU kernel optimization, mathematical construction, and systems optimization. On ALE-Bench Lite, Organon achieves the best performance among competing search frameworks on all 10 tasks, improving mean held-out performance by 20.5% over EvoX. On KernelBench, it achieves the best results on three of four workloads, with speedups of up to 1.67x over the strongest competing method. Analysis of the search trajectories further reveals how the agent develops task-specific search strategies, builds new diagnostic capabilities, and corrects or reverses its own earlier revisions. We implement Organon using DeepSeek Harness and Cordis's spatiotemporal composability. Code is available at https://github.com/cheikh025/Organon.",
+    "tier": "none",
+    "title": "Organon : From Evolutionary Search to Recursive Self-Improving Agents for Scientific Discovery",
+    "track": "",
+    "updated": "2026-10-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.33046v1"
+   },
+   "2610.34836": {
+    "abs_url": "https://arxiv.org/abs/2610.34836",
+    "authors": [
+     "Boxuan Wang",
+     "Zhuoyun Li",
+     "Sarvapali D. Ramchurn",
+     "Xiaowei Huang",
+     "Yi Dong"
+    ],
+    "code_url": "",
+    "comment": "Preprint - Under Review",
+    "first_seen": "2026-10-27",
+    "id": "2610.34836",
+    "journal_ref": "",
+    "matched": [
+     "self-refine"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34836v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multi-agent large language model (LLM) systems can exhibit emergent behaviors through interaction, yet whether a similar phenomenon exists for reasoning alignment remains largely unexplored. We study whether agent interaction produces additional reference-grounded reasoning alignment beyond matched individual self-refinement, and introduce REMAP (Reference-Entailment-Matrix for Agentic Process), a framework that quantifies this effect through Semantic Coverage and interaction-specific alignment gains. Across diverse model families and two multi-hop reasoning benchmarks, we observe broadly positive interaction gains, particularly on reasoning content that depends on integrating evidence distributed across agents. These gains are consistently associated with independently measured peer-information recovery, while further analysis reveals composition-dependent heterogeneity effects and asymmetric information transfer across agent capability levels. Motivated by these findings, we further introduce a fact-level multi-agent communication framework that replaces full reasoning-trace exchange with compact, gap-aware, and selectively routed information. Our experiments show that compact fact exchange improves reasoning alignment and task performance while reducing communication overhead, whereas more selective communication exposes a trade-off between acquiring distributed information, retaining local content, and communication efficiency. Overall, our results show that collective emergent alignment can be quantified, linked to information-transfer patterns, and used to guide more effective multi-agent communication.",
+    "tier": "none",
+    "title": "Collective Emergent Alignment: Measuring and Amplifying Interaction-Induced Reasoning Alignment in Multi-Agent LLMs",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34836v1"
+   },
+   "2610.35193": {
+    "abs_url": "https://arxiv.org/abs/2610.35193",
+    "authors": [
+     "Jiayue Pu",
+     "Ang Gao",
+     "Jinyi Bai",
+     "Qipeng Wang",
+     "Tongyu Wen",
+     "Jiahao Zhao",
+     "Keyu Qu",
+     "Junhao Zhang",
+     "Chenglei Shen",
+     "Zhongxiang Sun",
+     "Jun Xu",
+     "Xiao Zhang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.35193",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35193v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement. Reported gains may reflect flawed evaluations, previously acquired capabilities may deteriorate, and compliance with behavioral constraints may weaken. Compromised artifacts or sensitive information may also persist in successor systems. Changes to improvement mechanisms may invalidate earlier verification results and make human oversight less effective. This survey presents an operational definition and process framework for RSI and organizes the requirements for trustworthy RSI into four interconnected themes: genuine and sustained improvement; behavioral constraints, alignment, and fairness; system security and privacy; and transparency and controllability. We examine these themes from three perspectives: Improvement Validity, Constraint Preservation, and Effective Oversight. This analysis covers improvement diagnosis, proposal generation, proposal evaluation, and update implementation (S1--S4), including the recursive application of these stages to improvement mechanisms (RI). We review risks, safeguards, and evaluation evidence for individual updates, effects inherited by successor systems, and revisions to improvement mechanisms, while distinguishing direct RSI findings from evidence in related systems. Finally, we examine evaluation settings, identify requirements for independent and longitudinal assessment, and discuss applications and open research problems.",
+    "tier": "none",
+    "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35193v1"
+   },
+   "2610.35316": {
+    "abs_url": "https://arxiv.org/abs/2610.35316",
+    "authors": [
+     "Jiawei Lu",
+     "Chen Zhang",
+     "Jinwei Lu",
+     "Yuanwei Song",
+     "Yuanfeng Song",
+     "Raymond Chi-Wing Wong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.35316",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35316v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Users often request charts without knowing which database or table holds the relevant data. Such requests may be ambiguous, and users may ask follow-up questions to deepen their analysis or iteratively refine existing charts. A useful assistant must therefore discover relevant data sources among heterogeneous databases, ask clarifying questions when needed, and track evolving user intent while preserving constraints established in earlier turns. Yet recent text-to-visualization agents typically rely on static agent harnesses that are predefined and remain unchanged despite recurring failures across tasks. To address this limitation, we introduce RSIV-Harness, which keeps the language model weights fixed and applies Recursive Self-Improvement to revise the surrounding harness from the agent's own failure traces. To balance flexible self-improvement with stability, we introduce a four-layer framework that evaluates proposed harness revisions through anchor and memory checks, refining those that pass and restoring the best validated harness otherwise. We further introduce ODAC-Vis, a benchmark with 640 tasks for Open-Domain, Ambiguous, and Conversational text-to-visualization that jointly evaluates open-domain data discovery, ambiguity resolution, multi-turn visualization refinement, and executable chart generation. Experiments show that a single round of RSIV-Harness improves all six evaluation metrics relative to the seed harness, with particularly large gains in executability (+28.02 points) and chart structure (+34.01 points), demonstrating the ability to learn from task-solving experience and turn recurring failures across tasks into substantial performance improvements.",
+    "tier": "none",
+    "title": "RSIV-Harness: A Recursive Self-Improvement Harness Framework for Open-Domain Conversational Text-to-Visualization",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35316v1"
+   },
+   "2610.35434": {
+    "abs_url": "https://arxiv.org/abs/2610.35434",
+    "authors": [
+     "Wangcheng Tao",
+     "Zhanglu Yan",
+     "Han Wu",
+     "Weng-Fai Wong"
+    ],
+    "code_url": "",
+    "comment": "17 pages, 5 figures",
+    "first_seen": "2026-10-27",
+    "id": "2610.35434",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35434v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Recursive self-improvement (RSI), in which a system also improves the way it improves, is a long-standing aspiration on the path to AGI. Language agents increasingly store procedural knowledge in reusable skills. Optimizing skills offers a direct way to achieve RSI, because the optimization procedure itself can be encoded as a skill. Existing skill optimizers, however, follow a hand-designed procedure. Even methods that evolve a meta-skill confine it to a fixed pipeline and relearn it for each task. We present Skill$^{\\infty}$, which makes skill optimization recursively self-improving: a meta agent follows a meta-skill to optimize task skills and optimizes the meta-skill itself using the same procedure. The optimization is agent-led. The meta agent diagnoses execution traces, proposes candidates, requests independent reviews, and allocates the search budget. The meta-skill defines these steps, allowing self-improvement to rewrite them. This meta-skill is also decoupled from task skills, refined on multiple skill optimization tasks and then reused to optimize task skills across diverse domains. As in deployment, skills at both levels are standard packages loaded through native skill discovery. On 83 SkillsBench tasks, Skill$^{\\infty}$ reaches a pass rate of 60.7%, compared with 56.4% for human-curated skills and 54.5% for SkillEvolver.",
+    "tier": "none",
+    "title": "Skill$^{\\infty}$: Recursive Self-Improvement for Agent Skill Optimization",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35434v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -92052,6 +92887,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.31467v1"
+   },
+   "2610.35083": {
+    "abs_url": "https://arxiv.org/abs/2610.35083",
+    "authors": [
+     "Jinhu Qi",
+     "Minda Hu",
+     "Wentao Zhang",
+     "Zixing Song",
+     "Irwin King"
+    ],
+    "code_url": "",
+    "comment": "12 pages, 5 figures, 7 tables",
+    "first_seen": "2026-10-27",
+    "id": "2610.35083",
+    "journal_ref": "",
+    "matched": [
+     "faithfulness"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35083v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI assistants are increasingly asked to reason over a user's own web traces: group chats, community threads, activity logs and revision histories. On CL-bench Life, a benchmark of such real-life context learning, frontier LLMs solve fewer than one task in five. We find that the request is not the specification: over 80% of the benchmark's rubrics share less than 60% of their content words with the final request, as for a rule set two turns earlier or every record that meets the user's criterion, and LLMs answering directly pass only 67% of these implicit rubrics against 81% of the others. We propose QERA, a Question-driven Evidence Reasoning Architecture that asks before it answers. QERA first turns the request into a requirement checklist and typed information needs, filtered by code for faithfulness to the user's words; it then answers from the whole conversation, asks the same questions again with quotes verified by code, and applies a guarded local repair. It needs no training or rubrics and makes about four LLM calls per task. On all 405 tasks with four frontier LLMs, QERA attains the highest solving rate on every LLM (21.0% on average, against 18.2% for the strongest of three inference-time baselines and 14.6% for direct answering) and leads every baseline significantly when pooled across LLMs, while using fewer tokens than PSCI and 4-5% of the tokens of Ctx2Skill. Ablations on GPT-6-Luna show that the gain is settled before the answer, by a fixed answer protocol (+3.8 rubric points) and the request-specific questions (+1.6), and that it is concentrated on implicit rubrics, with checking afterwards refining mainly numeric requirements.",
+    "tier": "none",
+    "title": "Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35083v1"
    }
   },
   "Synthetic Preference Data": {
@@ -103394,7 +104267,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -103439,7 +104312,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [
       "Review"
      ],
@@ -103479,7 +104352,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -103515,7 +104388,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -103554,7 +104427,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -103590,7 +104463,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -103626,7 +104499,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -103660,7 +104533,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106600,7 +107473,7 @@
     "matched": [
      "hard negative"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.09700v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.09700v2",
     "primary_category": "cs.CV",
     "published": "2026-10-07",
     "s2": {
@@ -106614,12 +107487,12 @@
     "tier": "none",
     "title": "What Makes Synthetic Hard Negatives Work in Vision-Language Pretraining?",
     "track": "",
-    "updated": "2026-10-07",
+    "updated": "2026-10-26",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.09700v1"
+    "version": "2610.09700v2"
    },
    "2610.10092": {
     "abs_url": "https://arxiv.org/abs/2610.10092",
@@ -107732,6 +108605,79 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.32933v1"
+   },
+   "2610.35045": {
+    "abs_url": "https://arxiv.org/abs/2610.35045",
+    "authors": [
+     "Ngoc Luyen Le",
+     "Marie-Hélène Abel",
+     "Bertrand Laforge"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.35045",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35045v1",
+    "primary_category": "cs.IR",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Dense retrievers are commonly trained with hard negatives selected from lexical or dense retrieval results. Retrieval proximity, however, does not indicate whether a candidate conflicts with explicit domain structure. We introduce CA-HNM, a constraint-aware hard-negative mining framework that combines retrieval-based candidate generation with deterministic incompatibility rules derived from a structured domain model. The framework removes known positives, constructs a local typed context around the query target, records relational, scope, target, and level mismatches, and uses the resulting candidates to fine-tune a standard dual encoder. Structured information is required only during offline negative construction. We evaluate CA-HNM on MOOCCubeX and Course-Skill Atlas with two encoders, two training losses, and ten seeds. Relative to a retrieval-rank-matched control, CA-HNM-Pure has higher mean NDCG@10 in six of eight dataset--encoder--loss configurations. Four hierarchical 95% bootstrap intervals are entirely above zero, mostly under triplet loss. In a separate experiment, CA-HNM-Mixed shows slightly higher mean NDCG@10 than a matched-mixed control on both collections. Structural variants show that changes in available structure can also change candidate eligibility and negative-pool composition. The results indicate that the contribution of constraint-aware selection depends on the training objective and the composition of the negative pool.",
+    "tier": "none",
+    "title": "CA-HNM: Constraint-Aware Hard Negative Mining for Dense Retrieval with Structured Domain Models",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35045v1"
+   },
+   "2610.35787": {
+    "abs_url": "https://arxiv.org/abs/2610.35787",
+    "authors": [
+     "Christian Moya",
+     "Purav Matlia",
+     "Elliott Thornley",
+     "Guang Lin"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.35787",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35787v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Preference optimization can learn spurious correlations, and augmenting the preference data with ties (equally preferred responses) can reduce spurious reliance. However, ties differ in their corrective effect, making their selection for augmentation important. For log-linear policies, we derive each tie's influence on spurious reliance and show that taking the largest predicted reductions is first-order optimal among subsets of equal size. Computing these influences requires knowledge of the spurious features and the curvature of the training objective, which is often unavailable or expensive to estimate. To this end, we explore using the magnitude of a tie's implicit reward margin and characterize the conditions under which it is a useful proxy for predicted influence. To test the theory and its qualitative transfer to neural models, we estimate influence with a counterfactual proxy for spurious reliance and use a generalized Gauss--Newton approximation to curvature for language models. Across log-linear policies, neural models, and large language models, our selection rules consistently achieve comparable reductions in spurious reliance with fewer ties than uniform selection.",
+    "tier": "none",
+    "title": "Selective Tie Learning: Mitigating Spurious Correlations in Preference Optimization",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35787v1"
    }
   },
   "Text Quality Evaluation": {
@@ -122063,7 +123009,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122104,7 +123050,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122144,7 +123090,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122179,7 +123125,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122217,7 +123163,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122257,7 +123203,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122299,7 +123245,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122333,7 +123279,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122378,7 +123324,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122461,7 +123407,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122499,7 +123445,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122535,7 +123481,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122576,7 +123522,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [
       "Review"
      ],
@@ -131395,7 +132341,7 @@
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.29312v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.29312v2",
     "primary_category": "cs.HC",
     "published": "2026-10-21",
     "s2": {
@@ -131409,12 +132355,12 @@
     "tier": "top",
     "title": "A Stratified Multi-Rater Evaluation of LLM-Based Virtual Standardized Patients with a Deployed Data-Generation Platform",
     "track": "main",
-    "updated": "2026-10-21",
+    "updated": "2026-10-25",
     "venue": "NeurIPS",
     "venue_evidence": "Accepted at NeurIPS 2026, Track on Evaluations and Datasets. 39 pages (10 pages of main text), 3 figures and 3 tables in the main text, 4 figures and 4 tables i",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2610.29312v1"
+    "version": "2610.29312v2"
    },
    "2610.29491": {
     "abs_url": "https://arxiv.org/abs/2610.29491",
@@ -131919,6 +132865,299 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.31821v1"
+   },
+   "2610.33509": {
+    "abs_url": "https://arxiv.org/abs/2610.33509",
+    "authors": [
+     "Yihan Yang",
+     "Chenyuan Yang",
+     "Zijie Zhao",
+     "Anh Nguyen Hoang",
+     "Ziqi Zhang",
+     "Weidong Wang",
+     "Zhiheng Lyu",
+     "Lingming Zhang"
+    ],
+    "code_url": "https://github.com/secprbench/secprbench",
+    "comment": "20 pages, 2 figures, 10 tables. Benchmark: https://github.com/secprbench/secprbench Results website: https://secprbench.github.io",
+    "first_seen": "2026-10-27",
+    "id": "2610.33509",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33509v1",
+    "primary_category": "cs.SE",
+    "published": "2026-10-24",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "LLM agents have been increasingly adopted for security-focused code review, but existing benchmarks mostly derive the reviewed changes from their later fixes instead of the real-world bug-introducing commits. In this paper, we present SecPRBench, the first comprehensive benchmark for evaluating agentic security review on validated real-world code changes. More specifically, we have built an automated agentic pipeline to autonomously harvest, build, and validate massive real-world bug-introducing commits for popular software systems. To ensure precise evaluation, we also adopt LLM-as-a-judge to credit the findings matching ground-truth vulnerabilities. To date, we have collected 265 tasks from nine critical systems, including Firefox, V8, and OpenSSL with millions of lines of code. Across eight frontier models, recall ranges from 32.5% to 78.1%, with Grok 4.6 and GPT-6 sol ranking at the top. Our study also shows that most misses are not simply oversights: in 68% of them, the agent reports on a file that holds the flaw but argues for a different mechanism. Security-focused harnesses also behave differently: OpenAI's Codex Security lowers recall by 8.3 points, mostly by abstaining, while Anthropic's Defending Code harness raises it by 7.7 points, at a higher cost.",
+    "tier": "none",
+    "title": "Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?",
+    "track": "",
+    "updated": "2026-10-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.33509v1"
+   },
+   "2610.33956": {
+    "abs_url": "https://arxiv.org/abs/2610.33956",
+    "authors": [
+     "Haoyu Zhao",
+     "Sitian Tu",
+     "Yuxuan Huang",
+     "Huichi Zhou",
+     "Zhangyue Yin",
+     "Jiahao Huang",
+     "Jingyuan Xu",
+     "Tianmiao Shi",
+     "Jin Shi",
+     "Nianxi Zhang",
+     "Yangmiao Zhang",
+     "Zhuolang Chan",
+     "Huiyan Hu",
+     "Chenchao Sheng",
+     "Yaqing Luo",
+     "Yue Chen",
+     "Huaxiu Yao",
+     "Meng Fang",
+     "Jun Wang"
+    ],
+    "code_url": "",
+    "comment": "Project page: https://haoyu-zhao.github.io/CLE/index.html",
+    "first_seen": "2026-10-27",
+    "id": "2610.33956",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33956v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), a large-scale benchmark developed by 50+ domain experts to measure experience-driven improvement in realistic professional workflows. CLE comprises 120 human-authored tasks, each organised as a five-level ladder, yielding 600 levels spanning 89 professional roles across 12 occupational domains. Agents must pass each level to unlock the next, with later levels building on experience accumulated during earlier assignments. An evaluation agent assesses each submission against human-authored rubrics. We compare a single-submission setting with one that provides diagnostic feedback after failure and allows one revision. Across 17 harness-model configurations using frontier LLMs, feedback and revision yield a median completion gain of 5.3 percentage points. Yet the best-performing system clears only 47.7% of levels and completes all five levels in just 23.3% of tasks, highlighting the difficulty of sustained learning from experience for existing frontier LLMs. As such, the dataset can also be used to post-train LLMs to strengthen their continual learning capabilities.",
+    "tier": "none",
+    "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.33956v1"
+   },
+   "2610.34585": {
+    "abs_url": "https://arxiv.org/abs/2610.34585",
+    "authors": [
+     "Bahaeddin Türkoğlu"
+    ],
+    "code_url": "",
+    "comment": "11 pages, 2 figures, 3 tables, 16 references. Author's preprint; to be submitted to a peer-reviewed journal",
+    "first_seen": "2026-10-27",
+    "id": "2610.34585",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34585v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-25",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) are neural networks trained on huge text collections to generate text by predicting what comes next. Engineers using ChatGPT and other generative artificial intelligence (AI) tools need a clear picture of what training changes and prompts add. The article starts with the Transformer, which connects words in context, and pre-training, where models learn to predict text. It then explains how fine-tuning adapts models to requests, with reinforcement learning from human feedback using human answer rankings. Next, retrieval-augmented generation (RAG) supplies documents, while chain-of-thought prompting encourages intermediate steps and agents use tools. FlashAttention lowers training and running costs by reducing data movement during attention; quantized low-rank adaptation (QLoRA) saves fine-tuning memory. Readers get a life cycle figure and tables comparing methods and their limits. A short checklist for judging LLM evaluation claims flags test material in training (data contamination) and model-based grading (LLM-as-a-judge). It also covers very long inputs (long context) and hallucination, meaning false or unsupported claims. Check factual accuracy separately from whether an answer sounds helpful.",
+    "tier": "none",
+    "title": "Large Language Models: A Plain-Language Overview for Engineers",
+    "track": "",
+    "updated": "2026-10-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.34585v1"
+   },
+   "2610.35031": {
+    "abs_url": "https://arxiv.org/abs/2610.35031",
+    "authors": [
+     "Yijie Hu",
+     "Wei Li",
+     "Junjie Zhou",
+     "Zhiqi Jiang",
+     "Yi Jin",
+     "Licong Xu",
+     "Xinkai Sun",
+     "Kai Duan",
+     "Lisha Zhang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.35031",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35031v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Patent practice lies at the intersection of technical, legal, and linguistic work, making it challenging yet crucial to technological innovation. Recently, rapid advances in large language models (LLMs) and agentic systems have demonstrated the potential to complete realistic business workflows and even patent works. This raises a question: can current AI systems perform patent work reliably? Existing benchmarks cover a limited range of patent tasks and simplify evidence acquisition by providing reference materials or candidate documents. In this paper, we introduce PatentAgentBench, a benchmark comprising 510 instances across eight task suites: novelty search, freedom-to-operate (FTO) search, design FTO, invalidity search, claim charting, patent drafting, office-action response, and patent translation. Curated from real patent records and professional materials, the benchmark combines task-specific metrics with expert-reviewed annotations and rubrics. Retrieval tasks such novelty search, FTO, etc., require agents to search and compare patent collections without a supplied candidate pool. The drafting and OAR tasks assess the quality of agents' work given technical disclosure and office action notice. We evaluate seven LLMs across four agent harnesses on PatentAgentBench, finding that current systems still struggle to identify novelty, assess risk, and understand practitioner intent throughout patent workflows.",
+    "tier": "none",
+    "title": "PatentAgentBench: Benchmarking LLM Agents with Professional Patent Task Suites",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35031v1"
+   },
+   "2610.35083": {
+    "abs_url": "https://arxiv.org/abs/2610.35083",
+    "authors": [
+     "Jinhu Qi",
+     "Minda Hu",
+     "Wentao Zhang",
+     "Zixing Song",
+     "Irwin King"
+    ],
+    "code_url": "",
+    "comment": "12 pages, 5 figures, 7 tables",
+    "first_seen": "2026-10-27",
+    "id": "2610.35083",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35083v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI assistants are increasingly asked to reason over a user's own web traces: group chats, community threads, activity logs and revision histories. On CL-bench Life, a benchmark of such real-life context learning, frontier LLMs solve fewer than one task in five. We find that the request is not the specification: over 80% of the benchmark's rubrics share less than 60% of their content words with the final request, as for a rule set two turns earlier or every record that meets the user's criterion, and LLMs answering directly pass only 67% of these implicit rubrics against 81% of the others. We propose QERA, a Question-driven Evidence Reasoning Architecture that asks before it answers. QERA first turns the request into a requirement checklist and typed information needs, filtered by code for faithfulness to the user's words; it then answers from the whole conversation, asks the same questions again with quotes verified by code, and applies a guarded local repair. It needs no training or rubrics and makes about four LLM calls per task. On all 405 tasks with four frontier LLMs, QERA attains the highest solving rate on every LLM (21.0% on average, against 18.2% for the strongest of three inference-time baselines and 14.6% for direct answering) and leads every baseline significantly when pooled across LLMs, while using fewer tokens than PSCI and 4-5% of the tokens of Ctx2Skill. Ablations on GPT-6-Luna show that the gain is settled before the answer, by a fixed answer protocol (+3.8 rubric points) and the request-specific questions (+1.6), and that it is concentrated on implicit rubrics, with checking afterwards refining mainly numeric requirements.",
+    "tier": "none",
+    "title": "Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35083v1"
+   },
+   "2610.35316": {
+    "abs_url": "https://arxiv.org/abs/2610.35316",
+    "authors": [
+     "Jiawei Lu",
+     "Chen Zhang",
+     "Jinwei Lu",
+     "Yuanwei Song",
+     "Yuanfeng Song",
+     "Raymond Chi-Wing Wong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.35316",
+    "journal_ref": "",
+    "matched": [
+     "evaluation metric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35316v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Users often request charts without knowing which database or table holds the relevant data. Such requests may be ambiguous, and users may ask follow-up questions to deepen their analysis or iteratively refine existing charts. A useful assistant must therefore discover relevant data sources among heterogeneous databases, ask clarifying questions when needed, and track evolving user intent while preserving constraints established in earlier turns. Yet recent text-to-visualization agents typically rely on static agent harnesses that are predefined and remain unchanged despite recurring failures across tasks. To address this limitation, we introduce RSIV-Harness, which keeps the language model weights fixed and applies Recursive Self-Improvement to revise the surrounding harness from the agent's own failure traces. To balance flexible self-improvement with stability, we introduce a four-layer framework that evaluates proposed harness revisions through anchor and memory checks, refining those that pass and restoring the best validated harness otherwise. We further introduce ODAC-Vis, a benchmark with 640 tasks for Open-Domain, Ambiguous, and Conversational text-to-visualization that jointly evaluates open-domain data discovery, ambiguity resolution, multi-turn visualization refinement, and executable chart generation. Experiments show that a single round of RSIV-Harness improves all six evaluation metrics relative to the seed harness, with particularly large gains in executability (+28.02 points) and chart structure (+34.01 points), demonstrating the ability to learn from task-solving experience and turn recurring failures across tasks into substantial performance improvements.",
+    "tier": "none",
+    "title": "RSIV-Harness: A Recursive Self-Improvement Harness Framework for Open-Domain Conversational Text-to-Visualization",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35316v1"
+   },
+   "2610.35698": {
+    "abs_url": "https://arxiv.org/abs/2610.35698",
+    "authors": [
+     "Harine Choi",
+     "Chenchen Kuai",
+     "Zihao Li",
+     "Jiwan Jiang",
+     "Yunlong Zhang",
+     "Zhiwen Fan",
+     "Zhengzhong Tu",
+     "Yang Zhou"
+    ],
+    "code_url": "https://github.com/harinechoi/confidence-auditing-reproduction",
+    "comment": "21 pages, 8 figures. Reproduction artifacts available at https://github.com/harinechoi/confidence-auditing-reproduction",
+    "first_seen": "2026-10-27",
+    "id": "2610.35698",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35698v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "For large language models (LLMs) and multimodal large language models (MLLMs), model-reported self-confidence is often miscalibrated, yet it may still be useful for efficient evaluation. At the same time, LLM-as-a-judge offers a scalable alternative to direct human auditing, but its practical benefit depends on calibration quality and inference cost. This paper develops a unified statistical framework for both evaluation routes under alternative sampling strategies. For direct auditing, confidence-stratified sampling is used to recover population accuracy from partially verified outputs without requiring calibrated confidence. Finite-sample uncertainty is characterized, and the analysis shows how highly uneven confidence strata affect audit efficiency and label allocation. For judge-assisted evaluation, the judge is modeled through sensitivity and false-positive rate, yielding an error-corrected estimator with calibration uncertainty. The two routes are then compared through human-label and total-cost efficiency boundaries. Experiments on MMLU-Pro and MMMU-Pro show that miscalibrated self-confidence can still support statistically valid stratified auditing. Under highly imbalanced confidence distributions, proportional allocation substantially reduces estimation error relative to equal-per-stratum allocation. For judge-assisted evaluation, only a small subset of target--verifier pairs satisfies the idealized human-label efficiency condition, and automated inference costs can further limit potential savings. These findings clarify the statistical and economic conditions under which confidence-guided auditing and automated verification are useful.",
+    "tier": "none",
+    "title": "From Self-Confidence to Statistical Accuracy: Scaling Human-in-the-Loop Evaluation with Direct and LLM-Assisted Auditing",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35698v1"
    }
   },
   "Writing Agent": {
@@ -149982,7 +151221,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -150020,7 +151259,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -150055,7 +151294,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-09-27",
+     "checked": "2026-10-27",
      "types": [],
      "venue": "",
      "year": 2026
@@ -152261,6 +153500,48 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.31433v1"
+   },
+   "2610.33301": {
+    "abs_url": "https://arxiv.org/abs/2610.33301",
+    "authors": [
+     "Joshua Ashkinaze",
+     "Yubo Zhou",
+     "Pengyu Chen",
+     "Avi Bhattacharya",
+     "Hyebin Park",
+     "Yanman Zhang",
+     "Stephanie Preston",
+     "Eric Gilbert",
+     "Ceren Budak"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-27",
+    "id": "2610.33301",
+    "journal_ref": "",
+    "matched": [
+     "co-writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33301v1",
+    "primary_category": "cs.HC",
+    "published": "2026-10-23",
+    "s2": {
+     "checked": "2026-10-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Life experiences can shape policy attitudes, but we only live one life. Citizens may therefore fail to support policies addressing risks they have never personally experienced. Narratives can make such risks immediate and personal, but personalized stories remain difficult to produce at scale. Here we ask whether AI can make distant scenarios feel concrete by simulating a participant's life as if that scenario occurred. We present the As-If Machine (AIM), a multi-agent system through which people co-write personalized counterfactual narratives---stories about their own lives under different policy futures. In two pre-registered and quota-matched experiments on science funding (N=1,007) and satellite cybersecurity (N=894), we compared AIM with two controls: reading an expert-written vignette on the same topic and co-writing with AIM about an unrelated topic. AIM increased psychological closeness---how close a risk feels to the self---by nearly identical margins in the two domains (0.36 and 0.38 standard deviations (SDs) against the vignette, 0.80 and 0.90 against unrelated writing). AIM increased psychological closeness even among participants with unfavorable views of AI. For policy attitudes, AIM's effects were 0.16 SDs against the vignette and 0.10 SDs (n.s.) against unrelated writing for science funding; the corresponding effects for satellite cybersecurity were 0.54 and 0.67 SDs. Across 23,496 human-AI autocomplete interactions, participants and the system played distinct roles: AIM supplied concrete detail that grounded the scenario, and participants supplied first-person perspective and emotion. Co-writing with the As-If Machine makes distant policy risks feel close.",
+    "tier": "none",
+    "title": "The As-If Machine: Personalized counterfactuals make distant policy risks feel close",
+    "track": "",
+    "updated": "2026-10-23",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.33301v1"
    }
   }
  }

@@ -2,15 +2,16 @@
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-240 papers, newest first. Generated on **2026-10-26** (UTC).
+241 papers, newest first. Generated on **2026-10-27** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (128)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
+Browse by year: [2026 (129)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-26**|<details><summary>Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning</summary><br>AI assistants are increasingly asked to reason over a user's own web traces: group chats, community threads, activity logs and revision histories. On CL-bench Life, a benchmark of such real-life context learning, frontier LLMs solve fewer than one task in five. We find that the request is not the specification: over 80% of the benchmark's rubrics share less than 60% of their content words with the final request, as for a rule set two turns earlier or every record that meets the user's criterion,...</details>|-|Jinhu Qi et al.|[2610.35083](https://arxiv.org/abs/2610.35083)|null|
 |**2026-10-22**|<details><summary>From Structured Records to Patient Narratives: Preserving Clinical Alignment in LLM-Generated Health Summaries</summary><br>As wearable and digital health systems increasingly generate longitudinal physiological records, communicating these observations in patient-accessible language remains a significant challenge. Large Language Models (LLMs) offer a promising mechanism for translating structured clinical information into readable narratives, but this process may introduce semantic drift, where clinically precise meaning is distorted during simplification. We investigate evidence-grounded health summarization for m...</details>|-|Bayram Ayadi et al.|[2610.31467](https://arxiv.org/abs/2610.31467)|null|
 |**2026-10-22**|<details><summary>Hierarchical Fine-Grained Cross-Modal Alignment via Dynamic Granularity Discovery and Optimal Transport</summary><br>Fine-grained image-text retrieval requires a model not only to assess global semantic consistency between an image and a text, but also to model visual evidence for local textual semantics, including objects, attributes, quantities, actions, and relations, so as to distinguish semantically similar candidates. Existing methods commonly use fixed image patches, detected regions, or text tokens as the basic matching units and then aggregate local interactions through max pooling, cross attention, o...</details>|-|Pengfeng Song et al.|[2610.30912](https://arxiv.org/abs/2610.30912)|**[link](https://github.com/sungkites/HFCMA)**|
 |**2026-10-22**|<details><summary>Learning Domain Trajectories with Flow Matching for Gradual Domain Adaptation</summary><br>Large distribution shifts remain a primary obstacle for domain generalization and unsupervised adaptation. Although gradual domain adaptation alleviates this difficulty by introducing ordered intermediate domains, most existing approaches still operate in a discrete, step-wise manner, which can accumulate errors and often relies on unstable Min--Max optimization. We propose \textbf{FlowGDA}, a flow-matching framework that models gradual adaptation as \emph{continuous} transport on a statistical...</details>|NeurIPS 2026|Yubo Huang et al.|[2610.30685](https://arxiv.org/abs/2610.30685)|null|
