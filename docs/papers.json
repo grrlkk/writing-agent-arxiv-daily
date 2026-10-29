@@ -1,26 +1,26 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 190,
+   "Iterative Revision & Text Editing": 191,
    "Korean Writing & NLP": 72,
-   "Multilingual & Cross-Lingual Agents": 443,
-   "Reward & Value Models": 777,
-   "Search & Control for Generation": 236,
-   "Self-Refine & Self-Correction": 305,
+   "Multilingual & Cross-Lingual Agents": 447,
+   "Reward & Value Models": 784,
+   "Search & Control for Generation": 237,
+   "Self-Refine & Self-Correction": 306,
    "Semantic Drift & Faithfulness": 241,
-   "Synthetic Preference Data": 394,
-   "Text Quality Evaluation": 608,
-   "Writing Agent": 503
+   "Synthetic Preference Data": 396,
+   "Text Quality Evaluation": 611,
+   "Writing Agent": 504
   },
-  "updated": "2026-10-27",
+  "updated": "2026-10-29",
   "venue_tiers": {
    "demo": 8,
    "findings": 92,
-   "none": 2596,
+   "none": 2615,
    "other": 37,
    "strong": 40,
    "top": 594,
-   "workshop": 127
+   "workshop": 126
   }
  },
  "topics": {
@@ -2276,15 +2276,15 @@
      "Lei Zhang",
      "Guowei He"
     ],
-    "code_url": "https://github.com/ChengAo21/Re4_Sci_Agent",
-    "comment": "31 pages, 31 figures, Presented at the ICLR 2026 Workshop on AI and Partial Differential Equations (AI&PDE)",
+    "code_url": "",
+    "comment": "Under minor revision at Machine Learning: Science and Technology (IOP Publishing)",
     "first_seen": "2026-08-19",
     "id": "2508.20729",
     "journal_ref": "",
     "matched": [
      "iterative revision"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2508.20729v2",
+    "pdf_url": "https://arxiv.org/pdf/2508.20729v3",
     "primary_category": "cs.AI",
     "published": "2025-08-28",
     "s2": {
@@ -2296,17 +2296,17 @@
      "venue": "",
      "year": 2025
     },
-    "status": "accepted",
-    "summary": "Large language models (LLMs) serve as an active and promising field of generative artificial intelligence and have demonstrated abilities to perform complex tasks in multiple domains, including mathematical and scientific reasoning. In this work, we construct a novel agent framework for solving representative problems in scientific computing. The proposed agent, incorporating a \"rewriting-resolution-review-revision\" logical chain via three reasoning LLMs (functioning as the Consultant, Reviewer, and Programmer, respectively), is integrated in a collaborative and interactive manner. The Consultant module endows the agent with knowledge transfer capabilities to link problems to professional domain insights, thereby rewriting problem descriptions through text augmentation. The Programmer module is responsible for generating and executing well-structured code to deliver the problem resolution. The Reviewer module equips the agent with the capacity for self-debugging and self-refinement through interactive feedback with code runtime outputs. By leveraging the end-to-end review mechanism, the executable code provided by the Programmer attains the iterative revision. A comprehensive evaluation is conducted on the performance of the proposed agent framework in solving partial differential equations (PDEs), ill-conditioned linear systems, and data-driven physical analysis problems. Compared to single-model, this collaborative framework significantly improves the bug-free code generation rate and reduces the occurrence of non-physical solutions, thereby establishing a highly reliable framework for autonomous code generation based on natural language descriptions. The review mechanism improved the average execution success rate of the modern reasoning models. Our code is available at https://github.com/ChengAo21/Re4_Sci_Agent",
-    "tier": "workshop",
+    "status": "unknown",
+    "summary": "Large language models (LLMs) have demonstrated abilities to perform complex tasks in multiple domains, including mathematical and scientific reasoning. In this work, we construct a novel agent framework for solving representative problems in scientific computing. The proposed agent incorporates a \"rewriting-resolution-review-revision\" logical chain via three reasoning LLMs (the Consultant, Reviewer, and Programmer) in a collaborative and interactive manner. The Consultant module enables knowledge transfer to link problems to professional domain insights, thereby rewriting problem descriptions through text augmentation. The Programmer module generates and executes well-structured code to solve problems. The Reviewer module enables self-debugging and self-refinement through interactive feedback with code runtime outputs. Through the end-to-end review mechanism, the Programmer's executable code undergoes iterative revision. We comprehensively evaluate the framework on typical partial differential equations (PDEs), engineering-oriented flow past a cylinder, ill-conditioned linear systems, and data-driven physical analysis problems. Compared with a single-model approach, this collaborative framework significantly improves the bug-free code generation rate and reduces non-physical solutions, establishing a reliable framework for autonomous code generation from natural language descriptions. The review mechanism improved the average execution success (bug-free code and non-NaN solutions) rate of DeepSeek R1 from 59% to 82%, while ChatGPT 4.1-mini improved from 66% to 87% and Gemini-2.5 improved from 60% to 84%. Automatic code generation and review provide a promising workflow for scientific computing; analysis of solver-development trajectories further reveals recurring implementation difficulties in boundary treatment, array indexing, and the preservation of numerical constraints.",
+    "tier": "none",
     "title": "Re4: Scientific Computing Agent with Rewriting, Resolution, Review and Revision",
-    "track": "workshop",
-    "updated": "2026-03-02",
-    "venue": "ICLR",
-    "venue_evidence": "31 pages, 31 figures, Presented at the ICLR 2026 Workshop on AI and Partial Differential Equations (AI&PDE)",
-    "venue_source": "comment",
-    "venue_year": "2026",
-    "version": "2508.20729v2"
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2508.20729v3"
    },
    "2509.20838": {
     "abs_url": "https://arxiv.org/abs/2509.20838",
@@ -6546,7 +6546,7 @@
     "primary_category": "eess.AS",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -6584,7 +6584,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -6618,7 +6618,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -7706,6 +7706,46 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2610.33096v1"
+   },
+   "2610.37446": {
+    "abs_url": "https://arxiv.org/abs/2610.37446",
+    "authors": [
+     "Mingwei S. G. Li",
+     "Susie S. Y. Li",
+     "Isabel Moreira de Oliveira",
+     "Ryan P. Adams",
+     "Remco Chang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37446",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37446v1",
+    "primary_category": "cs.HC",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Generative models support content creation across text, images, videos, and design disciplines, yet their interfaces rely primarily on natural language. While effective for specifying high-level intent, language can be inefficient and imprecise for fine-grained control, iterative refinement, and open-ended exploration. We present PolyGandr, a visual interface for exploring relationships between latent representations and generated outputs, complementing natural-language model steering. PolyGandr formulates generative control as high-dimensional navigation, enabling users to define starting points, steering directions, and step sizes through a unified map-and-mixing-palette interface. Combining global exploration with local refinement supports both broad design-space navigation and fine-grained output manipulation without repeatedly translating visual intent into prompts. We evaluate PolyGandr across three use cases: StyleGAN2 face generation, Stable Diffusion chair design, and rotational kirigami engineering. A formative study indicates that PolyGandr complements existing workflows by supporting real-time editing while simultaneously providing an overview and means to explore the broader design space.",
+    "tier": "none",
+    "title": "PolyGandr: Steering Generative Models via Spatial Navigation through Latent Space",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37446v1"
    }
   },
   "Korean Writing & NLP": {
@@ -27122,7 +27162,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27161,7 +27201,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27209,7 +27249,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27249,7 +27289,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27283,7 +27323,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27327,7 +27367,7 @@
     "primary_category": "eess.AS",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27368,7 +27408,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27408,9 +27448,12 @@
     "primary_category": "cs.HC",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-10-29",
+     "types": [
+      "Book",
+      "Conference"
+     ],
+     "venue": "Companion Publication of the 28th International Conference on Multimodal Interaction",
      "year": 2026
     },
     "status": "unknown",
@@ -27447,7 +27490,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30012,6 +30055,167 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.35240v1"
+   },
+   "2610.36527": {
+    "abs_url": "https://arxiv.org/abs/2610.36527",
+    "authors": [
+     "Zhiheng Qian",
+     "Junhao Du",
+     "Jing Peng",
+     "Hanqi Li",
+     "Kunyang Peng",
+     "Feng Xue",
+     "Kai Yu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.36527",
+    "journal_ref": "",
+    "matched": [
+     "multilingual"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36527v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Written transcripts of the same speech can differ in ways that are not uniquely determined by the speech signal. We formulate evaluation-side transcript canonicalization (ETC), which maps multiple surface forms to a single canonical form when their differences are not determined by speech. To our knowledge, ETC-Bench is the first and most comprehensive multilingual benchmark for evaluation-side transcript canonicalization, covering 181 phenomenon types across 12 languages. Each instance is a minimal pair that shares a sentence context and differs only in a target span exhibiting one phenomenon. To evaluate both canonicalization success and semantic preservation, we propose Semantic-preserving Exact-match Normalization Accuracy (SENA), which combines exact agreement between independently canonicalized pair members with a pair-relative BERTScore constraint against information loss. We further introduce the Taxonomy-guided Agent Canonicalization Skill (TACS), which provides LLM agents with phenomenon descriptions and explicit canonicalization contracts. Experiments with five baseline configurations and three TACS-based agents show that the agents outperform the baseline systems on shared languages. ETC-Bench provides a systematic testbed for evaluation-side transcript canonicalization across languages.",
+    "tier": "none",
+    "title": "ETC-Bench: A Multilingual Benchmark for Evaluation-Side Transcript Canonicalization",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36527v1"
+   },
+   "2610.36759": {
+    "abs_url": "https://arxiv.org/abs/2610.36759",
+    "authors": [
+     "Jing Huang",
+     "Zhiya Tan",
+     "Changtao Miao",
+     "Shutao Gong",
+     "Yang Wang",
+     "Joey Tianyi Zhou",
+     "Jianshu Li",
+     "Ying Yan"
+    ],
+    "code_url": "",
+    "comment": "11 pages, 10 figures, 5 tables. Preprint",
+    "first_seen": "2026-10-29",
+    "id": "2610.36759",
+    "journal_ref": "",
+    "matched": [
+     "multilingual"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36759v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multilingual multi-hop document question answering (MMHop-DocQA) requires locating and integrating evidence across complex layouts, document pages, and diverse languages. Existing approaches include single-pass processing and adaptive tool use, but learning to coordinate evidence acquisition, cross-page integration, and answer verification remains challenging. To address this challenge, we present DocSkill, an agentic framework with a learned skill-orchestration policy for adaptive evidence acquisition and reasoning. The policy selects, revisits, or skips skills according to the evolving evidence state. To construct supervision for skill orchestration, bounded Monte Carlo Tree Search (MCTS) explores alternative skill trajectories offline. These trajectories provide demonstrations for supervised fine-tuning (SFT) and preference pairs for Direct Preference Optimization (DPO). We further introduce MMHop-DocBench, a multilingual multi-hop document QA dataset with training and test splits, containing 60K QA pairs across 10 languages and eight document domains. Its HopGen pipeline builds hierarchical page-element graphs to derive traceable cross-page evidence paths and generate grounded QA pairs with page- and element-level evidence annotations. Experiments show that DocSkill with Qwen3-VL-8B achieves 41.0 accuracy and 49.2 F1 on MMHop-DocBench, exceeding the strongest evaluated baseline by 5.5 and 6.3 points, respectively, and achieving competitive performance on MMLongBench-Doc and DocBench.",
+    "tier": "none",
+    "title": "DocSkill: Skill-Integrated Agentic Reasoning for Multilingual Multi-Hop Document Question Answering",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36759v1"
+   },
+   "2610.36878": {
+    "abs_url": "https://arxiv.org/abs/2610.36878",
+    "authors": [
+     "Delin Wang",
+     "Sinuo Wang",
+     "Rui Sun",
+     "Beidi Luan",
+     "Qiming Shi",
+     "Jing Li",
+     "Daxin Jiang",
+     "Zuo Bai"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.36878",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36878v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Deep research agents conduct multi-step Web searches and synthesise retrieved information into analytical reports. Evaluating these outputs requires checking which analyses they deliver, beyond the presence of relevant facts. Query-specific binary rubrics make individual requirements explicit, but task-level checklists may leave the overall analytical structure underexamined. We introduce RubricAtlas, which derives type-level analytical requirements from expert reports on different objects within the same research type and organises detailed checks around recurring analytical questions. The requirements give related tasks a shared standard for what to analyse, without prescribing their answers. Our framework links binary checkpoints to report passages and evaluates completeness separately from argument validity. Built from 3,079 Chinese financial research reports, RubricAtlas covers 99 research types. Reference-report selection experiments show that individual reports cover only about half of their type's analytical questions, and that selecting requirements from different reports changes evaluation scores and agent rankings. Across ten agents, two judge pipelines achieve checkpoint agreement of $κ$ = 0.71 and agent-ranking agreement of Kendall $τ$ = 0.87. Controlled deletions reduce scores on the affected analyses, while padding produces no detectable increase. These findings support type-level rubrics for comparing the analytical completeness of Web deep research outputs, with individual decisions traceable to report evidence.",
+    "tier": "none",
+    "title": "RubricAtlas: Mining Type-Level Rubrics from Expert Reports to Evaluate Deep Research Agents",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36878v1"
+   },
+   "2610.37280": {
+    "abs_url": "https://arxiv.org/abs/2610.37280",
+    "authors": [
+     "Mingzhe Lu",
+     "Jian Qin",
+     "Ruize Qin",
+     "Jinhao Liu",
+     "Yunpeng Li",
+     "Hang Su"
+    ],
+    "code_url": "",
+    "comment": "9 pages, 5 figures, 3 tables",
+    "first_seen": "2026-10-29",
+    "id": "2610.37280",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37280v1",
+    "primary_category": "cs.IR",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Narrative-driven recommendation allows users to express multifaceted needs through free-form text where stated preferences naturally qualify and condition one another. Existing methods typically treat narratives as flat keyword combinations or unconstrained generative queries, failing to capture how complex preferences hierarchically refine and contextualize each other. We propose the Preference Dependency Graph Framework (PDG-F), a narrative-driven recommendation framework centered on explicit preference dependencies. Specifically, PDG-A (PDG-Agent) first parses unstructured requests to organize user preferences and their mutual qualifications into a directed acyclic Preference Dependency Graph (PDG). Through this graph, candidate evidence from the open Web is acquired via directed path retrieval, and final recommendations are determined by topological path ranking. Comprehensive experiments across three diverse domains spanning English and Chinese contexts confirm that PDG-F consistently achieves superior recommendation performance over competitive baselines, open-domain retrieval agents, and frontier language models. Further diagnostic analyses show that our dependency-guided retrieval markedly raises the attainable candidate-pool ceiling, demonstrating the fundamental value of modeling preference dependencies in narrative-driven recommendation.",
+    "tier": "none",
+    "title": "Modeling Preference Dependencies with Directed Acyclic Graphs for Narrative-Driven Recommendation",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37280v1"
    }
   },
   "Reward & Value Models": {
@@ -51371,7 +51575,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51410,7 +51614,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51446,7 +51650,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51485,7 +51689,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51524,7 +51728,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51559,7 +51763,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51600,7 +51804,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51636,7 +51840,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51677,7 +51881,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51715,7 +51919,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51753,7 +51957,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51791,7 +51995,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51830,7 +52034,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51920,7 +52124,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51959,7 +52163,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -51997,7 +52201,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52036,7 +52240,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52074,7 +52278,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52113,7 +52317,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52152,7 +52356,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52189,7 +52393,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52238,7 +52442,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52279,7 +52483,7 @@
     "primary_category": "cs.RO",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52319,7 +52523,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52358,7 +52562,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52397,7 +52601,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52437,7 +52641,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52480,7 +52684,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52515,7 +52719,7 @@
     "primary_category": "cs.CV",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52557,7 +52761,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52596,7 +52800,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52639,7 +52843,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52680,7 +52884,7 @@
     "primary_category": "cs.RO",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52723,7 +52927,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52765,7 +52969,7 @@
     "primary_category": "cs.IR",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52801,7 +53005,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52844,7 +53048,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52884,7 +53088,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52923,7 +53127,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52960,7 +53164,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -52996,7 +53200,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -57497,14 +57701,14 @@
      "Jessica Hullman"
     ],
     "code_url": "",
-    "comment": "",
+    "comment": "This manuscript is currently doing more baseline experiments. The authors have temporarily removed the content to address necessary updates and finalize the draft. A complete and updated version will be posted here as soon as the revisions are concluded",
     "first_seen": "2026-10-14",
     "id": "2610.17306",
     "journal_ref": "",
     "matched": [
      "reward model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.17306v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17306v2",
     "primary_category": "cs.HC",
     "published": "2026-10-12",
     "s2": {
@@ -57518,12 +57722,12 @@
     "tier": "none",
     "title": "Calibrating LLM Explanations to Human Decisions with Reinforcement Learning",
     "track": "",
-    "updated": "2026-10-12",
+    "updated": "2026-10-27",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.17306v1"
+    "version": "2610.17306v2"
    },
    "2610.17379": {
     "abs_url": "https://arxiv.org/abs/2610.17379",
@@ -61528,6 +61732,271 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.35787v1"
+   },
+   "2610.36708": {
+    "abs_url": "https://arxiv.org/abs/2610.36708",
+    "authors": [
+     "Rohan Deb",
+     "Mohammad Ghavamzadeh",
+     "Arindam Banerjee"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.36708",
+    "journal_ref": "",
+    "matched": [
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36708v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Contextual dueling bandits learn from pairwise comparisons, the same feedback used to fine-tune language models from human preferences. Standard algorithms explore aggressively and can show users two poor options. We study conservative contextual dueling bandits, which require that, at every round, the cumulative score of the better displayed item stay above a $(1-α)$ fraction of a trusted baseline's. An item's score is its probability of beating the best available item, so the constraint depends only on utility differences and needs no absolute rewards. This also changes how safety can be certified: we show that transferring the safety test of the conservative bandit algorithm CLUCB unchanged can incur linear regret, even when the baseline's utilities are known exactly. For linear utilities, we develop MaxInP-BC, which certifies scores through utility gaps and, when it must fall back, pairs the baseline with an informative partner so that fallback rounds still drive learning. It is safe with high probability at all times, with regret $\\tilde{O}(d\\sqrt{T}/κ)$ plus an additive cost of conservatism that does not grow with the horizon. For general utility classes, we develop BTIGW-BC, which turns the guarantee of an online logistic-regression oracle into cumulative safety certificates. It is safe at all times, makes finitely many fallbacks, and has sublinear regret whenever the oracle's logistic regret is sublinear. In experiments, both satisfy the constraint, which their unconstrained counterparts often violate, at a moderate cost in regret.",
+    "tier": "none",
+    "title": "Conservative Dueling Bandits: Preference Learning under Baseline Constraints",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36708v1"
+   },
+   "2610.36759": {
+    "abs_url": "https://arxiv.org/abs/2610.36759",
+    "authors": [
+     "Jing Huang",
+     "Zhiya Tan",
+     "Changtao Miao",
+     "Shutao Gong",
+     "Yang Wang",
+     "Joey Tianyi Zhou",
+     "Jianshu Li",
+     "Ying Yan"
+    ],
+    "code_url": "",
+    "comment": "11 pages, 10 figures, 5 tables. Preprint",
+    "first_seen": "2026-10-29",
+    "id": "2610.36759",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36759v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Multilingual multi-hop document question answering (MMHop-DocQA) requires locating and integrating evidence across complex layouts, document pages, and diverse languages. Existing approaches include single-pass processing and adaptive tool use, but learning to coordinate evidence acquisition, cross-page integration, and answer verification remains challenging. To address this challenge, we present DocSkill, an agentic framework with a learned skill-orchestration policy for adaptive evidence acquisition and reasoning. The policy selects, revisits, or skips skills according to the evolving evidence state. To construct supervision for skill orchestration, bounded Monte Carlo Tree Search (MCTS) explores alternative skill trajectories offline. These trajectories provide demonstrations for supervised fine-tuning (SFT) and preference pairs for Direct Preference Optimization (DPO). We further introduce MMHop-DocBench, a multilingual multi-hop document QA dataset with training and test splits, containing 60K QA pairs across 10 languages and eight document domains. Its HopGen pipeline builds hierarchical page-element graphs to derive traceable cross-page evidence paths and generate grounded QA pairs with page- and element-level evidence annotations. Experiments show that DocSkill with Qwen3-VL-8B achieves 41.0 accuracy and 49.2 F1 on MMHop-DocBench, exceeding the strongest evaluated baseline by 5.5 and 6.3 points, respectively, and achieving competitive performance on MMLongBench-Doc and DocBench.",
+    "tier": "none",
+    "title": "DocSkill: Skill-Integrated Agentic Reasoning for Multilingual Multi-Hop Document Question Answering",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36759v1"
+   },
+   "2610.37058": {
+    "abs_url": "https://arxiv.org/abs/2610.37058",
+    "authors": [
+     "Giuseppe Curci",
+     "Stefano Simonazzi",
+     "Andrea Molinari",
+     "Andrea Zugarini"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37058",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization",
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37058v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Direct Preference Optimization (DPO) typically relies on preference pairs generated from diverse model pools and ranked by an external LLM judge. The recently proposed delta-learning hypothesis suggests that comparable supervision can instead be obtained from a single pair of models by treating the larger model's response as preferred. We investigate the limits of this approach across model families and scales. We show, both theoretically and empirically, that fixed model pairs introduce systematic, generator-dependent biases that are predictive of the preference label independent of response quality. Consequently, DPO trained on single-pair data consistently underperforms multi-model preference data, despite the larger generator producing higher-quality responses, and we trace this gap to training dynamics consistent with reward hacking on these biases. We further show that simply increasing the number of generators, even without an external judge, is enough to partially mitigate this effect. Our results highlight generator diversity as a critical factor in preference-data construction.",
+    "tier": "none",
+    "title": "Exploring the Limits of the Delta Learning Hypothesis: Single-Pair Generator Biases in Direct Preference Optimization",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37058v1"
+   },
+   "2610.37085": {
+    "abs_url": "https://arxiv.org/abs/2610.37085",
+    "authors": [
+     "Kensuke Sasaki",
+     "Issei Sato"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37085",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37085v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Direct Preference Optimization (DPO) has been widely adopted for aligning language models with human preferences. Recent empirical work has revealed that DPO induces remarkably sparse parameter updates, yet no theoretical explanation for this phenomenon has been offered. We analyze DPO's optimization dynamics under a neural tangent kernel linearization and show that the logistic structure of the DPO loss gives rise to an implicit maximum-margin bias. Building on this observation, we introduce the concept of dual sparsity: the DPO update direction is a sparse linear combination (data-level sparsity, driven by support vectors) of sparse gradient feature vectors (parameter-level sparsity, arising from gradient cancellation between preferred and dispreferred responses). We formalize this structure in our main theorem, bound the number of support pairs by a margin-dependent spectral quantity, and present a framework relating dual sparsity to weight disentanglement---a condition favorable for model merging. Experiments on GPT-2 Small and Medium and on 7--9B instruction-tuned models (Llama-3-8B, Mistral-7B, Gemma-2-9B) with the Anthropic HH-RLHF and UltraFeedback datasets confirm both sources of sparsity, and experiments on GPT-2 show that DPO reduces cross-task interference by up to $35{\\times}$ compared to supervised fine-tuning.",
+    "tier": "none",
+    "title": "On the Sparsity of Direct Preference Optimization: Weight Disentanglement in the NTK Regime",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37085v1"
+   },
+   "2610.37245": {
+    "abs_url": "https://arxiv.org/abs/2610.37245",
+    "authors": [
+     "Valdini Douglace Lemofouet",
+     "Blessing Ngozi Uzor",
+     "Paula Chikaodinaka Anyanwu",
+     "Danielle Blanche Kapsa",
+     "Saminu Mohammad Aliyu",
+     "Seid Muhie Yimam",
+     "Shamsuddeen Hassan Muhammad"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37245",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37245v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Safety alignment research for large language models (LLMs) remains concentrated on high-resource languages, leaving open how existing alignment methods perform in low-resource, culturally distinct settings. We study this question for Hausa, a language spoken by more than 200 million people across West Africa. We introduce HausaSafeLM, one of the first Hausa safety preference dataset, built from 10,000 prompts derived from PKU-SafeRLHF: 3,000 human-corrected (gold) and 7,000 machine-translated (silver) examples spanning six harm macro-categories. Using Qwen2.5-7B-Instruct, we compare supervised fine-tuning (SFT) and SFT followed by Direct Preference Optimization (DPO) under both data regimes, evaluating on 500 harmful and 200 benign Hausa prompts.We find that the untuned base model appears highly safe by refusal-rate metrics alone, but this reflects limited Hausa generation ability rather than genuine alignment: its refusals are almost uniformly low quality. SFT improves both refusal fluency and precision and benefits substantially from the larger, noisier silver-tier data, while DPO sharpens refusal precision but comes at a steep, largely data-invariant cost to linguistic quality. No single configuration jointly maximizes safety, helpfulness, and fluency. Our results suggest that current alignment techniques teach models when to refuse more readily than how to do so fluently in underrepresented languages, and that refusal-rate metrics alone are an unreliable signal of safety in low-resource settings.",
+    "tier": "none",
+    "title": "Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37245v1"
+   },
+   "2610.37380": {
+    "abs_url": "https://arxiv.org/abs/2610.37380",
+    "authors": [
+     "Haokun Wen",
+     "Xuemeng Song",
+     "Mong-Li Lee",
+     "Wynne Hsu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37380",
+    "journal_ref": "",
+    "matched": [
+     "preference learning",
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37380v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Fact-checking explanations help Web users understand why a claim receives its verdict, yet the same explanation may not satisfy readers with different backgrounds and preferences. We formulate Faithful Personalized Fact-Checking Explanation Rewriting, which adapts an existing explanation to individual readers while preserving factual fidelity. Rather than relying on reader-written reference explanations, we learn personalized rewriting from the relative preferences of LLM-simulated readers. However, this presents two challenges: distinguishing persona-specific preferences from general explanation quality and learning beyond a limited set of predefined explanation styles. To address these challenges, we propose Personalized Explanation Rewriting via Preference Learning (PERPL), a framework consisting of two components. Simulated Preference Construction derives persona-specific supervision from simulated reader preferences through cross-persona reciprocal pairing. Progressive Preference Learning first trains a lightweight rewriter on the constructed supervision and then refines it through exploration-guided preference optimization, enabling it to discover preferred explanations beyond the predefined styles. Extensive experiments demonstrate that PERPL outperforms much larger general-purpose LLMs in personalized preference alignment while maintaining high factual fidelity.",
+    "tier": "none",
+    "title": "Same Verdict, Different Readers: Personalizing Fact-Checking Explanations from Relative Preferences",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37380v1"
+   },
+   "2610.37451": {
+    "abs_url": "https://arxiv.org/abs/2610.37451",
+    "authors": [
+     "Raban Emunds",
+     "Jannis Blüml",
+     "Quentin Delfosse",
+     "Kristian Kersting"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37451",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37451v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Deep Reinforcement Learning remains difficult to interpret and align due to the black-box nature of neural networks. While (neuro-)symbolic approaches improve transparency by incorporating symbolic reasoning, applying them directly to low-level actions results in overly complex, unreadable policies. We introduce NEXUS, a hierarchical RL framework that resolves this tension by combining neural skills with symbolic meta-policies. By shifting transparent reasoning to high-level skills rather than atomic actions, NEXUS drastically reduces symbolic complexity without sacrificing environment performance. Object-centric observations enable high-level reasoning and the design of reward functions and meta-policies by interaction with LLMs. We demonstrate that NEXUS agents learn disentangled skills, are interpretable regarding high-level goals, are better aligned to goals described in the game manual, less prone to reward hacking and more robust to game simplifications than deep RL. Finally, we isolate and evaluate the impact of different meta-policy architectures (neural, symbolic, neuro-symbolic) on environmental return and aligned task performance.",
+    "tier": "none",
+    "title": "Interpretable Meta-Policies for Neural Decision Making",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37451v1"
    }
   },
   "Search & Control for Generation": {
@@ -68880,7 +69349,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -69272,7 +69741,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -69307,7 +69776,7 @@
     "primary_category": "cs.CR",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -69343,7 +69812,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -69381,7 +69850,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -69420,7 +69889,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -70977,6 +71446,45 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.34149v1"
+   },
+   "2610.36346": {
+    "abs_url": "https://arxiv.org/abs/2610.36346",
+    "authors": [
+     "Haocong Jiang",
+     "Sadra Sabouri",
+     "Sepand Haghighi",
+     "Souti Chattopadhyay"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.36346",
+    "journal_ref": "",
+    "matched": [
+     "stopping criterion"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36346v1",
+    "primary_category": "cs.SE",
+    "published": "2026-10-26",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models are known to be sycophantic, over-complying with users even when doing so is unproductive. When these models act as coding agents, this can be costly: an agent that keeps editing after no edit improves the code writes churn, technical debt, and review burden into the codebase. Yet the consequences of sycophancy in software engineering remain largely understudied. To understand them, we run a controlled study of iterative refactoring, an open-ended task with no stopping criterion, where any edit an agent makes once the code is already clean reflects compliance rather than improvement. Across algorithmic (n=50) and object-oriented (n=10) suites, we repeatedly ask two widely used agents, Codex and Claude Code, to refactor further across five models. Over 3,000 turns, we define six behavioral signals of over-compliance. We hypothesized that a capable agent would stop once it recognized an optimized codebase; none did. Every model kept editing, rewriting up to 31x the original codebase before first stopping and resuming edits even after declaring the task complete. Over-compliance is a costly, multi-turn behavior that compounds with every turn, and our six signals give developers and tool builders a way to detect and curb it.",
+    "tier": "none",
+    "title": "Your Wish Is My Commit: Over-Compliant Refactoring in AI Coding Agents",
+    "track": "",
+    "updated": "2026-10-26",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36346v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -80951,7 +81459,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -80987,7 +81495,7 @@
     "primary_category": "cs.MA",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -81022,7 +81530,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -81057,7 +81565,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -81094,7 +81602,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -81133,7 +81641,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -83430,6 +83938,47 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.35434v1"
+   },
+   "2610.36767": {
+    "abs_url": "https://arxiv.org/abs/2610.36767",
+    "authors": [
+     "Azim Ospanov",
+     "Zijin Feng",
+     "Ding Ding",
+     "Chengwu Liu",
+     "Haoli Bai",
+     "Jiacheng Sun",
+     "Lifeng Shang",
+     "Farzan Farnia"
+    ],
+    "code_url": "https://github.com/aziksh-ospanov/TROJAN",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.36767",
+    "journal_ref": "",
+    "matched": [
+     "self-critique"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36767v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large Language Models (LLMs) have made remarkable progress on solving competition-level mathematics, yet their ability to verify natural-language mathematical proofs remains relatively underexplored. This gap is especially pronounced for Olympiad-level proofs, which require meticulous assessment of each claim in a long reasoning chain. Current proof verification thus primarily relies on expert inspection, which is costly to scale. In this paper, we present a systematic study of LLM-based verification in this setting. Specifically, we introduce a human-curated dataset of USAMO 2025 candidate solutions with expert grading, and conduct a broad evaluation of existing LLM verifiers across frontier models. We also propose TROJAN, an iterative self-critique pipeline for generating high-fidelity adversarial proofs at scale. Our comprehensive evaluation covers 20 models spanning seven metrics, two prompt styles, three inference methods, and three prompt templates, showing that state-of-the-art models still leave considerable room for improvement. To narrow this gap, we propose MABGrader, a Multi-Armed Bandit framework that reframes grading as arm selection over the discrete score space. MABGrader outperforms the SOTA ProofGrader by 26.4% in Quadratic Weighted Kappa and reduces grading error by 14%. Code and dataset are available at https://github.com/aziksh-ospanov/TROJAN.",
+    "tier": "none",
+    "title": "Can LLMs Reliably Grade Olympiad Proofs? A Study of Mathematical Verification with LLMs",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36767v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -91768,7 +92317,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -91804,7 +92353,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -91843,7 +92392,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -92905,7 +93454,7 @@
     "matched": [
      "faithfulness"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.35083v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.35083v2",
     "primary_category": "cs.CL",
     "published": "2026-10-26",
     "s2": {
@@ -92919,12 +93468,12 @@
     "tier": "none",
     "title": "Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning",
     "track": "",
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.35083v1"
+    "version": "2610.35083v2"
    }
   },
   "Synthetic Preference Data": {
@@ -105594,7 +106143,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106276,7 +106825,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106315,7 +106864,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106351,7 +106900,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106390,7 +106939,7 @@
     "primary_category": "cs.CV",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106429,7 +106978,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106464,7 +107013,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106513,7 +107062,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106555,7 +107104,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106593,7 +107142,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106629,7 +107178,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106667,7 +107216,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106709,7 +107258,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106746,7 +107295,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -107805,14 +108354,14 @@
      "Jessica Hullman"
     ],
     "code_url": "",
-    "comment": "",
+    "comment": "This manuscript is currently doing more baseline experiments. The authors have temporarily removed the content to address necessary updates and finalize the draft. A complete and updated version will be posted here as soon as the revisions are concluded",
     "first_seen": "2026-10-14",
     "id": "2610.17306",
     "journal_ref": "",
     "matched": [
      "rlaif"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.17306v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17306v2",
     "primary_category": "cs.HC",
     "published": "2026-10-12",
     "s2": {
@@ -107826,12 +108375,12 @@
     "tier": "none",
     "title": "Calibrating LLM Explanations to Human Decisions with Reinforcement Learning",
     "track": "",
-    "updated": "2026-10-12",
+    "updated": "2026-10-27",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.17306v1"
+    "version": "2610.17306v2"
    },
    "2610.17603": {
     "abs_url": "https://arxiv.org/abs/2610.17603",
@@ -108678,6 +109227,82 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.35787v1"
+   },
+   "2610.36900": {
+    "abs_url": "https://arxiv.org/abs/2610.36900",
+    "authors": [
+     "Chaolang Li",
+     "Jingyu Li",
+     "Zhaocheng Du",
+     "Xuyang Xie",
+     "Gang Wang",
+     "Pengwen Dai"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.36900",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36900v1",
+    "primary_category": "cs.AI",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Instruction-following information retrieval (IFIR) requires retrievers to rank documents by both a query and its instance-specific instructions, yet instruction-conditioned contrastive supervision remains scarce. Existing synthetic methods typically fix a positive passage and generate additional negatives, overlooking the hard-negative potential of the original positive. We propose Natural Hard-Negative Mining (NHNM), which promotes convertible negatives under query-compatible instructions and repurposes original positives as natural instruction hard negatives. Its automated Candidate Cleaning, Reversal Construction, and Geometry Filtering pipeline produces compact, high-contrast supervision aligned with the pretrained retrieval space. Applied to MSMARCO, NHNM yields NHNM-MARCO, an IFIR training set of nearly 7K instances. On InstructIR and FollowIR, models with 568M to 4B parameters fine-tuned on NHNM-MARCO achieve strong instruction-following performance and match or surpass substantially larger retrievers in several settings. Controlled analyses and ablations attribute these gains to natural hard-negative supervision rather than model scale or training-data volume.",
+    "tier": "none",
+    "title": "Natural Hard-Negative Mining from Positives for Instruction-Following Retrieval",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36900v1"
+   },
+   "2610.37058": {
+    "abs_url": "https://arxiv.org/abs/2610.37058",
+    "authors": [
+     "Giuseppe Curci",
+     "Stefano Simonazzi",
+     "Andrea Molinari",
+     "Andrea Zugarini"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37058",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37058v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Direct Preference Optimization (DPO) typically relies on preference pairs generated from diverse model pools and ranked by an external LLM judge. The recently proposed delta-learning hypothesis suggests that comparable supervision can instead be obtained from a single pair of models by treating the larger model's response as preferred. We investigate the limits of this approach across model families and scales. We show, both theoretically and empirically, that fixed model pairs introduce systematic, generator-dependent biases that are predictive of the preference label independent of response quality. Consequently, DPO trained on single-pair data consistently underperforms multi-model preference data, despite the larger generator producing higher-quality responses, and we trace this gap to training dynamics consistent with reward hacking on these biases. We further show that simply increasing the number of generators, even without an external judge, is enough to partially mitigate this effect. Our results highlight generator diversity as a critical factor in preference-data construction.",
+    "tier": "none",
+    "title": "Exploring the Limits of the Delta Learning Hypothesis: Single-Pair Generator Biases in Direct Preference Optimization",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37058v1"
    }
   },
   "Text Quality Evaluation": {
@@ -127677,7 +128302,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -127714,7 +128339,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -127756,7 +128381,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -127792,7 +128417,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -127829,7 +128454,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -127865,7 +128490,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -127904,7 +128529,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -127944,7 +128569,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -127981,7 +128606,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128016,7 +128641,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128065,7 +128690,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128104,7 +128729,7 @@
     "primary_category": "cs.HC",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [
       "Review"
      ],
@@ -128146,7 +128771,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128191,7 +128816,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128228,7 +128853,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128271,7 +128896,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128305,7 +128930,7 @@
     "primary_category": "cs.MA",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128340,7 +128965,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [
       "Review"
      ],
@@ -128384,7 +129009,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128427,7 +129052,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128465,7 +129090,7 @@
     "primary_category": "cs.DC",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128501,7 +129126,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128536,7 +129161,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -128708,14 +129333,14 @@
      "Maria Becker"
     ],
     "code_url": "https://github.com/brunobrocai/PairDifficulty",
-    "comment": "Accepted as an EMNLP 2026 short paper. v2: improve graph labels",
+    "comment": "Accepted as an EMNLP Main 2026 short paper (2676). v2: Improve graph labels. v3: Correct theoretical argument",
     "first_seen": "2026-09-30",
     "id": "2609.37577",
     "journal_ref": "",
     "matched": [
      "llm-as-a-judge"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.37577v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.37577v3",
     "primary_category": "cs.CL",
     "published": "2026-09-29",
     "s2": {
@@ -128725,16 +129350,16 @@
      "year": 2026
     },
     "status": "accepted",
-    "summary": "Large Language Model judges are widely used to rank texts and text-generating systems through pairwise comparison, and their reliability is typically assessed via three proxies: position bias, transitivity, and pairwise agreement (self- or human-labeled). Because these proxies drive judge selection and benchmarking, a substantial literature reporting that judges perform poorly on them risks steering practitioners away from otherwise capable evaluators. We argue this assessment is misleading. Under the Bradley--Terry geometry underlying pairwise aggregation, each proxy is dominated by close-rank-gap pairs, where inconsistency is information-theoretically expected and individual verdicts contribute little to the aggregate ranking; far-gap pairs carry the ranking signal but barely move the proxies. We formalize this argument and validate it in a controlled simulation and on two human-rated corpora: the proxies correlate only weakly with ranking accuracy against gold, and their predictive component concentrates in the far-gap regime. Judges should therefore be assessed on rank-gap-conditional metrics, ideally against human rankings. Code at https://github.com/brunobrocai/PairDifficulty.",
+    "summary": "Large Language Model judges are widely used to rank texts and text-generating systems through pairwise comparison, and their reliability is typically assessed via three proxies: position bias, transitivity, and pairwise agreement (self- or human-labeled). Because these proxies drive judge selection and benchmarking, a substantial literature reporting that judges perform poorly on them risks steering practitioners away from otherwise capable evaluators. We argue this assessment is misleading. Under the Bradley--Terry geometry underlying pairwise aggregation, each proxy is dominated by close-rank-gap pairs, where inconsistency is expected and errors cost little aggregate ranking accuracy; far-gap pairs determine the ranking accuracy but barely move the proxies. We formalize this argument and validate it in a controlled simulation and on two human-rated corpora: the proxies correlate only weakly with ranking accuracy against gold, and their predictive component concentrates in the far-gap regime. Judges should therefore be assessed on rank-gap-conditional metrics, ideally against human rankings. Code at https://github.com/brunobrocai/PairDifficulty",
     "tier": "top",
     "title": "Pair Difficulty Matters: Rethinking Pairwise LLM-as-a-Judge Evaluation and Consistency",
     "track": "main",
-    "updated": "2026-10-20",
+    "updated": "2026-10-27",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted as an EMNLP 2026 short paper. v2: improve graph labels",
+    "venue_evidence": "Accepted as an EMNLP Main 2026 short paper (2676). v2: Improve graph labels. v3: Correct theoretical argument",
     "venue_source": "comment",
     "venue_year": "2026",
-    "version": "2609.37577v2"
+    "version": "2609.37577v3"
    },
    "2609.37773": {
     "abs_url": "https://arxiv.org/abs/2609.37773",
@@ -133058,7 +133683,7 @@
     "matched": [
      "rubric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.35083v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.35083v2",
     "primary_category": "cs.CL",
     "published": "2026-10-26",
     "s2": {
@@ -133072,12 +133697,12 @@
     "tier": "none",
     "title": "Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning",
     "track": "",
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.35083v1"
+    "version": "2610.35083v2"
    },
    "2610.35316": {
     "abs_url": "https://arxiv.org/abs/2610.35316",
@@ -133158,6 +133783,123 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.35698v1"
+   },
+   "2610.36881": {
+    "abs_url": "https://arxiv.org/abs/2610.36881",
+    "authors": [
+     "Xinyue Jiang",
+     "Tong Li",
+     "Shiceng Zhang",
+     "Ke Chen",
+     "Zhu Xiao"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.36881",
+    "journal_ref": "",
+    "matched": [
+     "evaluation metric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36881v1",
+    "primary_category": "eess.SP",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Channel state information (CSI) prediction forecasts future channel states from historical observations, supporting transceiver design and resource allocation with reduced measurement overhead. However, existing deep learning predictors mainly encode channel knowledge in model parameters, which can limit their ability to represent diverse patterns of channel dynamics across scenes. In this paper, we propose RAG-CSI, a retrieval-enhanced Transformer framework that augments prediction with relevant historical channel knowledge. Specifically, we construct a global--local CSI knowledge store containing representative observations across scenes and historical observations from the current serving scene. We further develop joint state--dynamics retrieval (JSDR), which jointly characterizes channel states, phase dynamics, and amplitude dynamics to retrieve relevant CSI sequences. A Transformer predictor then uses cross-attention to fuse the retrieved knowledge with the current CSI history and predict future CSI with limited additional model parameters. Experiments on a multi-scene CSI dataset show overall improvements exceeding 10\\% across all five evaluation metrics over the best baseline for each metric, including a 15.42\\% reduction in normalized mean squared error.",
+    "tier": "none",
+    "title": "RAG-CSI: Global Local Retrieval via Joint State and Dynamics Matching for CSI Prediction",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.36881v1"
+   },
+   "2610.37229": {
+    "abs_url": "https://arxiv.org/abs/2610.37229",
+    "authors": [
+     "Haozheng Liu",
+     "Zhaoqian Xue",
+     "Zhongyin Wang",
+     "Junting Mu",
+     "Zihui Ma",
+     "Shuya Feng",
+     "Lingyao Li"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37229",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37229v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models are widely used as judges of model outputs (LLM-as-a-Judge), but they are costly and can hallucinate or be overconfident. Decision models are a potential alternative. They return a predefined verdict with a probability for each label instead of free-form text and are much cheaper and faster. We test this promise on hallucination detection. We build binary benchmarks for five hallucination types (9,852 items from six datasets) and compare five decision models with the generative judge gpt-6-sol. Performance depends strongly on the type: the best decision model matches gpt-6-sol in balanced accuracy on context inconsistency and comes within 3 percentage points on factual errors, but trails it by 4-8 points on logical and instruction inconsistency. Decision-model probabilities are overconfident, though less so than the GPT-6 models, and separate correct from incorrect decisions only moderately. We also find that a confidence cascade of decision models improves on the best single model by 1.9-3.3 points on three types and matches or exceeds gpt-6-sol at 1-3% of its cost. Overall, decision models are a practical low-cost judge for some hallucination types but need to be validated before use.",
+    "tier": "none",
+    "title": "Decision Models as Judges for Hallucination Detection",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37229v1"
+   },
+   "2610.37481": {
+    "abs_url": "https://arxiv.org/abs/2610.37481",
+    "authors": [
+     "Saket Reddy",
+     "Amro Abbas",
+     "Anshuman Suri",
+     "Ari Morcos",
+     "David Schwab",
+     "Pratyush Maini"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.37481",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37481v1",
+    "primary_category": "cs.LG",
+    "published": "2026-10-27",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it. We tackle this problem by developing SimpleLoRIF, a scalable gradient embedding method that identifies fine-tuning examples whose gradients align with unsafe behavior. By simplifying a low-rank attribution method and restricting backpropagation to the final four transformer blocks, SimpleLoRIF can embed datasets on the order of a million examples, boosting gradient attribution from a small-scale analysis tool into a practical filter for full post-training datasets. We first validate it on emergent misalignment, where we find that gradients can connect insecure-code training data to the broadly harmful behaviors that appear after fine-tuning, with AUC as high as 0.865 in the gradient space of misaligned models. We then use SimpleLoRIF to build SafeTulu, a version of Tulu 3 with the 20% of examples most gradient-aligned with unsafe responses removed. Training on SafeTulu reduces GCG attack success rate by up to 22% across Qwen, Llama, and Olmo, outperforming both LLM-as-a-judge and prior gradient-based filtering, while largely preserving or even improving capability. Finally, we analyzed the removed data and identify possibly under-studied sources of safety degradation, such as tool-execution failures and narrative arithmetic. We release SafeTulu along with a Hugging Face Space that lets researchers build their own customized versions of SafeTulu to fine-tune on, such as by changing the removal fraction or filtering only certain subsets.",
+    "tier": "none",
+    "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+    "track": "",
+    "updated": "2026-10-27",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.37481v1"
    }
   },
   "Writing Agent": {
@@ -152387,7 +153129,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -152422,7 +153164,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -152457,7 +153199,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -152537,7 +153279,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [
       "Review"
      ],
@@ -152576,7 +153318,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -152612,7 +153354,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -152649,7 +153391,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -152685,7 +153427,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-09-29",
+     "checked": "2026-10-29",
      "types": [],
      "venue": "",
      "year": 2026
@@ -153542,6 +154284,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2610.33301v1"
+   },
+   "2610.35929": {
+    "abs_url": "https://arxiv.org/abs/2610.35929",
+    "authors": [
+     "Ilyas Nagiyev",
+     "Miras Baisbay",
+     "Daniil Orel",
+     "Preslav Nakov"
+    ],
+    "code_url": "https://github.com/mbaisbay/SCOPE",
+    "comment": "",
+    "first_seen": "2026-10-29",
+    "id": "2610.35929",
+    "journal_ref": "",
+    "matched": [
+     "report generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35929v1",
+    "primary_category": "cs.MA",
+    "published": "2026-10-18",
+    "s2": {
+     "checked": "2026-10-29",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "We present SCOPE, a multi-agent system for profiling news media outlets with respect to bias, factuality, and credibility. Given an outlet URL, SCOPE coordinates specialized agents for article acquisition, content analysis, external evidence search, scoring, and report generation. The system follows an MBFC-style methodology while making intermediate evidence and agent outputs inspectable through a structured demonstration interface. On a benchmark of 200 media outlets, SCOPE outperforms LLM-only, article-only, search-only, and media-background-check baselines on most metrics, achieving the lowest bias and factuality MAE, perfect failed-fact-check detection, and the lowest factual error rate. These results suggest that decomposed, evidence-grounded agent workflows can support more transparent and reliable media profiling. Our code is available at https://github.com/mbaisbay/SCOPE, and a live demonstration at https://scope-demo.streamlit.app/.",
+    "tier": "none",
+    "title": "SCOPE: Source Credibility and Outlet Profiling Engine",
+    "track": "",
+    "updated": "2026-10-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2610.35929v1"
    }
   }
  }

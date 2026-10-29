@@ -9,10 +9,10 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-27** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-29** (UTC).
 Back to the [main page](../README.md).
 
-898 of 3494 papers carry venue evidence.
+897 of 3512 papers carry venue evidence.
 
 ## Top-tier venues (594)
 
@@ -935,7 +935,7 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (127)
+## Workshops (126)
 
 ### NeurIPS (36)
 
@@ -1061,17 +1061,6 @@ Back to the [main page](../README.md).
 |**2024-03-20**|Ink and Individuality: Crafting a Personalised Narrative in the Age of LLMs|CHI 2024 (workshop)|Writing Agent|[2404.00026](https://arxiv.org/abs/2404.00026)|
 |**2024-03-20**|LLMs as Writing Assistants: Exploring Perspectives on Sense of Ownership and Reasoning|CHI 2024 (workshop)|Writing Agent|[2404.00027](https://arxiv.org/abs/2404.00027)|
 
-### ICLR (6)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-08-27**|Towards Expert Financial QA via Self-Improving RAG|ICLR 2026 (workshop)|Self-Refine & Self-Correction|[2608.26706](https://arxiv.org/abs/2608.26706)|
-|**2026-08-12**|Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations|ICLR 2025 (workshop)|Reward & Value Models, Synthetic Preference Data|[2608.12062](https://arxiv.org/abs/2608.12062)|
-|**2026-08-10**|Procedural Fairness Failures in RLHF from Preference Averaging|ICLR 2026 (workshop)|Reward & Value Models|[2608.10126](https://arxiv.org/abs/2608.10126)|
-|**2025-08-28**|Re4: Scientific Computing Agent with Rewriting, Resolution, Review and Revision|ICLR 2026 (workshop)|Iterative Revision & Text Editing|[2508.20729](https://arxiv.org/abs/2508.20729)|
-|**2024-08-23**|Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks: Explainable Metrics and Diverse Prompt Templates|ICLR 2025 (workshop)|Text Quality Evaluation|[2408.13006](https://arxiv.org/abs/2408.13006)|
-|**2024-03-18**|ClimateQ&A: Bridging the gap between climate scientists and the general public|ICLR 2024 (workshop)|Multilingual & Cross-Lingual Agents|[2403.14709](https://arxiv.org/abs/2403.14709)|
-
 ### KDD (6)
 
 |Publish Date|Title|Venue|Topics|PDF|
@@ -1092,6 +1081,16 @@ Back to the [main page](../README.md).
 |**2026-05-13**|Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety|BEA 2026 (workshop)|Writing Agent|[2605.13709](https://arxiv.org/abs/2605.13709)|
 |**2026-04-03**|Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation|BEA 2026 (workshop)|Writing Agent|[2604.03380](https://arxiv.org/abs/2604.03380)|
 |**2025-06-09**|Multilingual Grammatical Error Annotation: Combining Language-Agnostic Framework with Language-Specific Flexibility|BEA 2025 (workshop)|Korean Writing & NLP|[2506.07719](https://arxiv.org/abs/2506.07719)|
+
+### ICLR (5)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-08-27**|Towards Expert Financial QA via Self-Improving RAG|ICLR 2026 (workshop)|Self-Refine & Self-Correction|[2608.26706](https://arxiv.org/abs/2608.26706)|
+|**2026-08-12**|Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations|ICLR 2025 (workshop)|Reward & Value Models, Synthetic Preference Data|[2608.12062](https://arxiv.org/abs/2608.12062)|
+|**2026-08-10**|Procedural Fairness Failures in RLHF from Preference Averaging|ICLR 2026 (workshop)|Reward & Value Models|[2608.10126](https://arxiv.org/abs/2608.10126)|
+|**2024-08-23**|Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks: Explainable Metrics and Diverse Prompt Templates|ICLR 2025 (workshop)|Text Quality Evaluation|[2408.13006](https://arxiv.org/abs/2408.13006)|
+|**2024-03-18**|ClimateQ&A: Bridging the gap between climate scientists and the general public|ICLR 2024 (workshop)|Multilingual & Cross-Lingual Agents|[2403.14709](https://arxiv.org/abs/2403.14709)|
 
 ### IJCAI (4)
 

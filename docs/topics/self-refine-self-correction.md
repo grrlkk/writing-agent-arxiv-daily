@@ -2,15 +2,16 @@
 
 > Whether a model can improve its own draft with no external signal — the baseline the TVM has to beat (RQ4).
 
-305 papers, newest first. Generated on **2026-10-27** (UTC).
+306 papers, newest first. Generated on **2026-10-29** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (175)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
+Browse by year: [2026 (176)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-27**|<details><summary>Can LLMs Reliably Grade Olympiad Proofs? A Study of Mathematical Verification with LLMs</summary><br>Large Language Models (LLMs) have made remarkable progress on solving competition-level mathematics, yet their ability to verify natural-language mathematical proofs remains relatively underexplored. This gap is especially pronounced for Olympiad-level proofs, which require meticulous assessment of each claim in a long reasoning chain. Current proof verification thus primarily relies on expert inspection, which is costly to scale. In this paper, we present a systematic study of LLM-based verific...</details>|-|Azim Ospanov et al.|[2610.36767](https://arxiv.org/abs/2610.36767)|**[link](https://github.com/aziksh-ospanov/TROJAN)**|
 |**2026-10-26**|<details><summary>Skill$^{\infty}$: Recursive Self-Improvement for Agent Skill Optimization</summary><br>Recursive self-improvement (RSI), in which a system also improves the way it improves, is a long-standing aspiration on the path to AGI. Language agents increasingly store procedural knowledge in reusable skills. Optimizing skills offers a direct way to achieve RSI, because the optimization procedure itself can be encoded as a skill. Existing skill optimizers, however, follow a hand-designed procedure. Even methods that evolve a meta-skill confine it to a fixed pipeline and relearn it for each t...</details>|-|Wangcheng Tao et al.|[2610.35434](https://arxiv.org/abs/2610.35434)|null|
 |**2026-10-26**|<details><summary>RSIV-Harness: A Recursive Self-Improvement Harness Framework for Open-Domain Conversational Text-to-Visualization</summary><br>Users often request charts without knowing which database or table holds the relevant data. Such requests may be ambiguous, and users may ask follow-up questions to deepen their analysis or iteratively refine existing charts. A useful assistant must therefore discover relevant data sources among heterogeneous databases, ask clarifying questions when needed, and track evolving user intent while preserving constraints established in earlier turns. Yet recent text-to-visualization agents typically...</details>|-|Jiawei Lu et al.|[2610.35316](https://arxiv.org/abs/2610.35316)|null|
 |**2026-10-26**|<details><summary>Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges</summary><br>AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement. Reported gains may reflect flawed evaluations, previously acquired capabiliti...</details>|-|Jiayue Pu et al.|[2610.35193](https://arxiv.org/abs/2610.35193)|null|

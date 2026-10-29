@@ -2,15 +2,16 @@
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-236 papers, newest first. Generated on **2026-10-27** (UTC).
+237 papers, newest first. Generated on **2026-10-29** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (139)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
+Browse by year: [2026 (140)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-26**|<details><summary>Your Wish Is My Commit: Over-Compliant Refactoring in AI Coding Agents</summary><br>Large language models are known to be sycophantic, over-complying with users even when doing so is unproductive. When these models act as coding agents, this can be costly: an agent that keeps editing after no edit improves the code writes churn, technical debt, and review burden into the codebase. Yet the consequences of sycophancy in software engineering remain largely understudied. To understand them, we run a controlled study of iterative refactoring, an open-ended task with no stopping crit...</details>|-|Haocong Jiang et al.|[2610.36346](https://arxiv.org/abs/2610.36346)|null|
 |**2026-10-25**|<details><summary>Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?</summary><br>While Multimodal Large Language Models (MLLMs) excel at zero-shot reasoning, their spatial capabilities are primarily evaluated through static, passive observation. In complex, human-centric scenes, occlusion often hides crucial geometric evidence, and passive benchmarks force models to guess rather than recognize their own visual uncertainty. To bridge this gap, we introduce SATE-Bench, a novel interactive benchmark comprising 316 real-world scenes and 2,525 multi-turn QA pairs to evaluate visu...</details>|-|Tianchen Guo et al.|[2610.34149](https://arxiv.org/abs/2610.34149)|null|
 |**2026-10-23**|<details><summary>When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning</summary><br>A failed vision-language-action (VLA) rollout does not imply that every action contributed to failure. Yet in group-relative policy optimization (GRPO), a single trajectory-level advantage is assigned to all actions in a rollout. Potentially useful recovery attempts can thus be penalized alongside the errors they aim to correct. Ideal stopping conditions for failure feedback are characterized using success-probability and policy-score martingales. At these stops, the removed gradient contributio...</details>|-|Zongyao Zhao et al.|[2610.32431](https://arxiv.org/abs/2610.32431)|null|
 |**2026-10-23**|<details><summary>Not All Information Is Worth Asking For: Decision-Informed Information Seeking with LLMs</summary><br>Large language models (LLMs) are increasingly used to support decisions under incomplete information, where deciding what to look up and when to stop matters as much as the final answer. However, LLMs fall into an information trap: They pay for checks, i.e., costly pieces of evidence, that cannot change their decision or are not worth their cost, and they keep asking when the evidence is already sufficient. To this end, we propose Decision-Informed Value-of-information Acquisition (DIVA), a simp...</details>|-|Seunghan Lee et al.|[2610.32181](https://arxiv.org/abs/2610.32181)|null|
