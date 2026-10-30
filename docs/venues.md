@@ -9,17 +9,18 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-10-29** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-10-30** (UTC).
 Back to the [main page](../README.md).
 
-897 of 3512 papers carry venue evidence.
+900 of 3541 papers carry venue evidence.
 
-## Top-tier venues (594)
+## Top-tier venues (595)
 
-### EMNLP (152)
+### EMNLP (153)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-27**|QMUL_AK at AISA-ArabicFC: Schema-Constrained Function Calling with ALLaM|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2610.37995](https://arxiv.org/abs/2610.37995)|
 |**2026-10-20**|DiffResearch: Accelerating Deep Research with Diffusion Language Models|EMNLP 2026|Text Quality Evaluation, Writing Agent|[2610.28909](https://arxiv.org/abs/2610.28909)|
 |**2026-10-18**|Aligning Cultural Behaviors in Arabic Language Models via Preferences|EMNLP 2026|Synthetic Preference Data|[2610.25362](https://arxiv.org/abs/2610.25362)|
 |**2026-10-08**|EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams|EMNLP 2026|Reward & Value Models|[2610.12248](https://arxiv.org/abs/2610.12248)|
@@ -866,7 +867,21 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2025-12-22**|EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration|CVPR 2026 (findings)|Reward & Value Models|[2512.19396](https://arxiv.org/abs/2512.19396)|
 
-## Other venues (37)
+## Other venues (38)
+
+### ACM MM (9)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-10-29**|Aligning Medical Vision Language Models at the Capability Boundary with Entropy Adaptive Rubric Grounding|ACM MM 2026|Reward & Value Models|[2610.39835](https://arxiv.org/abs/2610.39835)|
+|**2026-08-27**|TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation|ACM MM 2026|Multilingual & Cross-Lingual Agents, Text Quality Evaluation|[2608.27127](https://arxiv.org/abs/2608.27127)|
+|**2026-08-05**|CSGen: A Multi-Domain Curvilinear Structure Generation Model via Hierarchical Multimodal Diffusion|ACM MM 2026|Semantic Drift & Faithfulness|[2608.04655](https://arxiv.org/abs/2608.04655)|
+|**2026-08-03**|Open-Set Visual Text Forensics via Sparse-Constraint Rectified Flow|ACM MM 2026|Iterative Revision & Text Editing|[2608.02258](https://arxiv.org/abs/2608.02258)|
+|**2026-07-30**|RefineSVG: Visual Feedback-Driven Reinforcement Learning for Image-to-SVG Generation|ACM MM 2026|Self-Refine & Self-Correction|[2607.27699](https://arxiv.org/abs/2607.27699)|
+|**2026-07-27**|Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis|ACM MM 2026|Reward & Value Models|[2607.24430](https://arxiv.org/abs/2607.24430)|
+|**2024-10-28**|CT2C-QA: Multimodal Question Answering over Chinese Text, Table and Chart|ACM MM 2024|Multilingual & Cross-Lingual Agents|[2410.21414](https://arxiv.org/abs/2410.21414)|
+|**2024-10-27**|Uncovering Capabilities of Model Pruning in Graph Contrastive Learning|ACM MM 2024|Synthetic Preference Data|[2410.20356](https://arxiv.org/abs/2410.20356)|
+|**2024-07-31**|Generative Expressive Conversational Speech Synthesis|ACM MM 2024|Multilingual & Cross-Lingual Agents|[2407.21491](https://arxiv.org/abs/2407.21491)|
 
 ### ECCV (9)
 
@@ -881,19 +896,6 @@ Back to the [main page](../README.md).
 |**2025-12-02**|PPTArena: A Benchmark for PowerPoint Editing|ECCV 2026|Text Quality Evaluation|[2512.03042](https://arxiv.org/abs/2512.03042)|
 |**2025-11-24**|VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection|ECCV 2026|Reward & Value Models|[2511.19436](https://arxiv.org/abs/2511.19436)|
 |**2025-11-18**|Error-Driven Scene Editing for 3D Grounding in Large Language Models|ECCV 2026|Iterative Revision & Text Editing|[2511.14086](https://arxiv.org/abs/2511.14086)|
-
-### ACM MM (8)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-08-27**|TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation|ACM MM 2026|Multilingual & Cross-Lingual Agents, Text Quality Evaluation|[2608.27127](https://arxiv.org/abs/2608.27127)|
-|**2026-08-05**|CSGen: A Multi-Domain Curvilinear Structure Generation Model via Hierarchical Multimodal Diffusion|ACM MM 2026|Semantic Drift & Faithfulness|[2608.04655](https://arxiv.org/abs/2608.04655)|
-|**2026-08-03**|Open-Set Visual Text Forensics via Sparse-Constraint Rectified Flow|ACM MM 2026|Iterative Revision & Text Editing|[2608.02258](https://arxiv.org/abs/2608.02258)|
-|**2026-07-30**|RefineSVG: Visual Feedback-Driven Reinforcement Learning for Image-to-SVG Generation|ACM MM 2026|Self-Refine & Self-Correction|[2607.27699](https://arxiv.org/abs/2607.27699)|
-|**2026-07-27**|Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis|ACM MM 2026|Reward & Value Models|[2607.24430](https://arxiv.org/abs/2607.24430)|
-|**2024-10-28**|CT2C-QA: Multimodal Question Answering over Chinese Text, Table and Chart|ACM MM 2024|Multilingual & Cross-Lingual Agents|[2410.21414](https://arxiv.org/abs/2410.21414)|
-|**2024-10-27**|Uncovering Capabilities of Model Pruning in Graph Contrastive Learning|ACM MM 2024|Synthetic Preference Data|[2410.20356](https://arxiv.org/abs/2410.20356)|
-|**2024-07-31**|Generative Expressive Conversational Speech Synthesis|ACM MM 2024|Multilingual & Cross-Lingual Agents|[2407.21491](https://arxiv.org/abs/2407.21491)|
 
 ### CVPR (6)
 
@@ -935,12 +937,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (126)
+## Workshops (127)
 
-### NeurIPS (36)
+### NeurIPS (37)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-29**|Assessing AI Companion Chatbot Safety for Vulnerable Users: A Crisis-Stage Multi-Platform Evaluation|NeurIPS 2026 (workshop)|Text Quality Evaluation|[2610.39782](https://arxiv.org/abs/2610.39782)|
 |**2026-10-15**|Language Is a Security Surface for Agent Guards|NeurIPS 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.22244](https://arxiv.org/abs/2610.22244)|
 |**2026-10-14**|ixi-sLM: On-Device sLM for AI Call Agent Service|NeurIPS 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.19382](https://arxiv.org/abs/2610.19382)|
 |**2026-10-09**|CoBe: A Benchmark For Conversational Counterfactual Text Editing|NeurIPS 2026 (workshop)|Iterative Revision & Text Editing|[2610.13057](https://arxiv.org/abs/2610.13057)|

@@ -2,15 +2,16 @@
 
 > Edit-intention taxonomies, revision histories, and text-editing models — the direct precedent for FEAK-TC's action taxonomy (B1/W2).
 
-191 papers, newest first. Generated on **2026-10-29** (UTC).
+192 papers, newest first. Generated on **2026-10-30** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (108)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
+Browse by year: [2026 (109)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-10-28**|<details><summary>Robust LLM-Generated Text Detection through Matched Conditional-Response Probing</summary><br>Reliable detection of large language model (LLM)-generated text must remain effective under meaning-preserving text revisions, such as rewriting, polishing, and expansion. In practice, LLM outputs are often rewritten, polished, expanded, translated, or lightly edited before publication, weakening the lexical, syntactic, and local discourse cues used by many existing detectors. We introduce \textbf{M}atched \textbf{C}onditional-\textbf{R}esponse \textbf{P}robing (\textbf{MCRP}), a frozen-LLM prob...</details>|-|Junfeng Hao et al.|[2610.38312](https://arxiv.org/abs/2610.38312)|null|
 |**2026-10-27**|<details><summary>PolyGandr: Steering Generative Models via Spatial Navigation through Latent Space</summary><br>Generative models support content creation across text, images, videos, and design disciplines, yet their interfaces rely primarily on natural language. While effective for specifying high-level intent, language can be inefficient and imprecise for fine-grained control, iterative refinement, and open-ended exploration. We present PolyGandr, a visual interface for exploring relationships between latent representations and generated outputs, complementing natural-language model steering. PolyGandr...</details>|-|Mingwei S. G. Li et al.|[2610.37446](https://arxiv.org/abs/2610.37446)|null|
 |**2026-10-23**|<details><summary>DELA: Learning Controllable Edits for Diffusion Language Models</summary><br>Diffusion language models (DLMs) support bidirectional denoising and iterative refinement, but generation remains largely controlled by token-level masking schedules. This leaves draft-level refinement implicit and limits explicit control over when to insert missing content, delete redundant spans, revisit uncertain regions, or stop editing. We introduce Diffusion Editing Language Adapter (DELA), a plug-in framework that enables controllable draft refinement with a frozen DLM. DELA operates on c...</details>|-|Xinsong Feng et al.|[2610.32096](https://arxiv.org/abs/2610.32096)|null|
 |**2026-10-22**|<details><summary>Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion</summary><br>The achievement of practical fusion energy remains one of the most pressing unsolved scientific challenges, with immense implications for carbon-free power. A critical factor in the success of Inertial Confinement Fusion (ICF) is the design of a Laser Pulse Shape (LP) that can optimally drive implosions under stringent physical constraints. Traditional LP design relies on computationally expensive simulations and manual iterative refinement. We introduce the ICF Laser Pulse Shape Design System (...</details>|NeurIPS 2026 (submitted)|Ricardo Luna Gutierrez et al.|[2610.33096](https://arxiv.org/abs/2610.33096)|null|
