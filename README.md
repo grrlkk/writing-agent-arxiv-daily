@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-10-30** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-10-31** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -22,39 +22,6 @@ papers using the year links under each topic; the preview shows the newest 20.
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (243)
 - [Search & Control for Generation](#search--control-for-generation) (240)
 - [Korean Writing & NLP](#korean-writing--nlp) (72)
-
-## New in this update (30)
-
-- `Multilingual & Cross-Lingual Agents` [Machine Learning-Based Detection of Mobile Money Scan Messages in Ghana: A Comparative Evaluation of Naive Bayes, Support Vector Machine, and Randon Forest Classifiers](https://arxiv.org/abs/2610.40544)
-- `Multilingual & Cross-Lingual Agents` [Well-Specified and Well-Tested? Assessing SWE-bench-Style Datasets with a Self-Evolving Agent](https://arxiv.org/abs/2610.39417)
-- `Multilingual & Cross-Lingual Agents` [QMUL_AK at AISA-ArabicFC: Schema-Constrained Function Calling with ALLaM](https://arxiv.org/abs/2610.37995)
-- `Writing Agent` [Beyond Preference Following: Benchmarking Profile-Query Arbitration in Personalized Text Transformation](https://arxiv.org/abs/2610.39550)
-- `Writing Agent` [What Is the Role for Humans in Creative Writing? Creativity and Diversity in Human-AI Collaboration](https://arxiv.org/abs/2610.37916)
-- `Iterative Revision & Text Editing` [Robust LLM-Generated Text Detection through Matched Conditional-Response Probing](https://arxiv.org/abs/2610.38312)
-- `Self-Refine & Self-Correction` [Beyond Passing Tests: A Systematic Review and Controlled Re-evaluation of Techniques for Improving the Quality of LLM-Generated Code](https://arxiv.org/abs/2610.38977)
-- `Self-Refine & Self-Correction` [TableTune: Measured, Self-Correcting Draft-Length Tables for Dynamic Speculative Decoding](https://arxiv.org/abs/2610.38968)
-- `Self-Refine & Self-Correction` [Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation and Training](https://arxiv.org/abs/2610.38220)
-- `Self-Refine & Self-Correction` [Aligning Autoresearch: Co-Improvement between Agents and Humans](https://arxiv.org/abs/2610.38882)
-- `Reward & Value Models` [Aligning Medical Vision Language Models at the Capability Boundary with Entropy Adaptive Rubric Grounding](https://arxiv.org/abs/2610.39835)
-- `Reward & Value Models` [Aligning Autoresearch: Co-Improvement between Agents and Humans](https://arxiv.org/abs/2610.38882)
-- `Reward & Value Models` [Predict the Reward, Not the World: World Reward Models for ML Agents](https://arxiv.org/abs/2610.38439)
-- `Reward & Value Models` [A Tutorial on Generative Models for Music Audio](https://arxiv.org/abs/2610.38252)
-- `Reward & Value Models` [Locating Sycophancy Across Training Stages in Open Language Models](https://arxiv.org/abs/2610.37788)
-- `Synthetic Preference Data` [ScienceJudge: Pattern Perturbation Augmentation for Sentence-Level Scientific Claim Verification](https://arxiv.org/abs/2610.40238)
-- `Synthetic Preference Data` [PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting](https://arxiv.org/abs/2610.38044)
-- `Synthetic Preference Data` [Rank-Aware Differentially Private Release of Listwise Preferences for LLM Alignment](https://arxiv.org/abs/2610.37682)
-- `Synthetic Preference Data` [Eliciting ESG Preferences for Reinforcement Learning-Based Portfolio Optimization](https://arxiv.org/abs/2609.02677)
-- `Text Quality Evaluation` [Assessing AI Companion Chatbot Safety for Vulnerable Users: A Crisis-Stage Multi-Platform Evaluation](https://arxiv.org/abs/2610.39782)
-- `Text Quality Evaluation` [Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps](https://arxiv.org/abs/2610.39264)
-- `Text Quality Evaluation` [Prompt Lottery in LLM-as-a-Judge: Measuring and Mitigating Sensitivity to Syntactic Rephrasing](https://arxiv.org/abs/2610.38076)
-- `Text Quality Evaluation` [Training language models in simulation for psychiatric intake](https://arxiv.org/abs/2610.40476)
-- `Text Quality Evaluation` [Dungeons & Dragons Encounter Analysis with Semi-Random Simulation in Foundry VTT](https://arxiv.org/abs/2610.38975)
-- `Text Quality Evaluation` [Keepace.ai: A Technical Report on a Large Language Model for Sports and Health](https://arxiv.org/abs/2610.38249)
-- `Semantic Drift & Faithfulness` [SemantiScene-Edit: Expert-Synthesized Supervision and Dual-Path Source Conditioning for Instruction-Based Video Editing](https://arxiv.org/abs/2609.26015)
-- `Semantic Drift & Faithfulness` [FIRME: Registry-Anchored Memory Graphs for Evolving, Heterogeneous Investor Knowledge](https://arxiv.org/abs/2610.40482)
-- `Search & Control for Generation` [Rethinking Neural Thickets Without Weight Perturbations](https://arxiv.org/abs/2610.40649)
-- `Search & Control for Generation` [Search-Guided Reasoning Trace Curation for Verilog Generation](https://arxiv.org/abs/2610.37706)
-- `Search & Control for Generation` [AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs](https://arxiv.org/abs/2610.38744)
 
 ## Multilingual & Cross-Lingual Agents
 

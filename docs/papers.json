@@ -12,7 +12,7 @@
    "Text Quality Evaluation": 617,
    "Writing Agent": 506
   },
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "venue_tiers": {
    "demo": 8,
    "findings": 92,
@@ -5650,7 +5650,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5692,7 +5692,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [
       "Review"
      ],
@@ -6704,7 +6704,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -6738,7 +6738,7 @@
     "primary_category": "cs.HC",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10683,7 +10683,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27688,7 +27688,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -27724,7 +27724,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -35849,7 +35849,7 @@
     "primary_category": "cs.LG",
     "published": "2025-11-22",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [
       "JournalArticle"
      ],
@@ -46758,7 +46758,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46800,7 +46800,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46875,7 +46875,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46910,7 +46910,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46944,7 +46944,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -46982,7 +46982,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47021,7 +47021,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47062,7 +47062,7 @@
     "primary_category": "cs.SD",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47098,7 +47098,7 @@
     "primary_category": "cs.CR",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47150,7 +47150,7 @@
     "primary_category": "cs.RO",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47186,7 +47186,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47226,7 +47226,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47263,7 +47263,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47302,7 +47302,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47338,7 +47338,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47391,7 +47391,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -47429,7 +47429,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -53863,7 +53863,7 @@
     "primary_category": "cs.LO",
     "published": "2026-09-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -53900,7 +53900,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -53938,7 +53938,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -53976,7 +53976,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54018,7 +54018,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54055,7 +54055,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54100,7 +54100,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54151,7 +54151,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54193,7 +54193,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54229,7 +54229,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54269,7 +54269,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54311,7 +54311,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54351,7 +54351,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54388,7 +54388,7 @@
     "primary_category": "cs.RO",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -69331,7 +69331,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -70467,7 +70467,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -70522,7 +70522,7 @@
     "primary_category": "cs.CV",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -76399,7 +76399,7 @@
     "primary_category": "cs.AI",
     "published": "2025-11-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2025
@@ -81185,7 +81185,7 @@
     "primary_category": "cs.IR",
     "published": "2026-08-28",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -81225,7 +81225,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -82298,7 +82298,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -82337,7 +82337,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -82378,7 +82378,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -92200,7 +92200,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -92236,7 +92236,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -93172,7 +93172,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -93212,7 +93212,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -105823,7 +105823,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -105865,7 +105865,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -105942,7 +105942,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -105982,7 +105982,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106017,7 +106017,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106053,7 +106053,7 @@
     "primary_category": "cs.CR",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106091,7 +106091,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -106533,7 +106533,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-05",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -108112,7 +108112,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -108151,7 +108151,7 @@
     "primary_category": "cs.LG",
     "published": "2026-09-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -108192,7 +108192,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125273,7 +125273,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125310,7 +125310,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125344,7 +125344,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125394,7 +125394,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125430,7 +125430,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125467,7 +125467,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125507,7 +125507,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125546,7 +125546,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [
       "Review"
      ],
@@ -125585,7 +125585,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -125627,7 +125627,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [
       "Review"
      ],
@@ -125683,7 +125683,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -130304,7 +130304,7 @@
     "primary_category": "cs.IR",
     "published": "2026-09-29",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -130350,7 +130350,7 @@
     "primary_category": "cs.CL",
     "published": "2026-09-30",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -153214,7 +153214,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -153251,7 +153251,7 @@
     "primary_category": "cs.HC",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [
       "Review"
      ],
@@ -153293,7 +153293,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [
       "Review"
      ],
@@ -153335,7 +153335,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [],
      "venue": "",
      "year": 2026
@@ -153377,7 +153377,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-01",
+     "checked": "2026-10-31",
      "types": [
       "Review"
      ],
