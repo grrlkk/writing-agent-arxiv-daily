@@ -9,14 +9,14 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-04** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-05** (UTC).
 Back to the [main page](../README.md).
 
-905 of 3599 papers carry venue evidence.
+908 of 3613 papers carry venue evidence.
 
-## Top-tier venues (598)
+## Top-tier venues (600)
 
-### EMNLP (153)
+### EMNLP (154)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -45,6 +45,7 @@ Back to the [main page](../README.md).
 |**2026-09-04**|Discourse Dependency: A Continuous Criterion for Translation Difficulty|EMNLP 2026|Iterative Revision & Text Editing|[2609.04959](https://arxiv.org/abs/2609.04959)|
 |**2026-09-04**|Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2609.05395](https://arxiv.org/abs/2609.05395)|
 |**2026-09-04**|PetQA: Benchmarking Veterinary Knowledge and Clinical Reasoning|EMNLP 2026|Text Quality Evaluation|[2609.04598](https://arxiv.org/abs/2609.04598)|
+|**2026-09-03**|Gradients Know What Outcomes Don't: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards|EMNLP 2026|Reward & Value Models|[2609.03342](https://arxiv.org/abs/2609.03342)|
 |**2026-09-03**|Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness|EMNLP 2026|Reward & Value Models|[2609.03887](https://arxiv.org/abs/2609.03887)|
 |**2026-09-03**|Decoupled Analysis-Judging: An Automated Creativity Evaluator Using LLMs in Complex Multi-step Creativity Tasks|EMNLP 2026|Text Quality Evaluation|[2609.03432](https://arxiv.org/abs/2609.03432)|
 |**2026-09-02**|CoMerge: Conflict-Driven Preference Optimization for Multi-Task Model Merging|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2609.02273](https://arxiv.org/abs/2609.02273)|
@@ -286,10 +287,11 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (70)
+### NeurIPS (71)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-03**|Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior|NeurIPS 2026|Reward & Value Models|[2611.04395](https://arxiv.org/abs/2611.04395)|
 |**2026-11-01**|Lie Routing Vision Language Models for View-Robust 3D Understanding|NeurIPS 2026|Semantic Drift & Faithfulness|[2611.02306](https://arxiv.org/abs/2611.02306)|
 |**2026-10-31**|AdKnob: Ad Intensity Control and Labeling for LLM-Native Advertising|NeurIPS 2026|Reward & Value Models|[2611.00822](https://arxiv.org/abs/2611.00822)|
 |**2026-10-22**|Learning Domain Trajectories with Flow Matching for Gradual Domain Adaptation|NeurIPS 2026|Semantic Drift & Faithfulness|[2610.30685](https://arxiv.org/abs/2610.30685)|
@@ -940,12 +942,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (129)
+## Workshops (130)
 
-### NeurIPS (39)
+### NeurIPS (40)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-02**|SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use|NeurIPS 2026 (workshop)|Text Quality Evaluation|[2611.03982](https://arxiv.org/abs/2611.03982)|
 |**2026-10-31**|The Verifier Is Part of the Simulator: Evidence-View Gaming in Agentic Equation Discovery|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.01334](https://arxiv.org/abs/2611.01334)|
 |**2026-10-30**|Cross-Lingual Persona Effects in LLM Negotiation|NeurIPS 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2611.00300](https://arxiv.org/abs/2611.00300)|
 |**2026-10-29**|Assessing AI Companion Chatbot Safety for Vulnerable Users: A Crisis-Stage Multi-Platform Evaluation|NeurIPS 2026 (workshop)|Text Quality Evaluation|[2610.39782](https://arxiv.org/abs/2610.39782)|

@@ -2,15 +2,16 @@
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-246 papers, newest first. Generated on **2026-11-04** (UTC).
+247 papers, newest first. Generated on **2026-11-05** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (149)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
+Browse by year: [2026 (150)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-03**|<details><summary>Say Less, Mean Better: Training-Free Verbosity Control for Language Models</summary><br>Large language models (LLMs) often generate responses longer than necessary, increasing inference latency and computational cost. While prompting can encourage conciseness, controlling output length without compromising response completeness remains challenging. Aggressive early stopping can reduce generation costs but risks terminating responses prematurely. We introduce MinimalLM, a training-free framework for reliable verbosity control that combines uncertainty-aware, length-dependent stop-to...</details>|-|Mahmoud Alyosify et al.|[2611.04107](https://arxiv.org/abs/2611.04107)|null|
 |**2026-11-02**|<details><summary>Utility-Aware Generative Recommendation: Utility-Enriched Semantic Codes and Utility-Guided Decoding</summary><br>Generative recommendation has been widely adopted in large-scale industrial recommendation systems, where multimodal item embeddings are quantized into offline semantic identifiers (SIDs) and items are retrieved by autoregressively generating their SIDs. However, conventional SID construction often underrepresents item utility reflected in post-exposure behaviors such as shares, long views, and video completion, making semantically similar items with different utility insufficiently distinguisha...</details>|-|Yang Hu et al.|[2611.02981](https://arxiv.org/abs/2611.02981)|null|
 |**2026-11-02**|<details><summary>Beyond Answers, Traces, and Efficiency: Evidence for Adaptive Reasoning</summary><br>Current AI systems are evaluated as reasoners through final-answer accuracy, reasoning traces, process supervision, and computational or human-relative efficiency. Yet these measures do not establish whether reasoning adapts when tasks or evidence change. We distinguish across-task adaptivity, where acquired abstractions transfer or recombine across novel problems, fromwithin-task adaptivity, where hypotheses and actions are revised in response to new observations, feedback, or counterexamples....</details>|-|Sejin Kim et al.|[2611.02704](https://arxiv.org/abs/2611.02704)|null|
 |**2026-10-31**|<details><summary>Enhancing Language Model Reasoning with Structured Multi-Level Modeling</summary><br>Inference-time scaling enhances a model's reasoning by extending its chain-of-thought (CoT). However, existing approaches typically rely on a single policy trained with outcome-reward reinforcement learning (RL), which often suffers from long-horizon plan failures where the implicit plan drifts from valid strategies, especially for small LMs with limited capacity. To address this, we propose Multi-Level Reasoning (MLR), which reformulates long-CoT generation as a two-level stochastic process. A...</details>|ICLR 2026|Siheng Xiong et al.|[2611.00616](https://arxiv.org/abs/2611.00616)|null|

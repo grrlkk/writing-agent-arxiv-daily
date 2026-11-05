@@ -2,15 +2,16 @@
 
 > Edit-intention taxonomies, revision histories, and text-editing models — the direct precedent for FEAK-TC's action taxonomy (B1/W2).
 
-193 papers, newest first. Generated on **2026-11-04** (UTC).
+194 papers, newest first. Generated on **2026-11-05** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (110)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
+Browse by year: [2026 (111)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-03**|<details><summary>When Self-Verification Hurts: Calibrated Answer Repair for Financial Question Answering</summary><br>Financial question answering can fail even when a model extracts a plausible number from the supplied evidence: the answer may attach it to the wrong entity, period, unit, or accounting concept. Asking the model to verify and revise its draft can help, but open-ended revision may alter content that was already correct or inspect the wrong relation and reinforce the original error. We formulate repair as a decision that balances the information it may recover against the correct content it may da...</details>|-|Celine Guo et al.|[2611.05166](https://arxiv.org/abs/2611.05166)|null|
 |**2026-10-29**|<details><summary>The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model</summary><br>Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-model verification and correction. We compare their architectures without verification, using LangFlow for CDLMs and adapting DSpark's Markov and recurrent-head architectures for standalone generation. All models are trained from scratch for uncondition...</details>|-|Yujian Chen et al.|[2610.40847](https://arxiv.org/abs/2610.40847)|null|
 |**2026-10-28**|<details><summary>Robust LLM-Generated Text Detection through Matched Conditional-Response Probing</summary><br>Reliable detection of large language model (LLM)-generated text must remain effective under meaning-preserving text revisions, such as rewriting, polishing, and expansion. In practice, LLM outputs are often rewritten, polished, expanded, translated, or lightly edited before publication, weakening the lexical, syntactic, and local discourse cues used by many existing detectors. We introduce \textbf{M}atched \textbf{C}onditional-\textbf{R}esponse \textbf{P}robing (\textbf{MCRP}), a frozen-LLM prob...</details>|-|Junfeng Hao et al.|[2610.38312](https://arxiv.org/abs/2610.38312)|null|
 |**2026-10-27**|<details><summary>PolyGandr: Steering Generative Models via Spatial Navigation through Latent Space</summary><br>Generative models support content creation across text, images, videos, and design disciplines, yet their interfaces rely primarily on natural language. While effective for specifying high-level intent, language can be inefficient and imprecise for fine-grained control, iterative refinement, and open-ended exploration. We present PolyGandr, a visual interface for exploring relationships between latent representations and generated outputs, complementing natural-language model steering. PolyGandr...</details>|-|Mingwei S. G. Li et al.|[2610.37446](https://arxiv.org/abs/2610.37446)|null|

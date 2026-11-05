@@ -2,15 +2,16 @@
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-248 papers, newest first. Generated on **2026-11-04** (UTC).
+249 papers, newest first. Generated on **2026-11-05** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (136)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
+Browse by year: [2026 (137)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-03**|<details><summary>Constructing a Regional Slang Lexicon for Electricity Demands via Soft-Label Bidirectional Anchoring and Active Learning</summary><br>Power-grid customer service increasingly relies on community social media, where customers describe outages, billing, and equipment faults in informal regional dialect. Such messages exhibit non-standard morphology, semantic drift, and out-of-vocabulary expressions that make manual lexicon construction costly and degrade conventional NLP tools. We propose a weak-supervision framework constructing a regional slang lexicon from curated dialect anchors and power-domain seed terms. Candidates are ge...</details>|-|Rong Chang et al.|[2611.04231](https://arxiv.org/abs/2611.04231)|null|
 |**2026-11-02**|<details><summary>Bridging Low-Level Image Fusion and High-Level Semantic Understanding</summary><br>Remote sensing image fusion and semantic interpretation are usually optimized separately, so reconstruction quality need not preserve downstream retrieval utility. We propose LANCE, which uses structured language as an explicit, indexable semantic state. A frozen vision-language model maps the input to a closed-vocabulary text record; a language-conditioned generator fuses the imagery; and a dense verifier with a differentiable continuous summarizer re-describes the output. Text-text consistency...</details>|-|Guangyuan Dong et al.|[2611.02896](https://arxiv.org/abs/2611.02896)|null|
 |**2026-11-01**|<details><summary>Lie Routing Vision Language Models for View-Robust 3D Understanding</summary><br>Multimodal Large Language Models (MLLMs) have made substantial progress in 3D scene understanding from multi-view RGB observations. Yet a fixed object and query can elicit inconsistent target-related responses across camera viewpoints, a phenomenon we characterize as viewpoint-induced semantic drift. We introduce LieVLM, a Lie routing framework for view-robust 3D understanding. Motivated by the rotational component of viewpoint change, Lie routing adapts visual representations by applying local...</details>|NeurIPS 2026|Jingjun Yi et al.|[2611.02306](https://arxiv.org/abs/2611.02306)|null|
 |**2026-10-30**|<details><summary>RangeSWA: Training-Free Length Extrapolation for Continuous Diffusion Language Models</summary><br>Continuous diffusion language models show promising potential in text generation tasks, but are prone to problems such as text repetition, semantic drift, and generation quality degradation when the generation length exceeds the training length. To address these challenges, we propose RangeSWA, a training-free length extrapolation method. The method combines local sliding-window attention, remote block summaries, and dynamic content retrieval to preserve local details and support long-range cont...</details>|-|Guangfu Guo et al.|[2610.42084](https://arxiv.org/abs/2610.42084)|null|

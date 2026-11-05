@@ -2,15 +2,16 @@
 
 > Applying LLM agents beyond English: multilingual and cross-lingual transfer, non-English tool use and planning, localized writing assistants, and language- or culture-specific agent benchmarks. Survey axis for adapting agent workflows to Korean and other language communities.
 
-454 papers, newest first. Generated on **2026-11-04** (UTC).
+455 papers, newest first. Generated on **2026-11-05** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (231)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)
+Browse by year: [2026 (232)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-03**|<details><summary>CardioVascBench:Prioritized Diagnosis Generation from Real-World Chinese Cardiovascular Records</summary><br>Identifying the primary diagnosis alone does not fully characterize a model's diagnosis-generation performance. We introduce CardioVascBench, a retrospective benchmark for prioritized diagnosis generation from real-world Chinese cardiovascular inpatient records. It contains 3,262 de-identified cases, with 2,174 for training and 1,088 for evaluation, linking clinical narratives and textual ECG reports to expert-verified, ordered discharge diagnoses standardized to ICD-10. An English translation o...</details>|-|Minghao Kong et al.|[2611.04687](https://arxiv.org/abs/2611.04687)|null|
 |**2026-11-02**|<details><summary>NitiBench+: A Temporal Thai Legal Question Answering Benchmark Across 17 Domains</summary><br>Law changes over time. A court decides a case under the law in force on that day, and legal QA benchmarks grade answers against today's law. We checked 156,650 decisions of four Thai courts. Up to 67% of them cite law that has since been amended or repealed. We introduce NitiBench+, the sequel of our NitiBench, a Thai legal QA benchmark with 1,670 items across 17 domains, built from decisions of three courts. For each cited section it holds both the text in force on the decision date and the cur...</details>|-|Pawitsapak Akarajaradwong et al.|[2611.03576](https://arxiv.org/abs/2611.03576)|null|
 |**2026-11-01**|<details><summary>SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training</summary><br>Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectories are increasingly used as post-training data, so how they are collected shapes what the trained model learns. A common approach is to sample multiple trajectories independently for each issue and then select or curate them. However, as more trajectories are sampled independently, later trajectories become increasingly redundant, even though earlier trajectories could guide wher...</details>|-|Ziming Li et al.|[2611.02074](https://arxiv.org/abs/2611.02074)|null|
 |**2026-10-30**|<details><summary>Cross-Lingual Persona Effects in LLM Negotiation</summary><br>Tell an LLM negotiator to be "headstrong" and it should hold firm on price, but does that instruction retain the same behavior in every language? To test this, we use identical buyer and seller instances of Gemini 3.6 Flash to negotiate the same 12 CraigslistBargain scenarios in English and Korean. The pilot-scale 2 x 2 x 3 design crosses interaction language, seller urgency (none or strong), and buyer persona (cooperative, neutral, or headstrong), yielding 432 attempted negotiations. We call th...</details>|NeurIPS 2026 (workshop)|Saehee Eom et al.|[2611.00300](https://arxiv.org/abs/2611.00300)|null|

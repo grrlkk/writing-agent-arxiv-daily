@@ -2,7 +2,7 @@
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-407 papers, newest first. Generated on **2026-11-04** (UTC).
+407 papers, newest first. Generated on **2026-11-05** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
 Browse by year: [2026 (220)](#2026) · [2025 (95)](#2025) · [2024 (92)](#2024)
