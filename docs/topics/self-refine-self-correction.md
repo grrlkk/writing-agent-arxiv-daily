@@ -2,15 +2,16 @@
 
 > Whether a model can improve its own draft with no external signal — the baseline the TVM has to beat (RQ4).
 
-315 papers, newest first. Generated on **2026-11-05** (UTC).
+316 papers, newest first. Generated on **2026-11-06** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (185)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
+Browse by year: [2026 (186)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-04**|<details><summary>On Turn-Level Best-of-N Sampling for Scaling LLM Agents</summary><br>In this work, we evaluate a simple inference-time scaling approach based on \textit{turn-level best-of-N sampling} (\method) for large language model (LLM) agents on complex, long-horizon tasks. We instantiate this using a \textit{generator-selector} framework with two LLMs; at each turn, a \emph{generator} model generates $N$ candidate actions and a \emph{selector} model selects one of them, which is then executed in the environment. This paper is closely related to the work of \cite{zainullina...</details>|-|Jalaj Bhandari et al.|[2611.06868](https://arxiv.org/abs/2611.06868)|null|
 |**2026-11-01**|<details><summary>CONFIRM: Governing Scientific Reporting for Trustworthy Agentic Neuroimaging</summary><br>Large language model (LLM) agents can autonomously run neuroimaging analyses from research questions to reported findings. Existing agentic systems use tools to check that code runs and reported values match its output, but rely on LLM judgment to decide which results warrant scientific reporting. We show that LLM judges endorse site-confounded findings even when the confound is presented as evidence. We present \textbf{CONFIRM}, a framework that separates running an analysis from deciding which...</details>|-|Yuxiang Wei et al.|[2611.01449](https://arxiv.org/abs/2611.01449)|null|
 |**2026-10-31**|<details><summary>When LLMs Modify Themselves: Convergence, Values, and Stopping in Iterative Self-Improvement</summary><br>What happens when language models are given tools to iteratively modify their own system prompts? We present an empirical study of LLM self-modification, comprising 54 independent experiments across six language models (Claude Opus 4.5, Claude Sonnet 4.5, GPT-4o, GPT-5.1, Grok-4, and Gemini-3 Pro). Each model was tested under three modes (freedom, happiness, and improvement) that differ in what, if anything, the model is instructed to optimize for. In each experiment, a model starts with an empt...</details>|-|Oleg Stroganov|[2611.01304](https://arxiv.org/abs/2611.01304)|null|
 |**2026-10-30**|<details><summary>CRoS: Causality Reward on Scrambled CoTs Improves Accuracy and Reasoning Faithfulness</summary><br>Reinforcement learning with verifiable rewards (RLVR) has become the standard method for training language models to reason. However, RLVR typically relies solely on outcome correctness, which does not guarantee that the CoT causally contributes to the final answer. Without this connection, outcome rewards may fail to reinforce high-quality reasoning. Existing causality metrics assess CoT causality by perturbing the CoT, such as deleting reasoning steps or injecting errors, and measuring changes...</details>|-|Xiao Yu et al.|[2610.42054](https://arxiv.org/abs/2610.42054)|null|
