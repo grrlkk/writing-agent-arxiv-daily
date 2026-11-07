@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-06** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-07** (UTC).
 Back to the [main page](../README.md).
 
-911 of 3632 papers carry venue evidence.
+914 of 3649 papers carry venue evidence.
 
-## Top-tier venues (602)
+## Top-tier venues (605)
 
 ### EMNLP (155)
 
@@ -288,10 +288,11 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (71)
+### NeurIPS (74)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-05**|When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO|NeurIPS 2026|Reward & Value Models|[2611.07375](https://arxiv.org/abs/2611.07375)|
 |**2026-11-03**|Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior|NeurIPS 2026|Reward & Value Models|[2611.04395](https://arxiv.org/abs/2611.04395)|
 |**2026-11-01**|Lie Routing Vision Language Models for View-Robust 3D Understanding|NeurIPS 2026|Semantic Drift & Faithfulness|[2611.02306](https://arxiv.org/abs/2611.02306)|
 |**2026-10-31**|AdKnob: Ad Intensity Control and Labeling for LLM-Native Advertising|NeurIPS 2026|Reward & Value Models|[2611.00822](https://arxiv.org/abs/2611.00822)|
@@ -326,6 +327,8 @@ Back to the [main page](../README.md).
 |**2026-06-22**|SteerVTE: Seamless Video Text Editing with Style and Glyph Control|NeurIPS 2026|Iterative Revision & Text Editing|[2606.23254](https://arxiv.org/abs/2606.23254)|
 |**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
 |**2025-12-19**|AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens|NeurIPS 2026|Reward & Value Models, Text Quality Evaluation|[2512.17375](https://arxiv.org/abs/2512.17375)|
+|**2025-12-17**|Corrective Diffusion Language Models|NeurIPS 2026|Iterative Revision & Text Editing|[2512.15596](https://arxiv.org/abs/2512.15596)|
+|**2025-12-16**|FacEDiT: Talking Head Video Editing via Facial Motion Infilling|NeurIPS 2026|Text Quality Evaluation|[2512.14056](https://arxiv.org/abs/2512.14056)|
 |**2025-12-11**|LLM-Auction: Generative Auction towards LLM-Native Advertising|NeurIPS 2026|Text Quality Evaluation|[2512.10551](https://arxiv.org/abs/2512.10551)|
 |**2025-11-28**|Writing in Symbiosis: Mapping Human Creative Agency in the AI Era|NeurIPS 2025|Writing Agent|[2512.13697](https://arxiv.org/abs/2512.13697)|
 |**2025-11-27**|WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios|NeurIPS 2025|Text Quality Evaluation|[2511.22154](https://arxiv.org/abs/2511.22154)|

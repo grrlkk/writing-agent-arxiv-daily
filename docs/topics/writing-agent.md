@@ -2,15 +2,16 @@
 
 > The primary axis: LLM agents that write and revise across multiple turns rather than generating once. Z1 in the FEAK-TC introduction.
 
-510 papers, newest first. Generated on **2026-11-06** (UTC).
+511 papers, newest first. Generated on **2026-11-07** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (227)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
+Browse by year: [2026 (228)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-05**|<details><summary>IntentWeaver: Sustaining Coherence across Evolving Intents in Human-AI Co-Writing</summary><br>Writers hold intents at many levels, from overarching goals to concrete wording, and evolve them by periodically popping back up from the text to higher-level intents. Generative AI co-writing disrupts this practice. Dense drafts capture attention and trap writers in local editing; higher-level intents stall while lower-level ones drift from them unnoticed, a breakdown we term intent incoherence. Our formative study traced this breakdown from attention capture through silent drift to failed reco...</details>|-|Yuanhao Zhang et al.|[2611.08214](https://arxiv.org/abs/2611.08214)|null|
 |**2026-11-04**|<details><summary>Rubric Curriculum RL: Exploiting the Generation-Verification Gap in Non-Verifiable Domains</summary><br>Reinforcement learning with verifiable rewards (RLVR) has led to significant gains in math and code generation. Extending these gains to open-ended domains remains challenging: ground-truth verification is unavailable, human annotation is expensive, and learned reward models are prone to reward hacking. The generation-verification gap, where judging good outputs is easier than producing them, offers a potential path to improvement. However, rubric-based judges are often imprecise and stationary,...</details>|ICML 2026|Sumeet Ramesh Motwani et al.|[2611.06244](https://arxiv.org/abs/2611.06244)|null|
 |**2026-10-31**|<details><summary>CuriousTogether: Implications of Curiosity and Cultural Grounding in Multi-Agent LLM Interactions</summary><br>Large Language Models (LLMs) are increasingly deployed in multi-agent settings, exhibiting emergent collective behaviors, yet the role of curiosity as a driver of such dynamics remains understudied. We introduce CuriousTogether, a framework evaluating curiosity-driven multi-agent LLM interactions across three complementary dimensions: novelty-seeking, epistemic and social curiosity. Across eight tasks spanning reasoning, creative generation, and social bias mitigation, curiosity-guided multi-age...</details>|-|Angana Borah et al.|[2611.01301](https://arxiv.org/abs/2611.01301)|null|
 |**2026-10-30**|<details><summary>Steering Readerly Dynamics: Trajectory-Guided Story Generation with Large Language Models</summary><br>Large language models (LLMs) are increasingly used to generate stories, but these stories struggle to reproduce engaging readerly dynamics, the evolving reader responses that shape narrative experience. To address this challenge, we propose a framework that learns readerly dynamics from high-quality human-written stories and uses them to guide story generation. Instead of directly modeling high-dimensional story content, we train a small LLM to predict future reader responses as low-dimensional...</details>|-|Danrui Li et al.|[2611.00469](https://arxiv.org/abs/2611.00469)|null|

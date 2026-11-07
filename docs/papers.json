@@ -1,25 +1,25 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 194,
+   "Iterative Revision & Text Editing": 195,
    "Korean Writing & NLP": 72,
-   "Multilingual & Cross-Lingual Agents": 455,
-   "Reward & Value Models": 823,
+   "Multilingual & Cross-Lingual Agents": 459,
+   "Reward & Value Models": 828,
    "Search & Control for Generation": 249,
-   "Self-Refine & Self-Correction": 316,
-   "Semantic Drift & Faithfulness": 250,
+   "Self-Refine & Self-Correction": 319,
+   "Semantic Drift & Faithfulness": 251,
    "Synthetic Preference Data": 410,
-   "Text Quality Evaluation": 641,
-   "Writing Agent": 510
+   "Text Quality Evaluation": 643,
+   "Writing Agent": 511
   },
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "venue_tiers": {
    "demo": 8,
    "findings": 92,
-   "none": 2721,
+   "none": 2735,
    "other": 38,
    "strong": 40,
-   "top": 602,
+   "top": 605,
    "workshop": 131
   }
  },
@@ -3084,14 +3084,14 @@
      "Grigorios G. Chrysos"
     ],
     "code_url": "https://github.com/zhangshuibai/CDLM",
-    "comment": "21 pages",
+    "comment": "NeurIPS 2026. 72 pages. Code: https://github.com/zhangshuibai/CDLM",
     "first_seen": "2026-09-22",
     "id": "2512.15596",
     "journal_ref": "",
     "matched": [
      "iterative refinement"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2512.15596v2",
+    "pdf_url": "https://arxiv.org/pdf/2512.15596v3",
     "primary_category": "cs.LG",
     "published": "2025-12-17",
     "s2": {
@@ -3102,17 +3102,17 @@
      "venue": "",
      "year": 2025
     },
-    "status": "unknown",
-    "summary": "While Diffusion Language Models (DLMs) are theoretically well-suited for iterative refinement due to their non-causal structure, they often fail to reliably revise incorrect tokens in practice. The key challenge lies in the model's inability to distinguish between correct and erroneous tokens in a visible sequence. Standard masked diffusion language model (MDLM) training is restricted to the objective of unmasking, undermining the effectiveness of refinement guided by confidence. Based on this observation, we study corrective behavior in DLMs, defined as the ability to assign lower confidence to incorrect tokens and iteratively refine them while preserving correct content. We show that this capability is not induced by conventional masked diffusion objectives and propose a post-training principle oriented by correction that explicitly supervises visible incorrect tokens, enabling discriminative confidence and targeted refinement. To evaluate corrective behavior, we introduce the Code Revision Benchmark, a controllable and executable benchmark for assessing error localization and in-place correction. Experiments on code revision tasks and parallel decoding scenarios demonstrate that models trained with our approach substantially outperform standard MDLMs, with gains that are most pronounced when parallel decoding introduces substantial uncertainty and iterative refinement becomes essential. Our code is publicly available at https://github.com/zhangshuibai/CDLM.",
-    "tier": "none",
+    "status": "accepted",
+    "summary": "While Diffusion Language Models (DLMs) are theoretically well-suited for iterative refinement due to their non-causal structure, off-the-shelf masked diffusion language models (MDLMs) often fail to reliably revise incorrect tokens in practice. The key challenge is that the model cannot tell correct from erroneous visible tokens: standard MDLM training supervises only masked positions, undermining confidence-guided refinement. We study corrective behavior in DLMs, the ability to assign lower confidence to incorrect tokens and iteratively refine them while preserving correct content. Under matched compute and data, we show that conventional masked-diffusion fine-tuning induces much less of this capability than a correction-oriented post-training principle that explicitly supervises visible corrupted tokens, which enables discriminative confidence and targeted refinement. We further find that also supervising clean visible tokens, as in BERT- or GIDD-style training, stops remask-based refinement from improving with additional steps. To evaluate it, we introduce the Code Revision Benchmark, a controllable, executable benchmark for error localization and in-place correction. The effect transfers from a 0.5B model to LLaDA-8B and persists, with a smaller margin, when corruptions are drawn from the base model's own most plausible predictions. The same error-aware confidence also makes parallel decoding more effective. In HumanEval(+) code completion at 0.5B, mathematical reasoning at 16B, and high-entropy parallel decoding with remasking (ParallelBench), models trained with our objective outperform standard masked-diffusion fine-tuning under matched compute, and outperform the base model on HumanEval(+), MATH, and the high-entropy ParallelBench average; at 8B, neither objective improves from-scratch generation over the base model. Code and data: https://github.com/zhangshuibai/CDLM",
+    "tier": "top",
     "title": "Corrective Diffusion Language Models",
-    "track": "",
-    "updated": "2026-01-29",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
-    "version": "2512.15596v2"
+    "track": "main",
+    "updated": "2026-11-05",
+    "venue": "NeurIPS",
+    "venue_evidence": "NeurIPS 2026. 72 pages. Code: https://github.com/zhangshuibai/CDLM",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2512.15596v3"
    },
    "2512.16270": {
     "abs_url": "https://arxiv.org/abs/2512.16270",
@@ -7863,6 +7863,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.05166v1"
+   },
+   "2611.08091": {
+    "abs_url": "https://arxiv.org/abs/2611.08091",
+    "authors": [
+     "Ismail El Jamiy",
+     "Khadija Msalek",
+     "Guillaume Loizelet",
+     "Farah Benamara",
+     "Nabil Hathout"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-07",
+    "id": "2611.08091",
+    "journal_ref": "",
+    "matched": [
+     "text editing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.08091v1",
+    "primary_category": "cs.CV",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Despite recent progress in handwritten text recognition, medieval Arabic scientific manuscripts remain an open challenge for current vision-language models (VLMs) due to cursive ligatures, variable diacritization, and more importantly the lack of training data. This paper aims to address this gap, by proposing the first annotation guidelines dedicated to the transcription of scientific Arabic manuscripts inspired by textual criticism, a well-established approach to historical text editing. We then propose, ATHAAR, a new dataset manually annotated following this guideline. Unlike previous resources in the field, ATHAAR varies both witnesses of the same text, calligraphic styles, and content to deal with texts but also numerals. Relying on state-of-the-art VLMs, we finally design a set of experiments to study models transfer across scripts, chapters, and treatises. Our findings highlight the limitations of current systems when faced with the specificities of ancient scientific texts.",
+    "tier": "none",
+    "title": "ATHAAR: A Medieval Scientific Arabic Manuscript Dataset for Handwritten Text Recognition",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.08091v1"
    }
   },
   "Korean Writing & NLP": {
@@ -30636,6 +30674,159 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.04687v1"
+   },
+   "2611.07203": {
+    "abs_url": "https://arxiv.org/abs/2611.07203",
+    "authors": [
+     "Kaden Uhlig",
+     "Kiarash Mokhtari",
+     "Anıl Arslan",
+     "Yunsu Kim",
+     "Joern Wuebker"
+    ],
+    "code_url": "https://github.com/lilt/tau-bench-lilt",
+    "comment": "17 pages, 14 figures",
+    "first_seen": "2026-11-07",
+    "id": "2611.07203",
+    "journal_ref": "",
+    "matched": [
+     "multilingual",
+     "korean",
+     "german"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07203v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-04",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Frontier evaluations of tool-using conversational agents are conducted almost exclusively in English, leaving a critical gap for organizations deploying agents in other languages and regions. We present $τ$-bench-LILT, a multilingual extension of ${τ^3}$-bench covering German, Korean, Turkish, and Farsi in the airline, retail, telecom, and banking domains. We natively localize every layer of the benchmark: customer databases are populated with culturally appropriate records, user-simulator prompts are refined iteratively through contrastive annotation by native-language experts, and tasks are updated according to the localized database and to reflect realistic tasks in the target region. Evaluation across eight agent models shows the largest drops compared to English in the Korean and Farsi retail domains, by up to 61 points in pass^4. Code and data released at https://github.com/lilt/tau-bench-lilt.",
+    "tier": "none",
+    "title": "τ-bench-LILT: Evaluating Conversational Agents on Realistic Multilingual Tool-Use Tasks",
+    "track": "",
+    "updated": "2026-11-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07203v1"
+   },
+   "2611.07595": {
+    "abs_url": "https://arxiv.org/abs/2611.07595",
+    "authors": [
+     "Haoyang Zhang",
+     "Qumeng Sun",
+     "Xiao Zhang",
+     "Xiang Liu",
+     "Zhidong Fan",
+     "Junjie Wang"
+    ],
+    "code_url": "",
+    "comment": "12 pages, 5 figures",
+    "first_seen": "2026-11-07",
+    "id": "2611.07595",
+    "journal_ref": "",
+    "matched": [
+     "multilingual"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07595v1",
+    "primary_category": "cs.SE",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Agent exploration produces valuable procedural knowledge, yet much of this experience remains confined to transient execution traces and is not systematically reused. We introduce Evolver, an experience-driven framework that transforms agent exploration into persistent, reusable capabilities without updating foundation model parameters. Built around structured Gene assets, Evolver integrates experience acquisition, retrieval, and feedback-guided evolution to support experience-conditioned execution across existing agent harnesses. We evaluate Evolver using Claude Code and Codex, two foundation model configurations, and four benchmarks: Terminal-Bench 2.1, SWE-bench Multilingual, SWE-rebench, and GAIA. On a selected diagnostic set of 320 paired executions, Evolver improves task success from 83.13% to 87.50% (+4.38 percentage points) while reducing recorded task-execution token consumption by 24.24%. Furthermore, among 265 pairs successful under both conditions, token consumption decreases by 17.57%, demonstrating efficiency benefits even when task success is preserved. These findings suggest that persistent procedural experience can improve both task effectiveness and execution efficiency, providing a practical foundation for transforming agent exploration into evolving capabilities.",
+    "tier": "none",
+    "title": "Evolver: Turning Agent Exploration into Evolving Capabilities",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07595v1"
+   },
+   "2611.08281": {
+    "abs_url": "https://arxiv.org/abs/2611.08281",
+    "authors": [
+     "Zhitao He",
+     "Chi Him Zhang",
+     "Chengru Han",
+     "Yi R Fung"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-07",
+    "id": "2611.08281",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.08281v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Personal AI agents face social engineering attacks supported by forged multimodal content, but existing evaluations mainly focus on text-based dialogue, leaving their intrinsic security under such attacks insufficiently studied. We introduce Multimodal-SEA, an interactive benchmark comprising 608 expert-designed tasks grounded in real-world fraud cases, covering 14 domains and 152 attack scenarios with prepared multimodal content. The tasks span four difficulty levels and reflect the distinct social and cultural contexts of Chinese and English environments. Agents inspect content, verify requests, and execute actions in simulated applications, with attack outcomes grounded in verifiable tool execution logs. To enable controlled red teaming of personal agents, we design a multimodal attack harness that integrates task information, attack progression control, and multimodal content construction to evaluate their intrinsic security against adaptive social engineering attacks in simulated environments. Evaluating seven widely used multimodal models across six dimensions reveals that all are vulnerable, with attack success rates of 7.1% to 34.5%. Adding multimodal content increases attack success from 19.9% to 29.2%, despite increased proactive verification coverage. Stronger safety instructions reduce attack success without improving recognition of deceptive multimodal content, while lower attack success rates for some models accompany excessive refusal of legitimate requests.",
+    "tier": "none",
+    "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.08281v1"
+   },
+   "2611.08334": {
+    "abs_url": "https://arxiv.org/abs/2611.08334",
+    "authors": [
+     "Chen Cecilia Liu",
+     "Roi Reichart",
+     "Anna Korhonen"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-07",
+    "id": "2611.08334",
+    "journal_ref": "",
+    "matched": [
+     "multilingual",
+     "cultural adaptation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.08334v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Much of human culture is tacit and is typically learned through situated social interaction. As LLMs are deployed as interactive agents across diverse communities, assessing their cultural competence demands moving beyond existing question-answering approaches, shifting from what they know to how they adapt. In this work, we broaden the scope of cultural adaptation in NLP by investigating whether LLMs can adapt through repeated interactions via a sandbox environment. By reframing cultural adaptation as a continuous process of norm assimilation through social interaction, our work demonstrates that memory mechanisms foster longitudinal learning across repeated interactions, facilitate transfer to different social settings, and enable multilingual norm assimilation across five languages. Together, our findings lay the groundwork for continuous, interaction-driven cultural adaptation in LLMs.",
+    "tier": "none",
+    "title": "Cultural Adaptation within Repeated Social Interactions",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.08334v1"
    }
   },
   "Reward & Value Models": {
@@ -63936,6 +64127,190 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.06830v1"
+   },
+   "2611.07375": {
+    "abs_url": "https://arxiv.org/abs/2611.07375",
+    "authors": [
+     "Ping Liu",
+     "Yan Yan"
+    ],
+    "code_url": "",
+    "comment": "Accepted to NeurIPS 2026. Corresponding author: Yan Yan",
+    "first_seen": "2026-11-07",
+    "id": "2611.07375",
+    "journal_ref": "",
+    "matched": [
+     "preference learning",
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07375v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Direct Preference Optimization (DPO) is increasingly used in settings where pairwise preferences coexist with pointwise criteria such as response length, answer correctness, or safety scores. When the two disagree, standard DPO treats pairs whose preferred output scores worse on the pointwise criterion (conflict pairs) in the same way as the remaining (matching) pairs. We characterize a systematic failure mode, constraint drift: for sufficiently small updates, conflict pairs tend to increase constraint cost while matching pairs tend to repair it, and the net change depends on their balance. This balance yields a closed-form pre-alignment diagnostic, $ρ^{*}_{\\mathrm{eq}}$, computable from dataset statistics, that indicates whether a dataset is self-correcting or requires intervention. Building on this diagnostic, we propose Conflict-aware DPO (CoDPO), which down-weights conflict pairs with a strength set from $ρ^{*}_{\\mathrm{eq}}$ rather than tuned, and adds an adaptive margin shift that addresses residual drift during training. Empirically, drift grows monotonically with conflict exposure on the conflict-dominated domains, and the intervention decision given by $ρ^{*}_{\\mathrm{eq}}$ matches the observed drift on every domain, including one that it identifies as self-correcting. On all four domains of the main comparison, CoDPO reduces drift while largely preserving the preference learning of vanilla DPO. Compared with hard filtering and recent constrained and multi-objective baselines, CoDPO also achieves a more favorable drift-preference trade-off.",
+    "tier": "top",
+    "title": "When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO",
+    "track": "main",
+    "updated": "2026-11-05",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted to NeurIPS 2026. Corresponding author: Yan Yan",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2611.07375v1"
+   },
+   "2611.07483": {
+    "abs_url": "https://arxiv.org/abs/2611.07483",
+    "authors": [
+     "Xiaobo Chen",
+     "Genliang Zhu",
+     "Ziyuan Wang",
+     "Chu Wang"
+    ],
+    "code_url": "",
+    "comment": "34 pages, 0 figures. Preregistered; code, task banks, freeze manifests and run logs are available from the authors on request",
+    "first_seen": "2026-11-07",
+    "id": "2611.07483",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07483v1",
+    "primary_category": "cs.CR",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Enterprise AI agents increasingly split a user's request across subagents and merge their results, and each handoff can summarize away, alter or ignore a requirement. We report a preregistered study with synthetic, exactly scorable tasks comparing free-text, structured JSON and signed requirement-manifest handoffs: the orchestrator extracts each requirement as a verbatim quote plus a checkable predicate, code signs the manifest with HMAC-SHA256, and deterministic code verifies the merger's decision. With Qwen3-8B (1,440 trajectories, five threats), signed manifests cut unsafe commits under attack from 69.4% to 9.0% (60.4 pp, 95% CI [51.4, 69.4]) with no net loss of conformant commits relative to structured handoffs. Signing is what defeats in-transit tampering: an unsigned manifest committed violations in 79% of mutated runs, the signed one in none. On identical trajectories the deterministic verifier caught 78.7% of violating decisions versus 59.0% for an LLM checker, with 7% versus 50% false alarms. An oracle manifest removed all remaining unsafe commits: the residual risk comes from extraction errors made before signing. A preregistered pre-signing injection attack confirmed this boundary: one adversarial line raised signed-manifest violations from 14.6% to 37.5% (Qwen3-8B), 11.1% to 63.9% (gpt-oss-20b) and 8.3% to 75.0% (GPT-5.6-luna), and the signature then authenticated the corrupted manifest. Signing protects requirements in transit, not at extraction; the extraction step is the trust boundary.",
+    "tier": "none",
+    "title": "Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07483v1"
+   },
+   "2611.07639": {
+    "abs_url": "https://arxiv.org/abs/2611.07639",
+    "authors": [
+     "Amit Sagtani",
+     "Saloni Garg"
+    ],
+    "code_url": "https://github.com/saloni-garg/gpu-train-debug",
+    "comment": "8 pages, 2 figures. Code and artifacts: https://github.com/saloni-garg/gpu-train-debug",
+    "first_seen": "2026-11-07",
+    "id": "2611.07639",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07639v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reinforcement learning from verifiable rewards (RLVR) is usually evaluated as an alternative to supervised fine-tuning (SFT), or as a stage that follows it, with the implicit assumption that the RL stage contributes gains of its own. We measure that contribution directly, in a controlled setting where both stages can be run to completion and compared exactly. We built gpu-train-debug, a deterministic benchmark of 1,877 synthetic GPU and LLM training failure diagnosis tasks across 30 archetypes, graded by a programmatic verifier with partial credit, and calibrated so that a mid-tier model scores in a 0.60 to 0.75 band. A pilot produced a surprise: 1,200 gold demonstrations nearly solved the benchmark (SFT 0.785 on the hard split), while 15 steps of GRPO from the base model did not move it (0.314 vs 0.311 base). We therefore amended the study, in writing and before the full run, to ask the sharper question: what does verifier-based RL add beyond demonstrations? At the pre-registered scale (60 GRPO steps, learning rate 1e-6), the answer is: no detectable improvement in-distribution (+0.22 points, 95% CI [-0.06, +0.51]), and a modest but measurable improvement under distribution shift (+0.33 points on a held-out OOD split, CI [+0.02, +0.68]). SFT accounted for most of the available improvement, while verifier-based RL produced only modest additional gains under distribution shift. The residual errors SFT leaves are mostly systematic, identical across samples, which likely reduces the within-group learning signal available to GRPO. A full 60-step cold-start GRPO arm confirms the pilot at the full horizon. The whole study cost $8.69 of compute and is fully reproducible from archived generations, frozen configs, and tagged code.",
+    "tier": "none",
+    "title": "Measuring the Marginal Value of Verifier-Based RL Beyond Supervised Fine-Tuning",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07639v1"
+   },
+   "2611.07784": {
+    "abs_url": "https://arxiv.org/abs/2611.07784",
+    "authors": [
+     "Evgenii Genov",
+     "Ander Martinez Alonso",
+     "Christoph Bergmeir"
+    ],
+    "code_url": "",
+    "comment": "21 pages, 10 figures, 7 tables. Live benchmark at https://energybench.foretec.co",
+    "first_seen": "2026-11-07",
+    "id": "2611.07784",
+    "journal_ref": "",
+    "matched": [
+     "bradley-terry"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07784v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Energy forecasting models are usually compared on backtests and fixed public datasets. Backtests can use data that did not yet exist when the forecast would have been made, and a fixed test set, reused across studies and possibly contained in the pretraining data of foundation models, invites overfitting to the benchmark. EnergyBench evaluates every entry live instead. Each day at 11:30 CET/CEST, thirty minutes before the day-ahead (SDAC) gate closes, every model forecasts the next day's price, wind and solar generation and load on the 15-minute grid for six bidding zones (BE, NL, FR, DE-LU, DK1, DK2). Unlike existing live benchmarks, EnergyBench runs the models itself, on one information set that it freezes at the cut-off and publishes, including three numerical weather prediction models, so that foundation models can be compared with and without the same weather covariates under the actual market deadline. Errors are pooled per series against a seasonal-naive baseline, and models are ranked by a Bradley-Terry rating on the Elo scale with a day-bootstrap interval. The field spans baselines, linear and gradient-boosted models on the frozen weather, eighteen time-series foundation models from eleven families, ensembles, and the grid operators' own forecasts. Over the first thirty-two live days, the covariates reduced the error of each of the ten foundation models run with and without them by 37-51% on matched races (64-73% on wind, 48-61% on solar). Used zero-shot, these models match or outperform a LightGBM model trained on the same covariates. Model size, from 3M to 331M parameters, has a much smaller effect, and median ensembles of the covariate models rank highest. The grid operators' pre-gate forecasts remain ahead on wind and solar, where the best single foundation models have 16-22% more error; on load the gap is 4-6%, within the intervals.",
+    "tier": "none",
+    "title": "EnergyBench: a live, gate-aligned benchmark of day-ahead forecasts for European power markets",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07784v1"
+   },
+   "2611.07932": {
+    "abs_url": "https://arxiv.org/abs/2611.07932",
+    "authors": [
+     "Mengsong Wu",
+     "Tianchen Zhou",
+     "Zhaochen Su",
+     "Zhenhua Liu",
+     "Zhe Cui",
+     "Aimin Zhou"
+    ],
+    "code_url": "https://github.com/fairyshine/AttnSR",
+    "comment": "20 pages, 4 figures, including appendices. Code: https://github.com/fairyshine/AttnSR",
+    "first_seen": "2026-11-07",
+    "id": "2611.07932",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "step-level reward"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07932v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Long-horizon LLM agents make multi-step decisions, yet outcome-reward-only reinforcement learning provides little direct supervision for individual steps. We introduce AttnSR, a step-level reward augmentation method that derives reward allocations from policy attention extracted during training replay, without a separately trained reward model or additional rollouts. AttnSR traces backward through the policy model attention graph to estimate the relevance of earlier steps to the final response. The terminal step, measured relative to a running baseline, determines whether these rewards reinforce or penalize the selected steps. In a controlled Qwen2.5-7B-Instruct study, AttnSR consistently outperforms the PPO baseline across all evaluated checkpoints on ALFWorld, raising final held-out success from 91.2% to 97.1%. The ablation experiment shows that the benefit depends on how intermediate rewards are assigned, rather than simple accumulation of step rewards over time. AttnSR also improves ScienceWorld at every checkpoint while cutting environment interactions by 29.9%. These results support policy attention as a practical prior for step-level reward allocation in long-horizon agentic RL. Code is available at https://github.com/fairyshine/AttnSR .",
+    "tier": "none",
+    "title": "AttnSR: Attention Step Reward for Long-Horizon Agentic RL",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07932v1"
    }
   },
   "Search & Control for Generation": {
@@ -86789,6 +87164,132 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.06868v1"
+   },
+   "2611.07319": {
+    "abs_url": "https://arxiv.org/abs/2611.07319",
+    "authors": [
+     "Mengran Li",
+     "Bo Li",
+     "Weijing Zhao",
+     "Chengyang Zhang",
+     "Boyu Zhang",
+     "Jinfeng Xu",
+     "Zelin Zang",
+     "Victor C. M. Leung",
+     "Stan Z. Li"
+    ],
+    "code_url": "",
+    "comment": "5 pages, 2 figures, 3 tables",
+    "first_seen": "2026-11-07",
+    "id": "2611.07319",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07319v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Weight-space programming (WSP) shows that language models can reason about and rewrite neural network weights; recursive self-improvement (RSI) motivates feedback-driven improvement. Models guiding experiments receive concrete feedback: completed assays reveal prediction errors and inform what to test next. We introduce WeightLoop, a framework that turns experimental feedback into persistent updates to deployed predictors. GPT-6 Astra inspects a task specification and the model implementation, then writes a bounded, reusable parameter-editing program. As new measurements arrive, the program identifies prediction discrepancies, validates candidate edits using observed outcomes, and writes the selected changes back to the original model. The editor remains fixed while the predictor evolves, enabling repeated updates without further LLM calls or gradient retraining while preserving the original inference interface. In offline replay, targeted edits improve mean ranking utility in seven of eight endpoint-budget settings (all eight versus random edits) and mean final discovery across three sequential tasks. WeightLoop connects WSP with an RSI-inspired improvement loop, making experimental evidence a direct driver of model change and subsequent decisions.",
+    "tier": "none",
+    "title": "WeightLoop: Weight-Space Programming with Experimental Feedback",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07319v1"
+   },
+   "2611.07469": {
+    "abs_url": "https://arxiv.org/abs/2611.07469",
+    "authors": [
+     "Y. L. Li",
+     "Y. H. Wu"
+    ],
+    "code_url": "",
+    "comment": "8 pages, 1 figure, 4 tables",
+    "first_seen": "2026-11-07",
+    "id": "2611.07469",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07469v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Long-horizon role-playing dialogue requires consistent character identity, reliable memory, and context-sensitive interaction. We present a bounded recursive self-improvement (RSI) framework that revises original-character memory, stable persona instructions, and a policy for constructing turn-level prompts. Repair outcomes also inform revisions to the updater's diagnostic rules, edit routing, and candidate selection. We specify the updater as a versioned policy with explicit inputs, editable fields, acceptance gates, and stopping conditions. An internal evaluation covers 50 original characters and five models, with two 100-round conversations per character-model pair: 500 conversations per condition. Across the pooled evaluated replies, the bad-response rate decreases from 14.00% (6,973/49,824) to 4.94% (2,459/49,793), a 9.06-percentage-point reduction and a 64.71% relative reduction. In 600 blinded human comparisons, RSI receives 294 wins, 187 ties, and 119 losses, yielding a 71.19% win rate among decisive judgments. The results support improved aggregate dialogue quality for the complete framework on the internal test distribution.",
+    "tier": "none",
+    "title": "Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07469v1"
+   },
+   "2611.07624": {
+    "abs_url": "https://arxiv.org/abs/2611.07624",
+    "authors": [
+     "Xiaobo Wang",
+     "Zimu Wang",
+     "Siyu Ye",
+     "Jiaqi Li",
+     "Min Tang",
+     "Jun Bai",
+     "Yuling Shi",
+     "Ruobing Wang",
+     "Jingjing Zhang",
+     "Chaofan Wang",
+     "Kai Wu",
+     "Mengnan Qi",
+     "Kai Cai",
+     "Xiaodong Gu",
+     "Qi Liu",
+     "Zilong Zheng"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-07",
+    "id": "2611.07624",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07624v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents gain previously uncovered tasks while losing previously covered ones. In one general-task case, reliability rises by 5.2 points despite losing ten previously covered tasks. Most reliability gains also increase deployment cost. Specific changes usually outperform generic reminders, but their benefits can change when combined. The highest-scoring agent does not yield the largest mean improvement in any of our four pools, and stricter admission can discard useful alternatives. Transfer selectively preserves gains: coverage usually falls on the general-task target across both harness types and paradigms, but rises on the coding target with the outer-layer-only harness. These findings motivate preservation-aware evaluation, tested decision rules, and explicit applicability conditions. As a constructive follow-up, EvoAudit turns these diagnostics into revisions of select, analyze, mutate, and gate, achieving the best performance.",
+    "tier": "none",
+    "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07624v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -96648,6 +97149,40 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.04231v1"
+   },
+   "2611.07780": {
+    "abs_url": "https://arxiv.org/abs/2611.07780",
+    "authors": [
+     "Ziang Cui"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-07",
+    "id": "2611.07780",
+    "journal_ref": "",
+    "matched": [
+     "semantic drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07780v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Semantic accuracy is an important dimension of knowledge graph quality. Graph-based scoring methods exploit relational structure, while textual representations allow classifiers to draw on knowledge encoded by pre-trained language models (PLMs). We present GenVer, a generative verifier that scores triples using both their serialized form and generated natural language representations (NLRs). A triple-text alignment procedure selects training pairs for a sequence-to-sequence generator; a BERT-based classifier then combines features from each triple and its generated NLR. On four FactFB variants, constructed from FB15k using perturbed negative triples, GenVer obtains the highest classification accuracy among the evaluated baselines, ranging from 88.56% to 91.52%. The experiments suggest that generated representations can help triple classification, while the case analysis also exposes semantic drift and high-confidence errors.",
+    "tier": "none",
+    "title": "Bridging Structure and Semantics: Knowledge Graph Verification via Triple-to-Text Alignment",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07780v1"
    }
   },
   "Synthetic Preference Data": {
@@ -112988,7 +113523,7 @@
     "matched": [
      "synthetic preference"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2611.06476v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.06476v2",
     "primary_category": "cs.LG",
     "published": "2026-11-04",
     "s2": {
@@ -113002,12 +113537,12 @@
     "tier": "none",
     "title": "The Alignment Tax Is Graded: Task-Selective Capability Loss Under Length-Normalized DPO with SFT Retention",
     "track": "",
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2611.06476v1"
+    "version": "2611.06476v2"
    }
   },
   "Text Quality Evaluation": {
@@ -120283,14 +120818,14 @@
      "Tae-Hyun Oh"
     ],
     "code_url": "",
-    "comment": "Project page: https://facedit.github.io/",
+    "comment": "NeurIPS 2026; Project page: https://facedit.github.io/",
     "first_seen": "2026-09-22",
     "id": "2512.14056",
     "journal_ref": "",
     "matched": [
      "evaluation metric"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2512.14056v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.14056v2",
     "primary_category": "cs.CV",
     "published": "2025-12-16",
     "s2": {
@@ -120301,17 +120836,17 @@
      "venue": "",
      "year": 2025
     },
-    "status": "unknown",
-    "summary": "Talking face editing and face generation have often been studied as distinct problems. In this work, we propose viewing both not as separate tasks but as subtasks of a unifying formulation, speech-conditional facial motion infilling. We explore facial motion infilling as a self-supervised pretext task that also serves as a unifying formulation of dynamic talking face synthesis. To instantiate this idea, we propose FacEDiT, a speech-conditional Diffusion Transformer trained with flow matching. Inspired by masked autoencoders, FacEDiT learns to synthesize masked facial motions conditioned on surrounding motions and speech. This formulation enables both localized generation and edits, such as substitution, insertion, and deletion, while ensuring seamless transitions with unedited regions. In addition, biased attention and temporal smoothness constraints enhance boundary continuity and lip synchronization. To address the lack of a standard editing benchmark, we introduce FacEDiTBench, the first dataset for talking face editing, featuring diverse edit types and lengths, along with new evaluation metrics. Extensive experiments validate that talking face editing and generation emerge as subtasks of speech-conditional motion infilling; FacEDiT produces accurate, speech-aligned facial edits with strong identity preservation and smooth visual continuity while generalizing effectively to talking face generation.",
-    "tier": "none",
-    "title": "FacEDiT: Unified Talking Face Editing and Generation via Facial Motion Infilling",
-    "track": "",
-    "updated": "2025-12-16",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
-    "version": "2512.14056v1"
+    "status": "accepted",
+    "summary": "Editing a local segment of a talking head video without reshooting the scene remains challenging and underexplored. Local edits, such as insertion, deletion, or substitution, require synthesizing a replacement segment while leaving the rest of the video unchanged. This involves variable-duration local rewriting while preserving identity, unedited regions, and boundary continuity, which standard speech-driven generation and lip synchronization methods do not directly address. Moreover, direct supervision is impractical, as it would require paired videos of the same person and scene that differ only in a local spoken segment. We instead formulate talking head video editing as facial motion infilling, a self-supervised pretext task that recovers masked facial motion from speech and surrounding motion context using ordinary video--speech pairs. Our key insight is that local video editing can be simulated during training by masking a motion span and reconstructing it from speech and visible motion context. Building on this formulation, we introduce FacEDiT, a mask-controlled talking head model with a local temporal attention bias and temporal smoothness regularization to improve lip--speech alignment and transition continuity. We also introduce FacEDiTBench, the first benchmark for talking head video editing, covering diverse edit types and lengths with dedicated evaluation metrics. Extensive experiments show that FacEDiT produces accurate, speech-aligned edits with strong identity preservation and seamless boundary transitions. Beyond editing, the same facial motion infilling model extends to portrait animation and lip synchronization by simply changing the mask pattern, establishing FacEDiT as a unified framework for talking head video editing and generation.",
+    "tier": "top",
+    "title": "FacEDiT: Talking Head Video Editing via Facial Motion Infilling",
+    "track": "main",
+    "updated": "2026-11-05",
+    "venue": "NeurIPS",
+    "venue_evidence": "NeurIPS 2026; Project page: https://facedit.github.io/",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2512.14056v2"
    },
    "2512.14561": {
     "abs_url": "https://arxiv.org/abs/2512.14561",
@@ -138833,6 +139368,91 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.06384v1"
+   },
+   "2611.07123": {
+    "abs_url": "https://arxiv.org/abs/2611.07123",
+    "authors": [
+     "Sven Kleinkop",
+     "Tamás Janusko",
+     "Ricardo Bochnia",
+     "Gunnar Hempel",
+     "Steffen Tomschke",
+     "Jürgen Anke",
+     "Maik Thiele"
+    ],
+    "code_url": "",
+    "comment": "CONVERSATIONS 2026, International Symposium on Chatbots and Human-Centred AI, Preprint",
+    "first_seen": "2026-11-07",
+    "id": "2611.07123",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge",
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07123v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-04",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models (LLMs) are increasingly used as automated judges for evaluating the behavior of chatbots and other AI systems. In deployment, however, their agreement with the intended human evaluation policy may degrade as user interactions and score distributions change. Existing automatic prompt optimization methods are primarily studied as one-shot procedures on static development sets and therefore provide limited guidance for maintaining LLM judges over time. We frame this problem as judge drift and introduce PromptOps, a closedloop framework for monitoring and iteratively recalibrating LLM-as-a-Judge (LLMaaJ) systems. PromptOps separates four operational decisions: when to optimize, which optimization procedure to apply, which feedback records to use, and how to update the judge prompt. We instantiate the framework with five prompt optimization methods: GEPA, SIMBA, Rubric Synthesis, and exemplar selection using either simulated annealing or a Tree-structured Parzen Estimator. Our experiments demonstrate that iterative prompt optimization can recalibrate LLM judges and recover performance after controlled shifts in the referencescore distribution. However, effective maintenance is inherently contextdependent: neither optimization algorithm choice nor update timing generalizes universally across settings. These findings establish prompt optimization for deployed LLM judges as an inherently iterative maintenance problem and demonstrate that PromptOps provides a practical abstraction for studying and implementing this process.",
+    "tier": "none",
+    "title": "PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems",
+    "track": "",
+    "updated": "2026-11-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07123v1"
+   },
+   "2611.07238": {
+    "abs_url": "https://arxiv.org/abs/2611.07238",
+    "authors": [
+     "Huimin Zeng",
+     "Yuxuan Lu",
+     "Jesse Cai",
+     "Eric Hanchen Jiang",
+     "Di Wu",
+     "Po-Nien Kung",
+     "Wenbo Hu",
+     "Ziyi Wang",
+     "Dakuo Wang",
+     "Jiaxin Pei",
+     "Kai-Wei Chang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-07",
+    "id": "2611.07238",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.07238v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-04",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI agents may consume massive tokens across a wide range of tasks, but how many of those tokens are really necessary? Although prior work has shown that agents can incur unexpectedly high token costs, we still lack a systematic way to identify and measure token waste. In this work, we introduce a unified framework for measuring token waste across heterogeneous agent systems. Our framework records and normalizes complete agent trajectories, identifies removable spans using an LLM-as-a-Judge (LLMaJ), and maps the identified text spans back to the original trajectory for token-level measurement. We validate the identified waste through direct interventions by removing marked spans, resuming agent execution, and measuring changes in task outcomes and subsequent actions. In online pruning experiments, we remove 41-46% of the model's reasoning while largely preserving task performance across two distinct agent benchmarks. Using this framework, we analyze agents across multiple settings. Our analysis shows that token waste has a system-level structure that aggregate token usage alone cannot reveal. First, waste varies more across tasks and agent settings than across models. Second, reasoning and visible execution can exhibit different waste patterns. Third, different harnesses can introduce distinct sources of inefficiency even under the same model and task. Overall, our framework transforms token waste into an actionable optimization signal, enabling researchers and practitioners to train more efficient models, design better reasoning strategies, and optimize agent harnesses toward reducing unnecessary computation rather than merely reducing token usage.",
+    "tier": "none",
+    "title": "How Do AI Agents Waste Your Money?",
+    "track": "",
+    "updated": "2026-11-04",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.07238v1"
    }
   },
   "Writing Agent": {
@@ -159490,6 +160110,46 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2611.06244v1"
+   },
+   "2611.08214": {
+    "abs_url": "https://arxiv.org/abs/2611.08214",
+    "authors": [
+     "Yuanhao Zhang",
+     "Xinru Cheng",
+     "Baiqiao Zhang",
+     "Xinqi Zhang",
+     "Assem Zhunis",
+     "Shuai Ma",
+     "Xiaojuan Ma"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-07",
+    "id": "2611.08214",
+    "journal_ref": "",
+    "matched": [
+     "co-writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.08214v1",
+    "primary_category": "cs.HC",
+    "published": "2026-11-05",
+    "s2": {
+     "checked": "2026-11-07",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Writers hold intents at many levels, from overarching goals to concrete wording, and evolve them by periodically popping back up from the text to higher-level intents. Generative AI co-writing disrupts this practice. Dense drafts capture attention and trap writers in local editing; higher-level intents stall while lower-level ones drift from them unnoticed, a breakdown we term intent incoherence. Our formative study traced this breakdown from attention capture through silent drift to failed reconciliation. We present IntentWeaver, which supports intent evolution while sustaining coherence in human-AI co-writing. It derives an intent hierarchy from the draft and writer interactions, evaluates each intent's fulfillment and cross-level coherence at every change, and propagates consequences across intent levels. In a within-subjects study (N=24) against a baseline, participants using IntentWeaver revisited and evolved higher-level intents more often, with fewer unnoticed deviations, and produced texts better realizing them. We further discuss design implications for emergent intents.",
+    "tier": "none",
+    "title": "IntentWeaver: Sustaining Coherence across Evolving Intents in Human-AI Co-Writing",
+    "track": "",
+    "updated": "2026-11-05",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.08214v1"
    }
   }
  }
