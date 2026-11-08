@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-11-07** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-11-08** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -22,26 +22,6 @@ papers using the year links under each topic; the preview shows the newest 20.
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (251)
 - [Search & Control for Generation](#search--control-for-generation) (249)
 - [Korean Writing & NLP](#korean-writing--nlp) (72)
-
-## New in this update (17)
-
-- `Multilingual & Cross-Lingual Agents` [Cultural Adaptation within Repeated Social Interactions](https://arxiv.org/abs/2611.08334)
-- `Multilingual & Cross-Lingual Agents` [Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks](https://arxiv.org/abs/2611.08281)
-- `Multilingual & Cross-Lingual Agents` [Evolver: Turning Agent Exploration into Evolving Capabilities](https://arxiv.org/abs/2611.07595)
-- `Multilingual & Cross-Lingual Agents` [τ-bench-LILT: Evaluating Conversational Agents on Realistic Multilingual Tool-Use Tasks](https://arxiv.org/abs/2611.07203)
-- `Writing Agent` [IntentWeaver: Sustaining Coherence across Evolving Intents in Human-AI Co-Writing](https://arxiv.org/abs/2611.08214)
-- `Iterative Revision & Text Editing` [ATHAAR: A Medieval Scientific Arabic Manuscript Dataset for Handwritten Text Recognition](https://arxiv.org/abs/2611.08091)
-- `Self-Refine & Self-Correction` [Beneath the Surface: What We Overlook When We Talk About Agent Evolution](https://arxiv.org/abs/2611.07624)
-- `Self-Refine & Self-Correction` [Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue](https://arxiv.org/abs/2611.07469)
-- `Self-Refine & Self-Correction` [WeightLoop: Weight-Space Programming with Experimental Feedback](https://arxiv.org/abs/2611.07319)
-- `Reward & Value Models` [AttnSR: Attention Step Reward for Long-Horizon Agentic RL](https://arxiv.org/abs/2611.07932)
-- `Reward & Value Models` [EnergyBench: a live, gate-aligned benchmark of day-ahead forecasts for European power markets](https://arxiv.org/abs/2611.07784)
-- `Reward & Value Models` [When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO](https://arxiv.org/abs/2611.07375)
-- `Reward & Value Models` [Measuring the Marginal Value of Verifier-Based RL Beyond Supervised Fine-Tuning](https://arxiv.org/abs/2611.07639)
-- `Reward & Value Models` [Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs](https://arxiv.org/abs/2611.07483)
-- `Text Quality Evaluation` [How Do AI Agents Waste Your Money?](https://arxiv.org/abs/2611.07238)
-- `Text Quality Evaluation` [PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems](https://arxiv.org/abs/2611.07123)
-- `Semantic Drift & Faithfulness` [Bridging Structure and Semantics: Knowledge Graph Verification via Triple-to-Text Alignment](https://arxiv.org/abs/2611.07780)
 
 ## Multilingual & Cross-Lingual Agents
 

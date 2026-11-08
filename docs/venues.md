@@ -9,14 +9,14 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-07** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-08** (UTC).
 Back to the [main page](../README.md).
 
-914 of 3649 papers carry venue evidence.
+922 of 3649 papers carry venue evidence.
 
-## Top-tier venues (605)
+## Top-tier venues (613)
 
-### EMNLP (155)
+### EMNLP (163)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -24,6 +24,7 @@ Back to the [main page](../README.md).
 |**2026-10-20**|DiffResearch: Accelerating Deep Research with Diffusion Language Models|EMNLP 2026|Text Quality Evaluation, Writing Agent|[2610.28909](https://arxiv.org/abs/2610.28909)|
 |**2026-10-18**|Aligning Cultural Behaviors in Arabic Language Models via Preferences|EMNLP 2026|Synthetic Preference Data|[2610.25362](https://arxiv.org/abs/2610.25362)|
 |**2026-10-08**|EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams|EMNLP 2026|Reward & Value Models|[2610.12248](https://arxiv.org/abs/2610.12248)|
+|**2026-10-07**|Reliability of LLM Judges for Evaluating Entity Alignment|EMNLP 2026|Synthetic Preference Data, Text Quality Evaluation|[2610.09554](https://arxiv.org/abs/2610.09554)|
 |**2026-10-05**|Behavior-Preserving KV Cache Compression|EMNLP 2026|Writing Agent|[2610.06479](https://arxiv.org/abs/2610.06479)|
 |**2026-09-29**|Generalizable Lifelong Model Editing via Preference Optimization|EMNLP 2026|Reward & Value Models|[2609.36748](https://arxiv.org/abs/2609.36748)|
 |**2026-09-29**|Pair Difficulty Matters: Rethinking Pairwise LLM-as-a-Judge Evaluation and Consistency|EMNLP 2026|Text Quality Evaluation|[2609.37577](https://arxiv.org/abs/2609.37577)|
@@ -39,12 +40,18 @@ Back to the [main page](../README.md).
 |**2026-09-11**|Debiasing as a Measurement Intervention: Calibrated Ties and Resolution Loss in LLM-as-a-Judge Evaluation|EMNLP 2026|Text Quality Evaluation|[2609.12439](https://arxiv.org/abs/2609.12439)|
 |**2026-09-10**|GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents|EMNLP 2026|Text Quality Evaluation|[2609.12191](https://arxiv.org/abs/2609.12191)|
 |**2026-09-08**|A Better Spur Should Start From Each Objective|EMNLP 2026|Reward & Value Models|[2609.08211](https://arxiv.org/abs/2609.08211)|
+|**2026-09-08**|Which Forms of Caregiver Feedback Support Grammar Learning? A Reinforcement-Learning Study of Child-Like Language Models|EMNLP 2026|Reward & Value Models|[2609.08576](https://arxiv.org/abs/2609.08576)|
 |**2026-09-08**|Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation|EMNLP 2026|Reward & Value Models|[2609.09135](https://arxiv.org/abs/2609.09135)|
+|**2026-09-07**|Beyond Single-Negative Preference: Multi-Negative DPO for LLM-Centric Historical Entity Linking|EMNLP 2026|Reward & Value Models|[2609.07379](https://arxiv.org/abs/2609.07379)|
 |**2026-09-07**|Elastic Horizon: Discovering the Effective Interaction Frontier in Agentic Reinforcement Learning|EMNLP 2026|Search & Control for Generation|[2609.07247](https://arxiv.org/abs/2609.07247)|
+|**2026-09-07**|Stable-MM-R1: Anchoring Multimodal Reasoning Dynamics via Entropy-Guided Stratification|EMNLP 2026|Synthetic Preference Data|[2609.07148](https://arxiv.org/abs/2609.07148)|
 |**2026-09-07**|Humans Introduce, Models Elaborate: Asymmetric Narrative Agency in Human-LLM Co-Writing|EMNLP 2026|Writing Agent|[2609.07920](https://arxiv.org/abs/2609.07920)|
 |**2026-09-06**|MARBO: Relational Belief Grounding for LLM Agents in Social Deduction Games|EMNLP 2026|Reward & Value Models|[2609.06563](https://arxiv.org/abs/2609.06563)|
+|**2026-09-06**|FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation|EMNLP 2026|Writing Agent|[2609.06320](https://arxiv.org/abs/2609.06320)|
+|**2026-09-05**|AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection|EMNLP 2026|Synthetic Preference Data|[2609.05899](https://arxiv.org/abs/2609.05899)|
 |**2026-09-04**|Discourse Dependency: A Continuous Criterion for Translation Difficulty|EMNLP 2026|Iterative Revision & Text Editing|[2609.04959](https://arxiv.org/abs/2609.04959)|
 |**2026-09-04**|Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2609.05395](https://arxiv.org/abs/2609.05395)|
+|**2026-09-04**|Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models|EMNLP 2026|Reward & Value Models|[2609.05401](https://arxiv.org/abs/2609.05401)|
 |**2026-09-04**|PetQA: Benchmarking Veterinary Knowledge and Clinical Reasoning|EMNLP 2026|Text Quality Evaluation|[2609.04598](https://arxiv.org/abs/2609.04598)|
 |**2026-09-03**|Gradients Know What Outcomes Don't: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards|EMNLP 2026|Reward & Value Models|[2609.03342](https://arxiv.org/abs/2609.03342)|
 |**2026-09-03**|Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness|EMNLP 2026|Reward & Value Models|[2609.03887](https://arxiv.org/abs/2609.03887)|
@@ -62,6 +69,7 @@ Back to the [main page](../README.md).
 |**2026-08-31**|Quantifying and Mitigating Korean Jamo-Level Typographical Vulnerabilities in Large Language Models|EMNLP 2026|Korean Writing & NLP|[2608.30229](https://arxiv.org/abs/2608.30229)|
 |**2026-08-31**|HSRM: Hidden-State Reward Models for Test-Time Verification|EMNLP 2026|Reward & Value Models|[2608.30841](https://arxiv.org/abs/2608.30841)|
 |**2026-08-31**|PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation|EMNLP 2026|Reward & Value Models|[2609.01658](https://arxiv.org/abs/2609.01658)|
+|**2026-08-31**|When and What to Teach: Budget-Aware Online Adaptation for Web Agents|EMNLP 2026|Reward & Value Models|[2609.05513](https://arxiv.org/abs/2609.05513)|
 |**2026-08-31**|Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation|EMNLP 2026|Synthetic Preference Data, Text Quality Evaluation|[2609.02942](https://arxiv.org/abs/2609.02942)|
 |**2026-08-31**|TRIPPULSE: Multi-Agent Travel Planning with Review-Grounded Reasoning|EMNLP 2026|Text Quality Evaluation|[2608.30924](https://arxiv.org/abs/2608.30924)|
 |**2026-08-31**|Validity-Aware Jailbreak Evaluation for Large Language Models|EMNLP 2026|Text Quality Evaluation|[2609.00498](https://arxiv.org/abs/2609.00498)|

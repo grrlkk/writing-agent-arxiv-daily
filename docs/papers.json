@@ -12,14 +12,14 @@
    "Text Quality Evaluation": 643,
    "Writing Agent": 511
   },
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "venue_tiers": {
    "demo": 8,
    "findings": 92,
-   "none": 2735,
+   "none": 2727,
    "other": 38,
    "strong": 40,
-   "top": 605,
+   "top": 613,
    "workshop": 131
   }
  },
@@ -5841,9 +5841,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -5853,8 +5856,8 @@
     "track": "main",
     "updated": "2026-09-04",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 (Main Conference)",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.04959v1"
    },
@@ -7008,7 +7011,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -7045,7 +7048,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -28311,7 +28314,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -28386,7 +28389,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -28425,7 +28428,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -48779,8 +48782,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48819,8 +48824,10 @@
     "primary_category": "cs.CV",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48857,8 +48864,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48895,8 +48904,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48937,21 +48948,24 @@
     "primary_category": "cs.RO",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property. Paraphrasing the instruction alone can substantially change predicted progress scores, and can even flip identical robot behavior between failure and success. To measure this failure mode, we introduce ROBORMBENCH, a benchmark with 2,390 real-robot trajectories, ground-truth progress labels, and 21,673 verified paraphrases spanning lexical, syntactic, and action-goal rewrites. Across proprietary and open-source VLMs, paraphrase-induced instability is widespread and severe, grows under more divergent rewrites, and is not reliably reduced by scale or explicit reasoning. Dedicated reward models trained with trajectory-grounded supervision are substantially more stable. These results show that paraphrase robustness is a core requirement for reliable VLM-based reward modeling in robotics.",
-    "tier": "none",
+    "tier": "top",
     "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-04",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.05401v1"
    },
    "2609.05513": {
@@ -48980,21 +48994,23 @@
     "primary_category": "cs.AI",
     "published": "2026-08-31",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Web agents have achieved significant success in automating complex internet tasks but deploying them in real-world environments requires continuous online adaptation. Given that deploying powerful proprietary models remains commercially cost-prohibitive, practitioners must rely on lightweight local models that evolve post-deployment via online teaching from a stronger teacher. However, standard interactive feedback imposes prohibitive costs. We show that conventional trajectory-level preference optimization wastes budget on both unresolvable episodes and redundant execution turns. To resolve these inefficiencies, we propose \\textbf{Score-Guided Online Teaching with Budgeted Trajectory Trimming}, a budget-aware framework that systematically orchestrates \\textbf{when} and \\textbf{what} to teach. Specifically, our framework integrates a solvability-aware teacher gate to dictate \\textbf{when} to query the teacher model and a score-guided turn selection mechanism to decide \\textbf{what} informative turns to retain. Extensive experiments on MiniWoB and TimeWarp demonstrate that our method achieves comparable first-pass success while reducing teacher calls by 22.6\\% and student training compute by 52.1\\% on average. Our code is available at https://github.com/zjw131f1fc/budgeted-online-teaching.",
-    "tier": "none",
+    "tier": "top",
     "title": "When and What to Teach: Budget-Aware Online Adaptation for Web Agents",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-31",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.05513v1"
    },
    "2609.05800": {
@@ -49017,8 +49033,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-05",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49059,8 +49077,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-05",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49097,9 +49117,12 @@
     "primary_category": "cs.AI",
     "published": "2026-09-06",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -49109,8 +49132,8 @@
     "track": "main",
     "updated": "2026-09-22",
     "venue": "EMNLP",
-    "venue_evidence": "9 pages, accepted to EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.06563v2"
    },
@@ -49134,8 +49157,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-06",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49171,8 +49196,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-06",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49208,9 +49235,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Trans. Mach. Learn. Res.",
      "year": 2026
     },
     "status": "unknown",
@@ -49247,8 +49276,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49287,21 +49318,23 @@
     "primary_category": "cs.CL",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Large language models (LLMs) have recently shown promise for historical entity linking, but preference optimization for this task is often formulated with only one negative candidate per training instance. This discards information from the remaining candidates retrieved for the same mention. We introduce multi-negative direct preference optimisation (MDPO), a reference-based pairwise objective that compares the correct entity with all valid rejected candidates associated with each mention. MDPO preserves the Bradley-Terry formulation of DPO while exploiting the complete candidate set through masked, length-normalised sequence scores. We evaluate MDPO on hipe-2020 and newseye, covering French, German, English, Swedish, and Finnish historical newspaper text. Experiments show that MDPO improves over supervised fine-tuning and single-negative DPO, with particularly strong gains for NIL mentions, semantic ambiguity, OCR noise, and historically difficult names. Further analyses disentangle candidate-generation and selection errors, showing that candidate retrieval remains a key bottleneck for end-to-end entity linking. These results demonstrate that incorporating all within-instance negative candidates is a simple and effective improvement for LLM-based historical entity linking.",
-    "tier": "none",
+    "tier": "top",
     "title": "Beyond Single-Negative Preference: Multi-Negative DPO for LLM-Centric Historical Entity Linking",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-10",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.07379v2"
    },
    "2609.07808": {
@@ -49322,8 +49355,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49359,8 +49394,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49397,8 +49434,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49437,9 +49476,12 @@
     "primary_category": "cs.AI",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -49449,8 +49491,8 @@
     "track": "main",
     "updated": "2026-09-08",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.08211v1"
    },
@@ -49477,8 +49519,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49513,21 +49557,24 @@
     "primary_category": "cs.CL",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Social interaction is central to children's language learning, but the effects of different forms of caregiver feedback are difficult to isolate in naturalistic data. We use child-like language models as controlled learners to test which forms of feedback support grammatical development. Small GPT-2-style models are pretrained on child-directed language from CHILDES, then fine-tuned with reinforcement learning using reward models trained to capture four feedback types: communicative feedback, structural alignment, semantic contingency, and affective feedback. Reward fine-tuning yields limited gains on minimal-pair evaluations, but clearer effects in free generation. Structural alignment produces the strongest improvements in grammaticality, providing a novel, plausible mechanistic account of how this feedback can support grammar learning. Communicative feedback yields more moderate gains. In contrast, semantic contingency and affective feedback do not improve grammaticality, although further analyses suggest that they may support other aspects of language learning beyond grammar. These results suggest that different forms of caregiver feedback make complementary contributions to language learning.",
-    "tier": "none",
+    "tier": "top",
     "title": "Which Forms of Caregiver Feedback Support Grammar Learning? A Reinforcement-Learning Study of Child-Like Language Models",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-08",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.08576v1"
    },
    "2609.08634": {
@@ -49548,8 +49595,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49614,8 +49663,10 @@
     "primary_category": "cs.SD",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49652,9 +49703,12 @@
     "primary_category": "cs.LG",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -49664,8 +49718,8 @@
     "track": "main",
     "updated": "2026-09-08",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 Main Conference. 15 pages, 4 figures, 11 tables",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.09135v1"
    },
@@ -56362,7 +56416,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-05",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56397,7 +56451,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-05",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56434,7 +56488,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56473,7 +56527,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56512,7 +56566,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56547,7 +56601,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56584,7 +56638,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56629,7 +56683,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56665,7 +56719,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56710,7 +56764,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56748,7 +56802,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56785,7 +56839,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56828,7 +56882,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56869,7 +56923,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56907,7 +56961,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56944,7 +56998,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -56981,7 +57035,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -57018,7 +57072,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -57055,7 +57109,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -57096,7 +57150,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -57137,7 +57191,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -57180,7 +57234,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -57236,7 +57290,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -57272,7 +57326,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -57457,7 +57511,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -57491,9 +57545,11 @@
     "primary_category": "cs.CL",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -57503,8 +57559,8 @@
     "track": "main",
     "updated": "2026-10-08",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 (Main Conference). 25 pages, 12 figures, 11 tables. Project page: https://egocentricvoice.github.io/",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2610.12248v1"
    },
@@ -71387,8 +71443,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-03",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -71425,8 +71483,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -71463,8 +71523,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -71498,8 +71560,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -71540,9 +71604,12 @@
     "primary_category": "cs.AI",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -71552,8 +71619,8 @@
     "track": "main",
     "updated": "2026-09-07",
     "venue": "EMNLP",
-    "venue_evidence": "17 pages, 6 figures, 12 tables. Accepted to EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.07247v1"
    },
@@ -72871,7 +72938,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -72910,7 +72977,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -72948,7 +73015,7 @@
     "primary_category": "cs.SD",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -72991,7 +73058,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -73028,7 +73095,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -83630,8 +83697,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -83671,9 +83740,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -83683,8 +83754,8 @@
     "track": "findings",
     "updated": "2026-09-08",
     "venue": "EMNLP",
-    "venue_evidence": "Findings of EMNLP 2026. Project page: https://hyy279.github.io/ReCite",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.09156v1"
    },
@@ -85059,7 +85130,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-04",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -85101,7 +85172,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-05",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -85140,7 +85211,7 @@
     "primary_category": "cs.HC",
     "published": "2026-10-05",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -85185,7 +85256,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -85224,7 +85295,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -85259,7 +85330,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -85295,11 +85366,11 @@
     "primary_category": "cs.SE",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Book"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 1st International Workshop on PromptOps and Vibe Coding",
      "year": 2026
     },
     "status": "unknown",
@@ -85335,7 +85406,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -85376,7 +85447,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -85420,7 +85491,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -95113,8 +95184,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -95150,8 +95223,10 @@
     "primary_category": "cs.SE",
     "published": "2026-09-06",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -95186,8 +95261,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -95223,8 +95300,10 @@
     "primary_category": "eess.SP",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -95258,8 +95337,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -96129,7 +96210,7 @@
     "primary_category": "cs.SE",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -109511,9 +109592,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference and Labs of the Evaluation Forum",
      "year": 2026
     },
     "status": "unknown",
@@ -109587,21 +109670,23 @@
     "primary_category": "cs.CL",
     "published": "2026-09-05",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Aligning large language models with human preferences remains a challenge, primarily due to the critical role of preference data quality in effective alignment. Existing datasets are frequently plagued by inherent noise and distribution shifts, which inherently limit model performance. To bridge this gap, we propose AlignDiff, a preference data filtering framework driven by intrinsic model signals. AlignDiff first identifies samples with clear preferences using both positive and inverse signals, then prioritizes the more challenging samples based on the average negative log-likelihood gap, encouraging the model to learn richer information from them. AlignDiff is evaluated on two widely used model families (LLaMA and Qwen) and three benchmarks widely adopted in the alignment community (AlpacaEval 2.0, Arena-Hard, and MT-Bench). Across all settings, it consistently outperforms seven strong baselines. We conduct comprehensive ablation studies to validate the effectiveness of AlignDiff, and further show that difficulty-based curriculum learning improves model performance.",
-    "tier": "none",
+    "tier": "top",
     "title": "AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-05",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.05899v1"
    },
    "2609.06245": {
@@ -109623,8 +109708,10 @@
     "primary_category": "cs.CV",
     "published": "2026-09-05",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -109658,8 +109745,10 @@
     "primary_category": "cs.CR",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -109702,21 +109791,23 @@
     "primary_category": "cs.LG",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "While Reinforcement Learning (RL) effectively incentivizes reasoning in Large Language Models, current pipelines are hindered by training instability and rapid entropy collapse. These limitations often stem from \"Rollout Silencing\" and low-quality gradient signals in standard sampling procedures. In this work, we propose a robust, data-centric framework to stabilize RL training. We first introduce Potential-Aware Query Mining (PAQM), which filters data dynamically to focus on the \"Distillation Zone\"---samples with high potential for capability elicitation. Furthermore, we present Hybrid Stratified Replay (HSR), a novel mechanism that restructures batches by stratifying rollouts based on Path Entropy, a rollout-level confidence proxy, and outcome reward. Within each optimization step, HSR reuses current-policy \"Stability Anchors\" and \"Hard Negatives\" to construct high-contrast optimization groups, then clears its buffers before the next step. This approach mitigates entropy collapse while improving the utilization of learning signals under limited compute. Our method outperforms strong baselines on complex reasoning tasks, offering a principled solution for stable and efficient RL fine-tuning.",
-    "tier": "none",
+    "tier": "top",
     "title": "Stable-MM-R1: Anchoring Multimodal Reasoning Dynamics via Entropy-Guided Stratification",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-07",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.07148v1"
    },
    "2609.10892": {
@@ -111511,7 +111602,7 @@
     "primary_category": "cs.GT",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -111548,7 +111639,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -111586,7 +111677,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -111621,7 +111712,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -111665,7 +111756,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -111739,21 +111830,23 @@
     "primary_category": "cs.AI",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Entity Alignment (EA) identifies equivalent entities across knowledge graphs and is critical for knowledge base integration and ontology merging. Evaluating EA systems at scale requires expensive expert annotation, making systematic assessment across diverse domains practically infeasible. LLM-as-judge evaluation offers a potentially scalable alternative, yet its reliability for structured prediction tasks like EA remains unstudied. We present the first systematic benchmarking study across three frontier models, three datasets, and four EA systems, using perturbation bias diagnostics, meta-evaluation across all dataset-judge-prompt combinations, and counterfactual label-flip tests. We identify anchor bias, a failure mode in which judges invert discrimination when the system's decision label is visible. Label exposure causally collapses judge discrimination (J-ROC-AUC 0.12-0.87), while a label-free protocol recovers near-ceiling capability on distinctive-name datasets (0.93-1.00) and significant recovery on biomedical pairs (0.93-0.95). Counterfactual experiments confirm causality (FSR 53-99%) and reveal a frontier model paradox: stronger judges exhibit greater label sensitivity, not less. A blinded two-annotator human evaluation (102 pairs, Cohen's kappa=0.902) confirms this mechanism directly. We release the first biomedical EA benchmark (MeSH-SNOMED CT, 15K pairs) and a reproducible auditing framework for LLM judge reliability in EA. Code and data are available at https://github.com/vaibhavalakshmiravideshik/llm-as-a-judge-entity-alignment.",
-    "tier": "none",
+    "tier": "top",
     "title": "Reliability of LLM Judges for Evaluating Entity Alignment",
-    "track": "",
+    "track": "main",
     "updated": "2026-10-07",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2610.09554v1"
    },
    "2610.09700": {
@@ -111777,7 +111870,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -111814,7 +111907,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -129980,11 +130073,13 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
+      "JournalArticle",
+      "Conference",
       "Review"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -129994,8 +130089,8 @@
     "track": "main",
     "updated": "2026-09-04",
     "venue": "EMNLP",
-    "venue_evidence": "EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.04598v1"
    },
@@ -130020,9 +130115,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference and Labs of the Evaluation Forum",
      "year": 2026
     },
     "status": "unknown",
@@ -130060,8 +130157,9 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -130096,8 +130194,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -130139,8 +130239,9 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -130183,8 +130284,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-05",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -130230,8 +130333,10 @@
     "primary_category": "cs.CR",
     "published": "2026-09-05",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -130264,8 +130369,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-06",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -130301,9 +130408,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -130313,8 +130422,8 @@
     "track": "findings",
     "updated": "2026-09-07",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to Findings of EMNLP 2026. 30 pages, 13 figures, 15 tables",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.07120v1"
    },
@@ -130335,8 +130444,10 @@
     "primary_category": "stat.AP",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -130374,8 +130485,9 @@
     "primary_category": "cs.CL",
     "published": "2026-09-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -134701,7 +134813,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-04",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -134740,7 +134852,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-05",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -134781,7 +134893,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-05",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -134822,7 +134934,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -134859,7 +134971,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -134905,7 +135017,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -134947,7 +135059,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -134983,7 +135095,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -135057,21 +135169,23 @@
     "primary_category": "cs.AI",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Entity Alignment (EA) identifies equivalent entities across knowledge graphs and is critical for knowledge base integration and ontology merging. Evaluating EA systems at scale requires expensive expert annotation, making systematic assessment across diverse domains practically infeasible. LLM-as-judge evaluation offers a potentially scalable alternative, yet its reliability for structured prediction tasks like EA remains unstudied. We present the first systematic benchmarking study across three frontier models, three datasets, and four EA systems, using perturbation bias diagnostics, meta-evaluation across all dataset--judge--prompt combinations, and counterfactual label-flip tests. We identify anchor bias, a failure mode in which judges invert discrimination when the system's decision label is visible. Judge discrimination collapses under label-exposing prompts (J-ROC-AUC 0.12--0.87), while a label-free protocol recovers near-ceiling capability on distinctive-name datasets (0.98--1.00 for NeuSymEA) and significant recovery on biomedical pairs (0.93--0.95). Counterfactual label flips show that the visible label causally shifts scores by more than 2 points in 53--99% of pairs (FSR), with sensitivity growing with model capability, a pattern we call the frontier model paradox: stronger judges are more label-sensitive, not less, yet also better label-free predictors. The direction of the shifts is mixed, so we report this as an observed pattern. A blinded two-annotator human evaluation (102 pairs, Cohen's $κ$ = 0.902) provides a gold-label reference. We release the first biomedical EA benchmark (MeSH--SNOMED CT, 15K pairs) and a reproducible auditing framework for LLM judge reliability in EA. Code and data are available at https://github.com/vaibhavalakshmiravideshik/llm-as-a-judge-entity-alignment.",
-    "tier": "none",
+    "tier": "top",
     "title": "Reliability of LLM Judges for Evaluating Entity Alignment",
-    "track": "",
+    "track": "main",
     "updated": "2026-10-29",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2610.09554v2"
    },
    "2610.09772": {
@@ -135092,7 +135206,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -135132,7 +135246,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -135170,7 +135284,7 @@
     "primary_category": "cs.SD",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -135208,11 +135322,11 @@
     "primary_category": "cs.SE",
     "published": "2026-10-07",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Book"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 1st International Workshop on PromptOps and Vibe Coding",
      "year": 2026
     },
     "status": "unknown",
@@ -135252,7 +135366,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "Review"
      ],
@@ -135294,7 +135408,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -135330,7 +135444,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -135367,7 +135481,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -135412,7 +135526,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -155122,7 +155236,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
       "JournalArticle"
      ],
@@ -157949,9 +158063,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -157961,8 +158077,8 @@
     "track": "findings",
     "updated": "2026-09-04",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to Findings of EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.04824v1"
    },
@@ -157983,8 +158099,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-04",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -158026,8 +158144,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-05",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -158069,21 +158189,24 @@
     "primary_category": "cs.HC",
     "published": "2026-09-06",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "While deep research systems address interactive information-seeking needs impressively, their real-world deployments face latency and resource-consumption challenges. We present FrankenReport, an interface for long-form knowledge-seeking report generation that supports adaptive early exiting per section: it evaluates intermediate outputs during generation and predicts whether further targeted computation will yield significant quality gains. In a simulation study, FrankenReport outperforms random allocation baselines by a large margin (up to 4x) under low budgets and smoothly recovers full-pipeline quality as the budget grows, showing that future quality gains are predictable from intermediate drafts. Through experiments and user studies, we further show that despite varying preferences across users and topics, FrankenReport adapts to simple, natural user feedback as efficiently as methods requiring much costlier supervision such as generated drafts and explicit rationales.",
-    "tier": "none",
+    "tier": "top",
     "title": "FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-06",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.06320v1"
    },
    "2609.06545": {
@@ -158112,8 +158235,9 @@
     "primary_category": "cs.CL",
     "published": "2026-09-06",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -158153,9 +158277,12 @@
     "primary_category": "cs.HC",
     "published": "2026-09-07",
     "s2": {
-     "checked": "2026-10-09",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-08",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -158165,8 +158292,8 @@
     "track": "main",
     "updated": "2026-09-09",
     "venue": "EMNLP",
-    "venue_evidence": "12 pages, 11 figures, EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.07920v2"
    },
@@ -159334,7 +159461,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
@@ -159373,7 +159500,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-09",
+     "checked": "2026-11-08",
      "types": [],
      "venue": "",
      "year": 2026
