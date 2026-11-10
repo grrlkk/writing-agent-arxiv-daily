@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-08** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-10** (UTC).
 Back to the [main page](../README.md).
 
-922 of 3649 papers carry venue evidence.
+925 of 3680 papers carry venue evidence.
 
-## Top-tier venues (613)
+## Top-tier venues (615)
 
 ### EMNLP (163)
 
@@ -296,10 +296,11 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (74)
+### NeurIPS (76)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-06**|Designing Effective Monitor-Based Interventions for Mitigating Reward Hacking During RL|NeurIPS 2026|Reward & Value Models|[2611.09828](https://arxiv.org/abs/2611.09828)|
 |**2026-11-05**|When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO|NeurIPS 2026|Reward & Value Models|[2611.07375](https://arxiv.org/abs/2611.07375)|
 |**2026-11-03**|Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior|NeurIPS 2026|Reward & Value Models|[2611.04395](https://arxiv.org/abs/2611.04395)|
 |**2026-11-01**|Lie Routing Vision Language Models for View-Robust 3D Understanding|NeurIPS 2026|Semantic Drift & Faithfulness|[2611.02306](https://arxiv.org/abs/2611.02306)|
@@ -333,6 +334,7 @@ Back to the [main page](../README.md).
 |**2026-09-26**|From Static Policies to Adaptive Priors in Offline Reinforcement Learning|NeurIPS 2026|Self-Refine & Self-Correction|[2609.35880](https://arxiv.org/abs/2609.35880)|
 |**2026-09-25**|LLM Judge Validation Under Sparse Overlap: From Inference to Design|NeurIPS 2026|Text Quality Evaluation|[2609.31857](https://arxiv.org/abs/2609.31857)|
 |**2026-06-22**|SteerVTE: Seamless Video Text Editing with Style and Glyph Control|NeurIPS 2026|Iterative Revision & Text Editing|[2606.23254](https://arxiv.org/abs/2606.23254)|
+|**2026-05-29**|Consolidating Rewarded Perturbations for LLM Post-Training|NeurIPS 2026|Writing Agent|[2605.31494](https://arxiv.org/abs/2605.31494)|
 |**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
 |**2025-12-19**|AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens|NeurIPS 2026|Reward & Value Models, Text Quality Evaluation|[2512.17375](https://arxiv.org/abs/2512.17375)|
 |**2025-12-17**|Corrective Diffusion Language Models|NeurIPS 2026|Iterative Revision & Text Editing|[2512.15596](https://arxiv.org/abs/2512.15596)|
@@ -766,12 +768,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-26**|Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks|IUI 2024|Text Quality Evaluation|[2410.20266](https://arxiv.org/abs/2410.20266)|
 
-## Findings tracks (92)
+## Findings tracks (93)
 
-### EMNLP (58)
+### EMNLP (59)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-06**|DeepResearch RewardBench: Evaluating Reward Models for Deep Research Report|EMNLP 2026 (findings)|Reward & Value Models|[2611.10156](https://arxiv.org/abs/2611.10156)|
 |**2026-10-18**|BrandEval: A Two-Track Multi-Agent Benchmark for Risk-Sensitive LLM Crisis Communication|EMNLP 2026 (findings)|Multilingual & Cross-Lingual Agents|[2610.25208](https://arxiv.org/abs/2610.25208)|
 |**2026-10-17**|Long Listening Thoughts: Eliciting Open Auditory Reasoning with Deliberative Perception and Cognitive Refinement|EMNLP 2026 (findings)|Reward & Value Models|[2610.24409](https://arxiv.org/abs/2610.24409)|
 |**2026-10-16**|MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai|EMNLP 2026 (findings)|Multilingual & Cross-Lingual Agents, Reward & Value Models|[2610.23205](https://arxiv.org/abs/2610.23205)|
