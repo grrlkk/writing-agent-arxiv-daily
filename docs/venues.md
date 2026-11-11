@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-10** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-11** (UTC).
 Back to the [main page](../README.md).
 
-925 of 3680 papers carry venue evidence.
+929 of 3706 papers carry venue evidence.
 
-## Top-tier venues (615)
+## Top-tier venues (619)
 
 ### EMNLP (163)
 
@@ -296,10 +296,13 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (76)
+### NeurIPS (79)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-09**|PORT: Preference Optimization via Robust Token-Level Reweighting|NeurIPS 2026|Reward & Value Models, Synthetic Preference Data|[2611.12763](https://arxiv.org/abs/2611.12763)|
+|**2026-11-09**|Variational Approach to Optimal IPS Estimator for Multi-logger Off-Policy Evaluation|NeurIPS 2026|Reward & Value Models|[2611.11712](https://arxiv.org/abs/2611.11712)|
+|**2026-11-07**|AERO: Adaptive Ensemble-Disagreement Routing for Oracle Feedback in Sample-Efficient Online RLHF|NeurIPS 2026|Reward & Value Models, Synthetic Preference Data|[2611.10750](https://arxiv.org/abs/2611.10750)|
 |**2026-11-06**|Designing Effective Monitor-Based Interventions for Mitigating Reward Hacking During RL|NeurIPS 2026|Reward & Value Models|[2611.09828](https://arxiv.org/abs/2611.09828)|
 |**2026-11-05**|When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO|NeurIPS 2026|Reward & Value Models|[2611.07375](https://arxiv.org/abs/2611.07375)|
 |**2026-11-03**|Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior|NeurIPS 2026|Reward & Value Models|[2611.04395](https://arxiv.org/abs/2611.04395)|
@@ -649,6 +652,18 @@ Back to the [main page](../README.md).
 |**2024-02-25**|Understanding Public Perceptions of AI Conversational Agents: A Cross-Cultural Analysis|CHI 2024|Multilingual & Cross-Lingual Agents|[2402.16039](https://arxiv.org/abs/2402.16039)|
 |**2024-01-19**|Rambler: Supporting Writing With Speech via LLM-Assisted Gist Manipulation|CHI 2024|Iterative Revision & Text Editing|[2401.10838](https://arxiv.org/abs/2401.10838)|
 
+### KDD (7)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-11-09**|UniHam: A Large-Scale SOC-Complete Dataset and Benchmark for Hamiltonian Learning in Materials|KDD 2026|Text Quality Evaluation|[2611.12509](https://arxiv.org/abs/2611.12509)|
+|**2026-09-29**|STEPS: Scene Text Editing with Preserved Style Using Diffusion and Contrastive Style Encoding|KDD 2026|Iterative Revision & Text Editing|[2609.38636](https://arxiv.org/abs/2609.38636)|
+|**2026-08-07**|SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators|KDD 2026|Text Quality Evaluation|[2608.07641](https://arxiv.org/abs/2608.07641)|
+|**2026-07-29**|Improving Item Discoverability in e-Commerce Search via Related Intent Generation|KDD 2026|Text Quality Evaluation|[2607.27172](https://arxiv.org/abs/2607.27172)|
+|**2026-05-31**|When Hard Negatives Hurt: Bridging the Generative-Discriminative Gap in Hard Negative Synthesis for Retrieval|KDD 2026|Synthetic Preference Data|[2606.01304](https://arxiv.org/abs/2606.01304)|
+|**2024-06-20**|Revisiting Modularity Maximization for Graph Clustering: A Contrastive Learning Perspective|KDD 2024|Semantic Drift & Faithfulness|[2406.14288](https://arxiv.org/abs/2406.14288)|
+|**2024-05-28**|MockLLM: A Multi-Agent Behavior Collaboration Framework for Online Job Seeking and Recruiting|KDD 2024|Multilingual & Cross-Lingual Agents|[2405.18113](https://arxiv.org/abs/2405.18113)|
+
 ### TACL (7)
 
 |Publish Date|Title|Venue|Topics|PDF|
@@ -671,17 +686,6 @@ Back to the [main page](../README.md).
 |**2026-05-22**|MindCopilot: Towards Formalizing and Evaluating Granular Human-LLM Co-Writing|IJCAI 2026|Writing Agent|[2605.23535](https://arxiv.org/abs/2605.23535)|
 |**2025-06-18**|Veracity: An Open-Source AI Fact-Checking System|IJCAI 2024|Multilingual & Cross-Lingual Agents|[2506.15794](https://arxiv.org/abs/2506.15794)|
 |**2024-02-09**|MusicMagus: Zero-Shot Text-to-Music Editing via Diffusion Models|IJCAI 2024|Iterative Revision & Text Editing|[2402.06178](https://arxiv.org/abs/2402.06178)|
-
-### KDD (6)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-09-29**|STEPS: Scene Text Editing with Preserved Style Using Diffusion and Contrastive Style Encoding|KDD 2026|Iterative Revision & Text Editing|[2609.38636](https://arxiv.org/abs/2609.38636)|
-|**2026-08-07**|SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators|KDD 2026|Text Quality Evaluation|[2608.07641](https://arxiv.org/abs/2608.07641)|
-|**2026-07-29**|Improving Item Discoverability in e-Commerce Search via Related Intent Generation|KDD 2026|Text Quality Evaluation|[2607.27172](https://arxiv.org/abs/2607.27172)|
-|**2026-05-31**|When Hard Negatives Hurt: Bridging the Generative-Discriminative Gap in Hard Negative Synthesis for Retrieval|KDD 2026|Synthetic Preference Data|[2606.01304](https://arxiv.org/abs/2606.01304)|
-|**2024-06-20**|Revisiting Modularity Maximization for Graph Clustering: A Contrastive Learning Perspective|KDD 2024|Semantic Drift & Faithfulness|[2406.14288](https://arxiv.org/abs/2406.14288)|
-|**2024-05-28**|MockLLM: A Multi-Agent Behavior Collaboration Framework for Online Job Seeking and Recruiting|KDD 2024|Multilingual & Cross-Lingual Agents|[2405.18113](https://arxiv.org/abs/2405.18113)|
 
 ### UIST (5)
 
