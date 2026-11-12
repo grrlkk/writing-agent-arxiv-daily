@@ -3,24 +3,24 @@
   "topics": {
    "Iterative Revision & Text Editing": 197,
    "Korean Writing & NLP": 73,
-   "Multilingual & Cross-Lingual Agents": 464,
-   "Reward & Value Models": 850,
-   "Search & Control for Generation": 256,
-   "Self-Refine & Self-Correction": 328,
-   "Semantic Drift & Faithfulness": 252,
+   "Multilingual & Cross-Lingual Agents": 467,
+   "Reward & Value Models": 855,
+   "Search & Control for Generation": 258,
+   "Self-Refine & Self-Correction": 329,
+   "Semantic Drift & Faithfulness": 253,
    "Synthetic Preference Data": 418,
-   "Text Quality Evaluation": 650,
-   "Writing Agent": 512
+   "Text Quality Evaluation": 654,
+   "Writing Agent": 513
   },
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "venue_tiers": {
    "demo": 8,
    "findings": 93,
-   "none": 2777,
+   "none": 2790,
    "other": 38,
    "strong": 40,
-   "top": 619,
-   "workshop": 131
+   "top": 621,
+   "workshop": 132
   }
  },
  "topics": {
@@ -31179,6 +31179,105 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.10224v1"
+   },
+   "2611.12966": {
+    "abs_url": "https://arxiv.org/abs/2611.12966",
+    "authors": [
+     "Dong Bo",
+     "Fanjin Zhang",
+     "Ke Cheng",
+     "Xinxin Zhao",
+     "Xiaowei Su",
+     "Yang Wang",
+     "Jinghang Xu",
+     "Cuiping Li",
+     "Hong Chen",
+     "Jing Zhang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.12966",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.12966v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-07",
+    "status": "unknown",
+    "summary": "Large language models (LLMs) can generate SQL and SQL--Python workflows for investment research, but ensuring point-in-time (PIT) validity remains challenging. Agents must enforce disclosure cutoffs and select the appropriate historical states and record versions throughout data retrieval and financial analysis. We introduce \\textsc{BuySideFlow}, a benchmark of 408 practitioner-derived Chinese-language tasks spanning equities, funds, fixed income, and macroeconomics over a fixed snapshot from a licensed production financial database. We provide executable references and a taxonomy of temporal errors, pairing result checks with expert audits of executed workflows. We evaluate nine agent configurations on all tasks, with result accuracy ranging from 16.2\\% to 36.8\\%. An audit of 900 runs on 100 shared tasks confirms PIT violations in 193 of the 380 runs that pass result checks (50.8\\%), showing that output agreement alone does not establish temporal validity.",
+    "tier": "none",
+    "title": "BuySideFlow: A Point-in-Time Benchmark for LLM Agents in Investment Research",
+    "track": "",
+    "updated": "2026-11-07",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.12966v1"
+   },
+   "2611.13207": {
+    "abs_url": "https://arxiv.org/abs/2611.13207",
+    "authors": [
+     "Lingzhi Shen",
+     "Xiaohao Cai",
+     "Yunfei Long",
+     "Imran Razzak",
+     "Shoaib Jameel"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.13207",
+    "journal_ref": "",
+    "matched": [
+     "cultural adaptation",
+     "culturally adapt"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13207v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-09",
+    "status": "unknown",
+    "summary": "Cultural adaptation in dialogue systems refers to the ability to generate responses that conform to linguistic norms and social expectations across different cultures. However, existing dialogue generation approaches pay limited attention to the role of personality in shaping cultural expression and communication style. We therefore propose HiCAP, a novel framework that integrates personality traits into culturally adaptive dialogue generation. HiCAP employs a personality-conditioned control mechanism that hierarchically modulates response style by first aligning it with the cultural tone and then refining linguistic expression and content according to individual personality attributes. To embed these factors, the model combines supervised fine-tuning and instruction-based tuning, supported by dynamic instruction templates and multi-agent demonstrations to capture diverse combinations of culture and personality. Experiments on CulturalPersonas and CPED show that HiCAP achieves the strongest overall performance across various dialogue generation metrics, demonstrating effective cultural adaptability and personality modelling.",
+    "tier": "none",
+    "title": "HiCAP: Hierarchical Cultural Adaptation via Personality for Dialogue Generation",
+    "track": "",
+    "updated": "2026-11-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.13207v1"
+   },
+   "2611.13613": {
+    "abs_url": "https://arxiv.org/abs/2611.13613",
+    "authors": [
+     "Tiancheng Xu",
+     "Wensheng Yu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.13613",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13613v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "General-purpose coding agents equipped with proof-assistant tools have shown strong performance on standalone competition problems, yet cumulative textbook formalization inside a low-resource mathematical library still faces three obstacles: aligning textbook concepts with library declarations, keeping long-horizon search synchronized with live proof states, and integrating locally verified proofs reliably into a growing codebase. We present Megrez, a knowledge-guided formalization agent for Rocq libraries built on Morse--Kelley (MK) set theory. Megrez coordinates a general coding agent through three mechanisms: (1) a source-rebuildable knowledge graph merging formal declarations, compiler references, and curated metadata to support retrieval via Chinese aliases, concept clusters, proof dependencies, and multi-lane full-text ranking; (2) a feedback-driven 1--5 tactic short-burst proving loop paired with a goal-local branch ledger and exponential-interval structured reflection; and (3) a three-check acceptance pipeline (statement fidelity, axiom auditing, and full builds) coupled with a multi-corpus Provider stack and a candidate-bound recoverable batch state machine. Deployment and evaluation on a point-set topology corpus demonstrate effective cross-chapter formalization and scalable premise retrieval.",
+    "tier": "none",
+    "title": "Megrez: A Knowledge-Guided Agent for Formal Mathematics over MK Set Theory",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.13613v1"
    }
   },
   "Reward & Value Models": {
@@ -65596,6 +65695,159 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.12865v1"
+   },
+   "2611.13218": {
+    "abs_url": "https://arxiv.org/abs/2611.13218",
+    "authors": [
+     "Michael Li",
+     "Rohan Pandey",
+     "Ray Chen"
+    ],
+    "code_url": "",
+    "comment": "Accepted at the Transitioning from Pre-Training to Post-Training Workshop at NeurIPS 2026",
+    "first_seen": "2026-11-12",
+    "id": "2611.13218",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13218v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-09",
+    "status": "accepted",
+    "summary": "Two accounts of how reinforcement learning with verifiable rewards (RLVR) interacts with an imperfect verifier coexist: in one, reward hacking is inherited from the base model; in the other, RL amplifies it. We study both in a controlled environment small enough to compute the entire response distribution exactly. We vary the universality of a leak, or the fraction of prompts that accept the same wrong response, and the verifier's static false-positive rate. At its KL-regularized optimum, RLVR acts as a filter that reweights the accepted set without altering its composition, so the hack rate is inherited exactly. Taking that as a null model, a known decomposition writes the drift from it as a sum over prompts of covariances between reward and the empirical tangent kernel. The terms from other prompts vanish without parameter sharing. With sharing, every prompt that accepts a wrong answer pushes it up and every prompt that rejects it pushes it down through the baseline, in proportion to the model's probability of producing it there. A shared-parameter policy thus drives a leak that few prompts accept below the base rate and amplifies one that most prompts accept. At every convergent learning rate under Adam, SGD, and sampled GRPO, hacking ends higher at high universality than at low, but whether either end crosses the base rate depends on the step size. Independent per-prompt copies remove the dependence. The direction of this push depends on neither the verifier's error rate nor universality alone, but on how much of the model's kernel-weighted probability of a wrong answer falls on prompts that accept it, which frozen base model controls support. Verifier fixes should target the mistakes the model repeats across prompts: two patches that remove equally many errors differ by up to 38 points of true accuracy. We propose this alignment as a hypothesis for why earlier studies disagree.",
+    "tier": "workshop",
+    "title": "Wrong the Same Way: Cross-Prompt Sharing Both Suppresses and Amplifies Reward Hacking in RLVR",
+    "track": "workshop",
+    "updated": "2026-11-09",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted at the Transitioning from Pre-Training to Post-Training Workshop at NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2611.13218v1"
+   },
+   "2611.13369": {
+    "abs_url": "https://arxiv.org/abs/2611.13369",
+    "authors": [
+     "Alexandros Hollender",
+     "Sonja Kraiczy"
+    ],
+    "code_url": "",
+    "comment": "Published in the Proceedings of ICLR 2026",
+    "first_seen": "2026-11-12",
+    "id": "2611.13369",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13369v1",
+    "primary_category": "cs.GT",
+    "published": "2026-11-09",
+    "status": "accepted",
+    "summary": "Many alignment methods, most notably reinforcement learning from human feedback (RLHF), train reward models by minimizing a loss on pairwise comparisons of model responses. Inspired by principle-guided methods such as Constitutional AI, we treat each principle as a voter that compares responses according to that principle, for example, preferring the more helpful or less toxic response. We represent these voters as linear directions in a fixed embedding space, a simplifying assumption motivated by the Linear Representation Hypothesis. In this linear social choice model, Ge et al. (2024) showed that an optimal linear reward model can violate Pareto optimality (PO): From the principles-as-voters lens, this means a response A can be less helpful and more toxic than B, yet still receive a higher reward. We ask whether richer reward models or changes to comparison data can recover PO within loss-based training. We show that PO can still fail for polynomials of any fixed degree and one-hidden-layer ReLU multilayer perceptrons (MLPs) of any fixed width $ d\\ge 2 $ with suitable finite parameter bounds. We then recover PO for loss-based training of linear rewards under suitable assumptions in an idealized setting with uniform comparison directions and equal comparison lengths. These results motivate dataset design as an approach to recovering PO in constitutional-style alignment while retaining loss-based training.",
+    "tier": "top",
+    "title": "Enforcing Axioms for AI Alignment under Loss-Based Rules",
+    "track": "main",
+    "updated": "2026-11-09",
+    "venue": "ICLR",
+    "venue_evidence": "Published in the Proceedings of ICLR 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2611.13369v1"
+   },
+   "2611.13477": {
+    "abs_url": "https://arxiv.org/abs/2611.13477",
+    "authors": [
+     "Chaeho Lee",
+     "Junyup Kim",
+     "Wansoo Kim",
+     "Young Min Jung",
+     "Sang Ho Lee"
+    ],
+    "code_url": "",
+    "comment": "15 pages, 4 figures. Accepted to the 40th Annual Conference on Neural Information Processing Systems (NeurIPS 2026 Main Track)",
+    "first_seen": "2026-11-12",
+    "id": "2611.13477",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13477v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-10",
+    "status": "accepted",
+    "summary": "Integrating human feedback into language models has gained increasing attention as a means to align model outputs with human preferences, with Reinforcement Learning from Human Feedback (RLHF) serving as a prominent framework for preference-based alignment. Recent studies have incorporated eye-tracking (ET) data as an additional supervisory signal for reward model training, grounding reward learning in human reading behavior. Building on this approach, we extend prior fixation-centric models by leveraging established findings from cognitive psychology on human letter recognition. Specifically, we model visual attention as a spatially graded distribution centered on the current gaze location and incorporate this representation into reward model training. Our results show that the reward model trained with the proposed gaze distribution achieves higher preference prediction accuracy than a baseline model. Moreover, some results from our experiments are qualitatively consistent with established findings on human attention during reading, suggesting that they potentially capture cognitively meaningful aspects of human attention allocation.",
+    "tier": "top",
+    "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+    "track": "main",
+    "updated": "2026-11-10",
+    "venue": "NeurIPS",
+    "venue_evidence": "15 pages, 4 figures. Accepted to the 40th Annual Conference on Neural Information Processing Systems (NeurIPS 2026 Main Track)",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2611.13477v1"
+   },
+   "2611.13485": {
+    "abs_url": "https://arxiv.org/abs/2611.13485",
+    "authors": [
+     "Xintao Xia",
+     "Jia Gu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.13485",
+    "journal_ref": "",
+    "matched": [
+     "bradley-terry"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13485v1",
+    "primary_category": "stat.ML",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "Reliable inference for rankings of large language models based on human pairwise comparisons must preserve the privacy of individual preference records. To meet this need, we develop methods for score and rank inference under the Bradley-Terry model with edge differential privacy. For an objective-perturbed estimator, a new leave-one-out analysis establishes finite-sample bounds on Euclidean and entrywise estimation errors. For sufficiently dense comparison graphs, the error bounds extend to smaller privacy budgets, including regimes in which its privacy term dominates its statistical term. A uniform asymptotic expansion yields asymptotically valid confidence intervals for individual scores and pairwise score differences. To improve finite-sample performance, we account for both regularization bias and privacy-induced randomness by combining a plug-in ridge-bias correction with Gaussian-Laplace calibration. We further establish a bootstrap procedure for simultaneous rank inference, providing asymptotically valid confidence sets for individual ranks and tests of top-$K$ membership. When the comparison probability is public and known, all proposed inferential procedures require no additional privacy budget. We evaluate finite-sample performance through simulations and apply the proposed methods to rank large language models for creative writing.",
+    "tier": "none",
+    "title": "Differentially Private Statistical Inference for Rankings from Pairwise Comparisons",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.13485v1"
+   },
+   "2611.13914": {
+    "abs_url": "https://arxiv.org/abs/2611.13914",
+    "authors": [
+     "Vojtech Cahlik",
+     "Amir Reza Mohammadi",
+     "Rodrigo Alves",
+     "Pavel Kordik",
+     "Eva Zangerle"
+    ],
+    "code_url": "https://github.com/vcahlik/from-counterfactual-edits-to-human-narratives",
+    "comment": "Published at CIKM 2026 (Rome, Italy). Code: https://github.com/vcahlik/from-counterfactual-edits-to-human-narratives",
+    "first_seen": "2026-11-12",
+    "id": "2611.13914",
+    "journal_ref": "In Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM '26), Rome, Italy, pp. 6954-6959, 2026",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13914v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "Recommender systems increasingly influence what users discover and consume online, yet the decision logic behind their outputs often remains opaque. Counterfactual explanation (CFX) methods provide an effective way to show which changes to a user's interaction history would alter a recommendation. In recommendation settings, however, CFXs often require many edits, producing long, low-level lists that are hard for users to interpret. Moreover, most evaluations emphasize edit counts while largely overlooking whether the resulting CFXs are coherent and actionable for users. We argue that this gap between generating valid CFXs and communicating model behavior stems from the lack of user-centered abstraction and limited qualitative evaluation. To bridge this gap, we investigate large language models as mediators that summarize raw CFX interaction edit lists into concise natural language explanations describing higher-level preference patterns. We optimize these mediators for correctness, informativeness, and linguistic quality through preference optimization, and evaluate the resulting explanations with human-calibrated metrics derived from separate human-labeled datasets. On the MovieLens-1M dataset, across multiple counterfactual generators and language models, the resulting summaries achieve high overall linguistic quality, while the strongest semantic results are obtained with high-success CFX methods such as ACCENT and SPINRec. Direct Preference Optimization improves the semantic metrics in almost all evaluated settings.",
+    "tier": "none",
+    "title": "From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.13914v1"
    }
   },
   "Search & Control for Generation": {
@@ -75846,6 +76098,65 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.12728v1"
+   },
+   "2611.13236": {
+    "abs_url": "https://arxiv.org/abs/2611.13236",
+    "authors": [
+     "Ekrem Aksoy"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.13236",
+    "journal_ref": "",
+    "matched": [
+     "verifier-guided"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13236v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-09",
+    "status": "unknown",
+    "summary": "We present the Neural Control Plane (NCP), a closed-loop system that observes language-model execution, synthesizes candidate weight-space intervention rules, evaluates them, and maintains a versioned table of admitted policies. NCP separates a pretrained model's inference data plane from the control policy that selects temporary parameter interventions. W-ISA supplies transactional execution and parameter restoration; NCP supplies telemetry, candidate synthesis, admission criteria, priorities, and rule lifetime management. The optimization state consists of active rules and an archive of evaluated candidates, while base-model parameters are restored after each request. In a local SmolLM-135M-Instruct experiment, NCP generated three candidates from development telemetry and evaluated them on separate task examples and a 4,095-target WikiText-2 slice. One projection reduced validation token repetition from 0.4133 to 0.2191, with a perplexity change of -0.0574%. All candidates produced zero newly correct exact answers, so the configured admission gate archived all three and retained the original active policy. Fresh-process repetition and saved-table resumption reproduced the measured outcomes. NCP provides an executable framework for studying recursive self-improvement at the control-policy level through explicit synthesis, verification, and state transitions.",
+    "tier": "none",
+    "title": "NCP: Verifier-Guided Optimization of Weight-Space Control Policies",
+    "track": "",
+    "updated": "2026-11-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.13236v1"
+   },
+   "2611.14106": {
+    "abs_url": "https://arxiv.org/abs/2611.14106",
+    "authors": [
+     "Martim Afonso",
+     "Inês Lynce",
+     "Maurizio Morisio",
+     "João F. Ferreira"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.14106",
+    "journal_ref": "",
+    "matched": [
+     "backtracking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14106v1",
+    "primary_category": "cs.SE",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "Formal verification using proof assistants provides strong correctness guarantees for software, but constructing proofs remains labor-intensive and requires significant expertise. Recent approaches based on large language models (LLMs) have shown promise in automating proof synthesis. However, these approaches typically constrain the model to a rigid tactic-generation loop, in which the surrounding system controls premise retrieval, proof-state management, and backtracking. We introduce ProofCoder, an agentic proof-synthesis system for Rocq that approaches theorem proving from a coding-agent perspective. Rather than generating tactics within a fixed loop, ProofCoder reasons continuously throughout proof search and uses proof-assistant feedback to decide when to gather additional information, inspect proof states, revise previously generated proof fragments, or backtrack to an earlier point in the proof. This allows it to iteratively construct, repair, and refine proofs, at either tactic-level or whole-proof granularity. We evaluate ProofCoder on 280 challenging verification tasks from the AutoRocq Benchmark. On the best-performing configurations, ProofCoder increases proof success from 47% to 60% over the state-of-theart AutoRocq system, corresponding to a 27.7% relative improvement at approximately half the cost. Our ablations identify continuous reasoning as a key design choice: without it, the agent solves fewer lemmas at substantially higher cost, backtracks four to six times more often, and more frequently discards its own revisions. Whole-proof and tactic-level generation achieve similar success rates but follow distinct search and repair strategies. These results suggest that effective automated software verification requires more than improved tactic selection: continuous reasoning and feedback-guided proof revision are critical ingredients for robust proof synthesis.",
+    "tier": "none",
+    "title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.14106v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -89211,6 +89522,36 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.11368v1"
+   },
+   "2611.13524": {
+    "abs_url": "https://arxiv.org/abs/2611.13524",
+    "authors": [
+     "Yitong Zhang",
+     "Ang Li",
+     "Yisen Wang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.13524",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13524v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "Recursive self-improvement (RSI) seeks to improve an agent using its own task experience. Its practical value depends on whether performance gains justify the full cost of self-improvement and task execution. We evaluate this trade-off on continual task streams, scoring each task before its feedback is used for subsequent updates. We define the \\emph{RSI Tax} as the token cost of the self-improvement process and include it alongside task-execution costs in end-to-end evaluation. Across six methods and two language models, a bounded-note baseline matches or exceeds the observed accuracy of Meta-Harness, EvoSkill, and RRSI, with mean total-token savings of 65.6-71.0\\%. We decompose the RSI Tax into verification, exploration, and writing costs, and track subsequent use of the associated state or artifact. For these three RSI methods, verification accounts for 74.8--93.6% of the aggregate RSI Tax. A substantial share of the RSI Tax is also associated with states or artifacts that are not used later in the evaluated streams. These results expose a practical limitation of costly RSI procedures: improvements in the deployed agent need not justify the expense of the improvement process. They motivate RSI objectives that jointly optimize the RSI Tax and expected task-execution cost while ensuring continued growth in agent capabilities across the task stream.",
+    "tier": "none",
+    "title": "The RSI Tax: When Recursive Self-Improvement Is Not Worth the Cost",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.13524v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -99152,6 +99493,40 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.12605v1"
+   },
+   "2611.14097": {
+    "abs_url": "https://arxiv.org/abs/2611.14097",
+    "authors": [
+     "Yan Li",
+     "Zehao Li",
+     "Xinlong Sun",
+     "Fuchen Long",
+     "Xi Chen",
+     "Wenhan Luo",
+     "Yike Guo"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.14097",
+    "journal_ref": "",
+    "matched": [
+     "content preservation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14097v1",
+    "primary_category": "cs.CV",
+    "published": "2026-11-09",
+    "status": "unknown",
+    "summary": "Facial stylization asks for a delicate transformation: the image should look unmistakably artistic, yet the person should remain unmistakably the same. Existing training-free and instruction-driven methods often fail to expose such control, either drifting away from identity or producing only weak stylization. We introduce Stylus, a training-free framework that treats facial style transfer as navigation on the curved latent manifold of a pretrained diffusion model. Rather than interpolating in flat Euclidean space, \\method refines the interpolated content--style point by lowering a ratio-weighted discrete geodesic energy under the pullback metric, made tractable by a rank-one power-iteration approximation of the Jacobian. This principle drives two complementary controls: content--style latent interpolation for smooth semantic fusion, and self-attention query optimization for spatially adaptive style injection. The resulting dual-control mechanism provides continuous, fine-grained control over stylization strength while preserving identity-critical facial structure, all without additional training. Experiments show that Stylus achieves the strongest identity and content preservation at competitive stylization strength.",
+    "tier": "none",
+    "title": "Stylization as Geodesic Navigation on Diffusion Manifolds",
+    "track": "",
+    "updated": "2026-11-09",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.14097v1"
    }
   },
   "Synthetic Preference Data": {
@@ -142061,6 +142436,157 @@
     "venue_source": "journal_ref",
     "venue_year": "2026",
     "version": "2611.12509v1"
+   },
+   "2611.13960": {
+    "abs_url": "https://arxiv.org/abs/2611.13960",
+    "authors": [
+     "Simon Hegelich",
+     "Bardh Prenkaj",
+     "Habiba Sarhan",
+     "Morteza Shahrezaye",
+     "Kolja Hegelich",
+     "Christian Montag",
+     "Ralf Schneider",
+     "Erik Cambria"
+    ],
+    "code_url": "",
+    "comment": "21 pages, 3 figuers, 1 sublement",
+    "first_seen": "2026-11-12",
+    "id": "2611.13960",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13960v1",
+    "primary_category": "cs.CR",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "AI coding harnesses couple language models to shells, filesystems, and network sockets, turning the harness into an automated Living-off-the-Land (LotL) platform: once an adversary injects instructions into retrieved content, dual-use binaries such as bash, curl, and find become the payload. We argue that security in agentic systems is a structural property of the cognitive architecture and permission composition rather than an emergent property of individual models. Static regex blacklists miss structural evasions, whereas LLM-as-a-Judge guardrails incur high latency while over-blocking benign work. We present ActiveSecHarness, a neurosymbolic reference-monitor architecture built around Separation of Intelligence and Authority. It combines (1) Macaroon-inspired HMAC capability tokens across four Trust and Authority Rings, (2) a 2D product taint lattice $\\mathcal{L} = \\mathcal{L}_{\\mathrm{trust}} \\times \\mathcal{L}_{\\mathrm{sens}}$ and a workspace provenance ledger that prevents secret laundering across disk, (3) deterministic Ring-0 OS/tool guards, and (4) bytecode certificates, split-horizon audit logs, self-healing security test synthesis, and an adaptive UserWikiManager. Across $N=252$ fixtures ($120$ attack, $120$ benign, $12$ kill chains), a live local LLM judge (qwen3:4b) refuses $98.3\\%$ of benign work at $142.3\\,\\mathrm{ms}$ latency, whereas Ring 0 achieves $\\mathrm{ABR}=1.000$ and $\\mathrm{FPR}=0.000$ in $12.7\\,μ\\mathrm{s}$ ($11{,}200\\times$ faster). In a multi-step trajectory ablation, an oracle Conseca-style stateless policy misses $4/12$ kill chains ($\\mathrm{ABR}=0.667$) and coarse Boolean taint blocks $83.3\\%$ of benign workflows, while our 2D product lattice achieves $\\mathrm{ABR}=1.000$ and $\\mathrm{FPR}=0.000$ at $\\approx 20\\,μ\\mathrm{s}$ per step.",
+    "tier": "none",
+    "title": "From Attack Surface to Defense Architecture: Compositional Security for Agentic Coding Harnesses",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.13960v1"
+   },
+   "2611.14309": {
+    "abs_url": "https://arxiv.org/abs/2611.14309",
+    "authors": [
+     "Junhao Shen",
+     "Qing Zong",
+     "Yue Guo",
+     "Zhanqiu Zhang",
+     "Yiwen Guo",
+     "Hong Cheng"
+    ],
+    "code_url": "",
+    "comment": "Project page: https://mmdm-benchmark.github.io/",
+    "first_seen": "2026-11-12",
+    "id": "2611.14309",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14309v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges that existing benchmarks do not adequately capture together. Thus, we introduce MMDM (Massive Multitask Decision Making), a benchmark of 5,448 high-quality questions across 16 task categories, combining newly constructed tasks with source-grounded recompositions and rewrites for single-select, multi-select, and soft-label decision making in fresh contexts. It covers realistic scenarios such as agent state tracking, tool and skill selection, preference judgments, and rubric scoring, with option spaces ranging from 2 to 1,024 and inputs extending to 64,817 tokens. With MMDM, we conduct a comprehensive quantitative evaluation of 28 decision models, showing that many perform well on common knowledge yet struggle with interdependent options, constrained decisions, and multi-select tasks. For example, Perplexity Decider-V1.2 reaches 78.75% Hard Single-select Accuracy on world knowledge, but only 53.95% on option logic and 47.95% on constraint planning, while the best Hard Multi-select Accuracy across all models is 36.81%. These results highlight joint reasoning, constraint-aware selection, and complete multi-select recovery as key priorities for decision model development, with MMDM providing a testbed for measuring this progress.",
+    "tier": "none",
+    "title": "MMDM: Measuring Massive Multitask Decision Making",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.14309v1"
+   },
+   "2611.14364": {
+    "abs_url": "https://arxiv.org/abs/2611.14364",
+    "authors": [
+     "Jiahang Lin",
+     "Wanying Ren",
+     "Wanghan Xu",
+     "Huayu Sha",
+     "Yang Shu",
+     "Zhonghang Lu",
+     "Chengjun Pan",
+     "Yi Dong",
+     "Shichun Liu",
+     "Yuyang Hu",
+     "Shihan Dou",
+     "Honglin Guo",
+     "Huijie Lv",
+     "Pujun Zheng",
+     "Zhe Sun",
+     "Yuankai Ying",
+     "Yiding Wang",
+     "Jiahao Chen",
+     "Zhixiong Yang",
+     "Dingbo Yuan",
+     "Yicheng Zou",
+     "Zhecan Wang",
+     "Guoxiu He",
+     "Xiaoyu Xing",
+     "Qi Zhang",
+     "Tao Gui",
+     "Xuanjing Huang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.14364",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14364v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "Research agents achieve increasingly strong benchmark scores, yet these scores do not necessarily translate into reliable delivery in ongoing research projects. Many research-agent benchmarks emphasize standalone tasks and relatively self-contained workflows in clean or curated workspaces. However, researchers ask agents to complete one step within an ongoing project, where requests depend on earlier session decisions and workspaces contain unfinished files, outdated versions, and failed attempts. We introduce ARE-bench to evaluate whether research agents advance ongoing projects while respecting prior decisions and existing workspace state, grounded in real session context and in-progress workspaces. ARE-bench includes 75 tasks built on agent sessions and full workspaces from recruited researchers' own projects, spanning seven research stages, 33 requirements, and 150 sub-requirements, with 1,173 binary checklist items in total. Each task is anchored at a real user request, preserves its requirements, and summarizes the earlier requests still in effect as background. The complete workspace is replayed to that boundary without cleanup, preserving artifacts from earlier turns. Each checklist is compiled from an intent-aligned rubric and credits any valid solution. Across seven frontier models, the strongest passes every checklist item on only 66.2% of tasks, and Design and Execution rank among the hardest stages for every model. Three models pass about 69% of tasks when only delivery contracts and general norms are checked, but just 28.4% to 40.0% once historical and material or workspace requirements are also checked. Evaluating delivery without these contextual requirements can therefore overestimate research agents and mask differences between them.",
+    "tier": "none",
+    "title": "ARE-bench: Benchmarking Agents' Research Ability in Real-World Researcher Sessions and Workspaces",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.14364v1"
+   },
+   "2611.14480": {
+    "abs_url": "https://arxiv.org/abs/2611.14480",
+    "authors": [
+     "Evelyn Y. Garland",
+     "Carola F. Berger"
+    ],
+    "code_url": "",
+    "comment": "6 pages, 4 figures",
+    "first_seen": "2026-11-12",
+    "id": "2611.14480",
+    "journal_ref": "Proceedings of the Eleventh Conference on Machine Translation (WMT 2026), pp. 1638-1643, 2026",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14480v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-low cost system optimized for binary classification in translation triage and data curation. It is based on an LLM-as-a-judge approach, with prompt engineering and model selection guided by ROC analysis. We also developed several variants of Pterodactyl that were specifically adapted for subtasks 3.",
+    "tier": "none",
+    "title": "Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.14480v1"
    }
   },
   "Writing Agent": {
@@ -162815,6 +163341,35 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.08921v1"
+   },
+   "2611.13485": {
+    "abs_url": "https://arxiv.org/abs/2611.13485",
+    "authors": [
+     "Xintao Xia",
+     "Jia Gu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-12",
+    "id": "2611.13485",
+    "journal_ref": "",
+    "matched": [
+     "creative writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13485v1",
+    "primary_category": "stat.ML",
+    "published": "2026-11-10",
+    "status": "unknown",
+    "summary": "Reliable inference for rankings of large language models based on human pairwise comparisons must preserve the privacy of individual preference records. To meet this need, we develop methods for score and rank inference under the Bradley-Terry model with edge differential privacy. For an objective-perturbed estimator, a new leave-one-out analysis establishes finite-sample bounds on Euclidean and entrywise estimation errors. For sufficiently dense comparison graphs, the error bounds extend to smaller privacy budgets, including regimes in which its privacy term dominates its statistical term. A uniform asymptotic expansion yields asymptotically valid confidence intervals for individual scores and pairwise score differences. To improve finite-sample performance, we account for both regularization bias and privacy-induced randomness by combining a plug-in ridge-bias correction with Gaussian-Laplace calibration. We further establish a bootstrap procedure for simultaneous rank inference, providing asymptotically valid confidence sets for individual ranks and tests of top-$K$ membership. When the comparison probability is public and known, all proposed inferential procedures require no additional privacy budget. We evaluate finite-sample performance through simulations and apply the proposed methods to rank large language models for creative writing.",
+    "tier": "none",
+    "title": "Differentially Private Statistical Inference for Rankings from Pairwise Comparisons",
+    "track": "",
+    "updated": "2026-11-10",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.13485v1"
    }
   }
  }

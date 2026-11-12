@@ -2,15 +2,16 @@
 
 > Whether a model can improve its own draft with no external signal — the baseline the TVM has to beat (RQ4).
 
-328 papers, newest first. Generated on **2026-11-11** (UTC).
+329 papers, newest first. Generated on **2026-11-12** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (198)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
+Browse by year: [2026 (199)](#2026) · [2025 (66)](#2025) · [2024 (64)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-10**|<details><summary>The RSI Tax: When Recursive Self-Improvement Is Not Worth the Cost</summary><br>Recursive self-improvement (RSI) seeks to improve an agent using its own task experience. Its practical value depends on whether performance gains justify the full cost of self-improvement and task execution. We evaluate this trade-off on continual task streams, scoring each task before its feedback is used for subsequent updates. We define the \emph{RSI Tax} as the token cost of the self-improvement process and include it alongside task-execution costs in end-to-end evaluation. Across six metho...</details>|-|Yitong Zhang et al.|[2611.13524](https://arxiv.org/abs/2611.13524)|null|
 |**2026-11-08**|<details><summary>BiVerify: Closing the Loop Between Backward and Forward Verification for Mathematical Self-Correction</summary><br>Large language models (LLMs) have made substantial progress in mathematical reasoning but still produce incorrect solutions to complex problems, indicating the need for more reliable self-correction mechanisms. Mathematical self-correction typically identifies errors through verification, which can proceed backward or forward. The two directions provide complementary verification capabilities. Backward verification checks a candidate answer against the original constraints, bypassing complex int...</details>|-|Rui Zou et al.|[2611.11368](https://arxiv.org/abs/2611.11368)|null|
 |**2026-11-08**|<details><summary>A Layer-wise Study of How Style Rewriting Breaks the Calibration of Zero-Shot LLM Fake-News Detectors</summary><br>Large language models (LLMs) are increasingly asked to judge whether a news article is true, and their stated confidence is often taken at face value. We test what happens to that confidence when an article's writing style, but not its facts, is manipulated, as in recent \emph{style attacks} on fake-news detectors. Tracing how the prediction and its confidence form layer by layer inside the network, we study three model families (LLaMA-3-8B, Qwen2.5-7B, Mistral-7B) on three fake-news benchmarks,...</details>|-|Prabhjot Singh et al.|[2611.11239](https://arxiv.org/abs/2611.11239)|null|
 |**2026-11-08**|<details><summary>Room to Reconsider: Reply Length Decides Whether Pushback Makes Language Models Sycophantic or Self-Correcting</summary><br>Language models often abandon a correct answer when a user pushes back without giving a reason, and this behavior is usually studied as sycophancy to be suppressed. The same pushback, however, also leads models to revisit and sometimes repair a wrong answer. We measure both effects on multiple-choice questions from MMLU and ARC-Challenge with four open models from two families (Qwen3 1.7B, 4B and 8B, and OLMo-2 7B), reading the final answer exactly from option logits after a free-form reply. The...</details>|-|Ook Lee|[2611.11035](https://arxiv.org/abs/2611.11035)|null|

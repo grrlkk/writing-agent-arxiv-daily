@@ -2,15 +2,16 @@
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-252 papers, newest first. Generated on **2026-11-11** (UTC).
+253 papers, newest first. Generated on **2026-11-12** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (140)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
+Browse by year: [2026 (141)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-09**|<details><summary>Stylization as Geodesic Navigation on Diffusion Manifolds</summary><br>Facial stylization asks for a delicate transformation: the image should look unmistakably artistic, yet the person should remain unmistakably the same. Existing training-free and instruction-driven methods often fail to expose such control, either drifting away from identity or producing only weak stylization. We introduce Stylus, a training-free framework that treats facial style transfer as navigation on the curved latent manifold of a pretrained diffusion model. Rather than interpolating in f...</details>|-|Yan Li et al.|[2611.14097](https://arxiv.org/abs/2611.14097)|null|
 |**2026-11-09**|<details><summary>Creative Intent as an Evolving Shared State: Supporting Cross-Stage Human-AI Video Co-Creation</summary><br>As generative AI becomes increasingly involved in video creation, creators face challenges in expanding, translating, and negotiating creative intent across stages. We therefore view creative intent as an evolving shared state throughout human-AI co-creation. A multi-stage design was employed: semi-structured interviews with 12 creators informed 3 design goals, followed by expert co-design and the development of VideoMaker. VideoMaker organizes creation into a six-stage workflow that progressive...</details>|-|Yuhang Jin et al.|[2611.12605](https://arxiv.org/abs/2611.12605)|null|
 |**2026-11-05**|<details><summary>Bridging Structure and Semantics: Knowledge Graph Verification via Triple-to-Text Alignment</summary><br>Semantic accuracy is an important dimension of knowledge graph quality. Graph-based scoring methods exploit relational structure, while textual representations allow classifiers to draw on knowledge encoded by pre-trained language models (PLMs). We present GenVer, a generative verifier that scores triples using both their serialized form and generated natural language representations (NLRs). A triple-text alignment procedure selects training pairs for a sequence-to-sequence generator; a BERT-bas...</details>|-|Ziang Cui|[2611.07780](https://arxiv.org/abs/2611.07780)|null|
 |**2026-11-03**|<details><summary>Constructing a Regional Slang Lexicon for Electricity Demands via Soft-Label Bidirectional Anchoring and Active Learning</summary><br>Power-grid customer service increasingly relies on community social media, where customers describe outages, billing, and equipment faults in informal regional dialect. Such messages exhibit non-standard morphology, semantic drift, and out-of-vocabulary expressions that make manual lexicon construction costly and degrade conventional NLP tools. We propose a weak-supervision framework constructing a regional slang lexicon from curated dialect anchors and power-domain seed terms. Candidates are ge...</details>|-|Rong Chang et al.|[2611.04231](https://arxiv.org/abs/2611.04231)|null|

@@ -2,15 +2,16 @@
 
 > The primary axis: LLM agents that write and revise across multiple turns rather than generating once. Z1 in the FEAK-TC introduction.
 
-512 papers, newest first. Generated on **2026-11-11** (UTC).
+513 papers, newest first. Generated on **2026-11-12** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (229)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
+Browse by year: [2026 (230)](#2026) · [2025 (149)](#2025) · [2024 (134)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-10**|<details><summary>Differentially Private Statistical Inference for Rankings from Pairwise Comparisons</summary><br>Reliable inference for rankings of large language models based on human pairwise comparisons must preserve the privacy of individual preference records. To meet this need, we develop methods for score and rank inference under the Bradley-Terry model with edge differential privacy. For an objective-perturbed estimator, a new leave-one-out analysis establishes finite-sample bounds on Euclidean and entrywise estimation errors. For sufficiently dense comparison graphs, the error bounds extend to sma...</details>|-|Xintao Xia et al.|[2611.13485](https://arxiv.org/abs/2611.13485)|null|
 |**2026-11-06**|<details><summary>Frame: Form-Restricted Authoring with Model-Based Evaluation</summary><br>Many professional reports reuse the structure of prior editions while updating the content. We formalize this setting as form-restricted report generation: given a sample report and new grounding documents, generate a report that preserves the sample's form while accurately reflecting the new evidence. We introduce FRAME, a benchmark of 120 EDGAR- and arXiv-derived instances across Financial Quarterly, Financial Annual, Academic Simple, and Academic Complex categories, built with a temporal thre...</details>|-|Nan Jiang et al.|[2611.08921](https://arxiv.org/abs/2611.08921)|null|
 |**2026-11-05**|<details><summary>IntentWeaver: Sustaining Coherence across Evolving Intents in Human-AI Co-Writing</summary><br>Writers hold intents at many levels, from overarching goals to concrete wording, and evolve them by periodically popping back up from the text to higher-level intents. Generative AI co-writing disrupts this practice. Dense drafts capture attention and trap writers in local editing; higher-level intents stall while lower-level ones drift from them unnoticed, a breakdown we term intent incoherence. Our formative study traced this breakdown from attention capture through silent drift to failed reco...</details>|-|Yuanhao Zhang et al.|[2611.08214](https://arxiv.org/abs/2611.08214)|null|
 |**2026-11-04**|<details><summary>Rubric Curriculum RL: Exploiting the Generation-Verification Gap in Non-Verifiable Domains</summary><br>Reinforcement learning with verifiable rewards (RLVR) has led to significant gains in math and code generation. Extending these gains to open-ended domains remains challenging: ground-truth verification is unavailable, human annotation is expensive, and learned reward models are prone to reward hacking. The generation-verification gap, where judging good outputs is easier than producing them, offers a potential path to improvement. However, rubric-based judges are often imprecise and stationary,...</details>|ICML 2026|Sumeet Ramesh Motwani et al.|[2611.06244](https://arxiv.org/abs/2611.06244)|null|
