@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-12** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-14** (UTC).
 Back to the [main page](../README.md).
 
-932 of 3722 papers carry venue evidence.
+936 of 3745 papers carry venue evidence.
 
-## Top-tier venues (621)
+## Top-tier venues (622)
 
 ### EMNLP (163)
 
@@ -296,10 +296,11 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (80)
+### NeurIPS (81)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-12**|Negative-Only Policy Optimization for One-Sided Verifiable Rewards|NeurIPS 2026|Search & Control for Generation|[2611.17287](https://arxiv.org/abs/2611.17287)|
 |**2026-11-10**|Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling|NeurIPS 2026|Reward & Value Models|[2611.13477](https://arxiv.org/abs/2611.13477)|
 |**2026-11-09**|Variational Approach to Optimal IPS Estimator for Multi-logger Off-Policy Evaluation|NeurIPS 2026|Reward & Value Models|[2611.11712](https://arxiv.org/abs/2611.11712)|
 |**2026-11-09**|PORT: Preference Optimization via Robust Token-Level Reweighting|NeurIPS 2026|Reward & Value Models, Synthetic Preference Data|[2611.12763](https://arxiv.org/abs/2611.12763)|
@@ -707,7 +708,7 @@ Back to the [main page](../README.md).
 |**2024-10-22**|Optimizing LLMs with Direct Preferences: A Data Efficiency Perspective|SIGIR 2024|Synthetic Preference Data|[2410.16586](https://arxiv.org/abs/2410.16586)|
 |**2024-05-02**|On the Evaluation of Machine-Generated Reports|SIGIR 2024|Writing Agent|[2405.00982](https://arxiv.org/abs/2405.00982)|
 
-## Strong venues (40)
+## Strong venues (41)
 
 ### COLING (22)
 
@@ -774,12 +775,19 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-26**|Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks|IUI 2024|Text Quality Evaluation|[2410.20266](https://arxiv.org/abs/2410.20266)|
 
-## Findings tracks (93)
-
-### EMNLP (59)
+### WSDM (1)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-12**|Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression|WSDM|Synthetic Preference Data|[2611.16384](https://arxiv.org/abs/2611.16384)|
+
+## Findings tracks (94)
+
+### EMNLP (60)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-11-11**|Towards Better Legal Reasoning LLMs: Signal Balancing and Reward Scheduling|EMNLP 2026 (findings)|Reward & Value Models|[2611.15346](https://arxiv.org/abs/2611.15346)|
 |**2026-11-06**|DeepResearch RewardBench: Evaluating Reward Models for Deep Research Report|EMNLP 2026 (findings)|Reward & Value Models|[2611.10156](https://arxiv.org/abs/2611.10156)|
 |**2026-10-18**|BrandEval: A Two-Track Multi-Agent Benchmark for Risk-Sensitive LLM Crisis Communication|EMNLP 2026 (findings)|Multilingual & Cross-Lingual Agents|[2610.25208](https://arxiv.org/abs/2610.25208)|
 |**2026-10-17**|Long Listening Thoughts: Eliciting Open Auditory Reasoning with Deliberative Perception and Cognitive Refinement|EMNLP 2026 (findings)|Reward & Value Models|[2610.24409](https://arxiv.org/abs/2610.24409)|
@@ -964,12 +972,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (132)
+## Workshops (133)
 
-### NeurIPS (41)
+### NeurIPS (42)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-10**|MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation|NeurIPS 2026 (workshop)|Self-Refine & Self-Correction|[2611.14675](https://arxiv.org/abs/2611.14675)|
 |**2026-11-09**|Wrong the Same Way: Cross-Prompt Sharing Both Suppresses and Amplifies Reward Hacking in RLVR|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.13218](https://arxiv.org/abs/2611.13218)|
 |**2026-11-02**|SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use|NeurIPS 2026 (workshop)|Text Quality Evaluation|[2611.03982](https://arxiv.org/abs/2611.03982)|
 |**2026-10-31**|The Verifier Is Part of the Simulator: Evidence-View Gaming in Agentic Equation Discovery|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.01334](https://arxiv.org/abs/2611.01334)|
