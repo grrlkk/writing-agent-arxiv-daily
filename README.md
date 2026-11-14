@@ -23,34 +23,6 @@ papers using the year links under each topic; the preview shows the newest 20.
 - [Search & Control for Generation](#search--control-for-generation) (260)
 - [Korean Writing & NLP](#korean-writing--nlp) (73)
 
-## New in this update (25)
-
-- `Multilingual & Cross-Lingual Agents` [Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination](https://arxiv.org/abs/2611.16661)
-- `Multilingual & Cross-Lingual Agents` [Termination Lag: Coding Agents Solve Early but Stop Late](https://arxiv.org/abs/2611.14960)
-- `Writing Agent` [The Art of Asking: Multilingual Prompt Optimization for Synthetic Data](https://arxiv.org/abs/2510.19806)
-- `Self-Refine & Self-Correction` [Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing](https://arxiv.org/abs/2611.17169)
-- `Self-Refine & Self-Correction` [Can an AI Agent Be Epistemically Akratic? Higher-Order Evidence & the Limits of Self-Correction](https://arxiv.org/abs/2611.14889)
-- `Self-Refine & Self-Correction` [MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation](https://arxiv.org/abs/2611.14675)
-- `Reward & Value Models` [When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems](https://arxiv.org/abs/2611.17239)
-- `Reward & Value Models` [Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models](https://arxiv.org/abs/2611.17128)
-- `Reward & Value Models` [Human or Synthetic? What a Fixed Budget Buys for Post-Training](https://arxiv.org/abs/2611.16895)
-- `Reward & Value Models` ["It's Just a Small Weapon": What Rewarding Misbehavior During RL Does to Character-Trained Models](https://arxiv.org/abs/2611.16069)
-- `Reward & Value Models` [Towards Better Legal Reasoning LLMs: Signal Balancing and Reward Scheduling](https://arxiv.org/abs/2611.15346)
-- `Reward & Value Models` [Breaking Bad: "Going Badly" Activations Drive Reward Hacking](https://arxiv.org/abs/2611.14996)
-- `Reward & Value Models` [Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation](https://arxiv.org/abs/2611.14769)
-- `Reward & Value Models` [Towards Green Text Generation: Memory-Based Speculative Decoding](https://arxiv.org/abs/2611.16714)
-- `Reward & Value Models` [daVinci-Prover: Agent-Native Mid-Training for Formal Theorem Proving](https://arxiv.org/abs/2611.16433)
-- `Synthetic Preference Data` [Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models](https://arxiv.org/abs/2611.17128)
-- `Synthetic Preference Data` [Human or Synthetic? What a Fixed Budget Buys for Post-Training](https://arxiv.org/abs/2611.16895)
-- `Synthetic Preference Data` [Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression](https://arxiv.org/abs/2611.16384)
-- `Synthetic Preference Data` [Label-Efficient Document-Grounded Factuality Detection via Cross-Paraphrastic Invariance Learning](https://arxiv.org/abs/2611.16264)
-- `Text Quality Evaluation` [Mind the Accuracy-Approval Gap: How Users Evaluate Sycophantic AI in Everyday Tasks](https://arxiv.org/abs/2611.16722)
-- `Text Quality Evaluation` [DISCERN: Preserve at Write, Resolve at Read for Persistent LLM-Agent Memory](https://arxiv.org/abs/2611.15729)
-- `Text Quality Evaluation` [LLMs and the Homogenization of Teaching](https://arxiv.org/abs/2611.14828)
-- `Text Quality Evaluation` [ToolTurns: Benchmarking LLM Agents in Multi-Turn Dialogue](https://arxiv.org/abs/2611.14925)
-- `Search & Control for Generation` [Negative-Only Policy Optimization for One-Sided Verifiable Rewards](https://arxiv.org/abs/2611.17287)
-- `Search & Control for Generation` [OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design](https://arxiv.org/abs/2611.14808)
-
 ## Multilingual & Cross-Lingual Agents
 
 > Applying LLM agents beyond English: multilingual and cross-lingual transfer, non-English tool use and planning, localized writing assistants, and language- or culture-specific agent benchmarks. Survey axis for adapting agent workflows to Korean and other language communities.
