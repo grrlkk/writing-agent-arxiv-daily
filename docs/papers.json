@@ -12,14 +12,14 @@
    "Text Quality Evaluation": 658,
    "Writing Agent": 514
   },
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "venue_tiers": {
    "demo": 8,
    "findings": 94,
-   "none": 2809,
+   "none": 2808,
    "other": 38,
    "strong": 41,
-   "top": 622,
+   "top": 623,
    "workshop": 133
   }
  },
@@ -3540,7 +3540,7 @@
     "primary_category": "cs.CV",
     "published": "2026-01-27",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
       "JournalArticle"
      ],
@@ -4946,7 +4946,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -5954,8 +5954,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6010,9 +6012,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the Eleventh Conference on Machine Translation",
      "year": 2026
     },
     "status": "unknown",
@@ -6047,8 +6052,9 @@
     "primary_category": "cs.AI",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -6090,8 +6096,10 @@
     "primary_category": "cs.CV",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6124,8 +6132,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7298,7 +7308,7 @@
     "primary_category": "cs.HC",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -7342,7 +7352,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -10972,11 +10982,12 @@
     "primary_category": "cs.CL",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
+      "Conference",
       "Review"
      ],
-     "venue": "",
+     "venue": "Volume 1",
      "year": 2026
     },
     "status": "unknown",
@@ -28935,7 +28946,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-01",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -28981,7 +28992,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29017,7 +29028,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29061,7 +29072,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29099,7 +29110,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
       "Review"
      ],
@@ -29142,7 +29153,7 @@
     "primary_category": "cs.SE",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29179,7 +29190,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29224,7 +29235,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29261,7 +29272,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29308,7 +29319,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29345,7 +29356,7 @@
     "primary_category": "cs.CR",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -50717,8 +50728,10 @@
     "primary_category": "cs.SE",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -50764,8 +50777,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -50804,8 +50819,10 @@
     "primary_category": "cs.SD",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -50853,8 +50870,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -50890,8 +50909,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -50932,8 +50953,10 @@
     "primary_category": "cs.CV",
     "published": "2026-09-06",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -50969,8 +50992,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51025,9 +51050,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the Eleventh Conference on Machine Translation",
      "year": 2026
     },
     "status": "unknown",
@@ -51063,8 +51091,10 @@
     "primary_category": "cs.RO",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51104,8 +51134,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51146,8 +51178,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51184,8 +51218,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51219,8 +51255,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51261,8 +51299,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51307,9 +51347,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -51319,9 +51362,9 @@
     "track": "main",
     "updated": "2026-09-13",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted by EMNLP26 main",
-    "venue_source": "comment",
-    "venue_year": "",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.16076v1"
    },
    "2609.16283": {
@@ -51341,8 +51384,9 @@
     "primary_category": "cs.LG",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -51381,9 +51425,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the Eleventh Conference on Machine Translation",
      "year": 2026
     },
     "status": "unknown",
@@ -51416,8 +51463,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51467,8 +51516,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51504,8 +51555,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -51554,8 +51607,9 @@
     "primary_category": "cs.CL",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -51594,9 +51648,12 @@
     "primary_category": "cs.AI",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "IEEE International Joint Conference on Neural Network",
      "year": 2026
     },
     "status": "unknown",
@@ -59480,7 +59537,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-13",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59516,7 +59573,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59551,7 +59608,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59595,7 +59652,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59629,7 +59686,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59667,7 +59724,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59709,7 +59766,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59745,7 +59802,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59781,7 +59838,7 @@
     "primary_category": "cs.GT",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59820,7 +59877,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59857,7 +59914,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59900,7 +59957,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59939,7 +59996,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -59981,7 +60038,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -60018,7 +60075,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -60057,7 +60114,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -60094,21 +60151,21 @@
     "primary_category": "cs.CL",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Recent multilingual large language models achieve strong translation performance, yet the internal mechanisms responsible for low-resource multilingual translation remain insufficiently understood. In this paper, we study translation circuits in multilingual decoder-only LLMs for Hindi-to-Urdu and Hindi-to-Sindhi (Devanagari). We propose TITAN, a mechanistic framework that combines causal intervention, sparse feature decomposition, and targeted preference optimization to identify and optimize crucial translation components in the transformer. Unlike conventional full-parameter fine-tuning, TITAN restricts optimization to sparse, causally important circuits, enabling scalable and parameter-efficient adaptation while updating fewer than 5% of model parameters. Experimental results show that TITAN achieves BLEU improvements of 33.75% on Hindi-to-Urdu and 45.86% on Hindi-to-Sindhi over the strongest multilingual baselines. Human expert evaluation further confirms substantial gains in adequacy and fluency across both language pairs. Additional analyses reveal that multilingual translation is implemented through sparse, structured circuits operating over a shared semantic subspace rather than through an English-centric pivot representation. Overall, our findings demonstrate that mechanistic circuit discovery can directly improve low-resource multilingual translation while providing interpretable insights into multilingual transformer behavior.",
-    "tier": "none",
+    "tier": "top",
     "title": "Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation",
-    "track": "",
+    "track": "main",
     "updated": "2026-10-15",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2610.21456v1"
    },
    "2610.21646": {
@@ -60132,7 +60189,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
       "Review"
      ],
@@ -60218,7 +60275,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -60257,7 +60314,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -60293,7 +60350,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -60336,7 +60393,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -73641,9 +73698,11 @@
     "primary_category": "cs.AI",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -73653,8 +73712,8 @@
     "track": "findings",
     "updated": "2026-09-12",
     "venue": "EMNLP",
-    "venue_evidence": "EMNLP 2026 Findings",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.13849v1"
    },
@@ -73726,8 +73785,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73764,8 +73825,10 @@
     "primary_category": "cs.CV",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -75253,7 +75316,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -75290,7 +75353,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -75329,7 +75392,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -86191,9 +86254,11 @@
     "primary_category": "cs.AI",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Proceedings of the Second Workshop for REsearch on Agent Language Models (REALM 2026)",
      "year": 2026
     },
     "status": "accepted",
@@ -86229,9 +86294,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -86241,8 +86308,8 @@
     "track": "findings",
     "updated": "2026-09-12",
     "venue": "EMNLP",
-    "venue_evidence": "EMNLP 2026 (Findings)",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.13808v1"
    },
@@ -86277,8 +86344,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86312,8 +86381,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86351,8 +86422,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -88197,7 +88270,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -88234,7 +88307,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -88276,7 +88349,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -98241,8 +98314,10 @@
     "primary_category": "cs.CV",
     "published": "2026-09-03",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -98278,8 +98353,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -98314,8 +98391,10 @@
     "primary_category": "cs.SD",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -98352,8 +98431,10 @@
     "primary_category": "cs.SD",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -98389,9 +98470,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -98401,8 +98484,8 @@
     "track": "findings",
     "updated": "2026-09-14",
     "venue": "EMNLP",
-    "venue_evidence": "EMNLP 2026 Findings",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.15559v1"
    },
@@ -99310,7 +99393,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99347,7 +99430,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99390,7 +99473,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -112898,8 +112981,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -112936,8 +113021,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113016,9 +113103,11 @@
     "primary_category": "cs.IR",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference and Labs of the Evaluation Forum",
      "year": 2026
     },
     "status": "unknown",
@@ -113052,8 +113141,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113088,8 +113179,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113126,9 +113219,12 @@
     "primary_category": "cs.AI",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "IEEE International Joint Conference on Neural Network",
      "year": 2026
     },
     "status": "unknown",
@@ -115323,7 +115419,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -115364,7 +115460,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -115407,7 +115503,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [],
      "venue": "",
      "year": 2026
@@ -134192,8 +134288,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134265,9 +134363,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track",
      "year": 2026
     },
     "status": "accepted",
@@ -134277,8 +134378,8 @@
     "track": "main",
     "updated": "2026-09-10",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 (Industry Track)",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.12191v1"
    },
@@ -134301,9 +134402,11 @@
     "primary_category": "cs.DL",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -134313,8 +134416,8 @@
     "track": "main",
     "updated": "2026-09-11",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted at Emnlp 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.12439v1"
    },
@@ -134348,8 +134451,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134399,8 +134504,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134436,8 +134543,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-11",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134476,8 +134585,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134511,8 +134622,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134547,8 +134660,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134585,8 +134700,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134621,8 +134738,10 @@
     "primary_category": "cs.CY",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134657,8 +134776,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134703,8 +134824,9 @@
     "primary_category": "cs.CL",
     "published": "2026-09-13",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -134740,8 +134862,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134816,8 +134940,9 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-16",
+     "checked": "2026-11-15",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -134853,8 +134978,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-10",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -134893,8 +135020,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-15",
     "s2": {
-     "checked": "2026-10-16",
-     "types": [],
+     "checked": "2026-11-15",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },

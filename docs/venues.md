@@ -9,20 +9,21 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-14** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-15** (UTC).
 Back to the [main page](../README.md).
 
-936 of 3745 papers carry venue evidence.
+937 of 3745 papers carry venue evidence.
 
-## Top-tier venues (622)
+## Top-tier venues (623)
 
-### EMNLP (163)
+### EMNLP (164)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-10-27**|QMUL_AK at AISA-ArabicFC: Schema-Constrained Function Calling with ALLaM|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2610.37995](https://arxiv.org/abs/2610.37995)|
 |**2026-10-20**|DiffResearch: Accelerating Deep Research with Diffusion Language Models|EMNLP 2026|Text Quality Evaluation, Writing Agent|[2610.28909](https://arxiv.org/abs/2610.28909)|
 |**2026-10-18**|Aligning Cultural Behaviors in Arabic Language Models via Preferences|EMNLP 2026|Synthetic Preference Data|[2610.25362](https://arxiv.org/abs/2610.25362)|
+|**2026-10-15**|Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation|EMNLP 2026|Reward & Value Models|[2610.21456](https://arxiv.org/abs/2610.21456)|
 |**2026-10-08**|EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams|EMNLP 2026|Reward & Value Models|[2610.12248](https://arxiv.org/abs/2610.12248)|
 |**2026-10-07**|Reliability of LLM Judges for Evaluating Entity Alignment|EMNLP 2026|Synthetic Preference Data, Text Quality Evaluation|[2610.09554](https://arxiv.org/abs/2610.09554)|
 |**2026-10-05**|Behavior-Preserving KV Cache Compression|EMNLP 2026|Writing Agent|[2610.06479](https://arxiv.org/abs/2610.06479)|
@@ -36,7 +37,7 @@ Back to the [main page](../README.md).
 |**2026-09-16**|REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement|EMNLP 2026|Synthetic Preference Data|[2609.18262](https://arxiv.org/abs/2609.18262)|
 |**2026-09-16**|Re2A: Situated Conversational Recommendation via Rubric-based Preference Reasoning and Alignment|EMNLP 2026|Text Quality Evaluation|[2609.18249](https://arxiv.org/abs/2609.18249)|
 |**2026-09-15**|Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems|EMNLP 2026|Text Quality Evaluation|[2609.17306](https://arxiv.org/abs/2609.17306)|
-|**2026-09-13**|The Imitation Game: When LLMs Learn to Reason Like Programs via Code-Centric Reasoning Data Synthesis|EMNLP|Reward & Value Models|[2609.16076](https://arxiv.org/abs/2609.16076)|
+|**2026-09-13**|The Imitation Game: When LLMs Learn to Reason Like Programs via Code-Centric Reasoning Data Synthesis|EMNLP 2026|Reward & Value Models|[2609.16076](https://arxiv.org/abs/2609.16076)|
 |**2026-09-11**|Debiasing as a Measurement Intervention: Calibrated Ties and Resolution Loss in LLM-as-a-Judge Evaluation|EMNLP 2026|Text Quality Evaluation|[2609.12439](https://arxiv.org/abs/2609.12439)|
 |**2026-09-10**|GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents|EMNLP 2026|Text Quality Evaluation|[2609.12191](https://arxiv.org/abs/2609.12191)|
 |**2026-09-08**|A Better Spur Should Start From Each Objective|EMNLP 2026|Reward & Value Models|[2609.08211](https://arxiv.org/abs/2609.08211)|
