@@ -9,18 +9,19 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-15** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-17** (UTC).
 Back to the [main page](../README.md).
 
-937 of 3745 papers carry venue evidence.
+947 of 3767 papers carry venue evidence.
 
-## Top-tier venues (623)
+## Top-tier venues (630)
 
-### EMNLP (164)
+### EMNLP (166)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-10-27**|QMUL_AK at AISA-ArabicFC: Schema-Constrained Function Calling with ALLaM|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2610.37995](https://arxiv.org/abs/2610.37995)|
+|**2026-10-20**|Criterion-Activated Preference Synthesis: Attribution-Preserving Preference Data from Explicit Standards|EMNLP 2026|Reward & Value Models, Synthetic Preference Data, Writing Agent|[2611.18663](https://arxiv.org/abs/2611.18663)|
 |**2026-10-20**|DiffResearch: Accelerating Deep Research with Diffusion Language Models|EMNLP 2026|Text Quality Evaluation, Writing Agent|[2610.28909](https://arxiv.org/abs/2610.28909)|
 |**2026-10-18**|Aligning Cultural Behaviors in Arabic Language Models via Preferences|EMNLP 2026|Synthetic Preference Data|[2610.25362](https://arxiv.org/abs/2610.25362)|
 |**2026-10-15**|Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation|EMNLP 2026|Reward & Value Models|[2610.21456](https://arxiv.org/abs/2610.21456)|
@@ -34,9 +35,9 @@ Back to the [main page](../README.md).
 |**2026-09-25**|FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation|EMNLP 2026|Writing Agent|[2609.30968](https://arxiv.org/abs/2609.30968)|
 |**2026-09-23**|Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction|EMNLP 2026|Search & Control for Generation|[2609.27376](https://arxiv.org/abs/2609.27376)|
 |**2026-09-17**|SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment|EMNLP 2026|Text Quality Evaluation|[2609.20584](https://arxiv.org/abs/2609.20584)|
+|**2026-09-16**|STRETCH the Boundaries: A Unified Self-Taught Framework for Progressive LLM Evolution|EMNLP 2026|Reward & Value Models|[2609.18642](https://arxiv.org/abs/2609.18642)|
 |**2026-09-16**|REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement|EMNLP 2026|Synthetic Preference Data|[2609.18262](https://arxiv.org/abs/2609.18262)|
 |**2026-09-16**|Re2A: Situated Conversational Recommendation via Rubric-based Preference Reasoning and Alignment|EMNLP 2026|Text Quality Evaluation|[2609.18249](https://arxiv.org/abs/2609.18249)|
-|**2026-09-15**|Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems|EMNLP 2026|Text Quality Evaluation|[2609.17306](https://arxiv.org/abs/2609.17306)|
 |**2026-09-13**|The Imitation Game: When LLMs Learn to Reason Like Programs via Code-Centric Reasoning Data Synthesis|EMNLP 2026|Reward & Value Models|[2609.16076](https://arxiv.org/abs/2609.16076)|
 |**2026-09-11**|Debiasing as a Measurement Intervention: Calibrated Ties and Resolution Loss in LLM-as-a-Judge Evaluation|EMNLP 2026|Text Quality Evaluation|[2609.12439](https://arxiv.org/abs/2609.12439)|
 |**2026-09-10**|GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents|EMNLP 2026|Text Quality Evaluation|[2609.12191](https://arxiv.org/abs/2609.12191)|
@@ -95,6 +96,7 @@ Back to the [main page](../README.md).
 |**2026-08-24**|The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline|EMNLP 2026|Reward & Value Models|[2608.24952](https://arxiv.org/abs/2608.24952)|
 |**2026-08-24**|FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference|EMNLP 2026|Text Quality Evaluation|[2608.24945](https://arxiv.org/abs/2608.24945)|
 |**2026-08-23**|Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs|EMNLP 2026|Semantic Drift & Faithfulness|[2608.22367](https://arxiv.org/abs/2608.22367)|
+|**2026-07-27**|What do Reward Models Memorize?|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2607.24484](https://arxiv.org/abs/2607.24484)|
 |**2026-07-17**|TD-DPO: Difference-Aware Preference Optimization for Mitigating Sycophancy in Clinical Autism Intervention Dialogue|EMNLP 2026|Reward & Value Models|[2607.18304](https://arxiv.org/abs/2607.18304)|
 |**2026-07-06**|Rating the Pitch, Not the Product: User Evaluations of LLMs Reflect Expectations More Than Performance|EMNLP 2026|Synthetic Preference Data|[2607.05113](https://arxiv.org/abs/2607.05113)|
 |**2026-06-02**|POLARIS: Guiding Small Models to Write Long Stories|EMNLP 2026|Writing Agent|[2606.04095](https://arxiv.org/abs/2606.04095)|
@@ -297,10 +299,13 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (81)
+### NeurIPS (84)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-14**|Empowering Masked Diffusion Models to Self-Correct with Leave-One-Out Transformers|NeurIPS 2026|Self-Refine & Self-Correction|[2611.19127](https://arxiv.org/abs/2611.19127)|
+|**2026-11-13**|MemeEconomy: Do LLM Agents Trade Ethics for Survival?|NeurIPS 2026|Reward & Value Models|[2611.18908](https://arxiv.org/abs/2611.18908)|
+|**2026-11-13**|ParetoM$^3$: Learning on the Pareto Set under Preference Guidance via Min-Max-Min Optimization|NeurIPS 2026|Reward & Value Models|[2611.18252](https://arxiv.org/abs/2611.18252)|
 |**2026-11-12**|Negative-Only Policy Optimization for One-Sided Verifiable Rewards|NeurIPS 2026|Search & Control for Generation|[2611.17287](https://arxiv.org/abs/2611.17287)|
 |**2026-11-10**|Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling|NeurIPS 2026|Reward & Value Models|[2611.13477](https://arxiv.org/abs/2611.13477)|
 |**2026-11-09**|Variational Approach to Optimal IPS Estimator for Multi-logger Off-Policy Evaluation|NeurIPS 2026|Reward & Value Models|[2611.11712](https://arxiv.org/abs/2611.11712)|
@@ -607,10 +612,11 @@ Back to the [main page](../README.md).
 |**2024-02-26**|mEdIT: Multilingual Text Editing via Instruction Tuning|NAACL 2024|Iterative Revision & Text Editing|[2402.16472](https://arxiv.org/abs/2402.16472)|
 |**2024-02-18**|KMMLU: Measuring Massive Multitask Language Understanding in Korean|NAACL 2024|Korean Writing & NLP|[2402.11548](https://arxiv.org/abs/2402.11548)|
 
-### EACL (21)
+### EACL (22)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-09-06**|From Reading Code to Reading Spec: A Verified Layer for LLM-Driven Codebase Maintenance|EACL 2027|Semantic Drift & Faithfulness|[2609.06383](https://arxiv.org/abs/2609.06383)|
 |**2026-01-31**|Intention-Adaptive LLM Fine-Tuning for Text Revision Generation|EACL 2026|Iterative Revision & Text Editing|[2602.00477](https://arxiv.org/abs/2602.00477)|
 |**2025-12-31**|Korean Canonical Legal Benchmark: Toward Knowledge-Independent Evaluation of LLMs' Legal Reasoning Capabilities|EACL 2025|Text Quality Evaluation|[2512.24572](https://arxiv.org/abs/2512.24572)|
 |**2025-12-30**|LAILA: A Large Trait-Based Dataset for Arabic Automated Essay Scoring|EACL 2025|Text Quality Evaluation|[2512.24235](https://arxiv.org/abs/2512.24235)|
@@ -656,10 +662,11 @@ Back to the [main page](../README.md).
 |**2024-02-25**|Understanding Public Perceptions of AI Conversational Agents: A Cross-Cultural Analysis|CHI 2024|Multilingual & Cross-Lingual Agents|[2402.16039](https://arxiv.org/abs/2402.16039)|
 |**2024-01-19**|Rambler: Supporting Writing With Speech via LLM-Assisted Gist Manipulation|CHI 2024|Iterative Revision & Text Editing|[2401.10838](https://arxiv.org/abs/2401.10838)|
 
-### KDD (7)
+### KDD (8)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-14**|The Critic Can Hurt: On the Safety of Critics in LLM-Guided AutoML Search|KDD 2027|Self-Refine & Self-Correction|[2611.19037](https://arxiv.org/abs/2611.19037)|
 |**2026-11-09**|UniHam: A Large-Scale SOC-Complete Dataset and Benchmark for Hamiltonian Learning in Materials|KDD 2026|Text Quality Evaluation|[2611.12509](https://arxiv.org/abs/2611.12509)|
 |**2026-09-29**|STEPS: Scene Text Editing with Preserved Style Using Diffusion and Contrastive Style Encoding|KDD 2026|Iterative Revision & Text Editing|[2609.38636](https://arxiv.org/abs/2609.38636)|
 |**2026-08-07**|SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators|KDD 2026|Text Quality Evaluation|[2608.07641](https://arxiv.org/abs/2608.07641)|
@@ -973,12 +980,13 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (133)
+## Workshops (135)
 
-### NeurIPS (42)
+### NeurIPS (43)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-12**|Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents|NeurIPS 2026 (workshop)|Search & Control for Generation|[2611.17539](https://arxiv.org/abs/2611.17539)|
 |**2026-11-10**|MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation|NeurIPS 2026 (workshop)|Self-Refine & Self-Correction|[2611.14675](https://arxiv.org/abs/2611.14675)|
 |**2026-11-09**|Wrong the Same Way: Cross-Prompt Sharing Both Suppresses and Amplifies Reward Hacking in RLVR|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.13218](https://arxiv.org/abs/2611.13218)|
 |**2026-11-02**|SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use|NeurIPS 2026 (workshop)|Text Quality Evaluation|[2611.03982](https://arxiv.org/abs/2611.03982)|
@@ -1022,7 +1030,7 @@ Back to the [main page](../README.md).
 |**2024-09-21**|Towards Automated Patent Workflows: AI-Orchestrated Multi-Agent Framework for Intellectual Property Management and Analysis|NeurIPS 2024 (workshop)|Text Quality Evaluation|[2409.19006](https://arxiv.org/abs/2409.19006)|
 |**2023-10-06**|KoMultiText: Large-Scale Korean Text Dataset for Classifying Biased Speech in Real-World Online Services|NeurIPS 2023 (workshop)|Korean Writing & NLP|[2310.04313](https://arxiv.org/abs/2310.04313)|
 
-### EMNLP (17)
+### EMNLP (18)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -1032,6 +1040,7 @@ Back to the [main page](../README.md).
 |**2026-10-16**|GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search|EMNLP 2026 (workshop)|Self-Refine & Self-Correction|[2610.23709](https://arxiv.org/abs/2610.23709)|
 |**2026-10-02**|Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2610.03136](https://arxiv.org/abs/2610.03136)|
 |**2026-09-22**|Calibration as a First-Class Criterion in LLM Evaluation|EMNLP 2026 (workshop)|Text Quality Evaluation|[2609.26489](https://arxiv.org/abs/2609.26489)|
+|**2026-09-15**|Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems|EMNLP 2026 (workshop)|Text Quality Evaluation|[2609.17306](https://arxiv.org/abs/2609.17306)|
 |**2026-09-14**|Translating the Translator: Decomposing the Cost of English-Forced Inter-Agent Communication|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2609.15079](https://arxiv.org/abs/2609.15079)|
 |**2026-09-13**|Disentangling Topology and Diversity in Multi-Agent LLMs for Multilingual Low-Resource Emotion Detection|EMNLP 2026 (workshop)|Multilingual & Cross-Lingual Agents|[2609.14570](https://arxiv.org/abs/2609.14570)|
 |**2026-09-11**|What Drives Recovery in Agentic Text-to-Cypher? LAST-CQ: An LLM Agent Self-Refinement Framework|EMNLP 2026 (workshop)|Self-Refine & Self-Correction|[2609.12746](https://arxiv.org/abs/2609.12746)|
@@ -1193,7 +1202,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-28**|Fine-Grained and Multi-Dimensional Metrics for Document-Level Machine Translation|NAACL 2024 (workshop)|Text Quality Evaluation|[2410.20941](https://arxiv.org/abs/2410.20941)|
 
-## Demo tracks (8)
+## Demo tracks (9)
 
 ### ACL (3)
 
@@ -1203,12 +1212,13 @@ Back to the [main page](../README.md).
 |**2025-12-29**|AI4Reading: Chinese Audiobook Interpretation System Based on Multi-Agent Collaboration|ACL 2025 (demo)|Multilingual & Cross-Lingual Agents, Semantic Drift & Faithfulness|[2512.23300](https://arxiv.org/abs/2512.23300)|
 |**2025-11-30**|CodeDistiller: Automatically Generating Code Libraries for Scientific Coding Agents|ACL 2025 (demo)|Text Quality Evaluation|[2512.01089](https://arxiv.org/abs/2512.01089)|
 
-### EMNLP (2)
+### EMNLP (3)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-09-01**|Schematize: An Agentic System for Generating and Refining Information-Extraction Schemas for Legal Research|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2609.22209](https://arxiv.org/abs/2609.22209)|
 |**2026-08-24**|Jiuge-Tuiqiao: An Interpretable Human-AI System for Classical Chinese Poetry Refinement|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2608.23098](https://arxiv.org/abs/2608.23098)|
+|**2026-07-14**|WikiSTAR: A System for Shedding Light on the Hidden History of Scientific Wikipedia Articles|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2607.12441](https://arxiv.org/abs/2607.12441)|
 
 ### AAAI (1)
 

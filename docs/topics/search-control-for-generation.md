@@ -2,15 +2,16 @@
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-260 papers, newest first. Generated on **2026-11-15** (UTC).
+261 papers, newest first. Generated on **2026-11-17** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (163)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
+Browse by year: [2026 (164)](#2026) · [2025 (67)](#2025) · [2024 (30)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-12**|<details><summary>Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents</summary><br>Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifiable agentic search problem: candidate structures can be assessed during inference through forward-simulated profile agreement and during evaluation through structural matching to a known reference. To benchmark progress, we introduce pXRD-Bench, a suite of 200 simulated single-phase prob...</details>|NeurIPS 2026 (workshop)|Samuel Chen et al.|[2611.17539](https://arxiv.org/abs/2611.17539)|null|
 |**2026-11-12**|<details><summary>Negative-Only Policy Optimization for One-Sided Verifiable Rewards</summary><br>Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided verifiability (OSV): verified negatives are reliable counterexamples, but verified positives are merely non-falsified candidates and may contain many false positives. This asymmetry m...</details>|NeurIPS 2026|Jiacheng Xu et al.|[2611.17287](https://arxiv.org/abs/2611.17287)|null|
 |**2026-11-10**|<details><summary>OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design</summary><br>Advances in large language models (LLMs) are enabling software-as-a-service (SaaS) providers to automate longer business workflows with agents. In subscription-based SaaS deployments, model and tool calls consume provider resources without additional customer payments. Because the agent autonomously decides when to stop, a malicious tenant can send a prompt to the agent, exploiting its completion decisions to extend execution and waste provider resources. In this paper, we present OverServe, a m...</details>|-|Ruiheng Yu et al.|[2611.14808](https://arxiv.org/abs/2611.14808)|null|
 |**2026-11-10**|<details><summary>ProofCoder: Continuous Reasoning for Automated Software Verification</summary><br>Formal verification using proof assistants provides strong correctness guarantees for software, but constructing proofs remains labor-intensive and requires significant expertise. Recent approaches based on large language models (LLMs) have shown promise in automating proof synthesis. However, these approaches typically constrain the model to a rigid tactic-generation loop, in which the surrounding system controls premise retrieval, proof-state management, and backtracking. We introduce ProofCod...</details>|-|Martim Afonso et al.|[2611.14106](https://arxiv.org/abs/2611.14106)|null|
