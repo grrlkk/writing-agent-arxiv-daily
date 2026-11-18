@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-17** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-18** (UTC).
 Back to the [main page](../README.md).
 
-947 of 3767 papers carry venue evidence.
+955 of 3803 papers carry venue evidence.
 
-## Top-tier venues (630)
+## Top-tier venues (633)
 
 ### EMNLP (166)
 
@@ -299,13 +299,15 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (84)
+### NeurIPS (86)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-17**|Long-Context Generation Is a Sampling Problem (When You Turn Up the Heat)|NeurIPS 2026|Writing Agent|[2611.22148](https://arxiv.org/abs/2611.22148)|
+|**2026-11-16**|MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis|NeurIPS 2026|Reward & Value Models|[2611.20671](https://arxiv.org/abs/2611.20671)|
 |**2026-11-14**|Empowering Masked Diffusion Models to Self-Correct with Leave-One-Out Transformers|NeurIPS 2026|Self-Refine & Self-Correction|[2611.19127](https://arxiv.org/abs/2611.19127)|
-|**2026-11-13**|MemeEconomy: Do LLM Agents Trade Ethics for Survival?|NeurIPS 2026|Reward & Value Models|[2611.18908](https://arxiv.org/abs/2611.18908)|
 |**2026-11-13**|ParetoM$^3$: Learning on the Pareto Set under Preference Guidance via Min-Max-Min Optimization|NeurIPS 2026|Reward & Value Models|[2611.18252](https://arxiv.org/abs/2611.18252)|
+|**2026-11-13**|MemeEconomy: Do LLM Agents Trade Ethics for Survival?|NeurIPS 2026|Reward & Value Models|[2611.18908](https://arxiv.org/abs/2611.18908)|
 |**2026-11-12**|Negative-Only Policy Optimization for One-Sided Verifiable Rewards|NeurIPS 2026|Search & Control for Generation|[2611.17287](https://arxiv.org/abs/2611.17287)|
 |**2026-11-10**|Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling|NeurIPS 2026|Reward & Value Models|[2611.13477](https://arxiv.org/abs/2611.13477)|
 |**2026-11-09**|Variational Approach to Optimal IPS Estimator for Multi-logger Off-Policy Evaluation|NeurIPS 2026|Reward & Value Models|[2611.11712](https://arxiv.org/abs/2611.11712)|
@@ -461,7 +463,7 @@ Back to the [main page](../README.md).
 |**2024-05-26**|Automatically Generating Numerous Context-Driven SFT Data for LLMs across Diverse Granularity|AAAI 2024|Multilingual & Cross-Lingual Agents|[2405.16579](https://arxiv.org/abs/2405.16579)|
 |**2024-05-02**|The Psychosocial Impacts of Generative AI Harms|AAAI 2024|Writing Agent|[2405.01740](https://arxiv.org/abs/2405.01740)|
 
-### ICLR (62)
+### ICLR (63)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -477,6 +479,7 @@ Back to the [main page](../README.md).
 |**2025-10-24**|Beyond Pairwise: Empowering LLM Alignment With Ranked Choice Modeling|ICLR 2026|Synthetic Preference Data|[2510.23631](https://arxiv.org/abs/2510.23631)|
 |**2025-10-17**|Learning Correlated Reward Models: Statistical Barriers and Opportunities|ICLR 2026|Synthetic Preference Data|[2510.15839](https://arxiv.org/abs/2510.15839)|
 |**2025-10-17**|When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling|ICLR 2026|Writing Agent|[2510.15346](https://arxiv.org/abs/2510.15346)|
+|**2025-10-16**|Antislop: A Comprehensive Framework for Identifying and Eliminating Repetitive Patterns in Language Models|ICLR 2025|Search & Control for Generation, Writing Agent|[2510.15061](https://arxiv.org/abs/2510.15061)|
 |**2025-10-16**|Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries|ICLR 2026|Writing Agent|[2510.14751](https://arxiv.org/abs/2510.14751)|
 |**2025-10-15**|Towards Understanding Valuable Preference Data for Large Language Model Alignment|ICLR 2026|Synthetic Preference Data|[2510.13212](https://arxiv.org/abs/2510.13212)|
 |**2025-10-13**|Representation-Based Exploration for Language Models: From Test-Time to Post-Training|ICLR 2026|Search & Control for Generation|[2510.11686](https://arxiv.org/abs/2510.11686)|
@@ -789,7 +792,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-11-12**|Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression|WSDM|Synthetic Preference Data|[2611.16384](https://arxiv.org/abs/2611.16384)|
 
-## Findings tracks (94)
+## Findings tracks (95)
 
 ### EMNLP (60)
 
@@ -897,10 +900,11 @@ Back to the [main page](../README.md).
 |**2024-06-18**|CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis|NAACL 2024 (findings)|Writing Agent|[2406.12665](https://arxiv.org/abs/2406.12665)|
 |**2024-04-10**|Groundedness in Retrieval-augmented Long-form Generation: An Empirical Study|NAACL 2024 (findings)|Writing Agent|[2404.07060](https://arxiv.org/abs/2404.07060)|
 
-### EACL (2)
+### EACL (3)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-16**|EVIDENT: Evaluating Evidence Grounding in GUI Agents|EACL 2027 (findings)|Multilingual & Cross-Lingual Agents|[2611.20488](https://arxiv.org/abs/2611.20488)|
 |**2024-02-14**|GrounDial: Human-norm Grounded Safe Dialog Response Generation|EACL 2024 (findings)|Search & Control for Generation|[2402.08968](https://arxiv.org/abs/2402.08968)|
 |**2024-02-02**|Let's Negotiate! A Survey of Negotiation Dialogue Systems|EACL 2024 (findings)|Multilingual & Cross-Lingual Agents|[2402.01097](https://arxiv.org/abs/2402.01097)|
 
@@ -910,12 +914,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2025-12-22**|EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration|CVPR 2026 (findings)|Reward & Value Models|[2512.19396](https://arxiv.org/abs/2512.19396)|
 
-## Other venues (38)
+## Other venues (39)
 
-### ACM MM (9)
+### ACM MM (10)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-16**|EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary|ACM MM 2026|Text Quality Evaluation|[2611.21690](https://arxiv.org/abs/2611.21690)|
 |**2026-10-29**|Aligning Medical Vision Language Models at the Capability Boundary with Entropy Adaptive Rubric Grounding|ACM MM 2026|Reward & Value Models|[2610.39835](https://arxiv.org/abs/2610.39835)|
 |**2026-08-27**|TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation|ACM MM 2026|Multilingual & Cross-Lingual Agents, Text Quality Evaluation|[2608.27127](https://arxiv.org/abs/2608.27127)|
 |**2026-08-05**|CSGen: A Multi-Domain Curvilinear Structure Generation Model via Hierarchical Multimodal Diffusion|ACM MM 2026|Semantic Drift & Faithfulness|[2608.04655](https://arxiv.org/abs/2608.04655)|
@@ -980,12 +985,15 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (135)
+## Workshops (138)
 
-### NeurIPS (43)
+### NeurIPS (46)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-16**|Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.21538](https://arxiv.org/abs/2611.21538)|
+|**2026-11-16**|AdMem: Expectation-Grounded Procedural Memory for Long-Horizon Task-Solving Agents|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.20605](https://arxiv.org/abs/2611.20605)|
+|**2026-11-16**|Contrastive Activation-Guided Zeroth-Order Preference Optimisation for Memory-Efficient LLM Alignment|NeurIPS 2026 (workshop)|Synthetic Preference Data|[2611.20635](https://arxiv.org/abs/2611.20635)|
 |**2026-11-12**|Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents|NeurIPS 2026 (workshop)|Search & Control for Generation|[2611.17539](https://arxiv.org/abs/2611.17539)|
 |**2026-11-10**|MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation|NeurIPS 2026 (workshop)|Self-Refine & Self-Correction|[2611.14675](https://arxiv.org/abs/2611.14675)|
 |**2026-11-09**|Wrong the Same Way: Cross-Prompt Sharing Both Suppresses and Amplifies Reward Hacking in RLVR|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.13218](https://arxiv.org/abs/2611.13218)|
