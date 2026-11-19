@@ -1,18 +1,18 @@
 # Archive
 
 Every paper ever matched, one page per topic so no single file grows past what
-GitHub will render. Newest first within each page. Generated on **2026-11-18** (UTC).
+GitHub will render. Newest first within each page. Generated on **2026-11-19** (UTC).
 Back to the [main page](../README.md) · [papers by venue](venues.md).
 
-- [Multilingual & Cross-Lingual Agents](topics/multilingual-cross-lingual-agents.md) — 480 papers
-- [Writing Agent](topics/writing-agent.md) — 518 papers
+- [Multilingual & Cross-Lingual Agents](topics/multilingual-cross-lingual-agents.md) — 482 papers
+- [Writing Agent](topics/writing-agent.md) — 519 papers
 - [Iterative Revision & Text Editing](topics/iterative-revision-text-editing.md) — 199 papers
-- [Self-Refine & Self-Correction](topics/self-refine-self-correction.md) — 337 papers
-- [Reward & Value Models](topics/reward-value-models.md) — 881 papers
-- [Synthetic Preference Data](topics/synthetic-preference-data.md) — 433 papers
+- [Self-Refine & Self-Correction](topics/self-refine-self-correction.md) — 340 papers
+- [Reward & Value Models](topics/reward-value-models.md) — 886 papers
+- [Synthetic Preference Data](topics/synthetic-preference-data.md) — 434 papers
 - [Text Quality Evaluation](topics/text-quality-evaluation.md) — 668 papers
 - [Semantic Drift & Faithfulness](topics/semantic-drift-faithfulness.md) — 256 papers
-- [Search & Control for Generation](topics/search-control-for-generation.md) — 266 papers
+- [Search & Control for Generation](topics/search-control-for-generation.md) — 267 papers
 - [Korean Writing & NLP](topics/korean-writing-nlp.md) — 73 papers
 
-4111 entries across 10 topics (a paper matching two topics is listed on both pages).
+4124 entries across 10 topics (a paper matching two topics is listed on both pages).

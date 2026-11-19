@@ -3,23 +3,23 @@
   "topics": {
    "Iterative Revision & Text Editing": 199,
    "Korean Writing & NLP": 73,
-   "Multilingual & Cross-Lingual Agents": 480,
-   "Reward & Value Models": 881,
-   "Search & Control for Generation": 266,
-   "Self-Refine & Self-Correction": 337,
+   "Multilingual & Cross-Lingual Agents": 482,
+   "Reward & Value Models": 886,
+   "Search & Control for Generation": 267,
+   "Self-Refine & Self-Correction": 340,
    "Semantic Drift & Faithfulness": 256,
-   "Synthetic Preference Data": 433,
+   "Synthetic Preference Data": 434,
    "Text Quality Evaluation": 668,
-   "Writing Agent": 518
+   "Writing Agent": 519
   },
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "venue_tiers": {
-   "demo": 9,
+   "demo": 10,
    "findings": 95,
-   "none": 2848,
+   "none": 2850,
    "other": 39,
    "strong": 41,
-   "top": 633,
+   "top": 642,
    "workshop": 138
   }
  },
@@ -5413,8 +5413,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7420,7 +7422,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -7461,7 +7463,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -7497,7 +7499,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -11129,7 +11131,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -11163,7 +11165,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -28801,6 +28803,7 @@
      "Weihao Li",
      "Jingxuan Xu",
      "Zihang Xu",
+     "Ziqi Miao",
      "Gang Wu",
      "Zhongqiu Wang",
      "Yuhui Bai",
@@ -28821,7 +28824,7 @@
     "matched": [
      "multilingual"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2610.16859v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.16859v3",
     "primary_category": "cs.CL",
     "published": "2026-10-12",
     "s2": {
@@ -28835,12 +28838,12 @@
     "tier": "none",
     "title": "ANCHOR: Assessing Naturalistic Constraint Hierarchies and Ordering in Repository-Grounded Agentic Coding",
     "track": "",
-    "updated": "2026-10-14",
+    "updated": "2026-11-17",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2610.16859v2"
+    "version": "2610.16859v3"
    },
    "2610.17643": {
     "abs_url": "https://arxiv.org/abs/2610.17643",
@@ -29500,7 +29503,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29547,7 +29550,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "Review"
      ],
@@ -29588,7 +29591,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29627,9 +29630,9 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -29639,8 +29642,8 @@
     "track": "findings",
     "updated": "2026-10-16",
     "venue": "EMNLP",
-    "venue_evidence": "14 pages, 3 figures, Findings of EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2610.23205v1"
    },
@@ -29663,7 +29666,7 @@
     "primary_category": "cs.SI",
     "published": "2026-10-08",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29698,7 +29701,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29739,9 +29742,9 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -29751,8 +29754,8 @@
     "track": "findings",
     "updated": "2026-10-18",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP2026 Findings",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2610.25208v1"
    },
@@ -29779,7 +29782,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29818,7 +29821,7 @@
     "primary_category": "econ.GN",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -29862,7 +29865,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -31917,6 +31920,84 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.22017v1"
+   },
+   "2611.22262": {
+    "abs_url": "https://arxiv.org/abs/2611.22262",
+    "authors": [
+     "Hanfeng Liu",
+     "Zhenyu Luo",
+     "Dongchao Zhang",
+     "Zexi Liu",
+     "Zulong Chen",
+     "Jinxin Hu",
+     "Jia Xu",
+     "Zeyi Wen"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.22262",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22262v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Broad workplace scores can mix competence within one business function with the extra cost of coordinating across functions and systems, making failures hard to localize. OfficePrism evaluates this prerequisite through 420 single-domain enterprise tasks spanning seven business functions under shared, benchmark-defined L1--L3 task-structure levels. Each task runs in a fresh environment combining a shared synthetic organization with one function-specific domain and yped state access. Our pipeline uses grounded records, business rules, and tool schemas to jointly construct a Chinese-language ticket, a hidden executable reference witness, and an expected response, followed by automated filtering and human curation. The same task set is evaluated through full-schema and search-and-dispatch packages. Across 124 model--harness--package configurations, the per-case joint natural-language-and-database pass rate ranges from 22.6% to 76.4%, with a median of 67.9%. L1 is highest in all 124 configurations, and L2 exceeds L3 in 122. Among 50 configurations sharing the same harness and model labels across both packages, search scores higher in 30, ties in one, and scores lower in 19.",
+    "tier": "none",
+    "title": "OfficePrism: Benchmarking Agents on Single-Domain Operations Across Enterprise Business Functions",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22262v1"
+   },
+   "2611.22511": {
+    "abs_url": "https://arxiv.org/abs/2611.22511",
+    "authors": [
+     "Wei Hou",
+     "Jingxin Geng",
+     "Xin Chen",
+     "Zheqing Jiang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.22511",
+    "journal_ref": "",
+    "matched": [
+     "chinese"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22511v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Interpretability for AI agents should not be confined to understanding the model's internal weights. It must also cover the agent's reasoning and decision-making process over multi-source context. We present LMLineage, an out-of-band system that attributes every output sentence of an agent session to its supporting input spans with calibrated confidences, without requiring white-box access to the model or any additional inference passes. On top of the lineage metadata, we build concept-drift micro compaction: instead of waiting for the context-length limit and summarizing everything, the system detects when previously used input documents have stopped being referenced (\"drifted\") and surgically compacts only those, preserving user instructions verbatim. We evaluate on a multi-tier corpus: 71 gold annotated sentences from 10 Chinese web-QA cases, plus 90 turns of independently collected multi-turn sessions across three generator models (gpt-4o-mini, qwen3.8-27b, deepseek-v4-flash). Results show that (i) window-level embedding similarity is far better aligned with LLM paraphrasing than whole document or lexical matching; (ii) the greedy-window fast path is both faster and more accurate on average than exhaustive line-matching (a multiple-comparisons bias in the latter inflates web recall at the cost of overall accuracy); (iii) per-turn attribution completes in 1s on a single GPU, remaining stable as context accumulates to 40 turns; and (iv) concept-drift detection is conservative (0% false compaction) with recall bounded by attribution accuracy. We further describe the concept-drift micro compaction design and an interactive incident-tracing/memory-cleaning case study. A companion patent application covers the lineage construction method.",
+    "tier": "none",
+    "title": "LMLineage: Content Lineage and Context Governance for LLM Agents",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22511v1"
    }
   },
   "Reward & Value Models": {
@@ -43251,7 +43332,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43289,7 +43370,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43327,11 +43408,11 @@
     "primary_category": "cs.CL",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference and Labs of the Evaluation Forum",
      "year": 2026
     },
     "status": "unknown",
@@ -43377,7 +43458,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43417,7 +43498,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43453,7 +43534,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43489,7 +43570,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43532,7 +43613,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43573,7 +43654,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43622,7 +43703,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43661,7 +43742,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43704,7 +43785,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43750,23 +43831,23 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Powered by advances in LLMs and autonomous agents, deep research has become one of the most widely adopted agentic products. However, most deep research systems write general-purpose reports, which are inadequate for financial deep research. Financial research demands specialized knowledge to analyze historical patterns and forecast upcoming events. Automating financial deep research therefore requires both a layered harness to drive the research agent and a verifiable, point-in-time benchmark that prevents leakage of future information. We present FinanceHarness, a harness that runs finance-oriented tools and practitioner-guided workflows, automating financial deep research end to end: environment and data construction, the agent execution loop, and reward modeling. We further propose FinanceGym, comprising thesis-driven research questions and rubrics that combine pre-cutoff and post-cutoff criteria. Professional expert validation yields an 82% pass rate. With the same open-weight backbone, FinanceHarness improves the overall rubric score from 25.3% to 32.4%, demonstrating the effectiveness of our specialized harness design. However, even pairing FinanceHarness with the most cutting edge LLM (e.g. Opus-5), the FinanceGym score is below 45%, showing that it is a challenging benchmark for financial deep research. Leaderboard is available at: https://financegym.github.io/ and FinanceHarness code is available at: https://github.com/Yijia-Xiao/FinanceHarness.",
-    "tier": "none",
+    "tier": "top",
     "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-07",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2607.27853v2"
    },
    "2607.28609": {
@@ -43809,7 +43890,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43847,7 +43928,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-25",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43886,7 +43967,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43924,7 +44005,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -43967,7 +44048,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -44008,7 +44089,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -44047,7 +44128,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -44088,8 +44169,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44124,8 +44207,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44161,7 +44246,7 @@
     "primary_category": "cs.CV",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -44200,23 +44285,25 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
+      "JournalArticle",
+      "Conference",
       "Review"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Large language models are being extensively used to simulate individual user behavior, yet faithfully representing a population requires capturing the systematic variation in values, beliefs, and cultural norms that distinguish one group from another. We introduce Population Aligned Language Models (PALMs), a suite of models each aligned to specific populations, covering five countries: USA, India, Brazil, France and Italy. PALMs are created by synthesizing rationales grounded in psychological and cultural constructs and using these as latent supervision during preference tuning for population-specific alignment. Evaluated across four dimensions: personality, values and beliefs, cultural norms, and morality, PALMs consistently outperform baselines, including culture-specialized models, achieving an average of 8.59% relative improvement over the best baseline across all five populations. Notably, construct-grounded rationales outperform both demographic prompting and survey-based fine-tuning, suggesting that grounding preference learning in psychology and culture provides a richer inductive signal than surface-level response distributions. We further demonstrate strong generalization to downstream applications with- out task-specific supervision: outperforming best baselines by 5.19% in personalized reward modeling, 6.34% in population simulation, and showing strong transfer to social reasoning tasks. Datasets and code are available at: https://github.com/limenlp/PALMs.",
-    "tier": "none",
+    "tier": "top",
     "title": "PALMs: Using Multi Construct-Grounded Rationales for Modeling Population Preferences in LLMs",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-02",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.01458v1"
    },
    "2608.02786": {
@@ -44236,8 +44323,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44272,8 +44361,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44311,8 +44402,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44348,8 +44441,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44386,8 +44481,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44464,8 +44561,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44505,8 +44604,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44545,8 +44646,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44584,8 +44687,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44621,8 +44726,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44659,8 +44766,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44704,8 +44813,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44740,8 +44851,10 @@
     "primary_category": "cs.GT",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44780,8 +44893,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44820,8 +44935,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44856,8 +44973,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -44942,8 +45061,9 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -45021,8 +45141,10 @@
     "primary_category": "cs.RO",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45057,8 +45179,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45096,8 +45220,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45139,21 +45265,23 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but context grows rapidly while the marginal value of additional evidence often declines. This leads to unnecessary token cost, higher latency, and noisier inputs for final report generation. We study marginal value estimation for context management in deep research agents and present the first systematic stage-aware comparison of pruning strategies across the pipeline. We evaluate lightweight heuristic criteria and a learned value model at pre-retrieval, post-retrieval, and pre-synthesis stages. Our results show that pruning effectiveness depends more on where pruning is applied than on the specific scoring rule: early pruning yields the largest end-to-end savings, while later pruning mainly refines the final synthesis context. Lightweight heuristics reduce token usage by up to 73% with little quality degradation, learned pruning remains competitive on selected trade-offs, and no single method dominates across quality, efficiency, and faithfulness. These findings provide practical guidance for designing efficient long-horizon agentic systems.",
-    "tier": "none",
+    "tier": "top",
     "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-01",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.08389v2"
    },
    "2608.08491": {
@@ -45192,8 +45320,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45272,8 +45402,9 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -45311,8 +45442,10 @@
     "primary_category": "cs.HC",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45346,8 +45479,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45382,8 +45517,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45419,8 +45556,10 @@
     "primary_category": "cs.IR",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45467,8 +45606,10 @@
     "primary_category": "cs.RO",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45504,8 +45645,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45547,9 +45690,13 @@
     "primary_category": "cs.LG",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle",
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 7th ACM International Conference on AI in Finance",
      "year": 2026
     },
     "status": "unknown",
@@ -45585,8 +45732,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45621,8 +45770,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45658,8 +45809,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45697,8 +45850,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45732,7 +45887,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45766,8 +45921,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45803,8 +45960,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45842,21 +46001,23 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Achieving effective self-correction, where models verify and correct their own mistakes, remains a fundamental challenge for large language models (LLMs). In this work, we propose Self-Fix Step-DPO (SFS-DPO), a reinforcement learning based, two-stage framework for step-level self-verification and self-correction. The first stage strengthens step-level reasoning via step-level preference optimization, while the second stage explicitly trains models to self-verify and self-correct. We further introduce a teacher-assisted variant, SFS-DPO-R, which incorporates explanatory rationales for error verification to provide stronger corrective signals. Comprehensive in-domain and out-of-domain evaluations across multiple LLMs demonstrate that SFS-DPO and SFS-DPO-R consistently outperform prior step-level training baselines. Our analysis further reveals improvements in self-correction frequency and effectiveness, highlighting the importance of strengthening step-level reasoning for robust performance.",
-    "tier": "none",
+    "tier": "top",
     "title": "Reinforcing Step-level Reasoning for Effective Self-Correction in LLMs",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-31",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.11573v2"
    },
    "2608.11669": {
@@ -45884,7 +46045,7 @@
     "primary_category": "cs.LG",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -45928,8 +46089,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -45975,8 +46138,10 @@
     "primary_category": "cs.SD",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46012,8 +46177,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46054,8 +46221,10 @@
     "primary_category": "stat.ML",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46092,8 +46261,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46132,8 +46303,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46166,8 +46339,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46208,8 +46383,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46247,8 +46424,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46283,8 +46462,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46320,8 +46501,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46362,9 +46545,13 @@
     "primary_category": "cs.IR",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "Book",
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management",
      "year": 2026
     },
     "status": "unknown",
@@ -46406,8 +46593,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46442,8 +46631,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46486,8 +46677,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46526,8 +46719,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46563,8 +46758,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46598,8 +46795,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46635,8 +46834,10 @@
     "primary_category": "cs.IR",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46672,8 +46873,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46711,9 +46914,13 @@
     "primary_category": "cs.CV",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle",
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
      "year": 2026
     },
     "status": "unknown",
@@ -46746,8 +46953,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46783,8 +46992,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46822,8 +47033,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46859,8 +47072,10 @@
     "primary_category": "cs.MA",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -46897,9 +47112,13 @@
     "primary_category": "cs.AI",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle",
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
      "year": 2026
     },
     "status": "unknown",
@@ -52435,21 +52654,23 @@
     "primary_category": "cs.CL",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "With the widespread industrial deployment of Large Language Models (LLMs), DeepSearch has emerged as the dominant paradigm for resolving complex user queries. It typically operates through an iterative closed-loop workflow consisting of planning and reflection, information retrieval, and answer generation. However, existing reward models (RMs) and evaluation benchmarks are primarily designed for static single-turn tasks, failing to capture the full-pipeline complexity of DeepSearch workflows. To address this limitation, we propose F2DR, a fine-grained full-pipeline DeepSearch reward framework. F2DR evaluates DeepSearch workflows across three dimensions: Content, Trajectory, and Answer, enabling comprehensive process-level assessment. We further construct DeepSearch RM-Bench, a dedicated benchmark for evaluating RMs in DeepSearch scenarios. Extensive experiments demonstrate that F2DR achieves significantly higher evaluation consistency than self-evaluation-based baselines, while DeepSearch RM-Bench exhibits strong discriminative capability across existing open-source RMs. We will publicly release the complete DeepSearch RM-Bench dataset soon.",
-    "tier": "none",
+    "tier": "top",
     "title": "F$^{2}$DR: A Fine-Grained Full-Pipeline Reward Framework for DeepSearch Workflows",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-19",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.19827v2"
    },
    "2609.20124": {
@@ -52474,8 +52695,10 @@
     "primary_category": "cs.SD",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -52508,8 +52731,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -60975,7 +61200,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61010,7 +61235,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61054,7 +61279,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61092,9 +61317,9 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -61104,8 +61329,8 @@
     "track": "findings",
     "updated": "2026-10-16",
     "venue": "EMNLP",
-    "venue_evidence": "14 pages, 3 figures, Findings of EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2610.23205v1"
    },
@@ -61133,7 +61358,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61168,7 +61393,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61210,7 +61435,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61253,7 +61478,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61287,7 +61512,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61324,7 +61549,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61364,7 +61589,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-17",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61405,9 +61630,9 @@
     "primary_category": "cs.SD",
     "published": "2026-10-17",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -61417,8 +61642,8 @@
     "track": "findings",
     "updated": "2026-10-17",
     "venue": "EMNLP",
-    "venue_evidence": "Findings of EMNLP 2026. Project page: https://jaeyeonkim99.github.io/llt",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2610.24409v1"
    },
@@ -61441,7 +61666,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61484,10 +61709,10 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "accepted",
     "summary": "Flexible switching between reasoning trajectories (i.e., thought switching) has significantly enhanced the reasoning capabilities of Large Reasoning Models (LRMs). However, existing models often switch excessively yet fail to sustain promising reasoning thoughts, a phenomenon termed \"under-thinking\". While recent efforts suppress switching to mitigate this, such over-correction may discard valuable trajectories. To address this challenge, we propose Steady Thought (ST), a novel thought-level preference optimization framework. ST formalizes under-thinking as a preference issue at switching points, forcing single-path continuations from identified points to yield high-quality reasoning. Then, ST performs thought-level preference optimization by treating the newly generated response as preferred and the original one as dis-preferred. Experiments across multiple models and datasets show that ST effectively reduces token consumption, achieving reductions of up to 63.8%, while maintaining strong reasoning accuracy. Further analysis suggests that ST helps models acquire a generalizable ability to reduce redundant switching across domains and languages. Code is available at https://github.com/MIRALab-USTC/SteadyThought.",
@@ -61523,7 +61748,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61557,7 +61782,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61602,7 +61827,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61637,7 +61862,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61673,7 +61898,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61710,7 +61935,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": ""
@@ -61747,7 +61972,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61785,7 +62010,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": ""
@@ -61826,7 +62051,7 @@
     "primary_category": "cs.CR",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61863,7 +62088,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61902,7 +62127,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -61937,7 +62162,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": ""
@@ -64802,7 +65027,7 @@
     "matched": [
      "reward model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2611.03244v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03244v2",
     "primary_category": "cs.LG",
     "published": "2026-11-02",
     "s2": {
@@ -64816,12 +65041,12 @@
     "tier": "none",
     "title": "Forecasting How RLHF Responds to Reward-Model Edits Before Training",
     "track": "",
-    "updated": "2026-11-02",
+    "updated": "2026-11-17",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2611.03244v1"
+    "version": "2611.03244v2"
    },
    "2611.03525": {
     "abs_url": "https://arxiv.org/abs/2611.03525",
@@ -67567,6 +67792,200 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.22210v1"
+   },
+   "2611.22270": {
+    "abs_url": "https://arxiv.org/abs/2611.22270",
+    "authors": [
+     "Seiya Kawano",
+     "Koji Marusaki",
+     "Hirofumi Nonaka",
+     "Koichiro Yoshino"
+    ],
+    "code_url": "",
+    "comment": "13 pages, 3 figures, 3 tables. Accepted at NLPIR 2026",
+    "first_seen": "2026-11-19",
+    "id": "2611.22270",
+    "journal_ref": "",
+    "matched": [
+     "preference learning"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22270v1",
+    "primary_category": "cs.IR",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Patent prior-art searchers issue Boolean queries line by line, broadening to find relevant documents and narrowing until candidates can be screened. We distill 38,397 Japan Patent Office search reports into executable expert strategies, re-execute them, and evaluate generated strategies by citation recall and the smallest set containing each citation. Prompted models write valid, high-recall strategies but leave citations in sets too large to screen. We adapt a generator offline from scored rollouts in two forms: strategy-level learning from a screening-aware strategy score, and line-level learning from citation-preserving narrowing credit, which upweights the query lines keeping a found citation in a smaller set. On shared rollouts, line-level credit outperforms strategy-level scores on screening measures; iterated, it cuts the median citation-containing set from 768 to under 50 and places more citations in sets under 100 documents than experts, at lower recall. Strategy-level preference learning reaches near-complete recall; the two forms are complementary.",
+    "tier": "none",
+    "title": "Teaching Language Models to Narrow Boolean Patent Searches from Search Feedback",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22270v1"
+   },
+   "2611.22495": {
+    "abs_url": "https://arxiv.org/abs/2611.22495",
+    "authors": [
+     "Li Li",
+     "Xiangbo Gao",
+     "Bo Ni",
+     "Samyadeep Basu",
+     "Viet Dac Lai",
+     "Jing Shi",
+     "Seunghyun Yoon",
+     "Gang Wu",
+     "Yu Wang",
+     "Thien Huu Nguyen",
+     "Tyler Derr",
+     "Franck Dernoncourt",
+     "Zhengzhong Tu",
+     "Yue Zhao"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.22495",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22495v1",
+    "primary_category": "cs.CV",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Reward models for instruction-guided video editing can favor temporal consistency at the expense of motion. We study this failure, termed \\emph{motion collapse}, using controlled motion-suppression variants of real edits. On VE-Bench, the evaluated composite reward prefers a motion-suppressed candidate in $97\\%$ of cases. Learned video rewards and a VLM judge also struggle with mild suppression, while latent optimization and reward-guided fine-tuning exploit this weakness to increase reward as motion declines. A linear probe of our base reward backbone performs near chance on mild suppression, motivating an explicit inter-frame dynamics input. We propose a motion-aware reward model that combines an RGB frame-difference stream with preference training against motion-suppressed and fabricated-motion negatives. A distillation anchor preserves alignment with human quality judgments. On the VE-Bench motion ladder, our model reduces the rate of selecting motion-suppressed candidates to $0\\%$ while achieving a Spearman correlation of $0.57$ with human quality ratings. It also detects unseen suppression variants and preserves motion during reward-guided fine-tuning on two editing pipelines. These results support explicitly modeling motion in rewards for video editing.",
+    "tier": "none",
+    "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22495v1"
+   },
+   "2611.22838": {
+    "abs_url": "https://arxiv.org/abs/2611.22838",
+    "authors": [
+     "Yuheng Chen",
+     "Fan Zhang",
+     "Yixuan Xu",
+     "Chao Yang",
+     "Yang Xiang",
+     "Can Yang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.22838",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22838v1",
+    "primary_category": "cs.IR",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Generative recommenders decode the semantic ID of a user's next item with a language model, and post-training them with reinforcement learning (RL) after supervised fine-tuning (SFT) has become standard practice. The gains are mostly reported on the first ten results, yet in deployment such models hand hundreds of candidates to a downstream ranker or reward model. We show that RL post-training has a hidden cost: it improves accuracy at the top of the list (hit@K for small K) but, on all five datasets we study, lowers the recall of the candidate list (hit@K for K in the hundreds). The model becomes a better ranker and a worse retriever. Controlled experiments trace the loss to the negative advantages that RL assigns to the candidates it samples, the rollout. The root cause is that only one next item is logged per user, so RL treats every other candidate as wrong. Yet these candidates are the model's most plausible alternatives, and often the next items of other users with similar histories. Penalising them pushes down exactly what similar users choose next, and these items drop out of those users' candidate lists. This diagnosis points directly to a remedy: out-of-rollout anchoring, a single additional loss term that preserves the SFT model's ordering of the items outside the rollout. It keeps the gain at the top and restores recall to the SFT level on all five datasets, and it is effective under other RL configurations as well. To our knowledge, this is the first systematic study of this recall loss: we measure it, identify its cause, and show that, once the cause is known, a simple remedy suffices.",
+    "tier": "none",
+    "title": "Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22838v1"
+   },
+   "2611.22921": {
+    "abs_url": "https://arxiv.org/abs/2611.22921",
+    "authors": [
+     "Tung Dang",
+     "The Hung Phung",
+     "Son Lam Nguyen",
+     "Tu Nguyen"
+    ],
+    "code_url": "",
+    "comment": "40 pages",
+    "first_seen": "2026-11-19",
+    "id": "2611.22921",
+    "journal_ref": "",
+    "matched": [
+     "value model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22921v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Prescriptive analytics initiatives in logistics, such as offline reinforcement learning and next-best-action systems, are often funded before anyone verifies that the available historical logs can support an improved decision policy. We formalise this pre-investment feasibility question via action-outcome coupling: a total-effect variance index measuring how much expected outcomes change with the logged action. Coupling provides an algorithm-independent upper bound on any policy's achievable value, expressed in monetary units per decision for both single-step and discounted sequential objectives. We also analyse the asymptotic false-licensing risk of an invalid workflow: fitting a value model and evaluating the model's greedy policy on the same data. The false-licence rate is driven mainly by the number of state cells over which selection is performed, rising from the nominal test level with one cell to near certainty with a few dozen, while overlap has a smaller effect. We then propose an audit that assigns logs to four tiers of decision support, separately for fixed and contextual policies, and returns an explicit stopping rationale. On a randomised e-commerce log, the audit endorses a fixed recommendation policy, certifying gains equal to 30 per cent of the theoretical ceiling; the remaining gap reflects bound looseness under an 80-action design. Two public logistics logs fail at different checkpoints: one because the target is an accounting identity of the action, and another because, with 27 clusters, estimated coupling stays below the design's detectability threshold even though a conservative offline learner certifies an improvement in 29 of 30 seeds.",
+    "tier": "none",
+    "title": "Action-outcome coupling: a pre-investment feasibility audit for offline reinforcement learning in supply chain operations",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22921v1"
+   },
+   "2611.23179": {
+    "abs_url": "https://arxiv.org/abs/2611.23179",
+    "authors": [
+     "Hansang Lee"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 6 figures, 19 tables. Main text and appendices",
+    "first_seen": "2026-11-19",
+    "id": "2611.23179",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23179v1",
+    "primary_category": "cs.CV",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and their lower hallucination rates bring no significant gain in set-level object F1 on CHAIR. We therefore ask how much of the PO gain the base model can reproduce by stopping earlier. A positive end-of-sequence (EOS) logit bias lets the base model reach the recall of each PO model, and this early stopping alone reproduces 58 to 86 percent of the CHAIRi gain of three checkpoints on two disjoint COCO sets. Writing longer does not bring the lost categories back. Under greedy decoding, a negative EOS bias recovers only 2 to 9 percent of the lost CHAIR recall of these checkpoints, and 94 to 96 percent of the added object mentions repeat categories already named. On CHAIR, the base caption of the same image still names about half of the missed object categories. We therefore propose base-guided object-category restoration, which appends high-confidence base-only categories to the PO caption without training. With thresholds fixed on a development set, it brings three checkpoints within one point of the base recall on a held-out COCO set with a lower distinct-object hallucination rate than the base model. Against the recall-matched base stopping curve, its gain holds for RLAIF-V near the base recall and for RLAIF-V and CHAIR-DPO at an intermediate recall. We will release the code of the recall-controlled evaluation.",
+    "tier": "none",
+    "title": "Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23179v1"
    }
   },
   "Search & Control for Generation": {
@@ -71620,7 +72039,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -71655,7 +72074,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -71693,7 +72112,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -71731,7 +72150,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -71770,23 +72189,23 @@
     "primary_category": "cs.CL",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Retrieval-Augmented Generation (RAG) typically assumes that external knowledge is free, but many high-quality sources are paywalled, licensed, restricted, or otherwise costly to access. We introduce cost-aware RAG, a setting where retrieved evidence is assigned access-cost tiers and systems must answer under an explicit evidence-access budget. We instantiate this setting by augmenting MS MARCO v2.1 with access-friction tiers and evaluate budgeted evidence selection across general-domain and domain-specific QA benchmarks. Our results show that static selection is brittle: no fixed selector uniformly dominates, and larger budgets do not reliably improve answer quality, even when costly evidence is domain-matched. We then study agentic cost-aware RAG, where an LLM decides when to retrieve, which tier to access, and when to stop. Agents show strong promise as adaptive evidence-acquisition controllers, but their behavior remains highly model- and task-dependent. These findings suggest that cost-aware evidence acquisition is a central challenge for the next generation of RAG systems. All code and data are available at https://github.com/Mignonmy/Cost-Aware.",
-    "tier": "none",
+    "tier": "top",
     "title": "When Knowledge Is Not Free: Cost-Aware Evidence Selection in Retrieval-Augmented Generation",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-01",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.02245v1"
    },
    "2606.02981": {
@@ -71807,7 +72226,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -71849,7 +72268,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -71891,7 +72310,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -71931,23 +72350,24 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Test-time scaling improves the reasoning performance of large language models but incurs substantial cost in both total computation and latency. Existing adaptive sampling methods partially mitigate this issue by dynamically deciding when to stop sampling, yet they typically rely on heuristic rules or rely on distribution assumptions. In this work, we formulate adaptive sampling as a Markov decision process (MDP). We train a lightweight sampling controller with reinforcement learning (RL) to jointly balance answer correctness, latency, and computation cost. At each round, the controller decides to stop sampling or to acquire additional samples. Our method is lightweight which only relies on statistics of final answers, and can be trained and deployed on CPU. We further show that the resulting framework admits an interpretation as the Lagrangian relaxation of a constrained optimization problem with explicit budget constraints. Experiments against strong baselines such as ASC and ESC show that our method achieves improved trade-offs among answer correctness, sampling rounds, and total samples required.",
-    "tier": "none",
+    "tier": "top",
     "title": "Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-02",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.03102v1"
    },
    "2606.04025": {
@@ -71968,7 +72388,7 @@
     "primary_category": "cs.SE",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72011,7 +72431,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72050,7 +72470,7 @@
     "primary_category": "cs.GR",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72092,7 +72512,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72131,7 +72551,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-07",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72174,7 +72594,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-07",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72218,7 +72638,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72254,7 +72674,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72300,7 +72720,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-09",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle",
       "Review"
@@ -72340,7 +72760,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-09",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72381,7 +72801,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-11",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72419,7 +72839,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-12",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72461,7 +72881,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-14",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72498,7 +72918,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72538,7 +72958,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72579,7 +72999,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72619,7 +73039,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72662,7 +73082,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle",
       "Review"
@@ -72699,7 +73119,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72736,7 +73156,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72774,7 +73194,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72817,7 +73237,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72856,7 +73276,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72897,7 +73317,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72936,7 +73356,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -72975,7 +73395,7 @@
     "primary_category": "cs.SE",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle",
       "Review"
@@ -73016,7 +73436,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73054,7 +73474,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73091,7 +73511,7 @@
     "primary_category": "cs.SE",
     "published": "2026-07-10",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73136,7 +73556,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73266,7 +73686,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73304,7 +73724,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73376,7 +73796,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73416,7 +73836,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73494,11 +73914,9 @@
     "primary_category": "cs.AI",
     "published": "2026-06-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [
-      "JournalArticle"
-     ],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "The Proceedings of the Third Workshop on Uncertainty-Aware NLP",
      "year": 2026
     },
     "status": "unknown",
@@ -73536,7 +73954,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73577,7 +73995,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73615,7 +74033,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -73653,8 +74071,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73690,8 +74110,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73726,8 +74148,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73769,8 +74193,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73809,8 +74235,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73845,8 +74273,10 @@
     "primary_category": "cs.GT",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73881,8 +74311,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73918,8 +74350,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73952,8 +74386,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -73987,8 +74423,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -74028,8 +74466,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -74062,7 +74502,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -74099,21 +74539,23 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize under fixed execution conditions and do not test recovery after those conditions change. To address this gap, we introduce PACE-Bench (Physics Adaptation via Code Evolution), a simulator-grounded benchmark of 144 source-to-target adaptation pairs across six physics domains. Each pair links a source environment to a mutated target environment with the same goal and interface. A code-driven design that succeeds in the source fails in the target, where agents must iteratively adapt it into a working target design using diagnostic sandbox feedback within a limited attempt budget. We compare ten self-evolving methods from four paradigms. The benchmark remains far from saturated: Reflexion + Qwen3-14B succeeds on only 35.9\\% of full-benchmark pairs, while GPT-5.5 solves 66.7\\% of the Statics subset under the full budget. Together, these results show that simulator-grounded reflection is more reliable than unverified self-revision, while memory anchors agents to early designs and broad tree search explores without converging. Even revealing exact physical changes does not raise the performance ceiling, pointing to mechanism redesign rather than parameter inference as the central bottleneck. Data and code are available at https://github.com/thunlp/PACE-Bench.",
-    "tier": "none",
+    "tier": "top",
     "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-14",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.14441v1"
    },
    "2608.16515": {
@@ -74135,8 +74577,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -74211,8 +74655,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -76661,7 +77107,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "Review"
      ],
@@ -76698,7 +77144,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": ""
@@ -76738,7 +77184,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -77951,7 +78397,7 @@
     "matched": [
      "when to stop"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2611.14808v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14808v2",
     "primary_category": "cs.CR",
     "published": "2026-11-10",
     "s2": {
@@ -77965,12 +78411,12 @@
     "tier": "none",
     "title": "OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design",
     "track": "",
-    "updated": "2026-11-10",
+    "updated": "2026-11-17",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2611.14808v1"
+    "version": "2611.14808v2"
    },
    "2611.16246": {
     "abs_url": "https://arxiv.org/abs/2611.16246",
@@ -77991,7 +78437,7 @@
     "matched": [
      "when to stop"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2611.16246v2",
+    "pdf_url": "https://arxiv.org/pdf/2611.16246v3",
     "primary_category": "cs.RO",
     "published": "2026-11-12",
     "s2": {
@@ -78001,16 +78447,16 @@
      "year": 2026
     },
     "status": "unknown",
-    "summary": "Vision-language-action (VLA) models drive the robot directly from camera views, yet a VLA alone shows three typical failures. It walks past the goal, stops before reaching it, and rarely recovers after going off track. Pairing a VLA with a large language model (LLM) planner fixes these failures, but queries the LLM throughout every episode, adding token costs and latency. We introduce Harness-to-Executor (H2E), a session-level distillation method that pairs an LLM planner and a frozen VLA as a heterogeneous training agent, keeps only sessions that reach the goal, and then trains a VLA alone on them so no LLM is used at test time. In these sessions, the planner gives sub-instructions and moves the robot with its own tools, detours are common, and the planner decides when to stop. H2E therefore labels every motion as a VLA action for the original task, whoever made it. It masks the loss on steps moving away from the goal and assigns end labels to states near it, so the VLA learns where the task ends. H2E sets a new state of the art on REVERIE-CE and NavRAG-CE. It raises an 8B VLA's success rate by 15.6% and 11.1% respectively, surpassing methods trained on 10M samples. The distilled VLA exceeds its agent on unseen episodes with zero LLM tokens and runs 3.7 times faster.",
+    "summary": "Vision-language-action (VLA) models drive the robot directly from camera views, yet a VLA alone shows three typical failures. It walks past the goal, stops before reaching it, and rarely recovers after going off track. Pairing a VLA with a large language model (LLM) planner fixes these failures, but queries the LLM throughout every episode, adding token costs and latency. We introduce Harness-to-Executor (H2E), a task-level distillation method that pairs an LLM planner and a frozen VLA as a heterogeneous training agent, keeps only sessions that reach the goal, and then trains a VLA alone on them so no LLM is used at test time. In these sessions, the planner gives sub-instructions and moves the robot with its own tools, detours are common, and the planner decides when to stop. H2E therefore labels every motion as a VLA action for the original task, whoever made it. It masks the loss on steps moving away from the goal and assigns end labels to states near it, so the VLA learns where the task ends. H2E sets a new state of the art on REVERIE-CE and NavRAG-CE. It raises an 8B VLA's success rate by 15.6% and 11.1% respectively, surpassing a method trained on 10M samples. The distilled VLA exceeds its agent on unseen episodes with zero LLM tokens and runs 3.7 times faster.",
     "tier": "none",
     "title": "What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation",
     "track": "",
-    "updated": "2026-11-16",
+    "updated": "2026-11-17",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2611.16246v2"
+    "version": "2611.16246v3"
    },
    "2611.17287": {
     "abs_url": "https://arxiv.org/abs/2611.17287",
@@ -78209,6 +78655,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.21083v1"
+   },
+   "2611.23154": {
+    "abs_url": "https://arxiv.org/abs/2611.23154",
+    "authors": [
+     "Mridul Mahajan",
+     "Xuezhou Zhang",
+     "Aldo Pacchiano"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.23154",
+    "journal_ref": "",
+    "matched": [
+     "inference-time scaling"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23154v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Inference-time scaling improves the performance of large language models by sampling multiple responses and evaluating their collective utility. However, many existing approaches obtain these samples by repeatedly sampling from a single policy. In this work, we study if the sample budget at inference time can instead be allocated across a population of policies. We introduce stratified policies, where each of $k$ learned policies contributes one response to a $k$-sample inference-time objective. We realize this policy population using separate LoRA adapters on a shared language model backbone and optimize it for pass@$k$. We theoretically motivate the approach by analyzing the linear setting; a population of LoRAs can achieve zero best-of-$k$ approximation error in settings where every single LoRA has strictly positive prediction error. Empirically, we demonstrate that stratified policies consistently improve pass@$k$ over a single-policy baseline across multiple reasoning tasks. Overall, our results highlight how distributing samples across complementary policies can be a more effective use of sample budget than repeated i.i.d. sampling from a single policy at inference time.",
+    "tier": "none",
+    "title": "Learning Stratified Policies for Inference-Time Objectives",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23154v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -83758,11 +84240,12 @@
     "primary_category": "cs.CV",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "European Conference on Computer Vision",
      "year": 2026
     },
     "status": "accepted",
@@ -83798,7 +84281,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -83838,7 +84321,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-28",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -83873,7 +84356,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -83912,7 +84395,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -83949,7 +84432,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -83993,7 +84476,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84029,7 +84512,7 @@
     "primary_category": "cs.SE",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84067,7 +84550,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84147,7 +84630,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84191,7 +84674,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84239,7 +84722,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84281,7 +84764,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84324,7 +84807,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84374,7 +84857,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84459,7 +84942,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle",
       "Review"
@@ -84497,7 +84980,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84538,7 +85021,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-10",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84589,7 +85072,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84625,7 +85108,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84661,7 +85144,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-11",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84742,10 +85225,8 @@
     "primary_category": "cs.AI",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-11-19",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -84784,7 +85265,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84866,7 +85347,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84908,11 +85389,12 @@
     "primary_category": "cs.AI",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "European Conference on Computer Vision",
      "year": 2026
     },
     "status": "accepted",
@@ -84950,7 +85432,7 @@
     "primary_category": "cs.SE",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -84992,7 +85474,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85066,7 +85548,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85102,7 +85584,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85142,7 +85624,7 @@
     "primary_category": "cs.CR",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85185,7 +85667,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85225,7 +85707,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85273,23 +85755,24 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "LLM agent failures are difficult to debug because the step where an error surfaces is often not the one that caused it. Existing observability tools replay execution traces but provide little support for identifying the root cause or translating diagnosis into recovery. We present AgentDebugX, an open-source debugging framework that organizes debugging as a closed loop of Detect, Attribute, Recover, and Rerun. At its core, DeepDebug performs multi-turn root-cause diagnosis through global trajectory understanding, structure-guided investigation, and cross-examination. On the Who and When benchmark, DeepDebug achieves the best strict attribution accuracy among the evaluated methods on both tested open-weight backbones, reaching 28.8 percent exact agent-and-step accuracy on qwen3.5-9b versus 21.7 percent for the strongest single-pass baseline. On GAIA, DeepDebug repairs 13 of 73 failed tasks in a single rerun, compared with 4 to 6 for three decoupled self-correction baselines, improving overall accuracy from 55.8 percent to 63.6 percent. AgentDebugX exposes this workflow through a Python library, CLI, web console, and installable agentic skill, and provides an opt-in Error Hub for sharing scrubbed failure-diagnosis-repair bundles and reusing them as debugging memory.",
-    "tier": "none",
+    "tier": "demo",
     "title": "AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents",
-    "track": "",
+    "track": "demo",
     "updated": "2026-07-21",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2607.18754v1"
    },
    "2607.21498": {
@@ -85310,7 +85793,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle",
       "Review"
@@ -85352,7 +85835,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85388,7 +85871,7 @@
     "primary_category": "cs.SE",
     "published": "2026-07-25",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle",
       "Review"
@@ -85473,11 +85956,12 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "European Conference on Computer Vision",
      "year": 2026
     },
     "status": "accepted",
@@ -85560,7 +86044,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-27",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85601,11 +86085,11 @@
     "primary_category": "cs.IR",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference and Labs of the Evaluation Forum",
      "year": 2026
     },
     "status": "unknown",
@@ -85643,7 +86127,7 @@
     "primary_category": "cs.SE",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85680,7 +86164,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85723,11 +86207,13 @@
     "primary_category": "cs.CV",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
-      "JournalArticle"
+      "Book",
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
      "year": 2026
     },
     "status": "accepted",
@@ -85767,7 +86253,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85826,7 +86312,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85863,7 +86349,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85901,7 +86387,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85941,7 +86427,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -85982,7 +86468,7 @@
     "primary_category": "cs.RO",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -86021,8 +86507,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86060,8 +86548,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86100,8 +86590,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86137,8 +86629,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86179,8 +86673,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86217,9 +86713,11 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Proceedings of the Second Workshop for REsearch on Agent Language Models (REALM 2026)",
      "year": 2026
     },
     "status": "unknown",
@@ -86254,8 +86752,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86289,8 +86789,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86328,8 +86830,10 @@
     "primary_category": "cs.SE",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86365,8 +86869,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86399,8 +86905,9 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -86437,8 +86944,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86476,8 +86985,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86512,8 +87023,10 @@
     "primary_category": "eess.SY",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86552,21 +87065,23 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Achieving effective self-correction, where models verify and correct their own mistakes, remains a fundamental challenge for large language models (LLMs). In this work, we propose Self-Fix Step-DPO (SFS-DPO), a reinforcement learning based, two-stage framework for step-level self-verification and self-correction. The first stage strengthens step-level reasoning via step-level preference optimization, while the second stage explicitly trains models to self-verify and self-correct. We further introduce a teacher-assisted variant, SFS-DPO-R, which incorporates explanatory rationales for error verification to provide stronger corrective signals. Comprehensive in-domain and out-of-domain evaluations across multiple LLMs demonstrate that SFS-DPO and SFS-DPO-R consistently outperform prior step-level training baselines. Our analysis further reveals improvements in self-correction frequency and effectiveness, highlighting the importance of strengthening step-level reasoning for robust performance.",
-    "tier": "none",
+    "tier": "top",
     "title": "Reinforcing Step-level Reasoning for Effective Self-Correction in LLMs",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-31",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.11573v2"
    },
    "2608.11924": {
@@ -86594,8 +87109,9 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -86633,8 +87149,10 @@
     "primary_category": "cs.MA",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86667,8 +87185,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86706,8 +87226,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86743,21 +87265,23 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize under fixed execution conditions and do not test recovery after those conditions change. To address this gap, we introduce PACE-Bench (Physics Adaptation via Code Evolution), a simulator-grounded benchmark of 144 source-to-target adaptation pairs across six physics domains. Each pair links a source environment to a mutated target environment with the same goal and interface. A code-driven design that succeeds in the source fails in the target, where agents must iteratively adapt it into a working target design using diagnostic sandbox feedback within a limited attempt budget. We compare ten self-evolving methods from four paradigms. The benchmark remains far from saturated: Reflexion + Qwen3-14B succeeds on only 35.9\\% of full-benchmark pairs, while GPT-5.5 solves 66.7\\% of the Statics subset under the full budget. Together, these results show that simulator-grounded reflection is more reliable than unverified self-revision, while memory anchors agents to early designs and broad tree search explores without converging. Even revealing exact physical changes does not raise the performance ceiling, pointing to mechanism redesign rather than parameter inference as the central bottleneck. Data and code are available at https://github.com/thunlp/PACE-Bench.",
-    "tier": "none",
+    "tier": "top",
     "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-14",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.14441v1"
    },
    "2608.14629": {
@@ -86783,8 +87307,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86824,23 +87350,24 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
+      "JournalArticle",
       "Review"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Multi-agent large language model (LLM) systems can improve reasoning by spending more computation, but deployment requires deciding when extra collaboration is worth its cost. We isolate this decision by running every problem under four protocols while holding the solver fixed within each setting: direct solving (Baseline), iterative self-correction (Single), planner-executor-reviewer collaboration (PER), and multi-agent deliberation (Broadcast). The primary benchmark comprises 4,181 competition-level math problems; paired robustness checks cover four benchmarks spanning competition math, biology, and broader science with two solver families. Across fixed policies, trained routers, and frozen LLM routers, conservative policies under-escalate, whereas higher-solve frozen routers often over-escalate. A post-answer, pre-collaboration gpt-oss-120b probe ranks Baseline failures with 0.8847 AUROC (4,151 parseable cases; 95% CI [0.8732, 0.8955]). The same score remains informative for predicting whether any collaboration helps (0.7683 AUPRC), but is much weaker for identifying PER- or Broadcast-specific value (0.1674 and 0.1041 AUPRC). Separately, the pre-answer self-confidence gate reaches 78.0% solve at 45K tokens, compared with 73.8% at 71.3K for a frozen gpt-oss-120b router and 92.4% for a retrospective fixed-order oracle. Across 10 paired model-condition settings, the oracle adds 23.2-58.3 points of retrospective coverage over Baseline, but protocol profiles vary by task. In the six settings with held-out router evaluations, oracle gaps remain 18.5-28.9 points. Confidence can therefore support initial escalation, while protocol-specific cost-aware routing remains unresolved.",
-    "tier": "none",
+    "tier": "top",
     "title": "LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-14",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.14927v1"
    },
    "2608.17694": {
@@ -86861,8 +87388,9 @@
     "primary_category": "cs.SE",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -86903,8 +87431,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86940,8 +87470,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -86983,8 +87515,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -87892,8 +88426,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -89818,7 +90354,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-15",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89853,7 +90389,7 @@
     "primary_category": "cs.DB",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89889,7 +90425,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -89923,7 +90459,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "Review"
      ],
@@ -89962,9 +90498,9 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
-     "venue": "",
+     "venue": "Proceedings of the Second Workshop for REsearch on Agent Language Models (REALM 2026)",
      "year": 2026
     },
     "status": "accepted",
@@ -90018,7 +90554,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "Review"
      ],
@@ -90061,7 +90597,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -90101,7 +90637,7 @@
     "primary_category": "cs.RO",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": ""
@@ -91926,6 +92462,139 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2611.19127v1"
+   },
+   "2611.22432": {
+    "abs_url": "https://arxiv.org/abs/2611.22432",
+    "authors": [
+     "Siqi Lai",
+     "Haitao Li",
+     "Hao Liu"
+    ],
+    "code_url": "https://github.com/usail-hkust/JevRSI",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.22432",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22432v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Fast System-1 models enable responsive actions but struggle with complex or unfamiliar tasks. Large language model (LLM)-based System-2 provides strong reasoning capabilities, yet repeated invocation incurs substantial latency and computational costs. To bridge this gap, we propose JevRSI, a System-1/System-2 collaboration framework that transforms LLM reasoning into transferable decision support through recursive harness improvement. A Jev-style System-1 model enables low-latency action selection, while an asynchronous System-2 LLM develops a modular harness. The harness integrates procedures, state memory, and world models to provide decision contexts spanning the past, present, and future. Utility-driven retrieval selects modules based on both contextual relevance and their utility on previous tasks. Environmental feedback guides targeted revisions and enables recursive self-improvement. Experiments across three datasets show that JevRSI consistently improves decision quality, matching or surpassing LLM agents in several settings. It preserves low-latency execution with favorable performance-cost trade-offs. Moreover, System-2 development interventions decrease as the harness evolves, amortizing System-2 costs through continuous improvement. Our project is available at https://github.com/usail-hkust/JevRSI.",
+    "tier": "none",
+    "title": "Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22432v1"
+   },
+   "2611.22490": {
+    "abs_url": "https://arxiv.org/abs/2611.22490",
+    "authors": [
+     "Yuchen Zhang",
+     "Taolin Han",
+     "Jinghang Wang",
+     "Jinxin Wang",
+     "Yun Wu",
+     "Wai Yuet Chiu",
+     "Xiaogang Li",
+     "Yuting Fu",
+     "Kewei Sun",
+     "Jiaxin Li",
+     "Qile Jin",
+     "Jiajia Li",
+     "Ruodan Chen",
+     "Qingteng Chen",
+     "Jialu Nie",
+     "Junchao Li",
+     "Yifei Zhang",
+     "Chen Zhao",
+     "Hu Wei",
+     "Lin Qu",
+     "Yanni Yin",
+     "Bing Zhao"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.22490",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22490v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Language models are increasingly being used as agents capable of planning and executing projects, as well as refining their actions through feedback. This shift raises a question: can current agents complete projects like real scientists? To examine this question, we introduce SciWorkBench, a benchmark for evaluating agents' abilities on real science tasks across biology, chemistry, materials science, and physics. SciWorkBench is built from peer-reviewed literature or expert-contributed research scenarios. We also propose a unified scientific analysis framework validated by domain experts, which can categorize most tasks in SciWorkBench. Each task covers one or more stages of this framework. We evaluate up-to-date models within the Claude Code and Codex agent frameworks under a unified execution and grading protocol. The best-performing agent achieves a mean score of 57.38, indicating that current agents still struggle with realistic scientific workflows. Our failure analysis identifies three recurring weaknesses at the workflow level: difficulty translating scientific knowledge into task-specific procedures, weak integration of evidence across different modalities, and limited capacity for scientific self-correction. These findings highlight the importance of workflow-based evaluation for measuring progress toward reliable AI systems for scientific research.",
+    "tier": "none",
+    "title": "SciWorkBench: A Benchmark for Real Scientific Workflows",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22490v1"
+   },
+   "2611.23010": {
+    "abs_url": "https://arxiv.org/abs/2611.23010",
+    "authors": [
+     "Haoyang Liu",
+     "Kecheng Liang",
+     "Xinyu Li",
+     "Weixing Chen",
+     "Yang Liu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.23010",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23010v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Vision-language models (VLMs) can correctly interpret physics diagrams yet apply constraints outside the states or conditions in which they hold, causing premise errors to propagate through subsequent calculations. We introduce PhysScope, an inference-time visual harness that supports self-correction of these scope mismatches without updating model weights. PhysScope enables the model to link physical scopes directly to its visual observations and explicitly constructs derived views to support reasoning. The harness imposes explicit constraints on state distinctions, conditions, and physical scopes during model reasoning, and checks agent-proposed revisions against sources and scopes. Accepted revisions invalidate registered dependents, thereby maintaining scope-aware working memory. On PhysAlign, PhysScope achieves higher solving scores than direct solving across all six evaluated VLMs. With Gemini-3.8-flash, it outperforms Canvas-CoT by 9.34 percentage points and substantially improves solving accuracy on the out-of-distribution (OOD) PhysUniBench benchmark. Ablation studies support explicit scope management and dependency maintenance as design principles for multimodal physics reasoning agents.",
+    "tier": "none",
+    "title": "PhysScope: Agentic Multimodal Physics Reasoning with Grounded Visual Memory",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23010v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -94332,17 +95001,21 @@
      "Yuan Xiong",
      "Zhenhua Liu",
      "Pengyu Zhu",
+     "Chen Qian",
+     "Haonan Jia",
+     "Zihang Xu",
+     "Ken Deng",
      "Jing Shao"
     ],
     "code_url": "https://github.com/Dtc7w3PQ/Response-Attack",
     "comment": "20 pages, 10 figures. Code and data available at https://github.com/Dtc7w3PQ/Response-Attack",
     "first_seen": "2026-09-22",
     "id": "2507.05248",
-    "journal_ref": "",
+    "journal_ref": "AAAI 2026",
     "matched": [
      "semantic drift"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2507.05248v2",
+    "pdf_url": "https://arxiv.org/pdf/2507.05248v3",
     "primary_category": "cs.CL",
     "published": "2025-07-07",
     "s2": {
@@ -94359,12 +95032,12 @@
     "tier": "top",
     "title": "Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models",
     "track": "main",
-    "updated": "2025-11-21",
+    "updated": "2026-11-17",
     "venue": "AAAI",
-    "venue_evidence": "AAAI Conference on Artificial Intelligence",
-    "venue_source": "s2",
-    "venue_year": "2025",
-    "version": "2507.05248v2"
+    "venue_evidence": "AAAI 2026",
+    "venue_source": "journal_ref",
+    "venue_year": "2026",
+    "version": "2507.05248v3"
    },
    "2507.09839": {
     "abs_url": "https://arxiv.org/abs/2507.09839",
@@ -96580,7 +97253,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -96622,7 +97295,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -96673,7 +97346,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -96713,7 +97386,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -96750,7 +97423,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-30",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -96788,7 +97461,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-02",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle",
       "Review"
@@ -96870,7 +97543,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-07",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -96912,7 +97585,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-07",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -96948,7 +97621,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-11",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -96989,7 +97662,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-12",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97033,7 +97706,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-13",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97117,7 +97790,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97198,7 +97871,7 @@
     "primary_category": "cs.IR",
     "published": "2026-04-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97244,7 +97917,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-21",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97284,7 +97957,7 @@
     "primary_category": "cs.CR",
     "published": "2026-05-22",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97331,7 +98004,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-11",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -97371,7 +98044,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-24",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97412,7 +98085,7 @@
     "primary_category": "cs.SE",
     "published": "2026-05-24",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97452,7 +98125,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97490,7 +98163,7 @@
     "primary_category": "cs.LO",
     "published": "2026-05-27",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97527,7 +98200,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97567,7 +98240,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97603,7 +98276,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -97641,7 +98314,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -110526,7 +111199,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -112149,7 +112822,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -112228,7 +112901,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -112544,8 +113217,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -112655,8 +113330,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -112821,8 +113498,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -117284,7 +117963,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "Review"
      ],
@@ -117361,7 +118040,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -119312,6 +119991,40 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.22210v1"
+   },
+   "2611.23179": {
+    "abs_url": "https://arxiv.org/abs/2611.23179",
+    "authors": [
+     "Hansang Lee"
+    ],
+    "code_url": "",
+    "comment": "18 pages, 6 figures, 19 tables. Main text and appendices",
+    "first_seen": "2026-11-19",
+    "id": "2611.23179",
+    "journal_ref": "",
+    "matched": [
+     "rlaif"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23179v1",
+    "primary_category": "cs.CV",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and their lower hallucination rates bring no significant gain in set-level object F1 on CHAIR. We therefore ask how much of the PO gain the base model can reproduce by stopping earlier. A positive end-of-sequence (EOS) logit bias lets the base model reach the recall of each PO model, and this early stopping alone reproduces 58 to 86 percent of the CHAIRi gain of three checkpoints on two disjoint COCO sets. Writing longer does not bring the lost categories back. Under greedy decoding, a negative EOS bias recovers only 2 to 9 percent of the lost CHAIR recall of these checkpoints, and 94 to 96 percent of the added object mentions repeat categories already named. On CHAIR, the base caption of the same image still names about half of the missed object categories. We therefore propose base-guided object-category restoration, which appends high-confidence base-only categories to the PO caption without training. With thresholds fixed on a development set, it brings three checkpoints within one point of the base recall on a held-out COCO set with a lower distinct-object hallucination rate than the base model. Against the recall-matched base stopping curve, its gain holds for RLAIF-V near the base recall and for RLAIF-V and CHAIR-DPO at an intermediate recall. We will release the code of the recall-controlled evaluation.",
+    "tier": "none",
+    "title": "Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23179v1"
    }
   },
   "Text Quality Evaluation": {
@@ -128277,7 +128990,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -129972,7 +130685,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
@@ -132844,8 +133557,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -142555,7 +143270,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -142794,7 +143509,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -163441,11 +164156,11 @@
     "primary_category": "cs.IR",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference and Labs of the Evaluation Forum",
      "year": 2026
     },
     "status": "unknown",
@@ -164120,8 +164835,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-20",
-     "types": [],
+     "checked": "2026-11-19",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -166501,7 +167218,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-20",
+     "checked": "2026-11-19",
      "types": [],
      "venue": "",
      "year": 2026
@@ -167318,6 +168035,41 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2611.22148v1"
+   },
+   "2611.22514": {
+    "abs_url": "https://arxiv.org/abs/2611.22514",
+    "authors": [
+     "Teng Lin",
+     "Nan Tang"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-19",
+    "id": "2611.22514",
+    "journal_ref": "",
+    "matched": [
+     "report generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22514v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-19",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "The ability to generate multimodal reports integrating fluent narratives with faithful visualizations from tabular data, has become a cornerstone capability for modern vision-language models in practical domains such as finance, healthcare, and policy making. However, existing benchmarks are limited by single-modality focus, simplistic metrics, novelty evaluation, and visualization quality. We address these limitations with MM-ReportBench, a multimodal report evaluation benchmark covering 386 tasks across 185 real-world tables. Each task is paired with an expert-curated reference report featuring standardized chapter structures and verifiable key insight points, constructed through a hybrid pipeline of multimodal reports generation based on Monte Carlo Tree Search and rigorous human quality control. For robust evaluation, we design a dual-judge evaluation framework: Text Judge Model assesses textual quality along structural completeness, grounded insight verification with numerical fact-checking against source tables, and novelty analysis that distinguishes genuine analytical discovery from trivial paraphrasing; Visualization Judge Model evaluates generated visualizations across data fidelity, expressiveness, aesthetics, and technical correctness. They also evaluate cross-modal consistency. Extensive experiments on 20 state-of-the-art models reveal critical weaknesses: even the strongest model achieves only 68.9 overall score, with numerical hallucination affecting 38.5% of reports and genuinely novel insights remaining rare. Our ablation studies further demonstrate that single-judge evaluation consistently inflates scores by 8-12 points compared to dual-judge assessment, confirming that rigorous and reliable benchmarking demands multi-faceted, complementary evaluation probes.",
+    "tier": "none",
+    "title": "MM-ReportBench: A Comprehensive Benchmark for Multimodal Report Generation from Tables",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22514v1"
    }
   }
  }

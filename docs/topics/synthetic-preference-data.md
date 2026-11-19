@@ -2,15 +2,16 @@
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-433 papers, newest first. Generated on **2026-11-18** (UTC).
+434 papers, newest first. Generated on **2026-11-19** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (245)](#2026) · [2025 (95)](#2025) · [2024 (93)](#2024)
+Browse by year: [2026 (246)](#2026) · [2025 (95)](#2025) · [2024 (93)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-17**|<details><summary>Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models</summary><br>Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and their lower hallucination rates bring no significant gain in set-level object F1 on CHAIR. We therefore ask how much of the PO gain the base model can reproduce by stopping earlier. A positive end-of-sequence (EOS) logit bias lets the base model reach the recall o...</details>|-|Hansang Lee|[2611.23179](https://arxiv.org/abs/2611.23179)|null|
 |**2026-11-17**|<details><summary>Sample-efficient Personalization of Large Language Model Alignment with Multidimensional User Preference Data</summary><br>Preference alignment has become a central tool to align large language models (LLMs) with human values and desired behavior, and its online variant can further advance their capabilities beyond what static data alone offer by repeatedly generating and labeling new responses with human feedback. But costly, time-consuming annotations limit its scalability, making sample efficiency essential, and existing methods typically seek to improve it by expanding coverage of the response space or selecting...</details>|-|Zhen-Yu Zhang et al.|[2611.22210](https://arxiv.org/abs/2611.22210)|null|
 |**2026-11-17**|<details><summary>Centroid Spectral Coupling: Implicit Alignment and Representation Diversity in Self-Supervised Learning</summary><br>Self-Supervised Learning (SSL) aims to align augmented views while preserving representation diversity and preventing collapse. Existing non-contrastive methods often address these goals using multiple weighted loss terms. We introduce Centroid Spectral Coupling (CSC), a single-term SSL objective that implicitly couples view alignment, representation diversity, and collapse resistance. CSC constructs centroids from independently normalized augmented-view pairs and applies a ridge-based spectral...</details>|-|M. Hadi Sepanj et al.|[2611.22158](https://arxiv.org/abs/2611.22158)|null|
 |**2026-11-16**|<details><summary>Evaluating Cultural Reasoning and Robustness in LLMs for Spanish Political Discourse</summary><br>Large language models (LLMs) are increasingly used to interpret, generate, and mediate public-facing language, which makes their reliability especially consequential in politically sensitive settings. Although sentiment analysis is a common task in this area, affective meaning in social media discourse is often conveyed through culturally situated and pragmatically indirect cues that are not well captured by label-centric evaluation alone. In this paper, we evaluate the robustness of LLMs for se...</details>|-|Jorge Valverde-Rebaza et al.|[2611.21535](https://arxiv.org/abs/2611.21535)|null|

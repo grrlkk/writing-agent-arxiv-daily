@@ -9,14 +9,14 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-18** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-19** (UTC).
 Back to the [main page](../README.md).
 
-955 of 3803 papers carry venue evidence.
+965 of 3815 papers carry venue evidence.
 
-## Top-tier venues (633)
+## Top-tier venues (642)
 
-### EMNLP (166)
+### EMNLP (175)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -34,6 +34,7 @@ Back to the [main page](../README.md).
 |**2026-09-27**|Quizzing the Translation: A Prover-Grounded Evaluation Metric for NL$\rightarrow$FOL|EMNLP 2026|Synthetic Preference Data|[2609.33612](https://arxiv.org/abs/2609.33612)|
 |**2026-09-25**|FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation|EMNLP 2026|Writing Agent|[2609.30968](https://arxiv.org/abs/2609.30968)|
 |**2026-09-23**|Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction|EMNLP 2026|Search & Control for Generation|[2609.27376](https://arxiv.org/abs/2609.27376)|
+|**2026-09-17**|F$^{2}$DR: A Fine-Grained Full-Pipeline Reward Framework for DeepSearch Workflows|EMNLP 2026|Reward & Value Models|[2609.19827](https://arxiv.org/abs/2609.19827)|
 |**2026-09-17**|SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment|EMNLP 2026|Text Quality Evaluation|[2609.20584](https://arxiv.org/abs/2609.20584)|
 |**2026-09-16**|STRETCH the Boundaries: A Unified Self-Taught Framework for Progressive LLM Evolution|EMNLP 2026|Reward & Value Models|[2609.18642](https://arxiv.org/abs/2609.18642)|
 |**2026-09-16**|REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement|EMNLP 2026|Synthetic Preference Data|[2609.18262](https://arxiv.org/abs/2609.18262)|
@@ -96,10 +97,18 @@ Back to the [main page](../README.md).
 |**2026-08-24**|The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline|EMNLP 2026|Reward & Value Models|[2608.24952](https://arxiv.org/abs/2608.24952)|
 |**2026-08-24**|FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference|EMNLP 2026|Text Quality Evaluation|[2608.24945](https://arxiv.org/abs/2608.24945)|
 |**2026-08-23**|Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs|EMNLP 2026|Semantic Drift & Faithfulness|[2608.22367](https://arxiv.org/abs/2608.22367)|
+|**2026-08-14**|PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments|EMNLP 2026|Search & Control for Generation, Self-Refine & Self-Correction|[2608.14441](https://arxiv.org/abs/2608.14441)|
+|**2026-08-14**|LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks|EMNLP 2026|Self-Refine & Self-Correction|[2608.14927](https://arxiv.org/abs/2608.14927)|
+|**2026-08-12**|Reinforcing Step-level Reasoning for Effective Self-Correction in LLMs|EMNLP 2026|Reward & Value Models, Self-Refine & Self-Correction|[2608.11573](https://arxiv.org/abs/2608.11573)|
+|**2026-08-09**|Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents|EMNLP 2026|Reward & Value Models|[2608.08389](https://arxiv.org/abs/2608.08389)|
+|**2026-08-02**|PALMs: Using Multi Construct-Grounded Rationales for Modeling Population Preferences in LLMs|EMNLP 2026|Reward & Value Models|[2608.01458](https://arxiv.org/abs/2608.01458)|
+|**2026-07-30**|FinanceHarness: Autonomous Financial Deep Research Framework|EMNLP 2026|Reward & Value Models|[2607.27853](https://arxiv.org/abs/2607.27853)|
 |**2026-07-27**|What do Reward Models Memorize?|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2607.24484](https://arxiv.org/abs/2607.24484)|
 |**2026-07-17**|TD-DPO: Difference-Aware Preference Optimization for Mitigating Sycophancy in Clinical Autism Intervention Dialogue|EMNLP 2026|Reward & Value Models|[2607.18304](https://arxiv.org/abs/2607.18304)|
 |**2026-07-06**|Rating the Pitch, Not the Product: User Evaluations of LLMs Reflect Expectations More Than Performance|EMNLP 2026|Synthetic Preference Data|[2607.05113](https://arxiv.org/abs/2607.05113)|
+|**2026-06-02**|Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling|EMNLP 2026|Search & Control for Generation|[2606.03102](https://arxiv.org/abs/2606.03102)|
 |**2026-06-02**|POLARIS: Guiding Small Models to Write Long Stories|EMNLP 2026|Writing Agent|[2606.04095](https://arxiv.org/abs/2606.04095)|
+|**2026-06-01**|When Knowledge Is Not Free: Cost-Aware Evidence Selection in Retrieval-Augmented Generation|EMNLP 2026|Search & Control for Generation|[2606.02245](https://arxiv.org/abs/2606.02245)|
 |**2026-06-01**|Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation|EMNLP 2026|Writing Agent|[2606.01629](https://arxiv.org/abs/2606.01629)|
 |**2026-05-26**|Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation|EMNLP 2026|Writing Agent|[2605.26958](https://arxiv.org/abs/2605.26958)|
 |**2025-12-20**|SRS-Stories: Vocabulary-constrained multilingual story generation for language learning|EMNLP 2025|Writing Agent|[2512.18362](https://arxiv.org/abs/2512.18362)|
@@ -439,7 +448,7 @@ Back to the [main page](../README.md).
 |**2025-09-04**|Continuous Monitoring of Large-Scale Generative AI via Deterministic Knowledge Graph Structures|AAAI 2025|Semantic Drift & Faithfulness|[2509.03857](https://arxiv.org/abs/2509.03857)|
 |**2025-08-26**|RLMR: Reinforcement Learning with Mixed Rewards for Creative Writing|AAAI 2025|Writing Agent|[2508.18642](https://arxiv.org/abs/2508.18642)|
 |**2025-08-18**|Documenting Deployment with Fabric: A Repository of Real-World AI Governance|AAAI 2025|Writing Agent|[2508.14119](https://arxiv.org/abs/2508.14119)|
-|**2025-07-07**|Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models|AAAI 2025|Semantic Drift & Faithfulness|[2507.05248](https://arxiv.org/abs/2507.05248)|
+|**2025-07-07**|Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models|AAAI 2026|Semantic Drift & Faithfulness|[2507.05248](https://arxiv.org/abs/2507.05248)|
 |**2025-02-07**|WikiReddit: Tracing Information and Attention Flows Between Online Platforms|AAAI 2025|Iterative Revision & Text Editing|[2502.04942](https://arxiv.org/abs/2502.04942)|
 |**2024-12-30**|Frequency-Masked Embedding Inference: A Non-Contrastive Approach for Time Series Representation Learning|AAAI 2024|Synthetic Preference Data|[2412.20790](https://arxiv.org/abs/2412.20790)|
 |**2024-12-23**|Retention Score: Quantifying Jailbreak Risks for Vision Language Models|AAAI 2025|Synthetic Preference Data|[2412.17544](https://arxiv.org/abs/2412.17544)|
@@ -991,8 +1000,8 @@ Back to the [main page](../README.md).
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2026-11-16**|Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.21538](https://arxiv.org/abs/2611.21538)|
 |**2026-11-16**|AdMem: Expectation-Grounded Procedural Memory for Long-Horizon Task-Solving Agents|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.20605](https://arxiv.org/abs/2611.20605)|
+|**2026-11-16**|Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.21538](https://arxiv.org/abs/2611.21538)|
 |**2026-11-16**|Contrastive Activation-Guided Zeroth-Order Preference Optimisation for Memory-Efficient LLM Alignment|NeurIPS 2026 (workshop)|Synthetic Preference Data|[2611.20635](https://arxiv.org/abs/2611.20635)|
 |**2026-11-12**|Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents|NeurIPS 2026 (workshop)|Search & Control for Generation|[2611.17539](https://arxiv.org/abs/2611.17539)|
 |**2026-11-10**|MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation|NeurIPS 2026 (workshop)|Self-Refine & Self-Correction|[2611.14675](https://arxiv.org/abs/2611.14675)|
@@ -1210,7 +1219,16 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-28**|Fine-Grained and Multi-Dimensional Metrics for Document-Level Machine Translation|NAACL 2024 (workshop)|Text Quality Evaluation|[2410.20941](https://arxiv.org/abs/2410.20941)|
 
-## Demo tracks (9)
+## Demo tracks (10)
+
+### EMNLP (4)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-09-01**|Schematize: An Agentic System for Generating and Refining Information-Extraction Schemas for Legal Research|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2609.22209](https://arxiv.org/abs/2609.22209)|
+|**2026-08-24**|Jiuge-Tuiqiao: An Interpretable Human-AI System for Classical Chinese Poetry Refinement|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2608.23098](https://arxiv.org/abs/2608.23098)|
+|**2026-07-21**|AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents|EMNLP 2026 (demo)|Self-Refine & Self-Correction|[2607.18754](https://arxiv.org/abs/2607.18754)|
+|**2026-07-14**|WikiSTAR: A System for Shedding Light on the Hidden History of Scientific Wikipedia Articles|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2607.12441](https://arxiv.org/abs/2607.12441)|
 
 ### ACL (3)
 
@@ -1219,14 +1237,6 @@ Back to the [main page](../README.md).
 |**2026-06-07**|PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf|ACL 2026 (demo)|Writing Agent|[2606.08857](https://arxiv.org/abs/2606.08857)|
 |**2025-12-29**|AI4Reading: Chinese Audiobook Interpretation System Based on Multi-Agent Collaboration|ACL 2025 (demo)|Multilingual & Cross-Lingual Agents, Semantic Drift & Faithfulness|[2512.23300](https://arxiv.org/abs/2512.23300)|
 |**2025-11-30**|CodeDistiller: Automatically Generating Code Libraries for Scientific Coding Agents|ACL 2025 (demo)|Text Quality Evaluation|[2512.01089](https://arxiv.org/abs/2512.01089)|
-
-### EMNLP (3)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-09-01**|Schematize: An Agentic System for Generating and Refining Information-Extraction Schemas for Legal Research|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2609.22209](https://arxiv.org/abs/2609.22209)|
-|**2026-08-24**|Jiuge-Tuiqiao: An Interpretable Human-AI System for Classical Chinese Poetry Refinement|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2608.23098](https://arxiv.org/abs/2608.23098)|
-|**2026-07-14**|WikiSTAR: A System for Shedding Light on the Hidden History of Scientific Wikipedia Articles|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2607.12441](https://arxiv.org/abs/2607.12441)|
 
 ### AAAI (1)
 
