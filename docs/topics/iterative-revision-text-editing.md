@@ -2,15 +2,16 @@
 
 > Edit-intention taxonomies, revision histories, and text-editing models — the direct precedent for FEAK-TC's action taxonomy (B1/W2).
 
-199 papers, newest first. Generated on **2026-11-19** (UTC).
+200 papers, newest first. Generated on **2026-11-20** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (116)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
+Browse by year: [2026 (117)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-17**|<details><summary>ConserveEdit: Source-Anchored Transactions for Drift-Bounded Iterative Image Editing</summary><br>Instruction-driven image editors produce convincing local edits in one pass, but inside an iterative refinement loop every accepted output becomes the next input, so unintended changes outside the requested region accumulate. We present ConserveEdit, an editor-agnostic controller that treats each refinement step as a transaction against a contract compiled once from the source image. The contract separates what may change (the authorized region of each target, with a bounded halo for shadows and...</details>|-|Shuyang Jiang et al.|[2611.22724](https://arxiv.org/abs/2611.22724)|null|
 |**2026-11-17**|<details><summary>RLDE: A Reinforcement Learning Framework for Interpretable Iterative Document Editing</summary><br>Improving the quality, clarity, and flow of long documents remains a challenging problem in NLP, as human editing typically occurs through iterative refinement rather than a single-pass rewrite. Most existing automated systems act as black-box generators or rely on supervised learning, limiting interpretability and failing to capture the sequential nature of revisions. In this paper, we propose RLDE, an automated end-to-end metric-driven RL framework that formulates document revision as a refere...</details>|-|Nikhil Parkar et al.|[2611.22039](https://arxiv.org/abs/2611.22039)|null|
 |**2026-11-16**|<details><summary>PromptPoseFX: Authoring Pose-Driven Visual Effects through Augmented Prompting and Interactive Refinement</summary><br>Human pose-driven visual effects offer a compelling way for enhancing video expressiveness and storytelling. Authoring such effects with traditional video editing tools is a complex and time-consuming task that requires considerable technical expertise and manual effort. While generative AI models can simplify the workflow by reducing manual scripting through language-driven generation, existing approaches suffer from imprecise alignment between visual effects and pose data, failure to preserve...</details>|-|Kexin Zheng et al.|[2611.20485](https://arxiv.org/abs/2611.20485)|null|
 |**2026-11-06**|<details><summary>KLEAR: Knowledge-Matched LLM Evaluation in Korean across Application Requirements via Controlled Benchmark Transformation</summary><br>Existing Korean benchmarks for Large Language Models (LLMs) evaluate performance across diverse knowledge domains, but their accuracy scores cannot distinguish whether incorrect responses arise from a lack of required knowledge or a failure to apply that knowledge correctly. Our analysis of existing Korean benchmarks reveals that most questions can be answered through factual recall alone, while those demanding greater application also differ in required knowledge, making it difficult to isolate...</details>|-|Seoyeon Kim et al.|[2611.09223](https://arxiv.org/abs/2611.09223)|null|

@@ -9,21 +9,23 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-19** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-20** (UTC).
 Back to the [main page](../README.md).
 
-965 of 3815 papers carry venue evidence.
+991 of 3828 papers carry venue evidence.
 
-## Top-tier venues (642)
+## Top-tier venues (668)
 
-### EMNLP (175)
+### EMNLP (197)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-18**|ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation|EMNLP 2026|Search & Control for Generation|[2611.23969](https://arxiv.org/abs/2611.23969)|
 |**2026-10-27**|QMUL_AK at AISA-ArabicFC: Schema-Constrained Function Calling with ALLaM|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2610.37995](https://arxiv.org/abs/2610.37995)|
 |**2026-10-20**|Criterion-Activated Preference Synthesis: Attribution-Preserving Preference Data from Explicit Standards|EMNLP 2026|Reward & Value Models, Synthetic Preference Data, Writing Agent|[2611.18663](https://arxiv.org/abs/2611.18663)|
 |**2026-10-20**|DiffResearch: Accelerating Deep Research with Diffusion Language Models|EMNLP 2026|Text Quality Evaluation, Writing Agent|[2610.28909](https://arxiv.org/abs/2610.28909)|
 |**2026-10-18**|Aligning Cultural Behaviors in Arabic Language Models via Preferences|EMNLP 2026|Synthetic Preference Data|[2610.25362](https://arxiv.org/abs/2610.25362)|
+|**2026-10-16**|The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge|EMNLP 2026|Text Quality Evaluation|[2610.24320](https://arxiv.org/abs/2610.24320)|
 |**2026-10-15**|Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation|EMNLP 2026|Reward & Value Models|[2610.21456](https://arxiv.org/abs/2610.21456)|
 |**2026-10-08**|EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams|EMNLP 2026|Reward & Value Models|[2610.12248](https://arxiv.org/abs/2610.12248)|
 |**2026-10-07**|Reliability of LLM Judges for Evaluating Entity Alignment|EMNLP 2026|Synthetic Preference Data, Text Quality Evaluation|[2610.09554](https://arxiv.org/abs/2610.09554)|
@@ -31,9 +33,11 @@ Back to the [main page](../README.md).
 |**2026-09-29**|Generalizable Lifelong Model Editing via Preference Optimization|EMNLP 2026|Reward & Value Models|[2609.36748](https://arxiv.org/abs/2609.36748)|
 |**2026-09-29**|Pair Difficulty Matters: Rethinking Pairwise LLM-as-a-Judge Evaluation and Consistency|EMNLP 2026|Text Quality Evaluation|[2609.37577](https://arxiv.org/abs/2609.37577)|
 |**2026-09-28**|OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue|EMNLP 2026|Reward & Value Models|[2609.34418](https://arxiv.org/abs/2609.34418)|
+|**2026-09-28**|EMMA: Event-Driven Multimodal Memory System with Multi-Agent Retrieval|EMNLP 2026|Semantic Drift & Faithfulness|[2610.23892](https://arxiv.org/abs/2610.23892)|
 |**2026-09-27**|Quizzing the Translation: A Prover-Grounded Evaluation Metric for NL$\rightarrow$FOL|EMNLP 2026|Synthetic Preference Data|[2609.33612](https://arxiv.org/abs/2609.33612)|
 |**2026-09-25**|FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation|EMNLP 2026|Writing Agent|[2609.30968](https://arxiv.org/abs/2609.30968)|
 |**2026-09-23**|Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction|EMNLP 2026|Search & Control for Generation|[2609.27376](https://arxiv.org/abs/2609.27376)|
+|**2026-09-18**|VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration|EMNLP 2026|Synthetic Preference Data|[2609.21521](https://arxiv.org/abs/2609.21521)|
 |**2026-09-17**|F$^{2}$DR: A Fine-Grained Full-Pipeline Reward Framework for DeepSearch Workflows|EMNLP 2026|Reward & Value Models|[2609.19827](https://arxiv.org/abs/2609.19827)|
 |**2026-09-17**|SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment|EMNLP 2026|Text Quality Evaluation|[2609.20584](https://arxiv.org/abs/2609.20584)|
 |**2026-09-16**|STRETCH the Boundaries: A Unified Self-Taught Framework for Progressive LLM Evolution|EMNLP 2026|Reward & Value Models|[2609.18642](https://arxiv.org/abs/2609.18642)|
@@ -99,18 +103,36 @@ Back to the [main page](../README.md).
 |**2026-08-23**|Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs|EMNLP 2026|Semantic Drift & Faithfulness|[2608.22367](https://arxiv.org/abs/2608.22367)|
 |**2026-08-14**|PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments|EMNLP 2026|Search & Control for Generation, Self-Refine & Self-Correction|[2608.14441](https://arxiv.org/abs/2608.14441)|
 |**2026-08-14**|LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks|EMNLP 2026|Self-Refine & Self-Correction|[2608.14927](https://arxiv.org/abs/2608.14927)|
+|**2026-08-14**|ASSERT: A Measurement Pipeline for GenAI Audits|EMNLP 2026|Text Quality Evaluation|[2608.13840](https://arxiv.org/abs/2608.13840)|
 |**2026-08-12**|Reinforcing Step-level Reasoning for Effective Self-Correction in LLMs|EMNLP 2026|Reward & Value Models, Self-Refine & Self-Correction|[2608.11573](https://arxiv.org/abs/2608.11573)|
 |**2026-08-09**|Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents|EMNLP 2026|Reward & Value Models|[2608.08389](https://arxiv.org/abs/2608.08389)|
 |**2026-08-02**|PALMs: Using Multi Construct-Grounded Rationales for Modeling Population Preferences in LLMs|EMNLP 2026|Reward & Value Models|[2608.01458](https://arxiv.org/abs/2608.01458)|
 |**2026-07-30**|FinanceHarness: Autonomous Financial Deep Research Framework|EMNLP 2026|Reward & Value Models|[2607.27853](https://arxiv.org/abs/2607.27853)|
+|**2026-07-30**|MMLDSum-LLM: Multimodal Long-Document Summarization with Visual-Alignment and Keyword-Aware|EMNLP 2026|Text Quality Evaluation|[2607.28006](https://arxiv.org/abs/2607.28006)|
 |**2026-07-27**|What do Reward Models Memorize?|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2607.24484](https://arxiv.org/abs/2607.24484)|
 |**2026-07-17**|TD-DPO: Difference-Aware Preference Optimization for Mitigating Sycophancy in Clinical Autism Intervention Dialogue|EMNLP 2026|Reward & Value Models|[2607.18304](https://arxiv.org/abs/2607.18304)|
+|**2026-07-07**|Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs|EMNLP 2026|Text Quality Evaluation|[2607.06327](https://arxiv.org/abs/2607.06327)|
 |**2026-07-06**|Rating the Pitch, Not the Product: User Evaluations of LLMs Reflect Expectations More Than Performance|EMNLP 2026|Synthetic Preference Data|[2607.05113](https://arxiv.org/abs/2607.05113)|
+|**2026-07-02**|Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages|EMNLP 2026|Text Quality Evaluation|[2607.02235](https://arxiv.org/abs/2607.02235)|
+|**2026-06-29**|Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?|EMNLP 2026|Text Quality Evaluation|[2606.29920](https://arxiv.org/abs/2606.29920)|
+|**2026-06-26**|SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning|EMNLP 2026|Semantic Drift & Faithfulness|[2606.28447](https://arxiv.org/abs/2606.28447)|
+|**2026-06-24**|DualEval: Joint Model-Item Calibration for Unified LLM Evaluation|EMNLP 2026|Synthetic Preference Data|[2606.26429](https://arxiv.org/abs/2606.26429)|
+|**2026-06-18**|ScaffoldAgent: Utility-Guided Dynamic Outline Optimization for Open-Ended Deep Research|EMNLP 2026|Writing Agent|[2606.20122](https://arxiv.org/abs/2606.20122)|
+|**2026-06-14**|Contaminated Collaboration: Measuring Gender Bias Transfer in LLM-Assisted Student Writing|EMNLP 2026|Writing Agent|[2606.15914](https://arxiv.org/abs/2606.15914)|
+|**2026-06-06**|Support Vector Rubrics: Closing the Gap Between Self-Generated and Human Rubrics|EMNLP 2026|Synthetic Preference Data|[2606.08077](https://arxiv.org/abs/2606.08077)|
+|**2026-06-04**|DOG-DPO:Dynamic Optimization in Geometry for Safety Alignment|EMNLP 2026|Synthetic Preference Data|[2606.07678](https://arxiv.org/abs/2606.07678)|
 |**2026-06-02**|Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling|EMNLP 2026|Search & Control for Generation|[2606.03102](https://arxiv.org/abs/2606.03102)|
+|**2026-06-02**|AnyAudio-Judge: A Dynamic Rubric-Based Benchmark and Evaluator for Audio Instruction Following|EMNLP 2026|Synthetic Preference Data|[2606.03116](https://arxiv.org/abs/2606.03116)|
 |**2026-06-02**|POLARIS: Guiding Small Models to Write Long Stories|EMNLP 2026|Writing Agent|[2606.04095](https://arxiv.org/abs/2606.04095)|
 |**2026-06-01**|When Knowledge Is Not Free: Cost-Aware Evidence Selection in Retrieval-Augmented Generation|EMNLP 2026|Search & Control for Generation|[2606.02245](https://arxiv.org/abs/2606.02245)|
 |**2026-06-01**|Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation|EMNLP 2026|Writing Agent|[2606.01629](https://arxiv.org/abs/2606.01629)|
+|**2026-06-01**|TVIR: Building Deep Research Agents Towards Text-Visual Interleaved Report Generation|EMNLP 2026|Writing Agent|[2606.02320](https://arxiv.org/abs/2606.02320)|
 |**2026-05-26**|Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation|EMNLP 2026|Writing Agent|[2605.26958](https://arxiv.org/abs/2605.26958)|
+|**2026-05-18**|AMARIS: A Memory-Augmented Rubric Improvement System for Rubric-Based Reinforcement Learning|EMNLP 2026|Writing Agent|[2605.18592](https://arxiv.org/abs/2605.18592)|
+|**2026-05-12**|A Recipe for Long-Context Reasoning in Large Language Models via On-Policy Optimization and Distillation|EMNLP 2026|Writing Agent|[2605.12227](https://arxiv.org/abs/2605.12227)|
+|**2026-04-27**|TSAssistant: A Human-in-the-Loop Agentic Framework for Automated Target Safety Assessment|EMNLP 2026|Writing Agent|[2604.23938](https://arxiv.org/abs/2604.23938)|
+|**2026-04-13**|Hidden Failures in Robustness: Why Supervised Uncertainty Quantification Needs Better Evaluation|EMNLP 2026|Writing Agent|[2604.11662](https://arxiv.org/abs/2604.11662)|
+|**2026-03-27**|Reflect to Inform: Boosting Multimodal Reasoning via Information-Gain-Driven Verification|EMNLP 2026|Writing Agent|[2603.26348](https://arxiv.org/abs/2603.26348)|
 |**2025-12-20**|SRS-Stories: Vocabulary-constrained multilingual story generation for language learning|EMNLP 2025|Writing Agent|[2512.18362](https://arxiv.org/abs/2512.18362)|
 |**2025-11-28**|Ambiguity Awareness Optimization: Towards Semantic Disambiguation for Direct Preference Optimization|EMNLP 2025|Reward & Value Models|[2511.23391](https://arxiv.org/abs/2511.23391)|
 |**2025-11-01**|G2: Guided Generation for Enhanced Output Diversity in LLMs|EMNLP 2025|Writing Agent|[2511.00432](https://arxiv.org/abs/2511.00432)|
@@ -308,7 +330,7 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (86)
+### NeurIPS (87)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -358,6 +380,7 @@ Back to the [main page](../README.md).
 |**2026-06-22**|SteerVTE: Seamless Video Text Editing with Style and Glyph Control|NeurIPS 2026|Iterative Revision & Text Editing|[2606.23254](https://arxiv.org/abs/2606.23254)|
 |**2026-05-29**|Consolidating Rewarded Perturbations for LLM Post-Training|NeurIPS 2026|Writing Agent|[2605.31494](https://arxiv.org/abs/2605.31494)|
 |**2025-12-31**|ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning|NeurIPS 2025|Reward & Value Models, Synthetic Preference Data|[2512.25023](https://arxiv.org/abs/2512.25023)|
+|**2025-12-24**|Meta-RL with Bayesian Linear Task Models|NeurIPS 2026|Reward & Value Models|[2512.20974](https://arxiv.org/abs/2512.20974)|
 |**2025-12-19**|AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens|NeurIPS 2026|Reward & Value Models, Text Quality Evaluation|[2512.17375](https://arxiv.org/abs/2512.17375)|
 |**2025-12-17**|Corrective Diffusion Language Models|NeurIPS 2026|Iterative Revision & Text Editing|[2512.15596](https://arxiv.org/abs/2512.15596)|
 |**2025-12-16**|FacEDiT: Talking Head Video Editing via Facial Motion Infilling|NeurIPS 2026|Text Quality Evaluation|[2512.14056](https://arxiv.org/abs/2512.14056)|
@@ -472,12 +495,14 @@ Back to the [main page](../README.md).
 |**2024-05-26**|Automatically Generating Numerous Context-Driven SFT Data for LLMs across Diverse Granularity|AAAI 2024|Multilingual & Cross-Lingual Agents|[2405.16579](https://arxiv.org/abs/2405.16579)|
 |**2024-05-02**|The Psychosocial Impacts of Generative AI Harms|AAAI 2024|Writing Agent|[2405.01740](https://arxiv.org/abs/2405.01740)|
 
-### ICLR (63)
+### ICLR (65)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-11-09**|Enforcing Axioms for AI Alignment under Loss-Based Rules|ICLR 2026|Reward & Value Models|[2611.13369](https://arxiv.org/abs/2611.13369)|
 |**2026-10-31**|Enhancing Language Model Reasoning with Structured Multi-Level Modeling|ICLR 2026|Reward & Value Models, Search & Control for Generation|[2611.00616](https://arxiv.org/abs/2611.00616)|
+|**2026-05-06**|StoryAlign: Evaluating and Training Reward Models for Story Generation|ICLR 2026|Writing Agent|[2605.04831](https://arxiv.org/abs/2605.04831)|
+|**2026-04-10**|Micro-Macro Retrieval: Reducing Long-Form Hallucination in Large Language Models|ICLR 2026|Writing Agent|[2605.28828](https://arxiv.org/abs/2605.28828)|
 |**2026-03-28**|Improving Attributed Long-form Question Answering with Intent Awareness|ICLR 2026|Writing Agent|[2603.27435](https://arxiv.org/abs/2603.27435)|
 |**2026-02-09**|CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation|ICLR 2026|Korean Writing & NLP|[2602.20170](https://arxiv.org/abs/2602.20170)|
 |**2025-12-29**|Eliminating Inductive Bias in Reward Models with Information-Theoretic Guidance|ICLR 2026|Reward & Value Models|[2512.23461](https://arxiv.org/abs/2512.23461)|
@@ -710,10 +735,11 @@ Back to the [main page](../README.md).
 |**2025-06-18**|Veracity: An Open-Source AI Fact-Checking System|IJCAI 2024|Multilingual & Cross-Lingual Agents|[2506.15794](https://arxiv.org/abs/2506.15794)|
 |**2024-02-09**|MusicMagus: Zero-Shot Text-to-Music Editing via Diffusion Models|IJCAI 2024|Iterative Revision & Text Editing|[2402.06178](https://arxiv.org/abs/2402.06178)|
 
-### UIST (5)
+### UIST (6)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-08-18**|Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing|UIST 2026|Writing Agent|[2608.17326](https://arxiv.org/abs/2608.17326)|
 |**2026-08-17**|SiMUSation: An Interactive Visitor Experience Simulation Framework to Support Museum Exhibition Design|UIST 2026|Iterative Revision & Text Editing|[2608.16067](https://arxiv.org/abs/2608.16067)|
 |**2026-08-11**|Narrative Keyframing for Generative Creative Writing|UIST 2026|Writing Agent|[2608.10337](https://arxiv.org/abs/2608.10337)|
 |**2026-08-09**|SHRIMP: Iterative Refinement of Robot Task Plans|UIST 2026|Iterative Revision & Text Editing|[2608.08884](https://arxiv.org/abs/2608.08884)|

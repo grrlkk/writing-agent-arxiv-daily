@@ -1,25 +1,25 @@
 {
  "meta": {
   "topics": {
-   "Iterative Revision & Text Editing": 199,
+   "Iterative Revision & Text Editing": 200,
    "Korean Writing & NLP": 73,
-   "Multilingual & Cross-Lingual Agents": 482,
-   "Reward & Value Models": 886,
-   "Search & Control for Generation": 267,
-   "Self-Refine & Self-Correction": 340,
-   "Semantic Drift & Faithfulness": 256,
-   "Synthetic Preference Data": 434,
-   "Text Quality Evaluation": 668,
+   "Multilingual & Cross-Lingual Agents": 483,
+   "Reward & Value Models": 889,
+   "Search & Control for Generation": 270,
+   "Self-Refine & Self-Correction": 343,
+   "Semantic Drift & Faithfulness": 257,
+   "Synthetic Preference Data": 435,
+   "Text Quality Evaluation": 669,
    "Writing Agent": 519
   },
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "venue_tiers": {
    "demo": 10,
    "findings": 95,
-   "none": 2850,
+   "none": 2837,
    "other": 39,
    "strong": 41,
-   "top": 642,
+   "top": 668,
    "workshop": 138
   }
  },
@@ -5910,8 +5910,10 @@
     "primary_category": "stat.ML",
     "published": "2026-09-09",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6242,8 +6244,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7535,7 +7539,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -7576,7 +7580,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -8099,6 +8103,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.22039v1"
+   },
+   "2611.22724": {
+    "abs_url": "https://arxiv.org/abs/2611.22724",
+    "authors": [
+     "Shuyang Jiang",
+     "Fucheng Deng",
+     "Yuchuan Luo",
+     "Zhenyu Wu"
+    ],
+    "code_url": "",
+    "comment": "28 pages, 15 figures, 16 tables; includes supplementary material",
+    "first_seen": "2026-11-20",
+    "id": "2611.22724",
+    "journal_ref": "",
+    "matched": [
+     "iterative refinement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22724v1",
+    "primary_category": "cs.CV",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Instruction-driven image editors produce convincing local edits in one pass, but inside an iterative refinement loop every accepted output becomes the next input, so unintended changes outside the requested region accumulate. We present ConserveEdit, an editor-agnostic controller that treats each refinement step as a transaction against a contract compiled once from the source image. The contract separates what may change (the authorized region of each target, with a bounded halo for shadows and reflections) from what must survive (protected content with explicit tolerances). Candidates from a frozen editor are composed through a source-anchored mask and committed only if target progress, drift on protected content, and image quality pass as separate tests; otherwise the step is rolled back and repaired. For any editor, this keeps every pixel outside the authorized region bit-exact and bounds drift independently of the number of iterations, whereas no fixed scalar trade-off reproduces the separate tests. On all 1053 MagicBrush test edits with a frozen Qwen-Image-Edit, masking is necessary but not sufficient. A direct call already alters the rest of the image (12.1 dB PSNR outside the mask); composed through the source-anchored mask, it stays bit-exact there and its DINO similarity to the ground truth rises from 0.67 to 0.85, matching ConserveEdit, so this gain comes from the mask. Next to automatic masks, however, masked direct editing changes a protected face or text on 48% of turns, and masked scalar selection avoids this mostly by abstaining (23% constrained success). Because its drift test names the violated entity, ConserveEdit shrinks the support instead (2% violations, 53% constrained success); in a simulator with known ground truth it raises constrained success from 55.0% to 61.8%. Automatic grounding remains the main bottleneck. Code and logs will be released.",
+    "tier": "none",
+    "title": "ConserveEdit: Source-Anchored Transactions for Drift-Bounded Iterative Image Editing",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.22724v1"
    }
   },
   "Korean Writing & NLP": {
@@ -29909,7 +29950,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -31998,6 +32039,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.22511v1"
+   },
+   "2611.24588": {
+    "abs_url": "https://arxiv.org/abs/2611.24588",
+    "authors": [
+     "Fatima Zahra Iguenfer",
+     "Yousra Chtouki"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-20",
+    "id": "2611.24588",
+    "journal_ref": "",
+    "matched": [
+     "low-resource language",
+     "low resource language",
+     "arabic"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.24588v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-18",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "This research investigates whether a large language model or an autonomous AI Agent performs better at translating from English to Arabic, which is considered a low-resource language. The authors introduce WikiEn-Ar190, a new dataset of 190 carefully selected Wikipedia articles from 18 different areas, which were created and verified by two native Arabic speakers to ensure that they accurately reflect both meaning and style. Using this dataset, the study evaluates the translation quality of GPT-5-mini both as an independent neural translator and when used within a more complex process that includes self-assessment and improvement. As a standalone model, GPT-5-mini produced very fluent translations , achieving a COMET score of 0.8649 and receiving high human scores for adequacy, fluency, and style (averaging 4.53 out of 5). When used in a system that combined translation with self-assessment, it improved lexical accuracy by 28.76% (BLEU score of 22.83) while maintaining a similar level of semantic quality. These findings show that methods involving autonomous reasoning can improve translation consistency for language pairs with limited resources. Beyond the results, the approach offers a framework for evaluating and improving translations, potentially using them as assisting tools to expand the representation of low resource languages, such as Arabic, on the web.",
+    "tier": "none",
+    "title": "Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.24588v1"
    }
   },
   "Reward & Value Models": {
@@ -41250,14 +41328,14 @@
      "Hanna Kurniawati"
     ],
     "code_url": "",
-    "comment": "",
+    "comment": "Accepted at NeurIPS 2026",
     "first_seen": "2026-09-22",
     "id": "2512.20974",
     "journal_ref": "",
     "matched": [
      "reward model"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2512.20974v4",
+    "pdf_url": "https://arxiv.org/pdf/2512.20974v5",
     "primary_category": "cs.LG",
     "published": "2025-12-24",
     "s2": {
@@ -41266,17 +41344,17 @@
      "venue": "",
      "year": 2025
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Deep Bayesian reinforcement learning adapts to unseen tasks by inferring latent transition and reward models, but existing methods typically rely on variational posteriors and evidence lower bounds, introducing approximation error and unstable task representations. We introduce GLiBRL, a deep Bayesian RL framework that combines generalised linear task models with learnable non-linear basis functions. GLiBRL features conjugate Bayesian inference, yielding exact, sequential posterior updates over task parameters and model noise, together with a closed-form marginal likelihood that eliminates variational inference. The update is naturally permutation-invariant, allowing GLiBRL to integrate with both off- and on-policy algorithms. GLiBRL also learns task representation admitting an exact kernel identity, relating distances between task representations to kernel discrepancies over the task contexts. Compared against eight representative or recent meta reinforcement learning methods, GLiBRL achieves the highest aggregate zero-shot test performance on both the MuJoCo locomotion and MetaWorld manipulation benchmarks.",
-    "tier": "none",
+    "tier": "top",
     "title": "Meta-RL with Bayesian Linear Task Models",
-    "track": "",
-    "updated": "2026-09-09",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
-    "version": "2512.20974v4"
+    "track": "main",
+    "updated": "2026-11-17",
+    "venue": "NeurIPS",
+    "venue_evidence": "Accepted at NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2512.20974v5"
    },
    "2512.21915": {
     "abs_url": "https://arxiv.org/abs/2512.21915",
@@ -52768,8 +52846,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -52807,8 +52887,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -62199,7 +62281,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62234,9 +62316,11 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "International Joint Conference on the Analysis of Images, Social Networks and Texts",
      "year": 2026
     },
     "status": "unknown",
@@ -62269,7 +62353,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62328,7 +62412,7 @@
     "primary_category": "cs.IR",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62364,7 +62448,7 @@
     "primary_category": "stat.ML",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62401,7 +62485,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62436,7 +62520,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62470,7 +62554,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -62505,7 +62589,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -67986,6 +68070,132 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.23179v1"
+   },
+   "2611.23365": {
+    "abs_url": "https://arxiv.org/abs/2611.23365",
+    "authors": [
+     "Alex Lin Wang",
+     "Linus Yifeng Tang",
+     "Dami Choi",
+     "Neil Chowdhury"
+    ],
+    "code_url": "",
+    "comment": "31 pages, 13 figures, 8 tables",
+    "first_seen": "2026-11-20",
+    "id": "2611.23365",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23365v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy. Asking the assistant follow-up questions about its actions is unreliable, since models are generally not trained to report their own misbehavior. As a result, approaches to oversight typically involve querying external models. These face limitations: external transcript monitoring operates only on visible model outputs, and activation decoders lack full context and are prone to confabulation. We introduce introspective oversight, which trains a new role in the model to answer arbitrary questions about the assistant, rewarding answers that are verified against the assistant's actual behavior. We implement this by adding a separate, third-person observer role that answers these queries, which we can train solely for accuracy and separately from the assistant. On five held-out oversight evaluations, an observer trained on Qwen3.6-27B obtains a mean AUROC of 0.907, outperforming honesty training (0.864), transcript monitoring (0.828), and activation oracles (0.796). We further find that training an observer makes the assistant itself easier to monitor, with every baseline method improving on average when applied to the fine-tuned assistant. These results suggest that training models to answer verifiable questions about themselves is a tractable approach to overseeing unintended behavior.",
+    "tier": "none",
+    "title": "Training Language Models for Introspective Oversight",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23365v1"
+   },
+   "2611.23456": {
+    "abs_url": "https://arxiv.org/abs/2611.23456",
+    "authors": [
+     "Quy P. Nguyen",
+     "Duong Q. Nguyen",
+     "Dinh P. T. Nguyen",
+     "Truong-Giang T. Le",
+     "Truong A. Bui",
+     "Vi H. Vo",
+     "Quang-Thinh Bui",
+     "My-Phuong Ngo",
+     "Trong N. Do",
+     "Thao P. Le",
+     "Phuc M. Nguyen",
+     "H. Nguyen-Xuan"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-20",
+    "id": "2611.23456",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23456v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints: mathematical correctness, curriculum alignment, appropriate cognitive difficulty, and educator reviewability. While prior work has advanced text generation, reliable assessment authoring requires granular control over localized examination formats and expert educational judgment. To address this challenge, we present VeriMath, a generalized, human-in-the-loop framework for generating rigorous, curriculum-constrained mathematics assessment drafts. Using annotated reference items, the framework anchors generation to the requested examination section and cognitive reasoning level, then applies sequential automated verification and guided repair before submitting drafts for expert review. We evaluate VeriMath through a national curriculum case study using 4,555 mathematics items from the Vietnamese Grade 12 curriculum and 50 distinct generation requirements covering multiple-choice, true/false, and short-answer formats. Across two model backbones, the framework produces verifier-accepted drafts for 94% (47/50) of requirements per run. Blind expert evaluations confirm high mathematical accuracy and curriculum alignment, with strict teacher-readiness assessments accepting up to 56.8% of generated items. Analysis of rejected drafts reveals persistent domain-agnostic challenges involving formatting, statement validity, and solution-step completeness. These findings demonstrate that VeriMath can bridge generative AI and dependable educational applications by producing highly reviewable assessment drafts within tightly constrained national curriculum frameworks.",
+    "tier": "none",
+    "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23456v1"
+   },
+   "2611.23917": {
+    "abs_url": "https://arxiv.org/abs/2611.23917",
+    "authors": [
+     "Hanqi Mao",
+     "Jiajun Fan",
+     "Ruihan Guo",
+     "Shuaike Shen",
+     "Ziwen Wang",
+     "Hui Ren",
+     "Xianrui Zhong",
+     "Ge Liu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-20",
+    "id": "2611.23917",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "process reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23917v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-18",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Vision-language agents that browse websites, operate phones and act in homes reason before every action, so every step waits for a large model, a latency and cost that stand in the way of deployment. Step-level speculation lets a small model draft each step and calls the large model only on rejected drafts, but its outcome rests on the judge, and a judge that reads only a step's text cannot tell whether the step fits the screen it acts on. We find that a few samples of a small model can contain a correct step about as often as the large model gets the step right, and not always on the same steps: checked against the screen, small drafts can be not only cheaper but better. We present Vanguard, a training-free judge that leaves the draft and target models unchanged: a general decision model, with the screenshot in view, gives each candidate step a probability of being right in one forward pass; the best candidate is kept if it clears a threshold, and otherwise the large model writes the step. On web, mobile and embodied agents, a 2B draft judged by Vanguard is at least as accurate as its 8B target and significantly more accurate on Mind2Web and EB-ALFRED, while the target writes only a minority of the steps; it completes far more closed-loop episodes, and with a 27B target from another family it is both faster and more accurate. Vanguard is the most accurate judge we compare on the agent tasks; it relies on the screenshot on web and mobile tasks, its calibrated threshold transfers to unseen websites, and across model families its gain over the target grows with the draft's pass@4 relative to the target's accuracy. Vanguard composes with token-level speculative decoding and matches trained process reward models on mathematics, turning speculation from a way to save the large model's work into one that can improve on it.",
+    "tier": "none",
+    "title": "Vanguard: Knowing When to Trust the Draft in Speculative Vision-Language Agents",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23917v1"
    }
   },
   "Search & Control for Generation": {
@@ -75545,8 +75755,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -75585,8 +75797,10 @@
     "primary_category": "cs.AR",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -76267,6 +76481,41 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2609.39600v2"
+   },
+   "2609.40290": {
+    "abs_url": "https://arxiv.org/abs/2609.40290",
+    "authors": [
+     "Romie Banerjee"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-20",
+    "id": "2609.40290",
+    "journal_ref": "",
+    "matched": [
+     "tree search",
+     "monte carlo tree search"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.40290v3",
+    "primary_category": "cs.IT",
+    "published": "2026-09-30",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Strong models in algorithmic statistics are essentially the cells of simple partitions of $\\{0,1\\}^n$. We study the partitions that come from symmetry, the orbit partitions of groups acting on strings, and the structure function $h^G_x$ they induce. A set is a cell of such a partition exactly when its setwise stabiliser acts transitively on it, so $h^G_x$ is Kolmogorov's structure function restricted to $G$-homogeneous sets. For the full symmetric group this recovers all models and exactly the strong ones. For $GL(n,2)$ the cells are the linearly homogeneous sets, $h^{GL}_x$ lies in a band between $C(x)-α$ and $n-α$ with both edges attained, and some stochastic normal strings have simple structure that is invisible to linear symmetry. Writing each permutation group as a Burnside-ring type with a placement, we show that any space of symmetry hypotheses small enough to search is small enough to miss simple structure. Finally we cast the search for orbit models as value estimation on subgroup lattices, with computable bounds, certified training targets and a lattice version of Monte Carlo tree search.",
+    "tier": "none",
+    "title": "Orbits as Strong Models: Kolmogorov Structure Function under Symmetry",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2609.40290v3"
    },
    "2610.00912": {
     "abs_url": "https://arxiv.org/abs/2610.00912",
@@ -77225,7 +77474,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -78691,6 +78940,83 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.23154v1"
+   },
+   "2611.23750": {
+    "abs_url": "https://arxiv.org/abs/2611.23750",
+    "authors": [
+     "Shuaidi Wang",
+     "Zhuocheng Gong",
+     "Xuejie Liu",
+     "Jianguo Li",
+     "Yu Zhang"
+    ],
+    "code_url": "",
+    "comment": "21 pages, 9 figures",
+    "first_seen": "2026-11-20",
+    "id": "2611.23750",
+    "journal_ref": "",
+    "matched": [
+     "guided decoding"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23750v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-18",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Diffusion language models (DLMs) offer a flexible alternative to autoregressive models, enabling any-order infilling. While most existing decoding methods treat decoded tokens as fixed, some recent models allow previously decoded tokens to be revised only by replacing them with alternative tokens, a paradigm we refer to as replacement-only editing (ROE). Although ROE can correct individual tokens, it is inefficient for sequence shifts caused by missing or extra tokens and struggles when errors occur across many positions. To address these limitations, we propose LED (Levenshtein Editing for Diffusion Language Models), a post-training framework that extends ROE with insertion and deletion, enabling Levenshtein-style refinement of generated sequences. It uses two training designs. First, it reconstructs edit supervision on the fly during supervised fine-tuning using longest-common-subsequence alignment, enabling insertion and deletion learning without manually annotated labels. Second, it adopts multi-stage training, where the state from one stage becomes the input to the next, exposing the model to its earlier errors and enabling it to correct them. When applied to the 16B-parameter LLaDA2.1-Mini Base, LED raises the average score across twelve benchmarks from 54.86 to 57.10 under confidence-guided decoding while increasing tokens per forward from 6.14 to 7.05, whereas under confidence-free decoding it raises the average score from 27.52 to 47.19. We further show that LED achieves higher pass@k at large k than thresholded decoding without editing, demonstrating improved generation diversity and revealing the diversity potential of DLMs without confidence guidance. LED also improves robustness to large block sizes, raising the average score from 36.97 to 51.34 at block size 128. Together, these results suggest that LED supports more robust self-correction in DLMs.",
+    "tier": "none",
+    "title": "Beyond Replacement: Levenshtein Editing for Diffusion Language Models",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23750v1"
+   },
+   "2611.23969": {
+    "abs_url": "https://arxiv.org/abs/2611.23969",
+    "authors": [
+     "Dae Kyoo Kim",
+     "Heejung Cho",
+     "Sungmoo Hong",
+     "Eunil Park"
+    ],
+    "code_url": "",
+    "comment": "15 pages. Published in the Proceedings of EMNLP 2026 (Main Conference)",
+    "first_seen": "2026-11-20",
+    "id": "2611.23969",
+    "journal_ref": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), pages 36183-36197, Budapest, Hungary",
+    "matched": [
+     "verifier-guided"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23969v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-18",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "CoT-style LLM recommenders generate a natural-language preference note as a chain-of-thought prefix to ranking, but the note is trusted without verification, and the ranker never consults behaviorally similar users. We propose ReflectRec, organized around a preference-to-history round-trip verifier whose recall score serves as an operational signal of preference-to-history recoverability, enabling conditional regeneration for low-recoverability preferences and selection among regeneration attempts. Around this verifier, we wire a semantic Stage-1 prompt, conditional regeneration, and Forward-Look retrieval that injects future watches of behaviorally similar users as a collaborative hint. On MovieLens-100K and MovieLens-1M, the full pipeline outperforms CoT4Rec-ICL by +16.25 / +4.46 pp Hit@10, with positive gains across all ValScore buckets and three LLM backbones (Qwen3-30B, Qwen2.5-72B, and Llama-3.3-70B). We also observe a similar verifier-guided regeneration pattern on Amazon Electronics.",
+    "tier": "top",
+    "title": "ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation",
+    "track": "main",
+    "updated": "2026-11-18",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), pages 36183-36197, Budapest, Hungary",
+    "venue_source": "journal_ref",
+    "venue_year": "2026",
+    "version": "2611.23969v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -88466,8 +88792,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -88508,8 +88836,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -88545,8 +88875,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -90674,7 +91006,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -90713,7 +91045,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -90755,7 +91087,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -92463,6 +92795,50 @@
     "venue_year": "2026",
     "version": "2611.19127v1"
    },
+   "2611.21885": {
+    "abs_url": "https://arxiv.org/abs/2611.21885",
+    "authors": [
+     "Jiajun Fan",
+     "Neil He",
+     "Changyi Yang",
+     "Andy Mao",
+     "Xi Zhu",
+     "Chaoran Cheng",
+     "Kaiqu Liang",
+     "Shuaike Shen",
+     "Zetian Li",
+     "Ruihan Guo",
+     "Ge Liu"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-20",
+    "id": "2611.21885",
+    "journal_ref": "",
+    "matched": [
+     "self-improvement"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.21885v2",
+    "primary_category": "cs.AI",
+    "published": "2026-11-16",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "A language model is trained once and frozen. Making it better takes another training run, or a prompt, a harness or extra computation at inference that is gone once the task ends. We show a third way: to our knowledge for the first time, a language model rewrites its own weights by its own reasoning and becomes better, with no gradients and no training. We call this self-rewriting: the model is its own optimizer. In earlier work, a frontier model edited a much smaller one; here an open 27B model, given its weights, its graded answers and the ability to run itself, diagnoses its own failure and rewrites the weights behind it. It surpasses itself: its own edit makes it 6.6 points more accurate on problems it never saw. It keeps getting better: it tests its edits on practice problems and submits only what works, each edit improving on the last, and over eight consecutive sessions its accuracy only rises. It repairs a damaged copy of itself, like a broken robot that fixes itself without being rebuilt: the copy solves almost nothing, yet with no retraining and without ever reading the original weights, the model brings it back to over 80% of the original accuracy on image tasks it never saw. And the ability emerges with scale: in one model family, the smaller models make no edit or break themselves, and only the largest improves and repairs itself. Unlike test-time scaling, self-rewriting writes its gain into the weights, at no cost per answer; unlike training, it runs only forward passes, as serving does. The wall between training and inference is a limit of our tools, not a property of intelligence. We believe self-rewriting is a necessary step toward recursive self-improvement: a model that, like a human, does not separate training from inference could keep upgrading itself for life, with no larger model, no harness or prompt engineering, and no pre- or post-training.",
+    "tier": "none",
+    "title": "Language Models Can Rewrite Their Own Weights",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.21885v2"
+   },
    "2611.22432": {
     "abs_url": "https://arxiv.org/abs/2611.22432",
     "authors": [
@@ -92478,7 +92854,7 @@
     "matched": [
      "self-improvement"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2611.22432v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.22432v2",
     "primary_category": "cs.AI",
     "published": "2026-11-17",
     "s2": {
@@ -92492,12 +92868,12 @@
     "tier": "none",
     "title": "Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness",
     "track": "",
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2611.22432v1"
+    "version": "2611.22432v2"
    },
    "2611.22490": {
     "abs_url": "https://arxiv.org/abs/2611.22490",
@@ -92595,6 +92971,84 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.23010v1"
+   },
+   "2611.23620": {
+    "abs_url": "https://arxiv.org/abs/2611.23620",
+    "authors": [
+     "Siqing Li",
+     "Luming Yang",
+     "Yijia Jiao",
+     "Junze Deng",
+     "Alper Yilmaz"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-20",
+    "id": "2611.23620",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23620v1",
+    "primary_category": "cs.RO",
+    "published": "2026-11-17",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "A frozen latent world model combined with sampling-based model predictive control is a visual planner. At deployment, the executed action can depart from the commanded one, and the frozen model has no way to notice. We show that the model can be run in reverse: for any hypothesized actuation shift, it predicts what it should have observed under that shift, and comparing this prediction with what was actually observed quantifies the shift and lets the planner correct itself. Unlike the residual energy, which mixes the shift with the model's own error, the score keeps only the part of the residual that a shift can produce. This shift score detects the shift with a locally optimal test, estimates it with Cramer-Rao error bars, names the dominant generator, and compensates the planner once an alarm fires. On PushT, TwoRoom and OGBench-Cube with a frozen latent world model, measured detection follows the prediction to within 0.05 AUROC. Self-correction raises success from 0.650 to 0.862 on PushT and from 0.378 to 0.432 on the harder Cube task, levels with an oracle that is told the true shift at the same block, better than five common test-time adaptation methods. On a real robotic arm, the score identifies a base-joint offset that no joint encoder registers and reduces the reach error from 36 mm to 3-5 mm, and under shifts drawn at random and sealed before the session, estimates recover 92-94% of the error reduction achieved with the true shift. The broader implication is that a frozen world model can act as a filter by predicting the future, testing action-interface uncertainty and validity, and finally correcting failures.",
+    "tier": "none",
+    "title": "How Uncertain Is My Action? Self-Correcting Visual Planning with Frozen World Models",
+    "track": "",
+    "updated": "2026-11-17",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23620v1"
+   },
+   "2611.23750": {
+    "abs_url": "https://arxiv.org/abs/2611.23750",
+    "authors": [
+     "Shuaidi Wang",
+     "Zhuocheng Gong",
+     "Xuejie Liu",
+     "Jianguo Li",
+     "Yu Zhang"
+    ],
+    "code_url": "",
+    "comment": "21 pages, 9 figures",
+    "first_seen": "2026-11-20",
+    "id": "2611.23750",
+    "journal_ref": "",
+    "matched": [
+     "self-correction",
+     "self-correct"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23750v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-18",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Diffusion language models (DLMs) offer a flexible alternative to autoregressive models, enabling any-order infilling. While most existing decoding methods treat decoded tokens as fixed, some recent models allow previously decoded tokens to be revised only by replacing them with alternative tokens, a paradigm we refer to as replacement-only editing (ROE). Although ROE can correct individual tokens, it is inefficient for sequence shifts caused by missing or extra tokens and struggles when errors occur across many positions. To address these limitations, we propose LED (Levenshtein Editing for Diffusion Language Models), a post-training framework that extends ROE with insertion and deletion, enabling Levenshtein-style refinement of generated sequences. It uses two training designs. First, it reconstructs edit supervision on the fly during supervised fine-tuning using longest-common-subsequence alignment, enabling insertion and deletion learning without manually annotated labels. Second, it adopts multi-stage training, where the state from one stage becomes the input to the next, exposing the model to its earlier errors and enabling it to correct them. When applied to the 16B-parameter LLaDA2.1-Mini Base, LED raises the average score across twelve benchmarks from 54.86 to 57.10 under confidence-guided decoding while increasing tokens per forward from 6.14 to 7.05, whereas under confidence-free decoding it raises the average score from 27.52 to 47.19. We further show that LED achieves higher pass@k at large k than thresholded decoding without editing, demonstrating improved generation diversity and revealing the diversity potential of DLMs without confidence guidance. LED also improves robustness to large block sizes, raising the average score from 36.97 to 51.34 at block size 128. Together, these results suggest that LED supports more robust self-correction in DLMs.",
+    "tier": "none",
+    "title": "Beyond Replacement: Levenshtein Editing for Diffusion Language Models",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23750v1"
    }
   },
   "Semantic Drift & Faithfulness": {
@@ -98351,7 +98805,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98387,7 +98841,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-14",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98427,7 +98881,7 @@
     "primary_category": "cs.CR",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98468,7 +98922,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98516,7 +98970,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98553,7 +99007,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-22",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98594,7 +99048,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-22",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98630,7 +99084,7 @@
     "primary_category": "cs.CR",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98667,7 +99121,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98709,23 +99163,24 @@
     "primary_category": "cs.IR",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Retrieval-Augmented Generation (RAG) enhanced by Knowledge Graphs has shown promise in complex multi-hop reasoning tasks. However, existing graph-based retrieval methods typically rely on flat, undirected topologies. During the retrieval process, the probability flow often gets trapped in high-degree abstract concept nodes which we define as ``probability black holes'', leading to semantic drift and noise accumulation. To address this, we propose SemFlowRAG, a framework that reconstructs the flat retrieval space into a corpus-adaptive semantic gradient graph. This data-driven self-organization enables a hierarchical structure to emerge naturally from the data distribution, capturing the intrinsic semantic granularity of the corpus to suppress structural noise. By quantifying the semantic abstractness of entities through the embedding variance of their associated passages, we transform static undirected edges into directed semantic constraints. Furthermore, we design an abstractness-guided directed PageRank algorithm that forces the retrieval trajectory to follow a ``high-to-low semantic abstractness'' gradient. This mechanism ensures layer-by-layer evidence convergence, smoothly guiding the retrieval process from abstract concepts to specific document evidence. Extensive experiments on complex QA datasets demonstrate that SemFlowRAG effectively mitigates the ``probability black holes'' issue, outperforming existing baselines in both retrieval and downstream reasoning performance.",
-    "tier": "none",
+    "tier": "top",
     "title": "SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-26",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.28447v1"
    },
    "2606.31002": {
@@ -98791,7 +99246,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98834,7 +99289,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98875,7 +99330,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98949,7 +99404,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -98989,7 +99444,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99031,7 +99486,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99070,7 +99525,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99108,7 +99563,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99144,7 +99599,7 @@
     "primary_category": "cs.MA",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99181,7 +99636,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-25",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99217,7 +99672,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99253,7 +99708,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99312,7 +99767,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -99358,7 +99813,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-31",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -99400,8 +99855,10 @@
     "primary_category": "cs.CR",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -99437,8 +99894,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -99473,8 +99932,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -99512,9 +99973,13 @@
     "primary_category": "cs.CV",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
      "year": 2026
     },
     "status": "accepted",
@@ -99588,8 +100053,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-08",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -99627,7 +100094,7 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -99661,8 +100128,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -99697,9 +100166,12 @@
     "primary_category": "cs.IR",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 18th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
      "year": 2026
     },
     "status": "unknown",
@@ -99743,8 +100215,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -99779,8 +100253,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -100852,8 +101328,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -100889,8 +101367,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -101809,7 +102289,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -101843,7 +102323,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -101881,21 +102361,21 @@
     "primary_category": "cs.CV",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Long video understanding requires reasoning over hours of content that far exceed the context window of multimodal large language models (MLLMs). Existing approaches compress video into fixed-length clips, yet events are fragmented and unrelated content is merged, yielding noisy retrieval. To overcome this challenge, we propose EMMA, an Event-driven Multimodal Memory system with Multi-Agent retrieval, which organizes memory around semantic events in three stages: (1) Event segmentation: a dual-stream detector adaptively locates event boundaries by fusing visual semantic drift with spoken transitions, rather than fixed windows. (2) Memory construction: built on the detected events, a three-level hierarchy of raw video, clip-level memory, and event-level memory stores content at progressively higher semantic abstraction. (3) Memory retrieval: a multi-agent framework collaboratively queries this hierarchy through query decomposition, tiered search, evidence validation, and answer generation, narrowing evidence from coarse events to precise clips. Extensive experiments on three challenging benchmarks demonstrate substantial improvements, showing the effectiveness of our event-aligned memory system. Code, prompt templates, and reproduction scripts are available at https://github.com/BAI-LAB/EMMA.",
-    "tier": "none",
+    "tier": "top",
     "title": "EMMA: Event-Driven Multimodal Memory System with Multi-Agent Retrieval",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-28",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2610.23892v1"
    },
    "2610.25206": {
@@ -101917,7 +102397,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "Review"
      ],
@@ -101960,7 +102440,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102001,7 +102481,7 @@
     "primary_category": "cs.IR",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -102711,6 +103191,43 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.22039v1"
+   },
+   "2611.24669": {
+    "abs_url": "https://arxiv.org/abs/2611.24669",
+    "authors": [
+     "Jialing Xie",
+     "Yifan Zhou",
+     "Yiwen Zhang",
+     "Junjun He"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-20",
+    "id": "2611.24669",
+    "journal_ref": "",
+    "matched": [
+     "content preservation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.24669v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-18",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Adapting a film into a game requires selecting source elements and translating them into player actions, rules, and feedback. We introduce Movie2Game-Bench (M2G-bench), a benchmark for evaluating film-to-game adaptation beyond playability. M2G-bench combines general evaluation, movie-specific evaluation, and playtesting by three GUI model players. The protocol connects source content to gameplay steps and implementation evidence, capturing both content preservation and interactive realization. The benchmark comprises 22 films and 658 source-specific reference items. Evaluating 14 models on the same films with their selected primary harnesses reveals complementary strengths in game quality, adaptation, and player experience. A shared weakness concerns playable sequences: this category has the lowest content-presence mean in all 14 models, averaging 37.9 out of 100 compared with 54.8 for iconic elements. Among judgments of retained emotionaldevelopment content, narrative choices account for 60.0% and scenario operation for 7.2%. These findings identify two linked priorities for film-to-game adaptation: preserving source situations that can support gameplay and connecting retained content to player actions and consequences.",
+    "tier": "none",
+    "title": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.24669v1"
    }
   },
   "Synthetic Preference Data": {
@@ -110410,7 +110927,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -110451,7 +110968,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -110492,7 +111009,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -110531,7 +111048,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -110625,7 +111142,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -110665,23 +111182,24 @@
     "primary_category": "eess.AS",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "The rapid advancement of instruction-guided audio generation has highlighted the critical need for robust alignment evaluation. Current automated evaluation methods heavily rely on holistic scoring from general-purpose large language models, which struggle to decouple complex instructions, lack interpretability, and fail to capture fine-grained attribute mismatches. To address this, we introduce a novel dynamic rubric-based evaluation paradigm that adaptively decomposes complex audio captions into a variable number of independent, verifiable binary rubric items. To rigorously benchmark this capability, we propose the AnyAudio-Judge Bench, a comprehensive, bilingual benchmark comprising 7,920 meticulously curated samples across four diverse audio domains (speech, sound, music, and mixed), featuring deliberately constructed hard negatives. Furthermore, we construct a large-scale corpus of 105K samples with explicit Chain-of-Thought (CoT) rationales to train our dedicated evaluator, the AnyAudio-Judge model. By employing a training pipeline that combines Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO), our model successfully aligns its reasoning paths with the rubric-based scoring mechanism. Extensive experiments demonstrate that AnyAudio-Judge not only significantly enhances zero-shot alignment detection compared to state-of-the-art baselines, but also provides precise and interpretable reward signals that substantially improve instruction alignment in downstream reinforcement learning for audio generation.",
-    "tier": "none",
+    "tier": "top",
     "title": "AnyAudio-Judge: A Dynamic Rubric-Based Benchmark and Evaluator for Audio Instruction Following",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-02",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.03116v1"
    },
    "2606.03130": {
@@ -110707,7 +111225,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -110791,10 +111309,8 @@
     "primary_category": "cs.LG",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-11-20",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -110828,11 +111344,12 @@
     "primary_category": "cs.AI",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "Book",
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Proceedings of the ACM AI Leadership Summit 2026",
      "year": 2026
     },
     "status": "unknown",
@@ -110907,7 +111424,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-05",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -110946,7 +111463,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-05",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -110986,7 +111503,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111031,23 +111548,23 @@
     "primary_category": "cs.LG",
     "published": "2026-06-04",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Safety alignment for large language models relies on preference data, but current pipelines often train on large, redundant datasets. Existing data selection methods typically score each preference pair independently, collapsing directional preference information into scalar quality or diversity scores. This sample-centric view is especially limiting in multi-dataset settings, where shared safety directions coexist with dataset-specific residual risks. We propose DOG-DPO, a training-free data selection framework that treats preference pairs as structured geometric signals. DOG-DPO first represents each preference pair as a direction in model representation space. It then decomposes multi-dataset preference geometry into a global anchor subspace and dataset-specific residual subspaces. Finally, it selects subsets by maximizing diversity-based coverage, encouraging broad, non-redundant coverage of alignment directions before DPO training. Across six safety benchmarks and two model backbones, DOG-DPO achieves a strong utility-robustness trade-off using only 11% of the preference pairs. It recovers most of the safety gains of full-data training while remaining entirely teacher-free, training-free, and substantially faster than representative selection baselines.",
-    "tier": "none",
+    "tier": "top",
     "title": "DOG-DPO:Dynamic Optimization in Geometry for Safety Alignment",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-14",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.07678v2"
    },
    "2606.07988": {
@@ -111072,7 +111589,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-06",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111113,23 +111630,24 @@
     "primary_category": "cs.CL",
     "published": "2026-06-06",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Rubric-based evaluation is a promising paradigm for judging large language model (LLM) outputs, yet self-generated rubrics lag human-annotated criteria on hard instances. We argue this discriminative gap reflects an objective mismatch: self-generated rubrics describe good responses, whereas effective criteria must discriminate between close candidates. To close this gap, we introduce SVR (Support Vector Rubrics), a framework that recasts rubric construction as max-margin boundary learning over preference data. SVR mines contrastive features from preference pairs into a rubric bank, learns a prompt-conditioned selector together with global rubric weights, and iteratively refines the bank through support-pair selection and adversarial probing of hard negatives. At inference, given only the prompt, SVR retrieves the top-rubrics from the bank and scores responses. On RubricBench, SVR narrows the gap to human reference rubrics from 24.1 to 0.3 points and outperforms strong self-rubric and judge baselines, and the learned bank transfers across judges without retraining. On RewardBench 1&2, and RM-Bench, it remains competitive with dedicated reward models, demonstrating broader reward modeling capability. Overall, boundary-defining rubrics offer a principled route to closing the discriminative gap in LLM evaluation.",
-    "tier": "none",
+    "tier": "top",
     "title": "Support Vector Rubrics: Closing the Gap Between Self-Generated and Human Rubrics",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-06",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.08077v1"
    },
    "2606.08157": {
@@ -111237,7 +111755,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111274,7 +111792,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-09",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111326,7 +111844,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111366,7 +111884,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111402,7 +111920,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-11",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111439,7 +111957,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111478,11 +111996,11 @@
     "primary_category": "cs.CL",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Data Intelligence",
      "year": 2026
     },
     "status": "unknown",
@@ -111515,11 +112033,11 @@
     "primary_category": "cs.SD",
     "published": "2026-06-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Interspeech",
      "year": 2026
     },
     "status": "accepted",
@@ -111529,8 +112047,8 @@
     "track": "main",
     "updated": "2026-06-17",
     "venue": "Interspeech",
-    "venue_evidence": "Accepted to INTERSPEECH 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Interspeech",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2606.19597v1"
    },
@@ -111560,7 +112078,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111648,7 +112166,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111695,11 +112213,12 @@
     "primary_category": "cs.CV",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "European Conference on Computer Vision",
      "year": 2026
     },
     "status": "accepted",
@@ -111739,23 +112258,23 @@
     "primary_category": "cs.LG",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Current LLM evaluation relies on two complementary but often disconnected signals: static benchmarks with objective correctness labels and arena-style preference data that better reflect open-ended user interactions. We introduce DualEval, a latent model-item calibration framework that represents models and evaluation items in a shared space, jointly estimating model ability together with item difficulty and sharpness. We apply DualEval across four domains: coding, math, miscellaneous domain-knowledge tasks, and generic everyday user queries. Our evaluation uses 18 frontier LLMs, static benchmark labels, and reward-model scores validated against held-out human preferences for open-ended model responses. Empirically, our framework produces reliable and balanced model rankings, and its learned item-level profiles support downstream applications such as benchmark compression for sample-efficient evaluation and anomaly detection for contamination or outlier analysis. Overall, DualEval unifies static and arena-style evaluation through joint model-item calibration, producing model rankings and item-level diagnostics that support more sample-efficient, interpretable, and auditable evaluation pipelines.",
-    "tier": "none",
+    "tier": "top",
     "title": "DualEval: Joint Model-Item Calibration for Unified LLM Evaluation",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-24",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.26429v1"
    },
    "2606.27291": {
@@ -111788,7 +112307,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111864,7 +112383,7 @@
     "primary_category": "cs.CV",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111939,7 +112458,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-28",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -111979,7 +112498,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112024,7 +112543,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112064,11 +112583,11 @@
     "primary_category": "cs.LG",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "ECML PKDD",
      "year": 2026
     },
     "status": "unknown",
@@ -112106,11 +112625,12 @@
     "primary_category": "cs.CL",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -112120,8 +112640,8 @@
     "track": "main",
     "updated": "2026-08-31",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 Main Conference",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2607.05113v2"
    },
@@ -112148,7 +112668,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-06",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112185,7 +112705,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112227,7 +112747,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112267,7 +112787,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -112306,7 +112826,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112343,7 +112863,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112383,7 +112903,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112424,7 +112944,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112467,7 +112987,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112506,7 +113026,7 @@
     "primary_category": "cs.MM",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112650,7 +113170,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112695,7 +113215,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112772,7 +113292,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -112863,7 +113383,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -113022,8 +113542,10 @@
     "primary_category": "cs.CV",
     "published": "2026-08-01",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113063,8 +113585,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113101,8 +113625,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113182,8 +113708,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-09",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113254,8 +113782,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113293,8 +113823,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113371,8 +113903,10 @@
     "primary_category": "cs.IR",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113416,8 +113950,9 @@
     "primary_category": "cs.CL",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -113454,8 +113989,10 @@
     "primary_category": "cs.LG",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113538,8 +114075,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -113575,8 +114114,10 @@
     "primary_category": "cs.SD",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -115717,8 +116258,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -115756,21 +116299,24 @@
     "primary_category": "cs.CV",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "While Video Large Language Models (Video-LLMs) have recently demonstrated strong performance, reliably evaluating their fine-grained video understanding remains challenging. Existing benchmarks often rely on question answering or ground-truth caption matching, where models may succeed through superficial cues and incomplete annotations. To this end, we introduce VidOmni-Bench, a benchmark that requires models to verify whether each event in dense video captions is supported by the video. VidOmni-Bench consists of 500 videos spanning five complexity types and diverse durations from 4 seconds to 90 minutes. After collecting videos along these axes, we use diverse Video-LLMs to generate dense captions and obtain human-verified sentence-level labels, where sentences containing incorrect events serve as hard negatives for evaluation. Our experiments on VidOmni-Bench reveal three key findings: (i) Video-LLMs frequently generate hallucinated descriptions in dense video captioning; (ii) they also struggle as verifiers, failing to reliably detect plausible but incorrect event descriptions; and (iii) model weaknesses vary across video complexity and duration, revealing diverse, model-specific bottlenecks in current Video-LLMs.",
-    "tier": "none",
+    "tier": "top",
     "title": "VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration",
-    "track": "",
+    "track": "main",
     "updated": "2026-10-03",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.21521v2"
    },
    "2609.22101": {
@@ -117077,7 +117623,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-04",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -118004,7 +118550,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -118076,7 +118622,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -118123,9 +118669,11 @@
     "primary_category": "cs.CL",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -118135,8 +118683,8 @@
     "track": "main",
     "updated": "2026-10-18",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2610.25362v1"
    },
@@ -118160,7 +118708,7 @@
     "primary_category": "stat.AP",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -118194,7 +118742,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -120025,6 +120573,40 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.23179v1"
+   },
+   "2611.23832": {
+    "abs_url": "https://arxiv.org/abs/2611.23832",
+    "authors": [
+     "Pavan Kumar Mantha"
+    ],
+    "code_url": "",
+    "comment": "12 pages with 7 tabular explanations",
+    "first_seen": "2026-11-20",
+    "id": "2611.23832",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.23832v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-18",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "A System 1 model answers a multiple-choice question in a single pass. A frozen language model turns the question and each option into vectors, two small, trained heads place them in a shared space, and the closest option wins. The design has been shown on agent decisions, but we are not aware of a study of how far it goes on exam questions that need medical knowledge, where the right option is often no more similar to the question than the wrong ones. We rebuilt the recipe from scratch for MedMCQA and trained only two projection heads and one temperature on top of frozen Qwen3.5-0.8B, Granite-4.2-3B and Qwen3-8B, using a contrastive loss with in-batch and hard negatives and a mask for repeated answers. With plain last-token vectors, both small encoders answer about one question in three correctly (33.1% and 33.0% on 3,842 held-out questions, where chance is 25.0%). Writing each text inside a one-word-summary prompt and lowering the learning rate of the heads raised this to 41.7% and 42.5% for the two small encoders and to 46.0% +-0.2 (three seeds) for Qwen3-8B. Shuffling the questions against the options returns accuracy to chance, so the heads do use the question. Flan-PaLM and Med-PaLM 2 report 57.6% and 72.3% on MedMCQA under a different protocol, so ours is a cheap, fast baseline and not a competitive system. We also say what our evidence cannot show: validation gains were about 1.7 to 2 times the test gains, and we could not separate the effect of reading several encoder layers from the other changes.",
+    "tier": "none",
+    "title": "A System 1 Decision Model for Medical Multiple-Choice Questions Built on Frozen Language Models",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.23832v1"
    }
   },
   "Text Quality Evaluation": {
@@ -128912,7 +129494,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-26",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129026,7 +129608,7 @@
     "primary_category": "cs.CY",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -129077,23 +129659,24 @@
     "primary_category": "cs.CL",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Rubric-based scoring has become a widely used paradigm in model evaluation, typically with LLM-as-a-Judge (LaaJ) for rubric scoring. However, the reliability of LaaJ for rubric scoring remains underexplored. This concern is especially pronounced in agentic scenarios, where long, complex outputs further challenge reliable scoring. To address this, we conduct a systematic meta-evaluation of LaaJ reliability for rubric verification. We introduce RuVerBench, the first benchmark for assessing LaaJ reliability in rubric verification for agentic scenarios. RuVerBench covers two prevalent agentic domains, deep research and agentic coding, with 2,458 instances, each containing a model-generated output, a rubric, and a human-annotated label indicating whether the output satisfies the rubric. Using RuVerBench, we evaluate numerous frontier LLMs and find that even the most advanced models achieve strong performance but still exhibit substantial noise. We further analyze the impact of key LaaJ strategies, including prompt design, batching, and majority voting, on rubric verification. We find that weaker models are more sensitive to prompt variations, batched verification presents a trade-off between accuracy and efficiency, and majority voting yields effective but diminishing returns. We have released our dataset and code to facilitate future research: https://github.com/THU-KEG/RuVerBench.",
-    "tier": "none",
+    "tier": "top",
     "title": "Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-29",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.29920v1"
    },
    "2606.30219": {
@@ -129114,7 +129697,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -129152,7 +129735,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129194,7 +129777,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129233,7 +129816,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129274,21 +129857,21 @@
     "primary_category": "cs.CL",
     "published": "2026-07-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "LLM-as-a-Judge has become the dominant evaluation paradigm for many natural language generation tasks, due to shortcomings of conventional metrics and high correlations with human judgment, albeit mostly in English. There are now attempts to extend LLM-as-a-Judge to multilingual settings including low-resource languages. However, LLMs have limited proficiency in low-resource languages, and there is often no adequate human validation in these settings. To highlight the scope of the problem and current practices, we explore the use of LLM-as-a-Judge evaluators in ACL Anthology papers focusing on multilingual settings and low-resource languages across a diverse set of tasks. Out of 650 papers mentioning LLM-as-a-judge, only 33 of them focus on low-resource or multilingual settings. Our in-depth analysis of these papers indicates inconsistent evaluation outcomes, a tendency to overtrust LLM judgments in multilingual settings, and the widespread reliance on a single judge model per study. To help the NLP community further, we conclude with recommendations about how to use LLM-as-a-Judge in multilingual and low-resource settings.",
-    "tier": "none",
+    "tier": "top",
     "title": "Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages",
-    "track": "",
+    "track": "main",
     "updated": "2026-07-02",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2607.02235v1"
    },
    "2607.04412": {
@@ -129317,7 +129900,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-05",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129391,7 +129974,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129486,7 +130069,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129526,23 +130109,23 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Uncertainty estimation (UE) enables LLM-powered systems to recognize when to abstain, yet existing research has predominantly focused on English. We present the first large-scale evaluation of UE methods across 22 languages, spanning high-, mid-, and low-resource settings. Using two human-curated Q\\&A datasets, we compare open and closed box UE methods (nine in total) across different model sizes and architectures while eliciting long-form reasoning, avoiding LLM-as-a-judge and embedding-based scoring, which can introduce evaluation noise. We report three main actionable findings. First, we find that prompting models to reason in English while keeping questions in low-resource languages substantially improves UE performance, suggesting that comprehension of low-resource languages is largely intact, and that the reliability bottleneck lies in generation rather than understanding. Second, prompting models to reason in English closes the UE performance gap between low and high-resource languages, demonstrating that generation language matters more than the question language. Third, the choice of UE method should depend on model scale: at smaller scales, open-box probability-based methods outperform alternatives; at larger scales, closed-box self-verbalized uncertainty becomes superior. Finally, we provide an analysis of threshold selection for selective prediction, offering guidance on calibrating abstention in multilingual settings.",
-    "tier": "none",
+    "tier": "top",
     "title": "Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs",
-    "track": "",
+    "track": "main",
     "updated": "2026-07-10",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2607.06327v2"
    },
    "2607.06641": {
@@ -129572,7 +130155,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-07",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129608,7 +130191,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-09",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129692,7 +130275,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -129730,12 +130313,12 @@
     "primary_category": "cs.CL",
     "published": "2026-07-12",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 1st Workshop on Grounding Language Models: Learning Faithfully and Efficiently (GroundLM 2026)",
      "year": 2026
     },
     "status": "unknown",
@@ -129770,7 +130353,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129808,7 +130391,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129848,7 +130431,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -129886,7 +130469,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130009,7 +130592,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130047,7 +130630,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130086,7 +130669,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130127,11 +130710,11 @@
     "primary_category": "cs.AI",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 1st Workshop on Multi-modality and Multi-lingual Language Learning",
      "year": 2026
     },
     "status": "unknown",
@@ -130165,7 +130748,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130241,7 +130824,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130278,7 +130861,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130316,7 +130899,7 @@
     "primary_category": "cs.SE",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -130357,7 +130940,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130482,10 +131065,8 @@
     "primary_category": "cs.AI",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-11-20",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -130524,7 +131105,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130605,7 +131186,7 @@
     "primary_category": "cs.CR",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -130644,7 +131225,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130728,11 +131309,11 @@
     "primary_category": "cs.AI",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Interspeech",
      "year": 2026
     },
     "status": "accepted",
@@ -130742,8 +131323,8 @@
     "track": "main",
     "updated": "2026-06-27",
     "venue": "Interspeech",
-    "venue_evidence": "Accepted to Interspeech 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Interspeech",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2607.22658v1"
    },
@@ -130767,7 +131348,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -130808,7 +131389,7 @@
     "primary_category": "cs.IR",
     "published": "2026-06-27",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130846,7 +131427,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-28",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130890,7 +131471,7 @@
     "primary_category": "cs.IR",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -130929,7 +131510,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -131011,23 +131592,23 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Multimodal long documents are core carriers of professional knowledge, where critical evidence is sparsely distributed across paragraphs and modalities. This easily causes key information omission and cross-modal hallucinations in summarization by multimodal LLMs. These issues stem from attention drift in long-range dependency modeling and gaps in inter-modal alignment. To address this, we introduce MMLDSum-Bench, a high-quality benchmark for multimodal long-document summarization, covering multiple domains, context-length scales, and visual-textual modality distributions. We further propose MMLDSum-LLM, a reproducible two-stage training framework that combines supervised fine-tuning with visual-alignment weighted loss and keyword-aware weighted loss, followed by GRPO with a multi-objective reward (keyword coverage, image-text alignment, ROUGE, and length control). Extensive experiments on MMLDSum-Bench, comparing against leading closed-source and open-source multimodal models under a unified evaluation protocol - including LLM-as-a-judge scoring, atomic-claim precision/recall, image-text alignment (ITA), and ROUGE - demonstrate that our approach significantly improves key-information coverage and cross-modal consistency.",
-    "tier": "none",
+    "tier": "top",
     "title": "MMLDSum-LLM: Multimodal Long-Document Summarization with Visual-Alignment and Keyword-Aware",
-    "track": "",
+    "track": "main",
     "updated": "2026-07-30",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2607.28006v1"
    },
    "2607.28033": {
@@ -131053,7 +131634,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -131092,7 +131673,7 @@
     "primary_category": "cs.CV",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -131132,7 +131713,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -131173,7 +131754,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -131213,8 +131794,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-26",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131250,8 +131833,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131289,8 +131874,9 @@
     "primary_category": "cs.AI",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -131369,8 +131955,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-03",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131448,8 +132036,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131526,8 +132116,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131565,8 +132157,10 @@
     "primary_category": "cs.CY",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131604,8 +132198,9 @@
     "primary_category": "cs.CY",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -131643,8 +132238,10 @@
     "primary_category": "cs.CV",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131681,8 +132278,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131718,8 +132317,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131763,8 +132364,9 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -131803,8 +132405,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131885,8 +132489,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131924,8 +132530,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131961,8 +132569,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -131995,8 +132605,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132079,8 +132691,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132172,8 +132786,10 @@
     "primary_category": "cs.CL",
     "published": "2026-07-24",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132213,9 +132829,13 @@
     "primary_category": "cs.CV",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "Book",
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
      "year": 2026
     },
     "status": "unknown",
@@ -132292,8 +132912,9 @@
     "primary_category": "cs.AI",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -132333,8 +132954,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132369,8 +132992,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132405,8 +133030,9 @@
     "primary_category": "cs.RO",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -132448,9 +133074,12 @@
     "primary_category": "cs.DC",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "eScience",
      "year": 2026
     },
     "status": "unknown",
@@ -132489,8 +133118,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132529,9 +133160,11 @@
     "primary_category": "cs.CL",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Proceedings of the 11th Workshop on Financial Technology and Natural Language Processing",
      "year": 2026
     },
     "status": "unknown",
@@ -132566,8 +133199,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132605,8 +133240,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-12",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132645,8 +133282,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132683,8 +133322,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132730,21 +133371,24 @@
     "primary_category": "cs.CL",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Audits of generative AI (GenAI) systems often summarize behavior as a reported rate: how often the audited system complies with policy. Researchers and stakeholders use that rate to compare systems, track regressions, and gate deployment. A reported rate reflects both the system under audit and the measurement choices behind it, so a change in the rate can leave it unclear whether the system or those choices moved. We introduce ASSERT, a specification-driven measurement pipeline for GenAI audits that ties each reported rate to a written specification of the measurement choices used to produce it. ASSERT helps draft a behavioral rubric and test cases, then runs the audit against a GenAI system and returns a reported rate. In a case study on conversational deception, we observe that the reported rate moves substantially with the dialogue setup, the simulated user, the judge, and the evidence bar for non-compliance. These measurement choices substantially change the reported rate and can reorder GenAI system rankings. Because each reported rate is tied to an explicit specification, differences across audits are easier to attribute and interpret.",
-    "tier": "none",
+    "tier": "top",
     "title": "ASSERT: A Measurement Pipeline for GenAI Audits",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-14",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.13840v1"
    },
    "2608.14130": {
@@ -132766,9 +133410,13 @@
     "primary_category": "cs.MM",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "Book",
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
      "year": 2026
     },
     "status": "mentioned",
@@ -132804,8 +133452,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132843,8 +133493,10 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132882,8 +133534,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-05",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132923,8 +133577,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -132965,8 +133621,9 @@
     "primary_category": "cs.AI",
     "published": "2026-08-15",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -133004,8 +133661,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133041,8 +133700,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133093,8 +133754,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-16",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133130,8 +133793,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-17",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133169,8 +133834,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133210,8 +133877,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133248,8 +133917,10 @@
     "primary_category": "cs.CR",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133284,8 +133955,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133323,8 +133996,9 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -133370,8 +134044,9 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -133408,8 +134083,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133446,8 +134123,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -133483,9 +134162,13 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 14th International Conference on Computer and Communications Management",
      "year": 2026
     },
     "status": "unknown",
@@ -133521,8 +134204,10 @@
     "primary_category": "cs.CR",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -138234,8 +138919,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -138270,8 +138957,9 @@
     "primary_category": "cs.HC",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -138310,9 +138998,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track",
      "year": 2026
     },
     "status": "accepted",
@@ -138322,8 +139013,8 @@
     "track": "main",
     "updated": "2026-09-17",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted at EMNLP 2026 Industry Track",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.20584v1"
    },
@@ -138381,8 +139072,9 @@
     "primary_category": "stat.ML",
     "published": "2026-09-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -138429,11 +139121,13 @@
     "primary_category": "cs.CL",
     "published": "2026-09-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
+      "JournalArticle",
+      "Conference",
       "Review"
      ],
-     "venue": "",
+     "venue": "Proceedings of The Fourth Arabic Natural Language Processing Conference",
      "year": 2026
     },
     "status": "unknown",
@@ -143070,7 +143764,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143105,7 +143799,7 @@
     "primary_category": "cs.HC",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143144,21 +143838,21 @@
     "primary_category": "cs.AI",
     "published": "2026-10-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "LLM-as-a-Judge systems are increasingly employed for automated evaluation, yet remain susceptible to systematic biases that undermine their reliability. We demonstrate that the judge can effectively debias itself without additional training. We propose two lightweight strategies: bias-aware prompting, which explicitly alerts the judge to potential target biases prior to evaluation, and self-debiasing, in which the judge critiques the initial judgment for bias influence. To broaden the evaluation scope, we introduce three novel benchmarks--authority bias (fabricated citations), confidence bias (assertive phrasing), and formatting bias (structured presentation)--and evaluate across seven bias types in total. Across three frontier models, self-debiasing improves performance in 20 out of 21 model-bias combinations with gains up to 15 percentage points, while bias-aware prompting also yields consistent improvements. The recent fine-tuned external critic, however, does not generalize as reliably to the newly-introduced bias types (degradation observed in 5 out of 9 cases). Our findings demonstrate that prompting a judge to reason about bias, either preemptively or retrospectively, is a robust and generalizable approach for enhancing evaluation integrity.",
-    "tier": "none",
+    "tier": "top",
     "title": "The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge",
-    "track": "",
+    "track": "main",
     "updated": "2026-10-16",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2610.24320v1"
    },
    "2610.24971": {
@@ -143185,7 +143879,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "Review"
      ],
@@ -143225,7 +143919,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143313,7 +144007,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143350,7 +144044,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "Review"
      ],
@@ -143390,7 +144084,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": ""
@@ -143428,7 +144122,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143471,7 +144165,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143551,7 +144245,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143589,10 +144283,10 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
-     "year": ""
+     "year": 2026
     },
     "status": "unknown",
     "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics generalization, and downstream planning performance remains underexplored. We study this relationship through the lens of compositional generalization: can a world model recombine familiar state and action factors into valid dynamics? To answer this, we introduce AnyGoal, a benchmark of goal-shifted task variants built from widely used world-model environments, together with an open-source library. Each task is designed to be within reach of a world model that has learned the underlying dynamics: individual state factors and actions remain within their training support, but their combinations are underrepresented in expert trajectories. Across multiple environments and world model families, we find that current models consistently exhibit failures under these recombinations. By examining dynamics and representation failures across model families, interaction regimes, and evaluation metrics, we study where current world models generalize and where challenges remain for goal-shifted prediction and planning. Together, this framework, benchmark, and analysis provide a basis for evaluating progress toward world models that generalize to new planning tasks.",
@@ -143628,7 +144322,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143663,7 +144357,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "Review"
      ],
@@ -143700,7 +144394,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143738,7 +144432,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -147032,6 +147726,43 @@
     "venue_source": "comment",
     "venue_year": "2026",
     "version": "2611.21690v1"
+   },
+   "2611.24005": {
+    "abs_url": "https://arxiv.org/abs/2611.24005",
+    "authors": [
+     "Zhengyuan Fan",
+     "Zhonghua Wu",
+     "Tianyu Cheng",
+     "Qun Chen"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-20",
+    "id": "2611.24005",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.24005v1",
+    "primary_category": "stat.ML",
+    "published": "2026-11-18",
+    "s2": {
+     "checked": "2026-11-20",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Rubric-based reinforcement learning constructs rewards for aligning large language models with human preferences, typically by equally aggregating continuous scores that a judge assigns to individual criteria. However, scoring heterogeneity across criteria can distort candidate rankings. Existing work has focused on improving judges, learning criterion weights, or refining aggregation, whereas the interaction between scoring heterogeneity and ranking remains insufficiently understood. We formalize this heterogeneity as \\emph{reward gain imbalance}: each criterion enters the aggregated reward with its own reward gain, the gap between its expected scores on satisfied and unsatisfied responses. Counterintuitively, our experiments show that removing this imbalance, even with ground-truth labels, lowers ranking accuracy. To explain this, we derive an exact decomposition of the reward difference between any two candidates into a base satisfaction signal, a reward gain imbalance term, and a residual term, showing that reward gain imbalance can attenuate or amplify the base signal, and finding that misrankings usually concentrate on pairs where it attenuates. Guided by this analysis, we propose the adaptive \\textbf{D}ual-\\textbf{C}enter \\textbf{C}lipping aggregation (DCC), which bounds each criterion's contribution to the reward difference instead of simply removing the imbalance. Using only the scores of the current candidate group, it determines a clipping interval that imposes a common upper bound on per-criterion score differences between candidates, limiting the excessive influence of extreme scores while preserving continuous judgment information....",
+    "tier": "none",
+    "title": "How Reward Gain Imbalance Shapes Ranking: Rethinking Rubric-Based Reward Aggregation",
+    "track": "",
+    "updated": "2026-11-18",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.24005v1"
    }
   },
   "Writing Agent": {
@@ -158765,7 +159496,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -158806,7 +159537,7 @@
     "primary_category": "cs.HC",
     "published": "2026-03-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -158846,7 +159577,7 @@
     "primary_category": "cs.CV",
     "published": "2026-03-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -158907,7 +159638,7 @@
     "primary_category": "cs.SD",
     "published": "2026-03-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -158946,7 +159677,7 @@
     "primary_category": "cs.CL",
     "published": "2026-03-21",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -158986,7 +159717,7 @@
     "primary_category": "cs.AI",
     "published": "2026-03-22",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159068,7 +159799,7 @@
     "primary_category": "cs.CV",
     "published": "2026-03-24",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159150,11 +159881,11 @@
     "primary_category": "cs.CL",
     "published": "2026-03-25",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "ECML/PKDD",
      "year": 2026
     },
     "status": "unknown",
@@ -159231,23 +159962,24 @@
     "primary_category": "cs.CV",
     "published": "2026-03-27",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Multimodal Large Language Models (MLLMs) achieve strong multimodal reasoning performance, yet we identify a recurring failure mode in long-form generation: as outputs grow longer, models progressively drift away from image evidence and fall back on textual priors, resulting in ungrounded reasoning and hallucinations. Interestingly, Based on attention analysis, we find that MLLMs have a latent capability for late-stage visual verification that is present but not consistently activated. Motivated by this observation, we propose Visual Re-Examination (VRE), a self-evolving training framework that enables MLLMs to autonomously perform visual introspection during reasoning without additional visual inputs. Rather than distilling visual capabilities from a stronger teacher, VRE promotes iterative self-improvement by leveraging the model itself to generate reflection traces, making visual information actionable through information gain. Extensive experiments across diverse multimodal benchmarks demonstrate that VRE consistently improves reasoning accuracy and perceptual reliability, while substantially reducing hallucinations, especially in long-chain settings. Code is available at https://github.com/Xiaobu-USTC/VRE.",
-    "tier": "none",
+    "tier": "top",
     "title": "Reflect to Inform: Boosting Multimodal Reasoning via Information-Gain-Driven Verification",
-    "track": "",
+    "track": "main",
     "updated": "2026-03-27",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2603.26348v1"
    },
    "2603.27435": {
@@ -159273,11 +160005,11 @@
     "primary_category": "cs.CL",
     "published": "2026-03-28",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "International Conference on Learning Representations",
      "year": 2026
     },
     "status": "accepted",
@@ -159315,7 +160047,7 @@
     "primary_category": "cs.HC",
     "published": "2026-03-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159355,7 +160087,7 @@
     "primary_category": "cs.LG",
     "published": "2026-03-31",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159397,7 +160129,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -159432,7 +160164,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159511,7 +160243,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-03",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159549,7 +160281,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-03",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159624,7 +160356,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-04",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159872,7 +160604,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159910,7 +160642,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159953,7 +160685,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -159989,7 +160721,7 @@
     "primary_category": "cs.DL",
     "published": "2026-04-09",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -160116,21 +160848,23 @@
     "primary_category": "cs.CL",
     "published": "2026-04-13",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Recent work has shown that the hidden states of large language models contain signals useful for uncertainty estimation and hallucination detection, motivating a growing interest in efficient probe-based approaches. Yet it remains unclear how robust existing methods are, and which probe designs provide uncertainty estimates that are reliable under distribution shift. We present a systematic study of supervised uncertainty probes across models, tasks, and OOD settings, training over 2,000 probes while varying the representation layer, feature type, and token aggregation strategy. Our evaluation highlights poor robustness in current methods, particularly in the case of long-form generations. We also find that probe robustness is driven less by architecture and more by the probe inputs. Middle-layer representations generalise more reliably than final-layer hidden states, and aggregating across response tokens is consistently more robust than relying on single-token features. These differences are often largely invisible in-distribution but become more important under distribution shift. Informed by our evaluation, we explore a simple hybrid back-off strategy for improving robustness, arguing that better evaluation is a prerequisite for building more robust probes.",
-    "tier": "none",
+    "tier": "top",
     "title": "Hidden Failures in Robustness: Why Supervised Uncertainty Quantification Needs Better Evaluation",
-    "track": "",
+    "track": "main",
     "updated": "2026-04-13",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2604.11662v1"
    },
    "2604.12046": {
@@ -160151,7 +160885,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160225,7 +160959,7 @@
     "primary_category": "cs.CV",
     "published": "2026-04-14",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160264,7 +160998,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-15",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160425,7 +161159,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160503,7 +161237,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-21",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160544,7 +161278,7 @@
     "primary_category": "cs.CR",
     "published": "2026-04-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160580,7 +161314,7 @@
     "primary_category": "cs.HC",
     "published": "2026-04-25",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160620,7 +161354,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-26",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160701,24 +161435,25 @@
     "primary_category": "cs.CL",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
+      "Conference",
       "Review"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Target Safety Assessment (TSA) requires systematic integration of genetic, transcriptomic, target homology, pharmacological, and clinical data to evaluate potential safety liabilities of therapeutic targets. This process is labor-intensive and expert-dependent, posing challenges in scalability and reproducibility. We present TSAssistant, a human-in-the-loop multi-agent framework that decomposes TSA report generation into a workflow of specialized subagents: Research Subagents that each ground and cite a single TSA domain, and Synthesis Subagents that integrate findings across domains. Subagents retrieve and synthesize evidence from curated biomedical sources through standardized tool interfaces and produce individually citable, evidence-grounded sections, with behavior shaped by a hierarchical instruction architecture that separates coordination logic from domain expertise and user intent. To complement these soft constraints, programmatic execution hooks and persistent memory stores enforce hard constraints across the workflow, while an interactive refinement loop allows experts to review and revise individual sections with full conversational context preserved across iterations. Rather than a single holistic comparison, we decompose report quality into reproducibility, evidential grounding, task-level accuracy, and controllability under expert oversight, finding high reproducibility and grounding, substantial agreement with the human reference, and net-positive expert-driven refinement.",
-    "tier": "none",
+    "tier": "top",
     "title": "TSAssistant: A Human-in-the-Loop Agentic Framework for Automated Target Safety Assessment",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-18",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2604.23938v3"
    },
    "2604.24444": {
@@ -160785,7 +161520,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-27",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160827,7 +161562,7 @@
     "primary_category": "cs.AI",
     "published": "2026-04-28",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160905,7 +161640,7 @@
     "primary_category": "cs.CL",
     "published": "2026-04-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -160987,7 +161722,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161032,7 +161767,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-03",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161111,7 +161846,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-05",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161153,23 +161888,23 @@
     "primary_category": "cs.CL",
     "published": "2026-05-06",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "International Conference on Learning Representations",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Story generation aims to automatically produce coherent, structured, and engaging narratives. Although large language models (LLMs) have significantly advanced text generation, stories generated by LLMs still diverge from human-authored works regarding complex narrative structure and human-aligned preferences. A key reason is the absence of effective modeling of human story preferences, which are inherently subjective and under-explored. In this work, we systematically evaluate the modeling of human story preferences and introduce StoryRMB, the first benchmark for assessing reward models on story preferences. StoryRMB contains $1,133$ high-quality, human-verified instances, each consisting of a prompt, one chosen story, and three rejected stories. We find existing reward models struggle to select human-preferred stories, with the best model achieving only $66.3\\%$ accuracy. To address this limitation, we construct roughly $100,000$ high-quality story preference pairs across diverse domains and develop StoryReward, an advanced reward model for story preference trained on this dataset. StoryReward achieves state-of-the-art (SoTA) performance on StoryRMB, outperforming much larger models. We also adopt StoryReward in downstream test-time scaling applications for best-of-n (BoN) story selection and find that it generally chooses stories better aligned with human preferences. We will release our dataset, model, and code to facilitate future research. Related code and data are available at https://github.com/THU-KEG/StoryReward.",
-    "tier": "none",
+    "tier": "top",
     "title": "StoryAlign: Evaluating and Training Reward Models for Story Generation",
-    "track": "",
+    "track": "main",
     "updated": "2026-05-06",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "ICLR",
+    "venue_evidence": "International Conference on Learning Representations",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2605.04831v1"
    },
    "2605.06656": {
@@ -161192,7 +161927,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-07",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161233,7 +161968,7 @@
     "primary_category": "cs.DL",
     "published": "2026-05-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161285,7 +162020,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-08",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161323,7 +162058,7 @@
     "primary_category": "cs.NE",
     "published": "2026-05-10",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161361,21 +162096,21 @@
     "primary_category": "cs.CL",
     "published": "2026-05-12",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Existing approaches to post-train models for long-context tasks face complementary limitations: (i) supervised fine-tuning (SFT) provides stable supervision but suffers from exposure bias; (ii) reinforcement learning methods such as Group Relative Policy Optimization (GRPO) train on model-generated trajectories but struggle with long-horizon credit assignment and sparse rewards; and (iii) on-policy distillation (OPD) provides dense token-level guidance but does not directly optimize task rewards. We study these complementary strategies for long-context alignment and derive a recipe that combines GRPO with OPD-style teacher guidance: the student learns from its own rollouts using outcome-level rewards, while a stronger teacher provides dense token-level regularization in place of the standard reference policy. This is especially useful when process-level supervision is difficult to obtain. To support this study, we introduce LongBlocks, a synthetic multilingual dataset spanning multi-hop reasoning, contextual grounding, and long-form generation. Through controlled ablations, we isolate the roles of cold-start initialization, teacher anchoring, and data mixing, showing that our recipe yields a more stable and effective path to long-context reasoning than GRPO or OPD while preserving short-context capabilities.",
-    "tier": "none",
+    "tier": "top",
     "title": "A Recipe for Long-Context Reasoning in Large Language Models via On-Policy Optimization and Distillation",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-10",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2605.12227v3"
    },
    "2605.12888": {
@@ -161437,10 +162172,8 @@
     "primary_category": "cs.AI",
     "published": "2026-05-13",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [
-      "JournalArticle"
-     ],
+     "checked": "2026-11-20",
+     "types": [],
      "venue": "",
      "year": 2026
     },
@@ -161564,7 +162297,7 @@
     "primary_category": "cs.AI",
     "published": "2026-05-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161600,7 +162333,7 @@
     "primary_category": "cs.LG",
     "published": "2026-05-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161642,23 +162375,23 @@
     "primary_category": "cs.LG",
     "published": "2026-05-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Rubric-based reward shaping provides interpretable and editable reward signals for fine-tuning LLMs via reinforcement learning (RL), but existing adaptive rubric methods typically update criteria from local evidence such as the current batch or instance-level comparisons. This local view discards diagnostic information produced during training, making it difficult to track recurring failures, evaluate previous rubric edits, or raise standards once earlier criteria become saturated. We introduce AMARIS, A Memory-Augmented Rubric Improvement System that grounds rubric updates in longitudinal training evidence. AMARIS stores rollout analyses, step-level summaries, and rubric update records in a persistent evaluation memory, then retrieves recent and semantically relevant history to revise rubrics. We evaluate AMARIS across science, medicine, instruction following, and creative writing under both global and instance-specific rubric settings. AMARIS improves over static, local-adaptive, and memory-ablated baselines, such as +2.8 points on GPQA-Diamond and +2.2 points on IFBench over the strongest baselines, while analysis shows that memory reduces oscillatory rubric edits and supports a progression from early failure correction to later curriculum advancement. AMARIS runs asynchronously alongside the normal RL loop, reducing blocking latency relative to synchronous rubric updates.",
-    "tier": "none",
+    "tier": "top",
     "title": "AMARIS: A Memory-Augmented Rubric Improvement System for Rubric-Based Reinforcement Learning",
-    "track": "",
+    "track": "main",
     "updated": "2026-05-26",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2605.18592v2"
    },
    "2605.19681": {
@@ -161717,7 +162450,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161793,7 +162526,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-19",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -161879,7 +162612,7 @@
     "primary_category": "cs.CV",
     "published": "2026-05-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161918,7 +162651,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -161963,11 +162696,12 @@
     "primary_category": "cs.CL",
     "published": "2026-05-26",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -161977,8 +162711,8 @@
     "track": "main",
     "updated": "2026-08-25",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 Main Conference",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2605.26958v2"
    },
@@ -162003,7 +162737,7 @@
     "primary_category": "cs.CY",
     "published": "2026-04-24",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162048,23 +162782,23 @@
     "primary_category": "cs.CL",
     "published": "2026-04-10",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "International Conference on Learning Representations",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Large Language Models (LLMs) achieve impressive performance across many tasks but remain prone to hallucination, especially in long-form generation where redundant retrieved contexts and lengthy reasoning chains amplify factual errors. Recent studies highlight a critical phenomenon: the closer key information appears to the model outputs, the higher the factual accuracy. However, existing retrieval-augmented language models (RALMs) lack effective mechanisms to ensure this proximity - external evidence is injected into reasoning via multi-turn retrieval, but this cannot ensure key information stays close to the outputs. We propose Micro-Macro Retrieval (M2R), a novel retrieve-while-generate framework to fill this gap. At the macro level, M2R retrieves coarse-grained evidence from external sources; at the micro level, it extracts essential results from a key information repository built during reasoning and reuses them while generating answers. This design directly addresses the key-information-to-output proximity bottleneck, effectively reducing hallucination in long-form tasks. M2R is trained with a curriculum learning-based reinforcement learning strategy using customized rule-based rewards, enabling stable acquisition of retrieval and grounding skills. Extensive experiments across different benchmarks demonstrate the effectiveness of M2R, especially in lengthy-context settings.",
-    "tier": "none",
+    "tier": "top",
     "title": "Micro-Macro Retrieval: Reducing Long-Form Hallucination in Large Language Models",
-    "track": "",
+    "track": "main",
     "updated": "2026-04-10",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "ICLR",
+    "venue_evidence": "International Conference on Learning Representations",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2605.28828v1"
    },
    "2605.29861": {
@@ -162089,7 +162823,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-28",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162127,7 +162861,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162174,7 +162908,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-31",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162211,7 +162945,7 @@
     "primary_category": "cs.DC",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -162255,11 +162989,12 @@
     "primary_category": "cs.CL",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -162269,8 +163004,8 @@
     "track": "main",
     "updated": "2026-08-28",
     "venue": "EMNLP",
-    "venue_evidence": "EMNLP 2026 main",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2606.01629v4"
    },
@@ -162314,23 +163049,24 @@
     "primary_category": "cs.CL",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Deep Research Agents have shown strong capability in multi-step information retrieval, reasoning, and long-form report generation, but existing benchmarks and systems remain predominantly text-centric, with limited evaluation of whether visual elements are factually reliable and well aligned with the surrounding analysis. To address this gap, we introduce TVIR (Text-Visual Interleaved Report Generation), which includes TVIR-Bench, a benchmark of 100 expert-curated multimodal deep research tasks that require visual elements to serve specific analytical sub-goals, and TVIR-Agent, a hierarchical multi-agent framework that serves as a strong baseline for constructing outlines, retrieving images, generating charts with traceable sources, and composing reports through context-aware sequential writing. We further develop a dual-path evaluation framework that combines Textual Assessment and Visual Assessment. Experiments across nine deep research systems show that TVIR-Agent achieves strong overall performance, underscoring the importance of explicit multimodal design and evaluation for evidence-driven report generation.",
-    "tier": "none",
+    "tier": "top",
     "title": "TVIR: Building Deep Research Agents Towards Text-Visual Interleaved Report Generation",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-11",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.02320v2"
    },
    "2606.02398": {
@@ -162352,7 +163088,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -162390,7 +163126,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162429,11 +163165,12 @@
     "primary_category": "cs.CL",
     "published": "2026-06-02",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -162443,8 +163180,8 @@
     "track": "main",
     "updated": "2026-08-30",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 (Main Conference) as a long paper",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2606.04095v2"
    },
@@ -162577,7 +163314,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-07",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -162703,11 +163440,12 @@
     "primary_category": "cs.AI",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "2026 IEEE Conference on Games (CoG)",
      "year": 2026
     },
     "status": "unknown",
@@ -162782,7 +163520,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-10",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162818,7 +163556,7 @@
     "primary_category": "stat.ML",
     "published": "2026-06-12",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162861,7 +163599,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162901,23 +163639,24 @@
     "primary_category": "cs.CL",
     "published": "2026-06-14",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Gender bias in LLMs has been studied extensively in model outputs, with biased prompts shown to amplify stereotyped generations. Whether such bias propagates into text produced by humans who use these systems, however, remains underexplored. We investigate whether gender bias in an LLM writing assistant transfers into career plan essays written by students. We first verify that a gender-biased prompt induces gender-differentiated language in LLM-generated essays, while a neutral prompt does not. We then recruited participants (N = 123) in a controlled environment to write career plan essays for paired biographical profiles differing only in gender under three conditions: no AI assistance, neutral LLM assistance, or gender-biased LLM assistance. Students in the biased condition produced essays with a significantly larger agentic gap and more gender-stereotypic occupation suggestions than those in the control and neutral conditions. Our results also reveal that this bias transfer is asymmetric: agency is suppressed in female-target essays while male-target writing remains largely unaffected. Our findings highlight the risk of bias propagation in AI-assisted writing, calling for fairness-aware design in educational AI tools.",
-    "tier": "none",
+    "tier": "top",
     "title": "Contaminated Collaboration: Measuring Gender Bias Transfer in LLM-Assisted Student Writing",
-    "track": "",
+    "track": "main",
     "updated": "2026-06-14",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.15914v1"
    },
    "2606.16102": {
@@ -162942,7 +163681,7 @@
     "primary_category": "cs.HC",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -162981,7 +163720,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-15",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -163055,7 +163794,7 @@
     "primary_category": "econ.GN",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -163100,23 +163839,24 @@
     "primary_category": "cs.AI",
     "published": "2026-06-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
-      "JournalArticle"
+      "JournalArticle",
+      "Conference"
      ],
-     "venue": "",
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Open-ended deep research (OEDR) requires systems to acquire knowledge through multi-round retrieval and generate coherent long-form reports. The outline plays a central role as a structural scaffold that coordinates retrieval, evidence organization, and generation. However, existing methods either fix the outline before writing or refine it with local heuristics, leading to scaffold drift under continuous information accumulation and delayed feedback for evaluating outline modifications. We propose ScaffoldAgent, a utility-guided dynamic outline optimization framework for OEDR. ScaffoldAgent models outline evolution as a structured decision process with three operations: Expansion, Contraction, and Revision, enabling controlled updates to the report scaffold. It further introduces a utility-guided feedback mechanism that estimates the downstream value of each outline operation from retrieval gain, structural coherence, and trial-generation quality. The resulting utility signal guides node selection, operation scheduling, and termination during inference. Experiments on DeepResearch Bench and DeepResearch Gym show that ScaffoldAgent consistently improves long-form report generation and factual grounding over existing deep research agents.",
-    "tier": "none",
+    "tier": "top",
     "title": "ScaffoldAgent: Utility-Guided Dynamic Outline Optimization for Open-Ended Deep Research",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-30",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2606.20122v2"
    },
    "2606.20595": {
@@ -163140,7 +163880,7 @@
     "primary_category": "cs.HC",
     "published": "2026-05-18",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163176,7 +163916,7 @@
     "primary_category": "cs.LG",
     "published": "2026-06-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163216,7 +163956,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-21",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163253,7 +163993,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -163293,7 +164033,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163337,7 +164077,7 @@
     "primary_category": "cs.CL",
     "published": "2026-06-24",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163375,7 +164115,7 @@
     "primary_category": "cs.AI",
     "published": "2026-06-25",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163501,7 +164241,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163540,7 +164280,7 @@
     "primary_category": "cs.LG",
     "published": "2026-07-01",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163578,7 +164318,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-04",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163617,7 +164357,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163654,7 +164394,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163697,11 +164437,11 @@
     "primary_category": "cs.HC",
     "published": "2026-07-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
-     "venue": "",
+     "venue": "Proceedings of the ACM on Human-Computer Interaction",
      "year": 2026
     },
     "status": "unknown",
@@ -163739,7 +164479,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-14",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163775,7 +164515,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-15",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163811,7 +164551,7 @@
     "primary_category": "cs.SD",
     "published": "2026-07-16",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163855,7 +164595,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-17",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163898,7 +164638,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -163939,7 +164679,7 @@
     "primary_category": "cs.CL",
     "published": "2026-05-10",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -164023,7 +164763,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -164068,7 +164808,7 @@
     "primary_category": "cs.CL",
     "published": "2026-07-23",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle",
       "Review"
@@ -164194,7 +164934,7 @@
     "primary_category": "cs.AI",
     "published": "2026-07-29",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -164234,7 +164974,7 @@
     "primary_category": "cs.HC",
     "published": "2026-07-30",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [
       "JournalArticle"
      ],
@@ -164271,8 +165011,10 @@
     "primary_category": "cs.HC",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164305,8 +165047,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-02",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164342,8 +165086,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-04",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164380,9 +165126,11 @@
     "primary_category": "cs.CL",
     "published": "2026-05-27",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -164392,8 +165140,8 @@
     "track": "findings",
     "updated": "2026-09-04",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to Findings of EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.05169v2"
    },
@@ -164420,8 +165168,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-06",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164456,8 +165206,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-07",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164493,8 +165245,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-10",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164528,9 +165282,13 @@
     "primary_category": "cs.HC",
     "published": "2026-08-11",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Book",
+      "Conference"
+     ],
+     "venue": "ACM Symposium on User Interface Software and Technology",
      "year": 2026
     },
     "status": "accepted",
@@ -164540,8 +165298,8 @@
     "track": "main",
     "updated": "2026-08-11",
     "venue": "UIST",
-    "venue_evidence": "UIST 2026",
-    "venue_source": "comment",
+    "venue_evidence": "ACM Symposium on User Interface Software and Technology",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.10337v1"
    },
@@ -164569,8 +165327,10 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164611,8 +165371,10 @@
     "primary_category": "cs.CL",
     "published": "2026-06-03",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164651,9 +165413,13 @@
     "primary_category": "cs.CL",
     "published": "2026-08-14",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Book",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management",
      "year": 2026
     },
     "status": "unknown",
@@ -164686,21 +165452,24 @@
     "primary_category": "cs.HC",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle",
+      "Book"
+     ],
+     "venue": "Adjunct Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "When students use large language models for writing, the dominant explanation for disengagement is dispositional: they are over-reliant, and the remedy is to scaffold self-regulation. We argue that a structural explanation is needed, offering an alternative basis for design interventions to support appropriate AI-assisted writing. Current LLM writing interfaces induce procedural collapse: the replacement of an iterative, self-paced writing process with a single output that shifts the writer's task from generation to comprehensive evaluation. Because that evaluation is costly, shallow engagement becomes the default, and the cognitive work writing was supposed to produce goes unperformed. The framework points toward design directions that reduce the burden on writers to self-regulate, including decomposed interaction, goal elicitation as a default first step, and single-level output. They complement metacognitive scaffolding by restructuring the interaction itself.",
-    "tier": "none",
+    "tier": "top",
     "title": "Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-19",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "UIST",
+    "venue_evidence": "Adjunct Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.17326v2"
    },
    "2608.17979": {
@@ -164725,8 +165494,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-18",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164760,8 +165531,10 @@
     "primary_category": "cs.CV",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164798,8 +165571,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
+     "checked": "2026-11-20",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -164881,9 +165656,13 @@
     "primary_category": "cs.LG",
     "published": "2026-08-19",
     "s2": {
-     "checked": "2026-10-21",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-20",
+     "types": [
+      "Book",
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
      "year": 2026
     },
     "status": "unknown",
@@ -167180,7 +167959,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-13",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026
@@ -167255,7 +168034,7 @@
     "primary_category": "cs.SE",
     "published": "2026-10-20",
     "s2": {
-     "checked": "2026-10-21",
+     "checked": "2026-11-20",
      "types": [],
      "venue": "",
      "year": 2026

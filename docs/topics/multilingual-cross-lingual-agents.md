@@ -2,15 +2,16 @@
 
 > Applying LLM agents beyond English: multilingual and cross-lingual transfer, non-English tool use and planning, localized writing assistants, and language- or culture-specific agent benchmarks. Survey axis for adapting agent workflows to Korean and other language communities.
 
-482 papers, newest first. Generated on **2026-11-19** (UTC).
+483 papers, newest first. Generated on **2026-11-20** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (259)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)
+Browse by year: [2026 (260)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-18**|<details><summary>Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190</summary><br>This research investigates whether a large language model or an autonomous AI Agent performs better at translating from English to Arabic, which is considered a low-resource language. The authors introduce WikiEn-Ar190, a new dataset of 190 carefully selected Wikipedia articles from 18 different areas, which were created and verified by two native Arabic speakers to ensure that they accurately reflect both meaning and style. Using this dataset, the study evaluates the translation quality of GPT-...</details>|-|Fatima Zahra Iguenfer et al.|[2611.24588](https://arxiv.org/abs/2611.24588)|null|
 |**2026-11-17**|<details><summary>LMLineage: Content Lineage and Context Governance for LLM Agents</summary><br>Interpretability for AI agents should not be confined to understanding the model's internal weights. It must also cover the agent's reasoning and decision-making process over multi-source context. We present LMLineage, an out-of-band system that attributes every output sentence of an agent session to its supporting input spans with calibrated confidences, without requiring white-box access to the model or any additional inference passes. On top of the lineage metadata, we build concept-drift mic...</details>|-|Wei Hou et al.|[2611.22511](https://arxiv.org/abs/2611.22511)|null|
 |**2026-11-17**|<details><summary>OfficePrism: Benchmarking Agents on Single-Domain Operations Across Enterprise Business Functions</summary><br>Broad workplace scores can mix competence within one business function with the extra cost of coordinating across functions and systems, making failures hard to localize. OfficePrism evaluates this prerequisite through 420 single-domain enterprise tasks spanning seven business functions under shared, benchmark-defined L1--L3 task-structure levels. Each task runs in a fresh environment combining a shared synthetic organization with one function-specific domain and yped state access. Our pipeline...</details>|-|Hanfeng Liu et al.|[2611.22262](https://arxiv.org/abs/2611.22262)|null|
 |**2026-11-17**|<details><summary>SkillBuffBench: Measuring What Agent Skills Contribute across Harnesses, Models, Skill Access Modes and Memory</summary><br>Agent Skills, file-based packages of procedural knowledge that a coding agent can discover and load on demand, are now shipped by every major agent harness, yet the evidence for how much they help comes almost entirely from settings in which the right Skill is hand-picked for the task and the agent starts from a blank slate. Neither holds in deployment, where an agent chooses from whatever library happens to be installed and frequently carries memory from earlier work. We present SkillBuffBench,...</details>|-|Gengyue Dong et al.|[2611.22017](https://arxiv.org/abs/2611.22017)|null|
