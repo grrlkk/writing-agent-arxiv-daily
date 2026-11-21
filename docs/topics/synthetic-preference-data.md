@@ -2,15 +2,16 @@
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-435 papers, newest first. Generated on **2026-11-20** (UTC).
+436 papers, newest first. Generated on **2026-11-21** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (247)](#2026) · [2025 (95)](#2025) · [2024 (93)](#2024)
+Browse by year: [2026 (248)](#2026) · [2025 (95)](#2025) · [2024 (93)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-19**|<details><summary>What Does Anti-Hallucination Training Buy? Saying Less, Cheap Pruning, and the Rest</summary><br>Preference training is the standard recipe for reducing object hallucination in vision-language models, and each new method reports a lower CHAIR score. We ask what that reduction consists of. Every trained system is compared with its base model's caption truncated to the same object recall, which removes the part of the gain that comes from saying less; the remainder is compared with what a deliberately weak, frozen, eleven-feature post-hoc probe fitted on 500 annotated images can reproduce. Al...</details>|-|Lingkai Bu et al.|[2611.25814](https://arxiv.org/abs/2611.25814)|null|
 |**2026-11-18**|<details><summary>A System 1 Decision Model for Medical Multiple-Choice Questions Built on Frozen Language Models</summary><br>A System 1 model answers a multiple-choice question in a single pass. A frozen language model turns the question and each option into vectors, two small, trained heads place them in a shared space, and the closest option wins. The design has been shown on agent decisions, but we are not aware of a study of how far it goes on exam questions that need medical knowledge, where the right option is often no more similar to the question than the wrong ones. We rebuilt the recipe from scratch for MedMC...</details>|-|Pavan Kumar Mantha|[2611.23832](https://arxiv.org/abs/2611.23832)|null|
 |**2026-11-17**|<details><summary>Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models</summary><br>Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and their lower hallucination rates bring no significant gain in set-level object F1 on CHAIR. We therefore ask how much of the PO gain the base model can reproduce by stopping earlier. A positive end-of-sequence (EOS) logit bias lets the base model reach the recall o...</details>|-|Hansang Lee|[2611.23179](https://arxiv.org/abs/2611.23179)|null|
 |**2026-11-17**|<details><summary>Sample-efficient Personalization of Large Language Model Alignment with Multidimensional User Preference Data</summary><br>Preference alignment has become a central tool to align large language models (LLMs) with human values and desired behavior, and its online variant can further advance their capabilities beyond what static data alone offer by repeatedly generating and labeling new responses with human feedback. But costly, time-consuming annotations limit its scalability, making sample efficiency essential, and existing methods typically seek to improve it by expanding coverage of the response space or selecting...</details>|-|Zhen-Yu Zhang et al.|[2611.22210](https://arxiv.org/abs/2611.22210)|null|

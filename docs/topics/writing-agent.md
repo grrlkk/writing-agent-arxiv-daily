@@ -2,15 +2,16 @@
 
 > The primary axis: LLM agents that write and revise across multiple turns rather than generating once. Z1 in the FEAK-TC introduction.
 
-519 papers, newest first. Generated on **2026-11-20** (UTC).
+520 papers, newest first. Generated on **2026-11-21** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (235)](#2026) · [2025 (150)](#2025) · [2024 (134)](#2024)
+Browse by year: [2026 (236)](#2026) · [2025 (150)](#2025) · [2024 (134)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-18**|<details><summary>Open Response Explorer: a Structured Collaborative Writing System for Peer-Informed Open-Response Assignments</summary><br>Peer-informed open-response assignments (where students view, connect, and learn from peer contributions) hold the potential to foster collaborative knowledge building, yet the unstructured nature of free-form prose prevents students from effectively comparing and making sense of peers' work. We present Open Response Explorer, an interface that recenters open responses on structured idea units through purpose-based writing and peer response exploration, augmented by common-role text segment high...</details>|-|Ziwei Gu et al.|[2611.25169](https://arxiv.org/abs/2611.25169)|null|
 |**2026-11-17**|<details><summary>MM-ReportBench: A Comprehensive Benchmark for Multimodal Report Generation from Tables</summary><br>The ability to generate multimodal reports integrating fluent narratives with faithful visualizations from tabular data, has become a cornerstone capability for modern vision-language models in practical domains such as finance, healthcare, and policy making. However, existing benchmarks are limited by single-modality focus, simplistic metrics, novelty evaluation, and visualization quality. We address these limitations with MM-ReportBench, a multimodal report evaluation benchmark covering 386 ta...</details>|-|Teng Lin et al.|[2611.22514](https://arxiv.org/abs/2611.22514)|null|
 |**2026-11-17**|<details><summary>Long-Context Generation Is a Sampling Problem (When You Turn Up the Heat)</summary><br>Open-weight language models are widely observed to get worse the longer they generate. Often, attempts to fix this involve more training. At high temperature, The sampler, i.e. the rule that picks the next token out of the model's probabilities, decides whether long and agentic generation survives and/or thrives. We test 29 open-weight models from 1B to 122B parameters on ten established benchmarks plus needle retrieval out to one million tokens, covering SWE-bench Verified coding agents, long c...</details>|NeurIPS 2026|Allen G. Roush et al.|[2611.22148](https://arxiv.org/abs/2611.22148)|null|
 |**2026-11-14**|<details><summary>FundingClaw: Automated Grant Proposal Writing Agents System</summary><br>Grant proposal writing remains a manual, labor-intensive bottleneck: proposals must satisfy rigid, agency-specific templates, and the same intellectual content must be repeatedly re-encoded into incompatible formats across funding organizations. We introduce FundingClaw, a multi-agent framework built on template-driven skill selection, where a Template Parser ingests any agency's specification and selects the appropriate writing skills for each stage, so that one research brief can produce compl...</details>|-|Ruizhi Liu et al.|[2611.19157](https://arxiv.org/abs/2611.19157)|null|

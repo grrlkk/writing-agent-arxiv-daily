@@ -2,15 +2,16 @@
 
 > Detecting that a revision path has wandered off the original intent — the global drift / rollback signal (B3).
 
-257 papers, newest first. Generated on **2026-11-20** (UTC).
+258 papers, newest first. Generated on **2026-11-21** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (145)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
+Browse by year: [2026 (146)](#2026) · [2025 (78)](#2025) · [2024 (34)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-19**|<details><summary>Measuring Hallucination in Large Language Models for Cyber Threat Intelligence: An Exploratory Study</summary><br>Large language models (LLMs) are increasingly used in cyber threat intelligence (CTI) tasks, such as summarization and question answering. However, they may produce hallucinations, false or misleading content not grounded in the source text, which can mislead analysts and corrupt downstream security decisions. This paper presents an exploratory measurement study of hallucinations in LLM-based CTI. We introduce HalluVision, a reproducible framework that generates LLM outputs, extracts domain-spec...</details>|-|Seungho Song et al.|[2611.25590](https://arxiv.org/abs/2611.25590)|null|
 |**2026-11-18**|<details><summary>Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability</summary><br>Adapting a film into a game requires selecting source elements and translating them into player actions, rules, and feedback. We introduce Movie2Game-Bench (M2G-bench), a benchmark for evaluating film-to-game adaptation beyond playability. M2G-bench combines general evaluation, movie-specific evaluation, and playtesting by three GUI model players. The protocol connects source content to gameplay steps and implementation evidence, capturing both content preservation and interactive realization. T...</details>|-|Jialing Xie et al.|[2611.24669](https://arxiv.org/abs/2611.24669)|null|
 |**2026-11-17**|<details><summary>RLDE: A Reinforcement Learning Framework for Interpretable Iterative Document Editing</summary><br>Improving the quality, clarity, and flow of long documents remains a challenging problem in NLP, as human editing typically occurs through iterative refinement rather than a single-pass rewrite. Most existing automated systems act as black-box generators or rely on supervised learning, limiting interpretability and failing to capture the sequential nature of revisions. In this paper, we propose RLDE, an automated end-to-end metric-driven RL framework that formulates document revision as a refere...</details>|-|Nikhil Parkar et al.|[2611.22039](https://arxiv.org/abs/2611.22039)|null|
 |**2026-11-16**|<details><summary>PromptPack: Training-Free Augmentation of Diffusion Editors for Intent-Aligned Spatial and Semantic Control</summary><br>Many image-editing tasks require confining changes to intended spatial regions while exactly preserving user-designated source content. Instruction-driven editing pipelines often leave such user-intent underspecified, while inpainting editors condition generation on explicitly defined edit support but not on the spatial assignment of individual edit concepts. PromptPack addresses both limitations by equipping diffusion editors with two explicit 'Edit Guides': an edit-role partition that labels e...</details>|-|Sophia Zalewski et al.|[2611.21865](https://arxiv.org/abs/2611.21865)|null|

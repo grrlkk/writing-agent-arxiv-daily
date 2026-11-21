@@ -9,10 +9,10 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-20** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-21** (UTC).
 Back to the [main page](../README.md).
 
-991 of 3828 papers carry venue evidence.
+992 of 3844 papers carry venue evidence.
 
 ## Top-tier venues (668)
 
@@ -827,7 +827,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-11-12**|Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression|WSDM|Synthetic Preference Data|[2611.16384](https://arxiv.org/abs/2611.16384)|
 
-## Findings tracks (95)
+## Findings tracks (96)
 
 ### EMNLP (60)
 
@@ -926,6 +926,15 @@ Back to the [main page](../README.md).
 |**2024-06-13**|Multi-Agent Collaboration via Cross-Team Orchestration|ACL 2024 (findings)|Writing Agent|[2406.08979](https://arxiv.org/abs/2406.08979)|
 |**2024-06-05**|Knowledge-Infused Legal Wisdom: Navigating LLM Consultation through the Lens of Diagnostics and Positive-Unlabeled Reinforcement Learning|ACL 2024 (findings)|Search & Control for Generation|[2406.03600](https://arxiv.org/abs/2406.03600)|
 
+### EACL (4)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-11-19**|Same Judgement, Different Scores: Numerical Scoring Topology in LLM-as-a-Judge Evaluation|EACL 2027 (findings)|Text Quality Evaluation|[2611.26077](https://arxiv.org/abs/2611.26077)|
+|**2026-11-16**|EVIDENT: Evaluating Evidence Grounding in GUI Agents|EACL 2027 (findings)|Multilingual & Cross-Lingual Agents|[2611.20488](https://arxiv.org/abs/2611.20488)|
+|**2024-02-14**|GrounDial: Human-norm Grounded Safe Dialog Response Generation|EACL 2024 (findings)|Search & Control for Generation|[2402.08968](https://arxiv.org/abs/2402.08968)|
+|**2024-02-02**|Let's Negotiate! A Survey of Negotiation Dialogue Systems|EACL 2024 (findings)|Multilingual & Cross-Lingual Agents|[2402.01097](https://arxiv.org/abs/2402.01097)|
+
 ### NAACL (4)
 
 |Publish Date|Title|Venue|Topics|PDF|
@@ -934,14 +943,6 @@ Back to the [main page](../README.md).
 |**2024-10-17**|Mitigating Hallucinations in Large Vision-Language Models via Summary-Guided Decoding|NAACL 2024 (findings)|Search & Control for Generation|[2410.13321](https://arxiv.org/abs/2410.13321)|
 |**2024-06-18**|CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis|NAACL 2024 (findings)|Writing Agent|[2406.12665](https://arxiv.org/abs/2406.12665)|
 |**2024-04-10**|Groundedness in Retrieval-augmented Long-form Generation: An Empirical Study|NAACL 2024 (findings)|Writing Agent|[2404.07060](https://arxiv.org/abs/2404.07060)|
-
-### EACL (3)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-11-16**|EVIDENT: Evaluating Evidence Grounding in GUI Agents|EACL 2027 (findings)|Multilingual & Cross-Lingual Agents|[2611.20488](https://arxiv.org/abs/2611.20488)|
-|**2024-02-14**|GrounDial: Human-norm Grounded Safe Dialog Response Generation|EACL 2024 (findings)|Search & Control for Generation|[2402.08968](https://arxiv.org/abs/2402.08968)|
-|**2024-02-02**|Let's Negotiate! A Survey of Negotiation Dialogue Systems|EACL 2024 (findings)|Multilingual & Cross-Lingual Agents|[2402.01097](https://arxiv.org/abs/2402.01097)|
 
 ### CVPR (1)
 
