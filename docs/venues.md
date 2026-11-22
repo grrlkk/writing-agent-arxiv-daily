@@ -9,19 +9,20 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-21** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-22** (UTC).
 Back to the [main page](../README.md).
 
-992 of 3844 papers carry venue evidence.
+1027 of 3844 papers carry venue evidence.
 
-## Top-tier venues (668)
+## Top-tier venues (702)
 
-### EMNLP (197)
+### EMNLP (213)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-11-18**|ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation|EMNLP 2026|Search & Control for Generation|[2611.23969](https://arxiv.org/abs/2611.23969)|
 |**2026-10-27**|QMUL_AK at AISA-ArabicFC: Schema-Constrained Function Calling with ALLaM|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2610.37995](https://arxiv.org/abs/2610.37995)|
+|**2026-10-21**|TIDE: Tree-Induced Fine-Grained Diagnostic Evaluation from Model Behaviors|EMNLP 2026|Text Quality Evaluation|[2610.29985](https://arxiv.org/abs/2610.29985)|
 |**2026-10-20**|Criterion-Activated Preference Synthesis: Attribution-Preserving Preference Data from Explicit Standards|EMNLP 2026|Reward & Value Models, Synthetic Preference Data, Writing Agent|[2611.18663](https://arxiv.org/abs/2611.18663)|
 |**2026-10-20**|DiffResearch: Accelerating Deep Research with Diffusion Language Models|EMNLP 2026|Text Quality Evaluation, Writing Agent|[2610.28909](https://arxiv.org/abs/2610.28909)|
 |**2026-10-18**|Aligning Cultural Behaviors in Arabic Language Models via Preferences|EMNLP 2026|Synthetic Preference Data|[2610.25362](https://arxiv.org/abs/2610.25362)|
@@ -49,11 +50,13 @@ Back to the [main page](../README.md).
 |**2026-09-08**|A Better Spur Should Start From Each Objective|EMNLP 2026|Reward & Value Models|[2609.08211](https://arxiv.org/abs/2609.08211)|
 |**2026-09-08**|Which Forms of Caregiver Feedback Support Grammar Learning? A Reinforcement-Learning Study of Child-Like Language Models|EMNLP 2026|Reward & Value Models|[2609.08576](https://arxiv.org/abs/2609.08576)|
 |**2026-09-08**|Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation|EMNLP 2026|Reward & Value Models|[2609.09135](https://arxiv.org/abs/2609.09135)|
+|**2026-09-07**|APPSim-Bench: Bridging Real-world Apps and Reproducible Evaluation for Mobile GUI Agents|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2609.07712](https://arxiv.org/abs/2609.07712)|
 |**2026-09-07**|Beyond Single-Negative Preference: Multi-Negative DPO for LLM-Centric Historical Entity Linking|EMNLP 2026|Reward & Value Models|[2609.07379](https://arxiv.org/abs/2609.07379)|
 |**2026-09-07**|Elastic Horizon: Discovering the Effective Interaction Frontier in Agentic Reinforcement Learning|EMNLP 2026|Search & Control for Generation|[2609.07247](https://arxiv.org/abs/2609.07247)|
 |**2026-09-07**|Stable-MM-R1: Anchoring Multimodal Reasoning Dynamics via Entropy-Guided Stratification|EMNLP 2026|Synthetic Preference Data|[2609.07148](https://arxiv.org/abs/2609.07148)|
 |**2026-09-07**|Humans Introduce, Models Elaborate: Asymmetric Narrative Agency in Human-LLM Co-Writing|EMNLP 2026|Writing Agent|[2609.07920](https://arxiv.org/abs/2609.07920)|
 |**2026-09-06**|MARBO: Relational Belief Grounding for LLM Agents in Social Deduction Games|EMNLP 2026|Reward & Value Models|[2609.06563](https://arxiv.org/abs/2609.06563)|
+|**2026-09-06**|DIPLOMAT: Dialogue-Span-Aware Direct Preference Optimization for Polite Persuasive Workplace Negotiation Dialogues|EMNLP 2026|Reward & Value Models|[2609.22256](https://arxiv.org/abs/2609.22256)|
 |**2026-09-06**|FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation|EMNLP 2026|Writing Agent|[2609.06320](https://arxiv.org/abs/2609.06320)|
 |**2026-09-05**|AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection|EMNLP 2026|Synthetic Preference Data|[2609.05899](https://arxiv.org/abs/2609.05899)|
 |**2026-09-04**|Discourse Dependency: A Continuous Criterion for Translation Difficulty|EMNLP 2026|Iterative Revision & Text Editing|[2609.04959](https://arxiv.org/abs/2609.04959)|
@@ -97,6 +100,7 @@ Back to the [main page](../README.md).
 |**2026-08-25**|MoPLEx: Estimating Plackett-Luce Mixture Models for Multi-Objective Alignment|EMNLP 2026|Reward & Value Models|[2608.25200](https://arxiv.org/abs/2608.25200)|
 |**2026-08-25**|ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation|EMNLP 2026|Self-Refine & Self-Correction|[2608.24103](https://arxiv.org/abs/2608.24103)|
 |**2026-08-25**|Who is the Agent to Blame? Localizing Faithfulness and Citation Mistakes in Agentic Deep Research|EMNLP 2026|Semantic Drift & Faithfulness|[2608.24306](https://arxiv.org/abs/2608.24306)|
+|**2026-08-24**|PROOF-Gen: From Optimized Data to Better Distillation|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2608.23911](https://arxiv.org/abs/2608.23911)|
 |**2026-08-24**|Language Chain in Alignment: Cross-lingual Ranking Preference Optimization|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2608.23149](https://arxiv.org/abs/2608.23149)|
 |**2026-08-24**|The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline|EMNLP 2026|Reward & Value Models|[2608.24952](https://arxiv.org/abs/2608.24952)|
 |**2026-08-24**|FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference|EMNLP 2026|Text Quality Evaluation|[2608.24945](https://arxiv.org/abs/2608.24945)|
@@ -109,15 +113,21 @@ Back to the [main page](../README.md).
 |**2026-08-02**|PALMs: Using Multi Construct-Grounded Rationales for Modeling Population Preferences in LLMs|EMNLP 2026|Reward & Value Models|[2608.01458](https://arxiv.org/abs/2608.01458)|
 |**2026-07-30**|FinanceHarness: Autonomous Financial Deep Research Framework|EMNLP 2026|Reward & Value Models|[2607.27853](https://arxiv.org/abs/2607.27853)|
 |**2026-07-30**|MMLDSum-LLM: Multimodal Long-Document Summarization with Visual-Alignment and Keyword-Aware|EMNLP 2026|Text Quality Evaluation|[2607.28006](https://arxiv.org/abs/2607.28006)|
+|**2026-07-28**|A Cross-lingual Comparison of Human and Classification Model Entrainment Behavior in Code-switched Speech Settings|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2607.25202](https://arxiv.org/abs/2607.25202)|
 |**2026-07-27**|What do Reward Models Memorize?|EMNLP 2026|Reward & Value Models, Synthetic Preference Data|[2607.24484](https://arxiv.org/abs/2607.24484)|
 |**2026-07-17**|TD-DPO: Difference-Aware Preference Optimization for Mitigating Sycophancy in Clinical Autism Intervention Dialogue|EMNLP 2026|Reward & Value Models|[2607.18304](https://arxiv.org/abs/2607.18304)|
 |**2026-07-07**|Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs|EMNLP 2026|Text Quality Evaluation|[2607.06327](https://arxiv.org/abs/2607.06327)|
 |**2026-07-06**|Rating the Pitch, Not the Product: User Evaluations of LLMs Reflect Expectations More Than Performance|EMNLP 2026|Synthetic Preference Data|[2607.05113](https://arxiv.org/abs/2607.05113)|
+|**2026-07-04**|Telco-GAIA: Bilingual Benchmark for Agents in Telecom Domain|EMNLP 2026|Multilingual & Cross-Lingual Agents, Text Quality Evaluation|[2607.20510](https://arxiv.org/abs/2607.20510)|
 |**2026-07-02**|Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages|EMNLP 2026|Text Quality Evaluation|[2607.02235](https://arxiv.org/abs/2607.02235)|
 |**2026-06-29**|Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?|EMNLP 2026|Text Quality Evaluation|[2606.29920](https://arxiv.org/abs/2606.29920)|
+|**2026-06-26**|Dockerless: Environment-Free Program Verifier for Coding Agents|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2606.28436](https://arxiv.org/abs/2606.28436)|
 |**2026-06-26**|SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning|EMNLP 2026|Semantic Drift & Faithfulness|[2606.28447](https://arxiv.org/abs/2606.28447)|
 |**2026-06-24**|DualEval: Joint Model-Item Calibration for Unified LLM Evaluation|EMNLP 2026|Synthetic Preference Data|[2606.26429](https://arxiv.org/abs/2606.26429)|
 |**2026-06-18**|ScaffoldAgent: Utility-Guided Dynamic Outline Optimization for Open-Ended Deep Research|EMNLP 2026|Writing Agent|[2606.20122](https://arxiv.org/abs/2606.20122)|
+|**2026-06-17**|LegalWorld: A Life-Cycle Interactive Environment for Legal Agents|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2606.18728](https://arxiv.org/abs/2606.18728)|
+|**2026-06-17**|MortarBench: Evaluating Mortgage Loan Origination Agents|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2606.19416](https://arxiv.org/abs/2606.19416)|
+|**2026-06-14**|Open-SWE-Traces: Advancing Dual-Mode Multilingual Distillation for Software Engineering Agents|EMNLP 2026|Multilingual & Cross-Lingual Agents|[2606.16038](https://arxiv.org/abs/2606.16038)|
 |**2026-06-14**|Contaminated Collaboration: Measuring Gender Bias Transfer in LLM-Assisted Student Writing|EMNLP 2026|Writing Agent|[2606.15914](https://arxiv.org/abs/2606.15914)|
 |**2026-06-06**|Support Vector Rubrics: Closing the Gap Between Self-Generated and Human Rubrics|EMNLP 2026|Synthetic Preference Data|[2606.08077](https://arxiv.org/abs/2606.08077)|
 |**2026-06-04**|DOG-DPO:Dynamic Optimization in Geometry for Safety Alignment|EMNLP 2026|Synthetic Preference Data|[2606.07678](https://arxiv.org/abs/2606.07678)|
@@ -133,13 +143,18 @@ Back to the [main page](../README.md).
 |**2026-04-27**|TSAssistant: A Human-in-the-Loop Agentic Framework for Automated Target Safety Assessment|EMNLP 2026|Writing Agent|[2604.23938](https://arxiv.org/abs/2604.23938)|
 |**2026-04-13**|Hidden Failures in Robustness: Why Supervised Uncertainty Quantification Needs Better Evaluation|EMNLP 2026|Writing Agent|[2604.11662](https://arxiv.org/abs/2604.11662)|
 |**2026-03-27**|Reflect to Inform: Boosting Multimodal Reasoning via Information-Gain-Driven Verification|EMNLP 2026|Writing Agent|[2603.26348](https://arxiv.org/abs/2603.26348)|
+|**2025-12-28**|The Reward Model Selection Crisis in Personalized Alignment|EMNLP 2025|Reward & Value Models, Search & Control for Generation, Synthetic Preference Data|[2512.23067](https://arxiv.org/abs/2512.23067)|
 |**2025-12-20**|SRS-Stories: Vocabulary-constrained multilingual story generation for language learning|EMNLP 2025|Writing Agent|[2512.18362](https://arxiv.org/abs/2512.18362)|
+|**2025-12-02**|ScalePRM: Training Process Reward Models by Scaling Verification Compute Without Ground Truth|EMNLP 2026|Search & Control for Generation|[2512.03244](https://arxiv.org/abs/2512.03244)|
 |**2025-11-28**|Ambiguity Awareness Optimization: Towards Semantic Disambiguation for Direct Preference Optimization|EMNLP 2025|Reward & Value Models|[2511.23391](https://arxiv.org/abs/2511.23391)|
+|**2025-11-09**|Efficient LLM Safety Evaluation through Multi-Agent Debate|EMNLP 2026|Text Quality Evaluation|[2511.06396](https://arxiv.org/abs/2511.06396)|
+|**2025-11-08**|Reinforcement Learning Improves Traversal of Parametric Knowledge in LLMs|EMNLP 2026|Self-Refine & Self-Correction|[2511.05933](https://arxiv.org/abs/2511.05933)|
 |**2025-11-01**|G2: Guided Generation for Enhanced Output Diversity in LLMs|EMNLP 2025|Writing Agent|[2511.00432](https://arxiv.org/abs/2511.00432)|
 |**2025-10-31**|Rating Roulette: Self-Inconsistency in LLM-As-A-Judge Frameworks|EMNLP 2025|Text Quality Evaluation|[2510.27106](https://arxiv.org/abs/2510.27106)|
 |**2025-10-28**|"Mm, Wat?" Detecting Other-initiated Repair Requests in Dialogue|EMNLP 2025|Multilingual & Cross-Lingual Agents|[2510.24628](https://arxiv.org/abs/2510.24628)|
 |**2025-10-14**|Deep Associations, High Creativity: A Simple yet Effective Metric for Evaluating Large Language Models|EMNLP 2025|Writing Agent|[2510.12110](https://arxiv.org/abs/2510.12110)|
 |**2025-09-30**|Efficient Layer-wise LLM Fine-tuning for Revision Intention Prediction|EMNLP 2025|Iterative Revision & Text Editing|[2510.00268](https://arxiv.org/abs/2510.00268)|
+|**2025-09-30**|STaR-Attack: A Spatio-Temporal and Narrative Reasoning Attack Framework for Unified Multimodal Understanding and Generation Models|EMNLP 2025|Semantic Drift & Faithfulness|[2509.26473](https://arxiv.org/abs/2509.26473)|
 |**2025-09-27**|Liaozhai through the Looking-Glass: On Paratextual Explicitation of Culture-Bound Terms in Machine Translation|EMNLP 2025|Multilingual & Cross-Lingual Agents|[2509.23395](https://arxiv.org/abs/2509.23395)|
 |**2025-09-25**|Zero-Shot Privacy-Aware Text Rewriting via Iterative Tree Search|EMNLP 2025|Iterative Revision & Text Editing|[2509.20838](https://arxiv.org/abs/2509.20838)|
 |**2025-09-20**|MPCG: Multi-Round Persona-Conditioned Generation for Modeling the Evolution of Misinformation with LLMs|EMNLP 2025|Semantic Drift & Faithfulness|[2509.16564](https://arxiv.org/abs/2509.16564)|
@@ -152,6 +167,7 @@ Back to the [main page](../README.md).
 |**2025-08-27**|A Symbolic Adversarial Learning Framework for Evolving Fake News Generation and Detection|EMNLP 2025|Multilingual & Cross-Lingual Agents|[2508.19633](https://arxiv.org/abs/2508.19633)|
 |**2025-08-25**|Stand on The Shoulders of Giants: Building JailExpert from Previous Attack Experience|EMNLP 2025|Semantic Drift & Faithfulness|[2508.19292](https://arxiv.org/abs/2508.19292)|
 |**2025-08-23**|JUDGEBERT: Assessing Legal Meaning Preservation Between Sentences|EMNLP 2025|Semantic Drift & Faithfulness|[2508.16870](https://arxiv.org/abs/2508.16870)|
+|**2025-08-19**|Towards AI-Assisted Research Writing: Benchmarking LLMs for AI/ML Introduction Generation|EMNLP 2026|Writing Agent|[2508.14273](https://arxiv.org/abs/2508.14273)|
 |**2025-07-15**|Journalism-Guided Agentic In-Context Learning for News Stance Detection|EMNLP 2025|Multilingual & Cross-Lingual Agents|[2507.11049](https://arxiv.org/abs/2507.11049)|
 |**2025-07-11**|From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation|EMNLP 2025|Korean Writing & NLP|[2507.08924](https://arxiv.org/abs/2507.08924)|
 |**2025-07-04**|GRAFT: A Graph-based Flow-aware Agentic Framework for Document-level Machine Translation|EMNLP 2025|Multilingual & Cross-Lingual Agents|[2507.03311](https://arxiv.org/abs/2507.03311)|
@@ -218,7 +234,7 @@ Back to the [main page](../README.md).
 |**2024-02-27**|BASES: Large-scale Web Search User Simulation with Large Language Model based Agents|EMNLP 2024|Multilingual & Cross-Lingual Agents|[2402.17505](https://arxiv.org/abs/2402.17505)|
 |**2024-02-18**|MORL-Prompt: An Empirical Analysis of Multi-Objective Reinforcement Learning for Discrete Prompt Optimization|EMNLP 2024|Semantic Drift & Faithfulness|[2402.11711](https://arxiv.org/abs/2402.11711)|
 
-### ACL (107)
+### ACL (108)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -249,6 +265,7 @@ Back to the [main page](../README.md).
 |**2025-12-30**|AHA: Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives|ACL 2025|Synthetic Preference Data|[2512.24052](https://arxiv.org/abs/2512.24052)|
 |**2025-12-29**|C2PO: Diagnosing and Disentangling Bias Shortcuts in LLMs|ACL 2025|Reward & Value Models|[2512.23430](https://arxiv.org/abs/2512.23430)|
 |**2025-12-27**|Scaling Unverifiable Rewards: A Case Study on Visual Insights|ACL 2025|Iterative Revision & Text Editing, Reward & Value Models, Writing Agent|[2512.22650](https://arxiv.org/abs/2512.22650)|
+|**2025-12-26**|Context as a Tool: Context Management for Long-Horizon SWE-Agents|ACL 2025|Semantic Drift & Faithfulness|[2512.22087](https://arxiv.org/abs/2512.22087)|
 |**2025-12-16**|Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction|ACL 2025|Text Quality Evaluation|[2512.14865](https://arxiv.org/abs/2512.14865)|
 |**2025-12-14**|HyperEdit: Unlocking Instruction-based Text Editing in LLMs via Hypernetworks|ACL 2025|Iterative Revision & Text Editing|[2512.12544](https://arxiv.org/abs/2512.12544)|
 |**2025-12-12**|Direct Confidence Alignment: Aligning Verbalized Confidence with Internal Confidence In Large Language Models|ACL 2025|Reward & Value Models|[2512.11998](https://arxiv.org/abs/2512.11998)|
@@ -422,80 +439,7 @@ Back to the [main page](../README.md).
 |**2024-04-23**|Aligning LLM Agents by Learning Latent Preference from User Edits|NeurIPS 2024|Writing Agent|[2404.15269](https://arxiv.org/abs/2404.15269)|
 |**2021-05-20**|KLUE: Korean Language Understanding Evaluation|NeurIPS 2021|Korean Writing & NLP|[2105.09680](https://arxiv.org/abs/2105.09680)|
 
-### AAAI (68)
-
-|Publish Date|Title|Venue|Topics|PDF|
-|---|---|---|---|---|
-|**2026-10-09**|Personalized Federated Direct Preference Optimization via LoRA Adapters|AAAI 2026|Reward & Value Models, Synthetic Preference Data|[2610.12885](https://arxiv.org/abs/2610.12885)|
-|**2026-08-23**|"I want to be pushed, I want to grow": Enabling social workers to design evaluations of LLM augmentation in their work|AAAI 2026|Text Quality Evaluation|[2608.22459](https://arxiv.org/abs/2608.22459)|
-|**2026-07-18**|A Method for Learning Value Systems in Generative AI|AAAI 2026|Reward & Value Models, Synthetic Preference Data|[2607.16903](https://arxiv.org/abs/2607.16903)|
-|**2026-04-06**|Metaphors We Compute By: A Computational Audit of Cultural Translation vs. Thinking in LLMs|AAAI 2026|Writing Agent|[2604.04732](https://arxiv.org/abs/2604.04732)|
-|**2026-04-06**|Lighting Up or Dimming Down? Exploring Dark Patterns of LLMs in Co-Creativity|AAAI 2026|Writing Agent|[2604.04735](https://arxiv.org/abs/2604.04735)|
-|**2026-03-13**|Long-form RewardBench: Evaluating Reward Models for Long-form Generation|AAAI 2026|Writing Agent|[2603.12963](https://arxiv.org/abs/2603.12963)|
-|**2025-12-29**|SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search|AAAI 2025|Self-Refine & Self-Correction|[2512.23167](https://arxiv.org/abs/2512.23167)|
-|**2025-12-26**|AutoPP: Towards Automated Product Poster Generation and Optimization|AAAI 2025|Reward & Value Models|[2512.21921](https://arxiv.org/abs/2512.21921)|
-|**2025-12-22**|Activations as Features: Probing LLMs for Generalizable Essay Scoring Representations|AAAI 2025|Text Quality Evaluation|[2512.19456](https://arxiv.org/abs/2512.19456)|
-|**2025-12-21**|How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts|AAAI 2025|Semantic Drift & Faithfulness|[2512.19765](https://arxiv.org/abs/2512.19765)|
-|**2025-12-16**|AgroAskAI: A Multi-Agentic AI Framework for Supporting Smallholder Farmers' Enquiries Globally|AAAI 2025|Multilingual & Cross-Lingual Agents|[2512.14910](https://arxiv.org/abs/2512.14910)|
-|**2025-12-10**|Targeting Misalignment: A Conflict-Aware Framework for Reward-Model-based LLM Alignment|AAAI 2025|Reward & Value Models|[2512.09212](https://arxiv.org/abs/2512.09212)|
-|**2025-12-03**|From Hypothesis to Premises: LLM-based Backward Logical Reasoning with Selective Symbolic Translation|AAAI 2025|Semantic Drift & Faithfulness|[2512.03360](https://arxiv.org/abs/2512.03360)|
-|**2025-11-30**|When Human Preferences Flip: An Instance-Dependent Robust Loss for RLHF|AAAI 2025|Reward & Value Models|[2512.00709](https://arxiv.org/abs/2512.00709)|
-|**2025-11-28**|Does Self-Evaluation Enable Wireheading in Language Models?|AAAI 2026|Self-Refine & Self-Correction|[2511.23092](https://arxiv.org/abs/2511.23092)|
-|**2025-11-25**|RPM-MCTS: Knowledge-Retrieval as Process Reward Model with Monte Carlo Tree Search for Code Generation|AAAI 2025|Reward & Value Models|[2511.19895](https://arxiv.org/abs/2511.19895)|
-|**2025-11-25**|DRAFT-RL: Multi-Agent Chain-of-Draft Reasoning for Reinforcement Learning-Enhanced LLMs|AAAI 2025|Reward & Value Models|[2511.20468](https://arxiv.org/abs/2511.20468)|
-|**2025-11-23**|Building Domain-Specific Small Language Models via Guided Data Generation|AAAI 2025|Reward & Value Models|[2511.21748](https://arxiv.org/abs/2511.21748)|
-|**2025-11-21**|ToC: Tree-of-Claims Search with Multi-Agent Language Models|AAAI 2025|Search & Control for Generation|[2511.16972](https://arxiv.org/abs/2511.16972)|
-|**2025-11-21**|The Finer the Better: Towards Granular-aware Open-set Domain Generalization|AAAI 2025|Synthetic Preference Data|[2511.16979](https://arxiv.org/abs/2511.16979)|
-|**2025-11-20**|GazeInterpreter: Parsing Eye Gaze to Generate Eye-Body-Coordinated Narrations|AAAI 2025|Self-Refine & Self-Correction|[2511.16245](https://arxiv.org/abs/2511.16245)|
-|**2025-11-20**|Incorporating Self-Rewriting into Large Language Model Reasoning Reinforcement|AAAI 2025|Text Quality Evaluation|[2511.16331](https://arxiv.org/abs/2511.16331)|
-|**2025-11-18**|FineRef: Fine-Grained Error Reflection and Correction for Long-Form Generation with Citations|AAAI 2025|Writing Agent|[2602.18437](https://arxiv.org/abs/2602.18437)|
-|**2025-11-17**|TripleFDS: Triple Feature Disentanglement and Synthesis for Scene Text Editing|AAAI 2025|Iterative Revision & Text Editing|[2511.13399](https://arxiv.org/abs/2511.13399)|
-|**2025-11-17**|Mem-PAL: Towards Memory-based Personalized Dialogue Assistants for Long-term User-Agent Interaction|AAAI 2025|Multilingual & Cross-Lingual Agents|[2511.13410](https://arxiv.org/abs/2511.13410)|
-|**2025-11-17**|Bootstrapping LLMs via Preference-Based Policy Optimization|AAAI 2025|Synthetic Preference Data|[2511.12867](https://arxiv.org/abs/2511.12867)|
-|**2025-11-17**|GEM: Generative Entropy-Guided Preference Modeling for Few-shot Alignment of LLMs|AAAI 2025|Synthetic Preference Data|[2511.13007](https://arxiv.org/abs/2511.13007)|
-|**2025-11-17**|Region-Point Joint Representation for Effective Trajectory Similarity Learning|AAAI 2025|Synthetic Preference Data|[2511.13125](https://arxiv.org/abs/2511.13125)|
-|**2025-11-15**|AI-Salesman: Towards Reliable Large Language Model Driven Telemarketing|AAAI 2025|Text Quality Evaluation|[2511.12133](https://arxiv.org/abs/2511.12133)|
-|**2025-11-14**|W2S-AlignTree: Weak-to-Strong Inference-Time Alignment for Large Language Models via Monte Carlo Tree Search|AAAI 2025|Search & Control for Generation|[2511.11518](https://arxiv.org/abs/2511.11518)|
-|**2025-11-14**|iMAD: Intelligent Multi-Agent Debate for Efficient and Accurate LLM Inference|AAAI 2025|Self-Refine & Self-Correction|[2511.11306](https://arxiv.org/abs/2511.11306)|
-|**2025-11-13**|SPAN: Benchmarking and Improving Cross-Calendar Temporal Reasoning of Large Language Models|AAAI 2025|Multilingual & Cross-Lingual Agents|[2511.09993](https://arxiv.org/abs/2511.09993)|
-|**2025-11-13**|Towards Multiple Missing Values-resistant Unsupervised Graph Anomaly Detection|AAAI 2026|Synthetic Preference Data|[2511.09917](https://arxiv.org/abs/2511.09917)|
-|**2025-11-13**|LexInstructEval: Lexical Instruction Following Evaluation for Large Language Models|AAAI 2025|Text Quality Evaluation|[2511.17561](https://arxiv.org/abs/2511.17561)|
-|**2025-11-12**|Assessing the Capabilities of LLMs in Humor:A Multi-dimensional Analysis of Oogiri Generation and Evaluation|AAAI 2025|Multilingual & Cross-Lingual Agents|[2511.09133](https://arxiv.org/abs/2511.09133)|
-|**2025-11-11**|Self-Correction Distillation for Structured Data Question Answering|AAAI 2025|Self-Refine & Self-Correction|[2511.07998](https://arxiv.org/abs/2511.07998)|
-|**2025-11-11**|BiCA: Effective Biomedical Dense Retrieval with Citation-Aware Hard Negatives|AAAI 2025|Synthetic Preference Data|[2511.08029](https://arxiv.org/abs/2511.08029)|
-|**2025-11-10**|SAFENLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces|AAAI 2025|Synthetic Preference Data|[2511.06778](https://arxiv.org/abs/2511.06778)|
-|**2025-11-10**|Hard vs. Noise: Resolving Hard-Noisy Sample Confusion in Recommender Systems via Large Language Models|AAAI 2025|Synthetic Preference Data|[2511.07295](https://arxiv.org/abs/2511.07295)|
-|**2025-11-08**|Lethe: Layer- and Time-Adaptive KV Cache Pruning for Reasoning-Intensive LLM Serving|AAAI 2025|Writing Agent|[2511.06029](https://arxiv.org/abs/2511.06029)|
-|**2025-10-15**|UniME-V2: MLLM-as-a-Judge for Universal Multimodal Embedding Learning|AAAI 2025|Synthetic Preference Data|[2510.13515](https://arxiv.org/abs/2510.13515)|
-|**2025-10-13**|StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models|AAAI 2026|Writing Agent|[2510.11618](https://arxiv.org/abs/2510.11618)|
-|**2025-09-04**|Continuous Monitoring of Large-Scale Generative AI via Deterministic Knowledge Graph Structures|AAAI 2025|Semantic Drift & Faithfulness|[2509.03857](https://arxiv.org/abs/2509.03857)|
-|**2025-08-26**|RLMR: Reinforcement Learning with Mixed Rewards for Creative Writing|AAAI 2025|Writing Agent|[2508.18642](https://arxiv.org/abs/2508.18642)|
-|**2025-08-18**|Documenting Deployment with Fabric: A Repository of Real-World AI Governance|AAAI 2025|Writing Agent|[2508.14119](https://arxiv.org/abs/2508.14119)|
-|**2025-07-07**|Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models|AAAI 2026|Semantic Drift & Faithfulness|[2507.05248](https://arxiv.org/abs/2507.05248)|
-|**2025-02-07**|WikiReddit: Tracing Information and Attention Flows Between Online Platforms|AAAI 2025|Iterative Revision & Text Editing|[2502.04942](https://arxiv.org/abs/2502.04942)|
-|**2024-12-30**|Frequency-Masked Embedding Inference: A Non-Contrastive Approach for Time Series Representation Learning|AAAI 2024|Synthetic Preference Data|[2412.20790](https://arxiv.org/abs/2412.20790)|
-|**2024-12-23**|Retention Score: Quantifying Jailbreak Risks for Vision Language Models|AAAI 2025|Synthetic Preference Data|[2412.17544](https://arxiv.org/abs/2412.17544)|
-|**2024-12-20**|JailPO: A Novel Black-box Jailbreak Framework via Preference Optimization against Aligned LLMs|AAAI 2024|Reward & Value Models|[2412.15623](https://arxiv.org/abs/2412.15623)|
-|**2024-12-20**|Beyond Human Data: Aligning Multimodal Large Language Models by Iterative Self-Evolution|AAAI 2024|Reward & Value Models, Synthetic Preference Data|[2412.15650](https://arxiv.org/abs/2412.15650)|
-|**2024-12-20**|What Are Step-Level Reward Models Rewarding? Counterintuitive Findings from MCTS-Boosted Mathematical Reasoning|AAAI 2024|Reward & Value Models|[2412.15904](https://arxiv.org/abs/2412.15904)|
-|**2024-12-18**|Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs|AAAI 2025|Multilingual & Cross-Lingual Agents|[2412.14304](https://arxiv.org/abs/2412.14304)|
-|**2024-12-17**|Preference-Oriented Supervised Fine-Tuning: Favoring Target Model Over Aligned Large Language Models|AAAI 2024|Reward & Value Models|[2412.12865](https://arxiv.org/abs/2412.12865)|
-|**2024-12-14**|WEPO: Web Element Preference Optimization for LLM-based Web Navigation|AAAI 2024|Reward & Value Models|[2412.10742](https://arxiv.org/abs/2412.10742)|
-|**2024-12-12**|In-Dataset Trajectory Return Regularization for Offline Preference-based Reinforcement Learning|AAAI 2025|Reward & Value Models|[2412.09104](https://arxiv.org/abs/2412.09104)|
-|**2024-12-12**|MOS: Model Surgery for Pre-Trained Model-Based Class-Incremental Learning|AAAI 2024|Self-Refine & Self-Correction|[2412.09441](https://arxiv.org/abs/2412.09441)|
-|**2024-12-11**|Imitate Before Detect: Aligning Machine Stylistic Preference for Machine-Revised Text Detection|AAAI 2024|Iterative Revision & Text Editing, Reward & Value Models|[2412.10432](https://arxiv.org/abs/2412.10432)|
-|**2024-12-10**|MAPLE: A Framework for Active Preference Learning Guided by Large Language Models|AAAI 2024|Reward & Value Models|[2412.07207](https://arxiv.org/abs/2412.07207)|
-|**2024-11-20**|NumCoKE: Ordinal-Aware Numerical Reasoning over Knowledge Graphs with Mixture-of-Experts and Contrastive Learning|AAAI 2024|Synthetic Preference Data|[2411.12950](https://arxiv.org/abs/2411.12950)|
-|**2024-11-14**|Approximated Variational Bayesian Inverse Reinforcement Learning for Large Language Model Alignment|AAAI 2024|Reward & Value Models|[2411.09341](https://arxiv.org/abs/2411.09341)|
-|**2024-09-03**|S^3cMath: Spontaneous Step-level Self-correction Makes Large Language Models Better Mathematical Reasoners|AAAI 2024|Self-Refine & Self-Correction|[2409.01524](https://arxiv.org/abs/2409.01524)|
-|**2024-08-22**|MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LLM Agents|AAAI 2024|Multilingual & Cross-Lingual Agents|[2408.12142](https://arxiv.org/abs/2408.12142)|
-|**2024-08-16**|Evaluating the Evaluator: Measuring LLMs' Adherence to Task Evaluation Instructions|AAAI 2024|Text Quality Evaluation|[2408.08781](https://arxiv.org/abs/2408.08781)|
-|**2024-06-22**|SS-GEN: A Social Story Generation Framework with Large Language Models|AAAI 2024|Writing Agent|[2406.15695](https://arxiv.org/abs/2406.15695)|
-|**2024-06-18**|SafeInfer: Context Adaptive Decoding Time Safety Alignment for Large Language Models|AAAI 2024|Search & Control for Generation|[2406.12274](https://arxiv.org/abs/2406.12274)|
-|**2024-05-26**|Automatically Generating Numerous Context-Driven SFT Data for LLMs across Diverse Granularity|AAAI 2024|Multilingual & Cross-Lingual Agents|[2405.16579](https://arxiv.org/abs/2405.16579)|
-|**2024-05-02**|The Psychosocial Impacts of Generative AI Harms|AAAI 2024|Writing Agent|[2405.01740](https://arxiv.org/abs/2405.01740)|
-
-### ICLR (65)
+### ICLR (81)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -505,27 +449,43 @@ Back to the [main page](../README.md).
 |**2026-04-10**|Micro-Macro Retrieval: Reducing Long-Form Hallucination in Large Language Models|ICLR 2026|Writing Agent|[2605.28828](https://arxiv.org/abs/2605.28828)|
 |**2026-03-28**|Improving Attributed Long-form Question Answering with Intent Awareness|ICLR 2026|Writing Agent|[2603.27435](https://arxiv.org/abs/2603.27435)|
 |**2026-02-09**|CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation|ICLR 2026|Korean Writing & NLP|[2602.20170](https://arxiv.org/abs/2602.20170)|
-|**2025-12-29**|Eliminating Inductive Bias in Reward Models with Information-Theoretic Guidance|ICLR 2026|Reward & Value Models|[2512.23461](https://arxiv.org/abs/2512.23461)|
+|**2025-12-29**|Eliminating Inductive Bias in Reward Models with Information-Theoretic Guidance|ICLR 2025|Reward & Value Models|[2512.23461](https://arxiv.org/abs/2512.23461)|
+|**2025-12-18**|Stackelberg Learning from Human Feedback: Preference Optimization as a Sequential Game|ICLR 2025|Reward & Value Models|[2512.16626](https://arxiv.org/abs/2512.16626)|
+|**2025-12-18**|Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning|ICLR 2025|Reward & Value Models|[2512.16917](https://arxiv.org/abs/2512.16917)|
+|**2025-12-15**|Let's (not) just put things in Context: Test-Time Training for Long-Context LLMs|ICLR 2025|Search & Control for Generation|[2512.13898](https://arxiv.org/abs/2512.13898)|
+|**2025-12-09**|TreeGRPO: Tree-Advantage GRPO for Online RL Post-Training of Diffusion Models|ICLR 2025|Reward & Value Models|[2512.08153](https://arxiv.org/abs/2512.08153)|
 |**2025-12-09**|Fluent Alignment with Disfluent Judges: Post-training for Lower-resource Languages|ICLR 2026|Reward & Value Models|[2512.08777](https://arxiv.org/abs/2512.08777)|
-|**2025-12-07**|Think-While-Generating: On-the-Fly Reasoning for Personalized Long-Form Generation|ICLR 2026|Writing Agent|[2512.06690](https://arxiv.org/abs/2512.06690)|
-|**2025-11-28**|Training-Free Loosely Speculative Decoding: Accepting Semantically Correct Drafts Beyond Exact Match|ICLR 2026|Self-Refine & Self-Correction|[2511.22972](https://arxiv.org/abs/2511.22972)|
+|**2025-12-07**|Think-While-Generating: On-the-Fly Reasoning for Personalized Long-Form Generation|ICLR 2025|Writing Agent|[2512.06690](https://arxiv.org/abs/2512.06690)|
+|**2025-12-01**|Zero-Overhead Introspection for Adaptive Test-Time Compute|ICLR 2025|Reward & Value Models, Search & Control for Generation|[2512.01457](https://arxiv.org/abs/2512.01457)|
+|**2025-11-28**|Training-Free Loosely Speculative Decoding: Accepting Semantically Correct Drafts Beyond Exact Match|ICLR 2025|Self-Refine & Self-Correction|[2511.22972](https://arxiv.org/abs/2511.22972)|
+|**2025-11-27**|RefineBench: Evaluating Refinement Capability of Language Models via Checklists|ICLR 2025|Self-Refine & Self-Correction|[2511.22173](https://arxiv.org/abs/2511.22173)|
 |**2025-10-29**|Metis-SPECS: Decoupling Multimodal Learning via Self-distilled Preference-based Cold Start|ICLR 2026|Synthetic Preference Data|[2510.25801](https://arxiv.org/abs/2510.25801)|
-|**2025-10-24**|Beyond Pairwise: Empowering LLM Alignment With Ranked Choice Modeling|ICLR 2026|Synthetic Preference Data|[2510.23631](https://arxiv.org/abs/2510.23631)|
-|**2025-10-17**|Learning Correlated Reward Models: Statistical Barriers and Opportunities|ICLR 2026|Synthetic Preference Data|[2510.15839](https://arxiv.org/abs/2510.15839)|
-|**2025-10-17**|When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling|ICLR 2026|Writing Agent|[2510.15346](https://arxiv.org/abs/2510.15346)|
+|**2025-10-24**|Beyond Pairwise: Empowering LLM Alignment With Ranked Choice Modeling|ICLR 2025|Synthetic Preference Data|[2510.23631](https://arxiv.org/abs/2510.23631)|
+|**2025-10-23**|Why DPO is a Misspecified Estimator and How to Fix It|ICLR 2025|Synthetic Preference Data|[2510.20413](https://arxiv.org/abs/2510.20413)|
+|**2025-10-18**|Escaping Model Collapse via Synthetic Data Verification: Near-term Improvements and Long-term Convergence|ICLR 2025|Search & Control for Generation|[2510.16657](https://arxiv.org/abs/2510.16657)|
+|**2025-10-17**|Learning Correlated Reward Models: Statistical Barriers and Opportunities|ICLR 2025|Synthetic Preference Data|[2510.15839](https://arxiv.org/abs/2510.15839)|
+|**2025-10-17**|When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling|ICLR 2025|Writing Agent|[2510.15346](https://arxiv.org/abs/2510.15346)|
+|**2025-10-16**|LaSeR: Reinforcement Learning with Last-Token Self-Rewarding|ICLR 2025|Search & Control for Generation|[2510.14943](https://arxiv.org/abs/2510.14943)|
 |**2025-10-16**|Antislop: A Comprehensive Framework for Identifying and Eliminating Repetitive Patterns in Language Models|ICLR 2025|Search & Control for Generation, Writing Agent|[2510.15061](https://arxiv.org/abs/2510.15061)|
-|**2025-10-16**|Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries|ICLR 2026|Writing Agent|[2510.14751](https://arxiv.org/abs/2510.14751)|
-|**2025-10-15**|Towards Understanding Valuable Preference Data for Large Language Model Alignment|ICLR 2026|Synthetic Preference Data|[2510.13212](https://arxiv.org/abs/2510.13212)|
-|**2025-10-13**|Representation-Based Exploration for Language Models: From Test-Time to Post-Training|ICLR 2026|Search & Control for Generation|[2510.11686](https://arxiv.org/abs/2510.11686)|
+|**2025-10-16**|Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries|ICLR 2025|Writing Agent|[2510.14751](https://arxiv.org/abs/2510.14751)|
+|**2025-10-15**|Towards Understanding Valuable Preference Data for Large Language Model Alignment|ICLR 2025|Synthetic Preference Data|[2510.13212](https://arxiv.org/abs/2510.13212)|
+|**2025-10-13**|Representation-Based Exploration for Language Models: From Test-Time to Post-Training|ICLR 2025|Search & Control for Generation|[2510.11686](https://arxiv.org/abs/2510.11686)|
+|**2025-10-12**|Tracing the Traces: Latent Temporal Signals for Efficient and Accurate Reasoning|ICLR 2025|Search & Control for Generation|[2510.10494](https://arxiv.org/abs/2510.10494)|
+|**2025-10-08**|Can Speech LLMs Think while Listening?|ICLR 2025|Synthetic Preference Data|[2510.07497](https://arxiv.org/abs/2510.07497)|
 |**2025-10-07**|Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability|ICLR 2026|Writing Agent|[2510.06084](https://arxiv.org/abs/2510.06084)|
-|**2025-10-02**|xLSTM Scaling Laws: Competitive Performance with Linear Time-Complexity|ICLR 2026|Search & Control for Generation|[2510.02228](https://arxiv.org/abs/2510.02228)|
-|**2025-10-01**|Copy-Paste to Mitigate Large Language Model Hallucinations|ICLR 2026|Synthetic Preference Data|[2510.00508](https://arxiv.org/abs/2510.00508)|
+|**2025-10-03**|Time-To-Inconsistency: A Survival Analysis of Large Language Model Robustness to Adversarial Attacks|ICLR 2025|Semantic Drift & Faithfulness|[2510.02712](https://arxiv.org/abs/2510.02712)|
+|**2025-10-03**|Reward Model Routing in Alignment|ICLR 2025|Synthetic Preference Data|[2510.02850](https://arxiv.org/abs/2510.02850)|
+|**2025-10-02**|xLSTM Scaling Laws: Competitive Performance with Linear Time-Complexity|ICLR 2025|Search & Control for Generation|[2510.02228](https://arxiv.org/abs/2510.02228)|
+|**2025-10-01**|Copy-Paste to Mitigate Large Language Model Hallucinations|ICLR 2025|Synthetic Preference Data|[2510.00508](https://arxiv.org/abs/2510.00508)|
 |**2025-09-30**|Attribution-Guided Decoding|ICLR 2026|Search & Control for Generation|[2509.26307](https://arxiv.org/abs/2509.26307)|
-|**2025-09-05**|Post-training Large Language Models for Diverse High-Quality Responses|ICLR 2026|Writing Agent|[2509.04784](https://arxiv.org/abs/2509.04784)|
-|**2025-08-26**|Hybrid Deep Searcher: Scalable Parallel and Sequential Search Reasoning|ICLR 2026|Search & Control for Generation|[2508.19113](https://arxiv.org/abs/2508.19113)|
-|**2025-06-23**|Improving Black-Box Generative Attacks via Generator Semantic Consistency|ICLR 2026|Semantic Drift & Faithfulness|[2506.18248](https://arxiv.org/abs/2506.18248)|
-|**2025-06-23**|LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning|ICLR 2026|Writing Agent|[2506.18841](https://arxiv.org/abs/2506.18841)|
-|**2025-06-12**|VINCIE: Unlocking In-context Image Editing from Video|ICLR 2026|Writing Agent|[2506.10941](https://arxiv.org/abs/2506.10941)|
+|**2025-09-27**|p-less Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding|ICLR 2025|Writing Agent|[2509.23234](https://arxiv.org/abs/2509.23234)|
+|**2025-09-25**|CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering|ICLR 2025|Search & Control for Generation|[2509.21035](https://arxiv.org/abs/2509.21035)|
+|**2025-09-05**|Post-training Large Language Models for Diverse High-Quality Responses|ICLR 2025|Writing Agent|[2509.04784](https://arxiv.org/abs/2509.04784)|
+|**2025-08-26**|Hybrid Deep Searcher: Scalable Parallel and Sequential Search Reasoning|ICLR 2025|Search & Control for Generation|[2508.19113](https://arxiv.org/abs/2508.19113)|
+|**2025-08-11**|WideSearch: Benchmarking Agentic Broad Info-Seeking|ICLR 2025|Multilingual & Cross-Lingual Agents|[2508.07999](https://arxiv.org/abs/2508.07999)|
+|**2025-06-23**|Improving Black-Box Generative Attacks via Generator Semantic Consistency|ICLR 2025|Semantic Drift & Faithfulness|[2506.18248](https://arxiv.org/abs/2506.18248)|
+|**2025-06-23**|LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning|ICLR 2025|Writing Agent|[2506.18841](https://arxiv.org/abs/2506.18841)|
+|**2025-06-12**|VINCIE: Unlocking In-context Image Editing from Video|ICLR 2025|Writing Agent|[2506.10941](https://arxiv.org/abs/2506.10941)|
 |**2024-12-16**|SPaR: Self-Play with Tree-Search Refinement to Improve Instruction-Following in Large Language Models|ICLR 2024|Reward & Value Models, Self-Refine & Self-Correction|[2412.11605](https://arxiv.org/abs/2412.11605)|
 |**2024-12-04**|Weighted-Reward Preference Optimization for Implicit Model Fusion|ICLR 2025|Reward & Value Models|[2412.03187](https://arxiv.org/abs/2412.03187)|
 |**2024-12-01**|CoRNStack: High-Quality Contrastive Data for Better Code Retrieval and Reranking|ICLR 2024|Synthetic Preference Data|[2412.01007](https://arxiv.org/abs/2412.01007)|
@@ -565,11 +525,85 @@ Back to the [main page](../README.md).
 |**2024-06-20**|SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal|ICLR 2024|Text Quality Evaluation|[2406.14598](https://arxiv.org/abs/2406.14598)|
 |**2024-05-25**|Accelerating Inference of Retrieval-Augmented Generation via Sparse Context Selection|ICLR 2024|Writing Agent|[2405.16178](https://arxiv.org/abs/2405.16178)|
 
-### ICML (40)
+### AAAI (68)
+
+|Publish Date|Title|Venue|Topics|PDF|
+|---|---|---|---|---|
+|**2026-10-09**|Personalized Federated Direct Preference Optimization via LoRA Adapters|AAAI 2026|Reward & Value Models, Synthetic Preference Data|[2610.12885](https://arxiv.org/abs/2610.12885)|
+|**2026-08-23**|"I want to be pushed, I want to grow": Enabling social workers to design evaluations of LLM augmentation in their work|AAAI 2026|Text Quality Evaluation|[2608.22459](https://arxiv.org/abs/2608.22459)|
+|**2026-07-18**|A Method for Learning Value Systems in Generative AI|AAAI 2026|Reward & Value Models, Synthetic Preference Data|[2607.16903](https://arxiv.org/abs/2607.16903)|
+|**2026-04-06**|Metaphors We Compute By: A Computational Audit of Cultural Translation vs. Thinking in LLMs|AAAI 2026|Writing Agent|[2604.04732](https://arxiv.org/abs/2604.04732)|
+|**2026-04-06**|Lighting Up or Dimming Down? Exploring Dark Patterns of LLMs in Co-Creativity|AAAI 2026|Writing Agent|[2604.04735](https://arxiv.org/abs/2604.04735)|
+|**2026-03-13**|Long-form RewardBench: Evaluating Reward Models for Long-form Generation|AAAI 2026|Writing Agent|[2603.12963](https://arxiv.org/abs/2603.12963)|
+|**2025-12-29**|SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search|AAAI 2025|Self-Refine & Self-Correction|[2512.23167](https://arxiv.org/abs/2512.23167)|
+|**2025-12-26**|AutoPP: Towards Automated Product Poster Generation and Optimization|AAAI 2025|Reward & Value Models|[2512.21921](https://arxiv.org/abs/2512.21921)|
+|**2025-12-22**|Activations as Features: Probing LLMs for Generalizable Essay Scoring Representations|AAAI 2025|Text Quality Evaluation|[2512.19456](https://arxiv.org/abs/2512.19456)|
+|**2025-12-21**|How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts|AAAI 2025|Semantic Drift & Faithfulness|[2512.19765](https://arxiv.org/abs/2512.19765)|
+|**2025-12-16**|AgroAskAI: A Multi-Agentic AI Framework for Supporting Smallholder Farmers' Enquiries Globally|AAAI 2025|Multilingual & Cross-Lingual Agents|[2512.14910](https://arxiv.org/abs/2512.14910)|
+|**2025-12-10**|Targeting Misalignment: A Conflict-Aware Framework for Reward-Model-based LLM Alignment|AAAI 2025|Reward & Value Models|[2512.09212](https://arxiv.org/abs/2512.09212)|
+|**2025-12-03**|From Hypothesis to Premises: LLM-based Backward Logical Reasoning with Selective Symbolic Translation|AAAI 2025|Semantic Drift & Faithfulness|[2512.03360](https://arxiv.org/abs/2512.03360)|
+|**2025-11-30**|When Human Preferences Flip: An Instance-Dependent Robust Loss for RLHF|AAAI 2025|Reward & Value Models|[2512.00709](https://arxiv.org/abs/2512.00709)|
+|**2025-11-28**|Does Self-Evaluation Enable Wireheading in Language Models?|AAAI 2026|Self-Refine & Self-Correction|[2511.23092](https://arxiv.org/abs/2511.23092)|
+|**2025-11-25**|RPM-MCTS: Knowledge-Retrieval as Process Reward Model with Monte Carlo Tree Search for Code Generation|AAAI 2025|Reward & Value Models|[2511.19895](https://arxiv.org/abs/2511.19895)|
+|**2025-11-25**|DRAFT-RL: Multi-Agent Chain-of-Draft Reasoning for Reinforcement Learning-Enhanced LLMs|AAAI 2025|Reward & Value Models|[2511.20468](https://arxiv.org/abs/2511.20468)|
+|**2025-11-23**|Building Domain-Specific Small Language Models via Guided Data Generation|AAAI 2025|Reward & Value Models|[2511.21748](https://arxiv.org/abs/2511.21748)|
+|**2025-11-21**|ToC: Tree-of-Claims Search with Multi-Agent Language Models|AAAI 2025|Search & Control for Generation|[2511.16972](https://arxiv.org/abs/2511.16972)|
+|**2025-11-21**|The Finer the Better: Towards Granular-aware Open-set Domain Generalization|AAAI 2025|Synthetic Preference Data|[2511.16979](https://arxiv.org/abs/2511.16979)|
+|**2025-11-20**|GazeInterpreter: Parsing Eye Gaze to Generate Eye-Body-Coordinated Narrations|AAAI 2025|Self-Refine & Self-Correction|[2511.16245](https://arxiv.org/abs/2511.16245)|
+|**2025-11-20**|Incorporating Self-Rewriting into Large Language Model Reasoning Reinforcement|AAAI 2025|Text Quality Evaluation|[2511.16331](https://arxiv.org/abs/2511.16331)|
+|**2025-11-18**|FineRef: Fine-Grained Error Reflection and Correction for Long-Form Generation with Citations|AAAI 2025|Writing Agent|[2602.18437](https://arxiv.org/abs/2602.18437)|
+|**2025-11-17**|TripleFDS: Triple Feature Disentanglement and Synthesis for Scene Text Editing|AAAI 2025|Iterative Revision & Text Editing|[2511.13399](https://arxiv.org/abs/2511.13399)|
+|**2025-11-17**|Mem-PAL: Towards Memory-based Personalized Dialogue Assistants for Long-term User-Agent Interaction|AAAI 2025|Multilingual & Cross-Lingual Agents|[2511.13410](https://arxiv.org/abs/2511.13410)|
+|**2025-11-17**|Bootstrapping LLMs via Preference-Based Policy Optimization|AAAI 2025|Synthetic Preference Data|[2511.12867](https://arxiv.org/abs/2511.12867)|
+|**2025-11-17**|GEM: Generative Entropy-Guided Preference Modeling for Few-shot Alignment of LLMs|AAAI 2025|Synthetic Preference Data|[2511.13007](https://arxiv.org/abs/2511.13007)|
+|**2025-11-17**|Region-Point Joint Representation for Effective Trajectory Similarity Learning|AAAI 2025|Synthetic Preference Data|[2511.13125](https://arxiv.org/abs/2511.13125)|
+|**2025-11-15**|AI-Salesman: Towards Reliable Large Language Model Driven Telemarketing|AAAI 2025|Text Quality Evaluation|[2511.12133](https://arxiv.org/abs/2511.12133)|
+|**2025-11-14**|W2S-AlignTree: Weak-to-Strong Inference-Time Alignment for Large Language Models via Monte Carlo Tree Search|AAAI 2025|Search & Control for Generation|[2511.11518](https://arxiv.org/abs/2511.11518)|
+|**2025-11-14**|iMAD: Intelligent Multi-Agent Debate for Efficient and Accurate LLM Inference|AAAI 2025|Self-Refine & Self-Correction|[2511.11306](https://arxiv.org/abs/2511.11306)|
+|**2025-11-13**|SPAN: Benchmarking and Improving Cross-Calendar Temporal Reasoning of Large Language Models|AAAI 2025|Multilingual & Cross-Lingual Agents|[2511.09993](https://arxiv.org/abs/2511.09993)|
+|**2025-11-13**|Towards Multiple Missing Values-resistant Unsupervised Graph Anomaly Detection|AAAI 2025|Synthetic Preference Data|[2511.09917](https://arxiv.org/abs/2511.09917)|
+|**2025-11-13**|LexInstructEval: Lexical Instruction Following Evaluation for Large Language Models|AAAI 2025|Text Quality Evaluation|[2511.17561](https://arxiv.org/abs/2511.17561)|
+|**2025-11-12**|Assessing the Capabilities of LLMs in Humor:A Multi-dimensional Analysis of Oogiri Generation and Evaluation|AAAI 2025|Multilingual & Cross-Lingual Agents|[2511.09133](https://arxiv.org/abs/2511.09133)|
+|**2025-11-11**|Self-Correction Distillation for Structured Data Question Answering|AAAI 2025|Self-Refine & Self-Correction|[2511.07998](https://arxiv.org/abs/2511.07998)|
+|**2025-11-11**|BiCA: Effective Biomedical Dense Retrieval with Citation-Aware Hard Negatives|AAAI 2025|Synthetic Preference Data|[2511.08029](https://arxiv.org/abs/2511.08029)|
+|**2025-11-10**|SAFENLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces|AAAI 2025|Synthetic Preference Data|[2511.06778](https://arxiv.org/abs/2511.06778)|
+|**2025-11-10**|Hard vs. Noise: Resolving Hard-Noisy Sample Confusion in Recommender Systems via Large Language Models|AAAI 2025|Synthetic Preference Data|[2511.07295](https://arxiv.org/abs/2511.07295)|
+|**2025-11-08**|Lethe: Layer- and Time-Adaptive KV Cache Pruning for Reasoning-Intensive LLM Serving|AAAI 2025|Writing Agent|[2511.06029](https://arxiv.org/abs/2511.06029)|
+|**2025-10-15**|UniME-V2: MLLM-as-a-Judge for Universal Multimodal Embedding Learning|AAAI 2025|Synthetic Preference Data|[2510.13515](https://arxiv.org/abs/2510.13515)|
+|**2025-10-13**|StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models|AAAI 2026|Writing Agent|[2510.11618](https://arxiv.org/abs/2510.11618)|
+|**2025-09-04**|Continuous Monitoring of Large-Scale Generative AI via Deterministic Knowledge Graph Structures|AAAI 2025|Semantic Drift & Faithfulness|[2509.03857](https://arxiv.org/abs/2509.03857)|
+|**2025-08-26**|RLMR: Reinforcement Learning with Mixed Rewards for Creative Writing|AAAI 2025|Writing Agent|[2508.18642](https://arxiv.org/abs/2508.18642)|
+|**2025-08-18**|Documenting Deployment with Fabric: A Repository of Real-World AI Governance|AAAI 2025|Writing Agent|[2508.14119](https://arxiv.org/abs/2508.14119)|
+|**2025-07-07**|Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models|AAAI 2026|Semantic Drift & Faithfulness|[2507.05248](https://arxiv.org/abs/2507.05248)|
+|**2025-02-07**|WikiReddit: Tracing Information and Attention Flows Between Online Platforms|AAAI 2025|Iterative Revision & Text Editing|[2502.04942](https://arxiv.org/abs/2502.04942)|
+|**2024-12-30**|Frequency-Masked Embedding Inference: A Non-Contrastive Approach for Time Series Representation Learning|AAAI 2024|Synthetic Preference Data|[2412.20790](https://arxiv.org/abs/2412.20790)|
+|**2024-12-23**|Retention Score: Quantifying Jailbreak Risks for Vision Language Models|AAAI 2025|Synthetic Preference Data|[2412.17544](https://arxiv.org/abs/2412.17544)|
+|**2024-12-20**|JailPO: A Novel Black-box Jailbreak Framework via Preference Optimization against Aligned LLMs|AAAI 2024|Reward & Value Models|[2412.15623](https://arxiv.org/abs/2412.15623)|
+|**2024-12-20**|Beyond Human Data: Aligning Multimodal Large Language Models by Iterative Self-Evolution|AAAI 2024|Reward & Value Models, Synthetic Preference Data|[2412.15650](https://arxiv.org/abs/2412.15650)|
+|**2024-12-20**|What Are Step-Level Reward Models Rewarding? Counterintuitive Findings from MCTS-Boosted Mathematical Reasoning|AAAI 2024|Reward & Value Models|[2412.15904](https://arxiv.org/abs/2412.15904)|
+|**2024-12-18**|Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs|AAAI 2024|Multilingual & Cross-Lingual Agents|[2412.14304](https://arxiv.org/abs/2412.14304)|
+|**2024-12-17**|Preference-Oriented Supervised Fine-Tuning: Favoring Target Model Over Aligned Large Language Models|AAAI 2024|Reward & Value Models|[2412.12865](https://arxiv.org/abs/2412.12865)|
+|**2024-12-14**|WEPO: Web Element Preference Optimization for LLM-based Web Navigation|AAAI 2024|Reward & Value Models|[2412.10742](https://arxiv.org/abs/2412.10742)|
+|**2024-12-12**|In-Dataset Trajectory Return Regularization for Offline Preference-based Reinforcement Learning|AAAI 2025|Reward & Value Models|[2412.09104](https://arxiv.org/abs/2412.09104)|
+|**2024-12-12**|MOS: Model Surgery for Pre-Trained Model-Based Class-Incremental Learning|AAAI 2024|Self-Refine & Self-Correction|[2412.09441](https://arxiv.org/abs/2412.09441)|
+|**2024-12-11**|Imitate Before Detect: Aligning Machine Stylistic Preference for Machine-Revised Text Detection|AAAI 2024|Iterative Revision & Text Editing, Reward & Value Models|[2412.10432](https://arxiv.org/abs/2412.10432)|
+|**2024-12-10**|MAPLE: A Framework for Active Preference Learning Guided by Large Language Models|AAAI 2024|Reward & Value Models|[2412.07207](https://arxiv.org/abs/2412.07207)|
+|**2024-11-20**|NumCoKE: Ordinal-Aware Numerical Reasoning over Knowledge Graphs with Mixture-of-Experts and Contrastive Learning|AAAI 2024|Synthetic Preference Data|[2411.12950](https://arxiv.org/abs/2411.12950)|
+|**2024-11-14**|Approximated Variational Bayesian Inverse Reinforcement Learning for Large Language Model Alignment|AAAI 2024|Reward & Value Models|[2411.09341](https://arxiv.org/abs/2411.09341)|
+|**2024-09-03**|S^3cMath: Spontaneous Step-level Self-correction Makes Large Language Models Better Mathematical Reasoners|AAAI 2024|Self-Refine & Self-Correction|[2409.01524](https://arxiv.org/abs/2409.01524)|
+|**2024-08-22**|MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LLM Agents|AAAI 2024|Multilingual & Cross-Lingual Agents|[2408.12142](https://arxiv.org/abs/2408.12142)|
+|**2024-08-16**|Evaluating the Evaluator: Measuring LLMs' Adherence to Task Evaluation Instructions|AAAI 2024|Text Quality Evaluation|[2408.08781](https://arxiv.org/abs/2408.08781)|
+|**2024-06-22**|SS-GEN: A Social Story Generation Framework with Large Language Models|AAAI 2024|Writing Agent|[2406.15695](https://arxiv.org/abs/2406.15695)|
+|**2024-06-18**|SafeInfer: Context Adaptive Decoding Time Safety Alignment for Large Language Models|AAAI 2024|Search & Control for Generation|[2406.12274](https://arxiv.org/abs/2406.12274)|
+|**2024-05-26**|Automatically Generating Numerous Context-Driven SFT Data for LLMs across Diverse Granularity|AAAI 2024|Multilingual & Cross-Lingual Agents|[2405.16579](https://arxiv.org/abs/2405.16579)|
+|**2024-05-02**|The Psychosocial Impacts of Generative AI Harms|AAAI 2024|Writing Agent|[2405.01740](https://arxiv.org/abs/2405.01740)|
+
+### ICML (41)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
 |**2026-11-04**|Rubric Curriculum RL: Exploiting the Generation-Verification Gap in Non-Verifiable Domains|ICML 2026|Reward & Value Models, Text Quality Evaluation, Writing Agent|[2611.06244](https://arxiv.org/abs/2611.06244)|
+|**2026-09-22**|SambaGraph: Action-Reaction Spatio-Temporal Graphs for Soccer Tactical Response Modeling|ICML 2026|Synthetic Preference Data|[2609.25569](https://arxiv.org/abs/2609.25569)|
 |**2026-09-11**|Distortion of AI Alignment Revisited: RLHF is a Decent Utilitarian Aligner|ICML 2026|Reward & Value Models, Synthetic Preference Data|[2609.12651](https://arxiv.org/abs/2609.12651)|
 |**2026-08-08**|Persistent Semantic Entities in Tool-Augmented LLM Systems|ICML 2026|Self-Refine & Self-Correction|[2608.07952](https://arxiv.org/abs/2608.07952)|
 |**2026-07-20**|ST-Veto: Spatio-Temporal Token Veto for Diffusion MLLMs via Taylor Prediction and Visual Grounding|ICML 2026|Self-Refine & Self-Correction|[2607.17884](https://arxiv.org/abs/2607.17884)|
@@ -875,9 +909,9 @@ Back to the [main page](../README.md).
 |**2026-06-24**|AI translation of literary texts is "fine", but readers still prefer human translations|EMNLP 2026 (findings)|Multilingual & Cross-Lingual Agents|[2606.26040](https://arxiv.org/abs/2606.26040)|
 |**2026-06-11**|EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge|EMNLP 2026 (findings)|Multilingual & Cross-Lingual Agents|[2606.13120](https://arxiv.org/abs/2606.13120)|
 |**2026-05-27**|ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control|EMNLP 2026 (findings)|Writing Agent|[2608.05169](https://arxiv.org/abs/2608.05169)|
-|**2025-12-03**|Training-Free Policy Violation Detection via Activation-Space Whitening in LLMs|EMNLP 2026 (findings)|Text Quality Evaluation|[2512.03994](https://arxiv.org/abs/2512.03994)|
-|**2025-11-18**|SMRC: Aligning Large Language Models with Student Reasoning for Mathematical Error Correction|EMNLP 2026 (findings)|Self-Refine & Self-Correction|[2511.14684](https://arxiv.org/abs/2511.14684)|
-|**2025-10-29**|GMTRouter: Personalized LLM Router over Multi-turn User Interactions|EMNLP 2026 (findings)|Synthetic Preference Data|[2511.08590](https://arxiv.org/abs/2511.08590)|
+|**2025-12-03**|Training-Free Policy Violation Detection via Activation-Space Whitening in LLMs|EMNLP 2025 (findings)|Text Quality Evaluation|[2512.03994](https://arxiv.org/abs/2512.03994)|
+|**2025-11-18**|SMRC: Aligning Large Language Models with Student Reasoning for Mathematical Error Correction|EMNLP 2025 (findings)|Self-Refine & Self-Correction|[2511.14684](https://arxiv.org/abs/2511.14684)|
+|**2025-10-29**|GMTRouter: Personalized LLM Router over Multi-turn User Interactions|EMNLP 2025 (findings)|Synthetic Preference Data|[2511.08590](https://arxiv.org/abs/2511.08590)|
 |**2025-10-28**|LongWeave: A Long-Form Generation Benchmark Bridging Real-World Relevance and Verifiability|EMNLP 2025 (findings)|Writing Agent|[2510.24345](https://arxiv.org/abs/2510.24345)|
 |**2025-10-13**|FaStfact: Faster, Stronger Long-Form Factuality Evaluations in LLMs|EMNLP 2025 (findings)|Writing Agent|[2510.12839](https://arxiv.org/abs/2510.12839)|
 |**2025-07-07**|A Survey of Pun Generation: Datasets, Evaluations and Methodologies|EMNLP 2025 (findings)|Writing Agent|[2507.04793](https://arxiv.org/abs/2507.04793)|
@@ -1246,9 +1280,9 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-28**|Fine-Grained and Multi-Dimensional Metrics for Document-Level Machine Translation|NAACL 2024 (workshop)|Text Quality Evaluation|[2410.20941](https://arxiv.org/abs/2410.20941)|
 
-## Demo tracks (10)
+## Demo tracks (11)
 
-### EMNLP (4)
+### EMNLP (5)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -1256,6 +1290,7 @@ Back to the [main page](../README.md).
 |**2026-08-24**|Jiuge-Tuiqiao: An Interpretable Human-AI System for Classical Chinese Poetry Refinement|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2608.23098](https://arxiv.org/abs/2608.23098)|
 |**2026-07-21**|AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents|EMNLP 2026 (demo)|Self-Refine & Self-Correction|[2607.18754](https://arxiv.org/abs/2607.18754)|
 |**2026-07-14**|WikiSTAR: A System for Shedding Light on the Hidden History of Scientific Wikipedia Articles|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2607.12441](https://arxiv.org/abs/2607.12441)|
+|**2026-07-13**|ToFu: A White-Box, Token-Efficient Agent Harness for Researchers|EMNLP 2026 (demo)|Multilingual & Cross-Lingual Agents|[2607.11423](https://arxiv.org/abs/2607.11423)|
 
 ### ACL (3)
 
@@ -1275,7 +1310,7 @@ Back to the [main page](../README.md).
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
-|**2025-10-30**|What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data|ICLR 2026 (demo)|Synthetic Preference Data|[2510.26202](https://arxiv.org/abs/2510.26202)|
+|**2025-10-30**|What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data|ICLR 2025 (demo)|Synthetic Preference Data|[2510.26202](https://arxiv.org/abs/2510.26202)|
 
 ### SIGIR (1)
 

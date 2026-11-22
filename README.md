@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-11-21** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-11-22** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -22,25 +22,6 @@ papers using the year links under each topic; the preview shows the newest 20.
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (258)
 - [Search & Control for Generation](#search--control-for-generation) (272)
 - [Korean Writing & NLP](#korean-writing--nlp) (73)
-
-## New in this update (16)
-
-- `Multilingual & Cross-Lingual Agents` [When Should a Voice Agent Speak? End-of-Turn Detection in Turkish](https://arxiv.org/abs/2611.25489)
-- `Multilingual & Cross-Lingual Agents` [Falsifiable Compositional Reasoning in Time Series Forecasting](https://arxiv.org/abs/2611.25388)
-- `Writing Agent` [Open Response Explorer: a Structured Collaborative Writing System for Peer-Informed Open-Response Assignments](https://arxiv.org/abs/2611.25169)
-- `Reward & Value Models` [Sequential Anytime Valid Tests for Efficient Inference-Time Alignment](https://arxiv.org/abs/2611.26413)
-- `Reward & Value Models` [RegionAgent: Two-Stage Preference Optimization for Regional Image Restoration](https://arxiv.org/abs/2611.26179)
-- `Reward & Value Models` [Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding](https://arxiv.org/abs/2611.25898)
-- `Reward & Value Models` [Goal-Guided Reinforcement Learning via Fine-Tuning Vision-Language Models](https://arxiv.org/abs/2611.25742)
-- `Reward & Value Models` [PAIR-MED: Policy-reward Alternation for Iterative Refinement in Multilingual Medical Reasoning](https://arxiv.org/abs/2611.25446)
-- `Reward & Value Models` [Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is](https://arxiv.org/abs/2611.25135)
-- `Synthetic Preference Data` [What Does Anti-Hallucination Training Buy? Saying Less, Cheap Pruning, and the Rest](https://arxiv.org/abs/2611.25814)
-- `Text Quality Evaluation` [Same Judgement, Different Scores: Numerical Scoring Topology in LLM-as-a-Judge Evaluation](https://arxiv.org/abs/2611.26077)
-- `Text Quality Evaluation` [From Cases to Criteria: Reusing Evaluation Knowledge for Task-Specific Rubric Generation](https://arxiv.org/abs/2611.25903)
-- `Text Quality Evaluation` [PDE-State Conditioning for Learned Optimization Using Physics-Informed Neural Networks](https://arxiv.org/abs/2611.25185)
-- `Semantic Drift & Faithfulness` [Measuring Hallucination in Large Language Models for Cyber Threat Intelligence: An Exploratory Study](https://arxiv.org/abs/2611.25590)
-- `Search & Control for Generation` [When Sounds Turn Heads: Recovering Event Timing That Audio LLMs Fail to Say](https://arxiv.org/abs/2611.25960)
-- `Search & Control for Generation` [ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding](https://arxiv.org/abs/2611.26024)
 
 ## Multilingual & Cross-Lingual Agents
 
