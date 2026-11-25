@@ -9,12 +9,12 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-24** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-25** (UTC).
 Back to the [main page](../README.md).
 
-1035 of 3880 papers carry venue evidence.
+1037 of 3908 papers carry venue evidence.
 
-## Top-tier venues (708)
+## Top-tier venues (709)
 
 ### EMNLP (216)
 
@@ -237,7 +237,7 @@ Back to the [main page](../README.md).
 |**2024-02-27**|BASES: Large-scale Web Search User Simulation with Large Language Model based Agents|EMNLP 2024|Multilingual & Cross-Lingual Agents|[2402.17505](https://arxiv.org/abs/2402.17505)|
 |**2024-02-18**|MORL-Prompt: An Empirical Analysis of Multi-Objective Reinforcement Learning for Discrete Prompt Optimization|EMNLP 2024|Semantic Drift & Faithfulness|[2402.11711](https://arxiv.org/abs/2402.11711)|
 
-### ACL (109)
+### ACL (110)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -287,6 +287,7 @@ Back to the [main page](../README.md).
 |**2025-11-02**|IF-CRITIC: Towards a Fine-Grained LLM Critic for Instruction-Following Evaluation|ACL 2025|Text Quality Evaluation|[2511.01014](https://arxiv.org/abs/2511.01014)|
 |**2025-10-30**|ToolRM: Towards Agentic Tool-Use Reward Modeling|ACL 2025|Search & Control for Generation, Self-Refine & Self-Correction, Synthetic Preference Data|[2510.26167](https://arxiv.org/abs/2510.26167)|
 |**2025-10-27**|MMTutorBench: The First Multimodal Benchmark for AI Math Tutoring|ACL 2025|Text Quality Evaluation|[2510.23477](https://arxiv.org/abs/2510.23477)|
+|**2025-10-24**|TripTide: A Benchmark for Adaptive Travel Planning under Disruptions|ACL 2025|Text Quality Evaluation|[2510.21329](https://arxiv.org/abs/2510.21329)|
 |**2025-10-19**|FinSight: Towards Real-World Financial Deep Research|ACL 2025|Writing Agent|[2510.16844](https://arxiv.org/abs/2510.16844)|
 |**2025-10-14**|Towards Inference-time Scaling for Continuous Space Reasoning|ACL 2025|Search & Control for Generation|[2510.12167](https://arxiv.org/abs/2510.12167)|
 |**2025-10-11**|Stop When Enough: Adaptive Early-Stopping for Chain-of-Thought Reasoning|ACL 2025|Search & Control for Generation|[2510.10103](https://arxiv.org/abs/2510.10103)|
@@ -867,7 +868,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-11-12**|Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression|WSDM|Synthetic Preference Data|[2611.16384](https://arxiv.org/abs/2611.16384)|
 
-## Findings tracks (96)
+## Findings tracks (97)
 
 ### EMNLP (60)
 
@@ -966,10 +967,11 @@ Back to the [main page](../README.md).
 |**2024-06-13**|Multi-Agent Collaboration via Cross-Team Orchestration|ACL 2024 (findings)|Writing Agent|[2406.08979](https://arxiv.org/abs/2406.08979)|
 |**2024-06-05**|Knowledge-Infused Legal Wisdom: Navigating LLM Consultation through the Lens of Diagnostics and Positive-Unlabeled Reinforcement Learning|ACL 2024 (findings)|Search & Control for Generation|[2406.03600](https://arxiv.org/abs/2406.03600)|
 
-### EACL (4)
+### EACL (5)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-23**|LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation|EACL 2027 (findings)|Self-Refine & Self-Correction|[2611.31595](https://arxiv.org/abs/2611.31595)|
 |**2026-11-19**|Same Judgement, Different Scores: Numerical Scoring Topology in LLM-as-a-Judge Evaluation|EACL 2027 (findings)|Text Quality Evaluation|[2611.26077](https://arxiv.org/abs/2611.26077)|
 |**2026-11-16**|EVIDENT: Evaluating Evidence Grounding in GUI Agents|EACL 2027 (findings)|Multilingual & Cross-Lingual Agents|[2611.20488](https://arxiv.org/abs/2611.20488)|
 |**2024-02-14**|GrounDial: Human-norm Grounded Safe Dialog Response Generation|EACL 2024 (findings)|Search & Control for Generation|[2402.08968](https://arxiv.org/abs/2402.08968)|

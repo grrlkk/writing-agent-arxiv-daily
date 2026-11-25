@@ -2,15 +2,16 @@
 
 > Edit-intention taxonomies, revision histories, and text-editing models — the direct precedent for FEAK-TC's action taxonomy (B1/W2).
 
-203 papers, newest first. Generated on **2026-11-24** (UTC).
+204 papers, newest first. Generated on **2026-11-25** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (120)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
+Browse by year: [2026 (121)](#2026) · [2025 (46)](#2025) · [2024 (37)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-24**|<details><summary>The Activity Geometry of Discrete Generative Sampling</summary><br>Iterative refinement is a key capability of diffusion-based generation and has motivated growing efforts to bring similar behavior to discrete diffusion and flow models. A growing line of work enables such refinement by allowing previously generated tokens to be revised during sampling, thereby shaping the coupling between successive sampling states. Despite its growing role in sampler design, this coupling freedom remains insufficiently characterized. We introduce Activity Geometry to study the...</details>|-|Xinlong Guo et al.|[2611.32380](https://arxiv.org/abs/2611.32380)|null|
 |**2026-11-21**|<details><summary>HyperHarness: Learning to Generate Personalized Agent Harnesses from User Histories</summary><br>Personalized LLM agents rely on an agent harness, the surrounding memory and control code, to connect user history with downstream decisions. Existing methods typically employ either a single shared memory workflow across all users, which is efficient to deploy but cannot adapt how evidence is retrieved and interpreted across diverse histories, or per-user harness optimization, which customizes behavior for each user but requires costly repeated candidate evaluation at deployment and suffers fro...</details>|-|Zhaoxuan Tan et al.|[2611.29062](https://arxiv.org/abs/2611.29062)|null|
 |**2026-11-20**|<details><summary>Auditable Financial Knowledge Graphs: Schema-Driven Construction and Intrinsic Quality Evaluation</summary><br>Financial documents combine narrative disclosures, accounting metrics, corporate structures, management commentary, and time-dependent facts, making them difficult to represent using conventional chunk-based retrieval-augmented generation systems. This paper presents an auditable, schema-driven methodology for constructing temporal financial knowledge graphs from page-delimited documents parsed using a general purpose document intelligence service. Overlapping document windows undergo phased lar...</details>|-|Samarth Sarin et al.|[2611.27835](https://arxiv.org/abs/2611.27835)|null|
 |**2026-11-20**|<details><summary>Evaluating Prompting Strategies for Zero-Shot Multilingual Aspect-Based Sentiment Analysis with Large Language Models</summary><br>While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot multilingual settings remains underexplored. Existing ABSA research predominantly focuses on English or relies on fine-tuned task-specific models, leaving a gap in understanding how open-weight LLMs handle compound sentiment triplet extraction across diverse language f...</details>|-|Jakub Šm{í}d et al.|[2611.27807](https://arxiv.org/abs/2611.27807)|null|
