@@ -9,14 +9,14 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-25** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-26** (UTC).
 Back to the [main page](../README.md).
 
-1037 of 3908 papers carry venue evidence.
+1039 of 3920 papers carry venue evidence.
 
-## Top-tier venues (709)
+## Top-tier venues (711)
 
-### EMNLP (216)
+### EMNLP (217)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -107,6 +107,7 @@ Back to the [main page](../README.md).
 |**2026-08-24**|FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference|EMNLP 2026|Text Quality Evaluation|[2608.24945](https://arxiv.org/abs/2608.24945)|
 |**2026-08-23**|Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs|EMNLP 2026|Semantic Drift & Faithfulness|[2608.22367](https://arxiv.org/abs/2608.22367)|
 |**2026-08-23**|Grounded Normative Rule Generation with Structured Search|EMNLP 2026|Text Quality Evaluation|[2608.22229](https://arxiv.org/abs/2608.22229)|
+|**2026-08-20**|PACEShop: Evaluating Personalized, Actionable, Compositional, and Evidence-grounded Shopping Assistants|EMNLP 2026|Text Quality Evaluation|[2608.26180](https://arxiv.org/abs/2608.26180)|
 |**2026-08-14**|PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments|EMNLP 2026|Search & Control for Generation, Self-Refine & Self-Correction|[2608.14441](https://arxiv.org/abs/2608.14441)|
 |**2026-08-14**|LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks|EMNLP 2026|Self-Refine & Self-Correction|[2608.14927](https://arxiv.org/abs/2608.14927)|
 |**2026-08-14**|ASSERT: A Measurement Pipeline for GenAI Audits|EMNLP 2026|Text Quality Evaluation|[2608.13840](https://arxiv.org/abs/2608.13840)|
@@ -352,10 +353,11 @@ Back to the [main page](../README.md).
 |**2024-01-02**|CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation|ACL 2024|Multilingual & Cross-Lingual Agents|[2401.01275](https://arxiv.org/abs/2401.01275)|
 |**2022-10-25**|Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation|ACL 2022|Korean Writing & NLP|[2210.14389](https://arxiv.org/abs/2210.14389)|
 
-### NeurIPS (87)
+### NeurIPS (88)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-24**|Auditing the Judge: Human-Derived Bias Discovery, Quantification, and Mitigation in LLM Judges|NeurIPS 2026|Text Quality Evaluation|[2611.33065](https://arxiv.org/abs/2611.33065)|
 |**2026-11-17**|Long-Context Generation Is a Sampling Problem (When You Turn Up the Heat)|NeurIPS 2026|Writing Agent|[2611.22148](https://arxiv.org/abs/2611.22148)|
 |**2026-11-16**|MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis|NeurIPS 2026|Reward & Value Models|[2611.20671](https://arxiv.org/abs/2611.20671)|
 |**2026-11-14**|Empowering Masked Diffusion Models to Self-Correct with Leave-One-Out Transformers|NeurIPS 2026|Self-Refine & Self-Correction|[2611.19127](https://arxiv.org/abs/2611.19127)|
@@ -713,7 +715,7 @@ Back to the [main page](../README.md).
 |**2025-10-09**|The Price of Thought: A Multilingual Analysis of Reasoning, Performance, and Cost of Negotiation in Large Language Models|EACL 2025|Multilingual & Cross-Lingual Agents|[2510.08098](https://arxiv.org/abs/2510.08098)|
 |**2025-08-07**|Rethinking Creativity Evaluation: A Critical Analysis of Existing Creativity Evaluations|EACL 2026|Writing Agent|[2508.05470](https://arxiv.org/abs/2508.05470)|
 |**2025-07-01**|LitBench: A Benchmark and Dataset for Reliable Evaluation of Creative Writing|EACL 2025|Writing Agent|[2507.00769](https://arxiv.org/abs/2507.00769)|
-|**2025-06-27**|Don't Trust Generative Agents to Mimic Communication on Social Networks Unless You Benchmarked their Empirical Realism|EACL 2025|Multilingual & Cross-Lingual Agents|[2506.21974](https://arxiv.org/abs/2506.21974)|
+|**2025-06-27**|Don't Trust Generative Agents to Mimic Communication on Social Networks Unless You Benchmarked their Empirical Realism|EACL 2026|Multilingual & Cross-Lingual Agents|[2506.21974](https://arxiv.org/abs/2506.21974)|
 |**2024-08-06**|Fact Finder -- Enhancing Domain Expertise of Large Language Models by Incorporating Knowledge Graphs|EACL 2024|Text Quality Evaluation|[2408.03010](https://arxiv.org/abs/2408.03010)|
 |**2024-01-27**|Style-News: Incorporating Stylized News Generation and Adversarial Verification for Neural Fake News Detection|EACL 2024|Semantic Drift & Faithfulness|[2401.15509](https://arxiv.org/abs/2401.15509)|
 

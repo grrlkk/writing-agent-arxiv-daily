@@ -3,23 +3,23 @@
   "topics": {
    "Iterative Revision & Text Editing": 204,
    "Korean Writing & NLP": 74,
-   "Multilingual & Cross-Lingual Agents": 489,
-   "Reward & Value Models": 917,
-   "Search & Control for Generation": 276,
+   "Multilingual & Cross-Lingual Agents": 490,
+   "Reward & Value Models": 922,
+   "Search & Control for Generation": 277,
    "Self-Refine & Self-Correction": 351,
    "Semantic Drift & Faithfulness": 263,
-   "Synthetic Preference Data": 443,
-   "Text Quality Evaluation": 683,
-   "Writing Agent": 522
+   "Synthetic Preference Data": 445,
+   "Text Quality Evaluation": 685,
+   "Writing Agent": 523
   },
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "venue_tiers": {
    "demo": 11,
    "findings": 97,
-   "none": 2871,
+   "none": 2881,
    "other": 39,
    "strong": 41,
-   "top": 709,
+   "top": 711,
    "workshop": 140
   }
  },
@@ -5536,8 +5536,10 @@
     "primary_category": "math.OC",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -5574,9 +5576,13 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "Book",
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management",
      "year": 2026
     },
     "status": "unknown",
@@ -5608,8 +5614,9 @@
     "primary_category": "cs.HC",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -7765,7 +7772,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-22",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -15254,7 +15261,7 @@
     "comment": "11 pages, 1 figure, 3 tables",
     "first_seen": "2026-09-22",
     "id": "2506.21974",
-    "journal_ref": "",
+    "journal_ref": "EACL 2026",
     "matched": [
      "german"
     ],
@@ -15277,9 +15284,9 @@
     "track": "main",
     "updated": "2025-10-20",
     "venue": "EACL",
-    "venue_evidence": "Conference of the European Chapter of the Association for Computational Linguistics",
-    "venue_source": "s2",
-    "venue_year": "2025",
+    "venue_evidence": "EACL 2026",
+    "venue_source": "journal_ref",
+    "venue_year": "2026",
     "version": "2506.21974v3"
    },
    "2506.22183": {
@@ -30712,7 +30719,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30751,7 +30758,7 @@
     "primary_category": "cs.CR",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30787,7 +30794,7 @@
     "primary_category": "cs.CR",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30825,7 +30832,7 @@
     "primary_category": "cs.HC",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30862,7 +30869,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -32683,6 +32690,46 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.31668v1"
+   },
+   "2611.33727": {
+    "abs_url": "https://arxiv.org/abs/2611.33727",
+    "authors": [
+     "Inhee Cho",
+     "Jinyoung Jeong",
+     "Byung Ju Kim",
+     "Jiwon Baek",
+     "Jungmin Lee",
+     "Jiseob Park",
+     "Youngjae Yoo"
+    ],
+    "code_url": "",
+    "comment": "43 pages, 4 figures",
+    "first_seen": "2026-11-26",
+    "id": "2611.33727",
+    "journal_ref": "",
+    "matched": [
+     "korean"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33727v1",
+    "primary_category": "cs.HC",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
+    "status": "unknown",
+    "summary": "Global aging makes digital technology important for older adults healthy aging, yet graphical user interfaces remain inaccessible to many. Voice agents based on large language models may help, but users needs and reasons for sustained use remain unclear. We developed a phone-call-style companion that initiates conversations proactively and structures calls using a persona, conversation rules, and prior-call memory (facts, insights, relationship background). We conducted a two-week mixed-methods field study with 33 community-dwelling Korean older adults (29 women; aged 67-91), collecting call logs, pre-post questionnaires, and interviews. Participants made 608 calls following a daily-use recommendation; 25 continued afterward despite turn-taking difficulties. Loneliness and depression scores decreased significantly; among loneliness subfactors, only isolation (emotional loneliness) decreased significantly. Participants disclosed concerns withheld from family and linked companionship to being addressed by name, being remembered, and experiencing emotional reciprocity. We propose personalized conversation rules, accessible interaction, and user control over frequency and topics.",
+    "tier": "none",
+    "title": "Knocking on Minds Door; A Mixed-Methods Field Study of a Voice LLM Companion in Older Adults Daily Lives",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33727v1"
    }
   },
   "Reward & Value Models": {
@@ -48639,9 +48686,12 @@
     "primary_category": "cs.CL",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -48651,8 +48701,8 @@
     "track": "main",
     "updated": "2026-08-24",
     "venue": "EMNLP",
-    "venue_evidence": "To be published at EMNLP 2026 under the full author name \"Elle\"",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.24952v1"
    },
@@ -48686,8 +48736,10 @@
     "primary_category": "cs.SD",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48724,9 +48776,12 @@
     "primary_category": "cs.LG",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -48736,8 +48791,8 @@
     "track": "main",
     "updated": "2026-08-30",
     "venue": "EMNLP",
-    "venue_evidence": "19 pages; To appear in EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.25200v2"
    },
@@ -48761,8 +48816,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48801,8 +48858,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48843,8 +48902,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48880,8 +48941,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48920,8 +48983,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48959,8 +49024,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -48996,7 +49063,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -49032,8 +49099,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49073,8 +49142,9 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -49109,8 +49179,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -49148,9 +49220,11 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -49160,8 +49234,8 @@
     "track": "main",
     "updated": "2026-08-27",
     "venue": "EMNLP",
-    "venue_evidence": "EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.27161v1"
    },
@@ -64229,9 +64303,9 @@
     "primary_category": "cs.CL",
     "published": "2026-10-23",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
-     "venue": "",
+     "venue": "Proceedings of the Fifth Workshop on NLP for Positive Impact (NLP4PI)",
      "year": 2026
     },
     "status": "accepted",
@@ -64265,7 +64339,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-23",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64299,7 +64373,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-24",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64337,7 +64411,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64376,7 +64450,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64413,7 +64487,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64450,7 +64524,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64488,7 +64562,7 @@
     "primary_category": "cs.NE",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64526,7 +64600,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64563,7 +64637,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -69606,7 +69680,7 @@
     "matched": [
      "bradley-terry"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2611.29750v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.29750v2",
     "primary_category": "cs.CL",
     "published": "2026-11-22",
     "s2": {
@@ -69620,12 +69694,12 @@
     "tier": "top",
     "title": "Refine, Don't Reinvent: RASA-Bench for Source-Grounded Hindi Prose Refinement",
     "track": "main",
-    "updated": "2026-11-22",
+    "updated": "2026-11-24",
     "venue": "EACL",
     "venue_evidence": "Accepted to EACL 2027. 22 pages, 8 figures. Project page: https://abdur75648.github.io/rasa-bench",
     "venue_source": "comment",
     "venue_year": "2027",
-    "version": "2611.29750v1"
+    "version": "2611.29750v2"
    },
    "2611.30135": {
     "abs_url": "https://arxiv.org/abs/2611.30135",
@@ -69997,6 +70071,195 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.32166v1"
+   },
+   "2611.32480": {
+    "abs_url": "https://arxiv.org/abs/2611.32480",
+    "authors": [
+     "Yuxuan Liu",
+     "Chongyang Du",
+     "Yuhao Zhang",
+     "Jiahe Guo",
+     "Kawai Chung",
+     "Wenbin Hu",
+     "Huihao Jing",
+     "Hongyu Luo",
+     "Qing Zong",
+     "Haochen Shi",
+     "Haoran Li",
+     "Yangqiu Song"
+    ],
+    "code_url": "",
+    "comment": "23 pages, including appendices",
+    "first_seen": "2026-11-26",
+    "id": "2611.32480",
+    "journal_ref": "",
+    "matched": [
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.32480v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-24",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Agent skills provide reusable workflows that guide LLM agents in using tools. Refining these workflows requires feedback on missing or incorrect instructions, but task-specific verifiers are not always available. We propose VISE (Verifier-Independent Skill Evolution), a scripts-first approach that uses tool implementations to guide skill revision. It extracts tool capabilities, input requirements, usage conditions, and output formats from source code. Using the task request and execution trace, it compares this information with current workflow instructions to identify missing or conflicting steps. It then recommends specific edits to SKILL.md, linking each change to the relevant implementation and usage conditions. We evaluate VISE as an additional revision stage for four evolution methods on SkillsBench and SkillLearnBench. Compared with the corresponding No-verifier conditions, it improves overall average task success by 9.14-13.35 percentage points. The proportion of tasks solved in all three runs increases by 12.36-18.29 points. A case study shows how revised instructions connect tool outputs to later steps. These results support tool implementations as a practical feedback source for skill self-evolution.",
+    "tier": "none",
+    "title": "VISE: Verifier-Independent Skill Self-Evolution with Feedback from Tool Implementations",
+    "track": "",
+    "updated": "2026-11-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.32480v1"
+   },
+   "2611.32884": {
+    "abs_url": "https://arxiv.org/abs/2611.32884",
+    "authors": [
+     "Richmond Sin Jing Xuan",
+     "Peilin Feng",
+     "Wenbin Wang",
+     "Soujanya Poria"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-26",
+    "id": "2611.32884",
+    "journal_ref": "",
+    "matched": [
+     "reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.32884v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-24",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers. An outcome reward at the end of the episode scores only the final answer, so it cannot teach the agent when to commit, because a lucky guess receives the same reward as an answer backed by evidence. During training, however, the simulator can compute the exact posterior over the answer at every step and tell whether the evidence is already enough. We propose Reinforcement Learning with Verifiable Beliefs (RLVB), which rewards the agent for taking further steps while this posterior still allows several answers and for committing once the evidence is sufficient. The reward needs no judge, critic or reward model, and it never reads the belief line the agent writes before each action. We also introduce Pro Worlds, a benchmark of visual puzzles where the agent views a large world through a small window. We evaluate three vision-language models on three benchmarks, two of which are never seen in training. RLVB improves the base model in all nine settings, by 17.1% on average. Under the outcome reward, GRPO and PPO fall below the base model on average. RLVB also outperforms PPO with a process reward from an LLM judge by 9.3% on average while using 1.6 times fewer GPU-hours. The trained agent answers with sufficient evidence in 51%, 12% and 74% of the episodes on the three benchmarks, against 8%, 0.4% and 36% for the base model. Its accuracy gain therefore comes from answering more often at high levels of evidence. The belief line shows how the agent reaches this evidence: it acts on its own belief. It commits at only 0.1 to 2.2% of the turns at which the evidence is insufficient and its line still names several answers, against 3 to 68% for the base model.",
+    "tier": "none",
+    "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+    "track": "",
+    "updated": "2026-11-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.32884v1"
+   },
+   "2611.33452": {
+    "abs_url": "https://arxiv.org/abs/2611.33452",
+    "authors": [
+     "Saket Reddy",
+     "Ke Yang",
+     "ChengXiang Zhai"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-26",
+    "id": "2611.33452",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "process reward model",
+     "outcome reward model"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33452v1",
+    "primary_category": "cs.CV",
+    "published": "2026-11-24",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
+    "status": "unknown",
+    "summary": "Reliable deployment of Vision Language Models (VLMs) requires that a model's expressed confidence remain grounded in what it can actually see, and that it recognize when the visual evidence is too ambiguous to commit to a confident response. Standard post-training uses outcome reward models (ORMs) that supervise only the final decision, rewarding a confident answer regardless of whether the image supports one, while existing methods either tend to detect uncertainty post-hoc or assume an objective verdict always exists. We instead split multimodal reasoning into two stages: perception, where the model must factually describe the scene, and calibration, where it must judge whether that evidence is sufficient to commit to a conclusion. We introduce HumblePRM, a lightweight process reward model (PRM) that scores each stage independently, rewarding agreement between evidence and expressed confidence rather than outcome correctness alone. Training with HumblePRM increases abstention due to uncertainty on ambiguous inputs considerably while leaving accuracy on clear images roughly unchanged. We also find that the improvement transfers to Gemma 4 E4B, a larger, popular edge model. Our findings show that process reward supervision is a promising route to VLMs with better calibrated abstention, ensuring more reliability rather than unpredictable behavior.",
+    "tier": "none",
+    "title": "HumblePRM: Improving VLM Abstention in Ambiguous Situations through Process Reward Modeling",
+    "track": "",
+    "updated": "2026-11-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33452v1"
+   },
+   "2611.33470": {
+    "abs_url": "https://arxiv.org/abs/2611.33470",
+    "authors": [
+     "Jeremy Canale"
+    ],
+    "code_url": "",
+    "comment": "13 pages (main text), 44 pages total with appendices, 5 figures, 56 experiments. Companion architectural design and threat model: https://jeremycanale.com/google-nextgen-detection/",
+    "first_seen": "2026-11-26",
+    "id": "2611.33470",
+    "journal_ref": "",
+    "matched": [
+     "reward hacking"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33470v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-24",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
+    "status": "unknown",
+    "summary": "We present an end-to-end empirical study of dynamic reasoning in next-generation detection and response pipelines, evaluating how static classifiers, graph-based signal fusion, and large language model (LLM) triage agents perform under strict human-analyst attention budgets (Recall at B alerts/day). Across 56 reproducible experiments spanning a multi-layer enterprise-and-cloud simulator and four public datasets (SOREL-20M, BODMAS, LANL, and DARPA Transparent Computing), we test twelve architectural claims governing modern fleet-scale defense. First, we show that fleet growth halves recall at a fixed analyst budget even at negligible compute cost (<$0.0003 per million events), and that rarity-weighted graph risk propagation outperforms GraphSAGE without neural training. Second, evaluating frontier reasoning models (Gemini) and fine-tuned open-weight models (Qwen3-4B) for alert triage reveals that unconstrained LLM auto-closure eliminates 90% of false positives while silently discarding 31-44% of true attack cases. Third, post-training with Group Relative Policy Optimization (GRPO) causes severe reward hacking on unseen attack classes, suppressing up to 86% of novel attacks compared to two-epoch supervised fine-tuning. Finally, against an adaptive adversary generating plausible cover stories in benign telemetry fields, LLM triage evasion rises sharply unless gated by a deterministic policy harness prior to model invocation.",
+    "tier": "none",
+    "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+    "track": "",
+    "updated": "2026-11-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33470v1"
+   },
+   "2611.33525": {
+    "abs_url": "https://arxiv.org/abs/2611.33525",
+    "authors": [
+     "Mayank Gulati",
+     "Gerhard Wunder"
+    ],
+    "code_url": "",
+    "comment": "Accepted at 4th International Conference on Foundation and Large Language Models (FLLM2026)",
+    "first_seen": "2026-11-26",
+    "id": "2611.33525",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33525v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-24",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
+    "status": "unknown",
+    "summary": "A common indication that a fine-tuned model has forgotten a deleted record is a membership-inference score near chance (ROC-AUC $\\approx 0.5$). This reading is sound only if the comparison population represents how the record should behave after a valid deletion---a counterfactual that is rarely validated. We test this premise in a controlled $2\\times2$ study pairing two membership-inference benchmarks, ArxivMIA and BookMIA, with two language models, Llama-3.2-1B and Qwen2.5-1.5B. Exact retraining validates the membership reference: it lies within the prespecified chance band on ArxivMIA but reaches $0.122$ on BookMIA, causing the same metric to reject an empirical deletion reference. A post-hoc BookMIA/Qwen diagnostic replaces benchmark label-0 records with same-pool, never-fine-tuned records and moves the reference from $0.257$ to $0.523$, supporting population mismatch in that cell. Each approximate-unlearning checkpoint is judged jointly on membership removal, deletion-targeted shift beyond non-deletion variation, and utility. On the admitted ArxivMIA/Llama axis, no tested configuration of gradient ascent with retain descent (GA+GD), negative-preference optimization with retain training (NPO-RT), or teacher--student unlearning (SCRUB) passes. A score near chance is not evidence of forgetting until a reference establishes what chance means.",
+    "tier": "none",
+    "title": "Deletion You Can Check: Auditing LLM Unlearning",
+    "track": "",
+    "updated": "2026-11-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33525v1"
    }
   },
   "Search & Control for Generation": {
@@ -76904,8 +77167,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -76939,8 +77204,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -76979,8 +77246,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -79572,7 +79841,7 @@
     "primary_category": "cs.CV",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -81074,6 +81343,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.31677v1"
+   },
+   "2611.33644": {
+    "abs_url": "https://arxiv.org/abs/2611.33644",
+    "authors": [
+     "Takuma Adams",
+     "Andrew C. Cullen",
+     "Tansu Alpcan"
+    ],
+    "code_url": "",
+    "comment": "Accepted to IEEE Control Systems Letters (L-CSS) with presentation at CDC 2026",
+    "first_seen": "2026-11-26",
+    "id": "2611.33644",
+    "journal_ref": "",
+    "matched": [
+     "stopping criterion"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33644v1",
+    "primary_category": "cs.GT",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
+    "status": "unknown",
+    "summary": "Computing per-player feedback strategies in $N$-player adversarial differential games is challenging as the associated coupled Hamilton-Jacobi-Bellman system is high-dimensional and generally lacks classical solutions. We address this by approximating viscosity solutions using physics-informed neural networks within a policy iteration scheme with a vanishing-viscosity annealing schedule. Theoretically, we establish an explicit $\\varepsilon$-Nash guarantee by bounding per-player regret via computable residuals and prove our method reaches this stopping criterion in finite time. For two-player zero-sum games, we further establish a computable bound on the approximation error of the value function. Numerical experiments on pursuit-evasion scenarios illustrate the tightness of these computed bounds and the framework's scalability to high-dimensional environments.",
+    "tier": "none",
+    "title": "Physics-Informed Learning for Multiplayer Differential Games",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33644v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -90221,8 +90526,10 @@
     "primary_category": "cs.HC",
     "published": "2026-07-21",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -90266,8 +90573,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -90303,8 +90612,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -90347,8 +90658,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -93489,7 +93802,7 @@
     "primary_category": "cs.NE",
     "published": "2026-10-17",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -93527,7 +93840,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -93572,7 +93885,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
       "Review"
      ],
@@ -93613,7 +93926,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -93650,7 +93963,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
       "Review"
      ],
@@ -105091,7 +105404,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -105773,7 +106086,7 @@
     "matched": [
      "faithfulness"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2611.29750v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.29750v2",
     "primary_category": "cs.CL",
     "published": "2026-11-22",
     "s2": {
@@ -105787,12 +106100,12 @@
     "tier": "top",
     "title": "Refine, Don't Reinvent: RASA-Bench for Source-Grounded Hindi Prose Refinement",
     "track": "main",
-    "updated": "2026-11-22",
+    "updated": "2026-11-24",
     "venue": "EACL",
     "venue_evidence": "Accepted to EACL 2027. 22 pages, 8 figures. Project page: https://abdur75648.github.io/rasa-bench",
     "venue_source": "comment",
     "venue_year": "2027",
-    "version": "2611.29750v1"
+    "version": "2611.29750v2"
    },
    "2611.29988": {
     "abs_url": "https://arxiv.org/abs/2611.29988",
@@ -117303,8 +117616,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-23",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -117348,11 +117663,12 @@
     "primary_category": "cs.CL",
     "published": "2026-08-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
+      "JournalArticle",
       "Review"
      ],
-     "venue": "",
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -117362,8 +117678,8 @@
     "track": "findings",
     "updated": "2026-08-27",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to Findings of EMNLP 2026. 20 pages, 3 figures, 8 tables",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.24982v2"
    },
@@ -117388,8 +117704,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -117424,8 +117742,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -117463,8 +117783,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -117499,8 +117821,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -117535,8 +117859,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -117569,8 +117895,10 @@
     "primary_category": "cs.LG",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -121765,7 +122093,7 @@
     "primary_category": "cs.IR",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -121802,7 +122130,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -123578,6 +123906,78 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.31495v1"
+   },
+   "2611.32630": {
+    "abs_url": "https://arxiv.org/abs/2611.32630",
+    "authors": [
+     "Prince N. Y. Annan",
+     "Ali A. A. Aziz",
+     "Stephen E. Moore"
+    ],
+    "code_url": "",
+    "comment": "14 pages,4 figures,8 tables",
+    "first_seen": "2026-11-26",
+    "id": "2611.32630",
+    "journal_ref": "",
+    "matched": [
+     "hard negative"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.32630v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-24",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Most information sought online by Twi (Akan) speakers is written in English, making cross-lingual retrieval essential. We evaluate eight systems: BM25, five open embedding models, and two proprietary models (gemini-embedding-001 and OpenAI text-embedding-3-large) on two Twi-English tasks. AfriQA contains 1,221 natively written Asante Twi questions that must retrieve their answering English Wikipedia passages. Bible translation retrieval requires a Twi passage to retrieve its English translation from 6,195 candidates. We introduce MargEmbed-Akan, a 560M-parameter open query encoder trained from AfriE5-Large-instruct using cross-lingual score distillation. The frozen base model scores each English training question against its answer passage and seven hard negatives. The student learns to reproduce these scores from both an NLLB-200 Twi translation that passes a round-trip translation check and the original English question, preserving English behaviour. During training, passages are encoded by the frozen base model; at evaluation, MargEmbed-Akan encodes questions and passages. On AfriQA, base AfriE5 and gemini-embedding-001 both achieve 66.6 nDCG@10; EmbeddingGemma 2, Qwen3-VL-Embedding-2B, and OpenAI text-embedding-3-large achieve 56.6, 51.3, and 53.4, respectively. MargEmbed-Akan achieves 71.5, outperforming gemini-embedding-001 by 4.9 points, its base model by 5.0, and OpenAI text-embedding-3-large by 18.1. Its largest gain is on Twi typed without E and O (+7.5 over gemini-embedding-001). English retrieval does not differ significantly from the base model, although both proprietary models score 1.5-2.2 points higher. On Bible translation retrieval, MargEmbed-Akan and gemini-embedding-001 are statistically tied on standard Twi (97.2 vs. 96.5 nDCG@10); MargEmbed-Akan performs better on diacritic-free Twi (92.7 vs. 84.9). No AfriQA data was used for training or model selection.",
+    "tier": "none",
+    "title": "MargEmbed-Akan: Bridging Twi Questions and English Knowledge through Cross-Lingual Score Distillation",
+    "track": "",
+    "updated": "2026-11-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.32630v1"
+   },
+   "2611.33594": {
+    "abs_url": "https://arxiv.org/abs/2611.33594",
+    "authors": [
+     "Jiechen Li",
+     "Hannah Groos",
+     "Brinnae Bent"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-26",
+    "id": "2611.33594",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33594v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
+    "status": "unknown",
+    "summary": "Embedding models increasingly inform how people search, recommend, and retrieve information, yet we lack credible ways to test whether these similarity judgments reflect how humans understand meaning. Existing benchmarks typically rely on static, expert-labeled pairs with coarse Likert-style annotations, limiting scalability and making it difficult to obtain consistent, high-confidence annotations. We introduce Aligned Machine, an interactive, public-facing platform that transforms broad participation into a continuously growing Human-Aligned Similarity Benchmark (HASB) for evaluating semantic alignment in embedding-based systems. Participants complete a cognitively-natural, forced-choice task, comparing two pairs of items (text or images) and selecting which pair is more similar. This comparative design is accessible to non-experts, yields clean preference data, and supports robust aggregation. We report results from an initial deployment with 115 participants contributing 2,875 total labeled pairs and 872 unique pairs. Using HASB, we evaluated 12 widely used embedding models and found only partial alignment between embedding similarity and human judgments. Text-only models consistently achieve higher overall agreement than multimodal models, while multimodal performance varies systematically by task type: alignment is strongest for image-image comparisons, weaker for image-text comparisons, and lowest for text-text comparisons. Aligned Machine is designed to evolve over time as participation grows, supporting longitudinal analysis, domain-specific studies, bias detection, and measurement of concept drift across model versions. By combining accessible public participation with rigorous comparative evaluation, HASB provides a scalable and accountable framework for auditing semantic alignment in embedding models.",
+    "tier": "none",
+    "title": "Aligned Machine: A Benchmark for Evaluating Multimodal Embedding Similarity via Human Comparative Judgements",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33594v1"
    }
   },
   "Text Quality Evaluation": {
@@ -138178,9 +138578,12 @@
     "primary_category": "cs.LG",
     "published": "2026-08-24",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -138190,8 +138593,8 @@
     "track": "main",
     "updated": "2026-08-31",
     "venue": "EMNLP",
-    "venue_evidence": "21 pages, to appear in EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.24945v2"
    },
@@ -138219,9 +138622,12 @@
     "primary_category": "cs.CV",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -138231,8 +138637,8 @@
     "track": "main",
     "updated": "2026-08-26",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to the Main Conference of EMNLP '26",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.25622v1"
    },
@@ -138259,8 +138665,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -138294,8 +138702,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -138332,9 +138742,13 @@
     "primary_category": "cs.CL",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "Book",
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management",
      "year": 2026
     },
     "status": "unknown",
@@ -138372,8 +138786,10 @@
     "primary_category": "cs.RO",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -138414,8 +138830,10 @@
     "primary_category": "cs.CV",
     "published": "2026-08-26",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -138448,8 +138866,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -138493,21 +138913,23 @@
     "primary_category": "cs.CL",
     "published": "2026-08-20",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Shopping assistants are shifting from ranked product lists toward structured decision support, where systems must synthesize shopper context, product evidence, and next-step guidance into a coherent recommendation experience. This changes the unit of evaluation: a fluent response can still fail by ignoring shopper context, contradicting itself across components, or leaving defects too vague to localize. Existing personalization, grounding, and LLM-as-a-judge benchmarks cover pieces of this problem, but they do not define a joint evaluation target for structured shopping-assistant responses. We formulate this missing evaluation target as PACE: Personalized, Actionable, Compositional, and Evidence-grounded evaluation. We instantiate PACE with two artifacts: PACEShop, a benchmark dataset that makes the target measurable through 22,625 controlled records with structured personas, auditable evidence pools, GOOD/BAD labels, and gold defect family and location annotations; and PACEJudge, a training-free judging protocol that makes the target reportable through a structured output contract. Our experiments show that generic judges can recognize broad quality but fail to recover the diagnostic fields required for PACE; PACEShop makes these failures verifiable, and PACEJudge improves persona-source, cross-component, grounding, and family/location closure without retraining, showing that realistic shopping-assistant evaluation requires a task-matched output contract rather than only a stronger backbone or scalar prompt.",
-    "tier": "none",
+    "tier": "top",
     "title": "PACEShop: Evaluating Personalized, Actionable, Compositional, and Evidence-grounded Shopping Assistants",
-    "track": "",
+    "track": "main",
     "updated": "2026-08-20",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2608.26180v1"
    },
    "2608.26193": {
@@ -138576,9 +138998,12 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -138588,8 +139013,8 @@
     "track": "main",
     "updated": "2026-08-27",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 Main Conference",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.26529v1"
    },
@@ -138614,9 +139039,12 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -138626,8 +139054,8 @@
     "track": "main",
     "updated": "2026-08-27",
     "venue": "EMNLP",
-    "venue_evidence": "31 Pages, 9 Figures, 31 Tables, Accepted as a main conference paper at EMNLP 2026",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2608.26623v1"
    },
@@ -138650,8 +139078,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -138691,8 +139121,9 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -148208,7 +148639,7 @@
     "primary_category": "cs.SE",
     "published": "2026-10-24",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
       "Review"
      ],
@@ -148262,7 +148693,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -148296,7 +148727,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-25",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
       "Review"
      ],
@@ -148340,7 +148771,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [
       "Review"
      ],
@@ -148380,7 +148811,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -148419,7 +148850,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -148460,7 +148891,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -151383,6 +151814,78 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.32321v1"
+   },
+   "2611.33065": {
+    "abs_url": "https://arxiv.org/abs/2611.33065",
+    "authors": [
+     "Hamin Koo",
+     "Chanjoo Jung",
+     "Fangzhao Wu",
+     "Jaehyung Kim"
+    ],
+    "code_url": "",
+    "comment": "NeurIPS 2026",
+    "first_seen": "2026-11-26",
+    "id": "2611.33065",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33065v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-24",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "While Large Language Models (LLMs) are increasingly deployed as automated evaluators in evaluation and training pipelines, their judgements are often affected by systematic biases that conflict with human preferences. Although prior work has identified various biases and proposed methods for detecting and mitigating them, less attention has been paid to using human preferences to inform bias identification and mitigation. Moreover, these approaches rely heavily on pre-discovered bias lists, overlook bias strength, and depend on costly interventions. In this work, we propose HUB-J, an integrated framework based on human-derived bias factors that detects, quantifies, and mitigates biases in LLM-as-a-Judge systems. Our approach leverages human-LLM judgement disagreement cases to automatically discover interpretable bias factors, and utilizes agreement cases to quantify bias strength through controlled input modifications and resulting shifts in model decisions. Finally, building on these quantified biases, we introduce a lightweight, training-free regression-based mitigation strategy that estimates the influence of each bias factor on model judgments and corrects bias-influenced decisions by removing its estimated effect. Empirical results show that HUB-J uncovers both known and novel bias factors, reveals meaningful differences in model susceptibility, and consistently reduces bias-driven decision flips while generalizing across models.",
+    "tier": "top",
+    "title": "Auditing the Judge: Human-Derived Bias Discovery, Quantification, and Mitigation in LLM Judges",
+    "track": "main",
+    "updated": "2026-11-24",
+    "venue": "NeurIPS",
+    "venue_evidence": "NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2611.33065v1"
+   },
+   "2611.33175": {
+    "abs_url": "https://arxiv.org/abs/2611.33175",
+    "authors": [
+     "Michael Hemenway",
+     "Edward W. Wolfe"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-26",
+    "id": "2611.33175",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33175v1",
+    "primary_category": "cs.CL",
+    "published": "2026-10-21",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
+    "status": "unknown",
+    "summary": "Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach in which explanatory fidelity was established before feature importance was interpreted. English Language Arts responses from three writing prompts in Grades 6 and 8 were analyzed, with about 12,700 responses per prompt and separate DeBERTa-v3-base research models for Expression and Conventions. Each response was represented by 61 interpretable linguistic and writing-quality features. Four approaches - theory-driven composites, hierarchical feature groupings, exploratory factor analysis, and Random Forest surrogates - were compared in their ability to reproduce DeBERTa predictions. Random Forest surrogates produced the largest observed R2 values across all six prompt-by-trait conditions, with held-out R2 values from .81 to .95. SHAP analyses showed substantial overlap in high-importance features across traits, with 75% to 90% of the top 20 features shared. Trait differentiation occurred mainly through relative feature weighting: Expression showed greater importance for lexical and conceptual indicators, whereas Conventions showed greater importance for sentence-level and syntactic-control indicators. Under researcher-defined mappings, rubric correspondence was 90%-95% for Expression and 12%-18% for Conventions. These percentages are descriptive and conditional on the mappings and available linguistic features. The findings support a fidelity-first framework for examining apparent scoring priorities while distinguishing post-hoc evidence about model behavior from direct explanation of transformer internals.",
+    "tier": "none",
+    "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+    "track": "",
+    "updated": "2026-10-21",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33175v1"
    }
   },
   "Writing Agent": {
@@ -156585,14 +157088,14 @@
      "Daehwan Ahn"
     ],
     "code_url": "",
-    "comment": "The manuscript includes four figures, one table, and Supplementary Information",
+    "comment": "Published in PNAS Nexus 5(11), pgag353 (2026). Supplementary Information is available with the published article at https://doi.org/10.1093/pnasnexus/pgag353",
     "first_seen": "2026-09-22",
     "id": "2412.14199",
-    "journal_ref": "",
+    "journal_ref": "PNAS Nexus 5(11), pgag353 (2026)",
     "matched": [
      "creative writing"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2412.14199v2",
+    "pdf_url": "https://arxiv.org/pdf/2412.14199v3",
     "primary_category": "cs.HC",
     "published": "2024-12-14",
     "s2": {
@@ -156604,16 +157107,16 @@
      "year": 2024
     },
     "status": "unknown",
-    "summary": "We examined the effectiveness of various human-AI collaboration designs on creative work. Through a human subjects experiment set in the context of creative writing, we found that while AI assistance improved productivity across all models, collaboration design significantly influenced output quality, user satisfaction, and content characteristics. Models incorporating human creative input delivered higher content interestingness and overall quality as well as greater task performer satisfaction compared to conditions where humans were limited to confirming AI's output. Increased AI involvement encouraged creators to explore beyond personal experience but also led to lower aggregate diversity in stories and genres among participants. However, this effect was mitigated through human participation in early creative tasks. These findings underscore the importance of preserving the human creative role to ensure quality, satisfaction, and creative diversity in human-AI collaboration.",
+    "summary": "Rapid advances in generative AI have raised hopes for major productivity gains but recent research has also raised concerns about declining worker satisfaction and reduced creative diversity. While prior research has documented each of these effects individually, it remains unclear how collaboration design shapes the costs that accompany AI-enabled productivity gains. We address this question through a human-subjects experiment on a 1,000-word creative writing task, comparing three human-AI collaboration designs. Completion time was similar across the three designs but quality, satisfaction, and diversity differed across them. The Human Confirmation design, in which AI led ideation, outlining, drafting, and editing while humans primarily confirmed or rejected output, showed the clearest downsides: lower quality and satisfaction, and lower aggregate genre and semantic diversity. By contrast, designs that preserved human involvement in preproduction or throughout the writing process avoided the clearest quality and satisfaction losses without requiring longer overall completion times. Preserving active human involvement in preproduction was also associated with lower aggregate similarity in content than Human Confirmation. These findings show that collaboration design substantially reshapes trade-offs between efficiency, quality, satisfaction, and diversity, suggesting that the central challenge is not whether to adopt AI, but how to allocate creative control between humans and AI. That choice shapes not only the output of creative work but the experience of creative agency.",
     "tier": "none",
-    "title": "Designing Human and Generative AI Collaboration",
+    "title": "Designing human and generative AI collaboration: Trade-offs in productivity, satisfaction, and creative diversity",
     "track": "",
-    "updated": "2025-01-29",
+    "updated": "2026-11-25",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2412.14199v2"
+    "version": "2412.14199v3"
    },
    "2412.14965": {
     "abs_url": "https://arxiv.org/abs/2412.14965",
@@ -169551,8 +170054,10 @@
     "primary_category": "cs.CL",
     "published": "2026-08-13",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -169589,7 +170094,7 @@
     "primary_category": "cs.CL",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -169624,8 +170129,10 @@
     "primary_category": "cs.AI",
     "published": "2026-08-27",
     "s2": {
-     "checked": "2026-10-27",
-     "types": [],
+     "checked": "2026-11-26",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -171895,7 +172402,7 @@
     "primary_category": "cs.HC",
     "published": "2026-10-23",
     "s2": {
-     "checked": "2026-10-27",
+     "checked": "2026-11-26",
      "types": [],
      "venue": "",
      "year": 2026
@@ -172619,6 +173126,42 @@
     "venue_source": "comment",
     "venue_year": "2027",
     "version": "2611.27348v1"
+   },
+   "2611.33497": {
+    "abs_url": "https://arxiv.org/abs/2611.33497",
+    "authors": [
+     "Vimal Kumar Kumar",
+     "Meghana Kshirsagar",
+     "Conor Ryan"
+    ],
+    "code_url": "",
+    "comment": "18 pages (including appendix), 5 figures",
+    "first_seen": "2026-11-26",
+    "id": "2611.33497",
+    "journal_ref": "",
+    "matched": [
+     "long-form generation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33497v1",
+    "primary_category": "cs.AI",
+    "published": "2026-11-24",
+    "s2": {
+     "checked": "2026-11-26",
+     "types": [],
+     "venue": "",
+     "year": ""
+    },
+    "status": "unknown",
+    "summary": "Retrieval-augmented generation (RAG) typically optimises evidence selection for semantic relevance, whereas compliance-sensitive long-form generation also requires evidence supporting explicit structural obligations. Semantically relevant retrieval may therefore omit information needed for mandatory downstream clauses. We propose Constraint-Aligned RAG (CA-RAG), a retrieval-conditioning framework that augments section-specific queries with ontology-derived structural constraints and policy-grounded knowledge-graph relations before evidence selection. Retrieval-only evaluation with manually annotated evidence shows consistent improvements across retrieval budgets. At $k=6$, CA-RAG increases Precision@$k$ from $0.5268$ to $0.5692$, pooled Recall@$k$ from $0.5402$ to $0.5950$, and F1@$k$ from $0.5389$ to $0.5672$ over standard RAG. Generation experiments further show improvements in compliance and reliability in several model--domain settings, while generation-only constraints achieve higher clause coverage but lower overall compliance and reliability. These results indicate that structurally aligned retrieval can improve evidence sufficiency in compliance-sensitive long-form generation.",
+    "tier": "none",
+    "title": "CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation",
+    "track": "",
+    "updated": "2026-11-24",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33497v1"
    }
   }
  }
