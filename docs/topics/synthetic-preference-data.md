@@ -2,15 +2,16 @@
 
 > Preference pairs without human labels — corruption, perturbation, contrastive negatives, RLAIF. Closest prior art to FEAK-guided corruption (W3).
 
-445 papers, newest first. Generated on **2026-11-26** (UTC).
+446 papers, newest first. Generated on **2026-11-27** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (257)](#2026) · [2025 (95)](#2025) · [2024 (93)](#2024)
+Browse by year: [2026 (258)](#2026) · [2025 (95)](#2025) · [2024 (93)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-25**|<details><summary>LatentCP-DPO: Conformal Pessimism for DPO with Finite-Sample Guarantees</summary><br>Direct Preference Optimization (DPO) learns a response policy from human preference data, but with a limited dataset it can overfit to noisy or weakly informative preference labels. We introduce LatentCP-DPO, a framework that combines conformal prediction with pessimistic preference optimization for Bradley-Terry (BT) pairwise feedback and Plackett-Luce (PL) ranking feedback. Building on LatentCP's construction of uncertainty sets for unobserved model parameters, we address how to incorporate th...</details>|-|Hongwei Xu et al.|[2611.34275](https://arxiv.org/abs/2611.34275)|null|
 |**2026-11-25**|<details><summary>Aligned Machine: A Benchmark for Evaluating Multimodal Embedding Similarity via Human Comparative Judgements</summary><br>Embedding models increasingly inform how people search, recommend, and retrieve information, yet we lack credible ways to test whether these similarity judgments reflect how humans understand meaning. Existing benchmarks typically rely on static, expert-labeled pairs with coarse Likert-style annotations, limiting scalability and making it difficult to obtain consistent, high-confidence annotations. We introduce Aligned Machine, an interactive, public-facing platform that transforms broad partici...</details>|-|Jiechen Li et al.|[2611.33594](https://arxiv.org/abs/2611.33594)|null|
 |**2026-11-24**|<details><summary>MargEmbed-Akan: Bridging Twi Questions and English Knowledge through Cross-Lingual Score Distillation</summary><br>Most information sought online by Twi (Akan) speakers is written in English, making cross-lingual retrieval essential. We evaluate eight systems: BM25, five open embedding models, and two proprietary models (gemini-embedding-001 and OpenAI text-embedding-3-large) on two Twi-English tasks. AfriQA contains 1,221 natively written Asante Twi questions that must retrieve their answering English Wikipedia passages. Bible translation retrieval requires a Twi passage to retrieve its English translation...</details>|-|Prince N. Y. Annan et al.|[2611.32630](https://arxiv.org/abs/2611.32630)|null|
 |**2026-11-23**|<details><summary>ModernELECTRA: Replaced-Token Detection with Boundary-Window Reconstruction for Compact Encoders that Classify and Embed</summary><br>ELECTRA-style replaced-token detection (RTD) is a sample-efficient objective for pre-training text encoders, and RTD-trained models such as DeBERTaV3 are strong on classification benchmarks. The same models, however, are known to be poor backbones for embedding tasks such as retrieval and semantic similarity: the binary "original vs. replaced" signal does not ask the final layer to retain the token identity and contextual content that dense representations rely on. We introduce ModernELECTRA, a...</details>|-|Mykhailo Shtopko et al.|[2611.31495](https://arxiv.org/abs/2611.31495)|**[link](https://github.com/Knowledgator/FlashDeBERTa)**|

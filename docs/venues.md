@@ -9,10 +9,10 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-26** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-27** (UTC).
 Back to the [main page](../README.md).
 
-1039 of 3920 papers carry venue evidence.
+1042 of 3930 papers carry venue evidence.
 
 ## Top-tier venues (711)
 
@@ -870,7 +870,7 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2026-11-12**|Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression|WSDM|Synthetic Preference Data|[2611.16384](https://arxiv.org/abs/2611.16384)|
 
-## Findings tracks (97)
+## Findings tracks (98)
 
 ### EMNLP (60)
 
@@ -969,10 +969,11 @@ Back to the [main page](../README.md).
 |**2024-06-13**|Multi-Agent Collaboration via Cross-Team Orchestration|ACL 2024 (findings)|Writing Agent|[2406.08979](https://arxiv.org/abs/2406.08979)|
 |**2024-06-05**|Knowledge-Infused Legal Wisdom: Navigating LLM Consultation through the Lens of Diagnostics and Positive-Unlabeled Reinforcement Learning|ACL 2024 (findings)|Search & Control for Generation|[2406.03600](https://arxiv.org/abs/2406.03600)|
 
-### EACL (5)
+### EACL (6)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-25**|IRTIQA: Evolving in English, Evaluated in Urdu -- Does Agent Self-Evolution Transfer from English to Urdu and Code-Switched Input?|EACL 2027 (findings)|Multilingual & Cross-Lingual Agents|[2611.34303](https://arxiv.org/abs/2611.34303)|
 |**2026-11-23**|LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation|EACL 2027 (findings)|Self-Refine & Self-Correction|[2611.31595](https://arxiv.org/abs/2611.31595)|
 |**2026-11-19**|Same Judgement, Different Scores: Numerical Scoring Topology in LLM-as-a-Judge Evaluation|EACL 2027 (findings)|Text Quality Evaluation|[2611.26077](https://arxiv.org/abs/2611.26077)|
 |**2026-11-16**|EVIDENT: Evaluating Evidence Grounding in GUI Agents|EACL 2027 (findings)|Multilingual & Cross-Lingual Agents|[2611.20488](https://arxiv.org/abs/2611.20488)|
@@ -1065,12 +1066,14 @@ Back to the [main page](../README.md).
 |**2024-09-17**|Improving Speech Emotion Recognition in Under-Resourced Languages via Speech-to-Speech Translation with Bootstrapping Data Selection|ICASSP 2025|Multilingual & Cross-Lingual Agents|[2409.10985](https://arxiv.org/abs/2409.10985)|
 |**2024-01-12**|Adaptive Data Augmentation for Aspect Sentiment Quad Prediction|ICASSP 2024|Search & Control for Generation|[2401.06394](https://arxiv.org/abs/2401.06394)|
 
-## Workshops (140)
+## Workshops (142)
 
-### NeurIPS (47)
+### NeurIPS (49)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-11-25**|Agent-as-a-Verifier: From Scores to Evidence for General Verification|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.34132](https://arxiv.org/abs/2611.34132)|
+|**2026-11-25**|Reliable User Simulation in Complex Multi-Step Workflows|NeurIPS 2026 (workshop)|Semantic Drift & Faithfulness|[2611.34044](https://arxiv.org/abs/2611.34044)|
 |**2026-11-16**|AdMem: Expectation-Grounded Procedural Memory for Long-Horizon Task-Solving Agents|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.20605](https://arxiv.org/abs/2611.20605)|
 |**2026-11-16**|Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle|NeurIPS 2026 (workshop)|Reward & Value Models|[2611.21538](https://arxiv.org/abs/2611.21538)|
 |**2026-11-16**|Contrastive Activation-Guided Zeroth-Order Preference Optimisation for Memory-Efficient LLM Alignment|NeurIPS 2026 (workshop)|Synthetic Preference Data|[2611.20635](https://arxiv.org/abs/2611.20635)|

@@ -2,15 +2,16 @@
 
 > Applying LLM agents beyond English: multilingual and cross-lingual transfer, non-English tool use and planning, localized writing assistants, and language- or culture-specific agent benchmarks. Survey axis for adapting agent workflows to Korean and other language communities.
 
-490 papers, newest first. Generated on **2026-11-26** (UTC).
+491 papers, newest first. Generated on **2026-11-27** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (267)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)
+Browse by year: [2026 (268)](#2026) · [2025 (145)](#2025) · [2024 (78)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-25**|<details><summary>IRTIQA: Evolving in English, Evaluated in Urdu -- Does Agent Self-Evolution Transfer from English to Urdu and Code-Switched Input?</summary><br>As LLM agents increasingly learn from their own experience, the tasks they learn from and are evaluated on are almost always in English. We ask whether self-evolution transfers from English to Urdu, and release IRTIQA, a benchmark of aligned English, Urdu-translated, and Urdu code-switched variants of DROP, SNIPS, AppWorld, and SkillsBench, built with a matrix-language code-switching pipeline and human verification. Using IRTIQA, we evaluate three self-evolving frameworks, Tool-R0 (self-play RL)...</details>|EACL 2027 (findings)|Abdullah Hashmat et al.|[2611.34303](https://arxiv.org/abs/2611.34303)|null|
 |**2026-11-25**|<details><summary>Knocking on Minds Door; A Mixed-Methods Field Study of a Voice LLM Companion in Older Adults Daily Lives</summary><br>Global aging makes digital technology important for older adults healthy aging, yet graphical user interfaces remain inaccessible to many. Voice agents based on large language models may help, but users needs and reasons for sustained use remain unclear. We developed a phone-call-style companion that initiates conversations proactively and structures calls using a persona, conversation rules, and prior-call memory (facts, insights, relationship background). We conducted a two-week mixed-methods...</details>|-|Inhee Cho et al.|[2611.33727](https://arxiv.org/abs/2611.33727)|null|
 |**2026-11-23**|<details><summary>Provenance Loss and Repair in Multilingual Compaction</summary><br>Conversational assistants compact older messages into short notes and evict the originals. When the note's language requires a distinction that English leaves open, such as Spanish adjective gender (agotado vs. agotada), messages that omit or explicitly state that attribute can yield the same note. After eviction, later turns cannot tell them apart: taking the inflected form literally asserts an attribute the user never gave, whereas discounting it as routine grammar discards one the user did gi...</details>|-|Ian Miao et al.|[2611.31668](https://arxiv.org/abs/2611.31668)|null|
 |**2026-11-23**|<details><summary>CocoonBench: Can Multilingual Search Agents Escape Language Information Cocoons?</summary><br>Multilingual search agents can access the global Web, yet may remain trapped in a language environment with insufficient evidence; we refer to this failure as a language information cocoon. However, existing search benchmarks largely operate within a single language, especially English, overlooking entity connections across multiple languages. We introduce CocoonBench, a benchmark that evaluates whether multilingual search agents can escape such language information cocoons. CocoonBench mines an...</details>|-|Hongchuan Zeng et al.|[2611.30727](https://arxiv.org/abs/2611.30727)|null|

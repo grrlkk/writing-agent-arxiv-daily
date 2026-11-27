@@ -3,24 +3,24 @@
   "topics": {
    "Iterative Revision & Text Editing": 204,
    "Korean Writing & NLP": 74,
-   "Multilingual & Cross-Lingual Agents": 490,
-   "Reward & Value Models": 922,
-   "Search & Control for Generation": 277,
+   "Multilingual & Cross-Lingual Agents": 491,
+   "Reward & Value Models": 925,
+   "Search & Control for Generation": 278,
    "Self-Refine & Self-Correction": 351,
-   "Semantic Drift & Faithfulness": 263,
-   "Synthetic Preference Data": 445,
-   "Text Quality Evaluation": 685,
-   "Writing Agent": 523
+   "Semantic Drift & Faithfulness": 265,
+   "Synthetic Preference Data": 446,
+   "Text Quality Evaluation": 687,
+   "Writing Agent": 524
   },
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "venue_tiers": {
    "demo": 11,
-   "findings": 97,
-   "none": 2881,
+   "findings": 98,
+   "none": 2888,
    "other": 39,
    "strong": 41,
    "top": 711,
-   "workshop": 140
+   "workshop": 142
   }
  },
  "topics": {
@@ -32730,6 +32730,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.33727v1"
+   },
+   "2611.34303": {
+    "abs_url": "https://arxiv.org/abs/2611.34303",
+    "authors": [
+     "Abdullah Hashmat",
+     "Danish Javed",
+     "Usman Naseem",
+     "Agha Ali Raza"
+    ],
+    "code_url": "",
+    "comment": "Findings of EACL 2027",
+    "first_seen": "2026-11-27",
+    "id": "2611.34303",
+    "journal_ref": "",
+    "matched": [
+     "code-switch",
+     "urdu"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34303v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "As LLM agents increasingly learn from their own experience, the tasks they learn from and are evaluated on are almost always in English. We ask whether self-evolution transfers from English to Urdu, and release IRTIQA, a benchmark of aligned English, Urdu-translated, and Urdu code-switched variants of DROP, SNIPS, AppWorld, and SkillsBench, built with a matrix-language code-switching pipeline and human verification. Using IRTIQA, we evaluate three self-evolving frameworks, Tool-R0 (self-play RL), AgentEvolver (experience-guided RL), and Autogenesis (protocol-level evolution), against their unevolved backbones. Self-evolution often raises capability: AgentEvolver lifts AppWorld goal completion from near zero to 20-36% across all conditions, and Autogenesis improves SkillsBench pass rate from 16.48% to 22.22%. But it rarely closes the language gap. Evolved systems remain stronger in English, by up to 0.26 DROP F1, the gap is largest on multi-step tasks, and code-switching behaves as a distinct condition rather than degraded translation. On a shared Gemma-4 31B backbone, the gap exists before evolution, and RL-based evolution can hurt Urdu reasoning more than English. Language parity must therefore be an explicit design target, as it does not emerge from self-improvement alone.",
+    "tier": "findings",
+    "title": "IRTIQA: Evolving in English, Evaluated in Urdu -- Does Agent Self-Evolution Transfer from English to Urdu and Code-Switched Input?",
+    "track": "findings",
+    "updated": "2026-11-25",
+    "venue": "EACL",
+    "venue_evidence": "Findings of EACL 2027",
+    "venue_source": "comment",
+    "venue_year": "2027",
+    "version": "2611.34303v1"
    }
   },
   "Reward & Value Models": {
@@ -70260,6 +70298,126 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.33525v1"
+   },
+   "2611.34132": {
+    "abs_url": "https://arxiv.org/abs/2611.34132",
+    "authors": [
+     "Yuxuan Sun",
+     "Hao",
+     "Chen",
+     "Nagarajan Natarajan",
+     "Sushrut Karmalkar",
+     "Niranjani Prasad",
+     "Amit Sharma",
+     "Hongxiang Fan"
+    ],
+    "code_url": "https://github.com/sunyxedu/General-Verifier",
+    "comment": "15 pages, 3 figures, 3 tables. Accepted at the NeurIPS 2026 Workshop: Who Verifies the Agents? Toward Reliable Agent Development",
+    "first_seen": "2026-11-27",
+    "id": "2611.34132",
+    "journal_ref": "",
+    "matched": [
+     "reward model",
+     "process reward model",
+     "verifier"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34132v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "Verification is increasingly critical across various inference and learning paradigms, such as test-time scaling, recursive intelligence and automated research, where feedback can improve efficiency and optimization. Common score-based verifiers, or discriminative reward models, predict a scalar reward for an output. While useful for filtering, rewarding, and ranking, such scores provide no explicit, auditable evidentiary basis for the judgment. In parallel, although existing generative process reward models offer text feedback, most designs do not fully exploit agentic capabilities, such as tool use and iterative reasoning, which are essential for fact-checking and fine-grained claim verification. In this paper, we address these limitations by introducing Agent-as-a-Verifier, an agentic, certificate-producing verification system that places role-separated LLM agents inside a formal-methods-inspired claim-obligation-certificate protocol. Given a generation candidate, Agent-as-a-Verifier produces a certificate by extracting a verdict-blind dependency graph of claims, independently compiling the task's acceptance contract, and deriving checkable obligations. On Terminal-Bench 2.1, Agent-as-a-Verifier achieves higher accuracy than the state-of-the-art approach. Across different downstream applications, the augmented agent also outperforms the plain agent on FrontierMath and CyberGym. More importantly, Agent-as-a-Verifier is able to identify reward-hacking solutions that deceive the benchmark evaluator, highlighting its broader potential for iterative and recursive agent optimization. Code is available at https://github.com/sunyxedu/General-Verifier",
+    "tier": "workshop",
+    "title": "Agent-as-a-Verifier: From Scores to Evidence for General Verification",
+    "track": "workshop",
+    "updated": "2026-11-25",
+    "venue": "NeurIPS",
+    "venue_evidence": "15 pages, 3 figures, 3 tables. Accepted at the NeurIPS 2026 Workshop: Who Verifies the Agents? Toward Reliable Agent Development",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2611.34132v1"
+   },
+   "2611.34275": {
+    "abs_url": "https://arxiv.org/abs/2611.34275",
+    "authors": [
+     "Hongwei Xu",
+     "Jingyi Liu",
+     "Vincent Y. F. Tan",
+     "Zai Yang",
+     "Yulian Wu"
+    ],
+    "code_url": "",
+    "comment": "62 Pages",
+    "first_seen": "2026-11-27",
+    "id": "2611.34275",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization",
+     "bradley-terry"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34275v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Direct Preference Optimization (DPO) learns a response policy from human preference data, but with a limited dataset it can overfit to noisy or weakly informative preference labels. We introduce LatentCP-DPO, a framework that combines conformal prediction with pessimistic preference optimization for Bradley-Terry (BT) pairwise feedback and Plackett-Luce (PL) ranking feedback. Building on LatentCP's construction of uncertainty sets for unobserved model parameters, we address how to incorporate this uncertainty into preference optimization and characterize its effect on policy performance. Under exchangeability and a correctly specified preference model, we construct uncertainty sets for latent relative rewards with finite-sample marginal coverage from conformal prediction sets for observable preferences. We then learn a response policy by maximizing the worst-case expected preference log-likelihood over these uncertainty sets, using an independent collection of prompts and candidate responses without preference labels. Under suitable assumptions, we establish finite-sample upper bounds on regularized policy suboptimality that separate policy-class approximation error, conformal uncertainty, and statistical estimation error. For BT feedback, we further establish a worst-case lower bound for LatentCP-DPO that matches the upper bound's reciprocal dependence on the number of unlabeled optimization examples. The lower bound also shows that the uncertainty sets can induce a bias that persists as the optimization sample grows. Together, these results characterize both the statistical accuracy and potential limitations of preference optimization using conformal uncertainty sets. Experiments support the benefits of the proposed framework in finite preference datasets.",
+    "tier": "none",
+    "title": "LatentCP-DPO: Conformal Pessimism for DPO with Finite-Sample Guarantees",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.34275v1"
+   },
+   "2611.34831": {
+    "abs_url": "https://arxiv.org/abs/2611.34831",
+    "authors": [
+     "Kumar Shubham",
+     "Devendra Vyas",
+     "Vidushi Agarwal",
+     "Jayin Khanna",
+     "Prathosh AP"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-27",
+    "id": "2611.34831",
+    "journal_ref": "",
+    "matched": [
+     "preference optimization"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34831v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Knowledge distillation enables the deployment of large language models through smaller student models, but the compression process can introduce regressions in trustworthiness even when downstream performance is preserved. Repairing such failures is challenging because the original distillation corpus is often unavailable, while direct preference optimization may alter capabilities inherited from the teacher. We propose a targeted repair framework based on the proximal Bregman response function (PBRF) that addresses both limitations. We estimate the curvature required for PBRF using a surrogate proxy dataset, removing dependence on the original transfer corpus, and extend the framework to preference-based supervision through an odds-ratio objective. This enables the use of preferred and dispreferred response pairs while constraining changes to the distilled model. Our results show that the proposed approach improves targeted trustworthiness behaviors for both pre-training and post-training models while largely preserving downstream performance, providing a practical alternative to re-distillation or unconstrained preference optimization. Our experiment results show that across different distilled models, the trustworthy regression can be improved by up to 8% with less than 1% decrement in perplexity.",
+    "tier": "none",
+    "title": "Repairing the Trustworthiness of Distilled Language Models",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.34831v1"
    }
   },
   "Search & Control for Generation": {
@@ -81379,6 +81537,42 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.33644v1"
+   },
+   "2611.34492": {
+    "abs_url": "https://arxiv.org/abs/2611.34492",
+    "authors": [
+     "Runguo Li",
+     "Dezhen Lu",
+     "Zixiang Ni"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-27",
+    "id": "2611.34492",
+    "journal_ref": "",
+    "matched": [
+     "when to stop"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34492v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Recurrent-depth language models generate each token by iterating a shared block of layers until its hidden state converges. Inference methods for these models decide when to stop the iteration, yet every token still starts from random noise and pays the full cost of converging. We show that where the iteration starts is a second, independent lever. A token's fixed point is predictable from the state at which the previous token stopped, after a learned change of coordinates, and we introduce FlyingStart, a linear warm start that is fitted in closed form on the frozen model and costs under 5% of one loop. The iteration and its stopping rule are unchanged, so the exit criterion certifies the same distance to the fixed point from any start: a better start removes loops at unchanged accuracy. On Huginn-0125, FlyingStart matches the accuracy of the strongest training-free baseline with 14--19% fewer decoding layers, raises batched throughput by 16--18% in two serving engines, and adds a further 10--14% on top of self-speculative decoding. A contraction analysis predicts the number of loops saved on all four models we study, including one where the prediction was recorded before any evaluation, and token by token on Huginn, and it identifies when a warm start pays off: the saving grows with the number of loops a model needs to converge.",
+    "tier": "none",
+    "title": "FlyingStart: Learned Cross-Token Warm Starts for Fixed-Point Decoding in Recurrent-Depth Language Models",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.34492v1"
    }
   },
   "Self-Refine & Self-Correction": {
@@ -106179,6 +106373,79 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.30412v1"
+   },
+   "2611.34044": {
+    "abs_url": "https://arxiv.org/abs/2611.34044",
+    "authors": [
+     "Pusala Pavan Teja",
+     "Jayasimha Talur",
+     "Saab Mansour",
+     "Marcello Federico"
+    ],
+    "code_url": "",
+    "comment": "UserSim Workshop at NeurIPS 2026",
+    "first_seen": "2026-11-27",
+    "id": "2611.34044",
+    "journal_ref": "",
+    "matched": [
+     "goal drift"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34044v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "accepted",
+    "summary": "LLM-based user simulators are increasingly used to evaluate conversational assistants. Yet, these simulators can drift from their assigned goals or fail to exhaustively explore all specified options, causing evaluation errors incorrectly attributed to the assistant. Prior work has examined goal alignment in single-task settings, but many practical scenarios require simulators to execute multi-step workflows with sequential tasks, fallback logic, and cross-task dependencies, where simulator fidelity has not been measured. To close this gap, we introduce a benchmark of 500 workflows represented using the Hierarchical Task Network (HTN) abstraction. Our experiments reveal that the simulator's fidelity degrades sharply with workflow complexity, and that goal drift accounts for the majority of failures. Fidelity also depends on the assistant's response style, with the same simulator scoring substantially better or worse across styles. To address this, we propose ReUST (Reasoning + User State Tracking), a simple prompting strategy to maintain state information across dialogue turns. ReUST improves goal success rate by more than 12 points for mid-sized and large models, and reduces simulator sensitivity to the assistant's response style.",
+    "tier": "workshop",
+    "title": "Reliable User Simulation in Complex Multi-Step Workflows",
+    "track": "workshop",
+    "updated": "2026-11-25",
+    "venue": "NeurIPS",
+    "venue_evidence": "UserSim Workshop at NeurIPS 2026",
+    "venue_source": "comment",
+    "venue_year": "2026",
+    "version": "2611.34044v1"
+   },
+   "2611.34785": {
+    "abs_url": "https://arxiv.org/abs/2611.34785",
+    "authors": [
+     "Bich Ngoc Doan",
+     "Hanna Yukhymenko",
+     "Imanol Schlag"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-27",
+    "id": "2611.34785",
+    "journal_ref": "",
+    "matched": [
+     "intent preservation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34785v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Large language models increasingly replace real people in the AI development pipeline, as they are used to generate training dialogues at scale and to drive alignment and evaluation. However, out-of-the-box models produce monolingual and stylistically flat texts as synthetic user prompts, failing to replicate the real user-AI communication mechanics. We present PersonaFactory, an end-to-end pipeline that generates detailed user personas and uses them to augment existing user prompts from their point of view, producing a bank of over 740000 structured synthetic personas detailing their background and communication behaviors, and a corpus of roughly 1.24 million persona-styled synthetic conversations spanning 85 languages. We evaluate the effect of personal features on style adoption and intent preservation, using an LLM-judge and heuristic metrics to assess augmentation fidelity together with the downstream impact on assistant persona control through training data. Results show that our structured, attribute-based style representation enables per-axis control and better intent preservation at comparable style fidelity than free-text persona descriptions used in existing methods. A human expert evaluation found the augmented conversations plausible, with favorable ratings for intent preservation, style naturalness, and multilingual authenticity. Finally, PersonaFactory conversations achieve comparable performance to original training data on capability benchmarks, are preferred on real user prompts at equal reply length, and adapt their reply style more closely to users without explicit steering.",
+    "tier": "none",
+    "title": "PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.34785v1"
    }
   },
   "Synthetic Preference Data": {
@@ -120244,7 +120511,7 @@
     "matched": [
      "preference data"
     ],
-    "pdf_url": "https://arxiv.org/pdf/2609.37054v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.37054v3",
     "primary_category": "cs.AI",
     "published": "2026-09-29",
     "s2": {
@@ -120258,12 +120525,12 @@
     "tier": "none",
     "title": "ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs",
     "track": "",
-    "updated": "2026-09-30",
+    "updated": "2026-11-25",
     "venue": "",
     "venue_evidence": "",
     "venue_source": "",
     "venue_year": "",
-    "version": "2609.37054v2"
+    "version": "2609.37054v3"
    },
    "2609.38526": {
     "abs_url": "https://arxiv.org/abs/2609.38526",
@@ -123978,6 +124245,44 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.33594v1"
+   },
+   "2611.34275": {
+    "abs_url": "https://arxiv.org/abs/2611.34275",
+    "authors": [
+     "Hongwei Xu",
+     "Jingyi Liu",
+     "Vincent Y. F. Tan",
+     "Zai Yang",
+     "Yulian Wu"
+    ],
+    "code_url": "",
+    "comment": "62 Pages",
+    "first_seen": "2026-11-27",
+    "id": "2611.34275",
+    "journal_ref": "",
+    "matched": [
+     "preference data"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34275v1",
+    "primary_category": "cs.LG",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Direct Preference Optimization (DPO) learns a response policy from human preference data, but with a limited dataset it can overfit to noisy or weakly informative preference labels. We introduce LatentCP-DPO, a framework that combines conformal prediction with pessimistic preference optimization for Bradley-Terry (BT) pairwise feedback and Plackett-Luce (PL) ranking feedback. Building on LatentCP's construction of uncertainty sets for unobserved model parameters, we address how to incorporate this uncertainty into preference optimization and characterize its effect on policy performance. Under exchangeability and a correctly specified preference model, we construct uncertainty sets for latent relative rewards with finite-sample marginal coverage from conformal prediction sets for observable preferences. We then learn a response policy by maximizing the worst-case expected preference log-likelihood over these uncertainty sets, using an independent collection of prompts and candidate responses without preference labels. Under suitable assumptions, we establish finite-sample upper bounds on regularized policy suboptimality that separate policy-class approximation error, conformal uncertainty, and statistical estimation error. For BT feedback, we further establish a worst-case lower bound for LatentCP-DPO that matches the upper bound's reciprocal dependence on the number of unlabeled optimization examples. The lower bound also shows that the uncertainty sets can induce a bias that persists as the optimization sample grows. Together, these results characterize both the statistical accuracy and potential limitations of preference optimization using conformal uncertainty sets. Experiments support the benefits of the proposed framework in finite preference datasets.",
+    "tier": "none",
+    "title": "LatentCP-DPO: Conformal Pessimism for DPO with Finite-Sample Guarantees",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.34275v1"
    }
   },
   "Text Quality Evaluation": {
@@ -151886,6 +152191,86 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.33175v1"
+   },
+   "2611.33789": {
+    "abs_url": "https://arxiv.org/abs/2611.33789",
+    "authors": [
+     "Su Myat Noe",
+     "Hisami Suzuki",
+     "Kouta Nakayama",
+     "Naoaki Okazaki"
+    ],
+    "code_url": "",
+    "comment": "Preprint. 11 pages, 7 figures, 4 tables",
+    "first_seen": "2026-11-27",
+    "id": "2611.33789",
+    "journal_ref": "",
+    "matched": [
+     "llm-as-a-judge"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33789v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Vision-Language Models (VLMs) are increasingly deployed in Japanese-language settings, yet multimodal safety evaluation has been largely English-centric. We extend the Multimodal Safety Test Suite (MSTS) of Röttger et al. (2025) to Japanese as the 12th language, contributing 320 machine-translated and post-edited cases with reference answers plus 82 culturally localized Japanese images. We introduce an evaluation framework that (i) extends MSTS's 3-class safety grouping with a 5-point scale that also rewards useful (not just safe) responses, and (ii) separates image recognition from safety judgment to isolate recognition errors. Using this framework, we evaluate five modern Japanese VLMs (Gemini-3-Flash, GPT-5, InternVL3, LLM-JP-4-VL, Qwen3-VL) against human evaluation, and find substantial variance in the safety readiness across the models. Finally, we evaluate two LLM-as-a-Judge models and find that providing a reference answer improves agreement with human safety judgments, though recall for detecting unsafe responses remains limited, underscoring the difficulty of automating multimodal safety evaluation. The dataset created for our study will be released upon publication.",
+    "tier": "none",
+    "title": "Multimodal Safety Evaluation of Vision-Language Models in Japanese",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.33789v1"
+   },
+   "2611.34024": {
+    "abs_url": "https://arxiv.org/abs/2611.34024",
+    "authors": [
+     "Shohei Hisada",
+     "Keisuke Orimo",
+     "Kenji Igarashi",
+     "Kota Sato",
+     "Masahiro Kazama",
+     "Mitsuhisa Ota",
+     "Shoko Wakamiya",
+     "Eiji Aramaki"
+    ],
+    "code_url": "https://github.com/horshohei/JHealthBench-L",
+    "comment": "v0.5",
+    "first_seen": "2026-11-27",
+    "id": "2611.34024",
+    "journal_ref": "",
+    "matched": [
+     "rubric"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34024v1",
+    "primary_category": "cs.CL",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [
+      "Review"
+     ],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Rubric-based benchmarks such as HealthBench evaluate large language models (LLMs) on open-ended health consultations using case-specific physician criteria, many of which presuppose the healthcare institutions, medications, and care pathways of their source region. Under machine translation alone, these regional assumptions remain in the rubric, leaving responses appropriate in Japan uncredited or falsely penalized under foreign clinical rules. To adapt established clinical evaluation perspectives to Japan without authoring rubrics from scratch, we construct JHealthBench-L (79 patient-facing consultations, 1,022 criteria) through source-cited LLM drafting, single-specialist selection and revision, independent dual-physician review, and meta-review. Specialists rewrote only 4.4% of criteria from scratch, and independent reviewers approved 93.6% of Stage-2 criteria without issue. Comparing JHealthBench-L with a machine-translated baseline across 18 LLMs reveals that translation-only evaluation preserves coarse model rankings ($τ= 0.817$, mean shift +0.027) yet flips verdicts on 17.7% of modified criteria (vs. 7.3% re-grading noise) and reduces false penalties on Japan-adapted negative criteria by 7.1 percentage points, masking item-level clinical mismeasurement behind stable leaderboards. Axis-level and paired analyses further show that context awareness and Japan-specific clinical criteria remain primary bottlenecks, whereas Japanese continual pretraining and reasoning post-training substantially improve locally grounded performance. Datasets, physician revision logs, and evaluation code are available at https://github.com/horshohei/JHealthBench-L.",
+    "tier": "none",
+    "title": "JHealthBench-L: Clinician-Reviewed Localization of HealthBench for Rubric-Based Medical LLM Evaluation in Japan",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.34024v1"
    }
   },
   "Writing Agent": {
@@ -173162,6 +173547,45 @@
     "venue_source": "",
     "venue_year": "",
     "version": "2611.33497v1"
+   },
+   "2611.34673": {
+    "abs_url": "https://arxiv.org/abs/2611.34673",
+    "authors": [
+     "Thu Bui",
+     "Shashi Salavath",
+     "Hillary Merzdorf",
+     "Louis Tay",
+     "Sooyeon Jeong"
+    ],
+    "code_url": "",
+    "comment": "",
+    "first_seen": "2026-11-27",
+    "id": "2611.34673",
+    "journal_ref": "",
+    "matched": [
+     "co-writing",
+     "human-AI writing"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34673v1",
+    "primary_category": "cs.HC",
+    "published": "2026-11-25",
+    "s2": {
+     "checked": "2026-11-27",
+     "types": [],
+     "venue": "",
+     "year": 2026
+    },
+    "status": "unknown",
+    "summary": "Gratitude writing can support well-being, but independent practice may lack guidance. Generative AI could help while shaping reflection, agency, and ownership. We investigated how gratitude-writing format and AI-assistance mode influence well-being and writing experiences. In a 2x2 between-subjects study (N=401), participants completed a gratitude reflection or a gratitude letter using two AI-assistance modes: scaffolding, which provided reflective questions after inactivity, or co-writing, which offered inline text suggestions. Participants' well-being improved after using our AI-assisted gratitude-writing system, consistent with the activity's intended benefits. However, participants' experiences revealed a trade-off between the AI-support types: co-writing received higher usability ratings, yet its immediacy could disrupt writing, and greater suggestion acceptance was associated with weaker perceived agency. Scaffolding supported stronger perceived human ownership but was sometimes overlooked. These findings extend human-AI writing research beyond productivity and text quality by showing how AI involvement shapes psychological outcomes and the experience of self-guided, emotionally meaningful writing.",
+    "tier": "none",
+    "title": "Supporting Without Taking Over: AI Support in Gratitude Writing",
+    "track": "",
+    "updated": "2026-11-25",
+    "venue": "",
+    "venue_evidence": "",
+    "venue_source": "",
+    "venue_year": "",
+    "version": "2611.34673v1"
    }
   }
  }

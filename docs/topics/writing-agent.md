@@ -2,15 +2,16 @@
 
 > The primary axis: LLM agents that write and revise across multiple turns rather than generating once. Z1 in the FEAK-TC introduction.
 
-523 papers, newest first. Generated on **2026-11-26** (UTC).
+524 papers, newest first. Generated on **2026-11-27** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (239)](#2026) · [2025 (150)](#2025) · [2024 (134)](#2024)
+Browse by year: [2026 (240)](#2026) · [2025 (150)](#2025) · [2024 (134)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-25**|<details><summary>Supporting Without Taking Over: AI Support in Gratitude Writing</summary><br>Gratitude writing can support well-being, but independent practice may lack guidance. Generative AI could help while shaping reflection, agency, and ownership. We investigated how gratitude-writing format and AI-assistance mode influence well-being and writing experiences. In a 2x2 between-subjects study (N=401), participants completed a gratitude reflection or a gratitude letter using two AI-assistance modes: scaffolding, which provided reflective questions after inactivity, or co-writing, whic...</details>|-|Thu Bui et al.|[2611.34673](https://arxiv.org/abs/2611.34673)|null|
 |**2026-11-24**|<details><summary>CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation</summary><br>Retrieval-augmented generation (RAG) typically optimises evidence selection for semantic relevance, whereas compliance-sensitive long-form generation also requires evidence supporting explicit structural obligations. Semantically relevant retrieval may therefore omit information needed for mandatory downstream clauses. We propose Constraint-Aligned RAG (CA-RAG), a retrieval-conditioning framework that augments section-specific queries with ontology-derived structural constraints and policy-groun...</details>|-|Vimal Kumar Kumar et al.|[2611.33497](https://arxiv.org/abs/2611.33497)|null|
 |**2026-11-20**|<details><summary>Breaking the Long Horizon: Short-Horizon Process Supervision for Long-Form Generation in LLMs</summary><br>Long-form generation is increasingly important for agentic LLM systems, yet current reinforcement learning methods typically optimize an entire document with a single outcome-level reward. This delayed and coarse-grained supervision makes it difficult to localize errors and assign credit across semantically distinct parts of the output. To address this, we propose a short-horizon framework that reformulates long-form generation through semantic decomposition into segment-level decisions. Each se...</details>|AAAI 2027 (submitted)|Heyang Xu et al.|[2611.27348](https://arxiv.org/abs/2611.27348)|null|
 |**2026-11-20**|<details><summary>Explicit Style Extraction for Personalized Long-Form Text Generation</summary><br>Personalized long-form generation asks a language model to write new text the way a specific user would. The standard recipe, retrieval-augmented generation, places a few of the user's past texts in the prompt but leaves the model to decide what to take from them. We introduce StylePrism, a taxonomy of 28 stylistic aspects in seven categories, and SP-Refine, an inference-time method that makes style extraction an explicit step: the model first fills StylePrism with the user's patterns, quoted ev...</details>|-|Jenitha Reddy Patel et al.|[2611.27211](https://arxiv.org/abs/2611.27211)|null|

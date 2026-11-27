@@ -2,15 +2,16 @@
 
 > Tree search, verifier-guided decoding, backtracking, stopping criteria — the control layer around accept / reject / rollback / stop (B3/W4).
 
-277 papers, newest first. Generated on **2026-11-26** (UTC).
+278 papers, newest first. Generated on **2026-11-27** (UTC).
 Back to the [archive index](../archive.md) · [main page](../../README.md).
 
-Browse by year: [2026 (179)](#2026) · [2025 (68)](#2025) · [2024 (30)](#2024)
+Browse by year: [2026 (180)](#2026) · [2025 (68)](#2025) · [2024 (30)](#2024)
 
 ## 2026
 
 |Publish Date|Title|Venue|Authors|PDF|Code|
 |---|---|---|---|---|---|
+|**2026-11-25**|<details><summary>FlyingStart: Learned Cross-Token Warm Starts for Fixed-Point Decoding in Recurrent-Depth Language Models</summary><br>Recurrent-depth language models generate each token by iterating a shared block of layers until its hidden state converges. Inference methods for these models decide when to stop the iteration, yet every token still starts from random noise and pays the full cost of converging. We show that where the iteration starts is a second, independent lever. A token's fixed point is predictable from the state at which the previous token stopped, after a learned change of coordinates, and we introduce Flyi...</details>|-|Runguo Li et al.|[2611.34492](https://arxiv.org/abs/2611.34492)|null|
 |**2026-11-25**|<details><summary>Physics-Informed Learning for Multiplayer Differential Games</summary><br>Computing per-player feedback strategies in $N$-player adversarial differential games is challenging as the associated coupled Hamilton-Jacobi-Bellman system is high-dimensional and generally lacks classical solutions. We address this by approximating viscosity solutions using physics-informed neural networks within a policy iteration scheme with a vanishing-viscosity annealing schedule. Theoretically, we establish an explicit $\varepsilon$-Nash guarantee by bounding per-player regret via comput...</details>|-|Takuma Adams et al.|[2611.33644](https://arxiv.org/abs/2611.33644)|null|
 |**2026-11-23**|<details><summary>Look Before You Commit: Visual-Evidence-Guided Decoding for Multimodal Diffusion Language Models</summary><br>Diffusion multimodal large language models rely on confidence to decide when to commit candidate tokens during generation. In multimodal tasks, however, confidence cannot distinguish whether a candidate originates from image evidence or the language prior. We perform paired forward ablation and find that nearly nine out of ten high-confidence commits are insensitive to the image, while degenerate and hallucination samples exhibit significant increases in the entropy of deep-layer attention organ...</details>|-|Tongxiao Hu et al.|[2611.31677](https://arxiv.org/abs/2611.31677)|null|
 |**2026-11-23**|<details><summary>Sequential Selection against an Adaptive Opponent</summary><br>Selecting a strategy by testing it against an opponent is common in game-playing AI, red-teaming of language models, and safety evaluations of AI agents. In many of these settings, the opponent adapts to what it observes, so a strategy that keeps winning in practice may already have stopped working by the time it is used. Motivated by these settings, we study a player who tries strategies in practice games against an adaptive opponent, decides when to stop, and then either selects one strategy f...</details>|-|Zhongyuan Lyu et al.|[2611.30006](https://arxiv.org/abs/2611.30006)|null|
