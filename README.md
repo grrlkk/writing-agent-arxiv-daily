@@ -3,7 +3,7 @@
 Automatically updated arXiv tracker for **writing agent** research — the literature
 axis behind FEAK-TC (transition-level, value-guided revision control for Korean writing).
 
-> Last updated: **2026-11-27** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
+> Last updated: **2026-11-28** (UTC) · [Papers by venue](docs/venues.md) · [Topics and research-axis mapping](KEYWORDS.md) · [Full archive](docs/archive.md)
 
 Run it yourself: `pip install -r requirements.txt && python daily_arxiv.py`
 
@@ -22,20 +22,6 @@ papers using the year links under each topic; the preview shows the newest 20.
 - [Semantic Drift & Faithfulness](#semantic-drift--faithfulness) (265)
 - [Search & Control for Generation](#search--control-for-generation) (278)
 - [Korean Writing & NLP](#korean-writing--nlp) (74)
-
-## New in this update (11)
-
-- `Multilingual & Cross-Lingual Agents` [IRTIQA: Evolving in English, Evaluated in Urdu -- Does Agent Self-Evolution Transfer from English to Urdu and Code-Switched Input?](https://arxiv.org/abs/2611.34303)
-- `Writing Agent` [Supporting Without Taking Over: AI Support in Gratitude Writing](https://arxiv.org/abs/2611.34673)
-- `Reward & Value Models` [Repairing the Trustworthiness of Distilled Language Models](https://arxiv.org/abs/2611.34831)
-- `Reward & Value Models` [LatentCP-DPO: Conformal Pessimism for DPO with Finite-Sample Guarantees](https://arxiv.org/abs/2611.34275)
-- `Reward & Value Models` [Agent-as-a-Verifier: From Scores to Evidence for General Verification](https://arxiv.org/abs/2611.34132)
-- `Synthetic Preference Data` [LatentCP-DPO: Conformal Pessimism for DPO with Finite-Sample Guarantees](https://arxiv.org/abs/2611.34275)
-- `Text Quality Evaluation` [Multimodal Safety Evaluation of Vision-Language Models in Japanese](https://arxiv.org/abs/2611.33789)
-- `Text Quality Evaluation` [JHealthBench-L: Clinician-Reviewed Localization of HealthBench for Rubric-Based Medical LLM Evaluation in Japan](https://arxiv.org/abs/2611.34024)
-- `Semantic Drift & Faithfulness` [PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank](https://arxiv.org/abs/2611.34785)
-- `Semantic Drift & Faithfulness` [Reliable User Simulation in Complex Multi-Step Workflows](https://arxiv.org/abs/2611.34044)
-- `Search & Control for Generation` [FlyingStart: Learned Cross-Token Warm Starts for Fixed-Point Decoding in Recurrent-Depth Language Models](https://arxiv.org/abs/2611.34492)
 
 ## Multilingual & Cross-Lingual Agents
 

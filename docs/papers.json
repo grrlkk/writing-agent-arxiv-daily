@@ -12,14 +12,14 @@
    "Text Quality Evaluation": 687,
    "Writing Agent": 524
   },
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "venue_tiers": {
-   "demo": 11,
+   "demo": 12,
    "findings": 98,
-   "none": 2888,
+   "none": 2886,
    "other": 39,
    "strong": 41,
-   "top": 711,
+   "top": 712,
    "workshop": 142
   }
  },
@@ -6628,8 +6628,10 @@
     "primary_category": "eess.AS",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6666,8 +6668,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -6700,8 +6704,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -7810,7 +7816,7 @@
     "primary_category": "cs.HC",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [
       "Review"
      ],
@@ -27990,8 +27996,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -28029,7 +28037,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -28077,8 +28085,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -28117,7 +28127,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -28151,8 +28161,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -28195,8 +28207,10 @@
     "primary_category": "eess.AS",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -28236,8 +28250,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -28318,8 +28334,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -30910,7 +30928,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30951,7 +30969,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -30992,7 +31010,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -31031,7 +31049,7 @@
     "primary_category": "cs.IR",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -54521,8 +54539,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-12",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54560,8 +54580,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54596,8 +54618,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54635,8 +54659,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54674,8 +54700,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54709,8 +54737,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54750,8 +54780,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54786,8 +54818,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54827,8 +54861,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54865,8 +54901,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54903,8 +54941,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54941,8 +54981,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -54980,8 +55022,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55070,8 +55114,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55109,8 +55155,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55147,8 +55195,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55186,8 +55236,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55224,9 +55276,11 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Trans. Mach. Learn. Res.",
      "year": 2026
     },
     "status": "unknown",
@@ -55263,8 +55317,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55302,8 +55358,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55339,8 +55397,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55388,8 +55448,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55429,8 +55491,10 @@
     "primary_category": "cs.RO",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55469,8 +55533,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55508,8 +55574,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55547,8 +55615,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55587,8 +55657,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55630,8 +55702,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55665,8 +55739,10 @@
     "primary_category": "cs.CV",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55707,8 +55783,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55746,9 +55824,12 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -55758,8 +55839,8 @@
     "track": "main",
     "updated": "2026-09-28",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026. 22 pages, including references and appendices",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.34418v1"
    },
@@ -55789,8 +55870,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55830,8 +55913,10 @@
     "primary_category": "cs.RO",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55873,8 +55958,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55915,8 +56002,10 @@
     "primary_category": "cs.IR",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55951,8 +56040,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -55994,8 +56085,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -56034,8 +56127,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -56073,8 +56168,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -56110,8 +56207,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -56146,8 +56245,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -64711,7 +64812,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64752,7 +64853,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64790,7 +64891,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64825,7 +64926,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64865,7 +64966,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64903,7 +65004,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -64940,7 +65041,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -77865,8 +77966,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -78275,8 +78378,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -78310,8 +78415,10 @@
     "primary_category": "cs.CR",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -78346,8 +78453,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -78384,8 +78493,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -78423,8 +78534,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -80036,7 +80149,7 @@
     "primary_category": "cs.SE",
     "published": "2026-10-26",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [
       "Review"
      ],
@@ -91659,8 +91772,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -91695,8 +91810,10 @@
     "primary_category": "cs.MA",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -91730,8 +91847,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -91765,8 +91884,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -91802,8 +91923,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -91841,8 +91964,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -94200,7 +94325,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -104414,8 +104539,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -104450,8 +104577,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -104489,21 +104618,24 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "Existing summarizers for memory systems are typically optimized for human-facing criteria such as faithfulness, which misaligns with their true objective: preserving the evidence needed to support future queries. We show that conditioning summarization on query-answer pairs substantially improves answer quality, and that this utility-aware behavior is transferable across queries. Motivated by these findings, we propose MemSuit, a self-distillation framework in which a teacher summarizer, conditioned on observed query-answer pairs, produces utility-aware memory entries that a student learns to reproduce from the raw conversation alone. To prevent collateral erasure where conditioning on a single query-answer pair discards evidence relevant to other plausible queries, the teacher decomposes each block into multiple self-contained entries that preserve distinct query-relevant facets as independently retrievable units. To align the retriever with the compact, fact-dense style of teacher entries, we further fine-tune the embedding model with a contrastive objective supervised by teacher entries. Across a diverse suite of conversational query types, MemSuit consistently outperforms state-of-the-art baselines, confirming the value of grounding memory in downstream utility.",
-    "tier": "none",
+    "tier": "top",
     "title": "Grounding Memory Summarization in Utility Intent",
-    "track": "",
+    "track": "main",
     "updated": "2026-09-27",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2609.33417v1"
    },
    "2609.36243": {
@@ -119285,8 +119417,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-14",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120003,8 +120137,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120042,8 +120178,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120078,8 +120216,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120117,9 +120257,12 @@
     "primary_category": "cs.CV",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "Book",
+      "JournalArticle"
+     ],
+     "venue": "Proceedings of the 2nd Deepfake Forensics Workshop: Detection, Attribution, Recognition, and Adversarial Challenges in the Era of AI-Generated Media",
      "year": 2026
     },
     "status": "accepted",
@@ -120156,8 +120299,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120191,9 +120336,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -120203,8 +120351,8 @@
     "track": "main",
     "updated": "2026-09-27",
     "venue": "EMNLP",
-    "venue_evidence": "Accepted to EMNLP 2026 (Main Conference). 18 pages, 3 figures, 10 tables. Code and data: https://github.com/pu-suo/siv-metric",
-    "venue_source": "comment",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.33612v1"
    },
@@ -120240,8 +120388,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120282,8 +120432,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120320,8 +120472,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120356,8 +120510,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120394,8 +120550,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120436,8 +120594,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -120473,8 +120633,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -122436,7 +122598,7 @@
     "primary_category": "cs.AI",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -122473,7 +122635,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -143717,8 +143879,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -143754,8 +143918,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -143796,9 +143962,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-24",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -143808,8 +143976,8 @@
     "track": "findings",
     "updated": "2026-09-24",
     "venue": "EMNLP",
-    "venue_evidence": "9 pages main text. Accepted to Findings of EMNLP 2026. Project page: https://alexgill321.github.io/KNOWS-benchmark/",
-    "venue_source": "comment",
+    "venue_evidence": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_source": "s2",
     "venue_year": "2026",
     "version": "2609.30604v1"
    },
@@ -143832,8 +144000,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -143869,8 +144039,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -143905,8 +144077,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -143944,8 +144118,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -143984,7 +144160,7 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -144021,8 +144197,10 @@
     "primary_category": "cs.LG",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144056,8 +144234,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144105,8 +144285,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144144,8 +144326,9 @@
     "primary_category": "cs.HC",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -144186,8 +144369,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144231,8 +144416,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144268,8 +144455,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144311,8 +144500,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144345,8 +144536,10 @@
     "primary_category": "cs.MA",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144380,8 +144573,9 @@
     "primary_category": "cs.AI",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -144424,8 +144618,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144467,8 +144663,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144505,9 +144703,12 @@
     "primary_category": "cs.DC",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "2026 IEEE 17th International Conference on Cloud Computing Technology and Science (CloudCom)",
      "year": 2026
     },
     "status": "unknown",
@@ -144541,8 +144742,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -144576,8 +144779,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -149234,7 +149439,7 @@
     "primary_category": "eess.SP",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -149274,7 +149479,7 @@
     "primary_category": "cs.CL",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -149313,7 +149518,7 @@
     "primary_category": "cs.LG",
     "published": "2026-10-27",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [],
      "venue": "",
      "year": 2026
@@ -171644,9 +171849,12 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle",
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
      "year": 2026
     },
     "status": "accepted",
@@ -171679,9 +171887,11 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
+     "venue": "Pandora",
      "year": 2026
     },
     "status": "unknown",
@@ -171714,8 +171924,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-25",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -171794,8 +172006,9 @@
     "primary_category": "cs.CL",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
+     "checked": "2026-11-28",
      "types": [
+      "JournalArticle",
       "Review"
      ],
      "venue": "",
@@ -171833,8 +172046,10 @@
     "primary_category": "cs.AI",
     "published": "2026-09-26",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -171869,8 +172084,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -171906,8 +172123,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-27",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -171942,8 +172161,10 @@
     "primary_category": "cs.CL",
     "published": "2026-09-28",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
+     "checked": "2026-11-28",
+     "types": [
+      "JournalArticle"
+     ],
      "venue": "",
      "year": 2026
     },
@@ -172824,21 +173045,23 @@
     "primary_category": "cs.MA",
     "published": "2026-10-18",
     "s2": {
-     "checked": "2026-10-29",
-     "types": [],
-     "venue": "",
+     "checked": "2026-11-28",
+     "types": [
+      "Conference"
+     ],
+     "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
      "year": 2026
     },
-    "status": "unknown",
+    "status": "accepted",
     "summary": "We present SCOPE, a multi-agent system for profiling news media outlets with respect to bias, factuality, and credibility. Given an outlet URL, SCOPE coordinates specialized agents for article acquisition, content analysis, external evidence search, scoring, and report generation. The system follows an MBFC-style methodology while making intermediate evidence and agent outputs inspectable through a structured demonstration interface. On a benchmark of 200 media outlets, SCOPE outperforms LLM-only, article-only, search-only, and media-background-check baselines on most metrics, achieving the lowest bias and factuality MAE, perfect failed-fact-check detection, and the lowest factual error rate. These results suggest that decomposed, evidence-grounded agent workflows can support more transparent and reliable media profiling. Our code is available at https://github.com/mbaisbay/SCOPE, and a live demonstration at https://scope-demo.streamlit.app/.",
-    "tier": "none",
+    "tier": "demo",
     "title": "SCOPE: Source Credibility and Outlet Profiling Engine",
-    "track": "",
+    "track": "demo",
     "updated": "2026-10-18",
-    "venue": "",
-    "venue_evidence": "",
-    "venue_source": "",
-    "venue_year": "",
+    "venue": "EMNLP",
+    "venue_evidence": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    "venue_source": "s2",
+    "venue_year": "2026",
     "version": "2610.35929v1"
    },
    "2610.37916": {

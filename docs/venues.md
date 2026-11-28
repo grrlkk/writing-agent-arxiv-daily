@@ -9,14 +9,14 @@ metadata can be missing for older papers as well as recent preprints. Papers
 without a known venue are re-checked monthly, so this page fills in over time.
 
 Workshop, Findings, and demo tracks are listed apart from main-track papers, and
-"submitted to X" is never counted as X. Generated on **2026-11-27** (UTC).
+"submitted to X" is never counted as X. Generated on **2026-11-28** (UTC).
 Back to the [main page](../README.md).
 
-1042 of 3930 papers carry venue evidence.
+1044 of 3930 papers carry venue evidence.
 
-## Top-tier venues (711)
+## Top-tier venues (712)
 
-### EMNLP (217)
+### EMNLP (218)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
@@ -35,6 +35,7 @@ Back to the [main page](../README.md).
 |**2026-09-29**|Pair Difficulty Matters: Rethinking Pairwise LLM-as-a-Judge Evaluation and Consistency|EMNLP 2026|Text Quality Evaluation|[2609.37577](https://arxiv.org/abs/2609.37577)|
 |**2026-09-28**|OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue|EMNLP 2026|Reward & Value Models|[2609.34418](https://arxiv.org/abs/2609.34418)|
 |**2026-09-28**|EMMA: Event-Driven Multimodal Memory System with Multi-Agent Retrieval|EMNLP 2026|Semantic Drift & Faithfulness|[2610.23892](https://arxiv.org/abs/2610.23892)|
+|**2026-09-27**|Grounding Memory Summarization in Utility Intent|EMNLP 2026|Semantic Drift & Faithfulness|[2609.33417](https://arxiv.org/abs/2609.33417)|
 |**2026-09-27**|Quizzing the Translation: A Prover-Grounded Evaluation Metric for NL$\rightarrow$FOL|EMNLP 2026|Synthetic Preference Data|[2609.33612](https://arxiv.org/abs/2609.33612)|
 |**2026-09-25**|FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation|EMNLP 2026|Writing Agent|[2609.30968](https://arxiv.org/abs/2609.30968)|
 |**2026-09-18**|VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration|EMNLP 2026|Synthetic Preference Data|[2609.21521](https://arxiv.org/abs/2609.21521)|
@@ -1295,12 +1296,13 @@ Back to the [main page](../README.md).
 |---|---|---|---|---|
 |**2024-10-28**|Fine-Grained and Multi-Dimensional Metrics for Document-Level Machine Translation|NAACL 2024 (workshop)|Text Quality Evaluation|[2410.20941](https://arxiv.org/abs/2410.20941)|
 
-## Demo tracks (11)
+## Demo tracks (12)
 
-### EMNLP (5)
+### EMNLP (6)
 
 |Publish Date|Title|Venue|Topics|PDF|
 |---|---|---|---|---|
+|**2026-10-18**|SCOPE: Source Credibility and Outlet Profiling Engine|EMNLP 2026 (demo)|Writing Agent|[2610.35929](https://arxiv.org/abs/2610.35929)|
 |**2026-09-01**|Schematize: An Agentic System for Generating and Refining Information-Extraction Schemas for Legal Research|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2609.22209](https://arxiv.org/abs/2609.22209)|
 |**2026-08-24**|Jiuge-Tuiqiao: An Interpretable Human-AI System for Classical Chinese Poetry Refinement|EMNLP 2026 (demo)|Iterative Revision & Text Editing|[2608.23098](https://arxiv.org/abs/2608.23098)|
 |**2026-07-21**|AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents|EMNLP 2026 (demo)|Self-Refine & Self-Correction|[2607.18754](https://arxiv.org/abs/2607.18754)|
